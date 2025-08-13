@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Northworks
+
+A comprehensive website for classical music reviews and risk analysis consultancy, built with Next.js and TypeScript.
+
+## About
+
+Northworks combines two distinct areas of expertise:
+
+### Classical Music Reviews
+- Extensive collection of interviews with renowned classical musicians
+- Performance reviews from major venues and opera houses
+- Coverage of San Francisco Symphony, San Francisco Opera, and other Bay Area performances
+- Articles and features on classical music personalities and events
+
+### Risk Analysis Consultancy
+- Led by Dr. D. Warner North, expert in decision analysis and risk assessment
+- Government consulting projects including EPA, DOE, NRC, and NASA
+- Stanford University research and academic affiliations
+- Laser technology applications in nuclear safety
+
+## Technology Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Content**: Static content in Markdown and HTML formats
+
+## Project Structure
+
+```
+public/
+├── content/          # All articles, reviews, and interviews
+├── images/          # Photos and graphics
+├── pdf/             # Publication documents
+└── pictures/        # Additional imagery
+
+src/
+├── app/             # Next.js app directory
+└── components/      # React components
+```
 
 ## Getting Started
 
@@ -16,21 +55,37 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content Organization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Classical Music Content
+- `c_*.md` - Interviews and articles about classical musicians
+- `c_reviews*.md` - Performance and concert reviews
+- `c_art_*.md` - Special feature articles
 
-## Learn More
+### Risk Analysis Content  
+- `w_*.md` - Warner North's professional work and publications
+- `w_projects_*.md` - Government and academic projects
+- `w_pub_*.md` - Publications and research papers
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ **Fixed HTML Tags**: All HTML content has been standardized with lowercase tags and proper closing
+- 📱 **Responsive Design**: Modern web standards with Tailwind CSS
+- 🎵 **Rich Media**: Extensive photo galleries and document archives
+- 🔍 **Content Management**: Well-organized content structure for easy maintenance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Recent Updates
+
+- **August 2025**: Complete HTML tag standardization across all content files
+- **Content Migration**: Preserved all original interviews, reviews, and technical documents
+- **Modern Framework**: Migrated to Next.js 15 with TypeScript support
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+*This project represents decades of classical music journalism and risk analysis expertise, now presented in a modern web framework.*

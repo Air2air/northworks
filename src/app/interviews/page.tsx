@@ -1,7 +1,9 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { InterviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import InterviewsListComponent, { parseInterviewsFromMarkdown } from '@/components/InterviewsListComponent';
+import { cleanTitle } from '@/lib/pathUtils';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -48,10 +50,12 @@ export default function InterviewsPage() {
   return (
     <ContentLayout frontmatter={mockFrontmatter}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Classical Music Interviews</h1>
-        <p className="text-lg text-gray-600 mb-8 text-center max-w-3xl mx-auto">
-          Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene.
-        </p>
+        <PageTitle
+          title="Classical Music Interviews"
+          description="Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene."
+          align="center"
+          size="medium"
+        />
 
         {/* Show index-based interviews if available */}
         {indexInterviews.length > 0 && (
@@ -91,8 +95,8 @@ export default function InterviewsPage() {
                       {heroImage && (
                         <div className="flex-shrink-0 w-48 h-32 relative">
                           <Image
-                            src={`/${heroImage.src}`}
-                            alt={heroImage.alt || frontmatter.title}
+                            src={heroImage.src}
+                            alt={heroImage.alt || cleanTitle(frontmatter.title)}
                             fill
                             className="object-cover"
                           />
@@ -104,7 +108,7 @@ export default function InterviewsPage() {
                             href={`/interviews/${interview.slug}`}
                             className="hover:text-blue-600 transition-colors"
                           >
-                            {frontmatter.title}
+                            {cleanTitle(frontmatter.title)}
                           </Link>
                         </h3>
                         

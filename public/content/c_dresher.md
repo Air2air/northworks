@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_dresher
 images:
 - height: 114
-  src: images/dresher_paul_ensemble.jpg
+  src: /images/dresher-paul-ensemble.jpg
   width: 150
 - height: 159
-  src: images/dresher_paul_07.jpg
+  src: /images/dresher-paul-07.jpg
   width: 125
 publication:
   date: November
@@ -121,7 +121,5 @@ Dresher has long been noted for his ability to write and perform in diverse musi
 
  With its comic aspects and rhythmic qualities, kids seem to love it, and much to everyone's surprise, a lot of them have actually memorized it."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

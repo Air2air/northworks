@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_wozzeck
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: January
   publisher: Montreal composer
@@ -54,14 +51,5 @@ And there, stuffed into a rather contorted nutshell, you have the world that fac
 
 Be assured: Despite Berg's sallies into Expressionistic shock, the upcoming "Wozzeck" is bound to awe you with an emotional force you will neither regret nor forget. (Although its original audiences often walked out mid-performance or even rioted, within its first 10 years, *Wozzeck* was performed more than 150 times in 28 European cities.)
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_fremontoperagasser
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: August
   publisher: the American
@@ -68,14 +65,5 @@ His latest commission is to create a piece he's calling *Cosmic Reflections*, a 
 
 Nolan Gasser's *GLAST Prelude* received mention in the [July 11, 2008 issue of *Science*](http://www.sciencemag.org/cgi/content/full/321/5886/183b). Further information can be found at [nolangasser.com](http://www.nolangasser.com/glastprelude.html).
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_armer
 images:
 - height: 200
-  src: images/elinor_armer.jpg
+  src: /images/elinor-armer.jpg
   width: 160
 publication:
   publisher: the Women
@@ -75,7 +75,5 @@ Says LaRocca, "Elinor is so quick with the bon mot -- an extremely bright woman 
 
 And after sitting in on several performances given throughout the Bay Area this week of sections of her Uttermost Archipelago*, she said with a smile in her voice, "I think I am becoming recognized for my music now - and not just for my gender."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

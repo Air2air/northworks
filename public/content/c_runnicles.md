@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_runnicles
 images:
 - height: 28
-  src: images/title_runnicles.gif
+  src: /images/title-runnicles.gif
   width: 250
 - height: 200
-  src: images/runnicles.jpg
+  src: /images/runnicles.jpg
   width: 160
 publication:
   date: January
@@ -205,12 +205,3 @@ add."
 
 �1999-2004 by MediaNews Group, Inc. and ANG Newspapers
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

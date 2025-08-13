@@ -4,7 +4,7 @@ converted_from_html: true
 id: w_pub_stuttgart
 images:
 - height: 195
-  src: images/wnstuttgart10-04.jpg
+  src: /images/wnstuttgart10-04.jpg
   width: 260
 publication:
   date: 01/34/1242
@@ -207,16 +207,7 @@ http://www.usgcrp.gov/usgcrp/Library/ocp2004-5/default.htm](http://www.usgcrp.go
  Stephen H. Schneider is Professor, Department of Biological Sciences, and Co-Director, Center for Environmental Science and Policy, Stanford University, Stanford California 94305, USA.
 Web: [ http://stephenschneider.edu](http://stephenschneider.stanford.edu)
 
-![](images/wnstuttgart10-04.jpg)
+![](/images/wnstuttgart10-04.jpg)
 
 Warner North presenting this paper at the Stuttgart Conference
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

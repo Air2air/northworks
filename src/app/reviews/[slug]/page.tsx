@@ -1,6 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ReviewFrontmatter, ContentData } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { cleanTitle } from '@/lib/pathUtils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -19,7 +20,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const content = getContentBySlug(params.slug);
+  const resolvedParams = await params;
+  const content = getContentBySlug(resolvedParams.slug);
   
   if (!content) {
     return {
@@ -28,16 +30,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const frontmatter = content.frontmatter as ReviewFrontmatter;
+  const title = cleanTitle(frontmatter.seo?.title || frontmatter.title);
   
   return {
-    title: frontmatter.seo?.title || frontmatter.title,
-    description: frontmatter.seo?.description || `Review: ${frontmatter.title}`,
+    title,
+    description: frontmatter.seo?.description || `Review: ${title}`,
     keywords: frontmatter.seo?.keywords || frontmatter.subjects,
   };
 }
 
-export default function ReviewPage({ params }: Props) {
-  const content = getContentBySlug(params.slug);
+export default async function ReviewPage({ params }: Props) {
+  const resolvedParams = await params;
+  const content = getContentBySlug(resolvedParams.slug);
   
   if (!content) {
     notFound();
@@ -49,7 +53,7 @@ export default function ReviewPage({ params }: Props) {
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
     { label: 'Reviews', href: '/reviews', active: false },
-    { label: frontmatter.title, href: `/reviews/${params.slug}`, active: true }
+    { label: cleanTitle(frontmatter.title), href: `/reviews/${resolvedParams.slug}`, active: true }
   ];
 
   // Create navigation - using default navigation since reviews don't have navigation in frontmatter
@@ -71,7 +75,7 @@ export default function ReviewPage({ params }: Props) {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {frontmatter.title}
+            {cleanTitle(frontmatter.title)}
           </h1>
           
           {/* Publication Info */}
@@ -170,7 +174,7 @@ export default function ReviewPage({ params }: Props) {
             </Link>
             
             <div className="text-sm text-gray-500">
-              Review • {params.slug}
+              Review • {resolvedParams.slug}
             </div>
           </div>
         </div>

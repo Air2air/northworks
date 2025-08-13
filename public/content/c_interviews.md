@@ -4,181 +4,181 @@ converted_from_html: true
 id: c_interviews
 images:
 - height: 28
-  src: images/title_interviews.gif
+  src: /images/title-interviews.gif
   width: 250
 - height: 70
-  src: images/thm_aikin.jpg
+  src: /images/thm-aikin.jpg
   width: 70
 - height: 70
-  src: images/thm_armer.jpg
+  src: /images/thm-armer.jpg
   width: 70
 - height: 70
-  src: images/thm_assink.jpg
+  src: /images/thm-assink.jpg
   width: 70
 - height: 70
-  src: images/thm_ax_emanuel.jpg
+  src: /images/thm-ax-emanuel.jpg
   width: 70
 - height: 70
-  src: images/thm_barantschik.jpg
+  src: /images/thm-barantschik.jpg
   width: 70
 - height: 70
-  src: images/thm_bates.jpg
+  src: /images/thm-bates.jpg
   width: 70
 - height: 70
-  src: images/thm_bayless.jpg
+  src: /images/thm-bayless.jpg
   width: 70
 - height: 70
-  src: images/thm_bell.jpg
+  src: /images/thm-bell.jpg
   width: 70
 - height: 70
-  src: images/thm_bodorova.jpg
+  src: /images/thm-bodorova.jpg
   width: 70
 - height: 70
-  src: images/thm_borodina.jpg
+  src: /images/thm-borodina.jpg
   width: 70
 - height: 70
-  src: images/thm_boulez.jpg
+  src: /images/thm-boulez.jpg
   width: 70
 - height: 70
-  src: images/thm_russell_braun.jpg
+  src: /images/thm-russell-braun.jpg
   width: 70
 - height: 70
-  src: images/thm_cerny.jpg
+  src: /images/thm-cerny.jpg
   width: 70
 - height: 70
-  src: images/thm_chang.jpg
+  src: /images/thm-chang.jpg
   width: 70
 - height: 70
-  src: images/cleve george.jpg
+  src: /images/cleve-george.jpg
   width: 70
 - height: 70
-  src: images/thm_cohenjeremy.jpg
+  src: /images/thm-cohenjeremy.jpg
   width: 70
 - height: 70
-  src: images/thm_conlon.jpg
+  src: /images/thm-conlon.jpg
   width: 70
 - height: 70
-  src: images/thm_conte.jpg
+  src: /images/thm-conte.jpg
   width: 70
 - height: 70
-  src: images/thm_copley.jpg
+  src: /images/thm-copley.jpg
   width: 70
 - height: 70
-  src: images/thm_mark_delavan.jpg
+  src: /images/thm-mark-delavan.jpg
   width: 70
 - height: 70
-  src: images/thm_donose.jpg
+  src: /images/thm-donose.jpg
   width: 70
 - height: 70
-  src: images/thm_paul_dresher.jpg
+  src: /images/thm-paul-dresher.jpg
   width: 70
 - height: 70
-  src: images/thm_dunleavy.jpg
+  src: /images/thm-dunleavy.jpg
   width: 70
 - height: 70
-  src: images/thm_feltsman.jpg
+  src: /images/thm-feltsman.jpg
   width: 70
 - height: 70
-  src: images/thm_galindo.jpg
+  src: /images/thm-galindo.jpg
   width: 70
 - height: 70
-  src: images/thm_gasser.jpg
+  src: /images/thm-gasser.jpg
   width: 70
 - height: 70
-  src: images/thm_gerstein.jpg
+  src: /images/thm-gerstein.jpg
   width: 70
 - height: 70
-  src: images/thm_gilfry.jpg
+  src: /images/thm-gilfry.jpg
   width: 70
 - height: 70
-  src: images/thm_giordani.jpg
+  src: /images/thm-giordani.jpg
   width: 70
 - height: 70
-  src: images/thm_gooderichard.jpg
+  src: /images/thm-gooderichard.jpg
   width: 70
 - height: 70
-  src: images/thm_graham.jpg
+  src: /images/thm-graham.jpg
   width: 70
 - height: 70
-  src: images/thm_hoopes.jpg
+  src: /images/thm-hoopes.jpg
   width: 70
 - height: 70
-  src: images/thm_hvorostovsky_sb08.jpg
+  src: /images/thm-hvorostovsky-sb08.jpg
   width: 70
 - height: 70
-  src: images/thm_kapelis.jpg
+  src: /images/thm-kapelis.jpg
   width: 70
 - height: 70
-  src: images/thm_kissine.jpg
+  src: /images/thm-kissine.jpg
   width: 70
 - height: 70
-  src: images/thm_lieberson.jpg
+  src: /images/thm-lieberson.jpg
   width: 70
 - height: 70
-  src: images/thm_lopardo.jpg
+  src: /images/thm-lopardo.jpg
   width: 70
 - height: 70
-  src: images/thm_branfordmarsalis.jpg
+  src: /images/thm-branfordmarsalis.jpg
   width: 70
 - height: 70
-  src: images/thm_masur.jpg
+  src: /images/thm-masur.jpg
   width: 70
 - height: 70
-  src: images/thm_nagano.jpg
+  src: /images/thm-nagano.jpg
   width: 70
 - height: 70
-  src: images/thm_orbelian.jpg
+  src: /images/thm-orbelian.jpg
   width: 70
 - height: 70
-  src: images/thm_racette.jpg
+  src: /images/thm-racette.jpg
   width: 70
 - height: 70
-  src: images/thm_ramey.jpg
+  src: /images/thm-ramey.jpg
   width: 70
 - height: 70
-  src: images/thm_celino_romero.jpg
+  src: /images/thm-celino-romero.jpg
   width: 70
 - height: 70
-  src: images/thm_rosenberg.jpg
+  src: /images/thm-rosenberg.jpg
   width: 70
 - height: 70
-  src: images/thm_runnicles.jpg
+  src: /images/thm-runnicles.jpg
   width: 70
 - height: 70
-  src: images/thm_snicket_handler.jpg
+  src: /images/thm-snicket-handler.jpg
   width: 70
 - height: 70
-  src: images/thm_stewart.jpg
+  src: /images/thm-stewart.jpg
   width: 70
 - height: 70
-  src: images/thm_stookey.jpg
+  src: /images/thm-stookey.jpg
   width: 70
 - height: 70
-  src: images/thm_terfel.jpg
+  src: /images/thm-terfel.jpg
   width: 70
 - height: 70
-  src: images/thm_thibaudet.jpg
+  src: /images/thm-thibaudet.jpg
   width: 70
 - height: 70
-  src: images/thm_mtt.jpg
+  src: /images/thm-mtt.jpg
   width: 70
 - height: 70
-  src: images/thm_vanska.jpg
+  src: /images/thm-vanska.jpg
   width: 70
 - height: 70
-  src: images/thm_ventris.jpg
+  src: /images/thm-ventris.jpg
   width: 70
 - height: 70
-  src: images/thm_villazon.jpg
+  src: /images/thm-villazon.jpg
   width: 70
 - height: 70
-  src: images/thm_voight.jpg
+  src: /images/thm-voight.jpg
   width: 70
 - height: 70
-  src: images/thm_volodos.jpg
+  src: /images/thm-volodos.jpg
   width: 70
 - height: 70
-  src: images/thm_wilder.jpg
+  src: /images/thm-wilder.jpg
   width: 70
 publication:
   author: Jake Heggie
@@ -195,7 +195,7 @@ type: interview
 *
 
 [
-![](images/thm_aikin.jpg)
+![](/images/thm-aikin.jpg)
 ](c_aikin.htm)
 
 [Laura Aikin](c_aikin.htm)
@@ -228,7 +228,7 @@ Classical Music Column for Bay Area News Group
 October 10. 2008
 
 [
-![](images/thm_barantschik.jpg)
+![](/images/thm-barantschik.jpg)
 ](c_barantschik.htm)
 
 [Alexander Barantschik](c_barantschik.htm)
@@ -534,7 +534,7 @@ September 16, 2009
 Classical Music Column for the Bay Area News Group Preview Section, November 7, 2008
 
 [
-![](images/thm_celino_romero.jpg)
+![](/images/thm-celino-romero.jpg)
 ](c_romero.htm)
  [Celino Romero](c_romero.htm)
 

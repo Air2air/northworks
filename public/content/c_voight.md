@@ -4,14 +4,11 @@ converted_from_html: true
 id: c_voight
 images:
 - height: 305
-  src: images/voight_deborah.jpg
+  src: /images/voight-deborah.jpg
   width: 200
 - height: 596
-  src: images/voight_salome.jpg
+  src: /images/voight-salome.jpg
   width: 200
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: September
   publisher: fickle fashion
@@ -80,12 +77,3 @@ surgery. It seemed the best thing to do, since now, other than needing vitamin B
  "With every exhortation against looking the audience's gaze is directed toward [ Salome](http://io.uwinnipeg.ca/~morton/modern_drama/12.pdf#search=%22%22christoph%20greger%22%20salome%22)."
 [Christopher K. Greger, Ph.D.,](http://www.ccsf.edu/info/faculty_in_review/english.html) has writtten a probing study with new insights on the aesthetic conflicts and moral consequences of looking at Oscar Wilde's femme fatale -- an irresistible attraction for Richard Strauss' musical genius.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

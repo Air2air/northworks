@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_boulez
 images:
 - height: 227
-  src: images/pierre_boulez.jpg
+  src: /images/pierre-boulez.jpg
   width: 150
 publication:
   date: May
@@ -58,7 +58,5 @@ Although he has enjoyed unabashed glory on the podium as a conductor and even sp
 
 "There isn't enough time for everything," he says. "Composing is a constant urge -- it never stops."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

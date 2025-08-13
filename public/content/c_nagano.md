@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_nagano
 images:
 - height: 160
-  src: images/kent_nagano.jpg
+  src: /images/kent-nagano.jpg
   width: 160
 publication:
   date: August
@@ -68,6 +68,3 @@ Subsequent concerts throughout the year will include Schubert's *Symphonies No. 
 
 "These musical combinations invite people to make connections - to draw lines from one piece of music to another and to understand how they are related," Maestro Nagano enthusiastically explained. "And one can do this especially well in Berkeley!"
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)

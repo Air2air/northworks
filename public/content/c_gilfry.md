@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_gilfry
 images:
 - height: 140
-  src: images/thm_gilfry.jpg
+  src: /images/thm-gilfry.jpg
   width: 140
 - height: 214
-  src: images/gilfry.jpg
+  src: /images/gilfry.jpg
   width: 140
 publication:
   date: October
@@ -68,12 +68,3 @@ He names Benjamin Britten�s *Billy Budd* as his current favorite role and is p
 
 In addition to all of the above, marathon man Gilfry gives masterclasses throughout the country and continues his weekly radio broadcasts as co-host with Suzanna Guzmian for *Los Angeles Opera Notes on Air* on KMZT, 105.1 FM, Los Angeles.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

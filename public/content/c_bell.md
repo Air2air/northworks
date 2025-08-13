@@ -4,14 +4,12 @@ converted_from_html: true
 id: c_bell
 images:
 - height: 28
-  src: images/title_bell.gif
+  src: /images/title-bell.gif
   width: 250
 - height: 300
-  src: images/bell.jpg
+  src: /images/bell.jpg
   width: 219
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: September
   publisher: Cheryl North
@@ -75,12 +73,3 @@ He is also a champion of youth musical education and has made guest appearances 
 And how does this young, uncommonly handsome, intense, young violinist want to be considered 25 years from now?
 Casting all the glamour and celebrity aside, he said, "I want to be appreciated by my peers -- to be considered a musicians' musician."
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

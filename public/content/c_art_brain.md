@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_brain
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   publisher: turning up
 subjects:
@@ -45,14 +42,5 @@ And even further back in history, to the "Golden Age" of Greece circa 450 B.C., 
 
 Addded February 2005: For recent research on music and the brain, see the [ American Music Conference website](http://www.amc-music.org/musicmaking/thebrain.htm).
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

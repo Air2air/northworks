@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_natlsymph
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: February
   publisher: the eminent
@@ -53,14 +50,5 @@ Although my companions and I were initially expecting to merely endure the Thoms
 
 For those who might be touring the grand sights in D.C. soon, be sure to take in a National Symphony Orchestra concert.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

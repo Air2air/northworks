@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_OEBS_BernsteinMass
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -80,14 +80,5 @@ He is soon joined in his reverent supplication by the Celebrant as well as all t
 
 The applause began tentatively before swelling into a heartfelt crescendo of claps, foot stomps, bravos and whistles. Then the hero, Michael Morgan turned, exhausted, but with arms outstretched, to acknowledge his victory.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

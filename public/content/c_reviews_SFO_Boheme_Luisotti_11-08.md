@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_SFO_Boheme_Luisotti_11-08
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   date: November
@@ -50,14 +50,5 @@ Grand Opera doesn't get much grander than it did in the San Francisco Opera's 21
 
  Sets and costumes by Michael Yeargan and Walter Mahoney respectively; beautifully choreographed and paced stage direction by Harry Silverstein; luminous Christmas holiday lighting by Duane Schuler, and a contagious can-do spirit created the solid, yet artfully animated foundation for the whole, unforgettable production.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

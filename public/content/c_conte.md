@@ -3,9 +3,7 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_conte
 images:
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: October
   publisher: within our

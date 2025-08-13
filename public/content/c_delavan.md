@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_delavan
 images:
 - height: 137
-  src: images/delavan_mark.jpg
+  src: /images/delavan-mark.jpg
   width: 175
 publication:
   date: June
@@ -72,7 +72,5 @@ He flashes his broadest, warmest smiles, however, when he talks about his family
 
 Delavan can be seen in what are bound to be indelible performances of *The Flying Dutchman* at 7 p.m. tonight, Sunday and on June 21; and at 8 p.m. Thursday at Davies Symphony Hall.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

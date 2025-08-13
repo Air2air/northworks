@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_OEBS_11-08
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -53,14 +53,5 @@ For a concert concocted to make the masses fall in love with classical music, on
 
  The program concluded with Sergei Prokofiev's powerful musical narrative of Shakespeare's classic boy-girl tragedy, *Romeo and Juliet*. Morgan led the OEBS musicians in a performance with visceral wallop segueing into transcendent beauty.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

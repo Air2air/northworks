@@ -4,14 +4,11 @@ converted_from_html: true
 id: c_volodos
 images:
 - height: 28
-  src: images/title_volodos.gif
+  src: /images/title-volodos.gif
   width: 250
 - height: 190
-  src: images/volodos.jpg
+  src: /images/volodos.jpg
   width: 200
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: February
   publisher: such late
@@ -59,7 +56,7 @@ During a radio broadcast in 1939, Sir Winston Churchill said �Russia is a ridd
 
 Born in 1972 in St. Petersburg, Volodos has hit the classical music world like a meteor. He is a pianist in the grand, 19th century tradition. Many critics, including myself, feel that he now stands alone on that lofty pinnacle of pianism vacated by such late piano titans as Franz Liszt, Sviatoslav Richter, and Vladimir Horowitz. Volodos alone among the young crop of superstar pianists seems to embody the all-too-rare
 
-![](images/volodos.jpg)
+![](/images/volodos.jpg)
 
 combination of virtuosic keyboard athleticism with profound musical intelligence and lyric sensibility.
 
@@ -105,12 +102,3 @@ But his primary life activity is indeed piano playing, affirmed Gates.
 
 �1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_kissine
 images:
 - height: 168
-  src: images/kissine with wife and c 3-4-10.jpg
+  src: /images/kissine-with-wife-and-c-3-4-10.jpg
   width: 217
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: March
   publisher: the San
@@ -59,12 +57,3 @@ world premiere of Post-scriptum*,
 and subsequently in New York following the San Francisco Symphony performance
  of the work at Carnegie Hall
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_lieberson
 images:
 - height: 200
-  src: images/lorraine_hunt_lieberson.jpg
+  src: /images/lorraine-hunt-lieberson.jpg
   width: 160
 publication:
   date: June
@@ -58,7 +58,5 @@ Last year she sang such diverse roles as Myrtle Wilson for the World Premiere of
 
 And although she hasn't yet replaced her stolen viola when I spoke to her, she avowed that "the viola is always with me in spirit when I sing."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

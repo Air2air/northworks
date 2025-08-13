@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_feltsman
 images:
 - height: 28
-  src: images/title_feltsman.gif
+  src: /images/title-feltsman.gif
   width: 250
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: June
   publisher: Cheryl North
@@ -71,12 +69,3 @@ At the age of 50, the fit-looking Feltsman's hair and beard are steely gray and 
 
 Who better to stalk the Prokofiev Second with Michael Tilson Thomas?
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

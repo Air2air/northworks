@@ -4,40 +4,40 @@ converted_from_html: true
 id: w_pub
 images:
 - height: 28
-  src: images/title_pub.gif
+  src: /images/title-pub.gif
   width: 250
 - height: 16
-  src: images/icon_pdf.gif
+  src: /images/icon-pdf.gif
   width: 16
 - height: 16
-  src: images/icon_pdf.gif
+  src: /images/icon-pdf.gif
   width: 16
 - height: 16
-  src: images/icon_pdf.gif
+  src: /images/icon-pdf.gif
   width: 16
 - height: 28
-  src: images/title_gray_publications.gif
+  src: /images/title-gray-publications.gif
   width: 220
 - height: 83
-  src: images/public participation image.gif
+  src: /images/public-participation-image.gif
   width: 57
 - height: 86
-  src: images/book_disposition.jpg
+  src: /images/book-disposition.jpg
   width: 60
 - height: 86
-  src: images/book_human.jpg
+  src: /images/book-human.jpg
   width: 60
 - height: 86
-  src: images/book_understanding.gif
+  src: /images/book-understanding.gif
   width: 60
 - height: 86
-  src: images/book_judgement.gif
+  src: /images/book-judgement.gif
   width: 60
 - height: 86
-  src: images/book_communication.gif
+  src: /images/book-communication.gif
   width: 60
 - height: 86
-  src: images/book_government.gif
+  src: /images/book-government.gif
   width: 60
 publication:
   date: April
@@ -65,7 +65,7 @@ holders.*
 1972.
 
 [
-![](images/icon_pdf.gif)
+![](/images/icon-pdf.gif)
 ](limitations.pdf)
 
 [468k](limitations.pdf)
@@ -78,7 +78,7 @@ Scientific and Technical Review, International Office of Epizootics,
 (Note: This paper contains a summary of the Mars planetary contamination assessment, described in more detail in 1974 publications listed below.)
 
 [
-![](images/icon_pdf.gif)
+![](/images/icon-pdf.gif)
 ](phd_thesis.pdf)
 
 [5.9mb](phd_thesis.pdf)
@@ -376,10 +376,10 @@ Global Climate Change **
 
 Two papers are included here, one an [ unpublished manuscript](w_epasab1990.htm) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](w_pub_stuttgart.htm) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
 
-![](images/title_gray_publications.gif)
+![](/images/title-gray-publications.gif)
 
 [
-![](images/public participation image.gif)
+![](/images/public-participation-image.gif)
 ](http://www.nap.edu/catalog.php?record_id=12434)
 
 [Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434)
@@ -389,7 +389,7 @@ National Academy Press.
 322 pages, 2008
 
 [
-![](images/book_disposition.jpg)
+![](/images/book-disposition.jpg)
 ](http://lab.nap.edu/catalog/10119.html?onpi_newsdoc06062001)
 
 [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119)
@@ -399,7 +399,7 @@ National Academy Press.
  212 pages, 2001.
 
 [
-![](images/book_human.jpg)
+![](/images/book-human.jpg)
 ](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720)
 
 [Human and Ecological Risk Assessment: Theory and Pactice](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720) Dennis J. Paustenbach, Editor.
@@ -407,7 +407,7 @@ National Academy Press.
 Hardcover, 1200 pages. Publisher: John Wiley & Sons; ISBN: 0471147478
 
 [
-![](images/book_understanding.gif)
+![](/images/book-understanding.gif)
 ](http://www.nap.edu/catalog/5138.html)
 
 [Understanding Risk: Informing Decisions
@@ -416,7 +416,7 @@ in a Democratic Society](http://www.nap.edu/catalog/5138.html)
 National Research Council, 1996
 
 [
-![](images/book_judgement.gif)
+![](/images/book-judgement.gif)
 ](http://www.nap.edu/catalog/2125.html)
 
 [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html)
@@ -424,7 +424,7 @@ National Research Council, 1996
 National Research Council, 1994
 
 [
-![](images/book_communication.gif)
+![](/images/book-communication.gif)
 ](http://www.nap.edu/catalog/1189.html)
 
 [Improving Risk Communication](http://www.nap.edu/catalog/1189.html)
@@ -432,7 +432,7 @@ National Research Council, 1994
 National Research Council, 1989
 
 [
-![](images/book_government.gif)
+![](/images/book-government.gif)
 ](http://books.nap.edu/catalog.php?record_id=366)
 
 [Risk Assessment in the Federal Government:

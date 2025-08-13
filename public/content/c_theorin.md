@@ -3,13 +3,11 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_theorin
 images:
-- src: images/theorin-lg.jpg
+- src: /images/theorin-lg.jpg
   width: 600
-- src: images/theorin-sm.jpg
+- src: /images/theorin-sm.jpg
   width: 230
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: September
   publisher: Cheryl North
@@ -60,16 +58,7 @@ While the role of Turandot is a polar opposite from Brünnhilde, Theorin still f
 
 Iréne Theorin as Brünnhilde on Brünnhilde's Rock, San Francisco Opera, 2018. Photo Credit: Cory Weaver
 
-![](images/theorin-sm.jpg)
+![](/images/theorin-sm.jpg)
 
 Iréne Theorin as Brünnhilde, San Francisco Opera 2018 Ring Cycle*.. Photo Credit: Cory Weaver.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -1,8 +1,17 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageHeader, StatsGrid, QuickAccessLinks } from '@/components/ui';
+import type { StatItem, QuickAccessItem } from '@/components/ui';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { 
+  FaBook, 
+  FaSchool, 
+  FaChartBar, 
+  FaFlask, 
+  FaCrosshairs 
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - Publications & Reports | NorthWorks',
@@ -46,40 +55,52 @@ export default function WarnerPublicationsPage() {
     }
   };
 
+  // Define statistics
+  const stats: StatItem[] = [
+    { value: '5', label: 'Major NRC Reports', color: 'green' },
+    { value: '50+', label: 'Research Papers', color: 'blue' },
+    { value: '25+', label: 'Years Contributing', color: 'purple' },
+    { value: '3', label: 'Core Research Areas', color: 'orange' }
+  ];
+
+  // Define quick access items
+  const quickAccessItems: QuickAccessItem[] = [
+    {
+      title: 'Publications Index',
+      description: 'Complete bibliography and reports',
+      href: '/warner/publications-index',
+      icon: <FaBook className="text-green-600" />,
+      color: 'green'
+    },
+    {
+      title: 'National Academies Service',
+      description: 'NRC committees and reports',
+      href: '/warner/nrc-index',
+      icon: <FaBook className="text-purple-600" />,
+      color: 'purple'
+    },
+    {
+      title: 'Academic Work',
+      description: 'Stanford University research',
+      href: '/warner/stanford-index',
+      icon: <FaSchool className="text-red-600" />,
+      color: 'red'
+    }
+  ];
+
   return (
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Publications & Reports
-          </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Academic papers, research reports, and contributions to National Academy of Sciences 
-            publications on risk analysis and environmental protection.
-          </p>
-        </div>
+        <PageHeader
+          title="Publications & Reports"
+          description="Academic papers, research reports, and contributions to National Academy of Sciences publications on risk analysis and environmental protection."
+          gradientFrom="green-500"
+          gradientTo="blue-600"
+        />
 
-        {/* Quick Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-green-600 mb-2">5</div>
-            <div className="text-sm text-gray-600">Major NRC Reports</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-            <div className="text-sm text-gray-600">Research Papers</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-purple-600 mb-2">25+</div>
-            <div className="text-sm text-gray-600">Years Contributing</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-orange-600 mb-2">3</div>
-            <div className="text-sm text-gray-600">Core Research Areas</div>
-          </div>
-        </div>
+        {/* Statistics */}
+        <StatsGrid stats={stats} />
 
         {/* Main Publications Content */}
         {publicationsData && (
@@ -130,7 +151,9 @@ export default function WarnerPublicationsPage() {
         {/* Key National Academy Reports */}
         <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 mb-8 border border-blue-200">
           <div className="flex items-center mb-6">
-            <span className="text-4xl mr-4">📊</span>
+            <div className="text-4xl mr-4 flex items-center">
+              <FaChartBar className="text-blue-600" />
+            </div>
             <h2 className="text-2xl font-semibold text-gray-900">
               Major National Research Council Reports
             </h2>
@@ -196,7 +219,9 @@ export default function WarnerPublicationsPage() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <div className="flex items-center mb-3">
-                <span className="text-2xl mr-3">🔬</span>
+                <div className="text-2xl mr-3 flex items-center">
+                  <FaFlask className="text-blue-600" />
+                </div>
                 <h3 className="text-lg font-medium text-gray-900">Risk Analysis</h3>
               </div>
               <p className="text-gray-600 text-sm">
@@ -205,7 +230,9 @@ export default function WarnerPublicationsPage() {
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <div className="flex items-center mb-3">
-                <span className="text-2xl mr-3">🎯</span>
+                <div className="text-2xl mr-3 flex items-center">
+                  <FaCrosshairs className="text-green-600" />
+                </div>
                 <h3 className="text-lg font-medium text-gray-900">Decision Science</h3>
               </div>
               <p className="text-gray-600 text-sm">
@@ -214,7 +241,9 @@ export default function WarnerPublicationsPage() {
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <div className="flex items-center mb-3">
-                <span className="text-2xl mr-3">⚛️</span>
+                <div className="text-2xl mr-3 flex items-center">
+                  <FaFlask className="text-red-600" />
+                </div>
                 <h3 className="text-lg font-medium text-gray-900">Nuclear Safety</h3>
               </div>
               <p className="text-gray-600 text-sm">
@@ -225,57 +254,7 @@ export default function WarnerPublicationsPage() {
         </div>
 
         {/* Quick Access Links */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Additional Resources
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link 
-              href="/warner/publications-index"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">📚</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-green-600">
-                  Publications Index
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Complete bibliography and reports
-                </p>
-              </div>
-            </Link>
-
-            <Link 
-              href="/warner/nrc-index"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-purple-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">⭐</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-purple-600">
-                  National Academies Service
-                </h4>
-                <p className="text-sm text-gray-600">
-                  NRC committees and reports
-                </p>
-              </div>
-            </Link>
-
-            <Link 
-              href="/warner/stanford-index"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-red-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">🏫</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-red-600">
-                  Academic Work
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Stanford University research
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
+        <QuickAccessLinks items={quickAccessItems} />
 
         {/* Navigation */}
         <div className="border-t pt-8">

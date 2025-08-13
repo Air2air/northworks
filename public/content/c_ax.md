@@ -3,9 +3,7 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_ax
 images:
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: October
 subjects:
@@ -49,12 +47,3 @@ Local lovers of the piano, that most versatile of musical instruments, can enjoy
 
  About classical and concert music in general, he counseled, �I hope audiences will not worry about knowing so much about such music, but will just enjoy listening. After all, music really is meant to be enjoyed!�
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -77,13 +77,13 @@ recent_content:
 
 ## D. Warner North
 
-![D. Warner North](images/warner_north 6-06.jpg)
+![D. Warner North](/images/warner_north 6-06.jpg)
 
 [D. Warner North](/warner) is principal scientist of NorthWorks. Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection. Dr. North has a long association with Stanford University as adjunct faculty beginning in 1976 and as a consulting professor in the Department of Management Science and Engineering from 1988 to 2009.
 
 ## Cheryl North
 
-![Cheryl North](images/cherie_mug.jpg)
+![Cheryl North](/images/cherie_mug.jpg)
 
 [Cheryl North](/cheryl) (Warner's wife and the director of the music journalism activities of NorthWorks) is a noted music columnist for the *Oakland Tribune* and other papers of the [Bay Area News Group](http://www.insidebayarea.com). She writes performance reviews and feature articles for other publications, including *Opera Now*, based in Great Britain. Profile/interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene have become an important specialty for which she is in demand.
 
@@ -117,7 +117,7 @@ Bashkir bass [Ildar Abdrazakov](/interviews/c_abdrazakov) sang the title role in
 
 [Conductor Laureate Herbert Blomstedt](http://www.mercurynews.com/entertainment/ci_27536911/cheryl-north-herbert-blomstedt-returns-san-francisco-symphony) returned February 19-21 for a program of Brahms, including *A German Requiem*.
 
-![Herbert Blomstedt with Warner and Cheryl North](images/blomstedt.jpg)
+![Herbert Blomstedt with Warner and Cheryl North](/images/blomstedt.jpg)
 *Warner and Cheryl North backstage at Davies Hall with Maestro Herbert Blomstedt after A German Requiem February 20, 2015*
 
 ### New from Warner North

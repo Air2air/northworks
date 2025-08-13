@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_mtt
 images:
 - height: 28
-  src: images/title_mtt.gif
+  src: /images/title-mtt.gif
   width: 350
 - height: 200
-  src: images/mtt.jpg
+  src: /images/mtt.jpg
   width: 237
 publication:
   date: September
@@ -88,7 +88,7 @@ and a number of fresh new insights into masterpieces from the past. There have b
 Grammy Awards, nine acclaimed recordings on the BMG label, and the birth of SFS's own
 recording organization with the stated goal of committing to disc all nine Mahler symphonies
 
-![](images/mtt.jpg)
+![](/images/mtt.jpg)
 
 over a five-year period (Six and Three have already garnered Grammies).
 And, perhaps best of all, the San Francisco Symphony, under MTT's guidance, has won worldwide
@@ -158,12 +158,3 @@ specifically about music and its significance his eyes assume a laser intensity 
 rapt attention. So, MTT, SFS and audiences across the Bay and the world, can expect more good years
 and high musical times together.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

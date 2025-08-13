@@ -4,16 +4,16 @@ converted_from_html: true
 id: w_main
 images:
 - height: 28
-  src: images/title_warner.gif
+  src: /images/title-warner.gif
   width: 250
 - height: 133
-  src: images/warner_north 6-06.jpg
+  src: /images/warner-north-6-06.jpg
   width: 100
 - height: 512
-  src: images/wn speaking belgian senate 4-18-06.jpg
+  src: /images/wn-speaking-belgian-senate-4-18-06.jpg
   width: 342
 - height: 45
-  src: images/title_advisory_boards.gif
+  src: /images/title-advisory-boards.gif
   width: 220
 publication:
   date: December
@@ -26,7 +26,7 @@ type: article
 
 D. Warner North is principal scientist of NorthWorks, a consulting firm located in San Francisco, California. Until 2009 he served as a consulting professor in the Department of Management Science and Engineering at Stanford University. Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection.
 
-![](images/warner_north 6-06.jpg)
+![](/images/warner-north-6-06.jpg)
 
 Dr. North has served as a member and consultant to the Science Advisory Board of the US Environmental Protection Agency since 1978, and as a Presidentially appointed member of the US Nuclear Waste Technical Review Board (1989-1994). Dr. North is a co-author of many reports dealing with environmental risk for the National Research Council of the National Academy of Sciences, including Risk Assessment in the Federal Government: Managing the Process* (1983), *Improving Risk Communication* (1989), *Science and Judgment in Risk Assessment* (1994), *Understanding Risk: Informing Decisions in a Democratic Society* (1996), and *Public Participation in Environmental Assessment and Decision Making* (2008).
 

@@ -4,22 +4,22 @@ converted_from_html: true
 id: w_projects_government
 images:
 - height: 28
-  src: images/title_experience_government.gif
+  src: /images/title-experience-government.gif
   width: 250
 - height: 50
-  src: images/logo_epa.gif
+  src: /images/logo-epa.gif
   width: 50
 - height: 50
-  src: images/logo_epa.gif
+  src: /images/logo-epa.gif
   width: 50
 - height: 50
-  src: images/logo_us.gif
+  src: /images/logo-us.gif
   width: 50
 - height: 50
-  src: images/logo_us.gif
+  src: /images/logo-us.gif
   width: 50
 - height: 50
-  src: images/logo_cal.gif
+  src: /images/logo-cal.gif
   width: 50
 subjects:
 - Risk and
@@ -27,12 +27,12 @@ title: Untitled
 type: article
 ---
 
-![](images/title_experience_government.gif)
+![](/images/title-experience-government.gif)
 **
 
 Service on behalf of United States Federal and State governmental agencies.
 
-![](images/logo_epa.gif)
+![](/images/logo-epa.gif)
 
  U.S. Environmental Protection Agency Science Advisory
 Board:
@@ -48,7 +48,7 @@ vice-chairman; **Hazard Ranking System Review Subcommittee** member.
 
 **
 
-![](images/logo_epa.gif)
+![](/images/logo-epa.gif)
 
  U.S. EPA Science Advisory Board (continued):
 Global
@@ -61,15 +61,15 @@ regulation) consultant (2003-2004).
 
 **
 
-![](images/logo_us.gif)
+![](/images/logo-us.gif)
 
  Nuclear Waste Technical Review Board****Member and Chair, Risk and Performance Analysis Panel (1989 - May, 1994)
 
-![](images/logo_us.gif)
+![](/images/logo-us.gif)
 
  Federal Energy Administration****Special consultant to the Administrator of the for review of the petroleum price regulation program (1977).
 
-![](images/logo_cal.gif)
+![](/images/logo-cal.gif)
 
 State of California**
 
@@ -77,12 +77,3 @@ Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act
 
  [Laser technology consulting](/w_laser.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

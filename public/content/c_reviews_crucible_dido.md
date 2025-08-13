@@ -4,13 +4,13 @@ converted_from_html: true
 id: c_reviews_crucible_dido
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 - height: 167
-  src: images/dido_aeneas_225.jpg
+  src: /images/dido-aeneas-225.jpg
   width: 220
 publication:
   author: Cheryl North
@@ -47,20 +47,11 @@ Singing the role of Dido is SFO Adler fellow mezzo-soprano Katherine Rohrer. Adl
 
 I'm not usually an enthusiastic fan of the practice of "updating," adding to or reinterpreting grand opera, but in this uniquely energizing and exciting case, I can only applaud. It's thrill-a-minute opera -- artistically valid, while thoroughly entertaining.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
 [
-![](images/dido_aeneas_225.jpg)
+![](/images/dido-aeneas-225.jpg)
 ](dido.htm)
 
 [Crucible flyer - Click to enlarge](dido.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

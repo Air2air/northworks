@@ -4,22 +4,22 @@ converted_from_html: true
 id: w_pub_vniigaz
 images:
 - height: 195
-  src: images/balticgasinfdiag.gif
+  src: /images/balticgasinfdiag.gif
   width: 260
 - height: 360
-  src: images/balticgasparttree.gif
+  src: /images/balticgasparttree.gif
   width: 260
 - height: 195
-  src: images/balticgascumd.gif
+  src: /images/balticgascumd.gif
   width: 260
 - height: 125
-  src: images/persiangulfinfd.png
+  src: /images/persiangulfinfd.png
   width: 220
 - height: 284
-  src: images/persiangulfinfkey.png
+  src: /images/persiangulfinfkey.png
   width: 237
 - height: 190
-  src: images/synfuelstree.jpg
+  src: /images/synfuelstree.jpg
   width: 237
 publication:
   date: 10 October 2002
@@ -171,7 +171,7 @@ Web:
 Figure 1. Influence Diagram for Lithuanian Gas Supply � Simple Illustration. Diagram produced by [Decision Advisor](http://www.smartorg.com/decisionadvisor.html) software.
 
 [
-![](images/balticgasinfdiag.gif)
+![](/images/balticgasinfdiag.gif)
 ](febalticgasinfdiag.htm)
 
 [Figure 1 - Click to enlarge](febalticgasinfdiag.htm)
@@ -179,7 +179,7 @@ Figure 1. Influence Diagram for Lithuanian Gas Supply � Simple Illustration. D
 Figure 2. Tree representation showing probability assignments for �peak demand� node in the Influence Diagram. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
 [
-![](images/balticgasparttree.gif)
+![](/images/balticgasparttree.gif)
 ](febalticgasparttree.htm)
 
 [Figure 2 - Click to enlarge](febalticgasparttree.htm)
@@ -187,7 +187,7 @@ Figure 2. Tree representation showing probability assignments for �peak demand
 Figure 3. Cumulative Probability Distribution of Losses from Interruption in Gas Supply. Numbers are in Monetary Units (euros) and Illustrative Only. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
 [
-![](images/balticgascumd.gif)
+![](/images/balticgascumd.gif)
 ](febalticgascumd.htm)
 
 [Figure 3 - Click to enlarge](febalticgascumd.htm)
@@ -195,7 +195,7 @@ Figure 3. Cumulative Probability Distribution of Losses from Interruption in Gas
 Figure 4. Influence Diagram for Persian Gulf Political Events (from [7], page 145. The original version was produced by Allen Miller and colleagues in 1973-74.)
 
 [
-![](images/persiangulfinfd.png)
+![](/images/persiangulfinfd.png)
 ](fepersiangulfinfd.htm)
 
 [Figure 4 - Click to enlarge](fepersiangulfinfd.htm)
@@ -203,7 +203,7 @@ Figure 4. Influence Diagram for Persian Gulf Political Events (from [7], page 14
 Table 1. Key for Decisions and Uncertain Events, Persian Gulf Decision Tree
 
 [
-![](images/persiangulfinfkey.png)
+![](/images/persiangulfinfkey.png)
 ](fepersiangulfinfkey.htm)
 
 [Table 1 - Click to enlarge](fepersiangulfinfkey.htm)
@@ -211,17 +211,8 @@ Table 1. Key for Decisions and Uncertain Events, Persian Gulf Decision Tree
 Figure 5. Decision Tree for Synthetic Fuels Analysis
 
 [
-![](images/synfuelstree.jpg)
+![](/images/synfuelstree.jpg)
 ](fesynfuelstree.htm)
 
 [Figure 5 - Click to enlarge](fesynfuelstree.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_kapelis
 images:
 - height: 160
-  src: images/kapelis_consul.jpg
+  src: /images/kapelis-consul.jpg
   width: 207
 - height: 147
-  src: images/kapelis_norths.jpg
+  src: /images/kapelis-norths.jpg
   width: 207
 publication:
   date: March
@@ -72,7 +72,7 @@ Consul General of Greece in San Francisco, March 20, 2007
 
  While I'm not sure about the Greek connection of Rachmaninoff's *Etudes*, I can certainly testify to their seductively mesmerizing powers.
 
-![](images/kapelis_norths.jpg)
+![](/images/kapelis-norths.jpg)
 
 Alexandros Kapelis with Cheryl and Warner North at a reception follwing his concert on March 20, 2007
 

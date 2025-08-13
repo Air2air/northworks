@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_stookey
 images:
 - height: 150
-  src: images/stookey.jpg
+  src: /images/stookey.jpg
   width: 127
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: November
   publisher: the same
@@ -85,12 +83,3 @@ He also said that he had a Chamber Opera on his mind for the future as well as s
 
 "My faraway goal is that I hope people will still be listening to my music many years from now. But my bottom line is that I LIKE writing music. I really get a charge out it!"
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

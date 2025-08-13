@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_dunleavy
 images:
 - height: 200
-  src: images/mary dunleavy - violetta, 2002.jpg
+  src: /images/mary-dunleavy-violetta-2002.jpg
   width: 160
 publication:
   date: October
@@ -88,7 +88,5 @@ But before all of that, she will be making her San Francisco Symphony debut as a
 
 For tonight's performance of *La Traviata*, Dunleavy's co-stars will be tenor Rollando Villazon as Alfredo; Zeljko Lucic in the role of Germont; along with Catherine Cook; Katherine Rohrer; Thomas Glenn; Ricardo Herrera; Joshua Bloom; and Stephen Bryant. Robert Wood will conduct, while John Copley serves as stage director.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

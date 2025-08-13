@@ -74,11 +74,7 @@ month = "December ";
 <!-- Begin
 var nn = navigator.appName;
 var nnv = parseInt(navigator.appVersion)
-if((nn == "Netscape") && (nnv < 4)){
-}
-else{
-document.write("<div class=timestamp>" + day + month + myweekday + "</div>");
-}
+// Timestamp will be written to body, not head
 // End -->
 </script>
 
@@ -87,10 +83,10 @@ document.write("<div class=timestamp>" + day + month + myweekday + "</div>");
     var ic = 4;     // Number of alternative images
     var xoxo = new Array(ic);  // Array to hold filenames
         
-xoxo[0] = "images/topleft_1.gif";
-xoxo[1] = "images/topleft_2.gif";
-xoxo[2] = "images/topleft_3.gif";
-xoxo[3] = "images/topleft_4.gif";
+xoxo[0] = "/images/topleft1.gif";
+xoxo[1] = "/images/topleft2.gif";
+xoxo[2] = "/images/topleft3.gif";
+xoxo[3] = "/images/topleft4.gif";
 
 function pickRandom(range) {
 if (Math.random)
@@ -111,34 +107,37 @@ var choice = pickRandom(ic);
 
 <body>
 
+<!-- Timestamp will be populated by script at end of body -->
+<div id="timestamp" class="timestamp"></div>
+
 <!--- TABLE LEFT --->
 <table class="table_left" cellspacing=0 cellpadding=0 width=139 border=0>
 <tr>
-<td><a onmouseover="document.btn_home.src='images/btn_home_on_pt.gif';
+<td><a onmouseover="document.btn_home.src='/images/btnhomeonpt.gif';
 window.status='northworks home page'; return true"
-onmouseout="document.btn_home.src='images/btn_home_on_pt.gif';
+onmouseout="document.btn_home.src='/images/btnhomeonpt.gif';
 window.status='northworks, inc.'; return true" href="index.html">
-<img src="images/btn_home_on_pt.gif" height="20" width="139" border="0" name="btn_home"></a></td>
+<img src="/images/btnhomeonpt.gif" height="20" width="139" border="0" name="btn_home"></a></td>
 </tr>
 <tr>
-<td><a onmouseover="document.btn_warner.src='images/btn_warner_on.gif';
+<td><a onmouseover="document.btn_warner.src='/images/btnwarneron.gif';
 window.status='d. warner north'; return true"
-onmouseout="document.btn_warner.src='images/btn_warner_off.gif';
+onmouseout="document.btn_warner.src='/images/btnwarneroff.gif';
 window.status='d. warner north'; return true" href="w_main.htm">
-<img src="images/btn_warner_off.gif" height="20" width="139" border="0" name="btn_warner"></a></td>
+<img src="/images/btnwarneroff.gif" height="20" width="139" border="0" name="btn_warner"></a></td>
 </tr>
 <tr>
-<td><a onmouseover="document.btn_cheryl.src='images/btn_cheryl_on.gif';
+<td><a onmouseover="document.btn_cheryl.src='/images/btncherylon.gif';
 window.status='cheryl north'; return true"
-onmouseout="document.btn_cheryl.src='images/btn_cheryl_off.gif';
+onmouseout="document.btn_cheryl.src='/images/btncheryloff.gif';
 window.status='cheryl north'; return true" href="c_main.htm">
-<img src="images/btn_cheryl_off.gif" height="20" width="139" border="0" name="btn_cheryl"></a></td>
+<img src="/images/btncheryloff.gif" height="20" width="139" border="0" name="btn_cheryl"></a></td>
 </tr>
 <tr>
-<td><a onmouseover="document.btn_contact.src='images/btn_contact_on.gif';
-window.status='contact us at northworks'; return true"   onmouseout="document.btn_contact.src='images/btn_contact_off.gif';
+<td><a onmouseover="document.btn_contact.src='/images/btncontacton.gif';
+window.status='contact us at northworks'; return true"   onmouseout="document.btn_contact.src='/images/btncontactoff.gif';
 window.status='northworks, inc.'; return true"  href="contact.htm">
-<img src="images/btn_contact_off.gif" height="20" width="139" border="0" name="btn_contact"></a></td>
+<img src="/images/btncontactoff.gif" height="20" width="139" border="0" name="btn_contact"></a></td>
 </tr>
 </table>
 
@@ -149,8 +148,8 @@ window.status='northworks, inc.'; return true"  href="contact.htm">
 <a href=index.html><script language="javascript">document.writeln('<img src="'+xoxo[choice]+'" id=topleft height=80 width=139 border=0  />');</script></a>
 <table class=table_header cellpadding=0 cellspacing=0 border=0>
 <tr>
-<td class="header_banner"><img src="images/logo.gif" border=0 height=80 width=280></td>
-<td width="250" align=right><img src="images/h_top_right.jpg" alt="risk analysis consultants" border=0 height=80 width=250></td>
+<td class="header_banner"><img src="/images/logo.gif" border=0 height=80 width=280></td>
+<td width="250" align=right><img src="/images/htopright.jpg" alt="risk analysis consultants" border=0 height=80 width=250></td>
 </tr>
 
 <!-- TABLE BREADCRUMB -->
@@ -159,7 +158,7 @@ window.status='northworks, inc.'; return true"  href="contact.htm">
 <a class="breadcrumb" href=index.html">Home</a>
  ::&nbsp;<a class="breadcrumb" href="w_main.htm">D. Warner North</a>
  ::&nbsp;<a class="breadcrumb" href="c_main.htm">Cheryl North</a></td>
-<td width="250" bgcolor="#767676" style="border-left: 1px solid #666666;"><img src="images/transp.gif" border=0 height=10 width=250 /><td>
+<td width="250" bgcolor="#767676" style="border-left: 1px solid #666666;"><img src="/images/transp.gif" border=0 height=10 width=250 /><td>
 </tr>
 
 
@@ -168,9 +167,9 @@ window.status='northworks, inc.'; return true"  href="contact.htm">
 <tr class="table_main" >
 <td class="td_center" valign="top">
 
-<img src="images/title_warner.gif" width="250" height="28" vspace="10" /><br /> 
+<img src="/images/titlewarner.gif" width="250" height="28" vspace="10" /><br /> 
 
-<img src="images/warner_north 6-06.jpg" width="100" height="130" hspace="13" vspace="10" 
+<img src="/images/warnernorth-6-06.jpg" width="100" height="130" hspace="13" vspace="10" 
 align="left" />
 
 <a href="w_main.htm">D. Warner North</a> is principal scientist of NorthWorks. Over the past fifty  years Dr. North has carried out applications of decision analysis and 
@@ -178,9 +177,9 @@ risk analysis for electric utilities in the US and Mexico, for the petroleum and
 
 <br /><p></p><br /><p></p><br /><p></p><br /><p></p>
 
-<img src="images/title_cheryl.gif" width="250" height="28" vspace="10" /><br /> 
+<img src="/images/titlecheryl.gif" width="250" height="28" vspace="10" /><br /> 
 
-<img src="images/cherie_mug.jpg" width="100" height="140" hspace="13" vspace="10"
+<img src="/images/cheriemug.jpg" width="100" height="140" hspace="13" vspace="10"
 align="left" />
 <a href="c_main.htm">Cheryl North</a> (Warner's wife and the director of the music journalism activities of NorthWorks) is a noted music columnist for the <i>Oakland Tribune</i> and other papers of the <a href="http://www.insidebayarea.com">Bay Area News Group</a>. She writes performance reviews and feature articles for other publications, including <i>Opera Now</i>, based in Great Britain.  Profile/interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene have become an important specialty for which she is in demand.  
 
@@ -229,14 +228,14 @@ Korean tenor <a href="http://www.mercurynews.com/2016/09/02/cheryl-north-san-fra
 Bashkir bass <a href="c_abdrazakov.htm">Ildar Abdrazakov</a> sang the title role in Boito's <i>Mefestophele</i> to open the San Francisco Opera 2013 fall season on September 6. <br /><p></p> 
 
 <center>
-<!IMG SRC="images/Mephisto square Ildar Abdrazakov SFOp 2013.png" WIDTH="150" HEIGHT="150" VSPACE="10">
+<!IMG SRC="/images/mephisto-square-ildar-abdrazakov-sfop-2013.png" WIDTH="150" HEIGHT="150" VSPACE="10">
 </center>
 
 <h4>San Francisco Symphony 2015</h4>
 <a href="http://www.mercurynews.com/entertainment/ci_27536911/cheryl-north-herbert-blomstedt-returns-san-francisco-symphony">Conductor Laureate Herbert Blomstedt</a> returned February 19-21 for a program of Brahms, including <i>A German Requiem</i>. <br /> 
 
 <center>
-<img src="images/blomstedt.jpg" width="173" height="130" vspace="10" /><br /> 
+<img src="/images/blomstedt.jpg" width="173" height="130" vspace="10" /><br /> 
 Warner and Cheryl North backstage at Davies Hall with Maestro Herbert Blomstedt after <i>A German Requiem </i>February 20, 2015 
 </center>
 
@@ -273,7 +272,7 @@ Tony Award winner for the revival of South Pacific appearing in San Francisco as
 <! PICTURE GOES IN HERE>
 
 <! IMG height=250 hspace=10 
-      src="images/Szot_C_W.jpg" width=240 vspace=10>
+      src="/images/szotcw.jpg" width=240 vspace=10>
 <! Paulo Szot in his dressing room with Cheryl and Warner after the opening performance of Carmen, 2011 San Francisco Opera season>
 <! West Edge/Berkeley Opera>
 <! A HREF="http://www.mercurynews.com/entertainment/ci_19241770" Review of Ariadne auf Naxos performance of October 30, 2011>
@@ -287,7 +286,7 @@ Tony Award winner for the revival of South Pacific appearing in San Francisco as
 <! PICTURE GOES IN HERE
 center
 IMG height=306 hspace=10 
-      src="images/Gergiev and Cherie Oct 14 2011.jpg" width=171 vspace=10><p></p>
+      src="/images/gergiev-and-cherie-oct-14-2011.jpg" width=171 vspace=10><p></p>
 <! Valery Gergiev and Cheryl North backstage in the Fred Orin Harris Greenroom, Zellerbach Hall, after the October 14, 2011 performance. Maestro Gergiev is holding a copy of the interview. Photo by DWN.> 
 <! San Francisco Opera> 
 
@@ -307,26 +306,42 @@ IMG height=306 hspace=10
 
 <br /><br />
 
-<img src="images/btn_articles_on.gif" height="1" width="1" />
-<img src="images/btn_casestudies_on.gif" height="1" width="1" />
-<img src="images/btn_cheryl_on.gif" height="1" width="1" />
-<img src="images/btn_cheryl_p_on.gif" height="1" width="1" />
-<img src="images/btn_clients_on.gif" height="1" width="1" />
-<img src="images/btn_contact_on.gif" height="1" width="1" />
-<img src="images/btn_history_on.gif" height="1" width="1" />
-<img src="images/btn_home_on.gif" height="1" width="1" />
-<img src="images/btn_interviews_on.gif" height="1" width="1" />
-<img src="images/btn_resume_on.gif" height="1" width="1" />
-<img src="images/btn_reviews_on.gif" height="1" width="1" />
-<img src="images/btn_services_on.gif" height="1" width="1" />
-<img src="images/btn_warner_on.gif" height="1" width="1" />
-<img src="images/btn_warner_p_on.gif" height="1" width="1" />
+<img src="/images/btnarticleson.gif" height="1" width="1" />
+<img src="/images/btncasestudieson.gif" height="1" width="1" />
+<img src="/images/btncherylon.gif" height="1" width="1" />
+<img src="/images/btncherylpon.gif" height="1" width="1" />
+<img src="/images/btnclientson.gif" height="1" width="1" />
+<img src="/images/btncontacton.gif" height="1" width="1" />
+<img src="/images/btnhistoryon.gif" height="1" width="1" />
+<img src="/images/btnhomeon.gif" height="1" width="1" />
+<img src="/images/btninterviewson.gif" height="1" width="1" />
+<img src="/images/btnresumeon.gif" height="1" width="1" />
+<img src="/images/btnreviewson.gif" height="1" width="1" />
+<img src="/images/btnserviceson.gif" height="1" width="1" />
+<img src="/images/btnwarneron.gif" height="1" width="1" />
+<img src="/images/btnwarnerpon.gif" height="1" width="1" />
 
 <!-- EXTERNAL LINKS -->
 <div style="position: absolute; top: -20px; left: -20px;">
 <a href="http://www.northworks.net">.</a>
 </div>
 <!-- END EXTERNAL LINKS -->
+
+<script language="javascript">
+<!-- Begin
+var nn = navigator.appName;
+var nnv = parseInt(navigator.appVersion)
+if((nn == "Netscape") && (nnv < 4)){
+  // Skip for old Netscape
+} else {
+  // Safely populate timestamp div
+  var timestampDiv = document.getElementById('timestamp');
+  if (timestampDiv) {
+    timestampDiv.innerHTML = day + month + myweekday;
+  }
+}
+// End -->
+</script>
 
 </body>
 </html>

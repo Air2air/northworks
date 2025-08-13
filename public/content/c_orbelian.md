@@ -4,17 +4,15 @@ converted_from_html: true
 id: c_orbelian
 images:
 - height: 28
-  src: images/title_orbelian.gif
+  src: /images/title-orbelian.gif
   width: 290
 - height: 144
-  src: images/orbelian.jpg
+  src: /images/orbelian.jpg
   width: 141
 - height: 205
-  src: images/moscow.jpg
+  src: /images/moscow.jpg
   width: 250
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: February
   publisher: Columbia Artists
@@ -55,7 +53,7 @@ Orbelian will be right here in San Francisco to play a piano concerto and conduc
 
 I had a chance a while back to interview the congenial Orbelian in a breeze way adjacent to the glorious Tchaikovsky Concert Hall in Moscow Conservatory of Music a while back.
 
-![](images/moscow.jpg)
+![](/images/moscow.jpg)
 
 An hour or so before our chat, Orbelian had been on the hall's podium to conduct the chorus in which I was singing and had proceeded to surprise my fellow singers with his impeccable, idiomatic English. Although he looked like everybody's idea of a classic Russian -- a sturdy, stocky bear of a man with a coal-black beard and moustache and intense dark eyes -- he sounded as thoroughly American as hot dogs and baseball.
 
@@ -88,12 +86,3 @@ Other works on the program will be *Three Armenian Dances* by Komitas; *Five Pre
 
 ©1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -1,10 +1,21 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageHeader, StatsGrid, NavigationCard, QuickAccessLinks, FeatureSection } from '@/components/ui';
+import type { StatItem, NavigationCardProps, QuickAccessItem } from '@/components/ui';
 import ProjectListComponent, { parseProjectsFromMarkdown } from '@/components/ProjectListComponent';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Metadata } from 'next';
+import { 
+  FaUniversity, 
+  FaGraduationCap, 
+  FaGlobe, 
+  FaBook, 
+  FaUserGraduate, 
+  FaStar, 
+  FaCrosshairs,
+  FaIndustry
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - All Projects Index | NorthWorks',
@@ -47,7 +58,77 @@ export default function ProjectsIndexPage() {
     }
   };
 
-  // Parse all projects
+  // Statistics data
+  const careerStats: StatItem[] = [
+    { value: '50+', label: 'Years Experience', color: 'blue' },
+    { value: '100+', label: 'Major Projects', color: 'green' },
+    { value: '25+', label: 'Organizations', color: 'purple' },
+    { value: '4', label: 'Key Sectors', color: 'orange' },
+    { value: '12', label: 'EPA Committees', color: 'red' }
+  ];
+
+  // Navigation cards for project categories
+  const projectCategories: Omit<NavigationCardProps, 'className'>[] = [
+    {
+      title: 'Government Projects',
+      description: 'Federal and state agency consulting work',
+      href: '/warner/projects/government',
+      icon: <FaUniversity className="text-blue-600" />,
+      color: 'blue',
+      tags: ['EPA', 'NRC', 'DOE', 'State Agencies']
+    },
+    {
+      title: 'Academic Research',
+      description: 'University collaborations and research projects',
+      href: '/warner/stanford-index',
+      icon: <FaGraduationCap className="text-red-600" />,
+      color: 'red',
+      tags: ['Stanford', 'Research', 'Teaching']
+    },
+    {
+      title: 'Industry Consulting',
+      description: 'Private sector risk analysis and consulting',
+      href: '/warner/projects/industry',
+      icon: <FaIndustry className="text-green-600" />,
+      color: 'green',
+      tags: ['Energy', 'Utilities', 'Chemical']
+    },
+    {
+      title: 'International Work',
+      description: 'Global consulting and advisory projects',
+      href: '/warner/projects/international',
+      icon: <FaGlobe className="text-purple-600" />,
+      color: 'purple',
+      tags: ['World Bank', 'International', 'Global']
+    }
+  ];
+
+  // Quick access items
+  const quickAccessItems: QuickAccessItem[] = [
+    {
+      title: 'Publications Index',
+      description: 'Research papers and reports',
+      href: '/warner/publications-index',
+      icon: <FaBook className="text-green-600" />,
+      color: 'green'
+    },
+    {
+      title: 'Professional Background',
+      description: 'Education and credentials', 
+      href: '/warner/background',
+      icon: <FaUserGraduate className="text-blue-600" />,
+      color: 'blue'
+    },
+    {
+      title: 'National Academies',
+      description: 'NRC service and reports',
+      href: '/warner/nrc-index',
+      icon: <FaStar className="text-purple-600" />,
+      color: 'purple'
+    }
+  ];
+
+  // Parse all projects for dynamic data
   const allProjects = [
     ...(mainProjectsData ? parseProjectsFromMarkdown(mainProjectsData.content, []) : []),
     ...(governmentData ? parseProjectsFromMarkdown(governmentData.content, []) : []),
@@ -80,188 +161,72 @@ export default function ProjectsIndexPage() {
      p.organization.includes('Institute'))
   );
 
-  const internationalProjects = allProjects.filter(p =>
-    p.organization.includes('Mexico') ||
-    p.organization.includes('Russian') ||
-    p.organization.includes('Stuttgart') ||
-    p.organization.includes('International')
-  );
-
   return (
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12 text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Complete Projects Portfolio</h1>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Comprehensive overview of 50+ years of consulting, government service, and academic work 
-            in risk analysis, decision science, and environmental policy.
-          </p>
-        </div>
+        <PageHeader
+          title="Complete Projects Portfolio"
+          description="Comprehensive overview of 50+ years of consulting, government service, and academic work in risk analysis, decision science, and environmental policy."
+          gradientFrom="blue-500"
+          gradientTo="purple-600"
+        />
 
-        {/* Career Timeline Stats */}
-        <div className="grid md:grid-cols-5 gap-6 mb-12">
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-blue-700 mb-2">50+</div>
-            <div className="text-sm text-blue-600 font-medium">Years Experience</div>
-          </div>
-          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-green-700 mb-2">{governmentProjects.length}</div>
-            <div className="text-sm text-green-600 font-medium">Government Projects</div>
-          </div>
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-purple-700 mb-2">{academicProjects.length}</div>
-            <div className="text-sm text-purple-600 font-medium">Academic Projects</div>
-          </div>
-          <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-orange-700 mb-2">{industryProjects.length}</div>
-            <div className="text-sm text-orange-600 font-medium">Industry Projects</div>
-          </div>
-          <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-red-700 mb-2">{internationalProjects.length}</div>
-            <div className="text-sm text-red-600 font-medium">International Work</div>
-          </div>
-        </div>
+        {/* Career Statistics */}
+        <StatsGrid stats={careerStats} columns={5} />
 
-        {/* Project Categories Grid */}
+        {/* Project Categories */}
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
-          {/* Government Projects */}
-          <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-            <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-white">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h2 className="text-2xl font-bold mb-2">Government Service</h2>
-                  <p className="text-blue-100">Federal & state agency consulting</p>
-                </div>
-                <div className="text-4xl opacity-80">🏛️</div>
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">{governmentProjects.filter(p => p.organization.includes('EPA')).length}</div>
-                  <div className="text-xs text-gray-600">EPA Projects</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">{governmentProjects.filter(p => p.organization.includes('Nuclear')).length}</div>
-                  <div className="text-xs text-gray-600">Nuclear Safety</div>
-                </div>
-              </div>
-              <Link 
-                href="/warner/projects/government"
-                className="w-full bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium py-3 px-4 rounded-lg transition-colors text-center block"
-              >
-                View Government Projects →
-              </Link>
-            </div>
-          </div>
-
-          {/* Academic Projects */}
-          <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-            <div className="bg-gradient-to-r from-purple-500 to-purple-600 p-6 text-white">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h2 className="text-2xl font-bold mb-2">Academic Work</h2>
-                  <p className="text-purple-100">Stanford University & research</p>
-                </div>
-                <div className="text-4xl opacity-80">🎓</div>
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">35+</div>
-                  <div className="text-xs text-gray-600">Years Stanford</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">25+</div>
-                  <div className="text-xs text-gray-600">NRC Reports</div>
-                </div>
-              </div>
-              <Link 
-                href="/warner/stanford-index"
-                className="w-full bg-purple-50 hover:bg-purple-100 text-purple-700 font-medium py-3 px-4 rounded-lg transition-colors text-center block"
-              >
-                View Academic Work →
-              </Link>
-            </div>
-          </div>
+          {projectCategories.map((category, index) => (
+            <NavigationCard
+              key={index}
+              title={category.title}
+              description={category.description}
+              href={category.href}
+              icon={category.icon}
+              color={category.color}
+              tags={category.tags}
+              size="large"
+            />
+          ))}
         </div>
 
         {/* Expertise Areas */}
-        <div className="bg-gray-50 rounded-xl p-8 mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Core Expertise Areas</h2>
+        <FeatureSection
+          title="Core Expertise & Impact"
+          icon={<FaCrosshairs className="text-blue-600" />}
+          color="blue"
+        >
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">📊</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Risk Analysis</h3>
-              <p className="text-gray-600">Quantitative risk assessment, probabilistic analysis, and uncertainty modeling</p>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-medium text-gray-900 mb-3">Risk Assessment</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Quantitative methods for evaluating technological and environmental risks
+              </p>
+              <div className="text-sm text-blue-600 font-medium">{governmentProjects.length} projects</div>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🌍</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Environmental Policy</h3>
-              <p className="text-gray-600">Environmental protection, regulatory policy, and public participation</p>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-medium text-gray-900 mb-3">Decision Analysis</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Structured approaches to complex policy and management decisions
+              </p>
+              <div className="text-sm text-purple-600 font-medium">{academicProjects.length} projects</div>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">⚛️</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Nuclear Safety</h3>
-              <p className="text-gray-600">Nuclear waste management, reactor safety, and regulatory oversight</p>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-medium text-gray-900 mb-3">Nuclear Safety</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Nuclear waste management and reactor safety analysis
+              </p>
+              <div className="text-sm text-green-600 font-medium">{industryProjects.length} projects</div>
             </div>
           </div>
-        </div>
+        </FeatureSection>
 
         {/* Quick Access Links */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <Link 
-            href="/warner/projects"
-            className="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-blue-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">📋</div>
-              <h3 className="font-semibold text-gray-900 mb-2">All Projects</h3>
-              <p className="text-sm text-gray-600">Complete project overview</p>
-            </div>
-          </Link>
-
-          <Link 
-            href="/warner/publications-index"
-            className="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-green-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">📚</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Publications</h3>
-              <p className="text-sm text-gray-600">Books, papers & reports</p>
-            </div>
-          </Link>
-
-          <Link 
-            href="/warner/nrc-index"
-            className="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">🏛️</div>
-              <h3 className="font-semibold text-gray-900 mb-2">National Academies</h3>
-              <p className="text-sm text-gray-600">NRC committee work</p>
-            </div>
-          </Link>
-
-          <Link 
-            href="/warner/background"
-            className="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-orange-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">🎯</div>
-              <h3 className="font-semibold text-gray-900 mb-2">Background</h3>
-              <p className="text-sm text-gray-600">Education & credentials</p>
-            </div>
-          </Link>
-        </div>
+        <QuickAccessLinks 
+          title="Related Resources"
+          items={quickAccessItems} 
+        />
 
         {/* Navigation */}
         <div className="border-t pt-8">

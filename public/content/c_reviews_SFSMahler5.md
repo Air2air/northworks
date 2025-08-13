@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_reviews_SFSMahler5
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 publication:
   author: Cheryl North

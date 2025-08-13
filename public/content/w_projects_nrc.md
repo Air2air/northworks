@@ -4,100 +4,100 @@ converted_from_html: true
 id: w_projects_nrc
 images:
 - height: 28
-  src: images/title_experience_nrc.gif
+  src: /images/title-experience-nrc.gif
   width: 304
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 50
-  src: images/logo_nrc.gif
+  src: /images/logo-nrc.gif
   width: 50
 - height: 28
-  src: images/title_gray_nrc.gif
+  src: /images/title-gray-nrc.gif
   width: 220
 - height: 86
-  src: images/book_disposition.jpg
+  src: /images/book-disposition.jpg
   width: 60
 - height: 86
-  src: images/public participation image.gif
+  src: /images/public-participation-image.gif
   width: 60
 - height: 86
-  src: images/book_understanding.gif
+  src: /images/book-understanding.gif
   width: 60
 - height: 86
-  src: images/book_judgement.gif
+  src: /images/book-judgement.gif
   width: 60
 - height: 86
-  src: images/book_communication.gif
+  src: /images/book-communication.gif
   width: 60
 - height: 86
-  src: images/book_government.gif
+  src: /images/book-government.gif
   width: 60
 title: Main Publications
 type: article
@@ -109,7 +109,7 @@ Dr. North was designated as a [National Associate**](http://www.nationalacademie
 
  Assignments for the National Research Council and other parts of the National Academies (partial list): **
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Commission on Natural Resources****Consultant to Committee, 1972-1974, for analysis in Chapter 9 of report, [ AIr Quality and Stationary Source Emission Controls*](http://books.nap.edu/catalog/10840.html), published by U.S. Government Printing Office for the Senate Committee on Public Works, March 1975.
 
@@ -121,15 +121,15 @@ Dr. North was designated as a [National Associate**](http://www.nationalacademie
     
  Committee on Health and Ecological Effects of Synfuels Industries****Member, 1982-1985.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Committee on Demilitarizing Chemical Munitions and Agents****Member and Assistant Chairman, Stockpile Assessment Panel, l983-1984,[ Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), 1984..
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Radioactive Waste Management****Consultant to Board for review of DOE methodology for high-level nuclear waste repository site selection (1985-1986).
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Commission of Behavioral and Social Sciences and Education
 Commission on Physical Sciences, Mathematics, and Resources****Member, Committee on Risk Perception and Communication, 1987-1989; report, [Improving Risk Communication*](http://www.nap.edu/catalog.php?record_id=1189) published in 1989.
@@ -150,66 +150,66 @@ Commission on Physical Sciences, Mathematics, and Resources****Member, Committee
     
  Board on Radioactive Waste Management****Member, 1995 - 1999; Member of Working Group that prepared the report,[ Technologies for Environmental Management: The Department of Energy's Office of Science and Technology*](http://books.nap.edu/catalog.php?record_id=9656), published in 1999.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Transportation Research Board****Chair, Committee to Review Federal Estimates of the Relationship of Vehicle Weight to Fatality and Injury Risk; [ Letter Report to Administrator, National Highway Traffic Safety Administration](http://onlinepubs.trb.org/onlinepubs/reports/letrept.html), 1996.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Agriculture and Natural Resources****Conference on Incorporating Science, Economics, and Sociology in Developing Sanitary and Phytosanitary Standards in International Trade; Member of Organizing Group for 1999 Conference; [Incorporating Science, Economics, and Sociology in Developing Sanitary and Phytosanitary Standards in International Trade:
 Proceedings of a Conference,](http://books.nap.edu/catalog.php?record_id=9868) published in 2000.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Radioactive Waste Management****Chair, Steering Committee and Advisory Committee, Disposition of High-Level Radioactive Waste through Geological Isolation: Development, Current Status, and Policy Challenges; International Workshop, November 4-5, 1999; report, [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) published in 2001.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Committee on Research Priorities for Airborne Particulate Matter****Reviewer, [Research Priorities for Airborne Particulate Matter:
 IV. Continuing Research Progress](http://www.nap.edu/catalog.php?record_id=10957), 2004.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Division of Behavioral and Social Sciences and Education****Reviewer, [Decision Making for the Environment:
 Social and Behavioral Science Research Priorities](http://www.nap.edu/catalog.php?record_id=11186), 2005.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Radioactive Waste Management****Reviewer, [Risk and Decisions About Disposition of Transuranic and High-Level Radioactive Waste](http://www.nap.edu/catalog.php?record_id=11223), 2005.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Chemical Sciences and Technology****Report Review Coordinator, [ Review of Testing and Evaluation for Biological Point Detectors](http://books.nap.edu/catalog.php?record_id=11287), 2005. Reviewer, [Test and Evaluation of Biological Standoff Detection Systems](http://www.nap.edu/catalog.php?record_id=12058), 2008, and [A Framework for Assessing the Health Hazard Posed by Bioaerosols](http://www.nap.edu/catalog.php?record_id=12003), 2008.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  National Academy of Engineering****Reviewer, [Accident Precursor Analysis and Management: Reducing Technological Risk through Diligence](http://www.nap.edu/catalog.php?record_id=11061), 2004, and
 [
 Fourth Report of the National Academy of Engineering/National Research Council Committee on New Orleans Regional Hurricane Protection Projects: Review of the IPET Volume VIII](http://www.nap.edu/catalog.php?record_id=12167), 2008.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Life Sciences, Earth and Life Sciences****Committee Member, [
 Technical Input on the National Institutes of Health's Draft Supplementary Risk Assessments and Site Suitability Analyses for the National Emerging Infectious Diseases Laboratory, Boston University:
 A Letter Report](http://www.nap.edu/catalog.php?record_id=12073), 2007.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Life Sciences, Earth and Life Sciences****Committee Member, [Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A Letter Report](http://www.nap.edu/catalog.php?record_id=12208), 2008.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Division of Behavioral and Social Sciences and Education****Panel Member, 2004-2008; report, [Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), 2008.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Life Sciences, Earth and Life Sciences****Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3]( http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Division of Earth and Life Sciences. ****Reviewer. [Preparing for Future Products of Biotchnology](http://www.nap.edu/catalog.php?record_id=24605), 2017.
 
-![](images/logo_nrc.gif)
+![](/images/logo-nrc.gif)
 
  Board on Environmental Studies and Toxicology**
 Reviewer. [A Review of the Environmental Protection Agency's Science to Achieve Results Program](http://www.nap.edu/catalog.php?record_id=24757), 2017.
@@ -217,7 +217,7 @@ Reviewer. [A Review of the Environmental Protection Agency's Science to Achieve 
 ### Main Publications
 
 [
-![](images/book_disposition.jpg)
+![](/images/book-disposition.jpg)
 ](http://books.nap.edu/catalog.php?record_id=10119)
 
 [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119)
@@ -226,7 +226,7 @@ National Academy Press
  212 pages, 2001.
 
 [
-![](images/public participation image.gif)
+![](/images/public-participation-image.gif)
 ](http://www.nap.edu/catalog.php?record_id=12434)
 
 [Public Particpation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434)
@@ -235,7 +235,7 @@ National Academy Press
 322 pages, 2008
 
 [
-![](images/book_understanding.gif)
+![](/images/book-understanding.gif)
 ](http://www.nap.edu/catalog/5138.html)
 
 [Understanding Risk: Informing Decisions
@@ -245,7 +245,7 @@ National Academy Press
 249 pages, 1996
 
 [
-![](images/book_judgement.gif)
+![](/images/book-judgement.gif)
 ](http://www.nap.edu/catalog/2125.html)
 
 [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html)
@@ -254,7 +254,7 @@ National Academy Press
 651 pages, 1994
 
 [
-![](images/book_communication.gif)
+![](/images/book-communication.gif)
 ](http://www.nap.edu/catalog/1189.html)
 
 [Improving Risk Communication](http://www.nap.edu/catalog/1189.html)
@@ -264,7 +264,7 @@ National Academy Press
 331 pages, 1989
 
 [
-![](images/book_government.gif)
+![](/images/book-government.gif)
 ](http://www.nap.edu/catalog/366.html)
 
 [Risk Assessment in the Federal Government:
@@ -276,12 +276,3 @@ National Academy Press
 
 [Laser technology consulting](/w_laser.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

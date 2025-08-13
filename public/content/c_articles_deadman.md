@@ -4,26 +4,23 @@ converted_from_html: true
 id: c_articles_deadman
 images:
 - height: 28
-  src: images/title_articles.gif
+  src: /images/title-articles.gif
   width: 250
 - height: 28
-  src: images/title_gray_dead.gif
+  src: /images/title-gray-dead.gif
   width: 220
 - height: 218
-  src: images/opera_now_cover.jpg
+  src: /images/opera-now-cover.jpg
   width: 150
 - height: 149
-  src: images/dmw_1.jpg
+  src: /images/dmw-1.jpg
   width: 220
 - height: 181
-  src: images/dmw_2.jpg
+  src: /images/dmw-2.jpg
   width: 220
 - height: 258
-  src: images/dmw_3.jpg
+  src: /images/dmw-3.jpg
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   publisher: Sister Helen
 subjects:
@@ -85,28 +82,19 @@ Since her encounter with Patrick Sonnier, Sister Helen has counselled two additi
 
 One of America's starriest singers on the international opera scene, mezzo Susan Graham, has been chosen to sing the role of Sister Helen, with Kristine Jepson scheduled to sing the role for one performance. Frederica von Stade takes on the role of the inmate's mother. Australian baritone Teddy Tahu Rhodes will sing the role of Joe for one performance. San Francisco Opera's Principal Guest Conductor Patrick Summers will conduct, while Joe Mantello directs.
 
-![](images/title_gray_dead.gif)
+![](/images/title-gray-dead.gif)
 
-![](images/opera_now_cover.jpg)
+![](/images/opera-now-cover.jpg)
 
-![](images/dmw_1.jpg)
+![](/images/dmw-1.jpg)
 
 Three sisters: Susan Sarandon (center) from the film version of �Dead Man Walking�, flanked by Susan Graham (right) who played the lead in the opera, and the real Sister Helen Prejean.
 
-![](images/dmw_2.jpg)
+![](/images/dmw-2.jpg)
 
 Michael Yeargan�s design for the bleak prison setting of the Opera
 
-![](images/dmw_3.jpg)
+![](/images/dmw-3.jpg)
 
 The creative team of Dead Man Walking, left to right: Jake Heggie, Terence McNally, Patrick Summers and Joe Montello.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

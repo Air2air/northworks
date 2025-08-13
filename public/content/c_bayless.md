@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_bayless
 images:
 - height: 150
-  src: images/thm_bayless.jpg
+  src: /images/thm-bayless.jpg
   width: 150
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: November
   publisher: such performers
@@ -84,12 +82,3 @@ Improvisation, in the minds of most of today�s classical music mavens, is usua
 
  Michael Morgan will be at the helm conducting the OEBS during the opening night concert at 8 p.m. Nov. 10 at the Paramount Theatre, 2121 Broadway, in Oakland. The concert is entitled �Made in America,� and besides Bayless playing Gershwin�s *Rhapsody in Blue*, will include Aaron Copland�s wonderful *Symphony No. 3*, which includes his famous *Fanfare for the Common Man* in its final movement.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

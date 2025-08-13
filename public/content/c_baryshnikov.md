@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_baryshnikov
 images:
 - height: 140
-  src: images/thm_baryshnikov.jpg
+  src: /images/thm-baryshnikov.jpg
   width: 144
 publication:
   date: March
@@ -24,7 +24,7 @@ In 1948, this Russian-born couple have a son who will someday be awarded The Nat
 
 Fiction? No � fact.
 
-![](images/thm_baryshnikov.jpg)
+![](/images/thm-baryshnikov.jpg)
 
 But that's only a part of the fantastic tale. This child, whom his parents named Mikhail Nikolaevitch Baryshnikov, would also grow up to become a recipient of a coveted Kennedy Center Honor, a Commonwealth Award, a Chubb Fellowship and the Jerome Robbins Award. He would eventually become a naturalized citizen of the United States.
 
@@ -56,12 +56,3 @@ He went on to explain that he felt the Baltic countries have a great musical and
 
 "The Baltics have a special artistic point of view," he emphasized. "Historically they are strong musically. (Arvo) Part put Estonia on the map, while Riga has one of the world's best historic organs in its great cathedral, and the area has a world-renowned choral tradition."
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

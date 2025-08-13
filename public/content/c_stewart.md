@@ -4,14 +4,12 @@ converted_from_html: true
 id: c_stewart
 images:
 - height: 28
-  src: images/title_stewart.gif
+  src: /images/title-stewart.gif
   width: 250
 - height: 185
-  src: images/stewart.jpg
+  src: /images/stewart.jpg
   width: 227
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: June
   publisher: Tom Stoppard
@@ -101,12 +99,3 @@ Next month he will travel to Tanglewood, Massachusetts where he will perform sev
 
 Music it seems, is destined to play an increasingly significant role in Stewart's life. Last month he was awarded an honorary doctorate from the shining citadel of the music world, the Juilliard School in New York.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

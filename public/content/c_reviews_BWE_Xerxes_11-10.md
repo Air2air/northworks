@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_BWE_Xerxes_11-10
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   date: November
@@ -59,14 +59,5 @@ Other cast members are petite soprano and consummate comedian Anna Slate, who sa
 
 And heres an ironic bit: Xerxes' opening aria happens to be the original source of the beloved piece we now call Handel's Largo. Not the stately, semi-religious piece we use for grand ceremonial occasions, it's actually the love song the ancient Persian King sings to -- of all things -- a tree!
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

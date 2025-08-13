@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_heggie
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: October
   publisher: transporting mere
@@ -138,14 +135,5 @@ Jake Heggie has matured into one of the leading music drama composers of this ag
 among the Bay Area's music critics do not seem to agree with my evaluation, I believe Heggie's achievements will
 eclipse those of most other contemporary composers, and hopefully, will endure through the ages.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

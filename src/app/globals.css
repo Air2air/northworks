@@ -25,6 +25,92 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Fix paragraph spacing for content areas */
+.prose {
+  max-width: none;
+  line-height: 1.7;
+  color: var(--foreground);
+}
+
+.prose p {
+  margin-bottom: 1.25em;
+  line-height: 1.75;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.prose h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.prose p:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+/* Global paragraph spacing for content areas */
+.content-area p:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+.content-area p {
+  line-height: 1.75;
+}
+
+/* General paragraph spacing for all content */
+article p, 
+.markdown-content p,
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+article p:last-child,
+.markdown-content p:last-child,
+.content p:last-child {
+  margin-bottom: 0;
+}
+
 /* Custom utilities */
 .line-clamp-1 {
   overflow: hidden;

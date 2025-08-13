@@ -4,11 +4,11 @@ converted_from_html: true
 id: c_masur
 images:
 - height: 160
-  src: images/thm_masur.jpg
+  src: /images/thm-masur.jpg
   width: 160
 publication:
-  date: November
-  publisher: the Nazis
+  date: November 1, 2002
+  publisher: ANG Newspapers Classical Music
 subjects:
 - like renowned
 - Bay Area
@@ -20,16 +20,11 @@ subjects:
 - Honorary Guest
 - as its
 - rehearsals and
-title: <b>Cheryl North Interviews Kurt Masur</b>
+title: Masur's Life of Triumphs through the Impossible
 type: article
 ---
 
-**
 
-### Cheryl North Interviews Kurt Masur**
-
-*ANG Newspapers Classical Music
- Column - November 1, 2002, under headline,"Masur's Life of Triumphs through the Impossible"*
 
 Some famous music makers are far more than just musicians. Some, like renowned conductor Kurt Masur, become, during the course of a lifetime, great humanitarians and citizens of the world.
 
@@ -57,7 +52,7 @@ The New York Philharmonic honor was awarded even though his departure last seaso
 
 In the same article, Masur is reported to have said, "They (the orchestra members) understood that all I wanted was to work together for quality, for responsibility toward the composer, for meaningful interpretations. We will miss each other."
 
-![](images/thm_masur.jpg)
+![](/images/thm-masur.jpg)
 
 Happily, his domestic life is on the idyllic side. Tomoko smilingly relealed, "We fell in love when he was a guest conductor more than 25 years ago in Brazil and I was one of the violists."
 
@@ -73,6 +68,3 @@ One of Masur's greatest challenges happened last year when a grave kidney condit
 
 Then someone on the other side of the table broke open one of the fortune cookies and waved its little fortune in the air. Looking at the Maestro, the rest of the guests smiled and he nodded in ascent.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)

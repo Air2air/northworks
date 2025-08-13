@@ -51,12 +51,3 @@ type: article
 
  When I asked her what she would be doing if she were not an actor/singer, she fervently replied, "I would love to do anything that involves working with children. My daughter Zoe Madeline (born on Valentine's Day, 2001 and named after her costar in the stage production of Terrence McNally's *Master Class*, and her close friend, Madeline Kahn) is the reason for my existence."
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

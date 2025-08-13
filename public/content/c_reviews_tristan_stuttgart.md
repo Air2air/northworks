@@ -4,13 +4,13 @@ converted_from_html: true
 id: c_reviews_tristan_stuttgart
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 180
-  src: images/stuttgart_state_opera.jpg
+  src: /images/stuttgart-state-opera.jpg
   width: 300
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -106,16 +106,7 @@ After he recited facts and figures testifying to the fiscal success of the opera
 
 Stuttgart State Theater, Home of the Stuttgart State Opera
 
-![](images/stuttgart_state_opera.jpg)
+![](/images/stuttgart-state-opera.jpg)
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

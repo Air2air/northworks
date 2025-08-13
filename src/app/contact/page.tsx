@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -56,12 +57,12 @@ export default function ContactPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Contact NorthWorks</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Get in touch with D. Warner North and Cheryl North for consulting and journalism services
-          </p>
-        </div>
+        <PageTitle
+          title="Contact NorthWorks"
+          description="Get in touch with D. Warner North and Cheryl North for consulting and journalism services"
+          align="center"
+          size="large"
+        />
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Information */}

@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_lopardo
 images:
 - height: 139
-  src: images/frank_lopardo.jpg
+  src: /images/frank-lopardo.jpg
   width: 183
 publication:
   date: September
@@ -59,7 +59,7 @@ Continuing, he emphasized, "I try not to bring too much attention to myself duri
 
 When I asked him what he would like to be doing 15 or 20 years from now, he spontaneously said, "Just what I'm doing now. I love the repertoire I'm presently doing -- *La Boheme, Traviata, Lucia, L'Elisir, Eugene Onegin, Rigoletto *. But I want to explore them more fully. Just because you've got a role memorized, doesn't mean that you've uncovered all its secrets. I'll always be searching for more nuance and polish to bring to the roles I'm now singing." However, he added that he hopes to add the lead tenor roles of *Werther, Manon* and *Tales of Hoffman*, even though he qualified these plans with the comment "Life is short. Why should I do what I don't particularly like when I am quite happy doing the roles that resonate with me?"
 
-![](images/frank_lopardo.jpg)
+![](/images/frank-lopardo.jpg)
 
 Another indication of what many in the music world would consider this uncommon tenor's common sense, is the fact that he doesn't read reviews until a particular engagement is over.
 
@@ -73,7 +73,5 @@ Lopardo has by now successfully established himself performances of his signatur
 
 But, don't expect him to be singing Wagner any time soon!
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

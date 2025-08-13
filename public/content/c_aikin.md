@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_aikin
 images:
 - height: 200
-  src: images/laura_aikin.jpg
+  src: /images/laura-aikin.jpg
   width: 160
 publication:
   date: February
@@ -75,7 +75,5 @@ But lest Laura be forever typecast as an angel, her favorite role happens to be 
 
 Guest conductor Ingo Metzmacher conducts the San Francisco Symphony and Chorus in Schumann's *Das Paradies und die Peri*" tonight at Davies Symphony Hall, 201 Van Ness Ave., San Francisco. Other vocal soloists are Kristine Jepson, Christoph Pregardien, William Dazeley, Jane Archibald, Ronit Widmann-Levy, Sonia Gariaeff and Catherine Cook.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

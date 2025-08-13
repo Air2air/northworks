@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_conlon
 images:
 - height: 125
-  src: images/james_conlon_conducting.jpg
+  src: /images/james-conlon-conducting.jpg
   width: 173
 publication:
   date: June
@@ -84,12 +84,3 @@ In 1999, he received the Zemlinsky Prize, awarded only once before, and in 1996,
 
 In 2002, he received France's highest distinction, the Legion d'Honneur, from President Jacques Chirac. He will also assume the conductorship of the Los Angeles Opera from Kent Nagano this coming 2006-07 season.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

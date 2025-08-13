@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_ventris
 images:
 - height: 200
-  src: images/christopher_ventris.jpg
+  src: /images/christopher-ventris.jpg
   width: 160
 publication:
   date: June

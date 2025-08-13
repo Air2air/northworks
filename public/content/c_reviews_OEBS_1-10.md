@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_OEBS_1-10
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -53,14 +53,5 @@ Driving, repetitive rhythmic figures and dense brass textures highlighted Ghazar
 
 Then, as though adding a dollop of caviar atop this festive feast, Morgan roused one and all with a racy encore of Khachaturian's ever popular *Saber Dance*.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

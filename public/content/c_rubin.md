@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_rubin
 images:
 - height: 140
-  src: images/nathan_rubin.jpg
+  src: /images/nathan-rubin.jpg
   width: 144
 publication:
   date: January
@@ -61,12 +61,3 @@ Once I asked Rubin about his unusually eclectic musical tastes. He answered, "I 
 
 I hope there are violins, as well as harps, in heaven.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

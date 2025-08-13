@@ -4,7 +4,7 @@ converted_from_html: true
 id: w_background
 images:
 - height: 28
-  src: images/title_background.gif
+  src: /images/title-background.gif
   width: 250
 publication:
   publisher: the Decision
@@ -48,12 +48,3 @@ National Science Foundation fellowships in physics (1962-4), mathematics (1965-7
 
  [Laser technology consulting](/w_laser.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

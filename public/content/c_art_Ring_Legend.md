@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_art_Ring_Legend
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   date: July
@@ -58,4 +58,4 @@ Berkeley Opera has garnered a luminous reputation since its 1979 founding by Ric
 
 From its genesis, the plucky company has been committed to presenting opera as lively, compelling musical theater, fusing music and drama in ways that both delight and challenge audiences. The company's originality has earned it a reputation of being one of the most interesting small companies in the nation.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)

@@ -4,14 +4,11 @@ converted_from_html: true
 id: c_thibaudet
 images:
 - height: 297
-  src: images/thibaudet1.jpg
+  src: /images/thibaudet1.jpg
   width: 200
 - height: 280
-  src: images/thibaudet_w&c.jpg
+  src: /images/thibaudet-wandc.jpg
   width: 200
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: October
   publisher: an exhausted
@@ -88,16 +85,7 @@ She did her job well. At age 9, her young son played Ravel's dauntingly difficul
 
  Grinning broadly, he said, "Every morning when I wake up I feel a sense of joy and optimism because I'm doing exactly what I love — and I get paid for it!"
 
-![](images/thibaudet_w&c.jpg)
+![](/images/thibaudet-wandc.jpg)
 
 Jean-Yves Thibaudet with Warner and Cheryl North backstage at Davies Hall, after the performance of the Saint-Saens Piano Concerto No. 2 by Jean-Yves Thibaudet and the San Francisco Symphony on October 18, 2006
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

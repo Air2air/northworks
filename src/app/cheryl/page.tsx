@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { BiographyFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -57,12 +58,12 @@ export default function CherylPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Cheryl North</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Classical Music Journalist and Critic specializing in opera and symphony performances
-          </p>
-        </div>
+        <PageTitle
+          title="Cheryl North"
+          description="Classical Music Journalist and Critic specializing in opera and symphony performances"
+          align="center"
+          size="large"
+        />
 
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Main Content */}

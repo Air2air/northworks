@@ -1,6 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ArticleFrontmatter, ContentData } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { cleanTitle } from '@/lib/pathUtils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -19,7 +20,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const content = getContentBySlug(params.slug);
+  const resolvedParams = await params;
+  const content = getContentBySlug(resolvedParams.slug);
   
   if (!content) {
     return {
@@ -28,16 +30,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const frontmatter = content.frontmatter as ArticleFrontmatter;
+  const title = cleanTitle(frontmatter.seo?.title || frontmatter.title);
   
   return {
-    title: frontmatter.seo?.title || frontmatter.title,
-    description: frontmatter.seo?.description || `Article: ${frontmatter.title}`,
+    title,
+    description: frontmatter.seo?.description || `Article: ${title}`,
     keywords: frontmatter.seo?.keywords || frontmatter.subjects,
   };
 }
 
-export default function ArticlePage({ params }: Props) {
-  const content = getContentBySlug(params.slug);
+export default async function ArticlePage({ params }: Props) {
+  const resolvedParams = await params;
+  const content = getContentBySlug(resolvedParams.slug);
   
   if (!content) {
     notFound();
@@ -49,7 +53,7 @@ export default function ArticlePage({ params }: Props) {
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
     { label: 'Articles', href: '/articles', active: false },
-    { label: frontmatter.title, href: `/articles/${params.slug}`, active: true }
+    { label: cleanTitle(frontmatter.title), href: `/articles/${resolvedParams.slug}`, active: true }
   ];
 
   // Create navigation - using default navigation since articles don't have navigation in frontmatter
@@ -72,7 +76,7 @@ export default function ArticlePage({ params }: Props) {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {frontmatter.title}
+            {cleanTitle(frontmatter.title)}
           </h1>
           
           {/* Publication Info */}
@@ -123,7 +127,7 @@ export default function ArticlePage({ params }: Props) {
           <div className="mb-8">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src={`/${frontmatter.images[0].src}`}
+                src={frontmatter.images[0].src}
                 alt={frontmatter.images[0].alt || frontmatter.title}
                 fill
                 className="object-cover"
@@ -178,7 +182,7 @@ export default function ArticlePage({ params }: Props) {
             </Link>
             
             <div className="text-sm text-gray-500">
-              Article • {params.slug}
+              Article • {resolvedParams.slug}
             </div>
           </div>
         </div>

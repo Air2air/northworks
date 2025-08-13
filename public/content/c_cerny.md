@@ -3,9 +3,9 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_cerny
 images:
-- height: 150
-  src: images/cerny_dallas.jpg
-  width: 225
+- height: 300
+  src: /images/cerny-dallas.jpg
+  width: 200
 publication:
   publisher: Cheryl North
 subjects:
@@ -71,7 +71,7 @@ By Cheryl North
 
  So, thanks to our own Bay Area, "The stars at night/Are big and bright/Deep in the heart of Texas!"
 
-![](images/cerny_dallas.jpg)
+![](/images/cerny-dallas.jpg)
 
 Keith Cerny at the Dallas Opera
 

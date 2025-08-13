@@ -4,11 +4,8 @@ converted_from_html: true
 id: c_art_national_anthem
 images:
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: July
   publisher: the British
@@ -53,14 +50,5 @@ There were, and have remained to this day, other musical contenders for the hono
 
 However, none better capture the fervor of America's great promise, to remain "the land of the free and the home of the brave!" than does *The Star-Spangled Banner*. Perhaps the difficult range of notes through which we must struggle in order to sing it remind us of the difficulties through which we must struggle to maintain the United States as the honorable land of the free and the home of the brave!
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

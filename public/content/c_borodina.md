@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_borodina
 images:
 - height: 160
-  src: images/thm_borodina.jpg
+  src: /images/thm-borodina.jpg
   width: 160
 publication:
   date: September
@@ -84,7 +84,5 @@ After I made a few arm motions of casting a line into a stream like a fly fisher
 
 When asked about a role she would like to sing in the future, she replied after a few second's thought, "Azucena (from Verdi's *Il Trovatore*). She is a REAL mother!"
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

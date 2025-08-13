@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_interview_bodorova
 images:
 - height: 190
-  src: images/thm_bodorova.jpg
+  src: /images/thm-bodorova.jpg
   width: 179
 publication:
   date: December
@@ -32,7 +32,7 @@ The Nativity of Jesus Christ has indeed inspired some of the world's most beauti
 
 Like Christmas, Hanukkah inspires musical minds to new creations. One profoundly thrilling new work I heard in recent years is an oratorio entitled "Juda Maccabeus" composed by Sylvie Bodorova of the Czech Republic.
 
-![](images/thm_bodorova.jpg)
+![](/images/thm-bodorova.jpg)
 
 Her work, which combines a contemporary harmonic vocabulary with melodic and rhythmic elements of traditional Jewish music, premiered last spring in the Cathedral of St. Vitus, which sits like a jewel on the hill above Prague in the Czech Republic.
 
@@ -72,7 +72,5 @@ And, after my recent visit to Kaliste and Jihlava, nor shall I.
 
 Website for Sylvie Bodorova: [http://bodorova.cz/en/index.php](http://bodorova.cz/en/index.php).
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.bodorova.cz/en/index.php">.

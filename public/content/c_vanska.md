@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_vanska
 images:
 - height: 226
-  src: images/vanska with c 10-31-09.jpg
+  src: /images/vanska-with-c-10-31-09.jpg
   width: 257
 publication:
   date: October
@@ -54,17 +54,8 @@ The program for Vanska's Oct. 22, 23 and 24 concerts will include John Adams' *S
 
 Fortunately, as critics have singled out Vanska as one of the world's foremost interpreters of the enigmatic music of Sibelius, he will conduct that composer's incomparable *Violin Concerto*, with Russian Vadim Repin as soloist for the concerts scheduled from Oct. 28 through 31. Other works on the program will be Finnish composer Aulis Sallinen's *Symphony No. 1* and Beethoven's *Coriolan Overture* and his lighthearted *Symphony No. 8*. Sallinen's Symphony will not be performed at the shorter Oct. 30 6:30 program.
 
-![](images/vanska with c 10-31-09.jpg)
+![](/images/vanska-with-c-10-31-09.jpg)
 
 Photo by Warner North, backstage at
 Davies Hall after San Francisco Symphony performance, October 31, 2009
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

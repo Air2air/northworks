@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_articles
 images:
 - height: 28
-  src: images/title_articles.gif
+  src: /images/title-articles.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   date: July
@@ -70,4 +70,4 @@ June 14 & 15, 1999
 
 Article in ANG Newspapers
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)

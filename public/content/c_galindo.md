@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_galindo
 images:
 - height: 140
-  src: images/guillermo_galindo.jpg
+  src: /images/guillermo-galindo.jpg
   width: 100
 publication:
   date: November
@@ -66,12 +66,3 @@ As if sensing any skepticism I might have, he added that he made great effort "t
 
 Galindo said that he feels fortunate to be able to support himself by teaching music and sound technology at the California College of Arts and at the College of San Mateo and by working on projects ranging from orchestral writing and special commissions for installation art, performances, opera, film music and sound design.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

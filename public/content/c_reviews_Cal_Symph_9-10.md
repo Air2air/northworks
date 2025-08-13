@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_Cal_Symph_9-10
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   date: October
@@ -61,14 +61,5 @@ The "hottest seat" in the Bay Area last Sunday was not a seat, but a podium in t
 
  Alas. All the notes were indeed there, but they were performed mechanically and rote-like, giving the piece the character of a careful recitation rather than whole phrases presenting whole meaningful ideas. I suspect that being the most familiar work on the program to both conductor and musicians, it received the least rehearsal time.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

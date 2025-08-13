@@ -26,17 +26,6 @@ export default function ContentLayout({
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* SEO Meta Tags */}
-      {frontmatter.seo && (
-        <head>
-          <title>{frontmatter.seo.title}</title>
-          <meta name="description" content={frontmatter.seo.description} />
-          {frontmatter.seo.keywords && (
-            <meta name="keywords" content={frontmatter.seo.keywords.join(', ')} />
-          )}
-        </head>
-      )}
-
       {/* Navigation */}
       <Navigation items={navigation} />
 

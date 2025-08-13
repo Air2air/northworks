@@ -4,14 +4,12 @@ converted_from_html: true
 id: c_giordani
 images:
 - height: 28
-  src: images/title_giordani.gif
+  src: /images/title-giordani.gif
   width: 250
 - height: 250
-  src: images/giordani.jpg
+  src: /images/giordani.jpg
   width: 191
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: August
   publisher: Cheryl North
@@ -62,7 +60,7 @@ What do you think of when you hear the words �Italian tenor?�
 
 Whatever first comes to mind probably won't fit Marcello Giordani. The young 37-year-old tenor is currently in the Bay Area rehearsing for his upcoming role in the first opera of the San Francisco Opera's 2000-2001 season, Verdi�s �Luisa Miller,� with Patricia Racette, Elena Zaremba, and
 
-![](images/giordani.jpg)
+![](/images/giordani.jpg)
 
 Paolo Gavanelli, scheduled for performances on Sept. 9, 13, 17, 19, 22, 28, and Oct. 1. Most local opera aficionados will remember him as the exceptionally fine Fernando in last season's production of Donizetti's �La Favorite;� and previous local leads in �La Traviata� with Carol Vaness; in �Lucia� with Ruth Ann Swenson; and �La Boheme� with Patricia Racette.
 
@@ -99,12 +97,3 @@ He flexed his right arm to show me his biceps. �See that muscle? It comes from
 
 �1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

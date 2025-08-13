@@ -4,14 +4,11 @@ converted_from_html: true
 id: c_reviews_paris
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   publisher: Cheryl North
 subjects:
@@ -55,14 +52,5 @@ By Cheryl North
 
  The audience was generously appreciative: Madame Chirac (the wife of the President of France), as well as Pierre Berge, (head of Yves St. Laurent), the French Minister of Culture, and on through the smattering of folks from the Bay Area. For a short time - because of the blessed universality of music - we were indeed, one world.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

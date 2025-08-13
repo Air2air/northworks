@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_barantschik
 images:
 - height: 250
-  src: images/barantschik and mtt cologne.jpg
+  src: /images/barantschik-and-mtt-cologne.jpg
   width: 350
 - height: 202
-  src: images/barantschik and violin.jpg
+  src: /images/barantschik-and-violin.jpg
   width: 123
 publication:
   date: September

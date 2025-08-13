@@ -4,13 +4,13 @@ converted_from_html: true
 id: c_reviews_oebs_nov04
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 190
-  src: images/thm_stookey.jpg
+  src: /images/thm-stookey.jpg
   width: 190
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -145,14 +145,5 @@ He also said that he had a Chamber Opera on his mind for the future as well as s
 
 "My faraway goal is that I hope people will still be listening to my music many years from now. But my bottom line is that I LIKE writing music. I really get a charge out it!"
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

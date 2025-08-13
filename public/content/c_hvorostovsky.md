@@ -4,17 +4,15 @@ converted_from_html: true
 id: c_hvorostovsky
 images:
 - height: 28
-  src: images/title_hvorostovsky.gif
+  src: /images/title-hvorostovsky.gif
   width: 290
 - height: 300
-  src: images/hvorostovsky sb08.jpg
+  src: /images/hvorostovsky-sb08.jpg
   width: 554
 - height: 300
-  src: images/hvorostovsky.jpg
+  src: /images/hvorostovsky.jpg
   width: 194
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: August
   publisher: of the
@@ -73,7 +71,7 @@ The results have been astonishing. "I have to say, with full feeling, that almos
 
 And, sounding more like a mature humanitarian than a matinee idol, he added, "As long as the people have memories of the past, they will have a future."
 
-![](images/hvorostovsky sb08.jpg)
+![](/images/hvorostovsky-sb08.jpg)
 
 2008 Poster, San Francisco Opera****
 
@@ -87,7 +85,7 @@ There will be an opportunity this week to welcome the San Francisco Symphony bac
 
 Hvorostovsky will appear, along with the beautiful Russian mezzo-soprano Olga Borodina, with the Symphony, under the baton of guest conductor Mario Bernardi, in concerts at 8 p.m. May 24, 26, and 27 at Davies Symphony Hall, corner of Van Ness Avenue and Grove Street, San Francisco. The two will perform selections from Donizetti's �La Favorita,�
 
-![](images/hvorostovsky.jpg)
+![](/images/hvorostovsky.jpg)
 
 Rossini's �Il Barbiere di Siviglia,� Saint-Saens� �Samson et Delila,� Rimsky-Korsakov�s �The Tsar's Bride,� as well as various operatic solos.
 
@@ -148,12 +146,3 @@ MTT's interpretation of Tchaikovsky's �Pathetique� Symphony was tightly cont
 The Takemitsu Requiem made for a meaningful, beautiful beginning to the concert. The late Japanese composer's synthesis of Oriental and Occidental musical elements was very much in evidence as MTT and the orchestra achieved an almost impressionistic evanescence throughout the work's single movement. Although the Takemitsu work seemed atonal in 1957,
 in the 1990s, it rests harmoniously.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

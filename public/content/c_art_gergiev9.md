@@ -4,17 +4,14 @@ converted_from_html: true
 id: c_art_gergiev9
 images:
 - height: 231
-  src: images/gergiev.jpg
+  src: /images/gergiev.jpg
   width: 165
 - height: 146
-  src: images/gergiev_freedom_banner.jpg
+  src: /images/gergiev-freedom-banner.jpg
   width: 450
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: September
   publisher: Valery Gergiev
@@ -90,16 +87,7 @@ oesn't do spring-training or batting practice. He flies in for the big game and 
 
  A New York City-based recent Yale graduate member of the chorus put it the most graphically. "One of the reasons Gergiev is so significant is his intensity and emotive power as he conducts. He's the first conductor I've ever worked with, who, after the concert was over, had sweat so much that his tie, as well as his shirt, was wet through!"
 
-![](images/gergiev_freedom_banner.jpg)
+![](/images/gergiev-freedom-banner.jpg)
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

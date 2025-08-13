@@ -1,8 +1,19 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageHeader, StatsGrid, NavigationCard, QuickAccessLinks } from '@/components/ui';
+import type { StatItem, QuickAccessItem } from '@/components/ui';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { 
+  FaUniversity, 
+  FaStar, 
+  FaClipboardList, 
+  FaBook, 
+  FaUserGraduate,
+  FaSchool,
+  FaIndustry
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - Projects & Consulting | NorthWorks',
@@ -46,40 +57,88 @@ export default function WarnerProjectsPage() {
     }
   };
 
+  // Define statistics
+  const stats: StatItem[] = [
+    { value: '50+', label: 'Years of Consulting', color: 'blue' },
+    { value: '100+', label: 'Major Projects', color: 'green' },
+    { value: '25+', label: 'Government Agencies', color: 'purple' },
+    { value: '4', label: 'Major Sectors', color: 'orange' }
+  ];
+
+  // Define navigation cards
+  const navigationCards = [
+    {
+      title: 'Government Projects',
+      description: 'Federal agency consulting including EPA Science Advisory Board and Nuclear Waste Technical Review Board',
+      href: '/warner/projects/government',
+      icon: <FaUniversity className="text-blue-600" />,
+      color: 'blue' as const,
+      tags: ['EPA', 'NRC', 'DoE', 'State Agencies']
+    },
+    {
+      title: 'Stanford University',
+      description: '35 years of academic service including first Decision Analysis course and extensive research supervision',
+      href: '/warner/stanford-index',
+      icon: <FaSchool className="text-red-600" />,
+      color: 'red' as const,
+      tags: ['MS&E Department', 'Research', 'Teaching']
+    },
+    {
+      title: 'National Academies',
+      description: 'National Associate designation and five decades of service on major committees and landmark reports',
+      href: '/warner/nrc-index',
+      icon: <FaStar className="text-purple-600" />,
+      color: 'purple' as const,
+      tags: ['National Associate', 'Major Reports', '50 Years Service']
+    },
+    {
+      title: 'Industry & Private Sector',
+      description: 'Strategic consulting with major corporations on risk assessment, environmental compliance, and decision frameworks',
+      href: '/warner/projects/industry',
+      icon: <FaIndustry className="text-green-600" />,
+      color: 'green' as const,
+      tags: ['Electric Utilities', 'Energy Sector', 'Chemical Industry']
+    }
+  ];
+
+  // Define quick access items
+  const quickAccessItems: QuickAccessItem[] = [
+    {
+      title: 'Complete Projects Index',
+      description: 'Comprehensive listing of all projects',
+      href: '/warner/projects-index',
+      icon: <FaClipboardList className="text-blue-600" />,
+      color: 'blue'
+    },
+    {
+      title: 'Related Publications',
+      description: 'Books, papers and reports',
+      href: '/warner/publications-index',
+      icon: <FaBook className="text-green-600" />,
+      color: 'green'
+    },
+    {
+      title: 'Professional Background',
+      description: 'Education and credentials',
+      href: '/warner/background',
+      icon: <FaUserGraduate className="text-orange-600" />,
+      color: 'orange'
+    }
+  ];
+
   return (
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Projects & Consulting
-          </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Over 50 years of consulting experience in risk analysis, decision analysis, and nuclear safety 
-            for government agencies, utilities, and private sector clients.
-          </p>
-        </div>
+        <PageHeader
+          title="Projects & Consulting"
+          description="Over 50 years of consulting experience in risk analysis, decision analysis, and nuclear safety for government agencies, utilities, and private sector clients."
+          gradientFrom="blue-500"
+          gradientTo="purple-600"
+        />
 
-        {/* Quick Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-            <div className="text-sm text-gray-600">Years of Consulting</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-green-600 mb-2">100+</div>
-            <div className="text-sm text-gray-600">Major Projects</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-purple-600 mb-2">25+</div>
-            <div className="text-sm text-gray-600">Government Agencies</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="text-3xl font-bold text-orange-600 mb-2">4</div>
-            <div className="text-sm text-gray-600">Major Sectors</div>
-          </div>
-        </div>
+        {/* Statistics */}
+        <StatsGrid stats={stats} />
 
         {/* Main Projects Content */}
         {projectsData && (
@@ -90,102 +149,17 @@ export default function WarnerProjectsPage() {
 
         {/* Project Categories */}
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Government Projects */}
-          <Link 
-            href="/warner/projects/government"
-            className="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border border-blue-200"
-          >
-            <div className="flex items-center mb-4">
-              <span className="text-4xl mr-4">🏛️</span>
-              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-blue-600">
-                Government Projects
-              </h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Federal agency consulting including EPA Science Advisory Board and Nuclear Waste Technical Review Board
-            </p>
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm">EPA</span>
-              <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm">NRC</span>
-              <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm">DoE</span>
-              <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm">State Agencies</span>
-            </div>
-            <div className="text-blue-600 font-medium group-hover:text-blue-700">
-              View Government Projects →
-            </div>
-          </Link>
-
-          {/* Stanford Projects */}
-          <Link 
-            href="/warner/stanford-index"
-            className="group bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border border-red-200"
-          >
-            <div className="flex items-center mb-4">
-              <span className="text-4xl mr-4">🏫</span>
-              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-red-600">
-                Stanford University
-              </h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              35 years of academic service including first Decision Analysis course and extensive research supervision
-            </p>
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="px-3 py-1 bg-red-200 text-red-800 rounded-full text-sm">MS&E Department</span>
-              <span className="px-3 py-1 bg-red-200 text-red-800 rounded-full text-sm">Research</span>
-              <span className="px-3 py-1 bg-red-200 text-red-800 rounded-full text-sm">Teaching</span>
-            </div>
-            <div className="text-red-600 font-medium group-hover:text-red-700">
-              View Stanford Overview →
-            </div>
-          </Link>
-
-          {/* NRC/National Academies */}
-          <Link 
-            href="/warner/nrc-index"
-            className="group bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-200"
-          >
-            <div className="flex items-center mb-4">
-              <span className="text-4xl mr-4">⭐</span>
-              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-purple-600">
-                National Academies
-              </h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              National Associate designation and five decades of service on major committees and landmark reports
-            </p>
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm">National Associate</span>
-              <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm">Major Reports</span>
-              <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm">50 Years Service</span>
-            </div>
-            <div className="text-purple-600 font-medium group-hover:text-purple-700">
-              View National Academies Service →
-            </div>
-          </Link>
-
-          {/* Industry Projects */}
-          <Link 
-            href="/warner/projects/industry"
-            className="group bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border border-green-200"
-          >
-            <div className="flex items-center mb-4">
-              <span className="text-4xl mr-4">🏭</span>
-              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-green-600">
-                Industry & Private Sector
-              </h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Strategic consulting with major corporations on risk assessment, environmental compliance, and decision frameworks
-            </p>
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm">Electric Utilities</span>
-              <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm">Energy Sector</span>
-              <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm">Chemical Industry</span>
-            </div>
-            <div className="text-green-600 font-medium group-hover:text-green-700">
-              View Industry Projects →
-            </div>
-          </Link>
+          {navigationCards.map((card, index) => (
+            <NavigationCard
+              key={index}
+              title={card.title}
+              description={card.description}
+              href={card.href}
+              icon={card.icon}
+              color={card.color}
+              tags={card.tags}
+            />
+          ))}
         </div>
 
         {/* Expertise Areas */}
@@ -216,57 +190,7 @@ export default function WarnerProjectsPage() {
         </div>
 
         {/* Quick Access Links */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Additional Resources
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link 
-              href="/warner/projects-index"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">📋</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-blue-600">
-                  Complete Projects Index
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Comprehensive listing of all projects
-                </p>
-              </div>
-            </Link>
-
-            <Link 
-              href="/warner/publications-index"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">📚</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-green-600">
-                  Related Publications
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Books, papers and reports
-                </p>
-              </div>
-            </Link>
-
-            <Link 
-              href="/warner/background"
-              className="group p-4 border border-gray-200 rounded-lg hover:border-orange-300 hover:shadow-md transition-all"
-            >
-              <div className="text-center">
-                <span className="text-3xl mb-2 block">👨‍🎓</span>
-                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-orange-600">
-                  Professional Background
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Education and credentials
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
+        <QuickAccessLinks items={quickAccessItems} />
 
         {/* Navigation */}
         <div className="border-t pt-8">

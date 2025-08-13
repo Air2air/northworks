@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_braun_russell
 images:
 - height: 200
-  src: images/russell_braun.jpg
+  src: /images/russell-braun.jpg
   width: 160
 publication:
   date: December
@@ -82,7 +82,5 @@ Can a genuinely dedicated family man be a major world-class opera singer?
  I asked Braun how he would like to be able to summarize his career 40 or 50 years into the future.
  "While I want to feel pride and accomplishment with my ability to make music come alive for others, I hope most of all, that my sons will still love me, and that my wife will have both love and respect for me."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

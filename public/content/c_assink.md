@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_assink
 images:
 - height: 150
-  src: images/assink.jpg
+  src: /images/assink.jpg
   width: 112
 publication:
   date: October
@@ -72,12 +72,3 @@ During his ensuing tenure as music director of the Ensemble Intercontemporain in
 
 Other concerts in the "Friday 6.5" series will be Tilson Thomas conducting Stravinsky's *Petrushka*" and Rimsky-Korsakov's *Dubinushka* on Jan. 27; Gilbert, with pianist Shai Wosner, explaining and performing Schumann's *Piano Concerto* and Richard Strauss' *Death and Transfiguration* on Feb. 24; Haselbock conducting Mozart's *Coronation Mass* and Haydn's *Storm* and *Miracle* symphonies March 10; Outwater conducting, with chansonnier H.K. Gruber and harpist Douglas Rioth performing Gruber's cabaret, *Frankenstein!!* and Debussy's *Danses Sacree et Profane* May 12; and Conlon conducting Liszt's *Dante Symphony* on June 23.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

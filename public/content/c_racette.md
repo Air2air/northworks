@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_racette
 images:
 - height: 184
-  src: images/racette c w 9-15-09.jpg
+  src: /images/racette-c-w-9-15-09.jpg
   width: 230
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: September
   publisher: Cheryl North
@@ -61,19 +59,10 @@ Although she calls San Francisco Opera "my home company," she and her life partn
 
 Ah, but there's yet another *Senza mamma* anecdote in Racette's story. Just two years ago, she was chosen to present the *Opera News* magazine award to Renata Scotto. And what was the background music as Scotto accepted the award? A recording of Scotto herself singing *Senza mamma*.
 
-![](images/racette c w 9-15-09.jpg)
+![](/images/racette-c-w-9-15-09.jpg)
 
 Cheryl North, Patrica Racette, and
 Warner North, backstage at the
 War Memorial Opera House,
  September 15, 2009
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

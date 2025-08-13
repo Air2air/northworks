@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_branford_marsalis
 images:
 - height: 287
-  src: images/branford marsalis wc 08 1005.jpg
+  src: /images/branford-marsalis-wc-08-1005.jpg
   width: 350
 publication:
   date: September
@@ -56,11 +56,8 @@ Additional selections will be Milhaud's 1923, Op. 81 composition *La creation du
 
 Regarding the Brazilian Villa-Lobos' significance to classical music, Marsalis said, "When most people think of Brazilian music, they think of the samba-influenced music of the '40s, '50s and '60s, particularly the music of Jobim. Villa-Lobos is nothing like that. I think there will be a few surprised folks in the audience."
 
-![](images/branford marsalis wc 08 1005.jpg)
+![](/images/branford-marsalis-wc-08-1005.jpg)
 
 Warner and Cheryl North with Branford Marsalis at the reception following the opening of the Stanford Lively Arts Season on October 5, 2008
 (Photo credit: Toni Gauthier, courtesy of Stanford Lively Arts)
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)

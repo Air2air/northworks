@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_bates
 images:
 - height: 160
-  src: images/thm_bates.jpg
+  src: /images/thm-bates.jpg
   width: 160
 - height: 200
-  src: images/leon_bates.jpg
+  src: /images/leon-bates.jpg
   width: 200
 publication:
   date: April
@@ -35,7 +35,7 @@ Anyone who says that Kindergarten teachers don't have much impact on a child's l
 
 Bates' upcoming performances of Gershwin's *Concerto in F* at 3 p.m. Sunday and 8 p.m. Tuesday with the Napa Symphony, followed by a Four Seasons Concerts recital with the Borealis Wind Quintet in Oakland at 7:30 p.m. April 13, will illustrate just how important that particular Kindergarten teacher was to the world of music.
 
-![](images/thm_bates.jpg)
+![](/images/thm-bates.jpg)
 
 "She played a lot of music for us in our class, both on the piano and on a record player," said Bates during a telephone interview last week. "There was a big old upright (piano) in our classroom and she would let us come up, one-by-one, and play on it. When it was my turn, I really got excited and would plink away as long as she would let me. She made me sensitive about what the piano could do. And -- it was in her class that I first heard Rachmaninoff." (Bates is now acclaimed as a major interpreter of the music of Rachmaninoff).
 
@@ -55,13 +55,11 @@ Bates, who was as interested in athletics as music when he was in school, now de
 
 "There's something esthetic about body-building," he said. "It's easy to transfer my thoughts from music to weight-training. Both take tremendous discipline and strong powers of concentration. You have to learn to weed out distractions when you are lifting, just as you do when you are practicing piano or performing in a concert. One reinforces the other. Besides, I'm sure that my fitness has helped me play Rachmaninoff better," he quipped.
 
-![](images/leon_bates.jpg)
+![](/images/leon-bates.jpg)
 
 While it's quite remarkable for a concert pianist to be a high-achieving weight-lifter, it's perhaps even more remarkable for one to have been given the Raoul Wallenberg Humanitarian Award in New York City. Bates was honored with this important award in 1993 for his extensive work with children and music education. Besides a packed concert schedule that takes him throughout the world, he finds time to teach the young during 50 or more residencies in conjunction with his orchestral engagements and recitals in various U.S. cities each year. Because of these endeavors, he has also been awarded an Honorary Doctorate from Washington and Lee University in Lexington, Virginia.
 
 Known world-wide for both his sensitivity and his prowess as a pianist, Bates' prodigious repertoire includes all the Rachmaninoff and Beethoven Piano Concerti, most of Mozart's, as well as major works by Liszt, Chopin, Bartok, Gershwin, Duke Ellington, Ravel, and Poulenc. He has performed with the New York Philharmonic, the Vienna Symphony, the Philadelphia and Cleveland Orchestras and at Carnegie Hall, Hollywood Bowl, Kennedy Center and more.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)
+
 href="http://www.websiteaddressxx.com/">.

@@ -1,9 +1,21 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageHeader, StatsGrid, FeatureSection, QuickAccessLinks, NavigationCard } from '@/components/ui';
+import type { StatItem, QuickAccessItem } from '@/components/ui';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { 
+  FaChartBar, 
+  FaGlobe, 
+  FaAtom, 
+  FaUniversity, 
+  FaFileAlt, 
+  FaCalendarAlt, 
+  FaStar,
+  FaBook
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - Publications Index | NorthWorks',
@@ -86,6 +98,39 @@ export default function PublicationsIndexPage() {
     }
   };
 
+  // Define statistics
+  const stats: StatItem[] = [
+    { value: '5', label: 'Major NRC Reports', color: 'blue' },
+    { value: '50+', label: 'Research Papers', color: 'green' },
+    { value: '25+', label: 'Years Publishing', color: 'purple' },
+    { value: '3', label: 'Research Areas', color: 'orange' }
+  ];
+
+  // Quick access items
+  const quickAccessItems: QuickAccessItem[] = [
+    {
+      title: 'Government Projects',
+      description: 'EPA and federal agency work',
+      href: '/warner/projects/government',
+      icon: <FaUniversity className="text-blue-600" />,
+      color: 'blue'
+    },
+    {
+      title: 'Stanford Research',
+      description: 'Academic publications and work',
+      href: '/warner/stanford-index',
+      icon: <FaBook className="text-red-600" />,
+      color: 'red'
+    },
+    {
+      title: 'National Academies',
+      description: 'NRC committees and service',
+      href: '/warner/nrc-index',
+      icon: <FaStar className="text-purple-600" />,
+      color: 'purple'
+    }
+  ];
+
   // Major National Academy reports
   const majorReports = [
     {
@@ -128,34 +173,13 @@ export default function PublicationsIndexPage() {
   return (
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Publications Index</h1>
-          <p className="text-lg text-gray-600 max-w-3xl">
-            Comprehensive collection of academic publications, National Academy reports, and research papers 
-            spanning over 50 years of work in risk analysis and environmental policy.
-          </p>
-        </div>
+        <PageHeader 
+          title="Publications Index"
+          description="Comprehensive collection of academic publications, National Academy reports, and research papers spanning over 50 years of work in risk analysis and environmental policy."
+          centerAlign={false}
+        />
 
-        {/* Statistics */}
-        <div className="grid md:grid-cols-4 gap-6 mb-12">
-          <div className="bg-blue-50 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-            <div className="text-sm text-blue-800">Years Publishing</div>
-          </div>
-          <div className="bg-green-50 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-green-600 mb-2">25+</div>
-            <div className="text-sm text-green-800">NRC Reports</div>
-          </div>
-          <div className="bg-purple-50 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-purple-600 mb-2">100+</div>
-            <div className="text-sm text-purple-800">Academic Papers</div>
-          </div>
-          <div className="bg-orange-50 rounded-lg p-6 text-center">
-            <div className="text-3xl font-bold text-orange-600 mb-2">5</div>
-            <div className="text-sm text-orange-800">Major Books</div>
-          </div>
-        </div>
+        <StatsGrid stats={stats} columns={4} />
 
         {/* Major National Academy Reports */}
         <div className="mb-12">
@@ -186,9 +210,15 @@ export default function PublicationsIndexPage() {
                     </h3>
                     <p className="text-gray-600 mb-3">{report.description}</p>
                     <div className="flex items-center space-x-4 text-sm text-gray-500">
-                      <span>📅 {report.year}</span>
-                      <span>📄 {report.pages}</span>
-                      <span>🏛️ National Academy Press</span>
+                      <span className="flex items-center">
+                        <FaCalendarAlt className="mr-1" /> {report.year}
+                      </span>
+                      <span className="flex items-center">
+                        <FaFileAlt className="mr-1" /> {report.pages}
+                      </span>
+                      <span className="flex items-center">
+                        <FaUniversity className="mr-1" /> National Academy Press
+                      </span>
                     </div>
                   </div>
                   <div className="flex-shrink-0 ml-6">
@@ -204,43 +234,37 @@ export default function PublicationsIndexPage() {
 
         {/* Publication Categories */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <Link 
+          <NavigationCard
+            title="Risk Analysis Papers"
+            description="Peer-reviewed publications on quantitative risk assessment methods"
             href="/warner/publications/risk-analysis"
-            className="block bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg hover:border-blue-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Risk Analysis Papers</h3>
-              <p className="text-gray-600 text-sm">Peer-reviewed publications on quantitative risk assessment methods</p>
-            </div>
-          </Link>
-
-          <Link 
+            icon={<FaChartBar className="text-blue-600" />}
+            color="blue"
+            size="medium"
+          />
+          <NavigationCard
+            title="Environmental Policy"
+            description="Publications on environmental decision making and policy analysis"
             href="/warner/publications/environmental"
-            className="block bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg hover:border-green-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-4xl mb-4">🌍</div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Environmental Policy</h3>
-              <p className="text-gray-600 text-sm">Publications on environmental decision making and policy analysis</p>
-            </div>
-          </Link>
-
-          <Link 
+            icon={<FaGlobe className="text-green-600" />}
+            color="green"
+            size="medium"
+          />
+          <NavigationCard
+            title="Nuclear Safety"
+            description="Research on nuclear waste management and reactor safety"
             href="/warner/publications/nuclear"
-            className="block bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg hover:border-red-300 transition-all"
-          >
-            <div className="text-center">
-              <div className="text-4xl mb-4">⚛️</div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Nuclear Safety</h3>
-              <p className="text-gray-600 text-sm">Research on nuclear waste management and reactor safety</p>
-            </div>
-          </Link>
+            icon={<FaAtom className="text-red-600" />}
+            color="red"
+            size="medium"
+          />
         </div>
 
-        {/* Recent Work */}
-        <div className="bg-gray-50 rounded-lg p-8 mb-8">
-          <h2 className="text-2xl font-semibent text-gray-900 mb-6">Recent Publications (2010-2020)</h2>
+        <FeatureSection
+          title="Recent Publications (2010-2020)"
+          color="indigo"
+          className="mb-8"
+        >
           <div className="space-y-4">
             <div className="border-l-4 border-blue-500 pl-4">
               <h4 className="font-medium text-gray-900">Biotechnology Risk Assessment Review</h4>
@@ -255,7 +279,13 @@ export default function PublicationsIndexPage() {
               <p className="text-gray-600 text-sm">Ongoing contributions to National Research Council reports and reviews</p>
             </div>
           </div>
-        </div>
+        </FeatureSection>
+
+        <QuickAccessLinks 
+          title="Related Resources"
+          items={quickAccessItems}
+          columns={2}
+        />
 
         {/* Navigation */}
         <div className="border-t pt-8">

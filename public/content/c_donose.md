@@ -4,11 +4,9 @@ converted_from_html: true
 id: c_donose
 images:
 - height: 28
-  src: images/title_donose.gif
+  src: /images/title-donose.gif
   width: 250
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   author: Giuseppe Sinopoli
   date: June
@@ -28,7 +26,7 @@ title: Untitled
 type: article
 ---
 
-![](images/title_donose.gif)
+![](/images/title-donose.gif)
 **
 
 Donose goes from glamour queen to boy, with motherhood in between**
@@ -79,12 +77,3 @@ Meanwhile, catch Ruxandra's glorious voice while she's here singing Sesto in ``G
 
 �1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

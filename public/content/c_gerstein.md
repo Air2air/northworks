@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_gerstein
 images:
 - height: 150
-  src: http://www.northworks.net/images/gerstein_c.jpg
+  src: /images/gersteinc.jpg
   width: 207
 publication:
   date: October
@@ -48,6 +48,6 @@ type: article
 
  After moving to the United States when he was 14, he continued to study jazz piano at Berklee College in Boston and classical at the Manhattan School of Music in New York City, where by age 20, he had earned both Bachelor's and Master's degrees. At age 27 he was tapped to teach at the prestigious Musikhochschule in Stuttgart, Germany.
 
-![](http://www.northworks.net/images/gerstein_c.jpg)
+![](/images/gersteinc.jpg)
 
 Kiril Gerstein and his fiancee with Cheryl North backstage at Davies Hall, after his performance with the San Francisco Symphony on October 15, 2010

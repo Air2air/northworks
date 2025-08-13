@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_rosenberg
 images:
 - height: 141
-  src: images/rosenberg.jpg
+  src: /images/rosenberg.jpg
   width: 192
 publication:
   date: November
@@ -158,12 +158,3 @@ At the close of our interview, Pamela repeated that she thinks San Franciscans h
 
 "But," she added, "I hope in future years, the period from 2001 to 2005 in San Francisco will be remembered as a time of great artistic enrichment and vibrancy."
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

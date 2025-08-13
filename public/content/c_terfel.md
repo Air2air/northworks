@@ -4,14 +4,11 @@ converted_from_html: true
 id: c_terfel
 images:
 - height: 28
-  src: ./images/title_terfel.gif
+  src: /images/titleterfel.gif
   width: 250
 - height: 233
-  src: ./images/terfel.jpg
+  src: /images/terfel.jpg
   width: 200
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   date: June
   publisher: Cheryl North
@@ -46,7 +43,7 @@ type: article
  Nick Shadow in the San Francisco Opera's recent production of "The Rake's
  Progress," by Igor Stravinsky. Earlier this month, he performed a sold-out,
 
-![](./images/terfel.jpg)
+![](/images/terfel.jpg)
 
  critically acclaimed solo recital with pianist Malcolm Martineau at Zellerbach
  Hall on the UC Berkeley campus.

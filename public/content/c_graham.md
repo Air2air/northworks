@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_graham
 images:
 - height: 150
-  src: images/graham with norths.jpg
+  src: /images/graham-with-norths.jpg
   width: 210
 publication:
   date: February
@@ -74,7 +74,7 @@ When I asked what she hoped audiences, colleagues and critics would say about he
 
 "I guess I just want people to be able to say about me, that I sang the truth," she said with a fervor that caused her voice to soar well above the hum of wheels over rails.
 
-![](images/graham with norths.jpg)
+![](/images/graham-with-norths.jpg)
 
 Susan Graham with Cheryl and Warner North backstage after her concert on February 16, 2007
 

@@ -4,10 +4,10 @@ converted_from_html: true
 id: c_reviews_Conte_America_Tropical
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
 publication:
   author: Cheryl North
@@ -16,13 +16,10 @@ publication:
 subjects:
 - and was
 - of excellent
-title: Untitled
+title: World Premiere of David Conte's One-Act Opera, America Tropical
 type: review
 ---
 
-***
-
-World Premiere of David Conte's One-Act Opera, America Tropical***
 
 A mini-review of a performance at Thick House, a small professional theater in San Francisco, published in a column in the Oakland Tribune and other papers of what is now the Bay Area News Group, May 25, 2007
 
@@ -38,4 +35,4 @@ A second run occurred in Los Angeles in October, 2010. Composer David Conte tell
 
 See Cheryl North's [interview ](c_conte.htm)with David Conte from October 2010.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)

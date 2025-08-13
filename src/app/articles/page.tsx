@@ -1,7 +1,9 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ArticleFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import ContentListComponent, { parseArticlesFromMarkdown } from '@/components/ContentListComponent';
+import { cleanTitle } from '@/lib/pathUtils';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -48,11 +50,12 @@ export default function ArticlesPage() {
   return (
     <ContentLayout frontmatter={mockFrontmatter}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Articles & Features</h1>
-        <p className="text-lg text-gray-600 mb-8 text-center max-w-3xl mx-auto">
-          In-depth articles and feature stories about classical music, performers, and the 
-          cultural landscape of the performing arts.
-        </p>
+        <PageTitle
+          title="Articles & Features"
+          description="In-depth articles and feature stories about classical music, performers, and the cultural landscape of the performing arts."
+          align="center"
+          size="medium"
+        />
 
         {/* Show index-based articles if available */}
         {indexArticles.length > 0 && (
@@ -92,8 +95,8 @@ export default function ArticlesPage() {
                     {heroImage && (
                       <div className="aspect-video relative">
                         <Image
-                          src={`/${heroImage.src}`}
-                          alt={heroImage.alt || frontmatter.title}
+                          src={heroImage.src}
+                          alt={heroImage.alt || cleanTitle(frontmatter.title)}
                           fill
                           className="object-cover"
                         />
@@ -105,7 +108,7 @@ export default function ArticlesPage() {
                           href={`/articles/${article.slug}`}
                           className="hover:text-blue-600 transition-colors"
                         >
-                          {frontmatter.title}
+                          {cleanTitle(frontmatter.title)}
                         </Link>
                       </h3>
                       

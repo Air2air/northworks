@@ -3,9 +3,7 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_diDonato
 images:
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: November
   publisher: Cheryl North
@@ -66,12 +64,3 @@ But perhaps her latest claim to notoriety occurred during last summer's producti
 
 After Monday's San Francisco concert, she's off to Los Angeles Opera to reprise her inimitable Rosina in *The Barber of Seville*.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

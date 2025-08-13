@@ -4,20 +4,18 @@ converted_from_html: true
 id: c_ramey
 images:
 - height: 225
-  src: images/ramey mephis faust.jpg
+  src: /images/ramey-mephis-faust.jpg
   width: 175
 - height: 225
-  src: images/ramey boito mephis florence.jpg
+  src: /images/ramey-boito-mephis-florence.jpg
   width: 175
 - height: 225
-  src: images/sam and cherie.jpg
+  src: /images/sam-and-cherie.jpg
   width: 163
 - height: 175
-  src: images/ramey c & w lunch 08.jpg
+  src: /images/ramey-c-and-w-lunch-08.jpg
   width: 225
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   author: the bass
   publisher: Oakland Tribune
@@ -95,17 +93,17 @@ For a more information (and photos) on a "Date with the Devil," see [Samuel Rame
 
 As Mephistopheles in Faust* by Gounod
 
-![](images/ramey boito mephis florence.jpg)
+![](/images/ramey-boito-mephis-florence.jpg)
 
 As Boito's Mephistopheles
 
 *******
 
-![](images/sam and cherie.jpg)
+![](/images/sam-and-cherie.jpg)
 
 "My date with the devil"- along with 25 or so other people
 
-![](images/ramey c & w lunch 08.jpg)
+![](/images/ramey-c-and-w-lunch-08.jpg)
 
 Samuel Ramey, Cheryl North, and Warner North at a lunch hosted by the San Francisco Opera
 Photo credit: Terrence McCarthy
@@ -113,12 +111,3 @@ Photo credit: Terrence McCarthy
 
 Devil photos above from Ramey website
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

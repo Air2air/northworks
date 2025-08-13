@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_wilder
 images:
 - height: 170
-  src: images/tappan_wilder_c_w_2007.jpg
+  src: /images/tappan-wilder-c-w-2007.jpg
   width: 245
 publication:
   date: August

@@ -65,12 +65,3 @@ How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain y
 
  *Semele* will be conducted by the revered Sir Charles Mackerras for the Nov. 4, 7, 19, and 22 performances, and by William Lacey for shows on Nov. 10, 15, and 25. Featured singers will be Ruth Ann Swenson in the title role; Christine Brandes as her sister Iris; Sarah Connolly in the dual roles of Juno and Ino; Brian Asawa as Prince Athamas; John Mark Ainsley as Jupiter; Todd Geer as Apollo; John Relyea as Cadmus and Somnus; and John Ames as the High Priest of Juno.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

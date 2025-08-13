@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_sarah_chang
 images:
 - height: 124
-  src: images/sarah_chang_informal.jpg
+  src: /images/sarah-chang-informal.jpg
   width: 100
 publication:
   date: January
@@ -73,7 +73,7 @@ What sort of person would you expect to have such books as John McClaren's *Runn
 
  "I also love to play tennis with my very athletic 19-year-old brother. He's a freshman at Princeton and the sweetest little kid," she says.
 
-![](images/sarah_chang_informal.jpg)
+![](/images/sarah-chang-informal.jpg)
 
  But when the conversation shifted back to music, her voice deepened and took on an immediate maturity.
 

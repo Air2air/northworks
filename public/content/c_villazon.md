@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_villazon
 images:
 - height: 200
-  src: images/rolando_villazon.jpg
+  src: /images/rolando-villazon.jpg
   width: 160
 publication:
   date: September

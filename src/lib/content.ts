@@ -1,10 +1,25 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { marked } from 'marked';
 import { ContentData, ContentFrontmatter, ContentType } from '@/types/content';
+
+// Configure marked options
+marked.setOptions({
+  gfm: true, // GitHub Flavored Markdown
+  breaks: true, // Convert \n to <br>
+});
 
 const contentDirectory = path.join(process.cwd(), 'content');
 const publicContentDirectory = path.join(process.cwd(), 'public', 'content');
+
+/**
+ * Simple function to clean up frontmatter - no path processing
+ */
+function cleanFrontmatter(obj: any): any {
+  // Just return the frontmatter as-is, no path processing
+  return obj;
+}
 
 export function getContentBySlug(slug: string): ContentData | null {
   try {
@@ -31,9 +46,12 @@ export function getContentBySlug(slug: string): ContentData | null {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data: frontmatter, content } = matter(fileContent);
 
+    // Convert markdown to HTML synchronously without path processing
+    let htmlContent = marked.parse(content) as string;
+
     return {
       frontmatter: frontmatter as ContentFrontmatter,
-      content,
+      content: htmlContent,
       slug
     };
   } catch (error) {

@@ -4,14 +4,12 @@ converted_from_html: true
 id: c_lang_lang
 images:
 - height: 212
-  src: images/langcherie09.jpg
+  src: /images/langcherie09.jpg
   width: 212
 - height: 212
-  src: images/lang_lang_mother.jpg
+  src: /images/lang-lang-mother.jpg
   width: 212
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: September
   publisher: Warner North
@@ -46,7 +44,7 @@ Now arguably one of the greatest pianists of his generation, Lang is welcomed on
 
 Born in 1982 in the small industrial city of Shenyang in northern China, Lang Lang (his family and given names are the same in English, but slightly different in Chinese) is the only child of victims of the Chinese government's Cultural Revolution. His father, a talented performer on the Chinese erhu, spent $300, half of his yearly salary, to buy a piano for his gifted toddler. His mother played classical music for him when he was still in her womb.
 
-![](images/lang_lang_mother.jpg)
+![](/images/lang-lang-mother.jpg)
 
 (Photo by Warner North of Cheryl North and Lang Lang's mother, following the performance September 9, backstage at Davies Hall, San Francisco)
 

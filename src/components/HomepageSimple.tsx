@@ -82,7 +82,7 @@ export default function Homepage({ frontmatter, content }: HomepageProps) {
   return (
     <ContentLayout frontmatter={frontmatter} showBreadcrumbs={false}>
       {/* Hero Section */}
-      <div className="text-center mb-12">
+      {/* <div className="text-center mb-12">
         <div className="flex justify-center mb-6">
           {frontmatter.header_logo && (
             <Image
@@ -102,8 +102,8 @@ export default function Homepage({ frontmatter, content }: HomepageProps) {
             height={80}
             className="mx-auto"
           />
-        )}
-      </div>
+        )} 
+      </div>*/}
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

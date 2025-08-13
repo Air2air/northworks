@@ -4,13 +4,13 @@ converted_from_html: true
 id: c_gasser
 images:
 - height: 212
-  src: images/nolan_gasser.jpg
+  src: /images/nolan-gasser.jpg
   width: 150
 - height: 138
-  src: images/nolan_gasser + 2.jpg
+  src: /images/nolan-gasser-2.jpg
   width: 181
 - height: 140
-  src: images/bob jones and nolan gasser in nm.jpg
+  src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
   width: 196
 publication:
   date: January

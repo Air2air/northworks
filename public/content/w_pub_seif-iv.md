@@ -4,25 +4,25 @@ converted_from_html: true
 id: w_pub_seif-iv
 images:
 - height: 320
-  src: images/wn speaking belgian senate 4-18-06.jpg
+  src: /images/wn-speaking-belgian-senate-4-18-06.jpg
   width: 213
 - height: 161
-  src: images/lithgen.gif
+  src: /images/lithgen.gif
   width: 260
 - height: 201
-  src: images/balticgasmap.jpg
+  src: /images/balticgasmap.jpg
   width: 224
 - height: 225
-  src: images/legbalticgasmap.jpg
+  src: /images/legbalticgasmap.jpg
   width: 200
 - height: 195
-  src: images/balticgasinfdiag.gif
+  src: /images/balticgasinfdiag.gif
   width: 260
 - height: 360
-  src: images/balticgasparttree.gif
+  src: /images/balticgasparttree.gif
   width: 260
 - height: 195
-  src: images/balticgascumd.gif
+  src: /images/balticgascumd.gif
   width: 260
 publication:
   date: December
@@ -205,14 +205,14 @@ D. Warner North is President and Principal Scientist at NorthWorks, Inc.,
 Web:
 [http://www.northworks.net](http://www.northworks.net)
 
-![](images/wn speaking belgian senate 4-18-06.jpg)
+![](/images/wn-speaking-belgian-senate-4-18-06.jpg)
 
 Dr. Warner North speaking at the Podium of the Belgian Senate to the Organization for Security and Cooperation in Europe, on risk issues similar to those covered in this paper, April 18, 2006. (See main [D. Warner North](w_main.htm) page, right hand column.)
 
 Figure 1. Forecast of electricity generation in Lithuania (basic demand scenario). Source: [6], p. 25.
 
 [
-![](images/lithgen.gif)
+![](/images/lithgen.gif)
 ](felithgen.htm)
 
 [Figure 1 - Click to enlarge](felithgen.htm)
@@ -221,14 +221,14 @@ Figure 2a. Natural Gas Pipeline routes, showing Baltic Undersea, Amber, and Yama
 Source: Inogate maps, http://www.inogate.org/html/maps/mapsgas.htm
 
 [
-![](images/balticgasmap.jpg)
+![](/images/balticgasmap.jpg)
 ](febalticgasmap.htm)
 
 [Figure 2a - Click to enlarge](febalticgasmap.htm)
 
 Figure 2b. Legend.
 [
-![](images/legbalticgasmap.jpg)
+![](/images/legbalticgasmap.jpg)
 ](felbalticgasmap.htm)
 
 [Figure 2b - Click to enlarge](felbalticgasmap.htm)
@@ -236,7 +236,7 @@ Figure 2b. Legend.
 Figure 3. Influence Diagram for Lithuanian Gas Supply � Simple Illustration. Diagram produced by [Decision Advisor](http://www.smartorg.com/decisionadvisor.html) software.
 
 [
-![](images/balticgasinfdiag.gif)
+![](/images/balticgasinfdiag.gif)
 ](febalticgasinfdiag.htm)
 
 [Figure 3 - Click to enlarge](febalticgasinfdiag.htm)
@@ -244,7 +244,7 @@ Figure 3. Influence Diagram for Lithuanian Gas Supply � Simple Illustration. D
 Figure 4. Tree representation showing probability assignments for �peak demand� node in the Influence Diagram. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
 [
-![](images/balticgasparttree.gif)
+![](/images/balticgasparttree.gif)
 ](febalticgasparttree.htm)
 
 [Figure 4 - Click to enlarge](febalticgasparttree.htm)
@@ -252,17 +252,8 @@ Figure 4. Tree representation showing probability assignments for �peak demand
 Figure 5. Cumulative Probability Distribution of Losses from Interruption in Gas Supply. Numbers are in Monetary Units (euros) and Illustrative Only. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
 [
-![](images/balticgascumd.gif)
+![](/images/balticgascumd.gif)
 ](febalticgascumd.htm)
 
 [Figure 5 - Click to enlarge](febalticgascumd.htm)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

@@ -4,14 +4,12 @@ converted_from_html: true
 id: c_snicket
 images:
 - height: 160
-  src: images/snicket_handler.jpg
+  src: /images/snicket-handler.jpg
   width: 120
 - height: 150
-  src: images/stookey.jpg
+  src: /images/stookey.jpg
   width: 127
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
+
 publication:
   date: June
   publisher: chance when
@@ -95,12 +93,3 @@ Could a funeral — or memorial service — be scheduled at San Francisco's Davi
 
 Cheryl North's interview with [Nat Stookey](http://www.northworks.net/c_stookey.htm) from November 2004 is also on this website. [Lemony Snicket's website](http://www.lemonysnicket.com/author.cfm) has much additional information about him and his literary output.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

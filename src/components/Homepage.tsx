@@ -82,7 +82,7 @@ function RecentContentSection({
 export default function Homepage({ frontmatter, mdxSource }: HomepageProps) {
   return (
     <ContentLayout frontmatter={frontmatter} showBreadcrumbs={false}>
-      {/* Hero Section */}
+      {/* 
       <div className="text-center mb-12">
         <div className="flex justify-center mb-6">
           {frontmatter.header_logo && (
@@ -104,7 +104,7 @@ export default function Homepage({ frontmatter, mdxSource }: HomepageProps) {
             className="mx-auto"
           />
         )}
-      </div>
+      </div> *}
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

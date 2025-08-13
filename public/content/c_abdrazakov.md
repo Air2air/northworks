@@ -4,7 +4,7 @@ converted_from_html: true
 id: c_abdrazakov
 images:
 - height: 213
-  src: images/ildar abdrazakov and cheryl north.jpg
+  src: /images/ildar-abdrazakov-and-cheryl-north.jpg
   width: 154
 publication:
   date: August
@@ -48,7 +48,7 @@ Fortunately, his choral director came to the rescue. Noting the boy's beautiful,
 
 After graduating from the Ufa State Institute of the Arts, he joined the Bashkirian Opera and Ballet Theatre. By the late 1990s, he had won a number of vocal competitions, including the Moscow Grand Prix and both the Glinka and Rimsky-Korsakov competitions. Conductor Valery Gergiev heard him sing when he was 22. As a result, he made his Maryinsky Opera debut as Figaro in Mozart's *The Marriage of Figaro* with Anna Netrebko as Susanna. In 2000, he won the Maria Callas International Television Competition in Parma, Italy, after which he made his international debut in *La Sonambula* at La Scala in Milan. Since then, he has risen to become one of the world's greatest basses and is in great demand by conductors in opera houses all over the world.
 
-![](images/ildar abdrazakov and cheryl north.jpg)
+![](/images/ildar-abdrazakov-and-cheryl-north.jpg)
 
 Ildar Abdrazakov with Cheryl North, backstage at the San Francisco Opera House, after an October performance of Mefistophele
 

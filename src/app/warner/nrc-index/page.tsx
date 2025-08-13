@@ -1,9 +1,18 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { 
+  FaTrophy, 
+  FaBook, 
+  FaCalendarAlt, 
+  FaFileAlt, 
+  FaUsers, 
+  FaUniversity 
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - National Academies Work | NorthWorks',
@@ -175,22 +184,23 @@ export default function NRCIndexPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header with National Academies branding */}
         <div className="mb-12">
+          <PageTitle
+            title="The National Academies"
+            description="50+ years of service to the nation's premier scientific advisory organizations, designated as a National Associate in 2003 for 'extraordinary contributions'"
+            align="center"
+            size="large"
+          />
           <div className="text-center mb-8">
-            <h1 className="text-5xl font-bold text-gray-900 mb-4">The National Academies</h1>
             <h2 className="text-2xl text-blue-600 font-semibold mb-4">
               National Research Council • National Academy of Sciences • National Academy of Engineering
             </h2>
-            <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              50+ years of service to the nation's premier scientific advisory organizations, 
-              designated as a National Associate in 2003 for "extraordinary contributions"
-            </p>
           </div>
 
           {/* National Associate Honor */}
           <div className="bg-gradient-to-r from-blue-50 to-indigo-100 border border-blue-200 rounded-xl p-8 mb-8">
             <div className="flex items-center justify-center mb-4">
               <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
-                🏆
+                <FaTrophy />
               </div>
             </div>
             <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">National Associate (2003)</h3>
@@ -235,7 +245,9 @@ export default function NRCIndexPage() {
                 {/* Book cover if available */}
                 {(frontmatter as any).images && (
                   <div className="h-48 bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center">
-                    <div className="text-6xl">📚</div>
+                    <div className="text-6xl">
+                      <FaBook className="text-blue-600" />
+                    </div>
                   </div>
                 )}
                 <div className="p-6">
@@ -251,8 +263,12 @@ export default function NRCIndexPage() {
                   </h3>
                   <p className="text-gray-600 text-sm mb-4">{report.description}</p>
                   <div className="flex items-center justify-between text-xs text-gray-500">
-                    <span>📅 {report.year}</span>
-                    <span>📄 {report.pages}</span>
+                    <span className="flex items-center">
+                      <FaCalendarAlt className="mr-1" /> {report.year}
+                    </span>
+                    <span className="flex items-center">
+                      <FaFileAlt className="mr-1" /> {report.pages}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -266,7 +282,9 @@ export default function NRCIndexPage() {
           <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                <span className="text-2xl">👥</span>
+                <div className="text-2xl">
+                  <FaUsers className="text-blue-600" />
+                </div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Committee Service</h3>
@@ -293,7 +311,9 @@ export default function NRCIndexPage() {
           <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                <span className="text-2xl">🏛️</span>
+                <div className="text-2xl">
+                  <FaUniversity className="text-green-600" />
+                </div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Board Leadership</h3>

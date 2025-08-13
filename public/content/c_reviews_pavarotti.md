@@ -4,17 +4,14 @@ converted_from_html: true
 id: c_reviews_pavarotti
 images:
 - height: 28
-  src: images/title_reviews.gif
+  src: /images/title-reviews.gif
   width: 250
 - height: 250
-  src: images/pavarotti.jpg
+  src: /images/pavarotti.jpg
   width: 185
 - height: 248
-  src: images/logos_newspaper.gif
+  src: /images/logos-newspaper.gif
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   author: Cheryl North
   date: April
@@ -78,14 +75,5 @@ At the other end of the spectrum, a good example would be Cecilia Bartolli's Zel
 
 Pavarotti is simply too good to waste in a blatant rock-concert format.
 
-![](images/logos_newspaper.gif)
+![](/images/logos-newspaper.gif)
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

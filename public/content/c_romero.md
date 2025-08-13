@@ -4,17 +4,14 @@ converted_from_html: true
 id: c_romero
 images:
 - height: 28
-  src: images/title_gray_romeros.gif
+  src: /images/title-gray-romeros.gif
   width: 220
 - height: 224
-  src: images/celedonio_romero.jpg
+  src: /images/celedonio-romero.jpg
   width: 220
 - height: 260
-  src: images/romeros.jpg
+  src: /images/romeros.jpg
   width: 220
-- height: 28
-  src: http://www.dunningmarketing.com/images/banner_dunning_marketing.gif
-  width: 150
 publication:
   author: such typical
   date: July
@@ -84,22 +81,13 @@ One of the highlights of his life was in 1996, when he performed the "Concierto 
 
 �1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
-![](images/title_gray_romeros.gif)
+![](/images/title-gray-romeros.gif)
 
-![](images/celedonio_romero.jpg)
+![](/images/celedonio-romero.jpg)
 
 Celedonio Romero
 
-![](images/romeros.jpg)
+![](/images/romeros.jpg)
 
 (Back) Celin Romero, Pepe Romero. (Front) Celino Romero, Lito Romero.
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)
-[.](http://www.attainia.com)
-[.](http://www.briandunning.com)

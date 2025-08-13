@@ -1,9 +1,16 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { 
+  FaCalendarAlt, 
+  FaGraduationCap, 
+  FaUsers, 
+  FaGlobe 
+} from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'D. Warner North - Stanford University Work | NorthWorks',
@@ -130,12 +137,14 @@ export default function StanfordIndexPage() {
               />
             )}
           </div>
-          <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">Stanford University</h1>
+          <PageTitle
+            title="Stanford University"
+            description="35+ years of academic service (1976-2009) as Consulting Associate Professor and Consulting Professor"
+            align="center"
+            size="large"
+          />
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-2xl text-red-600 font-semibold mb-4">Department of Management Science and Engineering</h2>
-            <p className="text-lg text-gray-600">
-              35+ years of academic service (1976-2009) as Consulting Associate Professor and Consulting Professor
-            </p>
           </div>
         </div>
 
@@ -203,9 +212,15 @@ export default function StanfordIndexPage() {
                     energy, and environmental protection (with Professor Burke Robinson)
                   </p>
                   <div className="flex items-center space-x-4 text-sm text-gray-500">
-                    <span>📅 2006-2012</span>
-                    <span>🎓 Graduate/Undergraduate</span>
-                    <span>👥 Team-taught</span>
+                    <span className="flex items-center">
+                      <FaCalendarAlt className="mr-1" /> 2006-2012
+                    </span>
+                    <span className="flex items-center">
+                      <FaGraduationCap className="mr-1" /> Graduate/Undergraduate
+                    </span>
+                    <span className="flex items-center">
+                      <FaUsers className="mr-1" /> Team-taught
+                    </span>
                   </div>
                 </div>
                 <span className="inline-block px-3 py-1 text-xs font-medium bg-red-100 text-red-800 rounded-full">
@@ -225,9 +240,15 @@ export default function StanfordIndexPage() {
                     energy, and environment (co-taught with William Perry, John Weyant, Ross Shachter)
                   </p>
                   <div className="flex items-center space-x-4 text-sm text-gray-500">
-                    <span>📅 2003-2005</span>
-                    <span>🎓 Graduate</span>
-                    <span>👥 Multi-professor team</span>
+                    <span className="flex items-center">
+                      <FaCalendarAlt className="mr-1" /> 2003-2005
+                    </span>
+                    <span className="flex items-center">
+                      <FaGraduationCap className="mr-1" /> Graduate
+                    </span>
+                    <span className="flex items-center">
+                      <FaUsers className="mr-1" /> Multi-professor team
+                    </span>
                   </div>
                 </div>
                 <span className="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
@@ -247,9 +268,15 @@ export default function StanfordIndexPage() {
                     (co-taught with Donald Kennedy, President Emeritus)
                   </p>
                   <div className="flex items-center space-x-4 text-sm text-gray-500">
-                    <span>📅 1995-1996</span>
-                    <span>🎓 Interdisciplinary</span>
-                    <span>🌍 Environmental Focus</span>
+                    <span className="flex items-center">
+                      <FaCalendarAlt className="mr-1" /> 1995-1996
+                    </span>
+                    <span className="flex items-center">
+                      <FaGraduationCap className="mr-1" /> Interdisciplinary
+                    </span>
+                    <span className="flex items-center">
+                      <FaGlobe className="mr-1" /> Environmental Focus
+                    </span>
                   </div>
                 </div>
                 <span className="inline-block px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full">

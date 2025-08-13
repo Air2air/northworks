@@ -1,14 +1,14 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
-import { InterviewFrontmatter } from '@/types/content';
+import { ReviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import InterviewsListComponent, { parseInterviewsFromMarkdown } from '@/components/InterviewsListComponent';
+import ContentListComponent, { parseReviewsFromMarkdown } from '@/components/ContentListComponent';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function InterviewsPage() {
-  // Get both the interviews index and individual interviews
-  const interviewsIndexData = getContentBySlug('c_interviews');
-  const individualInterviews = getContentByType('interview');
+export default function ReviewsPage() {
+  // Get both the reviews index and individual reviews
+  const reviewsIndexData = getContentBySlug('c_reviews');
+  const individualReviews = getContentByType('review');
 
   const defaultNavigation = [
     { label: 'Home', href: '/', active: false },
@@ -19,28 +19,28 @@ export default function InterviewsPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Interviews', href: '/interviews', active: true }
+    { label: 'Reviews', href: '/reviews', active: true }
   ];
 
   const mockFrontmatter = {
-    id: 'interviews',
-    title: 'Classical Music Interviews',
+    id: 'reviews',
+    title: 'Performance Reviews',
     type: 'article' as const,
     seo: {
-      title: 'Classical Music Interviews - NorthWorks',
-      description: 'Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene.',
-      keywords: ['classical music', 'interviews', 'opera', 'symphony', 'musicians']
+      title: 'Classical Music Reviews - NorthWorks',
+      description: 'Performance reviews of opera, symphony, and classical music concerts in the San Francisco Bay Area.',
+      keywords: ['classical music reviews', 'opera reviews', 'symphony reviews', 'performance reviews']
     },
     navigation: defaultNavigation,
     breadcrumbs
   };
 
-  // Parse interviews from the index if available
-  let indexInterviews: any[] = [];
-  if (interviewsIndexData) {
-    const frontmatter = interviewsIndexData.frontmatter as InterviewFrontmatter;
-    indexInterviews = parseInterviewsFromMarkdown(
-      interviewsIndexData.content, 
+  // Parse reviews from the index if available
+  let indexReviews: any[] = [];
+  if (reviewsIndexData) {
+    const frontmatter = reviewsIndexData.frontmatter as ReviewFrontmatter;
+    indexReviews = parseReviewsFromMarkdown(
+      reviewsIndexData.content, 
       frontmatter.images || []
     );
   }
@@ -48,45 +48,47 @@ export default function InterviewsPage() {
   return (
     <ContentLayout frontmatter={mockFrontmatter}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Classical Music Interviews</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Performance Reviews</h1>
         <p className="text-lg text-gray-600 mb-8 text-center max-w-3xl mx-auto">
-          Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene.
+          Reviews of opera productions, symphony concerts, and classical music performances 
+          throughout the San Francisco Bay Area and beyond.
         </p>
 
-        {/* Show index-based interviews if available */}
-        {indexInterviews.length > 0 && (
+        {/* Show index-based reviews if available */}
+        {indexReviews.length > 0 && (
           <div className="mb-12">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-semibold text-gray-900">Featured Interview Collection</h2>
+              <h2 className="text-2xl font-semibold text-gray-900">Published Reviews Collection</h2>
               <Link 
-                href="/interviews-index" 
+                href="/reviews-index" 
                 className="text-blue-600 hover:text-blue-800 transition-colors font-medium"
               >
                 View Full Collection →
               </Link>
             </div>
-            <InterviewsListComponent 
-              interviews={indexInterviews.slice(0, 12)} // Show first 12
+            <ContentListComponent 
+              items={indexReviews.slice(0, 10)} // Show first 10
               title=""
-              showThumbnails={true}
-              layout="grid"
+              showThumbnails={false}
+              layout="list"
+              contentType="reviews"
             />
           </div>
         )}
 
-        {/* Show individual interview files */}
-        {individualInterviews.length > 0 && (
+        {/* Show individual review files */}
+        {individualReviews.length > 0 && (
           <div>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-              {indexInterviews.length > 0 ? 'Additional Interviews' : 'All Interviews'}
+              {indexReviews.length > 0 ? 'Additional Reviews' : 'All Reviews'}
             </h2>
             <div className="grid gap-6">
-              {individualInterviews.map((interview) => {
-                const frontmatter = interview.frontmatter as InterviewFrontmatter;
+              {individualReviews.map((review) => {
+                const frontmatter = review.frontmatter as ReviewFrontmatter;
                 const heroImage = frontmatter.images?.[0];
                 
                 return (
-                  <article key={interview.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                  <article key={review.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                     <div className="flex">
                       {heroImage && (
                         <div className="flex-shrink-0 w-48 h-32 relative">
@@ -101,7 +103,7 @@ export default function InterviewsPage() {
                       <div className="flex-1 p-6">
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">
                           <Link 
-                            href={`/interviews/${interview.slug}`}
+                            href={`/reviews/${review.slug}`}
                             className="hover:text-blue-600 transition-colors"
                           >
                             {frontmatter.title}
@@ -127,7 +129,7 @@ export default function InterviewsPage() {
                             {frontmatter.subjects.slice(0, 5).map((subject, index) => (
                               <span 
                                 key={index}
-                                className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                                className="inline-block px-2 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full"
                               >
                                 {subject}
                               </span>
@@ -136,7 +138,7 @@ export default function InterviewsPage() {
                         )}
 
                         <p className="text-gray-600 text-sm">
-                          {interview.content.substring(0, 200).replace(/[#*_]/g, '')}...
+                          {review.content.substring(0, 200).replace(/[#*_]/g, '')}...
                         </p>
                       </div>
                     </div>
@@ -147,9 +149,9 @@ export default function InterviewsPage() {
           </div>
         )}
 
-        {indexInterviews.length === 0 && individualInterviews.length === 0 && (
+        {indexReviews.length === 0 && individualReviews.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500">No interviews found.</p>
+            <p className="text-gray-500">No reviews found.</p>
           </div>
         )}
       </div>

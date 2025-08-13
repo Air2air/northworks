@@ -105,31 +105,85 @@ export default function WarnerPage() {
           {/* Sidebar */}
           <div className="lg:col-span-1">
             <div className="bg-white rounded-lg shadow-lg p-6 sticky top-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">Professional Areas</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">Professional Portfolio</h3>
               
               <div className="space-y-4">
                 <Link 
+                  href="/warner/projects-index"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all group"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-blue-600">Complete Projects Index</h4>
+                      <p className="text-sm text-gray-600">50+ years of consulting work</p>
+                    </div>
+                    <span className="text-2xl">📋</span>
+                  </div>
+                </Link>
+
+                <Link 
                   href="/warner/background"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all group"
                 >
-                  <h4 className="font-medium text-gray-900 mb-1">Background & Education</h4>
-                  <p className="text-sm text-gray-600">Academic background and professional credentials</p>
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-blue-600">Background & Education</h4>
+                      <p className="text-sm text-gray-600">Academic credentials & training</p>
+                    </div>
+                    <span className="text-2xl">🎓</span>
+                  </div>
                 </Link>
                 
                 <Link 
-                  href="/warner/projects"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all"
+                  href="/warner/projects/government"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all group"
                 >
-                  <h4 className="font-medium text-gray-900 mb-1">Projects & Consulting</h4>
-                  <p className="text-sm text-gray-600">Government and industry consulting work</p>
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-blue-600">Government Service</h4>
+                      <p className="text-sm text-gray-600">Federal & state agency work</p>
+                    </div>
+                    <span className="text-2xl">🏛️</span>
+                  </div>
+                </Link>
+
+                <Link 
+                  href="/warner/stanford-index"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-red-300 hover:shadow-md transition-all group"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-red-600">Stanford University</h4>
+                      <p className="text-sm text-gray-600">35 years of academic service</p>
+                    </div>
+                    <span className="text-2xl">🏫</span>
+                  </div>
+                </Link>
+
+                <Link 
+                  href="/warner/nrc-index"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-purple-300 hover:shadow-md transition-all group"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-purple-600">National Academies</h4>
+                      <p className="text-sm text-gray-600">NRC National Associate</p>
+                    </div>
+                    <span className="text-2xl">⭐</span>
+                  </div>
                 </Link>
                 
                 <Link 
-                  href="/warner/publications"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all"
+                  href="/warner/publications-index"
+                  className="block p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all group"
                 >
-                  <h4 className="font-medium text-gray-900 mb-1">Publications & Reports</h4>
-                  <p className="text-sm text-gray-600">Academic papers and research publications</p>
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-medium text-gray-900 mb-1 group-hover:text-green-600">Publications Index</h4>
+                      <p className="text-sm text-gray-600">Books, papers & reports</p>
+                    </div>
+                    <span className="text-2xl">📚</span>
+                  </div>
                 </Link>
               </div>
 

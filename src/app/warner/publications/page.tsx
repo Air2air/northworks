@@ -50,14 +50,35 @@ export default function WarnerPublicationsPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12">
+        <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Publications & Reports
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl">
+          <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto mb-6"></div>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Academic papers, research reports, and contributions to National Academy of Sciences 
             publications on risk analysis and environmental protection.
           </p>
+        </div>
+
+        {/* Quick Stats */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-3xl font-bold text-green-600 mb-2">5</div>
+            <div className="text-sm text-gray-600">Major NRC Reports</div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+            <div className="text-sm text-gray-600">Research Papers</div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-3xl font-bold text-purple-600 mb-2">25+</div>
+            <div className="text-sm text-gray-600">Years Contributing</div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-3xl font-bold text-orange-600 mb-2">3</div>
+            <div className="text-sm text-gray-600">Core Research Areas</div>
+          </div>
         </div>
 
         {/* Main Publications Content */}
@@ -107,24 +128,63 @@ export default function WarnerPublicationsPage() {
         </div>
 
         {/* Key National Academy Reports */}
-        <div className="bg-blue-50 rounded-lg p-8 mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-            National Research Council Reports
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Risk Assessment Reports</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li>• <em>Risk Assessment in the Federal Government: Managing the Process</em> (1983)</li>
-                <li>• <em>Science and Judgment in Risk Assessment</em> (1994)</li>
-                <li>• <em>Understanding Risk: Informing Decisions in a Democratic Society</em> (1996)</li>
+        <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 mb-8 border border-blue-200">
+          <div className="flex items-center mb-6">
+            <span className="text-4xl mr-4">📊</span>
+            <h2 className="text-2xl font-semibold text-gray-900">
+              Major National Research Council Reports
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-medium text-gray-900 mb-4 flex items-center">
+                <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
+                Risk Assessment & Analysis
+              </h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-2 mt-1">•</span>
+                  <div>
+                    <strong>Risk Assessment in the Federal Government</strong> (1983)<br/>
+                    <span className="text-sm text-gray-600">Managing the Process - Foundational report</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-2 mt-1">•</span>
+                  <div>
+                    <strong>Science and Judgment in Risk Assessment</strong> (1994)<br/>
+                    <span className="text-sm text-gray-600">Methodological advances</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-500 mr-2 mt-1">•</span>
+                  <div>
+                    <strong>Understanding Risk</strong> (1996)<br/>
+                    <span className="text-sm text-gray-600">Informing Decisions in a Democratic Society</span>
+                  </div>
+                </li>
               </ul>
             </div>
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Communication & Policy</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li>• <em>Improving Risk Communication</em> (1989)</li>
-                <li>• <em>Public Participation in Environmental Assessment and Decision Making</em> (2008)</li>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-medium text-gray-900 mb-4 flex items-center">
+                <span className="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
+                Communication & Policy
+              </h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2 mt-1">•</span>
+                  <div>
+                    <strong>Improving Risk Communication</strong> (1989)<br/>
+                    <span className="text-sm text-gray-600">Public understanding and dialogue</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2 mt-1">•</span>
+                  <div>
+                    <strong>Public Participation in Environmental Assessment</strong> (2008)<br/>
+                    <span className="text-sm text-gray-600">Decision Making frameworks</span>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -134,24 +194,86 @@ export default function WarnerPublicationsPage() {
         <div className="bg-gray-50 rounded-lg p-8 mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">Research Focus Areas</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Risk Analysis</h3>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-3">🔬</span>
+                <h3 className="text-lg font-medium text-gray-900">Risk Analysis</h3>
+              </div>
               <p className="text-gray-600 text-sm">
                 Quantitative methods for assessing and managing technological and environmental risks
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Decision Science</h3>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-3">🎯</span>
+                <h3 className="text-lg font-medium text-gray-900">Decision Science</h3>
+              </div>
               <p className="text-gray-600 text-sm">
                 Application of decision analysis to complex policy and management problems
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Nuclear Safety</h3>
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-3">⚛️</span>
+                <h3 className="text-lg font-medium text-gray-900">Nuclear Safety</h3>
+              </div>
               <p className="text-gray-600 text-sm">
                 Nuclear waste management, reactor safety, and regulatory policy analysis
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Quick Access Links */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            Additional Resources
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link 
+              href="/warner/publications-index"
+              className="group p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
+            >
+              <div className="text-center">
+                <span className="text-3xl mb-2 block">📚</span>
+                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-green-600">
+                  Publications Index
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Complete bibliography and reports
+                </p>
+              </div>
+            </Link>
+
+            <Link 
+              href="/warner/nrc-index"
+              className="group p-4 border border-gray-200 rounded-lg hover:border-purple-300 hover:shadow-md transition-all"
+            >
+              <div className="text-center">
+                <span className="text-3xl mb-2 block">⭐</span>
+                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-purple-600">
+                  National Academies Service
+                </h4>
+                <p className="text-sm text-gray-600">
+                  NRC committees and reports
+                </p>
+              </div>
+            </Link>
+
+            <Link 
+              href="/warner/stanford-index"
+              className="group p-4 border border-gray-200 rounded-lg hover:border-red-300 hover:shadow-md transition-all"
+            >
+              <div className="text-center">
+                <span className="text-3xl mb-2 block">🏫</span>
+                <h4 className="font-medium text-gray-900 mb-1 group-hover:text-red-600">
+                  Academic Work
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Stanford University research
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
 

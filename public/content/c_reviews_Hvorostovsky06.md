@@ -1,22 +1,23 @@
-<!-- MAIN TABLE -->
-<tr class="table_main" >
-<td class="td_center" valign="top">
+---
+conversion_date: '2025-08-13'
+converted_from_html: true
+id: c_reviews_Hvorostovsky06
+images:
+- height: 28
+  src: images/title_reviews.gif
+  width: 250
+publication:
+  author: Cheryl North
+  date: February
+  publisher: Oakland Tribune
+title: Untitled
+type: review
+---
 
-<img src="images/title_reviews.gif" width="250" height="28" vspace="10" /><br />
+***
 
+Another Example: Music is the International Language**
 
-
-
-<b>Another Example: Music is the International Language</b>
-<p></p>
-
-
-
-Review of <b>Dmitri Hvorostovsky</b> in concert with the <b>Philharmonia of Russia, Constantine Orbelian, Conductor</b>, at Davies Hall in San Francisco January 22 and at the Barbican Hall in London, February 17, 2006. Published February 24, 2006 in the <i>Oakland Tribune</i> and other papers of the Alameda Newspaper Group, September 30, 2005, under the headline above.<p></p>
-
+Review of **Dmitri Hvorostovsky** in concert with the **Philharmonia of Russia, Constantine Orbelian, Conductor**, at Davies Hall in San Francisco January 22 and at the Barbican Hall in London, February 17, 2006. Published February 24, 2006 in the Oakland Tribune* and other papers of the Alameda Newspaper Group, September 30, 2005, under the headline above.
 
 By Cheryl North
-<p></p>
-
-<!Insert Text Here>
-

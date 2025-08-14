@@ -3,23 +3,28 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews  Calif Symphony 9-30-2012
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: September
   publisher: the Finnish
 subjects:
-- of seven
-- seven guest
-- orchestra and
-- execution by
-- to be
-title: <b>California Symphony season opens with Robert Moody, the first of seven conductors
-  auditioning for permanent post of music director</b>
+  - Bass
+  - California Symphony
+  - Concert Review
+  - Concerto
+  - Conducting
+  - Piano
+  - Robert Moody
+  - Sergei Rachmaninoff
+  - Symphony
+title: >-
+  <b>California Symphony season opens with Robert Moody, the first of seven
+  conductors auditioning for permanent post of music director</b>
 type: review
 ---
 

@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_rosenberg
 images:
-- height: 141
-  src: /images/rosenberg.jpg
-  width: 192
+  - height: 141
+    src: /images/rosenberg.jpg
+    width: 192
 publication:
   date: November
   publisher: the early
 subjects:
-- alongside its
-- to be
-- four Jewish
-- Franz Wuellner
-- will be
-- of six
-- which was
-- last three
-- the last
-- San Francisco Opera
+  - Carnegie Hall
+  - Giacomo Puccini
+  - Giuseppe Verdi
+  - Gustav Mahler
+  - Ludwig van Beethoven
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Symphony
+  - War Memorial Opera House
 title: Cheryl North Interviews Pamela Rosenberg
 type: article
 ---
@@ -68,7 +68,7 @@ A few weeks ago I visited Berlin, the edgy, energetic capitol of Germany. Berlin
 
  Other Bay Area connections will be made when Maestros Donald Runnicles and Nicola Luisotti, past and future music directors respectively, of the SF Opera, conduct the Berlin Philharmonic next season.
 
- All of the above invoked a bit of d�j� vu taking me back to Rosenberg's first press conference as the new General Director of the San Francisco Opera in January of 2001. This was when she announced plans for her "Animating Opera" program, which she described as being designed to "enable our audiences to see interconnections between life and art" and to show that the musical arts have "the potential to make people think and feel more deeply about the human condition."
+ All of the above invoked a bit of d'j' vu taking me back to Rosenberg's first press conference as the new General Director of the San Francisco Opera in January of 2001. This was when she announced plans for her "Animating Opera" program, which she described as being designed to "enable our audiences to see interconnections between life and art" and to show that the musical arts have "the potential to make people think and feel more deeply about the human condition."
 
  But, with her two sons, a daughter-in-law, and three grandchildren living nearby in Germany, Rosenberg is happy to remain in Berlin to connect her SFO music-life mission with the Berlin Philharmonic. Most Berliners consider it a great fit.
 
@@ -102,7 +102,7 @@ Rosenberg stressed that she was equally happy about San Francisco's extravagantl
 
 "Our *Barber*, which even had Tom Hampson riding a motorcycle onstage, was sparkling and fun in an up-to-date way," she mused with a smile. "I am happy with how wide-ranging our opera presentations were and feel really proud of the things we produced ourselves."
 
-She felt that the inclusion of Ferruccio Busoni's *Doktor Faust* provided much needed insight into the Faust legend. Also, that Janacek's *The Cunning Little Vixen* and his *Kat'a Kabanova* as well as Shostakovich's *Lady Macbeth of Mtsensk* � although collaborations with other companies � were likewise important milestones.
+She felt that the inclusion of Ferruccio Busoni's *Doktor Faust* provided much needed insight into the Faust legend. Also, that Janacek's *The Cunning Little Vixen* and his *Kat'a Kabanova* as well as Shostakovich's *Lady Macbeth of Mtsensk* ' although collaborations with other companies ' were likewise important milestones.
 
 She is enthusiastic about the current *La Forza del Destino* production, describing it as a "long project that the company has really delved into.
 
@@ -122,7 +122,7 @@ Shrugging her shoulders, she said that a man sent her an e-mail telling her abou
 
 She also admitted that she initially had fears about doing the huge *St. Francis* production in 2002.
 
-"I was worried that doing *St. Francis* so early in the game might have be dangerous � but it had the opposite effect. It turned out to be a fabulous way to begin. Although it was such a tremendous challenge for everyone in the company, the act of making it all happen together really bonded us all. We all � the designers, the costumers, the set-builders, the chorus, the orchestra � had a real sense of unity and togetherness from that point on," she said.
+"I was worried that doing *St. Francis* so early in the game might have be dangerous ' but it had the opposite effect. It turned out to be a fabulous way to begin. Although it was such a tremendous challenge for everyone in the company, the act of making it all happen together really bonded us all. We all ' the designers, the costumers, the set-builders, the chorus, the orchestra ' had a real sense of unity and togetherness from that point on," she said.
 
 "I remember catching sight of the backstage manager walking across the stage with tears in her eyes after the curtain went down at the last performance. Concerned that something awful was wrong, I went over to her and asked if she was all right. She answered that she was fine, but was just sad that it was the last performance."
 
@@ -136,7 +136,7 @@ Between 1971 and 2001, she worked in Germany where she earned high honors for he
 
 Born Pamela Henry in California in 1945, she has spent much of her life abroad. Since her father was a naval officer, the family lived in Puerto Rico, then in Venezuela. Pamela came back to the States to attend high school in Pennsylvania and in Beverly Hills before enrolling at the University of California, Berkeley. During this youthful period she had spent 10 years as a serious piano student.
 
-"I almost had a nervous breakdown trying to decide whether to major in history or music at Berkeley, but eventually settled into European and English history. By the time I graduated, though, I knew that I wanted to be a stage director � preferably an opera director. During those years, I spent a lot of time in the standing room sections of the San Francisco opera and symphony."
+"I almost had a nervous breakdown trying to decide whether to major in history or music at Berkeley, but eventually settled into European and English history. By the time I graduated, though, I knew that I wanted to be a stage director ' preferably an opera director. During those years, I spent a lot of time in the standing room sections of the San Francisco opera and symphony."
 
 After Berkeley, she went on to study with Wieland Wagner in Bayreuth, Germany, and then to the Guild Hall School of Music and Drama in London and the London Opera Centre, where she earned a diploma in stage management.
 

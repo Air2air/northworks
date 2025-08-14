@@ -3,20 +3,27 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_OEBS_1-10
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   author: Cheryl North
   date: January
   publisher: Contra Costa Times
 subjects:
-- Michael Morgan
-- of the
-- chorus of
+  - Concert Review
+  - Concerto
+  - Conducting
+  - Contra Costa Times
+  - Michael Morgan
+  - Mikhail Simonyan
+  - Performance
+  - Symphony
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: review
 ---

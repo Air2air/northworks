@@ -35,7 +35,7 @@ In demand: Deborah Voigt stars as Amelia in San Francisco Opera's "A Masked Ball
 It just doesn't seem fair. The greatest dramatic soprano of our age is dogged by fickle fashion.
 First it was the tempest-in-a-teapot brouhaha over not fitting into the little black dress designed for the Covent Garden production of the Richard Strauss opera Ariadne auf Naxos* a couple of years ago.
 
-Now it's the dilemma of the seven veils she will � or won't � wear in Strauss' *Salome.*
+Now it's the dilemma of the seven veils she will ' or won't ' wear in Strauss' *Salome.*
 
 "It's a no-win situation," said Deborah Voigt, the newly slender soprano siren with the lush blond hair and sea-blue eyes, about her portrayal of Salome scheduled next month with the Chicago Lyric Opera. "If I don't drop all the veils, people will think I'm trying to hide something. If I do, they could consider it gratuitous showing-off."
 

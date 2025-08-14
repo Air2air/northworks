@@ -3,23 +3,21 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_ masur
 images:
-- height: 160
-  src: /images/thm-masur.jpg
-  width: 160
+  - height: 160
+    src: /images/thm-masur.jpg
+    width: 160
 publication:
   date: November
   publisher: the Nazis
 subjects:
-- like renowned
-- Bay Area
-- after the
-- study and
-- We could
-- was named
-- as guest
-- Honorary Guest
-- as its
-- rehearsals and
+  - Aria
+  - Bass
+  - Conducting
+  - Interview
+  - Kurt Masur
+  - Piano
+  - San Francisco Symphony
+  - Symphony
 title: <b>Cheryl North Interviews Kurt Masur</b>
 type: article
 ---

@@ -3,37 +3,36 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_articles_deadman
 images:
-- height: 28
-  src: /images/title-articles.gif
-  width: 250
-- height: 28
-  src: /images/title-gray-dead.gif
-  width: 220
-- height: 218
-  src: /images/opera-now-cover.jpg
-  width: 150
-- height: 149
-  src: /images/dmw-1.jpg
-  width: 220
-- height: 181
-  src: /images/dmw-2.jpg
-  width: 220
-- height: 258
-  src: /images/dmw-3.jpg
-  width: 220
+  - height: 28
+    src: /images/title-articles.gif
+    width: 250
+  - height: 28
+    src: /images/title-gray-dead.gif
+    width: 220
+  - height: 218
+    src: /images/opera-now-cover.jpg
+    width: 150
+  - height: 149
+    src: /images/dmw-1.jpg
+    width: 220
+  - height: 181
+    src: /images/dmw-2.jpg
+    width: 220
+  - height: 258
+    src: /images/dmw-3.jpg
+    width: 220
 publication:
   publisher: Sister Helen
 subjects:
-- the finest
-- Williams stage
-- new musical
-- built to
-- able to
-- her warm
-- first official
-- score were
-- chosen to
-- scheduled to
+  - Baritone
+  - Conducting
+  - Franz Schubert
+  - Opera
+  - Opera Now
+  - Piano
+  - San Francisco Opera
+  - Soprano
+  - War Memorial Opera House
 title: Untitled
 type: article
 ---
@@ -88,11 +87,11 @@ One of America's starriest singers on the international opera scene, mezzo Susan
 
 ![](/images/dmw-1.jpg)
 
-Three sisters: Susan Sarandon (center) from the film version of �Dead Man Walking�, flanked by Susan Graham (right) who played the lead in the opera, and the real Sister Helen Prejean.
+Three sisters: Susan Sarandon (center) from the film version of 'Dead Man Walking', flanked by Susan Graham (right) who played the lead in the opera, and the real Sister Helen Prejean.
 
 ![](/images/dmw-2.jpg)
 
-Michael Yeargan�s design for the bleak prison setting of the Opera
+Michael Yeargan's design for the bleak prison setting of the Opera
 
 ![](/images/dmw-3.jpg)
 

@@ -3,18 +3,24 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_interview_bodorova
 images:
-- height: 190
-  src: /images/thm-bodorova.jpg
-  width: 179
+  - height: 190
+    src: /images/thm-bodorova.jpg
+    width: 179
 publication:
   date: December
   publisher: the triumph
 subjects:
-- study and
-- visitors and
-- rooms provide
-title: An Interview with Czech Composer<br /> Sylvie Bodorova and a Visit to <br />Gustav
-  Mahler's Birthplace</b>
+  - An Interview
+  - Conducting
+  - Gustav Mahler
+  - Interview
+  - Ludwig van Beethoven
+  - Moving Visit
+  - Piano
+  - Premiere
+title: >-
+  An Interview with Czech Composer<br /> Sylvie Bodorova and a Visit to <br
+  />Gustav Mahler's Birthplace</b>
 type: interview
 ---
 
@@ -40,13 +46,13 @@ I did not witness the premiere, but I have listened to its live recording, distr
 
 It summons high drama with a riveting blend of narration, traditional chant, gorgeous solo vocal and choral selections, and alternatively chilling and spiritually moving instrumental passages. The finale contains what seemed to me the most exciting "modern" music to emerge in the 21st century. It reminded me of music by a Czech-Jewish composer whose work spanned the turn of the 20th century: Gustav Mahler.
 
-Not unlike his ethnic fellows, Mahler once lamented, "I am three times homeless � as a native of Bohemia in Austria, as an Austrian among Germans, and as a Jew throughout the world."
+Not unlike his ethnic fellows, Mahler once lamented, "I am three times homeless ' as a native of Bohemia in Austria, as an Austrian among Germans, and as a Jew throughout the world."
 
 If Mahler were to visit now, he would have to alter that statement to something more like, "The world is my home. I am claimed by the Czechs, the Austrians, the Christians, the Jews, and, in fact, the whole world."
 
 A couple of months ago my husband and I were traveling to the south of the Czech Republic on a pilgrimage of sorts to Kaliste and Jihlava. Kaliste was the village where Mahler was born, and Jihlava where he spent his formative years.
 
-Jiri Stilec � a recording company executive, music scholar and Bodorova's husband � was our host. He's also the person largely responsible for the Mahler restorations we were about to see.
+Jiri Stilec ' a recording company executive, music scholar and Bodorova's husband ' was our host. He's also the person largely responsible for the Mahler restorations we were about to see.
 
 About an hour and a half after leaving Prague, Stilec turned off the highway onto a narrow, apple tree-lined winding road, stopping at the first building before the lane curved into Kaliste. The building looked like a 19th century inn; a bronze plaque with a relief bust of Gustav Mahler dominated its roadside wall.
 

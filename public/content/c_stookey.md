@@ -3,24 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_stookey
 images:
-- height: 150
-  src: /images/stookey.jpg
-  width: 127
-
+  - height: 150
+    src: /images/stookey.jpg
+    width: 127
 publication:
   date: November
   publisher: the same
 subjects:
-- used to
-- one day
-- Morgan will
-- the OEBS
-- fanfares once
-- can only
-- will be
-- one being
-- let him
-- enough to
+  - Bass
+  - Conducting
+  - Interview
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - Premiere
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Cheryl North Interviews Nat Stookey
 type: article
 ---

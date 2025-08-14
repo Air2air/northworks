@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { BiographyFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageHeader, Sidebar } from '@/components/ui';
+import { PageTitle, Sidebar } from '@/components/ui';
 import type { NavigationCardProps } from '@/components/ui';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -114,11 +114,11 @@ export default function WarnerPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
-        <PageHeader
+        <PageTitle
           title="D. Warner North"
           description="Principal Scientist of NorthWorks and leading expert in risk analysis and nuclear waste issues"
-          gradientFrom="blue-500"
-          gradientTo="purple-600"
+          align="center"
+          size="large"
         />
 
         <div className="grid lg:grid-cols-3 gap-12">

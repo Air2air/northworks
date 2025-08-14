@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -57,14 +58,12 @@ export default function WarnerBackgroundPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Background & Education
-          </h1>
-          <p className="text-lg text-gray-600">
-            Academic background and professional credentials of D. Warner North
-          </p>
-        </div>
+        <PageTitle
+          title="Background & Education"
+          description="Academic background and professional credentials of D. Warner North"
+          align="left"
+          size="large"
+        />
 
         {/* Content */}
         <div className="prose prose-lg max-w-none mb-12">

@@ -62,4 +62,3 @@ While it's quite remarkable for a concert pianist to be a high-achieving weight-
 Known world-wide for both his sensitivity and his prowess as a pianist, Bates' prodigious repertoire includes all the Rachmaninoff and Beethoven Piano Concerti, most of Mozart's, as well as major works by Liszt, Chopin, Bartok, Gershwin, Duke Ellington, Ravel, and Poulenc. He has performed with the New York Philharmonic, the Vienna Symphony, the Philadelphia and Cleveland Orchestras and at Carnegie Hall, Hollywood Bowl, Kennedy Center and more.
 
 
-href="http://www.websiteaddressxx.com/">.

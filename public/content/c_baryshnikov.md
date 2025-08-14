@@ -18,11 +18,11 @@ type: article
 *ANG Newspapers Classical Music Column - March 17, 2006*, under headline, More honors for the amazing Mikhail Baryshnikov**
 
 FICTION can seldom outdo the surprises, ironies and plot twists of real life.
-Imagine this unlikely scenario: a member of the military of the former Soviet Union and his wife are stationed in Riga � the erstwhile capital city of freedom-loving Latvia, the cold, birch-forested country bordering the Baltic Sea.
+Imagine this unlikely scenario: a member of the military of the former Soviet Union and his wife are stationed in Riga ' the erstwhile capital city of freedom-loving Latvia, the cold, birch-forested country bordering the Baltic Sea.
 
 In 1948, this Russian-born couple have a son who will someday be awarded The National Medal of Honor of the United States of America.
 
-Fiction? No � fact.
+Fiction? No ' fact.
 
 ![](/images/thm-baryshnikov.jpg)
 
@@ -47,7 +47,7 @@ He heads the White Oak Dance Project and the Baryshnikov Foundation, which encou
 During a telephone interview earlier this week, I asked him why he has chosen the Kremerata Baltica, an ensemble made
 up of 27 twentysomething musicians from Latvia, Lithuania and Estonia, as partner in the upcoming San Francisco event.
 
-"Ah � the group's founder, violinist Gidon Kremer, is an old friend of mine," replied
+"Ah ' the group's founder, violinist Gidon Kremer, is an old friend of mine," replied
 Baryshnikov in rapid, energetic English marked with only the slightest foreign-sounding accent. "We both went to the same conservatory in Riga."
 
 Continuing at the same staccato pace, he said, "It was a remarkable school. Not only Kremer, one of the world's greatest violinists, but Mischa Meisky, one of the best cellists of our generation, and violinist Philip Hirschhorn went to the same school. We studied math, literature and all that (the basic education subjects) together, and then had separate classes and lessons in our various musical fields. Gidon was a year ahead of me, but we've remained friends all these years and he is now on the advisory board of my Baryshnikov Foundation."

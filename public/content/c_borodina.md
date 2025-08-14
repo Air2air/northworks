@@ -3,22 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_borodina
 images:
-- height: 160
-  src: /images/thm-borodina.jpg
-  width: 160
+  - height: 160
+    src: /images/thm-borodina.jpg
+    width: 160
 publication:
   date: September
 subjects:
-- when he
-- San Francisco
-- she began
-- an opera
-- Conservatory to
-- invited to
-- her flawless
-- on to
-- for her
-- like to
+  - Baritone
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Metropolitan Opera
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Symphony
+  - War Memorial Opera House
 title: Cheryl North Interviews Olga Borodina</b>
 type: article
 ---
@@ -85,4 +85,3 @@ After I made a few arm motions of casting a line into a stream like a fly fisher
 When asked about a role she would like to sing in the future, she replied after a few second's thought, "Azucena (from Verdi's *Il Trovatore*). She is a REAL mother!"
 
 
-href="http://www.websiteaddressxx.com/">.

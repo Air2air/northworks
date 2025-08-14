@@ -3,23 +3,21 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_masur
 images:
-- height: 160
-  src: /images/thm-masur.jpg
-  width: 160
+  - height: 160
+    src: /images/thm-masur.jpg
+    width: 160
 publication:
-  date: November 1, 2002
+  date: 'November 1, 2002'
   publisher: ANG Newspapers Classical Music
 subjects:
-- like renowned
-- Bay Area
-- after the
-- study and
-- We could
-- was named
-- as guest
-- Honorary Guest
-- as its
-- rehearsals and
+  - Aria
+  - Bass
+  - Bay Area
+  - Conducting
+  - Kurt Masur
+  - Piano
+  - San Francisco Symphony
+  - Symphony
 title: Masur's Life of Triumphs through the Impossible
 type: article
 ---

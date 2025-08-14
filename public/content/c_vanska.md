@@ -3,23 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_vanska
 images:
-- height: 226
-  src: /images/vanska-with-c-10-31-09.jpg
-  width: 257
+  - height: 226
+    src: /images/vanska-with-c-10-31-09.jpg
+    width: 257
 publication:
   date: October
   publisher: Cheryl North
 subjects:
-- just completed
-- other brother
-- to study
-- Besancon Young
-- He has
-- critics have
-- he will
-- not be
-- Francisco Symphony
-- San Francisco Symphony
+  - Concerto
+  - Davies Symphony Hall
+  - Johannes Brahms
+  - Ludwig van Beethoven
+  - Piano
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Untitled
 type: article
 ---

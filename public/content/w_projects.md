@@ -3,143 +3,147 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: w_projects
 images:
-- height: 28
-  src: /images/title-experience.gif
-  width: 250
-- height: 50
-  src: /images/logo-us.gif
-  width: 50
-- height: 50
-  src: /images/logo-nrc.gif
-  width: 50
-- height: 50
-  src: /images/logo-stan.gif
-  width: 50
-- height: 50
-  src: /images/logo-cra.gif
-  width: 50
-- height: 50
-  src: /images/logo-ntrb.gif
-  width: 50
-- height: 50
-  src: /images/logo-epri.gif
-  width: 50
-- height: 50
-  src: /images/logo-fluor.gif
-  width: 50
-- height: 50
-  src: /images/logo-plek.gif
-  width: 50
-- height: 50
-  src: /images/logo-mwra.gif
-  width: 50
-- height: 50
-  src: /images/logo-cma.gif
-  width: 50
-- height: 50
-  src: /images/logo-gma.gif
-  width: 50
-- height: 50
-  src: /images/logo-nsf.gif
-  width: 50
-- height: 50
-  src: /images/logo-doe.gif
-  width: 50
-- height: 50
-  src: /images/logo-mex.gif
-  width: 50
-- height: 50
-  src: /images/logo-epri.gif
-  width: 50
-- height: 50
-  src: /images/logo-epa.gif
-  width: 50
-- height: 50
-  src: /images/logo-epa.gif
-  width: 50
-- height: 50
-  src: /images/logo-epa.gif
-  width: 50
-- height: 50
-  src: /images/logo-doe.gif
-  width: 50
-- height: 50
-  src: /images/logo-aba.gif
-  width: 50
-- height: 50
-  src: /images/logo-los.gif
-  width: 50
-- height: 50
-  src: /images/logo-epri.gif
-  width: 50
-- height: 50
-  src: /images/logo-nrel.gif
-  width: 50
-- height: 50
-  src: /images/logo-blank.gif
-  width: 50
-- height: 50
-  src: /images/logo-blank.gif
-  width: 50
-- height: 50
-  src: /images/logo-erda.gif
-  width: 50
-- height: 50
-  src: /images/logo-sra.gif
-  width: 50
-- height: 50
-  src: /images/logo-sra.gif
-  width: 50
-- height: 50
-  src: /images/logo-setac.gif
-  width: 50
-- height: 50
-  src: /images/logo-liv.gif
-  width: 50
-- height: 50
-  src: /images/logo-us.gif
-  width: 50
-- height: 50
-  src: /images/logo-erda.gif
-  width: 50
-- height: 50
-  src: /images/logo-nasa.gif
-  width: 50
-- height: 50
-  src: /images/logo-usda.gif
-  width: 50
-- height: 50
-  src: /images/logo-us.gif
-  width: 50
-- height: 50
-  src: /images/logo-us.gif
-  width: 50
-- height: 50
-  src: /images/logo-nih.gif
-  width: 50
-- height: 50
-  src: /images/logo-dod.gif
-  width: 50
-- height: 50
-  src: /images/logo-noaa.gif
-  width: 50
-- height: 50
-  src: /images/logo-blank.gif
-  width: 50
-- height: 50
-  src: /images/logo-cfe.gif
-  width: 50
-- height: 50
-  src: /images/logo-blank.gif
-  width: 50
-- height: 50
-  src: /images/logo-blank.gif
-  width: 50
+  - height: 28
+    src: /images/title-experience.gif
+    width: 250
+  - height: 50
+    src: /images/logo-us.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-cra.gif
+    width: 50
+  - height: 50
+    src: /images/logo-ntrb.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epri.gif
+    width: 50
+  - height: 50
+    src: /images/logo-fluor.gif
+    width: 50
+  - height: 50
+    src: /images/logo-plek.gif
+    width: 50
+  - height: 50
+    src: /images/logo-mwra.gif
+    width: 50
+  - height: 50
+    src: /images/logo-cma.gif
+    width: 50
+  - height: 50
+    src: /images/logo-gma.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nsf.gif
+    width: 50
+  - height: 50
+    src: /images/logo-doe.gif
+    width: 50
+  - height: 50
+    src: /images/logo-mex.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epri.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epa.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epa.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epa.gif
+    width: 50
+  - height: 50
+    src: /images/logo-doe.gif
+    width: 50
+  - height: 50
+    src: /images/logo-aba.gif
+    width: 50
+  - height: 50
+    src: /images/logo-los.gif
+    width: 50
+  - height: 50
+    src: /images/logo-epri.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrel.gif
+    width: 50
+  - height: 50
+    src: /images/logo-blank.gif
+    width: 50
+  - height: 50
+    src: /images/logo-blank.gif
+    width: 50
+  - height: 50
+    src: /images/logo-erda.gif
+    width: 50
+  - height: 50
+    src: /images/logo-sra.gif
+    width: 50
+  - height: 50
+    src: /images/logo-sra.gif
+    width: 50
+  - height: 50
+    src: /images/logo-setac.gif
+    width: 50
+  - height: 50
+    src: /images/logo-liv.gif
+    width: 50
+  - height: 50
+    src: /images/logo-us.gif
+    width: 50
+  - height: 50
+    src: /images/logo-erda.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nasa.gif
+    width: 50
+  - height: 50
+    src: /images/logo-usda.gif
+    width: 50
+  - height: 50
+    src: /images/logo-us.gif
+    width: 50
+  - height: 50
+    src: /images/logo-us.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nih.gif
+    width: 50
+  - height: 50
+    src: /images/logo-dod.gif
+    width: 50
+  - height: 50
+    src: /images/logo-noaa.gif
+    width: 50
+  - height: 50
+    src: /images/logo-blank.gif
+    width: 50
+  - height: 50
+    src: /images/logo-cfe.gif
+    width: 50
+  - height: 50
+    src: /images/logo-blank.gif
+    width: 50
+  - height: 50
+    src: /images/logo-blank.gif
+    width: 50
 publication:
   date: January
   publisher: the Society
 subjects:
-- preparation on
+  - Government Service
+  - Music Article
+  - National Research Council
+  - Performance
+  - United States Federal
 title: Untitled
 type: article
 ---

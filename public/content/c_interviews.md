@@ -3,191 +3,197 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_interviews
 images:
-- height: 28
-  src: /images/title-interviews.gif
-  width: 250
-- height: 70
-  src: /images/thm-aikin.jpg
-  width: 70
-- height: 70
-  src: /images/thm-armer.jpg
-  width: 70
-- height: 70
-  src: /images/thm-assink.jpg
-  width: 70
-- height: 70
-  src: /images/thm-ax-emanuel.jpg
-  width: 70
-- height: 70
-  src: /images/thm-barantschik.jpg
-  width: 70
-- height: 70
-  src: /images/thm-bates.jpg
-  width: 70
-- height: 70
-  src: /images/thm-bayless.jpg
-  width: 70
-- height: 70
-  src: /images/thm-bell.jpg
-  width: 70
-- height: 70
-  src: /images/thm-bodorova.jpg
-  width: 70
-- height: 70
-  src: /images/thm-borodina.jpg
-  width: 70
-- height: 70
-  src: /images/thm-boulez.jpg
-  width: 70
-- height: 70
-  src: /images/thm-russell-braun.jpg
-  width: 70
-- height: 70
-  src: /images/thm-cerny.jpg
-  width: 70
-- height: 70
-  src: /images/thm-chang.jpg
-  width: 70
-- height: 70
-  src: /images/cleve-george.jpg
-  width: 70
-- height: 70
-  src: /images/thm-cohenjeremy.jpg
-  width: 70
-- height: 70
-  src: /images/thm-conlon.jpg
-  width: 70
-- height: 70
-  src: /images/thm-conte.jpg
-  width: 70
-- height: 70
-  src: /images/thm-copley.jpg
-  width: 70
-- height: 70
-  src: /images/thm-mark-delavan.jpg
-  width: 70
-- height: 70
-  src: /images/thm-donose.jpg
-  width: 70
-- height: 70
-  src: /images/thm-paul-dresher.jpg
-  width: 70
-- height: 70
-  src: /images/thm-dunleavy.jpg
-  width: 70
-- height: 70
-  src: /images/thm-feltsman.jpg
-  width: 70
-- height: 70
-  src: /images/thm-galindo.jpg
-  width: 70
-- height: 70
-  src: /images/thm-gasser.jpg
-  width: 70
-- height: 70
-  src: /images/thm-gerstein.jpg
-  width: 70
-- height: 70
-  src: /images/thm-gilfry.jpg
-  width: 70
-- height: 70
-  src: /images/thm-giordani.jpg
-  width: 70
-- height: 70
-  src: /images/thm-gooderichard.jpg
-  width: 70
-- height: 70
-  src: /images/thm-graham.jpg
-  width: 70
-- height: 70
-  src: /images/thm-hoopes.jpg
-  width: 70
-- height: 70
-  src: /images/thm-hvorostovsky-sb08.jpg
-  width: 70
-- height: 70
-  src: /images/thm-kapelis.jpg
-  width: 70
-- height: 70
-  src: /images/thm-kissine.jpg
-  width: 70
-- height: 70
-  src: /images/thm-lieberson.jpg
-  width: 70
-- height: 70
-  src: /images/thm-lopardo.jpg
-  width: 70
-- height: 70
-  src: /images/thm-branfordmarsalis.jpg
-  width: 70
-- height: 70
-  src: /images/thm-masur.jpg
-  width: 70
-- height: 70
-  src: /images/thm-nagano.jpg
-  width: 70
-- height: 70
-  src: /images/thm-orbelian.jpg
-  width: 70
-- height: 70
-  src: /images/thm-racette.jpg
-  width: 70
-- height: 70
-  src: /images/thm-ramey.jpg
-  width: 70
-- height: 70
-  src: /images/thm-celino-romero.jpg
-  width: 70
-- height: 70
-  src: /images/thm-rosenberg.jpg
-  width: 70
-- height: 70
-  src: /images/thm-runnicles.jpg
-  width: 70
-- height: 70
-  src: /images/thm-snicket-handler.jpg
-  width: 70
-- height: 70
-  src: /images/thm-stewart.jpg
-  width: 70
-- height: 70
-  src: /images/thm-stookey.jpg
-  width: 70
-- height: 70
-  src: /images/thm-terfel.jpg
-  width: 70
-- height: 70
-  src: /images/thm-thibaudet.jpg
-  width: 70
-- height: 70
-  src: /images/thm-mtt.jpg
-  width: 70
-- height: 70
-  src: /images/thm-vanska.jpg
-  width: 70
-- height: 70
-  src: /images/thm-ventris.jpg
-  width: 70
-- height: 70
-  src: /images/thm-villazon.jpg
-  width: 70
-- height: 70
-  src: /images/thm-voight.jpg
-  width: 70
-- height: 70
-  src: /images/thm-volodos.jpg
-  width: 70
-- height: 70
-  src: /images/thm-wilder.jpg
-  width: 70
+  - height: 28
+    src: /images/title-interviews.gif
+    width: 250
+  - height: 70
+    src: /images/thm-aikin.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-armer.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-assink.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-ax-emanuel.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-barantschik.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-bates.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-bayless.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-bell.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-bodorova.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-borodina.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-boulez.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-russell-braun.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-cerny.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-chang.jpg
+    width: 70
+  - height: 70
+    src: /images/cleve-george.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-cohenjeremy.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-conlon.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-conte.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-copley.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-mark-delavan.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-donose.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-paul-dresher.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-dunleavy.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-feltsman.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-galindo.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-gasser.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-gerstein.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-gilfry.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-giordani.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-gooderichard.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-graham.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-hoopes.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-hvorostovsky-sb08.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-kapelis.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-kissine.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-lieberson.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-lopardo.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-branfordmarsalis.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-masur.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-nagano.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-orbelian.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-racette.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-ramey.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-celino-romero.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-rosenberg.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-runnicles.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-snicket-handler.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-stewart.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-stookey.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-terfel.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-thibaudet.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-mtt.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-vanska.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-ventris.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-villazon.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-voight.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-volodos.jpg
+    width: 70
+  - height: 70
+    src: /images/thm-wilder.jpg
+    width: 70
 publication:
   author: Jake Heggie
   date: February
   publisher: Oakland Tribune
 subjects:
-- with the
-- of his
-- San Francisco Opera
+  - Conducting
+  - Gustav Mahler
+  - Interview
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Soprano
+  - Symphony
+  - World Premiere
 title: 'New in 2018:'
 type: interview
 ---

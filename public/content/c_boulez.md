@@ -3,19 +3,21 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_boulez
 images:
-- height: 227
-  src: /images/pierre-boulez.jpg
-  width: 150
+  - height: 227
+    src: /images/pierre-boulez.jpg
+    width: 150
 publication:
   date: May
   publisher: the great
 subjects:
-- Contemporary Music
-- wanted the
-- and traditional
-- where he
-- He still
-- retire from
+  - Cheryl North Writes
+  - Conducting
+  - Gustav Mahler
+  - Interview
+  - Music Article
+  - Piano
+  - Pierre Boulez
+  - Symphony
 title: Cheryl North Writes about Pierre Boulez</b>
 type: article
 ---
@@ -59,4 +61,3 @@ Although he has enjoyed unabashed glory on the podium as a conductor and even sp
 "There isn't enough time for everything," he says. "Composing is a constant urge -- it never stops."
 
 
-href="http://www.websiteaddressxx.com/">.

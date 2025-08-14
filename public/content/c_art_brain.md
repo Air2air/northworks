@@ -3,14 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_brain
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   publisher: turning up
 subjects:
-- each week
-- Major as
+  - Brandenburg Concerto No
+  - Concerto
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Little James
+  - Music Article
+  - Music Trains
+  - Piano
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Music Trains the Brain</b>
 type: article
 ---

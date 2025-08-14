@@ -3,22 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_kapelis
 images:
-- height: 160
-  src: /images/kapelis-consul.jpg
-  width: 207
-- height: 147
-  src: /images/kapelis-norths.jpg
-  width: 207
+  - height: 160
+    src: /images/kapelis-consul.jpg
+    width: 207
+  - height: 147
+    src: /images/kapelis-norths.jpg
+    width: 207
 publication:
   date: March
   publisher: the Greek
 subjects:
-- began to
-- and could
-- When you
-- has studied
-- he has
-- together and
+  - Bass
+  - Conducting
+  - Debut Performance
+  - Interview
+  - Johann Sebastian Bach
+  - Mythic Proportions
+  - Opera
+  - Piano
+  - Sergei Rachmaninoff
+  - Symphony
 title: Cheryl North Interviews Alexandros Kapelis</b>
 type: article
 ---

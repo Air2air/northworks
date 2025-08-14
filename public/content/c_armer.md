@@ -3,22 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_armer
 images:
-- height: 200
-  src: /images/elinor-armer.jpg
-  width: 160
+  - height: 200
+    src: /images/elinor-armer.jpg
+    width: 160
 publication:
   publisher: the Women
 subjects:
-- it is
-- girls chorus
-- how to
-- all into
-- up and
-- for her
-- always enjoyed
-- humor also
-- deprived of
-- of human
+  - Elinor Armer
+  - Interview
+  - Island Earth
+  - Johann Sebastian Bach
+  - Music Article
+  - Performance
+  - Piano
+  - Premiere
+  - Ursula Le Guin
+  - World Premiere
 title: Cheryl North Interviews Elinor Armer</b>
 type: article
 ---
@@ -76,4 +76,3 @@ Says LaRocca, "Elinor is so quick with the bon mot -- an extremely bright woman 
 And after sitting in on several performances given throughout the Bay Area this week of sections of her Uttermost Archipelago*, she said with a smile in her voice, "I think I am becoming recognized for my music now - and not just for my gender."
 
 
-href="http://www.websiteaddressxx.com/">.

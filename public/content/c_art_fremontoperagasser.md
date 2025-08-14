@@ -3,22 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_fremontoperagasser
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: August
   publisher: the American
 subjects:
-- will be
-- for the
-- Sloss will
-- his sensitive
-- for super
-- tenor saxophone
-- San Francisco Opera
-title: '<b>Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is
-  Achieving Deserved Recognition'
+  - Baritone
+  - Carmen
+  - Giacomo Puccini
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Symphony
+  - Tenor
+  - Tosca
+  - Wolfgang Amadeus Mozart
+title: >-
+  <b>Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is
+  Achieving Deserved Recognition
 type: article
 ---
 

@@ -3,24 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_OEBS Night at the Opera 11-16-09
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: November
   publisher: Cheryl North
 subjects:
-- Bay Symphony
-- its charismatic
-- the solo
-- of assistant
-- the onstage
-- fine operatic
-- the ensemble
-- Oakland Symphony
+  - Aida
+  - Aria
+  - Baritone
+  - Giuseppe Verdi
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - Soprano
+  - Symphony
+  - Tenor
 title: Untitled
 type: review
 ---

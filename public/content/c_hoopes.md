@@ -1,8 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_hoopes
-publication:
+id: c_hoopespublication:
   date: December
   publisher: Cheryl North
 subjects:

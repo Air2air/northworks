@@ -3,8 +3,7 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_cleve
 images:
-- src: /images/cleve-george.jpg
-publication:
+- src: /images/cleve-george.jpgpublication:
   date: July
   publisher: suddenly singing
 subjects:

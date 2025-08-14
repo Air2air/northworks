@@ -3,26 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_runnicles
 images:
-- height: 28
-  src: /images/title-runnicles.gif
-  width: 250
-- height: 200
-  src: /images/runnicles.jpg
-  width: 160
+  - height: 28
+    src: /images/title-runnicles.gif
+    width: 250
+  - height: 200
+    src: /images/runnicles.jpg
+    width: 160
 publication:
   date: January
   publisher: praising Runnicles
 subjects:
-- classical music
-- "wonders \nas"
-- major triumph
-- brilliance in
-- another successful
-- accompanist for
-- he was
-- was to
-- and has
-- to be
+  - Baritone
+  - Bass
+  - Conducting
+  - Opera
+  - Piano
+  - Richard Wagner
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Symphony
 title: Untitled
 type: article
 ---
@@ -128,7 +127,7 @@ Shostakovich! I must go out and buy his symphonies ...'"
 
 The Shostakovich "Macbeth" production came within a decimal point
 of outdoing "The Magic Flute" as the best-sold opera of this season.
-And the Messian "St. Fran�ois d'Assise" was the best-selling
+And the Messian "St. Fran'ois d'Assise" was the best-selling
 production last season.
 
 "You just never know those things in advance. I suppose one of
@@ -164,7 +163,7 @@ He also noted that he loved doing "Parsifal" in San Francisco in
 2000 and having Nikolas Lehnhoff's mind "probing into the piece."
 
 Although one of his focuses has always been Wagner, Runnicles
-emphasizes he enjoys many other works. "I especially enjoyed conducting 'Pell�as et M�lisande.' Fell in love with it, and hope to do it again. I've always been very happy to cover as broad a repertoire as I can."
+emphasizes he enjoys many other works. "I especially enjoyed conducting 'Pell'as et M'lisande.' Fell in love with it, and hope to do it again. I've always been very happy to cover as broad a repertoire as I can."
 
 "For one to grow," he philosophized, "it's necessary that
 nutrients be drawn from other things -- a cross-fertilization is
@@ -182,8 +181,8 @@ opera dealing with father/child content."
 
 He recalled a recent conversation with the great Wagner
 bass-baritone James Morris following a production of Wagner's "Die
-Walk�re" in Vienna during which Morris, in the role of Wotan, had
-choked up in the final farewell duet with his daughter Br�nnhilde.
+Walk're" in Vienna during which Morris, in the role of Wotan, had
+choked up in the final farewell duet with his daughter Br'nnhilde.
 It was the first production Morris had sung since his wife, Susan
 Quittmeyer, gave birth to twins.
 
@@ -203,5 +202,5 @@ life. I continue to live a wonderful life. That can't help but
 inform and imbue my music making -- for better or worse, I might
 add."
 
-�1999-2004 by MediaNews Group, Inc. and ANG Newspapers
+'1999-2004 by MediaNews Group, Inc. and ANG Newspapers
 

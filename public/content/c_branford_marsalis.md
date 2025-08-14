@@ -3,14 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_branford_marsalis
 images:
-- height: 287
-  src: /images/branford-marsalis-wc-08-1005.jpg
-  width: 350
+  - height: 287
+    src: /images/branford-marsalis-wc-08-1005.jpg
+    width: 350
 publication:
   date: September
   publisher: the Barrymore
 subjects:
-- founder and
+  - Classical Music
+  - Conducting
+  - Interview
+  - Johann Sebastian Bach
+  - Music Article
+  - New Orleans
+  - Piano
+  - Preview Section
+  - Soprano
+  - Symphony
 title: <b>Cheryl North Interviews Branford Marsalis</b>
 type: article
 ---

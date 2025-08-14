@@ -3,20 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_coco
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: February
   publisher: an operator
 subjects:
-- Morgan will
-- music being
-- of the
-- during its
-- the Saratoga
-- in percussion
-- He has
+  - Conducting
+  - Debut Performance
+  - Held Concert Companion
+  - Johann Sebastian Bach
+  - Metropolitan Opera
+  - Music Article
+  - Opera
+  - Symphony
+  - Symphony Audiences
+  - Tech Hand
 title: <b>High-Tech Hand-Held Concert Companion for Symphony Audiences</b>
 type: article
 ---

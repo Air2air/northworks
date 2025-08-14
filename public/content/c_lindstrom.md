@@ -1,8 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_lindstrom
-publication:
+id: c_lindstrompublication:
   date: October
   publisher: the Greek
 subjects:

@@ -3,27 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_bell
 images:
-- height: 28
-  src: /images/title-bell.gif
-  width: 250
-- height: 300
-  src: /images/bell.jpg
-  width: 219
-
+  - height: 28
+    src: /images/title-bell.gif
+    width: 250
+  - height: 300
+    src: /images/bell.jpg
+    width: 219
 publication:
   date: September
   publisher: Cheryl North
 subjects:
-- Roger Norrington
-- when he
-- which he
-- year by
-- games and
-- he has
-- orchestras and
-- his CD
-- an impromptu
-- participated with
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Ludwig van Beethoven
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: article
 ---

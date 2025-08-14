@@ -2,15 +2,21 @@
 conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_conte
-images:
-
+images: null
 publication:
   date: October
   publisher: within our
 subjects:
-- given seven
-- Music Festival
-- of famous
+  - Aria
+  - Baritone
+  - Conducting
+  - Interview
+  - Opera
+  - Piano
+  - Premiere
+  - Soprano
+  - Symphony
+  - Violin
 title: Untitled
 type: article
 ---

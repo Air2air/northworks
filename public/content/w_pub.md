@@ -3,48 +3,55 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: w_pub
 images:
-- height: 28
-  src: /images/title-pub.gif
-  width: 250
-- height: 16
-  src: /images/icon-pdf.gif
-  width: 16
-- height: 16
-  src: /images/icon-pdf.gif
-  width: 16
-- height: 16
-  src: /images/icon-pdf.gif
-  width: 16
-- height: 28
-  src: /images/title-gray-publications.gif
-  width: 220
-- height: 83
-  src: /images/public-participation-image.gif
-  width: 57
-- height: 86
-  src: /images/book-disposition.jpg
-  width: 60
-- height: 86
-  src: /images/book-human.jpg
-  width: 60
-- height: 86
-  src: /images/book-understanding.gif
-  width: 60
-- height: 86
-  src: /images/book-judgement.gif
-  width: 60
-- height: 86
-  src: /images/book-communication.gif
-  width: 60
-- height: 86
-  src: /images/book-government.gif
-  width: 60
+  - height: 28
+    src: /images/title-pub.gif
+    width: 250
+  - height: 16
+    src: /images/icon-pdf.gif
+    width: 16
+  - height: 16
+    src: /images/icon-pdf.gif
+    width: 16
+  - height: 16
+    src: /images/icon-pdf.gif
+    width: 16
+  - height: 28
+    src: /images/title-gray-publications.gif
+    width: 220
+  - height: 83
+    src: /images/public-participation-image.gif
+    width: 57
+  - height: 86
+    src: /images/book-disposition.jpg
+    width: 60
+  - height: 86
+    src: /images/book-human.jpg
+    width: 60
+  - height: 86
+    src: /images/book-understanding.gif
+    width: 60
+  - height: 86
+    src: /images/book-judgement.gif
+    width: 60
+  - height: 86
+    src: /images/book-communication.gif
+    width: 60
+  - height: 86
+    src: /images/book-government.gif
+    width: 60
 publication:
   date: April
   publisher: Silvio Funtowicz
 subjects:
-- Perception Versus
-- Principles for
+  - Aria
+  - International Office
+  - Johann Sebastian Bach
+  - Music Article
+  - Opera
+  - Performance
+  - Richard Wagner
+  - Seed Hurricanes
+  - Technical Review
 title: Untitled
 type: article
 ---

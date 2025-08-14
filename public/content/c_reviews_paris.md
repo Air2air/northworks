@@ -3,17 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_paris
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   publisher: Cheryl North
 subjects:
-- winded trumpet
-- San Francisco Symphony
+  - Aria
+  - Baritone
+  - Benefit Concert
+  - Concert Review
+  - Gustav Mahler
+  - Mahler Library
+  - Opera
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Untitled
 type: review
 ---

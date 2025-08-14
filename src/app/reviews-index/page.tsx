@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ReviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import ContentListComponent, { parseReviewsFromMarkdown } from '@/components/ContentListComponent';
 
 export default function ReviewsIndexPage() {
@@ -63,11 +64,12 @@ export default function ReviewsIndexPage() {
           )}
           
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Performance Reviews</h1>
-            <p className="text-lg text-gray-600 mb-8">
-              Comprehensive reviews of opera productions, symphony concerts, and classical music 
-              performances throughout the San Francisco Bay Area and beyond.
-            </p>
+            <PageTitle
+              title="Performance Reviews"
+              description="Comprehensive reviews of opera productions, symphony concerts, and classical music performances throughout the San Francisco Bay Area and beyond"
+              align="center"
+              size="large"
+            />
             
             <div className="bg-green-50 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-green-900 mb-2">About the Reviews</h3>

@@ -1,8 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_Walkuere 2010
-publication:
+id: c_Walkuere 2010publication:
   date: June
   publisher: Cheryl North
 subjects:

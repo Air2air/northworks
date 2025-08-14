@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_wilder
 images:
-- height: 170
-  src: /images/tappan-wilder-c-w-2007.jpg
-  width: 245
+  - height: 170
+    src: /images/tappan-wilder-c-w-2007.jpg
+    width: 245
 publication:
   date: August
   publisher: members of
 subjects:
-- it was
-- monumentally great
-- by the
-- that his
-- his own
-- preserve the
-- that the
-- since my
-- in my
-- though the
+  - Interview
+  - Music Article
+  - Opera
+  - Our Town
+  - Premiere
+  - Pulitzer Prize
+  - Soprano
+  - Symphony
+  - Tenor
+  - Thornton Wilder
 title: Cheryl North Interviews Tappan Wilder on <i>Our Town</i> as an Opera</b>
 type: article
 ---

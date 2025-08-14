@@ -1,8 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_dutoit
-publication:
+id: c_dutoitpublication:
   date: April
   publisher: the  San
 subjects:

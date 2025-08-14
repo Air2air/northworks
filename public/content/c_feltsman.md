@@ -3,24 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_feltsman
 images:
-- height: 28
-  src: /images/title-feltsman.gif
-  width: 250
-
+  - height: 28
+    src: /images/title-feltsman.gif
+    width: 250
 publication:
   date: June
   publisher: Cheryl North
 subjects:
-- the orchestra
-- Had any
-- me to
-- is seldom
-- excruciating to
-- he studied
-- him from
-- where he
-- continues to
-- he joined
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Franz Liszt
+  - Frédéric Chopin
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Sergei Rachmaninoff
+  - Symphony
 title: Untitled
 type: article
 ---

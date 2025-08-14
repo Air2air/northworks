@@ -3,19 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_casablanca
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: August
   publisher: the composer
 subjects:
-- century French
-- Illick will
-- conduct nine
-- for the
-- San Francisco Opera
-title: <b>Merola Opera World Premiere of Thomas Pasatieri's Opera, <i>Hotel Casablanca</i>
+  - Baritone
+  - Bass
+  - Conducting
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - Wolfgang Amadeus Mozart
+  - World Premiere
+title: >-
+  <b>Merola Opera World Premiere of Thomas Pasatieri's Opera, <i>Hotel
+  Casablanca</i>
 type: article
 ---
 

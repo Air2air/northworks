@@ -3,16 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_natlsymph
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: February
   publisher: the eminent
 subjects:
-- Symphony Orchestra
-- musicians who
-- instrument to
+  - Concerto
+  - Giacomo Puccini
+  - Metropolitan Opera
+  - Music Article
+  - National Symphony
+  - Newspapers Preview Section
+  - Opera
+  - Premiere
+  - Symphony
+  - Violin
 title: <b>National Symphony Orchestra Plays Music from the 1940s</b>
 type: article
 ---
@@ -23,7 +30,7 @@ type: article
 
 #### Different sort of 40s tunes from National Symphony
 
-FUNNY thing, time. What was once new and exciting often becomes old and � uh, well � dull. But if you wait just a few more years, the tables turn and the old and dull take on a new sense of chic, and sometimes, even distinct value.
+FUNNY thing, time. What was once new and exciting often becomes old and ' uh, well ' dull. But if you wait just a few more years, the tables turn and the old and dull take on a new sense of chic, and sometimes, even distinct value.
 So it is with a timely project focusing on American arts during the 1940s. Now playing at the Kennedy Center in Washington, D.C., the project sports the title, A New America: The 1940s and the Arts ** and involves ballet, jazz programs, pop concerts, theater productions and more. It started in January and continues through June.
 
 Saturday, while in the capital for a few days, I heard a National Symphony Orchestra portion of the project. Conducted by the eminent Leonard Slatkin, the concert featured Virgil Thomson's *Fugue and Chorale on Yankee Doodle,* adapted by the composer in 1967 from music he had written in 1945; Paul Creston's *Frontiers,* composed in 1943; Erich Korngold's 1946 *Concerto in D for Violin and Orchestra*; Elliott Carter's 1945 piece inspired by and named for Emily Dickinson's poem *Musicians Wrestle Everywhere* and William Schuman's bumptious 1941 *Symphony No. 3*.

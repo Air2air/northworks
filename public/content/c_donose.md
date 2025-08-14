@@ -3,25 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_donose
 images:
-- height: 28
-  src: /images/title-donose.gif
-  width: 250
-
+  - height: 28
+    src: /images/title-donose.gif
+    width: 250
 publication:
   author: Giuseppe Sinopoli
   date: June
   publisher: Oakland Tribune
 subjects:
-- American football
-- have including
-- sickness while
-- was to
-- opera to
-- do some
-- had to
-- while she
-- been when
-- easy to
+  - Frédéric Chopin
+  - Giuseppe Verdi
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - War Memorial Opera House
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: article
 ---
@@ -75,5 +73,5 @@ Peter and Ruxandra look forward to working together once again in a production o
 
 Meanwhile, catch Ruxandra's glorious voice while she's here singing Sesto in ``Giulio Cesare." Remaining performances are at 7:30 Saturday and Wednesday and at 2 p.m. July 7 at the War Memorial Opera House, 301 Van Ness Ave., in San Francisco. Tickets range from $23 to $165. Call (415) 864-3330. [QL] Classical music columnist Cheryl North may be reached by e-mail at northworks@mindspring.com or by fax at (650) 591-2923.
 
-�1999-2002 by MediaNews Group, Inc. and ANG Newspapers
+'1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 

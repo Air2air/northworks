@@ -3,23 +3,24 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_assink
 images:
-- height: 150
-  src: /images/assink.jpg
-  width: 112
+  - height: 150
+    src: /images/assink.jpg
+    width: 112
 publication:
   date: October
 subjects:
-- The featured
-- will be
-- guide and
-- to orchestral
-- SFS guest
-- Tilson Thomas
-- explaining and
-- Douglas Rioth
-- and Conlon
-- San Francisco Symphony
-title: Cheryl North Column, based on an interview <p></p> with Brent Assink, on the
+  - Baritone
+  - Concerto
+  - Conducting
+  - Franz Liszt
+  - Piano
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Tenor
+  - Wolfgang Amadeus Mozart
+title: >-
+  Cheryl North Column, based on an interview <p></p> with Brent Assink, on the
   new "6.5" Format
 type: article
 ---
@@ -36,7 +37,7 @@ ONE OF THE fascinations about great classical music is that there doesn't seem t
 
 Perhaps hearing a great work of music for the first time is a bit like trekking into a dark cave: You don't quite know what you're in for at the entry. As you progress, however, you discover a bend here, a bump there, and you begin to sense some of its properties.
 
-But since caves are usually deep and dark, you can't easily make out exactly what surrounds you � until someone turns on a flashlight or lights a match.
+But since caves are usually deep and dark, you can't easily make out exactly what surrounds you ' until someone turns on a flashlight or lights a match.
 
 The light might illuminate a seam of glistening quartz coursing along one wall, a cache of bats hanging sleepily from the ceiling, or perhaps a little water bubbling up from an area down a previously unseen corridor. All sorts of contours, colors and objects hidden in the darkness become apparent as a light is shone on them.
 
@@ -58,7 +59,7 @@ Another rationale for the new series is that a number of audience members have s
 
 The early evening's format seems to me a real winner. Each event will last about two hours and will focus on one large, or several smaller, works of music taken from the week's subscription concerts. The first hour will feature an informative, carefully crafted talk, illustrated with relevant musical examples involving the whole or part of the orchestra, and any chorus or soloists needed. The content will be geared to get right at the heart of the work and at the composer's related thoughts and ideas.
 
-"The featured conductors," Assink elaborates, "have been specifically chosen for their communicative skills. All of them � Michael Tilson Thomas, Alan Gilbert, Martin Haselbock, Edwin Outwater, James Conlon and David Robertson � are gifted communicators who know how to connect with audiences."
+"The featured conductors," Assink elaborates, "have been specifically chosen for their communicative skills. All of them ' Michael Tilson Thomas, Alan Gilbert, Martin Haselbock, Edwin Outwater, James Conlon and David Robertson ' are gifted communicators who know how to connect with audiences."
 
 After an intermission, the work discussed in the first hour will be performed in its entirety.
 

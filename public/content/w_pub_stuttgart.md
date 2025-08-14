@@ -3,14 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: w_pub_stuttgart
 images:
-- height: 195
-  src: /images/wnstuttgart10-04.jpg
-  width: 260
+  - height: 195
+    src: /images/wnstuttgart10-04.jpg
+    width: 260
 publication:
   date: 01/34/1242
   publisher: the Ministerium
 subjects:
-- Schneider has
+  - Aria
+  - |-
+    Climate Congress
+
+    October
+  - Global Climate Change
+  - Music Article
+  - Opera
+  - Stuttgart Energy
 title: The Authors
 type: article
 ---

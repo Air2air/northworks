@@ -3,22 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_cohenjeremy
 images:
-- height: 250
-  src: /images/jeremy-cohen.jpg
-  width: 200
+  - height: 250
+    src: /images/jeremy-cohen.jpg
+    width: 200
 publication:
   date: January
 subjects:
-- brother Joshua
-- is not
-- might be
-- San Francisco
-- be sighted
-- living room
-- next public
-- at the
-- combine to
-- invited to
+  - Bass
+  - Boston Symphony
+  - Conducting
+  - Gustav Mahler
+  - Opera
+  - Piano
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+  - World Premiere
 title: Cheryl North Interviews Jeremy Cohen</b>
 type: article
 ---
@@ -52,4 +52,3 @@ He also found time during his busy 2001 to participate with the San Francisco Sy
 In addition to his multiple Bay area musical activities, Cohen has spent a year and a half playing viola and violin with the famed Turtle Island Quartet, performing in a number of movie soundtracks and recordings at the Skywalker Studios, making three CDs of his own, doing more and more orchestrations and arrangements; and working as the co-chair of the string department of the Henry Mancini Institute, which is housed on the UCLA campus in Los Angeles. He is also a devoted father to two sons, an 18-year-old who is aiming for a football scholarship, and a 6 foot 2 inch 14-year-old.
 
 
-href="http://www.websiteaddressxx.com/">.

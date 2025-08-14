@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_braun_russell
 images:
-- height: 200
-  src: /images/russell-braun.jpg
-  width: 160
+  - height: 200
+    src: /images/russell-braun.jpg
+    width: 160
 publication:
   date: December
   publisher: Kiri Te
 subjects:
-- class opera
-- younger brother
-- brother enjoy
-- Russell himself
-- down and
-- of their
-- has never
-- scheduled to
-- in Lieder
-- Braun usually
+  - Baritone
+  - Franz Schubert
+  - Gustav Mahler
+  - Mezzo-soprano
+  - Opera
+  - Pyotr Ilyich Tchaikovsky
+  - Richard Wagner
+  - Soprano
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Russell Braun</b>
 type: article
 ---
@@ -83,4 +83,3 @@ Can a genuinely dedicated family man be a major world-class opera singer?
  "While I want to feel pride and accomplishment with my ability to make music come alive for others, I hope most of all, that my sons will still love me, and that my wife will have both love and respect for me."
 
 
-href="http://www.websiteaddressxx.com/">.

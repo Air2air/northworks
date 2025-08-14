@@ -3,20 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_kissine
 images:
-- height: 168
-  src: /images/kissine-with-wife-and-c-3-4-10.jpg
-  width: 217
-
+  - height: 168
+    src: /images/kissine-with-wife-and-c-3-4-10.jpg
+    width: 217
 publication:
   date: March
   publisher: the San
 subjects:
-- to musical
-- He was
-- Francisco Symphony
-- "Hall \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh"
-- San Francisco Symphony
-- Davies Symphony Hall
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Interview
+  - Ludwig van Beethoven
+  - Piano
+  - Premiere
+  - San Francisco Symphony
+  - Symphony
+  - World Premiere
 title: Untitled
 type: article
 ---

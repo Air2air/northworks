@@ -3,26 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_barantschik
 images:
-- height: 250
-  src: /images/barantschik-and-mtt-cologne.jpg
-  width: 350
-- height: 202
-  src: /images/barantschik-and-violin.jpg
-  width: 123
+  - height: 250
+    src: /images/barantschik-and-mtt-cologne.jpg
+    width: 350
+  - height: 202
+    src: /images/barantschik-and-violin.jpg
+    width: 123
 publication:
   date: September
   publisher: the vast
 subjects:
-- captivating whether
-- will be
-- violinist and
-- Barantschik will
-- instrument once
-- Alexander Barantschik
-- precede the
-- expected to
-- the string
-- he will
+  - Concerto
+  - Davies Symphony Hall
+  - Gustav Mahler
+  - Johann Sebastian Bach
+  - Pyotr Ilyich Tchaikovsky
+  - Richard Wagner
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews with Alexander Barantschik</b>
 type: article
 ---

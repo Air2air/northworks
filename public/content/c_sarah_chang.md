@@ -3,22 +3,21 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_sarah_chang
 images:
-- height: 124
-  src: /images/sarah-chang-informal.jpg
-  width: 100
+  - height: 124
+    src: /images/sarah-chang-informal.jpg
+    width: 100
 publication:
   date: January
 subjects:
-- stage happily
-- absolute favorite
-- Maestro Masur
-- on her
-- years of
-- Barry Jekowsky
-- young Sarah
-- the male
-- chestnut to
-- love to
+  - Concerto
+  - Conducting
+  - Davies Symphony Hall
+  - Interview
+  - Johannes Brahms
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Cheryl North Interviews Sarah Chang</b>
 type: article
 ---

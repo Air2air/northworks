@@ -79,7 +79,7 @@ One of the highlights of his life was in 1996, when he performed the "Concierto 
 
 "My dad, Celin, was sitting backstage the whole time, since he was too nervous to watch me from out front," he says. "Then after the concert, he was so excited and proud, that he took me out to dinner - and passed his prized Miguel Rodriguez guitar on to me. It's one of my most precious possessions."
 
-�1999-2002 by MediaNews Group, Inc. and ANG Newspapers
+'1999-2002 by MediaNews Group, Inc. and ANG Newspapers
 
 ![](/images/title-gray-romeros.gif)
 

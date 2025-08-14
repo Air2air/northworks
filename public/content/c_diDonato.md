@@ -2,20 +2,21 @@
 conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_diDonato
-images:
-
+images: null
 publication:
   date: November
   publisher: Cheryl North
 subjects:
-- San Francisco
-- American girl
-- grew up
-- my father
-- on vocal
-- stage to
-- of the
-- San Francisco Opera
+  - Aria
+  - Giacomo Puccini
+  - Her Recital
+  - Interview
+  - Merola Opera Program
+  - Mezzo-soprano
+  - Opera
+  - Piano
+  - San Francisco Opera
+  - Soprano
 title: Untitled
 type: article
 ---

@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_conlon
 images:
-- height: 125
-  src: /images/james-conlon-conducting.jpg
-  width: 173
+  - height: 125
+    src: /images/james-conlon-conducting.jpg
+    width: 173
 publication:
   date: June
   publisher: maestro James
 subjects:
-- the thoughtful
-- Those who
-- Symphony musicians
-- in the
-- will be
-- Chorus in
-- symphony to
-- the Dante
-- other festival
-- to study
+  - Baritone
+  - Franz Liszt
+  - Giuseppe Verdi
+  - Gustav Mahler
+  - Mezzo-soprano
+  - Opera
+  - Pyotr Ilyich Tchaikovsky
+  - Soprano
+  - Symphony
+  - Tenor
 title: James Conlon Interview
 type: article
 ---
@@ -49,7 +49,7 @@ By reviving this music, Conlon is trying to correct the unfortunate void.
 
 He is convinced that listeners will find much of this music far more tonal than other music we normally associate with this period of time. For instance, Zemlinsky and his colleagues more or less rejected the rigid serialism and atonality espoused by the "moderns" such as Berg and Webern.
 
-"Of course, the music of this forgotten generation can be bracing and dissonant, but it usually has tonal resolutions. It is music with tremendous energy � it has teeth," he stressed.
+"Of course, the music of this forgotten generation can be bracing and dissonant, but it usually has tonal resolutions. It is music with tremendous energy ' it has teeth," he stressed.
 
 "I sometimes call these composers the 'children' of Mahler."
 
@@ -66,7 +66,7 @@ The second program, scheduled for 8 p.m. June 9 and 10, will open with Three Dan
 The main event of the program will be a concert performance of Zemlinsky's *A
 Florentine Tragedy*, also inspired by Wilde, featuring soprano Carol Vaness (Note: Kate Aldrich substituted in the performances for the indisposed Ms. Vaness), tenor Kim Begley and bass-baritone James Johnson.
 
-One of the world's greatest descriptive, dramatic blockbusters, Giuseppi Verdi's *Requiem*, will be conducted by Conlon at 8 p.m. June 15, 16, 17, 21 and 24, and at 5 p.m. June 25 at Davies. Conlon has assembled some superstar soloists � soprano Christine Brewer, mezzo-soprano Stephanie Blythe, tenor Frank Lopardo and bass Vitalij Kowaljow � to join the Emmy award-winning San Francisco Symphony Chorus in singing this vivid depiction of infernal terrors and luminous vistas of paradise.
+One of the world's greatest descriptive, dramatic blockbusters, Giuseppi Verdi's *Requiem*, will be conducted by Conlon at 8 p.m. June 15, 16, 17, 21 and 24, and at 5 p.m. June 25 at Davies. Conlon has assembled some superstar soloists ' soprano Christine Brewer, mezzo-soprano Stephanie Blythe, tenor Frank Lopardo and bass Vitalij Kowaljow ' to join the Emmy award-winning San Francisco Symphony Chorus in singing this vivid depiction of infernal terrors and luminous vistas of paradise.
 
 The Pacific Boychoir, Ragazzi Boys Chorus and the San Francisco Boys Chorus will join Maestro Conlon and the symphony to perform Tchaikovsky's *Francesca da Rimini* and Liszt's *Dante Symphony* at 8 p.m. June 22.
 

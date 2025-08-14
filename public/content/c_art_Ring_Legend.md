@@ -3,24 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_Ring_Legend
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: July
   publisher: David Seaman
 subjects:
-- with four
-- El Cerrito
-- The current
-- uses eight
-- repeat her
-- and also
-- rave reviews
-- Peterson will
-- Rumph will
-- San Francisco Opera
-title: <b>Berkeley Opera Production of the Condensed Version of Wagner's <i>Der Ring
+  - Baritone
+  - Bass
+  - Berkeley Opera Production
+  - Merola Opera Program
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+title: >-
+  <b>Berkeley Opera Production of the Condensed Version of Wagner's <i>Der Ring
   des Nibelungen</i> by David Seaman, <i>The Legend of the Ring</i>
 type: article
 ---

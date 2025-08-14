@@ -73,7 +73,7 @@ export default function CherylPage() {
               {frontmatter.images && frontmatter.images.length > 1 && (
                 <div className="flex-shrink-0">
                   <Image
-                    src={`/${frontmatter.images[1].src}`}
+                    src={frontmatter.images[1].src.startsWith('/') ? frontmatter.images[1].src : `/${frontmatter.images[1].src}`}
                     alt="Cheryl North"
                     width={frontmatter.images[1].width || 150}
                     height={frontmatter.images[1].height || 150}
@@ -84,7 +84,7 @@ export default function CherylPage() {
               {frontmatter.images && frontmatter.images.length > 2 && (
                 <div className="flex-shrink-0">
                   <Image
-                    src={`/${frontmatter.images[2].src}`}
+                    src={frontmatter.images[2].src.startsWith('/') ? frontmatter.images[2].src : `/${frontmatter.images[2].src}`}
                     alt="Opera Now Magazine"
                     width={frontmatter.images[2].width || 150}
                     height={frontmatter.images[2].height || 150}
@@ -103,7 +103,7 @@ export default function CherylPage() {
             {frontmatter.images && frontmatter.images.length > 3 && (
               <div className="mb-8">
                 <Image
-                  src={`/${frontmatter.images[3].src}`}
+                  src={frontmatter.images[3].src.startsWith('/') ? frontmatter.images[3].src : `/${frontmatter.images[3].src}`}
                   alt="Cheryl North with Nicola and Placido"
                   width={frontmatter.images[3].width || 400}
                   height={frontmatter.images[3].height || 290}
@@ -119,7 +119,7 @@ export default function CherylPage() {
             {frontmatter.images && frontmatter.images.length > 4 && (
               <div className="text-center">
                 <Image
-                  src={`/${frontmatter.images[4].src}`}
+                  src={frontmatter.images[4].src.startsWith('/') ? frontmatter.images[4].src : `/${frontmatter.images[4].src}`}
                   alt="Publication Logos"
                   width={frontmatter.images[4].width || 220}
                   height={frontmatter.images[4].height || 248}

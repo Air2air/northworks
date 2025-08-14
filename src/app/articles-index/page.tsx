@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ArticleFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import ContentListComponent, { parseArticlesFromMarkdown } from '@/components/ContentListComponent';
 
 export default function ArticlesIndexPage() {
@@ -63,11 +64,12 @@ export default function ArticlesIndexPage() {
           )}
           
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Classical Music Articles</h1>
-            <p className="text-lg text-gray-600 mb-8">
-              In-depth feature articles exploring classical music trends, composer profiles, 
-              opera productions, and the cultural impact of music in our lives.
-            </p>
+            <PageTitle
+              title="Classical Music Articles"
+              description="In-depth feature articles exploring classical music trends, composer profiles, opera productions, and the cultural impact of music in our lives"
+              align="center"
+              size="large"
+            />
             
             <div className="bg-blue-50 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-blue-900 mb-2">About the Articles</h3>

@@ -3,23 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_sfsymphcarnegie
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: February
   publisher: the Symphony
 subjects:
-- Thursday evening
-- same program
-- Carnegie Hall
-- of musicians
-- up the
-- San Francisco Symphony
-- Davies Symphony Hall
+  - Baritone
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Gustav Mahler
+  - Mezzo-soprano
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Tenor
 title: Untitled
 type: review
 ---

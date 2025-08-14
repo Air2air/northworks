@@ -3,27 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_lang_lang
 images:
-- height: 212
-  src: /images/langcherie09.jpg
-  width: 212
-- height: 212
-  src: /images/lang-lang-mother.jpg
-  width: 212
-
+  - height: 212
+    src: /images/langcherie09.jpg
+    width: 212
+  - height: 212
+    src: /images/lang-lang-mother.jpg
+    width: 212
 publication:
   date: September
   publisher: Warner North
 subjects:
-- to his
-- stage to
-- he routinely
-- orchestras and
-- not only
-- he also
-- following his
-- His mother
-- following the
-- his extravagant
+  - Concerto
+  - Franz Liszt
+  - Frédéric Chopin
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - San Francisco Symphony
+  - Sergei Rachmaninoff
+  - Symphony
 title: Untitled
 type: article
 ---

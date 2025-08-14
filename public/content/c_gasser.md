@@ -3,29 +3,29 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_gasser
 images:
-- height: 212
-  src: /images/nolan-gasser.jpg
-  width: 150
-- height: 138
-  src: /images/nolan-gasser-2.jpg
-  width: 181
-- height: 140
-  src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
-  width: 196
+  - height: 212
+    src: /images/nolan-gasser.jpg
+    width: 150
+  - height: 138
+    src: /images/nolan-gasser-2.jpg
+    width: 181
+  - height: 140
+    src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
+    width: 196
 publication:
   date: January
   publisher: the wayside
 subjects:
-- Morgan will
-- Sterling and
-- tenor saxophone
-- her daring
-- or exotic
-- Chinese Navy
-- she had
-- unique world
-- not actually
-- will be
+  - Baritone
+  - Frédéric Chopin
+  - Ludwig van Beethoven
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - Soprano
+  - Symphony
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Nolan Gasser</b>
 type: article
 ---

@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_aikin
 images:
-- height: 200
-  src: /images/laura-aikin.jpg
-  width: 160
+  - height: 200
+    src: /images/laura-aikin.jpg
+    width: 160
 publication:
   date: February
   publisher: her elegant
 subjects:
-- voice and
-- of three
-- became proficient
-- she could
-- her to
-- computer and
-- Ingo Metzmacher
-- San Francisco Opera
-- San Francisco Symphony
-- Davies Symphony Hall
+  - Baritone
+  - Davies Symphony Hall
+  - Gustav Mahler
+  - Metropolitan Opera
+  - Opera
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Laura Aikin</b>
 type: article
 ---
@@ -34,10 +34,10 @@ type: article
 "THE voice of an angel" is an oft-used phrase used to describe soprano Laura Aikin's singing.
 
 Aikin, the unforgettable blue angel with only one wing in
-the San Francisco Opera production of Messian's *Saint Fran�ois d'Assise* a couple of years ago, wowed audiences and critics alike with her amazing crystalline voice and playfully mysterious interpretation.
+the San Francisco Opera production of Messian's *Saint Fran'ois d'Assise* a couple of years ago, wowed audiences and critics alike with her amazing crystalline voice and playfully mysterious interpretation.
 The role required athletic ability and balance, both of which she had in abundance, as she sang while suspended on wires and platforms high above the opera house stage.
 
-Once again, Aikin is doing the angel thing in San Francisco � albeit this time it's a "fallen" angel � in the San Francisco Symphony's performances of Robert Schumann's *Das Paradies und die Peri.* The last of three performances of this lovely, lyrical piece, which Schumann himself termed "an oratorio for happy people," is at 8 tonight.
+Once again, Aikin is doing the angel thing in San Francisco ' albeit this time it's a "fallen" angel ' in the San Francisco Symphony's performances of Robert Schumann's *Das Paradies und die Peri.* The last of three performances of this lovely, lyrical piece, which Schumann himself termed "an oratorio for happy people," is at 8 tonight.
 
 Aikin was born and raised in a rural suburb outside of Buffalo, N.Y.
 
@@ -45,9 +45,9 @@ Aikin was born and raised in a rural suburb outside of Buffalo, N.Y.
 
 While in high school she became proficient playing trumpet, baritone horn and piano. She was also interested in acting. Although she was aware that she could sing rather well, she didn't take it very seriously until one day, while auditioning for a high school musical, the music director asked her to sing some scales for him.
 
-The small 15-year-old straightend up, took a breath and proceeded to pour out three octaves of gorgeous tone, ending up with a ringingly perfect high "C." It was something she had never done before.
+The small 15-year-old straightened up, took a breath and proceeded to pour out three octaves of gorgeous tone, ending up with a ringingly perfect high "C." It was something she had never done before.
 
-He was shocked � and her life was changed forever.
+He was shocked ' and her life was changed forever.
 
 *
 
@@ -67,13 +67,12 @@ The birth went well; Aikin showed me a picture taken an hour or so after the bir
 
 "Maybe Ginny will grow up to be a conductor. At just 15 minutes old, she stopped crying and listened with great attention as I played a recording of the 'Adagietto' movement from Mahler's Symphony No. 5. It could have been because she had heard it before. It was part of a special recording of baby-friendly music I put on my computer and played all during the pregnancy."
 
-Plucky gal that she is, Laura was even lauded for her portrayal of Konstanza in Mozart's Die Entf�hrung aus dem Serail* in October and November (eight months into her pregnancy!) in Frankfurt. She said the cast had great fun with the production by acknowledging her "condition" and implying that, just maybe, the papa might be the Pasha.
+Plucky gal that she is, Laura was even lauded for her portrayal of Konstanza in Mozart's Die Entf'hrung aus dem Serail* in October and November (eight months into her pregnancy!) in Frankfurt. She said the cast had great fun with the production by acknowledging her "condition" and implying that, just maybe, the papa might be the Pasha.
 
 After tonight's performance in San Francisco, Laura, Ginny and "Nana" will head for New York City, where Laura will begin rehearsals for Strauss' *Der Rosenkavalier*" scheduled to open March 7 at the Metropolitan Opera.
 
-But lest Laura be forever typecast as an angel, her favorite role happens to be "Lulu" by Alban Berg � a lady about as far as possible from the angel category. She said, "Vocally, Lulu is a dream � and psychologically, it goes to the core of the human side of being a woman."
+But lest Laura be forever typecast as an angel, her favorite role happens to be "Lulu" by Alban Berg ' a lady about as far as possible from the angel category. She said, "Vocally, Lulu is a dream ' and psychologically, it goes to the core of the human side of being a woman."
 
 Guest conductor Ingo Metzmacher conducts the San Francisco Symphony and Chorus in Schumann's *Das Paradies und die Peri*" tonight at Davies Symphony Hall, 201 Van Ness Ave., San Francisco. Other vocal soloists are Kristine Jepson, Christoph Pregardien, William Dazeley, Jane Archibald, Ronit Widmann-Levy, Sonia Gariaeff and Catherine Cook.
 
 
-href="http://www.websiteaddressxx.com/">.

@@ -3,16 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_galindo
 images:
-- height: 140
-  src: /images/guillermo-galindo.jpg
-  width: 100
+  - height: 140
+    src: /images/guillermo-galindo.jpg
+    width: 100
 publication:
   date: November
   publisher: glue made
 subjects:
-- will be
-- liked to
-- Oakland Symphony
+  - Cheryl North Interviews
+  - Conducting
+  - Interview
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - Premiere
+  - Sergei Rachmaninoff
+  - Symphony
+  - World Premiere
 title: Untitled
 type: article
 ---
@@ -29,7 +36,7 @@ While the brochure for the 2005-06 season-opening concert next week at Oakland's
 
 The United States is, after all, a multitextured, multicolored mosaic that contains elements from all over the world. All these diverse bits and pieces are quite beautifully melded together by glue made up of some particularly durable ideals. The result is a rather grand composition.
 
-So, the upcoming program, which includes two major Russian masterworks � Rachmaninoff's all-embracing Symphony No. 2 and Mussorgsky's Prelude to his opera *Kovanshchina* � will be performed along with the world premiere of new work by Mexico-born Guillermo Galindo, set to a text by poet devorah major.
+So, the upcoming program, which includes two major Russian masterworks ' Rachmaninoff's all-embracing Symphony No. 2 and Mussorgsky's Prelude to his opera *Kovanshchina* ' will be performed along with the world premiere of new work by Mexico-born Guillermo Galindo, set to a text by poet devorah major.
 
 The piece, commissioned as part of OEBS' Words & Music Project funded by The James Irvine Foundation, is called *Trade Routes*.
 

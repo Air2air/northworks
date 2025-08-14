@@ -3,25 +3,33 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_main
 images:
-- height: 28
-  src: /images/title-cheryl.gif
-  width: 250
-- height: 150
-  src: /images/cherie-9-06.jpg
-  width: 107
-- height: 150
-  src: /images/opera-now.jpg
-  width: 107
-- height: 290
-  src: /images/nicola-cheryl-placido-10-19-10.jpg
-  width: 390
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/titlecheryl.gif
+    width: 250
+  - height: 150
+    src: /images/cherie-sm.jpg
+    width: 107
+  - height: 150
+    src: /images/opera-now.jpg
+    width: 107
+  - height: 290
+    src: /images/nicola-cheryl-placido-10-19-10.jpg
+    width: 390
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: October
 subjects:
-- War Memorial Opera House
+  - Cheryl North
+  - Classical Music
+  - Frances Tipton
+  - Harry Tomlinson
+  - Johann Sebastian Bach
+  - Music Article
+  - Opera
+  - Piano
+  - War Memorial Opera House
 title: Untitled
 type: article
 ---

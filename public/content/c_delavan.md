@@ -3,23 +3,23 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_delavan
 images:
-- height: 137
-  src: /images/delavan-mark.jpg
-  width: 175
+  - height: 137
+    src: /images/delavan-mark.jpg
+    width: 175
 publication:
   date: June
   publisher: how well
 subjects:
-- Delavan to
-- the affable
-- was to
-- Wednesday evening
-- four remaining
-- Tilson Thomas
-- of the
-- after every
-- were both
-- professional opera
+  - Baritone
+  - Davies Symphony Hall
+  - Johann Sebastian Bach
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Tosca
 title: Cheryl North Interviews Mark Delavan</b>
 type: article
 ---
@@ -73,4 +73,3 @@ He flashes his broadest, warmest smiles, however, when he talks about his family
 Delavan can be seen in what are bound to be indelible performances of *The Flying Dutchman* at 7 p.m. tonight, Sunday and on June 21; and at 8 p.m. Thursday at Davies Symphony Hall.
 
 
-href="http://www.websiteaddressxx.com/">.

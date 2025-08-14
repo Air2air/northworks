@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { InterviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import InterviewsListComponent, { parseInterviewsFromMarkdown } from '@/components/InterviewsListComponent';
 
 export default function InterviewsIndexPage() {
@@ -62,13 +63,14 @@ export default function InterviewsIndexPage() {
             </div>
           )}
           
+          <PageTitle
+            title="Classical Music Interviews"
+            description="Profile interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene"
+            align="center"
+            size="large"
+          />
+          
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg text-gray-600 mb-8">
-              Profile interviews with major figures on the international, national, and local 
-              San Francisco Bay Area classical music scene. These interviews have become an 
-              important specialty for which Cheryl North is in demand.
-            </p>
-            
             <div className="bg-blue-50 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-blue-900 mb-2">About the Collection</h3>
               <p className="text-blue-800">

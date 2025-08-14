@@ -3,26 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_terfel
 images:
-- height: 28
-  src: /images/titleterfel.gif
-  width: 250
-- height: 233
-  src: /images/terfel.jpg
-  width: 200
+  - height: 28
+    src: /images/titleterfel.gif
+    width: 250
+  - height: 233
+    src: /images/terfel.jpg
+    width: 200
 publication:
   date: June
   publisher: Cheryl North
 subjects:
-- young and
-- gotten into
-- music did
-- says of
-- local Welsh
-- contracted to
-- an opera
-- of his
-- "the\n                                          American"
-- "no\n                                          one"
+  - Baritone
+  - Franz Schubert
+  - Giacomo Puccini
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Opera
+  - Richard Wagner
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: article
 ---

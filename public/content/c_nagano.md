@@ -3,23 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_nagano
 images:
-- height: 160
-  src: /images/kent-nagano.jpg
-  width: 160
+  - height: 160
+    src: /images/kent-nagano.jpg
+    width: 160
 publication:
   date: August
   publisher: the time
 subjects:
-- Principal Guest
-- Opera will
-- and the
-- He was
-- he studied
-- when he
-- critically acclaimed
-- for its
-- Nagano has
-- involved in
+  - Concerto
+  - Conducting
+  - Franz Schubert
+  - Gustav Mahler
+  - London Symphony
+  - Ludwig van Beethoven
+  - Opera
+  - Piano
+  - Symphony
 title: <b>Cheryl North Interviews Kent Nagano</b>
 type: article
 ---

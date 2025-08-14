@@ -59,4 +59,3 @@ Last year she sang such diverse roles as Myrtle Wilson for the World Premiere of
 And although she hasn't yet replaced her stolen viola when I spoke to her, she avowed that "the viola is always with me in spirit when I sing."
 
 
-href="http://www.websiteaddressxx.com/">.

@@ -34,7 +34,7 @@ WHAT IF one were to see the same person playing first chair violin with a respec
 
 Their tunes would change, however, after hearing tales about the late Nathan Rubin, (1929 -2005), who for more than 40 years was concertmaster for the Oakland Symphony, as well as its latter-day incarnation as the Oakland East Bay Symphony.
 
-But � and here's the kicker � Rubin was sighted wielding his trusty bow on tour with Van Morrison and his band back in the 1970s. Yet he also could be found playing Bach, Mozart and Beethoven as well as works by such avant-garde composers as Luciano Berio, with numerous combinations of dedicated classical chamber musicians.
+But ' and here's the kicker ' Rubin was sighted wielding his trusty bow on tour with Van Morrison and his band back in the 1970s. Yet he also could be found playing Bach, Mozart and Beethoven as well as works by such avant-garde composers as Luciano Berio, with numerous combinations of dedicated classical chamber musicians.
 
 He performed with the San Francisco Symphony and Opera orchestras, the Joffrey and San Francisco ballet orchestras, the San Francisco Chamber Orchestra, the Skywalker Orchestra and the Golden Gate Theater Orchestra.
 

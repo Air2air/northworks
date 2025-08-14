@@ -3,26 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_gerstein
 images:
-- height: 150
-  src: /images/gersteinc.jpg
-  width: 207
+  - height: 150
+    src: /images/gersteinc.jpg
+    width: 207
 publication:
   date: October
   publisher: writing gorgeous
 subjects:
-- Francisco Symphony
-- Bay Area
-- of guest
-- when he
-- old Venezuelan
-- jam sessions
-- time we
-- scheduled to
-- when she
-- after his
-title: <b>Interview with Kiril Gerstein, in connection with his appearance with the
-  San Francisco Symphony playing Rachmaninoff's <i>Rhapsody on a Theme of Paganini</i><br
-  />
+  - Conducting
+  - Giacomo Puccini
+  - Interview
+  - Johann Sebastian Bach
+  - Piano
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Sergei Rachmaninoff
+  - Symphony
+title: >-
+  <b>Interview with Kiril Gerstein, in connection with his appearance with the
+  San Francisco Symphony playing Rachmaninoff's <i>Rhapsody on a Theme of
+  Paganini</i><br />
 type: article
 ---
 

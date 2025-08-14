@@ -119,29 +119,23 @@ export const LEGACY_PATH_FIXES: Record<string, string> = {
 
 /**
  * Fixes image paths in markdown/HTML content
- * Converts legacy paths like "images/blomstedt.jpg" to "/images/blomstedt.jpg"
+ * Normalizes paths but does not add leading slashes - paths should be manually fixed
  * @param content - Markdown or HTML content
- * @returns Content with fixed image paths
+ * @returns Content with normalized image paths
  */
 export function fixImagePathsInContent(content: string): string {
   if (!content) return '';
 
-  // Fix img src attributes
+  // Fix img src attributes - normalize but don't add leading slash
   content = content.replace(
     /<img([^>]+)src=["']images\/([^"']+)["']([^>]*)>/gi,
-    '<img$1src="/images/$2"$3>'
+    '<img$1src="images/$2"$3>'
   );
 
-  // Fix markdown image syntax ![alt](images/file.jpg)
+  // Fix markdown image syntax ![alt](images/file.jpg) - normalize but don't add leading slash
   content = content.replace(
     /!\[([^\]]*)\]\(images\/([^)]+)\)/gi,
-    '![$1](/images/$2)'
-  );
-
-  // Fix any remaining bare image references
-  content = content.replace(
-    /(?<!src=["']|]\()images\/([a-zA-Z0-9\-_\.]+\.(jpg|jpeg|png|gif|svg|webp))/gi,
-    '/images/$1'
+    '![$1](images/$2)'
   );
 
   return content;
@@ -173,34 +167,35 @@ export function fixLegacyPath(path: string): string {
     return path.replace(/\/+/g, '/');
   }
   
-  // If the path starts with images/ (no leading slash), add the slash
+  // If the path starts with images/ (no leading slash), return normalized path without adding slash
   if (cleanPath.startsWith('images/')) {
-    return `/${cleanPath}`;
+    return cleanPath;
   }
   
-  // Otherwise use automatic normalization but preserve the leading slash if present
+  // Otherwise use automatic normalization but don't add leading slash - paths should be manually fixed
   const normalized = resolveImagePath(cleanPath);
-  return path.startsWith('/') ? `/${normalized}` : normalized;
+  return normalized;
 }
 
 /**
  * Fixes various HTML attributes that may contain legacy paths
+ * Normalizes paths but does not add leading slashes - paths should be manually fixed
  * @param content - HTML content
- * @returns Content with fixed paths
+ * @returns Content with normalized paths
  */
 export function fixHtmlPathsInContent(content: string): string {
   if (!content) return '';
 
-  // Fix href attributes pointing to images
+  // Fix href attributes pointing to images - normalize but don't add leading slash
   content = content.replace(
     /href=["']images\/([^"']+)["']/gi,
-    'href="/images/$1"'
+    'href="images/$1"'
   );
 
-  // Fix background-image CSS properties
+  // Fix background-image CSS properties - normalize but don't add leading slash
   content = content.replace(
     /background-image:\s*url\(['"]?images\/([^'")\s]+)['"]?\)/gi,
-    'background-image: url("/images/$1")'
+    'background-image: url("images/$1")'
   );
 
   return content;

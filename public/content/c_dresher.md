@@ -3,26 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_dresher
 images:
-- height: 114
-  src: /images/dresher-paul-ensemble.jpg
-  width: 150
-- height: 159
-  src: /images/dresher-paul-07.jpg
-  width: 125
+  - height: 114
+    src: /images/dresher-paul-ensemble.jpg
+    width: 150
+  - height: 159
+    src: /images/dresher-paul-07.jpg
+    width: 125
 publication:
   date: November
   publisher: Dresher and
 subjects:
-- commission and
-- any Dresher
-- In his
-- were extensively
-- been with
-- and esthetics
-- and therefore
-- act and
-- the upcoming
-- its initial
+  - Aria
+  - Carnegie Hall
+  - Concerto
+  - Debut Performance
+  - Interview
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Opera
+  - Premiere
+  - Violin
 title: Cheryl North Interviews Paul Dresher</b>
 type: article
 ---
@@ -122,4 +122,3 @@ Dresher has long been noted for his ability to write and perform in diverse musi
  With its comic aspects and rhythmic qualities, kids seem to love it, and much to everyone's surprise, a lot of them have actually memorized it."
 
 
-href="http://www.websiteaddressxx.com/">.

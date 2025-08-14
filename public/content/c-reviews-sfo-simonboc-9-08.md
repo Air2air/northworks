@@ -3,19 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_SFO_SimonBoc 9-08
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: September
   publisher: Cheryl North
 subjects:
-- Opening Night
-- San Francisco Opera
-- War Memorial Opera House
+  - Aria
+  - Baritone
+  - Bass
+  - Concert Review
+  - Giuseppe Verdi
+  - Opera
+  - San Francisco Opera
+  - Simon Boccanegra
+  - Tenor
+  - War Memorial Opera House
 title: Untitled
 type: review
 ---

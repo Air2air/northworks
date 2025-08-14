@@ -3,22 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_art_wozzeck
 images:
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: January
   publisher: Montreal composer
 subjects:
-- founder and
-- She will
-- impressively polished
-- the superlative
-- Glueckert will
-- Neff will
-- Wozzeck was
-title: <b>San Francisco Conservatory of Music Ensemble Parallele's Production of Wozzeck
-  at the Yerba Buena Center</b>
+  - Baritone
+  - Bass
+  - Conducting
+  - Music Article
+  - Music Ensemble Parallele
+  - Opera
+  - San Francisco Conservatory
+  - Soprano
+  - Tenor
+  - Yerba Buena Center
+title: >-
+  <b>San Francisco Conservatory of Music Ensemble Parallele's Production of
+  Wozzeck at the Yerba Buena Center</b>
 type: article
 ---
 

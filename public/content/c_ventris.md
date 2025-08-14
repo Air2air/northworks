@@ -3,23 +3,25 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_ventris
 images:
-- height: 200
-  src: /images/christopher-ventris.jpg
-  width: 160
+  - height: 200
+    src: /images/christopher-ventris.jpg
+    width: 160
 publication:
   date: June
   publisher: participating in
 subjects:
-- the genial
-- teachers and
-- tenor and
-- La Scala
-- since the
-- "who \nthe"
-- personally find
-- "stand \nand"
-- more comfortable
-- on stage
+  - Christopher Ventris
+  - Conducting
+  - Debut Performance
+  - Interview
+  - Opera
+  - Richard Wagner
+  - |-
+    San Francisco
+    Opera
+  - San Francisco Opera
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: <b>Cheryl North Interviews Christopher Ventris</b>
 type: article
 ---
@@ -44,14 +46,14 @@ Academy, however, proved to be a launch pad for bigger things, since major
 coaches, teachers and performers from both the Royal Opera and the Glyndebourne
 Festival regularly worked with Academy students. Ventris was eventually given
 an apprenticeship with Glyndebourne and was assigned to be the understudy for
-the role of Tom Rakewell in *The Rake's Progress*. A little later, he served as understudy for a production of Jan�cek's *Katya Kabanova* which, coincidentally, was directed by Nikolaus Lehnhoff, the director of San Francisco Opera's current *Parsifal* production. The young tenor made an important operatic debut in 1992 as Steuermann in the Leipzig Opera production of Wagner's *Der Fliegende Hollander*, which was followed by an appearance there as Narraboth in Strauss' *Salome*. The role of Kudryash in *Katya Kabanova* was the vehicle for his Covent
+the role of Tom Rakewell in *The Rake's Progress*. A little later, he served as understudy for a production of Jan'cek's *Katya Kabanova* which, coincidentally, was directed by Nikolaus Lehnhoff, the director of San Francisco Opera's current *Parsifal* production. The young tenor made an important operatic debut in 1992 as Steuermann in the Leipzig Opera production of Wagner's *Der Fliegende Hollander*, which was followed by an appearance there as Narraboth in Strauss' *Salome*. The role of Kudryash in *Katya Kabanova* was the vehicle for his Covent
 Garden debut in 1994.
 
 *
 
 A major bit of serendipity occurred in 1998 when he
 received a telephone call asking if he would be willing to substitute for an
-ailing tenor and sing the role of Max in Der Freisch�tz* at La Scala the very next day. After taking a few seconds to recover from the surprise, he said yes and prepared to board the next plane from London to Milan (he had sung the
+ailing tenor and sing the role of Max in Der Freisch'tz* at La Scala the very next day. After taking a few seconds to recover from the surprise, he said yes and prepared to board the next plane from London to Milan (he had sung the
 role in Cologne only two weeks before). According to Ventris, the La Scala
 performance went very well, even though he had only a single afternoon's
 rehearsal. His name became familiar throughout the Continent, since the
@@ -61,7 +63,7 @@ Lotfi Mansouri auditioned me in London for the role of Parsifal - and here I
 am."
 
 Now in his late-30s, the 6-foot 1-inch blond tenor pondered his future
-a bit. "Despite what my resum� says. I have not sung the role of Tamino in
+a bit. "Despite what my resum' says. I have not sung the role of Tamino in
 Mozart's Magic Flute. Although Mozart is usually the route tenors take towards
 the lighter Wagnerian roles, I personally find singing Mozart very difficult,"
 he said. "Mozart requires a certain care and delicacy. One is expected to stand

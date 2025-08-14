@@ -3,20 +3,27 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_Conte_America_Tropical
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   author: Cheryl North
   date: May
   publisher: Oakland Tribune
 subjects:
-- and was
-- of excellent
-title: World Premiere of David Conte's One-Act Opera, America Tropical
+  - Concert Review
+  - Interview
+  - Oakland Tribune
+  - Opera
+  - Performance
+  - Premiere
+  - San Francisco
+  - Thick House
+  - World Premiere
+title: 'World Premiere of David Conte''s One-Act Opera, America Tropical'
 type: review
 ---
 

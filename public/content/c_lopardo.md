@@ -3,22 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_lopardo
 images:
-- height: 139
-  src: /images/frank-lopardo.jpg
-  width: 183
+  - height: 139
+    src: /images/frank-lopardo.jpg
+    width: 183
 publication:
   date: September
   publisher: the good
 subjects:
-- special or
-- of healthy
-- an opera
-- really liked
-- into operatic
-- of my
-- established himself
-- to be
-- San Francisco Opera
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Metropolitan Opera
+  - Opera
+  - Richard Wagner
+  - Rigoletto
+  - San Francisco Opera
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Frank Lopardo</b>
 type: article
 ---
@@ -74,4 +74,3 @@ Lopardo has by now successfully established himself performances of his signatur
 But, don't expect him to be singing Wagner any time soon!
 
 
-href="http://www.websiteaddressxx.com/">.

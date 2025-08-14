@@ -3,18 +3,24 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_SFSMahler5
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
 publication:
   author: Cheryl North
   date: September
   publisher: Oakland Tribune
 subjects:
-- Francisco Symphony
-- of four
-- San Francisco Symphony
-- Davies Symphony Hall
+  - Concert Review
+  - Conducting
+  - Davies Symphony Hall
+  - Gustav Mahler
+  - Oakland Tribune
+  - Recording
+  - San Francisco Symphony
+  - Sparks Fly
+  - Symphony
+  - Symphony Meets Mahler
 title: Untitled
 type: review
 ---

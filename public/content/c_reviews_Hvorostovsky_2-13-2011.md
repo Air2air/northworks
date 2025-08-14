@@ -3,18 +3,26 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_reviews_Hvorostovsky_2-13-2011
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
   date: February
   publisher: Cheryl North
 subjects:
-- summoned  the
-- Davies Symphony Hall
+  - Baritone
+  - Concert Review
+  - Davies Symphony Hall
+  - Dmitri Hvorostovsky
+  - Franz Liszt
+  - Giuseppe Verdi
+  - Premiere
+  - Pyotr Ilyich Tchaikovsky
+  - Sergei Rachmaninoff
+  - Symphony
 title: Dmitri Hvorostovsky's Slavic Soul Recital</i>
 type: review
 ---

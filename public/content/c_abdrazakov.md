@@ -3,23 +3,22 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_abdrazakov
 images:
-- height: 213
-  src: /images/ildar-abdrazakov-and-cheryl-north.jpg
-  width: 154
+  - height: 213
+    src: /images/ildar-abdrazakov-and-cheryl-north.jpg
+    width: 154
 publication:
   date: August
   publisher: seven years
 subjects:
-- to his
-- Ildar Abdrazakov
-- he is
-- Luisotti will
-- like to
-- friends outside
-- heard him
-- demand by
-- an October
-- San Francisco Opera
+  - Aida
+  - Don Giovanni
+  - Giuseppe Verdi
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - War Memorial Opera House
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: article
 ---

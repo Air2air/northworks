@@ -3,23 +3,27 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_snicket
 images:
-- height: 160
-  src: /images/snicket-handler.jpg
-  width: 120
-- height: 150
-  src: /images/stookey.jpg
-  width: 127
-
+  - height: 160
+    src: /images/snicket-handler.jpg
+    width: 120
+  - height: 150
+    src: /images/stookey.jpg
+    width: 127
 publication:
   date: June
   publisher: chance when
 subjects:
-- He also
-- the resident
-- the Wolf
-- San Francisco Symphony
-- Davies Symphony Hall
-title: <b>Interview with Lemony Snicket,<br />(a.k.a. Daniel Handler)
+  - Conducting
+  - Daniel Handler
+  - Davies Symphony Hall
+  - Interview
+  - Johann Sebastian Bach
+  - Lemony Snicket
+  - Ludwig van Beethoven
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+title: '<b>Interview with Lemony Snicket,<br />(a.k.a. Daniel Handler)'
 type: article
 ---
 

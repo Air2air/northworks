@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import { PageTitle } from '@/components/ui';
 import ProjectListComponent, { parseProjectsFromMarkdown } from '@/components/ProjectListComponent';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -75,13 +76,12 @@ export default function GovernmentProjectsPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Government Projects</h1>
-          <p className="text-lg text-gray-600 max-w-3xl">
-            Federal and state government consulting assignments including long-term advisory board service 
-            and specialized consulting projects in risk analysis and environmental policy.
-          </p>
-        </div>
+        <PageTitle
+          title="Government Projects"
+          description="Federal and state government consulting assignments including long-term advisory board service and specialized consulting projects in risk analysis and environmental policy"
+          align="center"
+          size="large"
+        />
 
         {/* Statistics */}
         <div className="grid md:grid-cols-4 gap-6 mb-12">

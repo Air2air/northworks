@@ -3,58 +3,32 @@ conversion_date: '2025-08-13'
 converted_from_html: true
 id: c_ramey
 images:
-- height: 225
-  src: /images/ramey-mephis-faust.jpg
-  width: 175
-- height: 225
-  src: /images/ramey-boito-mephis-florence.jpg
-  width: 175
-- height: 225
-  src: /images/sam-and-cherie.jpg
-  width: 163
-- height: 175
-  src: /images/ramey-c-and-w-lunch-08.jpg
-  width: 225
-
+  - height: 225
+    src: /images/ramey-mephis-faust.jpg
+    width: 175
+  - height: 225
+    src: /images/ramey-boito-mephis-florence.jpg
+    width: 175
+  - height: 225
+    src: /images/sam-and-cherie.jpg
+    width: 163
+  - height: 175
+    src: /images/ramey-c-and-w-lunch-08.jpg
+    width: 225
 publication:
   author: the bass
   publisher: Oakland Tribune
 subjects:
-- in several
-- in town
-- bothered by
-- his mother
-- of experiences
-- time he
-- 'website
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  High'
-- San Francisco Opera
+  - Bass
+  - Carmen
+  - Debut Performance
+  - Interview
+  - Mayor Gives
+  - Opera
+  - Samuel Ramey Interview
+  - San Francisco Opera
+  - San Franscisco
+  - Soprano
 title: <center>Samuel Ramey Interview
 type: article
 ---

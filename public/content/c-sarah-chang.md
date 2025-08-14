@@ -1,25 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_sarah_chang
+id: c-sarah-chang
 images:
-  - height: 124
-    src: /images/sarah-chang-informal.jpg
-    width: 100
+- height: 124
+  src: /images/sarah-chang-informal.jpg
+  width: 100
 publication:
   date: January
 subjects:
-  - Concerto
-  - Conducting
-  - Davies Symphony Hall
-  - Interview
-  - Johannes Brahms
-  - Pyotr Ilyich Tchaikovsky
-  - San Francisco Symphony
-  - Symphony
-  - Violin
+- Concerto
+- Conducting
+- Davies Symphony Hall
+- Interview
+- Johannes Brahms
+- Pyotr Ilyich Tchaikovsky
+- San Francisco Symphony
+- Symphony
+- Violin
 title: Cheryl North Interviews Sarah Chang
-type: article
+type: interview
 ---
 
 **
@@ -82,4 +82,4 @@ What sort of person would you expect to have such books as John McClaren's *Runn
 
  When I asked her what she would like to be doing 50 or 60 years from now, she hesitated a few seconds, and then replied, "What I would really love, is to just continue what I'm doing now — not to be labeled as a 'prodigy,' but to be called a 'musicians' musician.' I want not only the audiences, but my colleagues, to enjoy my playing."
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

@@ -1,11 +1,22 @@
 "use client";
 
 /**
- * ProfessionalLists - Comprehensive component library for displaying professional lists
+ * ProfessionalLists - Optimized version with React.memo and performance improvements
  * Handles various types of professional content with consistent styling
  */
 
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
+import Tags from './Tags';
+import { 
+  FaRocket, 
+  FaBook, 
+  FaBuilding, 
+  FaBriefcase, 
+  FaBullseye, 
+  FaTrophy, 
+  FaGraduationCap, 
+  FaClipboardList 
+} from 'react-icons/fa';
 
 // Base Professional List Item types
 interface ProfessionalItem {
@@ -52,8 +63,143 @@ interface ProfessionalListsProps {
   maxItemsPreview?: number;
 }
 
-// Individual List Component
-function ProfessionalList({ 
+// Constants for better performance
+const CATEGORY_ICONS: Record<string, React.ComponentType<{className?: string}>> = {
+  projects: FaRocket,
+  publications: FaBook,
+  organizations: FaBuilding,
+  positions: FaBriefcase,
+  expertise: FaBullseye,
+  awards: FaTrophy,
+  education: FaGraduationCap,
+  miscellaneous: FaClipboardList
+};
+
+const CATEGORY_COLORS: Record<string, string> = {
+  projects: 'blue',
+  publications: 'green',
+  organizations: 'purple',
+  positions: 'orange',
+  expertise: 'red',
+  awards: 'yellow',
+  education: 'indigo',
+  miscellaneous: 'gray'
+};
+
+// Memoized utility functions
+const getCategoryIcon = (category: string) => {
+  const IconComponent = CATEGORY_ICONS[category.toLowerCase()];
+  return IconComponent ? <IconComponent className="w-5 h-5" /> : <FaClipboardList className="w-5 h-5" />;
+};
+const getCategoryColor = (category: string) => CATEGORY_COLORS[category.toLowerCase()] || 'gray';
+
+// Memoized Color Class Helper
+const getColorClass = (color: string) => {
+  const colorClasses: Record<string, string> = {
+    blue: 'bg-blue-100 text-blue-800',
+    green: 'bg-green-100 text-green-800',
+    purple: 'bg-purple-100 text-purple-800',
+    orange: 'bg-orange-100 text-orange-800',
+    red: 'bg-red-100 text-red-800',
+    yellow: 'bg-yellow-100 text-yellow-800',
+    indigo: 'bg-indigo-100 text-indigo-800',
+    gray: 'bg-gray-100 text-gray-800'
+  };
+  return colorClasses[color] || colorClasses.gray;
+};
+
+// Memoized Item Component
+const ProfessionalItem = React.memo(function ProfessionalItem({ 
+  item, 
+  index 
+}: { 
+  item: ProfessionalItem; 
+  index: number; 
+}) {
+  const itemTitle = item.content?.title || item.title || item.text || 'Untitled';
+  const itemUrl = item.content?.url || item.url;
+  const itemDescription = item.content?.summary || item.description || '';
+  
+  const truncatedDescription = useMemo(() => 
+    itemDescription.length > 200 
+      ? `${itemDescription.substring(0, 200)}...`
+      : itemDescription
+  , [itemDescription]);
+
+  const handleLinkClick = useCallback((e: React.MouseEvent) => {
+    e.stopPropagation();
+  }, []);
+
+  return (
+    <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+      <div className="flex">
+        <div className="flex-1 p-6">
+          <h4 className="text-xl font-semibold text-gray-900 mb-2">
+            {itemUrl ? (
+              <a 
+                href={itemUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-blue-600 transition-colors"
+                onClick={handleLinkClick}
+              >
+                {itemTitle}
+              </a>
+            ) : (
+              <span>{itemTitle}</span>
+            )}
+          </h4>
+          
+          {/* Metadata row */}
+          <div className="text-sm text-gray-500 mb-3">
+            {(item.date || item.dateRange) && (
+              <span>{item.date || item.dateRange}</span>
+            )}
+            {item.organization && (
+              <span>{(item.date || item.dateRange) ? ' • ' : ''}{item.organization}</span>
+            )}
+            {item.type && (
+              <span>{(item.date || item.dateRange || item.organization) ? ' • ' : ''}{item.type}</span>
+            )}
+          </div>
+
+          {/* Tags */}
+          {item.tags && item.tags.length > 0 && (
+            <div className="mb-3">
+              <Tags 
+                tags={item.tags} 
+                maxVisible={5} 
+                variant="compact"
+              />
+            </div>
+          )}
+
+          {/* Description */}
+          {truncatedDescription && (
+            <p className="text-gray-600 text-sm mb-3">
+              {truncatedDescription}
+            </p>
+          )}
+          
+          {/* Sub-items */}
+          {item.subItems && item.subItems.length > 0 && (
+            <ul className="mt-3 ml-4 space-y-1">
+              {item.subItems.map((subItem, subIndex) => (
+                <li key={subIndex} className="text-sm text-gray-600 flex items-start">
+                  <span className="text-gray-400 mr-2">•</span>
+                  {subItem}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </article>
+  );
+});
+
+// Individual List Component - Memoized
+const ProfessionalList = React.memo(function ProfessionalList({ 
   title, 
   items, 
   expanded, 
@@ -66,39 +212,14 @@ function ProfessionalList({
   onToggle: () => void;
   maxPreview: number;
 }) {
-  const displayItems = expanded ? items : items.slice(0, maxPreview);
+  const displayItems = useMemo(() => 
+    expanded ? items : items.slice(0, maxPreview)
+  , [expanded, items, maxPreview]);
+  
   const hasMore = items.length > maxPreview;
-
-  const getCategoryIcon = (category: string) => {
-    const icons: Record<string, string> = {
-      projects: '🚀',
-      publications: '📚',
-      organizations: '🏢',
-      positions: '💼',
-      expertise: '🎯',
-      awards: '🏆',
-      education: '🎓',
-      miscellaneous: '📋'
-    };
-    return icons[category.toLowerCase()] || '📄';
-  };
-
-  const getCategoryColor = (category: string) => {
-    const colors: Record<string, string> = {
-      projects: 'blue',
-      publications: 'green',
-      organizations: 'purple',
-      positions: 'orange',
-      expertise: 'red',
-      awards: 'yellow',
-      education: 'indigo',
-      miscellaneous: 'gray'
-    };
-    return colors[category.toLowerCase()] || 'gray';
-  };
-
   const color = getCategoryColor(title);
   const icon = getCategoryIcon(title);
+  const colorClass = getColorClass(color);
 
   return (
     <div className="bg-white rounded-lg shadow-md border hover:shadow-lg transition-shadow">
@@ -108,7 +229,7 @@ function ProfessionalList({
         onClick={onToggle}
       >
         <div className="flex items-center gap-3">
-          <span className="text-2xl">{icon}</span>
+          <div className="text-blue-600 text-xl">{icon}</div>
           <div>
             <h3 className="text-lg font-semibold text-gray-900 capitalize">
               {title}
@@ -119,16 +240,7 @@ function ProfessionalList({
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <span className={`px-2 py-1 text-xs font-medium rounded-full ${
-            color === 'blue' ? 'bg-blue-100 text-blue-800' :
-            color === 'green' ? 'bg-green-100 text-green-800' :
-            color === 'purple' ? 'bg-purple-100 text-purple-800' :
-            color === 'orange' ? 'bg-orange-100 text-orange-800' :
-            color === 'red' ? 'bg-red-100 text-red-800' :
-            color === 'yellow' ? 'bg-yellow-100 text-yellow-800' :
-            color === 'indigo' ? 'bg-indigo-100 text-indigo-800' :
-            'bg-gray-100 text-gray-800'
-          }`}>
+          <span className={`px-2 py-1 text-xs font-medium rounded-full ${colorClass}`}>
             {items.length}
           </span>
           <svg 
@@ -147,87 +259,11 @@ function ProfessionalList({
         <div className="px-4 pb-4">
           <div className="space-y-4">
             {displayItems.map((item, index) => (
-              <article 
-                key={index} 
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-              >
-                <div className="flex">
-                  {/* Optional image placeholder - can be added later */}
-                  <div className="flex-1 p-6">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
-                      {(item.content?.url || item.url) ? (
-                        <a 
-                          href={item.content?.url || item.url} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="hover:text-blue-600 transition-colors"
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          {item.content?.title || item.title || item.text || 'Untitled'}
-                        </a>
-                      ) : (
-                        <span>{item.content?.title || item.title || item.text || 'Untitled'}</span>
-                      )}
-                    </h4>
-                    
-                    {/* Metadata row */}
-                    <div className="text-sm text-gray-500 mb-3">
-                      {(item.date || item.dateRange) && (
-                        <span>{item.date || item.dateRange}</span>
-                      )}
-                      {item.organization && (
-                        <span>{(item.date || item.dateRange) ? ' • ' : ''}{item.organization}</span>
-                      )}
-                      {item.type && (
-                        <span>{(item.date || item.dateRange || item.organization) ? ' • ' : ''}{item.type}</span>
-                      )}
-                    </div>
-
-                    {/* Tags */}
-                    {item.tags && item.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-2 mb-3">
-                        {item.tags.slice(0, 5).map((tag, tagIndex) => (
-                          <span 
-                            key={tagIndex} 
-                            className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.length > 5 && (
-                          <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
-                            +{item.tags.length - 5} more
-                          </span>
-                        )}
-                      </div>
-                    )}
-
-                    {/* Description */}
-                    {(item.content?.summary || item.description) && (
-                      <p className="text-gray-600 text-sm mb-3">
-                        {(() => {
-                          const description = item.content?.summary || item.description || '';
-                          return description.length > 200 
-                            ? `${description.substring(0, 200)}...`
-                            : description;
-                        })()}
-                      </p>
-                    )}
-                    
-                    {/* Sub-items */}
-                    {item.subItems && item.subItems.length > 0 && (
-                      <ul className="mt-3 ml-4 space-y-1">
-                        {item.subItems.map((subItem, subIndex) => (
-                          <li key={subIndex} className="text-sm text-gray-600 flex items-start">
-                            <span className="text-gray-400 mr-2">•</span>
-                            {subItem}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                </div>
-              </article>
+              <ProfessionalItem
+                key={item.id || index}
+                item={item}
+                index={index}
+              />
             ))}
           </div>
           
@@ -254,11 +290,13 @@ function ProfessionalList({
       )}
     </div>
   );
-}
+});
 
-// Summary Grid Component
-function ListSummaryGrid({ lists }: { lists: ListsData }) {
-  const categories = Object.entries(lists).filter(([_, items]) => items && items.length > 0);
+// Summary Grid Component - Memoized
+const ListSummaryGrid = React.memo(function ListSummaryGrid({ lists }: { lists: ListsData }) {
+  const categories = useMemo(() => 
+    Object.entries(lists).filter(([_, items]) => items && items.length > 0)
+  , [lists]);
   
   if (categories.length === 0) return null;
 
@@ -267,14 +305,7 @@ function ListSummaryGrid({ lists }: { lists: ListsData }) {
       {categories.map(([category, items]) => (
         <div key={category} className="bg-white p-4 rounded-lg shadow-md border text-center">
           <div className="text-2xl mb-2">
-            {category === 'projects' && '🚀'}
-            {category === 'publications' && '📚'}
-            {category === 'organizations' && '🏢'}
-            {category === 'positions' && '💼'}
-            {category === 'expertise' && '🎯'}
-            {category === 'awards' && '🏆'}
-            {category === 'education' && '🎓'}
-            {category === 'miscellaneous' && '📋'}
+            {getCategoryIcon(category)}
           </div>
           <div className="text-xl font-bold text-gray-900 mb-1">
             {items?.length || 0}
@@ -286,9 +317,9 @@ function ListSummaryGrid({ lists }: { lists: ListsData }) {
       ))}
     </div>
   );
-}
+});
 
-// Main Component - DEFAULT EXPORT
+// Main Component - DEFAULT EXPORT with optimization
 export default function ProfessionalLists({ 
   lists, 
   showSummary = true, 
@@ -299,17 +330,29 @@ export default function ProfessionalLists({
     expandedByDefault ? new Set(Object.keys(lists)) : new Set()
   );
 
-  const toggleCategory = (category: string) => {
-    const newExpanded = new Set(expandedCategories);
-    if (newExpanded.has(category)) {
-      newExpanded.delete(category);
-    } else {
-      newExpanded.add(category);
-    }
-    setExpandedCategories(newExpanded);
-  };
+  const toggleCategory = useCallback((category: string) => {
+    setExpandedCategories(prev => {
+      const newExpanded = new Set(prev);
+      if (newExpanded.has(category)) {
+        newExpanded.delete(category);
+      } else {
+        newExpanded.add(category);
+      }
+      return newExpanded;
+    });
+  }, []);
 
-  const categories = Object.entries(lists).filter(([_, items]) => items && items.length > 0);
+  const expandAll = useCallback(() => {
+    setExpandedCategories(new Set(Object.keys(lists)));
+  }, [lists]);
+
+  const collapseAll = useCallback(() => {
+    setExpandedCategories(new Set());
+  }, []);
+
+  const categories = useMemo(() => 
+    Object.entries(lists).filter(([_, items]) => items && items.length > 0)
+  , [lists]);
 
   if (categories.length === 0) {
     return (
@@ -342,13 +385,13 @@ export default function ProfessionalLists({
       <div className="mt-8 text-center">
         <div className="flex gap-4 justify-center">
           <button
-            onClick={() => setExpandedCategories(new Set(Object.keys(lists)))}
+            onClick={expandAll}
             className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
             Expand All
           </button>
           <button
-            onClick={() => setExpandedCategories(new Set())}
+            onClick={collapseAll}
             className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
             Collapse All
@@ -358,3 +401,6 @@ export default function ProfessionalLists({
     </div>
   );
 }
+
+// Type exports for external usage
+export type { ProfessionalItem, ListsData, ProfessionalListsProps };

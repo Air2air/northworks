@@ -4,9 +4,41 @@
  */
 
 import React from 'react';
-import ProfessionalLists from '@/components/ui/ProfessionalLists';
+import dynamic from 'next/dynamic';
 import fs from 'fs';
 import path from 'path';
+import { 
+  FaRocket, 
+  FaBook, 
+  FaBuilding, 
+  FaBriefcase, 
+  FaBullseye, 
+  FaTrophy, 
+  FaGraduationCap, 
+  FaClipboardList 
+} from 'react-icons/fa';
+
+// Dynamic import for ProfessionalLists with loading state
+const ProfessionalLists = dynamic(() => import('@/components/ui/ProfessionalLists'), {
+  loading: () => (
+    <div className="container mx-auto px-4 py-8">
+      <div className="animate-pulse">
+        <div className="h-8 bg-gray-200 rounded mb-4 w-1/2"></div>
+        <div className="h-4 bg-gray-200 rounded mb-8 w-3/4"></div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="bg-gray-200 h-32 rounded"></div>
+          ))}
+        </div>
+        <div className="space-y-6">
+          {[...Array(3)].map((_, i) => (
+            <div key={i} className="bg-gray-200 h-40 rounded"></div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+});
 
 // Data loader
 async function getListsData() {
@@ -30,7 +62,22 @@ async function getListsData() {
   }
 }
 
-export default async function ListsPage() {
+// Helper function to get category icon
+const getCategoryIcon = (category: string) => {
+  const iconProps = { className: "w-6 h-6 text-blue-600" };
+  switch (category) {
+    case 'projects': return <FaRocket {...iconProps} />;
+    case 'publications': return <FaBook {...iconProps} />;
+    case 'organizations': return <FaBuilding {...iconProps} />;
+    case 'positions': return <FaBriefcase {...iconProps} />;
+    case 'expertise': return <FaBullseye {...iconProps} />;
+    case 'awards': return <FaTrophy {...iconProps} />;
+    case 'education': return <FaGraduationCap {...iconProps} />;
+    default: return <FaClipboardList {...iconProps} />;
+  }
+};
+
+export default async function ProfessionalListsPage() {
   const { lists, metadata, summary } = await getListsData();
   
   const totalItems = Object.values(lists).reduce((total: number, items: any) => total + (items?.length || 0), 0);
@@ -160,16 +207,7 @@ export default async function ListsPage() {
               return (
                 <div key={category} className="bg-white p-6 rounded-lg shadow-md border">
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-2xl">
-                      {category === 'projects' && '🚀'}
-                      {category === 'publications' && '📚'}
-                      {category === 'organizations' && '🏢'}
-                      {category === 'positions' && '💼'}
-                      {category === 'expertise' && '🎯'}
-                      {category === 'awards' && '🏆'}
-                      {category === 'education' && '🎓'}
-                      {category === 'miscellaneous' && '📋'}
-                    </span>
+                    {getCategoryIcon(category)}
                     <h3 className="text-lg font-semibold text-gray-900 capitalize">
                       {category}
                     </h3>

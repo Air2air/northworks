@@ -1,33 +1,28 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_bayless
+id: c-bayless
 images:
-  - height: 150
-    src: /images/thm-bayless.jpg
-    width: 150
+- height: 150
+  src: /images/thm-bayless.jpg
+  width: 150
 publication:
-  date: November
-  publisher: such performers
+  date: November 3, 2006
+  publisher:  ANG PREVIEW Section
 subjects:
-  - Franz Liszt
-  - Giacomo Puccini
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Sergei Rachmaninoff
-  - Symphony
-  - Wolfgang Amadeus Mozart
+- Franz Liszt
+- Giacomo Puccini
+- Johann Sebastian Bach
+- Johannes Brahms
+- Ludwig van Beethoven
+- Opera
+- Pyotr Ilyich Tchaikovsky
+- Sergei Rachmaninoff
+- Symphony
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews John Bayless
-type: article
+type: interview
 ---
-
-**
-### Cheryl North Interviews John Bayless**
-
-*Classical Music Column for the November 3, 2006 ANG PREVIEW Section*
 
 Improvisation, in the minds of most of today's classical music mavens, is usually limited to jazz venues, piano bars, or someone's living room.
 

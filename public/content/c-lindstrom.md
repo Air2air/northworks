@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_lindstrom
+id: c-lindstrom
 publication:
   date: October
   publisher: the Greek
@@ -12,7 +12,7 @@ subjects:
 - like to
 - San Francisco Opera
 title: Cheryl North writes about Lisa Lindstrom's debut performance as Senta
-type: article
+type: interview
 ---
 
 ### **Cheryl North writes about Lisa Lindstrom's debut performance as Senta**

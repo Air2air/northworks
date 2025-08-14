@@ -1,48 +1,42 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_articles_deadman
+id: c-articles-deadman
 images:
-  - height: 28
-    src: /images/title-articles.gif
-    width: 250
-  - height: 28
-    src: /images/title-gray-dead.gif
-    width: 220
-  - height: 218
-    src: /images/opera-now-cover.jpg
-    width: 150
-  - height: 149
-    src: /images/dmw-1.jpg
-    width: 220
-  - height: 181
-    src: /images/dmw-2.jpg
-    width: 220
-  - height: 258
-    src: /images/dmw-3.jpg
-    width: 220
+- height: 28
+  src: /images/title-articles.gif
+  width: 250
+- height: 28
+  src: /images/title-gray-dead.gif
+  width: 220
+- height: 218
+  src: /images/opera-now-cover.jpg
+  width: 150
+- height: 149
+  src: /images/dmw-1.jpg
+  width: 220
+- height: 181
+  src: /images/dmw-2.jpg
+  width: 220
+- height: 258
+  src: /images/dmw-3.jpg
+  width: 220
 publication:
-  date: 
-  publisher: Sister Helen
+  date: 2000
+  publisher: Opera Now
 subjects:
-  - Baritone
-  - Conducting
-  - Franz Schubert
-  - Opera
-  - Opera Now
-  - Piano
-  - San Francisco Opera
-  - Soprano
-  - War Memorial Opera House
-title: Untitled
+- Baritone
+- Conducting
+- Franz Schubert
+- Opera
+- Opera Now
+- Piano
+- San Francisco Opera
+- Soprano
+- War Memorial Opera House
+title: Dead Man Walking at San Francisco Opera
 type: article
 ---
-
-***
-
-Feature article in the British publication, Opera Now**, 2000
-
-Capital punishment is a highly charged issue in the US. Now opera is entering the debate with the forthcoming world premiere of Dead Man Walking at San Francisco Opera. Cheryl Bonham-North reports*
 
 Operas have been written about virtually every aspect of human experience. While libretti fairly brim with cases of mistaken identity, romance, slapstick comedy, and all manner of noble quests, they also spill over into incidents of fratricide, patricide, suicide and murder, not to mention incest, rape - and execution. So San Francisco Opera's upcoming world premiere of *Dead Man Walking*, a story that explores the controversial and emotive moral issues surrounding capital punishment culminating in the execution of a rapist-murderer, isn't as far-fetched a subject for an opera as some might think.
 

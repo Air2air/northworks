@@ -1,10 +1,13 @@
 /**
- * Base ContentCard component - reusable across all content types
+ * Base ContentCard component - optimized with React.memo
  * Supports interviews, articles, profiles, and any future content
  */
 
 import React from 'react';
+import Tags from './Tags';
 import Link from 'next/link';
+import Image from 'next/image';
+import LazyImage from './LazyImage';
 
 export interface ContentItem {
   metadata: {
@@ -98,13 +101,15 @@ export function ContentCard({
     return (
       <CardWrapper>
         <div className="flex">
-          {/* Optional thumbnail */}
+          {/* Optional thumbnail with optimized loading */}
           {showImage && thumbnail && (
             <div className="flex-shrink-0 w-48 h-32 relative">
-              <img
+              <LazyImage
                 src={thumbnail.url}
                 alt={thumbnail.alt || item.content.title}
-                className="w-full h-full object-cover"
+                width={192}
+                height={128}
+                className="rounded-l-lg"
               />
             </div>
           )}
@@ -140,20 +145,12 @@ export function ContentCard({
 
             {/* Tags */}
             {showTags && item.tags && item.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mb-3">
-                {item.tags.slice(0, 5).map((tag, index) => (
-                  <span 
-                    key={index} 
-                    className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-                {item.tags.length > 5 && (
-                  <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
-                    +{item.tags.length - 5} more
-                  </span>
-                )}
+              <div className="mb-3">
+                <Tags 
+                  tags={item.tags} 
+                  maxVisible={5} 
+                  variant="compact"
+                />
               </div>
             )}
 
@@ -290,21 +287,17 @@ export function ContentCard({
 
           {/* Tags */}
           {showTags && item.tags && item.tags.length > 0 && (
-            <div className="flex flex-wrap gap-1">
-              {item.tags.slice(0, variant === 'grid' ? 3 : 5).map((tag, index) => (
-                <span key={index} className={badgeStyles('secondary')}>
-                  {tag}
-                </span>
-              ))}
-              {item.tags.length > (variant === 'grid' ? 3 : 5) && (
-                <span className={badgeStyles('secondary')}>
-                  +{item.tags.length - (variant === 'grid' ? 3 : 5)}
-                </span>
-              )}
-            </div>
+            <Tags 
+              tags={item.tags} 
+              maxVisible={variant === 'grid' ? 3 : 5} 
+              variant="default"
+            />
           )}
         </div>
       )}
     </CardWrapper>
   );
 }
+
+// Export optimized version with React.memo
+export const OptimizedContentCard = React.memo(ContentCard);

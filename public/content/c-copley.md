@@ -1,10 +1,10 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_copley
+id: c-copley
 publication:
-  date: November
-  publisher: George Frideric
+  date: November 3, 2000
+  publisher: ANG Newspapers Classical Music Column
 subjects:
 - understand why
 - the most
@@ -16,12 +16,10 @@ subjects:
 - will be
 - San Francisco Opera
 title: John Copley Interview
-type: article
+type: interview
 ---
 
-### John Copley Interview
 
-*ANG Newspapers Classical Music Column for November 3, 2000*
 
 How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain young woman named Semele be made interesting to a sophisticated San Francisco audience?
 

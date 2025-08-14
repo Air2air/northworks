@@ -1,8 +1,6 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageHeader, StatsGrid, QuickAccessLinks } from '@/components/ui';
-import type { StatItem, QuickAccessItem } from '@/components/ui';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { 
@@ -12,6 +10,21 @@ import {
   FaFlask, 
   FaCrosshairs 
 } from 'react-icons/fa';
+
+// Local type definitions
+interface StatItem {
+  value: string;
+  label: string;
+  color: string;
+}
+
+interface QuickAccessItem {
+  title: string;
+  description: string;
+  href: string;
+  icon: React.ReactNode;
+  color: string;
+}
 
 export const metadata: Metadata = {
   title: 'D. Warner North - Publications & Reports | NorthWorks',
@@ -92,15 +105,10 @@ export default function WarnerPublicationsPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <PageHeader
-          title="Publications & Reports"
-          description="Academic papers, research reports, and contributions to National Academy of Sciences publications on risk analysis and environmental protection."
-          gradientFrom="green-500"
-          gradientTo="blue-600"
-        />
+        
 
         {/* Statistics */}
-        <StatsGrid stats={stats} />
+        
 
         {/* Main Publications Content */}
         {publicationsData && (
@@ -254,7 +262,7 @@ export default function WarnerPublicationsPage() {
         </div>
 
         {/* Quick Access Links */}
-        <QuickAccessLinks items={quickAccessItems} />
+        
 
         {/* Navigation */}
         <div className="border-t pt-8">

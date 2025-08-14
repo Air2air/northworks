@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_macdonald
+id: c-macdonald
 publication:
   date: April
   publisher: Stephen Sondheim
@@ -18,7 +18,7 @@ subjects:
 - classically trained
 title: Cheryl North Interviews Audra McDonald prior to her performance at a special
   concert with the San Francisco Symphony, April 26, 2010
-type: article
+type: interview
 ---
 
 ### **Cheryl North Interviews Audra McDonald prior to her performance at a special concert with the San Francisco Symphony, April 26, 2010**

@@ -1,40 +1,41 @@
 import { getContentBySlug } from '@/lib/content';
 import { InterviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import InterviewsListComponent, { parseInterviewsFromMarkdown } from '@/components/InterviewsListComponent';
+import Image from 'next/image';
+import { generateAltText, generateSEOMetadata, getImageDimensions } from '@/lib/uiHelpers';
 
 export default function InterviewsIndexPage() {
-  // Get the interviews index content
-  const interviewsData = getContentBySlug('c_interviews');
-  
-  if (!interviewsData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Interviews</h1>
-          <p className="text-gray-600">Content not found</p>
+  try {
+    // Get the interviews index content
+    const interviewsData = getContentBySlug('c_interviews');
+    
+    if (!interviewsData) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Interviews</h1>
+            <p className="text-gray-600">Content not found</p>
+          </div>
         </div>
-      </div>
+      );
+    }
+
+    const frontmatter = interviewsData.frontmatter as InterviewFrontmatter;
+    
+    // Parse the interviews from the markdown content
+    const interviews = parseInterviewsFromMarkdown(
+      interviewsData.content, 
+      frontmatter.images || []
     );
-  }
 
-  const frontmatter = interviewsData.frontmatter as InterviewFrontmatter;
-  
-  // Parse the interviews from the markdown content
-  const interviews = parseInterviewsFromMarkdown(
-    interviewsData.content, 
-    frontmatter.images || []
-  );
-
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Interviews', href: '/interviews', active: true }
-  ];
-
-  // Enhanced frontmatter for layout
+    // Create breadcrumbs
+    const breadcrumbs = [
+      { label: 'Home', href: '/', active: false },
+      { label: 'Cheryl North', href: '/cheryl', active: false },
+      { label: 'Interviews', href: '/interviews-index', active: true }
+    ];  // Enhanced frontmatter for layout
   const enhancedFrontmatter = {
     ...frontmatter,
     title: 'Classical Music Interviews',
@@ -53,12 +54,12 @@ export default function InterviewsIndexPage() {
         <div className="text-center mb-12">
           {frontmatter.images?.[0] && (
             <div className="mb-6">
-              <img
-                src={`/${frontmatter.images[0].src}`}
+              <Image
+                src={frontmatter.images[0].src}
                 alt="Interviews"
                 className="mx-auto"
-                width={frontmatter.images[0].width}
-                height={frontmatter.images[0].height}
+                width={frontmatter.images[0].width || 200}
+                height={frontmatter.images[0].height || 100}
               />
             </div>
           )}
@@ -116,4 +117,15 @@ export default function InterviewsIndexPage() {
       </div>
     </ContentLayout>
   );
+  } catch (error) {
+    console.error('Error loading interviews index:', error);
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Error</h1>
+          <p className="text-gray-600">Failed to load interviews. Please try again later.</p>
+        </div>
+      </div>
+    );
+  }
 }

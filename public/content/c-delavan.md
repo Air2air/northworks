@@ -1,34 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_delavan
+id: c-delavan
 images:
-  - height: 137
-    src: /images/delavan-mark.jpg
-    width: 175
+- height: 137
+  src: /images/delavan-mark.jpg
+  width: 175
 publication:
-  date: June
-  publisher: how well
+  date: June 13, 2003
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Johann Sebastian Bach
-  - Opera
-  - Richard Wagner
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Symphony
-  - Tosca
+- Baritone
+- Davies Symphony Hall
+- Johann Sebastian Bach
+- Opera
+- Richard Wagner
+- San Francisco Opera
+- San Francisco Symphony
+- Soprano
+- Symphony
+- Tosca
 title: Cheryl North Interviews Mark Delavan
-type: article
+type: interview
 ---
 
-**
 
-### Cheryl North Interviews Mark Delavan**
-
-*ANG Newspapers Classical Music Column for June 13, 2003*
 
 Had composer Richard Wagner been clairvoyant, he might well have hand-picked bass-baritone Mark Delavan to sing the title role in his powerful opera, *The Flying Dutchman*.
 

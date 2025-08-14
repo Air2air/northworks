@@ -1,36 +1,36 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_ramey
+id: c-ramey
 images:
-  - height: 225
-    src: /images/ramey-mephis-faust.jpg
-    width: 175
-  - height: 225
-    src: /images/ramey-boito-mephis-florence.jpg
-    width: 175
-  - height: 225
-    src: /images/sam-and-cherie.jpg
-    width: 163
-  - height: 175
-    src: /images/ramey-c-and-w-lunch-08.jpg
-    width: 225
+- height: 225
+  src: /images/ramey-mephis-faust.jpg
+  width: 175
+- height: 225
+  src: /images/ramey-boito-mephis-florence.jpg
+  width: 175
+- height: 225
+  src: /images/sam-and-cherie.jpg
+  width: 163
+- height: 175
+  src: /images/ramey-c-and-w-lunch-08.jpg
+  width: 225
 publication:
   author: the bass
   publisher: Oakland Tribune
 subjects:
-  - Bass
-  - Carmen
-  - Debut Performance
-  - Interview
-  - Mayor Gives
-  - Opera
-  - Samuel Ramey Interview
-  - San Francisco Opera
-  - San Franscisco
-  - Soprano
+- Bass
+- Carmen
+- Debut Performance
+- Interview
+- Mayor Gives
+- Opera
+- Samuel Ramey Interview
+- San Francisco Opera
+- San Franscisco
+- Soprano
 title: Samuel Ramey Interview
-type: article
+type: interview
 ---
 
 ### Samuel Ramey Interview

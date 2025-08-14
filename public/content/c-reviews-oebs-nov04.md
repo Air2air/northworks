@@ -1,32 +1,32 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews_oebs_nov04
+id: c-reviews-oebs-nov04
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 190
-    src: /images/thm-stookey.jpg
-    width: 190
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-reviews.gif
+  width: 250
+- height: 190
+  src: /images/thm-stookey.jpg
+  width: 190
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   author: Cheryl North
   date: November
   publisher: Oakland Tribune
 subjects:
-  - Bass
-  - Concerto
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Opera
-  - Piano
-  - San Francisco Symphony
-  - Sergei Rachmaninoff
-  - Symphony
-  - Violin
+- Bass
+- Concerto
+- Johann Sebastian Bach
+- Johannes Brahms
+- Opera
+- Piano
+- San Francisco Symphony
+- Sergei Rachmaninoff
+- Symphony
+- Violin
 title: Untitled
 type: review
 ---

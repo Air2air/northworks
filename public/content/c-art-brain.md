@@ -1,25 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_brain
+id: c-art-brain
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  publisher: "ANG Newspapers"
-  date: "June 14, 1999"
+  date: June 14, 1999
+  publisher: ANG Newspapers
 subjects:
-  - Brandenburg Concerto No
-  - Concerto
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Little James
-  - Music Article
-  - Music Trains
-  - Piano
-  - Violin
-  - Wolfgang Amadeus Mozart
+- Brandenburg Concerto No
+- Concerto
+- Johann Sebastian Bach
+- Johannes Brahms
+- Little James
+- Music Article
+- Music Trains
+- Piano
+- Violin
+- Wolfgang Amadeus Mozart
 title: Music Trains the Brain
 type: article
 ---
@@ -44,7 +44,7 @@ The researchers went on to suggest that classical music, probably because of its
 
 And even further back in history, to the "Golden Age" of Greece circa 450 B.C., the study of music was considered just as essential to the development of the whole person as was the study of mathematics, rhetoric, and participation in athletics. Hear, hear!
 
-Addded February 2005: For recent research on music and the brain, see the [ American Music Conference website](http://www.amc-music.org/musicmaking/thebrain.htm).
+Addded February 2005: For recent research on music and the brain, see the [ American Music Conference website](/articles/http://www.amc-music.org/musicmaking/thebrain).
 
 ![](/images/logos-newspaper.gif)
 

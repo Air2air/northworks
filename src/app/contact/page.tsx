@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import Image from 'next/image';
 import { Metadata } from 'next';
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
             {(frontmatter as any).images && (frontmatter as any).images.length > 0 && (
               <div className="mb-6 text-center">
                 <Image
-                  src={`/${(frontmatter as any).images[0].src}`}
+                  src={(frontmatter as any).images[0].src}
                   alt="Contact"
                   width={(frontmatter as any).images[0].width || 200}
                   height={(frontmatter as any).images[0].height || 28}
@@ -129,7 +129,7 @@ export default function ContactPage() {
             {(frontmatter as any).images && (frontmatter as any).images.length > 1 && (
               <div className="bg-white rounded-lg shadow-lg p-6 text-center">
                 <Image
-                  src={`/${(frontmatter as any).images[1].src}`}
+                  src={(frontmatter as any).images[1].src}
                   alt="Warner and Cheryl North"
                   width={(frontmatter as any).images[1].width || 225}
                   height={(frontmatter as any).images[1].height || 315}

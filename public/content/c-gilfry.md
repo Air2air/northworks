@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_gilfry
+id: c-gilfry
 images:
 - height: 140
   src: /images/thm-gilfry.jpg
@@ -22,7 +22,7 @@ subjects:
 - preparing to
 - San Francisco Opera
 title: Untitled
-type: article
+type: interview
 ---
 
 #### Cheryl North Interviews

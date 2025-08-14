@@ -1,29 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_lang_lang
+id: c-lang-lang
 images:
-  - height: 212
-    src: /images/langcherie09.jpg
-    width: 212
-  - height: 212
-    src: /images/lang-lang-mother.jpg
-    width: 212
+- height: 212
+  src: /images/langcherie09.jpg
+  width: 212
+- height: 212
+  src: /images/lang-lang-mother.jpg
+  width: 212
 publication:
   date: September
   publisher: Warner North
 subjects:
-  - Concerto
-  - Franz Liszt
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
-  - San Francisco Symphony
-  - Sergei Rachmaninoff
-  - Symphony
+- Concerto
+- Franz Liszt
+- Frédéric Chopin
+- Johann Sebastian Bach
+- Opera
+- Piano
+- San Francisco Symphony
+- Sergei Rachmaninoff
+- Symphony
 title: Untitled
-type: article
+type: interview
 ---
 
 #### **Cheryl North Interviews Lang Lang prior to his performance at the Opening Concert of the San Francisco Symphony, September 9, 2009**

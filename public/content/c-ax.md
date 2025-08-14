@@ -1,28 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_ax
+id: c-ax
 images: null
 publication:
-  date: October
+  date: October 10, 2008
+  publisher: Bay Area News Group
 subjects:
-  - Conducting
-  - Frédéric Chopin
-  - Interview
-  - Opera
-  - Piano
-  - Pyotr Ilyich Tchaikovsky
-  - San Francisco Symphony
-  - Symphony
-  - Symphony No
-  - Wolfgang Amadeus Mozart
-title: Untitled
-type: article
+- Conducting
+- Frédéric Chopin
+- Interview
+- Opera
+- Piano
+- Pyotr Ilyich Tchaikovsky
+- San Francisco Symphony
+- Symphony
+- Symphony No
+- Wolfgang Amadeus Mozart
+title: Cheryl North Interviews Emanuel Ax**about the Szymanowski *Symphony No. 4 for Piano and Orchestra
+type: interview
 ---
-
-#### Cheryl North Interviews Emanuel Ax**about the Szymanowski *Symphony No. 4 for Piano and Orchestra***
-
-*Material from the Classical Music Column for the October 10, 2008 Preview Section, Bay Area News Group*
 
 Local lovers of the piano, that most versatile of musical instruments, can enjoy a bit of heaven this month, as the San Francisco Symphony presents four of the world's greatest living masters of this consummate king of keyboards.
 

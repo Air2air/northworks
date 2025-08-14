@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews Baby Doe Berkeley Opera 2009
+id: c-reviews-baby-doe-berkeley-opera-2009
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-reviews.gif
+  width: 250
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   date: July
   publisher: Cheryl North
 subjects:
-  - Baby Doe
-  - Baritone
-  - Berkeley Opera Performance
-  - Concert Review
-  - Conducting
-  - Mezzo-soprano
-  - Opera
-  - Performance
-  - Soprano
+- Baby Doe
+- Baritone
+- Berkeley Opera Performance
+- Concert Review
+- Conducting
+- Mezzo-soprano
+- Opera
+- Performance
+- Soprano
 title: Untitled
 type: review
 ---

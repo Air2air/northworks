@@ -1,11 +1,26 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageHeader, StatsGrid, NavigationCard, QuickAccessLinks, FeatureSection } from '@/components/ui';
-import type { StatItem, NavigationCardProps, QuickAccessItem } from '@/components/ui';
+import NavigationCard from '@/components/ui/NavigationCard';
+import type { NavigationCardProps } from '@/components/ui/NavigationCard';
 import ProjectListComponent, { parseProjectsFromMarkdown } from '@/components/ProjectListComponent';
 import Link from 'next/link';
 import { Metadata } from 'next';
+
+// Local type definitions
+interface StatItem {
+  value: string;
+  label: string;
+  color: string;
+}
+
+interface QuickAccessItem {
+  title: string;
+  description: string;
+  href: string;
+  icon: React.ReactNode;
+  color: string;
+}
 import { 
   FaUniversity, 
   FaGraduationCap, 
@@ -165,15 +180,10 @@ export default function ProjectsIndexPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <PageHeader
-          title="Complete Projects Portfolio"
-          description="Comprehensive overview of 50+ years of consulting, government service, and academic work in risk analysis, decision science, and environmental policy."
-          gradientFrom="blue-500"
-          gradientTo="purple-600"
-        />
+        
 
         {/* Career Statistics */}
-        <StatsGrid stats={careerStats} columns={5} />
+        
 
         {/* Project Categories */}
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -192,41 +202,10 @@ export default function ProjectsIndexPage() {
         </div>
 
         {/* Expertise Areas */}
-        <FeatureSection
-          title="Core Expertise & Impact"
-          icon={<FaCrosshairs className="text-blue-600" />}
-          color="blue"
-        >
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Risk Assessment</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Quantitative methods for evaluating technological and environmental risks
-              </p>
-              <div className="text-sm text-blue-600 font-medium">{governmentProjects.length} projects</div>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Decision Analysis</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Structured approaches to complex policy and management decisions
-              </p>
-              <div className="text-sm text-purple-600 font-medium">{academicProjects.length} projects</div>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-lg font-medium text-gray-900 mb-3">Nuclear Safety</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Nuclear waste management and reactor safety analysis
-              </p>
-              <div className="text-sm text-green-600 font-medium">{industryProjects.length} projects</div>
-            </div>
-          </div>
-        </FeatureSection>
+        
 
         {/* Quick Access Links */}
-        <QuickAccessLinks 
-          title="Related Resources"
-          items={quickAccessItems} 
-        />
+        
 
         {/* Navigation */}
         <div className="border-t pt-8">

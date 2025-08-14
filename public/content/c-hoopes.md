@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_hoopes
+id: c-hoopes
 publication:
   date: December
   publisher: Cheryl North
@@ -16,9 +16,9 @@ subjects:
 - learn and
 - marathon to
 - he will
-title: Cheryl North Interviews Chad Hoopes prior to his performance at the New
-  Year's Concert of the San Francisco Symphony, December 31, 2009
-type: article
+title: Cheryl North Interviews Chad Hoopes prior to his performance at the New Year's
+  Concert of the San Francisco Symphony, December 31, 2009
+type: interview
 ---
 
 ### **Cheryl North Interviews Chad Hoopes prior to his performance at the New Year's Concert of the San Francisco Symphony, December 31, 2009**

@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_villazon
+id: c-villazon
 images:
 - height: 200
   src: /images/rolando-villazon.jpg
@@ -20,7 +20,7 @@ subjects:
 - Rolando to
 - he is
 title: Cheryl North Interviews Rolando Villazon
-type: article
+type: interview
 ---
 
 **
@@ -83,4 +83,3 @@ When I asked him which operatic role was his favorite, he replied, "Like Domingo
 
 Although Villazon has already sung more than 80 performances of Verdi's "Traviata" in 15 previous productions at such world-class venues throughout the world, he will sing his first professional San Francisco "La Traviata" at 8 p.m. Tuesday at the War Memorial Opera House. Subsequent performances will be at 8 p.m. Sept. 18, 24 and Oct. 8; 7:30 p.m. Sept. 21, 27, 30, and Oct. 5; and 2 p.m. Oct. 3. His co-stars will be Ruth Ann Swenson and Mary Dunleavy alternating in the role of Violetta; Dmitri Hvorovstovsky and Zeljko Lucic in the role of Germont; Catherine Cook; Katherine Rohrer; Thomas Glenn; Ricardo Herrera; Joshua Bloom; and Stephen Bryant. Patrick Summers and Robert Wood will share conducting duties, while John Copley serves as stage director.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)

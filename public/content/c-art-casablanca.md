@@ -1,25 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_casablanca
+id: c-art-casablanca
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  date:  August 3, 2007
+  date: August 3, 2007
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Baritone
-  - Bass
-  - Conducting
-  - Mezzo-soprano
-  - Opera
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - Wolfgang Amadeus Mozart
-  - World Premiere
+- Baritone
+- Bass
+- Conducting
+- Mezzo-soprano
+- Opera
+- San Francisco Opera
+- Soprano
+- Tenor
+- Wolfgang Amadeus Mozart
+- World Premiere
 title: Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca
 type: article
 ---

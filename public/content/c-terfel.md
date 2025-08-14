@@ -1,30 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_terfel
+id: c-terfel
 images:
-  - height: 28
-    src: /images/titleterfel.gif
-    width: 250
-  - height: 233
-    src: /images/terfel.jpg
-    width: 200
+- height: 28
+  src: /images/titleterfel.gif
+  width: 250
+- height: 233
+  src: /images/terfel.jpg
+  width: 200
 publication:
   date: June
   publisher: Cheryl North
 subjects:
-  - Baritone
-  - Franz Schubert
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Opera
-  - Richard Wagner
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Baritone
+- Franz Schubert
+- Giacomo Puccini
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- Johannes Brahms
+- Opera
+- Richard Wagner
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Untitled
-type: article
+type: interview
 ---
 
 ***
@@ -192,7 +192,7 @@ He also retains his eclectic taste in music and recounted rather gleefully his
 
  The inimitable Bryn Terfel, whom Lotfi Mansouri agrees is "a force of nature,"
  will further display his remarkable versatility during a Cal Performances
- recital featuring songs by Hugo Wolf; Robert Schumann; Brahms (``Vier Ernste
+ recital featuring songs by Hugo Wolf; Robert Schumann; Brahms ("Vier Ernste
  Gesange''); Butterworth; John Ireland; Hubert Parry; Roger Quilter; Michael
  Herad; Idris Lewis; as well as a number of traditional Welsh songs, at 8 p.m.
  Saturday in Zellerbach Hall on the University of California campus in

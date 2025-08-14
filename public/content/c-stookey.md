@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_stookey
+id: c-stookey
 images:
-  - height: 150
-    src: /images/stookey.jpg
-    width: 127
+- height: 150
+  src: /images/stookey.jpg
+  width: 127
 publication:
   date: November
   publisher: the same
 subjects:
-  - Bass
-  - Conducting
-  - Interview
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
-  - Premiere
-  - San Francisco Symphony
-  - Symphony
-  - Violin
+- Bass
+- Conducting
+- Interview
+- Johann Sebastian Bach
+- Opera
+- Piano
+- Premiere
+- San Francisco Symphony
+- Symphony
+- Violin
 title: Cheryl North Interviews Nat Stookey
-type: article
+type: interview
 ---
 
 **
@@ -74,7 +74,7 @@ In 2003, following the completion of his PhD and his NCO residency, the family, 
 
 "We wanted to raise our children out here and to be nearer to our parents. My parents and my wife's parents both live in the same San Francisco zip code," he said.
 
-When asked about future projects, Stookey spoke enthusiastically about a new collaboration to work with Lemony Snicket to write an orchestral piece for children. ([See June 2006 interview with Lemony Snicket](http://www.northworks.net/c_snicket.htm).)
+When asked about future projects, Stookey spoke enthusiastically about a new collaboration to work with Lemony Snicket to write an orchestral piece for children. ([See June 2006 interview with Lemony Snicket](/articles/c-snicket).)
 
 "The first classical piece remembered by most children is either Prokofiev's *Peter and the Wolf* or Benjamin Britten's *Young Person's Guide to the Orchestra*, Stookey said. We want to create something that will also bring children to classical music and have a positive impact on them."
 

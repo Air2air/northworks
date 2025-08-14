@@ -5,22 +5,22 @@
 
 import React from 'react';
 import Link from 'next/link';
-import fs from 'fs';
-import path from 'path';
+import { loadInterviews, loadArticles, loadWarnerPortfolio, loadWarnerLists } from '@/lib/jsonData';
+import { 
+  FaBullseye, 
+  FaSearch, 
+  FaMusic, 
+  FaRocket, 
+  FaChartBar 
+} from 'react-icons/fa';
 
 // Data loader for overview statistics
 async function getOverviewStats() {
   try {
-    // Load all data sources for statistics
-    const interviewsPath = path.join(process.cwd(), 'src/data/interviews-specialized.json');
-    const articlesPath = path.join(process.cwd(), 'src/data/articles-specialized.json');
-    const warnerPortfolioPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
-    const warnerListsPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
-    
-    const interviews = JSON.parse(fs.readFileSync(interviewsPath, 'utf8'));
-    const articles = JSON.parse(fs.readFileSync(articlesPath, 'utf8'));
-    const portfolio = JSON.parse(fs.readFileSync(warnerPortfolioPath, 'utf8'));
-    const lists = JSON.parse(fs.readFileSync(warnerListsPath, 'utf8'));
+    const interviews = loadInterviews();
+    const articles = loadArticles();
+    const portfolio = loadWarnerPortfolio();
+    const lists = loadWarnerLists();
     
     return {
       interviews: interviews.interviews?.length || 0,
@@ -60,8 +60,9 @@ export default async function Home() {
           
           {/* Key Value Proposition */}
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-purple-100 mb-12">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              🎯 Architectural Innovation
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center gap-3">
+              <FaBullseye className="text-purple-600" />
+              Architectural Innovation
             </h2>
             <p className="text-gray-700 text-lg">
               Single ContentCard and FilterableCollection components seamlessly handle both artistic interviews 
@@ -94,15 +95,17 @@ export default async function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/search"
-              className="px-8 py-4 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg"
+              className="px-8 py-4 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg flex items-center justify-center gap-2"
             >
-              🔍 Try Unified Search
+              <FaSearch />
+              Try Unified Search
             </Link>
             <Link 
               href="/interviews"
-              className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-50 transition-colors shadow-lg border border-gray-200"
+              className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-50 transition-colors shadow-lg border border-gray-200 flex items-center justify-center gap-2"
             >
-              🎼 Browse Classical Music
+              <FaMusic className="text-purple-600" />
+              Browse Classical Music
             </Link>
           </div>
         </div>
@@ -117,7 +120,9 @@ export default async function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Classical Music Interviews */}
           <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">🎼</div>
+            <div className="text-purple-600 text-4xl mb-4">
+              <FaMusic />
+            </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Classical Music Interviews</h3>
             <p className="text-gray-600 mb-4">
               Comprehensive collection of {stats.interviews} interviews with renowned classical musicians, 
@@ -171,7 +176,7 @@ export default async function Home() {
               <div className="text-sm text-gray-500">• Professional affiliations</div>
             </div>
             <Link 
-              href="/portfolio"
+              href="/warner-portfolio"
               className="inline-flex items-center text-green-600 hover:text-green-800 font-medium"
             >
               View Portfolio →
@@ -183,8 +188,9 @@ export default async function Home() {
       {/* Technical Innovation Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-200">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            🚀 Technical Innovation
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-8 flex items-center justify-center gap-3">
+            <FaRocket className="text-blue-600" />
+            Technical Innovation
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -247,8 +253,9 @@ export default async function Home() {
       {/* Data Quality Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            📊 Data Quality & Validation
+          <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center justify-center gap-3">
+            <FaChartBar className="text-green-600" />
+            Data Quality & Validation
           </h2>
           <p className="text-lg text-gray-700 mb-8">
             Comprehensive evaluation and iterative improvement of data extraction quality 

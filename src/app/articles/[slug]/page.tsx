@@ -6,9 +6,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import Tags from '@/components/ui/Tags';
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -109,15 +110,12 @@ export default async function ArticlePage({ params }: Props) {
 
           {/* Subjects/Tags */}
           {frontmatter.subjects && frontmatter.subjects.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-6">
-              {frontmatter.subjects.map((subject, index) => (
-                <span 
-                  key={index}
-                  className="inline-block px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-full"
-                >
-                  {subject}
-                </span>
-              ))}
+            <div className="mb-6">
+              <Tags 
+                tags={frontmatter.subjects} 
+                maxVisible={10} 
+                variant="default"
+              />
             </div>
           )}
         </div>
@@ -155,7 +153,7 @@ export default async function ArticlePage({ params }: Props) {
               {frontmatter.images.slice(1).map((image, index) => (
                 <div key={index} className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src={`/${image.src}`}
+                    src={image.src}
                     alt={image.alt || `Image ${index + 2}`}
                     fill
                     className="object-cover"

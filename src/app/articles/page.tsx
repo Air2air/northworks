@@ -1,7 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ArticleFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import ContentListComponent, { parseArticlesFromMarkdown } from '@/components/ContentListComponent';
 import { cleanTitle } from '@/lib/pathUtils';
 import Link from 'next/link';
@@ -63,7 +63,7 @@ export default function ArticlesPage() {
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-2xl font-semibold text-gray-900">Featured Articles Collection</h2>
               <Link 
-                href="/articles-index" 
+                href="/articles" 
                 className="text-blue-600 hover:text-blue-800 transition-colors font-medium"
               >
                 View Full Collection →

@@ -80,7 +80,7 @@ function InterviewCard({ interview, showThumbnail, layout }: InterviewCardProps)
       {showThumbnail && interview.thumbnail && (
         <div className={layout === 'grid' ? 'relative aspect-square' : 'flex-shrink-0'}>
           <Image
-            src={`/${interview.thumbnail.src}`}
+            src={interview.thumbnail.src}
             alt={interview.thumbnail.alt || interview.name}
             width={layout === 'grid' ? 200 : 70}
             height={layout === 'grid' ? 200 : 70}

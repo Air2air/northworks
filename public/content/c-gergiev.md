@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_gergiev
+id: c-gergiev
 publication:
   date: October
   publisher: the time
@@ -16,8 +16,9 @@ subjects:
 - gave him
 - interested in
 - soccer than
-title: Cheryl North Interviews Valery Gergiev prior to his performances at Zellerbach Hall conducting all six of Tchaikovsky's symphonies
-type: article
+title: Cheryl North Interviews Valery Gergiev prior to his performances at Zellerbach
+  Hall conducting all six of Tchaikovsky's symphonies
+type: interview
 ---
 
 ### **Cheryl North Interviews Valery Gergiev prior to his performances

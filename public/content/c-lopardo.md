@@ -1,26 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_lopardo
+id: c-lopardo
 images:
-  - height: 139
-    src: /images/frank-lopardo.jpg
-    width: 183
+- height: 139
+  src: /images/frank-lopardo.jpg
+  width: 183
 publication:
   date: September
   publisher: the good
 subjects:
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Metropolitan Opera
-  - Opera
-  - Richard Wagner
-  - Rigoletto
-  - San Francisco Opera
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- Metropolitan Opera
+- Opera
+- Richard Wagner
+- Rigoletto
+- San Francisco Opera
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Frank Lopardo
-type: article
+type: interview
 ---
 
 **

@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews_crucible_dido
+id: c-reviews-crucible-dido
 images:
 - height: 28
   src: /images/title-reviews.gif
@@ -53,5 +53,5 @@ I'm not usually an enthusiastic fan of the practice of "updating," adding to or 
 ![](/images/dido-aeneas-225.jpg)
 ](dido.htm)
 
-[Crucible flyer - Click to enlarge](dido.htm)
+[Crucible flyer - Click to enlarge](/articles/dido)
 

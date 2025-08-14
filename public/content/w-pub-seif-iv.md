@@ -1,40 +1,40 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_pub_seif-iv
+id: w-pub-seif-iv
 images:
-  - height: 320
-    src: /images/wn-speaking-belgian-senate-4-18-06.jpg
-    width: 213
-  - height: 161
-    src: /images/lithgen.gif
-    width: 260
-  - height: 201
-    src: /images/balticgasmap.jpg
-    width: 224
-  - height: 225
-    src: /images/legbalticgasmap.jpg
-    width: 200
-  - height: 195
-    src: /images/balticgasinfdiag.gif
-    width: 260
-  - height: 360
-    src: /images/balticgasparttree.gif
-    width: 260
-  - height: 195
-    src: /images/balticgascumd.gif
-    width: 260
+- height: 320
+  src: /images/wn-speaking-belgian-senate-4-18-06.jpg
+  width: 213
+- height: 161
+  src: /images/lithgen.gif
+  width: 260
+- height: 201
+  src: /images/balticgasmap.jpg
+  width: 224
+- height: 225
+  src: /images/legbalticgasmap.jpg
+  width: 200
+- height: 195
+  src: /images/balticgasinfdiag.gif
+  width: 260
+- height: 360
+  src: /images/balticgasparttree.gif
+  width: 260
+- height: 195
+  src: /images/balticgascumd.gif
+  width: 260
 publication:
   date: December
   publisher: which Lithuania
 subjects:
-  - Aria
-  - Bass
-  - Music Article
-  - Natural Gas Supply
-  - Opera
-  - Supply Interruption
-  - Warner North
+- Aria
+- Bass
+- Music Article
+- Natural Gas Supply
+- Opera
+- Supply Interruption
+- Warner North
 title: The Author
 type: article
 ---
@@ -156,9 +156,9 @@ References****
 
 [3]. Stephen M. Barrager, Bruce R. Judd, and D. Warner North, *The Economic and Social Costs of Coal and Nuclear Generation*, Report Prepared for the National Science Foundation by Stanford Research Institute, Menlo Park, CA, March 1976.
 
-[4]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](http://www.northworks.net/w_epasab1990.htm).
+[4]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/articles/w-epasab1990).
 
-[5]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](http://www.northworks.net/w_pub_stuttgart.htm) in press for conference report publication, 2006.
+[5]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/articles/w-pub-stuttgart) in press for conference report publication, 2006.
 
 [6]. J. Vilemas, V. Mi'kinis, and A. Galinis, *National Energy Strategy*, Prepared for, and approved by, the Seimas (Lithuanian Parliament) on 10 October 2002, Lithuanian Energy Institute, 2003.
 
@@ -221,7 +221,7 @@ Figure 1. Forecast of electricity generation in Lithuania (basic demand scenario
 ![](/images/lithgen.gif)
 ](felithgen.htm)
 
-[Figure 1 - Click to enlarge](felithgen.htm)
+[Figure 1 - Click to enlarge](/articles/felithgen)
 
 Figure 2a. Natural Gas Pipeline routes, showing Baltic Undersea, Amber, and Yamal II in descending order, large blue lines. Note: Baltic Undersea route is entirely under water from Russia to Germany.
 Source: Inogate maps, http://www.inogate.org/html/maps/mapsgas.htm
@@ -230,14 +230,14 @@ Source: Inogate maps, http://www.inogate.org/html/maps/mapsgas.htm
 ![](/images/balticgasmap.jpg)
 ](febalticgasmap.htm)
 
-[Figure 2a - Click to enlarge](febalticgasmap.htm)
+[Figure 2a - Click to enlarge](/articles/febalticgasmap)
 
 Figure 2b. Legend.
 [
 ![](/images/legbalticgasmap.jpg)
 ](felbalticgasmap.htm)
 
-[Figure 2b - Click to enlarge](felbalticgasmap.htm)
+[Figure 2b - Click to enlarge](/articles/felbalticgasmap)
 
 Figure 3. Influence Diagram for Lithuanian Gas Supply ' Simple Illustration. Diagram produced by [Decision Advisor](http://www.smartorg.com/decisionadvisor.html) software.
 
@@ -245,7 +245,7 @@ Figure 3. Influence Diagram for Lithuanian Gas Supply ' Simple Illustration. Dia
 ![](/images/balticgasinfdiag.gif)
 ](febalticgasinfdiag.htm)
 
-[Figure 3 - Click to enlarge](febalticgasinfdiag.htm)
+[Figure 3 - Click to enlarge](/articles/febalticgasinfdiag)
 
 Figure 4. Tree representation showing probability assignments for 'peak demand' node in the Influence Diagram. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
@@ -253,7 +253,7 @@ Figure 4. Tree representation showing probability assignments for 'peak demand' 
 ![](/images/balticgasparttree.gif)
 ](febalticgasparttree.htm)
 
-[Figure 4 - Click to enlarge](febalticgasparttree.htm)
+[Figure 4 - Click to enlarge](/articles/febalticgasparttree)
 
 Figure 5. Cumulative Probability Distribution of Losses from Interruption in Gas Supply. Numbers are in Monetary Units (euros) and Illustrative Only. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
@@ -261,5 +261,5 @@ Figure 5. Cumulative Probability Distribution of Losses from Interruption in Gas
 ![](/images/balticgascumd.gif)
 ](febalticgascumd.htm)
 
-[Figure 5 - Click to enlarge](febalticgascumd.htm)
+[Figure 5 - Click to enlarge](/articles/febalticgascumd)
 

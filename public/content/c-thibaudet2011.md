@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_thibaudet2011
+id: c-thibaudet2011
 images:
 - height: 297
   src: /images/thibaudet1.jpg
@@ -24,7 +24,7 @@ subjects:
 - ability in
 - seem to
 title: Two Interviews with Jean-Yves Thibaudet, 2006 and 2011<br />
-type: article
+type: interview
 ---
 
 ### **Two Interviews with Jean-Yves Thibaudet, 2006 and 2011

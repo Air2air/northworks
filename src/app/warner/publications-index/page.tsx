@@ -1,11 +1,26 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageHeader, StatsGrid, FeatureSection, QuickAccessLinks, NavigationCard } from '@/components/ui';
-import type { StatItem, QuickAccessItem } from '@/components/ui';
+import NavigationCard from '@/components/ui/NavigationCard';
+import type { NavigationCardProps } from '@/components/ui/NavigationCard';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+
+// Local type definitions
+interface StatItem {
+  value: string;
+  label: string;
+  color: string;
+}
+
+interface QuickAccessItem {
+  title: string;
+  description: string;
+  href: string;
+  icon: React.ReactNode;
+  color: string;
+}
 import { 
   FaChartBar, 
   FaGlobe, 
@@ -173,13 +188,9 @@ export default function PublicationsIndexPage() {
   return (
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <PageHeader 
-          title="Publications Index"
-          description="Comprehensive collection of academic publications, National Academy reports, and research papers spanning over 50 years of work in risk analysis and environmental policy."
-          centerAlign={false}
-        />
+        
 
-        <StatsGrid stats={stats} columns={4} />
+        
 
         {/* Major National Academy Reports */}
         <div className="mb-12">
@@ -260,32 +271,9 @@ export default function PublicationsIndexPage() {
           />
         </div>
 
-        <FeatureSection
-          title="Recent Publications (2010-2020)"
-          color="indigo"
-          className="mb-8"
-        >
-          <div className="space-y-4">
-            <div className="border-l-4 border-blue-500 pl-4">
-              <h4 className="font-medium text-gray-900">Biotechnology Risk Assessment Review</h4>
-              <p className="text-gray-600 text-sm">Peer reviewer for "Preparing for Future Products of Biotechnology" (2017)</p>
-            </div>
-            <div className="border-l-4 border-green-500 pl-4">
-              <h4 className="font-medium text-gray-900">EPA Science Program Review</h4>
-              <p className="text-gray-600 text-sm">Review of "Environmental Protection Agency's Science to Achieve Results Program" (2017)</p>
-            </div>
-            <div className="border-l-4 border-purple-500 pl-4">
-              <h4 className="font-medium text-gray-900">National Academies Continuing Work</h4>
-              <p className="text-gray-600 text-sm">Ongoing contributions to National Research Council reports and reviews</p>
-            </div>
-          </div>
-        </FeatureSection>
+        
 
-        <QuickAccessLinks 
-          title="Related Resources"
-          items={quickAccessItems}
-          columns={2}
-        />
+        
 
         {/* Navigation */}
         <div className="border-t pt-8">

@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_graham
+id: c-graham
 images:
-  - height: 150
-    src: /images/graham-with-norths.jpg
-    width: 210
+- height: 150
+  src: /images/graham-with-norths.jpg
+  width: 210
 publication:
   date: February
   publisher: the San
 subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Giuseppe Verdi
-  - Mezzo-soprano
-  - Opera
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Symphony
-  - Wolfgang Amadeus Mozart
+- Carnegie Hall
+- Davies Symphony Hall
+- Giuseppe Verdi
+- Mezzo-soprano
+- Opera
+- San Francisco Opera
+- San Francisco Symphony
+- Soprano
+- Symphony
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Susan Graham
-type: article
+type: interview
 ---
 
 **
@@ -78,4 +78,4 @@ When I asked what she hoped audiences, colleagues and critics would say about he
 
 Susan Graham with Cheryl and Warner North backstage after her concert on February 16, 2007
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

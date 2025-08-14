@@ -1,29 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_conte
+id: c-conte
 images: null
 publication:
-  date: October
-  publisher: within our
+  date: October 1, 2010
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-  - Aria
-  - Baritone
-  - Conducting
-  - Interview
-  - Opera
-  - Piano
-  - Premiere
-  - Soprano
-  - Symphony
-  - Violin
-title: Untitled
-type: article
+- Aria
+- Baritone
+- Conducting
+- Interview
+- Opera
+- Piano
+- Premiere
+- Soprano
+- Symphony
+- Violin
+title: Cheryl North Interviews Composer David Conte
+type: interview
 ---
 
-#### **Cheryl North Interviews Composer David Conte**
 
-*Material from the Classical Music Column for October 1, 2010 in Bay Area News Group newspapers*
 
  Where in the world do you find classical music composers capable of rivaling the greats of yesteryear?
 

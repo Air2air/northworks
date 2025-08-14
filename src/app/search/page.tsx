@@ -3,13 +3,30 @@
  * Classical music interviews, articles, and professional portfolio
  */
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { ContentItem } from '@/components/ui/ContentCard';
 import { getInterviews, getArticles, getWarnerLists } from '@/lib/content';
 import { ContentCard } from '@/components/ui/ContentCard';
-import SearchInterface from '@/components/SearchInterface';
-import fs from 'fs';
-import path from 'path';
+import dynamic from 'next/dynamic';
+import { loadInterviews, loadArticles, loadWarnerPortfolio, loadWarnerLists } from '@/lib/jsonData';
+
+// Dynamic import for SearchInterface to reduce initial bundle size
+const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
+  loading: () => (
+    <div className="container mx-auto px-4 py-8">
+      <div className="animate-pulse">
+        <div className="h-8 bg-gray-200 rounded mb-4"></div>
+        <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+          {[...Array(5)].map((_, i) => (
+            <div key={i} className="bg-gray-200 h-20 rounded"></div>
+          ))}
+        </div>
+        <div className="bg-gray-200 h-64 rounded"></div>
+      </div>
+    </div>
+  )
+});
 
 // Data loaders for all content types
 async function getAllContentData(): Promise<{
@@ -19,21 +36,11 @@ async function getAllContentData(): Promise<{
   warnerLists: any;
 }> {
   try {
-    // Load improved interviews
-    const interviewsPath = path.join(process.cwd(), 'src/data/interviews-specialized.json');
-    const interviewsData = JSON.parse(fs.readFileSync(interviewsPath, 'utf8'));
-    
-    // Load improved articles
-    const articlesPath = path.join(process.cwd(), 'src/data/articles-specialized.json');
-    const articlesData = JSON.parse(fs.readFileSync(articlesPath, 'utf8'));
-    
-    // Load Warner portfolio (quality version)
-    const warnerPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
-    const warnerData = JSON.parse(fs.readFileSync(warnerPath, 'utf8'));
-    
-    // Load Warner lists (for specialized list components)
-    const warnerListsPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
-    const warnerListsData = JSON.parse(fs.readFileSync(warnerListsPath, 'utf8'));
+    // Load data using helper functions
+    const interviewsData = loadInterviews();
+    const articlesData = loadArticles();
+    const warnerData = loadWarnerPortfolio();
+    const warnerListsData = loadWarnerLists();
     
     // Convert warner portfolio section to content item
     const convertWarnerToContentItem = (item: any, category: string) => ({
@@ -79,8 +86,20 @@ async function getAllContentData(): Promise<{
       [];
     
     return {
-      interviews: interviewsData.interviews || [],
-      articles: articlesData.articles || [],
+      interviews: (interviewsData.interviews || []).map((interview: any) => ({
+        ...interview,
+        publication: {
+          ...interview.publication,
+          date: interview.publication?.date || undefined
+        }
+      })),
+      articles: (articlesData.articles || []).map((article: any) => ({
+        ...article,
+        publication: {
+          ...article.publication,
+          date: article.publication?.date || undefined
+        }
+      })),
       warnerPortfolio,
       warnerLists: warnerListsData.lists || {}
     };
@@ -105,5 +124,22 @@ export default async function UnifiedSearchPage() {
     ...warnerPortfolio.map(item => ({ ...item, domain: 'Professional Portfolio' }))
   ];
   
-  return <SearchInterface allContent={allContent} warnerLists={warnerLists} />;
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-8">
+        <div className="animate-pulse">
+          <div className="h-8 bg-gray-200 rounded mb-4"></div>
+          <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+            {[...Array(5)].map((_, i) => (
+              <div key={i} className="bg-gray-200 h-20 rounded"></div>
+            ))}
+          </div>
+          <div className="bg-gray-200 h-64 rounded"></div>
+        </div>
+      </div>
+    }>
+      <SearchInterface allContent={allContent} warnerLists={warnerLists} />
+    </Suspense>
+  );
 }

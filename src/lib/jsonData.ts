@@ -283,6 +283,20 @@ export function loadDataIndex(): DataIndex {
 }
 
 /**
+ * Load Warner portfolio data
+ */
+export function loadWarnerPortfolio(): any {
+  return loadJsonData<any>('warner-portfolio-specialized.json');
+}
+
+/**
+ * Load Warner lists data  
+ */
+export function loadWarnerLists(): any {
+  return loadJsonData<any>('warner-portfolio-specialized.json');
+}
+
+/**
  * Get a specific interview by ID
  */
 export function getInterviewById(id: string): Interview | null {

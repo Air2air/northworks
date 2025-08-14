@@ -27,7 +27,7 @@ Northworks combines two distinct areas of expertise:
 
 ## Project Structure
 
-```
+"`
 public/
 ├── content/          # All articles, reviews, and interviews
 ├── images/          # Photos and graphics
@@ -37,13 +37,13 @@ public/
 src/
 ├── app/             # Next.js app directory
 └── components/      # React components
-```
+"`
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
+"`bash
 npm run dev
 # or
 yarn dev
@@ -51,7 +51,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+"`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

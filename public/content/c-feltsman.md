@@ -1,38 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_feltsman
+id: c-feltsman
 images:
-  - height: 28
-    src: /images/title-feltsman.gif
-    width: 250
+- height: 28
+  src: /images/title-feltsman.gif
+  width: 250
 publication:
-  date: June
-  publisher: Cheryl North
+  date: June 14, 2002
+  publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Franz Liszt
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Pyotr Ilyich Tchaikovsky
-  - San Francisco Symphony
-  - Sergei Rachmaninoff
-  - Symphony
-title: Untitled
-type: article
+- Carnegie Hall
+- Davies Symphony Hall
+- Franz Liszt
+- Frédéric Chopin
+- Johann Sebastian Bach
+- Ludwig van Beethoven
+- Pyotr Ilyich Tchaikovsky
+- San Francisco Symphony
+- Sergei Rachmaninoff
+- Symphony
+title: Feature Article on Vladimir Feltsman
+type: interview
 ---
 
-***
-
-Feature Article on Vladimir Feltsman**
-
-Classical Music Column for ANG Newspapers Preview Section*
-
-June 14, 2002
-
-by Cheryl North
 
 A dizzying display of piano pyrotechnics will explode through Davies Symphony Hall in San Francisco next Wednesday and Thursday evenings when Vladimir Feltsman attacks Sergei Prokofiev's Piano Concerto No. 2 during the third program of the San Francisco Symphony's Russian Festival. Michael Tilson Thomas will preside at the podium as the orchestra performs a program entitled *Russian Virtuosity, Russian Rarities.*
 

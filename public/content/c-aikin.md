@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_aikin
+id: c-aikin
 images:
-  - height: 200
-    src: /images/laura-aikin.jpg
-    width: 160
+- height: 200
+  src: /images/laura-aikin.jpg
+  width: 160
 publication:
   date: February 18, 2005
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Gustav Mahler
-  - Metropolitan Opera
-  - Opera
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Symphony
-  - Wolfgang Amadeus Mozart
-title: Super Mon, super Singer -- that's soprano Aikin
-type: article
+- Baritone
+- Davies Symphony Hall
+- Gustav Mahler
+- Metropolitan Opera
+- Opera
+- San Francisco Opera
+- San Francisco Symphony
+- Soprano
+- Symphony
+- Wolfgang Amadeus Mozart
+title: Super Mom, super Singer -- that's soprano Aikin
+type: interview
 ---
 
 "THE voice of an angel" is an oft-used phrase used to describe soprano Laura Aikin's singing.

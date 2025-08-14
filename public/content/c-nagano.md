@@ -1,26 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_nagano
+id: c-nagano
 images:
-  - height: 160
-    src: /images/kent-nagano.jpg
-    width: 160
+- height: 160
+  src: /images/kent-nagano.jpg
+  width: 160
 publication:
   date: August
   publisher: the time
 subjects:
-  - Concerto
-  - Conducting
-  - Franz Schubert
-  - Gustav Mahler
-  - London Symphony
-  - Ludwig van Beethoven
-  - Opera
-  - Piano
-  - Symphony
+- Concerto
+- Conducting
+- Franz Schubert
+- Gustav Mahler
+- London Symphony
+- Ludwig van Beethoven
+- Opera
+- Piano
+- Symphony
 title: Cheryl North Interviews Kent Nagano
-type: article
+type: interview
 ---
 
 **

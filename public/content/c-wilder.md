@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_wilder
+id: c-wilder
 images:
-  - height: 170
-    src: /images/tappan-wilder-c-w-2007.jpg
-    width: 245
+- height: 170
+  src: /images/tappan-wilder-c-w-2007.jpg
+  width: 245
 publication:
   date: August
   publisher: members of
 subjects:
-  - Interview
-  - Music Article
-  - Opera
-  - Our Town
-  - Premiere
-  - Pulitzer Prize
-  - Soprano
-  - Symphony
-  - Tenor
-  - Thornton Wilder
+- Interview
+- Music Article
+- Opera
+- Our Town
+- Premiere
+- Pulitzer Prize
+- Soprano
+- Symphony
+- Tenor
+- Thornton Wilder
 title: Cheryl North Interviews Tappan Wilder on Our Town as an Opera
-type: article
+type: interview
 ---
 
 **
@@ -84,4 +84,4 @@ Warner North, at dinner prior to the
 Festival Opera production of Our Town*
  August 2007
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

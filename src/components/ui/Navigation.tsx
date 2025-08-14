@@ -8,55 +8,63 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { 
+  FaHome, 
+  FaMusic, 
+  FaNewspaper, 
+  FaBriefcase, 
+  FaListAlt, 
+  FaSearch 
+} from 'react-icons/fa';
 
 interface NavItem {
   href: string;
   label: string;
   description: string;
-  icon: string;
+  icon: React.ReactNode;
   badge?: string;
 }
 
-const navigation: NavItem[] = [
+const navigationItems: NavItem[] = [
   {
     href: '/',
     label: 'Home',
-    description: 'Main landing page',
-    icon: '🏠'
+    description: 'Welcome to NorthWorks',
+    icon: <FaHome className="w-5 h-5" />
   },
   {
     href: '/interviews',
     label: 'Interviews',
     description: 'Classical music interviews',
-    icon: '🎼',
+    icon: <FaMusic className="w-5 h-5" />,
     badge: '68'
   },
   {
     href: '/articles',
     label: 'Articles',
     description: 'Reviews and articles',
-    icon: '📰',
+    icon: <FaNewspaper className="w-5 h-5" />,
     badge: '45+'
   },
   {
-    href: '/portfolio',
+    href: '/warner-portfolio',
     label: 'Portfolio',
     description: 'Warner North professional portfolio',
-    icon: '💼',
-    badge: '17'
+    icon: <FaBriefcase className="w-5 h-5" />,
+    badge: '850+'
   },
   {
     href: '/lists',
     label: 'Lists',
     description: 'Structured professional data',
-    icon: '📋',
+    icon: <FaListAlt className="w-5 h-5" />,
     badge: '23'
   },
   {
     href: '/search',
     label: 'Search',
     description: 'Unified cross-domain search',
-    icon: '🔍'
+    icon: <FaSearch className="w-5 h-5" />
   }
 ];
 
@@ -78,7 +86,7 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
-            {navigation.map((item) => (
+            {navigationItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -123,7 +131,7 @@ export default function Navigation() {
         {isOpen && (
           <div className="md:hidden border-t border-gray-200 py-4">
             <div className="space-y-2">
-              {navigation.map((item) => (
+              {navigationItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
@@ -161,7 +169,7 @@ export default function Navigation() {
           <div className="container mx-auto px-4 py-6">
             <h2 className="text-lg font-semibold text-gray-900 mb-4">Explore Our Content</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {navigation.slice(1).map((item) => (
+              {navigationItems.slice(1).map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}

@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_lieberson
+id: c-lieberson
 images:
 - height: 200
   src: /images/lorraine-hunt-lieberson.jpg
@@ -19,7 +19,7 @@ subjects:
 - San Francisco Symphony
 - Oakland Symphony
 title: Cheryl North Interviews Lorraine Hunt Lieberson
-type: article
+type: interview
 ---
 
 **
@@ -36,7 +36,7 @@ Raised in the San Francisco Bay Area, she participated in all the local youth sy
 
 She lived in San Mateo until she was in fourth grade and then moved with her family to Orinda.
 
-"Both my parents were musical," she said, ``and I was given piano lessons when I was very young. Then came the violin and eventually, the viola."
+"Both my parents were musical," she said, "and I was given piano lessons when I was very young. Then came the violin and eventually, the viola."
 
 While in Orinda, she attended Campolindo High School where she continued her musical studies and sang in the school chorus. She moved to Berkeley for her last high school year, where she took full advantage of what she termed "Berkeley High School's incredible music department."
 

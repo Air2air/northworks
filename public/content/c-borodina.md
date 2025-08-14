@@ -1,34 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_borodina
+id: c-borodina
 images:
-  - height: 160
-    src: /images/thm-borodina.jpg
-    width: 160
+- height: 160
+  src: /images/thm-borodina.jpg
+  width: 160
 publication:
-  date: September
+  date: September 15, 2000
+  publisher: ANG Newspapers Classical Music  Column for Preview Section
 subjects:
-  - Baritone
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Metropolitan Opera
-  - Mezzo-soprano
-  - Opera
-  - San Francisco Opera
-  - Soprano
-  - Symphony
-  - War Memorial Opera House
+- Baritone
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- Metropolitan Opera
+- Mezzo-soprano
+- Opera
+- San Francisco Opera
+- Soprano
+- Symphony
+- War Memorial Opera House
 title: Cheryl North Interviews Olga Borodina
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Olga Borodina**
-
-*ANG Newspapers Classical Music
- Column for Preview Section, September 15, 2000*
 
 The Russians are coming; the Russians are coming! The old Cold War chills have escalated into a red hot invasion of Russian musicians into the Bay Area. While this column's opening phrase was the title of a Hollywood movie a few years back, it also fits what's happening on local stages this season.
 

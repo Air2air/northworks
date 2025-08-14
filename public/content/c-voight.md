@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_voight
+id: c-voight
 images:
 - height: 305
   src: /images/voight-deborah.jpg
@@ -21,7 +21,7 @@ subjects:
 - get to
 - San Francisco Opera
 title: Interview with Deborah Voight
-type: article
+type: interview
 ---
 
 ### Interview with Deborah Voight

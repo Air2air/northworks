@@ -1,24 +1,24 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_pub_stuttgart
+id: w-pub-stuttgart
 images:
-  - height: 195
-    src: /images/wnstuttgart10-04.jpg
-    width: 260
+- height: 195
+  src: /images/wnstuttgart10-04.jpg
+  width: 260
 publication:
   date: 01/34/1242
   publisher: the Ministerium
 subjects:
-  - Aria
-  - |-
-    Climate Congress
+- Aria
+- 'Climate Congress
 
-    October
-  - Global Climate Change
-  - Music Article
-  - Opera
-  - Stuttgart Energy
+
+  October'
+- Global Climate Change
+- Music Article
+- Opera
+- Stuttgart Energy
 title: The Authors
 type: article
 ---
@@ -176,7 +176,7 @@ References: **
 [3]. D. Warner North, "EPA's Draft Reports to Congress on Global Warming: An Overview," unpublished summary of the review of [1] and [2] in draft form by the EPA Science Advisory Board, 1990. Available at www.northworks.net.
 
 [4]. Intergovernmental Panel on Climate Change, *Special Report on Emissions Scenarios,* 2000. Available at: [
-http://www.grida.no/climate/ipcc/emission/index.htm](http://www.grida.no/climate/ipcc/emission/index.htm).
+http://www.grida.no/climate/ipcc/emission/index.htm](/articles/http://www.grida.no/climate/ipcc/emission/index).
 
 [5]. National Research Council, *Policy Implications of Greenhouse Warming*, Washington, D.C.: National Academy Press, 1991: Available at: [
 http://books.nap.edu/catalog/1794.html](http://books.nap.edu/catalog/1794.html).
@@ -202,7 +202,7 @@ http://stephenschneider.stanford.edu/Publications/PDF_Papers/Mann_Jones1.pdf
 [
 http://www.pnas.org/cgi/contents/full/101/34/12422](http://www.pnas.org/cgi/contents/full/101/34/12422).**
 [16]. *Our Changing Planet: The U.S. Climate Change Science Program for Fiscal Years 2004 -2005*, August 2004. [
-http://www.usgcrp.gov/usgcrp/Library/ocp2004-5/default.htm](http://www.usgcrp.gov/usgcrp/library/ocp2004-5/default.htm).
+http://www.usgcrp.gov/usgcrp/Library/ocp2004-5/default.htm](/articles/http://www.usgcrp.gov/usgcrp/library/ocp2004-5/default).
 
 [17]. Gary Yohe, Natasha Andronova, and Michael Schlesinger, "To Hedge or Not Against an Uncertain Climate Future," *Science* 306**:416-417, 15 October 2004.**
 [18]. John Browne, "Beyond Kyoto," *Foreign Affairs*, 83**(4):20-32, July/August 2004.

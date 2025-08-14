@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_mtt
+id: c-mtt
 images:
 - height: 28
   src: /images/title-mtt.gif
@@ -24,7 +24,7 @@ subjects:
 - English horn
 - soloist and
 title: Untitled
-type: article
+type: interview
 ---
 
 *

@@ -1,14 +1,14 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_cerny
+id: c-cerny
 images:
 - height: 300
   src: /images/cerny-dallas.jpg
   width: 200
 publication:
-  date: 
-  publisher: Cheryl North
+  date: April 30
+  publisher: Bay Area News Group Classical Music Column
 subjects:
 - world premiere
 - stake every
@@ -18,16 +18,9 @@ subjects:
 - she was
 - San Francisco Opera
 - San Francisco Symphony
-title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas
-  Opera
-type: article
+title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera
+type: interview
 ---
-
-### **Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera**
-
-*Classical Music Column for the April 30, Preview Section, Bay Area News Group*
-
-By Cheryl North
 
  Opera lovers living in the
 "Lone Star" state of Texas ought to be thanking all their lucky stars these days for the super nova energy shining on them from the San Francisco Bay Area.

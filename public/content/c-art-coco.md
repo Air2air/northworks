@@ -1,25 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_coco
+id: c-art-coco
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   date: February 25, 2005
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Conducting
-  - Debut Performance
-  - Held Concert Companion
-  - Johann Sebastian Bach
-  - Metropolitan Opera
-  - Music Article
-  - Opera
-  - Symphony
-  - Symphony Audiences
-  - Tech Hand
+- Conducting
+- Debut Performance
+- Held Concert Companion
+- Johann Sebastian Bach
+- Metropolitan Opera
+- Music Article
+- Opera
+- Symphony
+- Symphony Audiences
+- Tech Hand
 title: High-Tech Hand-Held Concert Companion for Symphony Audiences
 type: article
 ---

@@ -1,32 +1,32 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews_pavarotti
+id: c-reviews-pavarotti
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 250
-    src: /images/pavarotti.jpg
-    width: 185
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-reviews.gif
+  width: 250
+- height: 250
+  src: /images/pavarotti.jpg
+  width: 185
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   author: Cheryl North
   date: April
   publisher: Oakland Tribune
 subjects:
-  - Aria
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
-  - Soprano
-  - Symphony
-  - Tenor
-  - Violin
+- Aria
+- Giacomo Puccini
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- Opera
+- Piano
+- Soprano
+- Symphony
+- Tenor
+- Violin
 title: Untitled
 type: review
 ---

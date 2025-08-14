@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_projects_stanford
+id: w-projects-stanford
 images:
 - height: 28
   src: /images/title-experience-stanford.gif
@@ -33,7 +33,6 @@ images:
 - height: 39
   src: /images/title-stanford.gif
   width: 220
-
 title: Untitled
 type: article
 ---
@@ -75,5 +74,5 @@ to Professor Ronald A. Howard in 1966 for the first course in decision analysis 
 
 ![](/images/title-stanford.gif)
 
-[Laser technology consulting](/w_laser.htm)
+[Laser technology consulting](/articles//w-laser)
 

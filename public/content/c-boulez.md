@@ -1,32 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_boulez
+id: c-boulez
 images:
-  - height: 227
-    src: /images/pierre-boulez.jpg
-    width: 150
+- height: 227
+  src: /images/pierre-boulez.jpg
+  width: 150
 publication:
-  date: May
-  publisher: the great
+  date: May 19, 2000
+  publisher: ANG Newspapers Classical Music  Column for Preview Section
 subjects:
-  - Cheryl North Writes
-  - Conducting
-  - Gustav Mahler
-  - Interview
-  - Music Article
-  - Piano
-  - Pierre Boulez
-  - Symphony
+- Cheryl North Writes
+- Conducting
+- Gustav Mahler
+- Interview
+- Music Article
+- Piano
+- Pierre Boulez
+- Symphony
 title: Cheryl North Writes about Pierre Boulez
-type: article
+type: interview
 ---
-
-**
-
-### Cheryl North Writes about Pierre Boulez**
-
-*ANG Newspapers, May 19, 2000*
 
 One of the most difficult, even disturbing, pieces of music I've ever encountered was a duo piano work written by the great French composer Pierre Boulez. Yet, one of the nicest, most thoroughly civilized gentlemen I've ever met, was its composer, Pierre Boulez.
 

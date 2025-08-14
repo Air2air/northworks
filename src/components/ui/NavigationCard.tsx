@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ReactNode } from 'react';
+import Tags from './Tags';
 
 export interface NavigationCardProps {
   title: string;
@@ -157,15 +158,12 @@ export default function NavigationCard({
       </p>
       
       {tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-4">
-          {tags.map((tag, index) => (
-            <span 
-              key={index}
-              className={`px-3 py-1 ${colors.tagBg} ${colors.tagText} rounded-full text-sm`}
-            >
-              {tag}
-            </span>
-          ))}
+        <div className="mb-4">
+          <Tags 
+            tags={tags} 
+            maxVisible={3} 
+            variant="default"
+          />
         </div>
       )}
       

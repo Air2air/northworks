@@ -1,32 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_wozzeck
+id: c-art-wozzeck
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  date: January
-  publisher: Montreal composer
+  date: January 26, 2010
+  publisher: ANG Newspapers Preview Section
 subjects:
-  - Baritone
-  - Bass
-  - Conducting
-  - Music Article
-  - Music Ensemble Parallele
-  - Opera
-  - San Francisco Conservatory
-  - Soprano
-  - Tenor
-  - Yerba Buena Center
-title: San Francisco Conservatory of Music Ensemble Parallele's Production of Wozzeck at the Yerba Buena Center
-type: article
+- Baritone
+- Bass
+- Conducting
+- Music Article
+- Music Ensemble Parallele
+- Opera
+- San Francisco Conservatory
+- Soprano
+- Tenor
+- Yerba Buena Center
+title: Berg's *Wozzeck* is still powerful after 85 years
 ---
-
-### **San Francisco Conservatory of Music Ensemble Parallele's Production of Wozzeck at the Yerba Buena Center**
-**
-*Classical Music Column for the ANG Newspapers Preview Section for January 26, 2010, under headline,* Berg's *Wozzeck* is still powerful after 85 years****
 
 The music, art and architecture of a given time often present a mirror image of the mood and mores of that time. As a potent example of this thesis, the San Francisco Conservatory of Music's resident Ensemble Parallele, under the direction of its founder and conductor Nicole Paiement, is preparing to recreate the reeling Weltanschauung of 1920s Europe this weekend with a production of Austrian-born Alban Berg's fervid opera, *Wozzeck.*
 

@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews
+id: c-reviews
 images:
 - height: 28
   src: /images/title-reviews.gif
@@ -52,7 +52,7 @@ type: review
 
 October 2, 2012
 
-[Review of the California Symphony, Opening Concert of the 2012-2013 Season](http://www.northworks.net/c_reviews calif symphony 9-30-2012.htm)****Bay Area News Group* and *Inside Bay Area*
+[Review of the California Symphony, Opening Concert of the 2012-2013 Season](/articles/c-reviews calif symphony 9-30-2012)****Bay Area News Group* and *Inside Bay Area*
 
 February 15, 2011
 
@@ -61,15 +61,15 @@ February 15, 2011
 
 November 15, 2010
 
-[Review of the Berkeley West Edge Opera's Production of Georg Frederic Handel's *Xerxes*](http://www.northworks.net/c_reviews_bwe_xerxes_11-10.htm)*****Bay Area News Group* and *Inside Bay Area*
+[Review of the Berkeley West Edge Opera's Production of Georg Frederic Handel's *Xerxes*](/articles/c-reviews-bwe-xerxes-11-10)*****Bay Area News Group* and *Inside Bay Area*
 
 October 3, 2010
 
-[Review of the California Symphony, Opening Concert of the 2010-2011 Season](http://www.northworks.net/c_reviews_cal_symph_9-10.htm)*****Bay Area News Group* and *Inside Bay Area*
+[Review of the California Symphony, Opening Concert of the 2010-2011 Season](/articles/c-reviews-cal-symph-9-10)*****Bay Area News Group* and *Inside Bay Area*
 
 June 7, 2010
 
-[Review of the San Francisco Opera Production of *Faust***](http://www.northworks.net/c_reviews_sfo faust 6-10.htm)***Bay Area News Group* and *Inside Bay Area*
+[Review of the San Francisco Opera Production of *Faust***](/articles/c-reviews-sfo faust 6-10)***Bay Area News Group* and *Inside Bay Area*
 
 February 22, 2010
 
@@ -141,14 +141,14 @@ May 23, 2005
 November 22, 2004
 
 [
-The Opening Concert of the 2004-2005 Season of the Oakland East Bay Symphony](c_reviews_oebs_nov04.htm)****
+The Opening Concert of the 2004-2005 Season of the Oakland East Bay Symphony](/articles/c-reviews-oebs-nov04)****
 
 *The Oakland Tribune and other ANG Newspapers*
 
 October 22, 2004
 
 [
-*Tristan und Isolde* at the Stuttgart State Opera, Stuttgart, Germany](c_reviews_tristan_stuttgart.htm)****
+*Tristan und Isolde* at the Stuttgart State Opera, Stuttgart, Germany](/articles/c-reviews-tristan-stuttgart)****
 
 *Classical Music Column for the ANG Newspapers Preview Section*
 
@@ -160,7 +160,7 @@ January 16, 2004
 October 24, 2002
 
 [
-Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's *War Requiem*](c_reviews_brittenwar_masur.htm)**
+Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's *War Requiem*](/articles/c-reviews-brittenwar-masur)**
 **
 *The Oakland Tribune and other ANG Newspapers*
 

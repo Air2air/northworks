@@ -1,26 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_kissine
+id: c-kissine
 images:
-  - height: 168
-    src: /images/kissine-with-wife-and-c-3-4-10.jpg
-    width: 217
+- height: 168
+  src: /images/kissine-with-wife-and-c-3-4-10.jpg
+  width: 217
 publication:
   date: March
   publisher: the San
 subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Interview
-  - Ludwig van Beethoven
-  - Piano
-  - Premiere
-  - San Francisco Symphony
-  - Symphony
-  - World Premiere
+- Carnegie Hall
+- Davies Symphony Hall
+- Interview
+- Ludwig van Beethoven
+- Piano
+- Premiere
+- San Francisco Symphony
+- Symphony
+- World Premiere
 title: Untitled
-type: article
+type: interview
 ---
 
 #### **Cheryl North Interviews Victor Kissine prior to the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony on March 4, 2010.**

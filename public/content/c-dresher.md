@@ -1,37 +1,32 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_dresher
+id: c-dresher
 images:
-  - height: 114
-    src: /images/dresher-paul-ensemble.jpg
-    width: 150
-  - height: 159
-    src: /images/dresher-paul-07.jpg
-    width: 125
+- height: 114
+  src: /images/dresher-paul-ensemble.jpg
+  width: 150
+- height: 159
+  src: /images/dresher-paul-07.jpg
+  width: 125
 publication:
-  date: November
-  publisher: Dresher and
+  date: November 12, 2004
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Aria
-  - Carnegie Hall
-  - Concerto
-  - Debut Performance
-  - Interview
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Opera
-  - Premiere
-  - Violin
+- Aria
+- Carnegie Hall
+- Concerto
+- Debut Performance
+- Interview
+- Johann Sebastian Bach
+- Ludwig van Beethoven
+- Opera
+- Premiere
+- Violin
 title: Cheryl North Interviews Paul Dresher
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Paul Dresher**
-
-*ANG Newspapers Classical Music Column for November 12, 2004*
 
  What do you do if there's a tune roiling around in your head, but there's no existing instrument capable of reproducing it?
 

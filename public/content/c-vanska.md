@@ -1,26 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_vanska
+id: c-vanska
 images:
-  - height: 226
-    src: /images/vanska-with-c-10-31-09.jpg
-    width: 257
+- height: 226
+  src: /images/vanska-with-c-10-31-09.jpg
+  width: 257
 publication:
   date: October
   publisher: Cheryl North
 subjects:
-  - Concerto
-  - Davies Symphony Hall
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - Piano
-  - Pyotr Ilyich Tchaikovsky
-  - San Francisco Symphony
-  - Symphony
-  - Violin
+- Concerto
+- Davies Symphony Hall
+- Johannes Brahms
+- Ludwig van Beethoven
+- Piano
+- Pyotr Ilyich Tchaikovsky
+- San Francisco Symphony
+- Symphony
+- Violin
 title: Untitled
-type: article
+type: interview
 ---
 
 #### **Cheryl North Interviews Osmo Vanska, guest conductor for the San Francisco Symphony, October 22-31, 2009**

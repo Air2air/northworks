@@ -1,33 +1,33 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_hvorostovsky
+id: c-hvorostovsky
 images:
-  - height: 28
-    src: /images/title-hvorostovsky.gif
-    width: 290
-  - height: 300
-    src: /images/hvorostovsky-sb08.jpg
-    width: 554
-  - height: 300
-    src: /images/hvorostovsky.jpg
-    width: 194
+- height: 28
+  src: /images/title-hvorostovsky.gif
+  width: 290
+- height: 300
+  src: /images/hvorostovsky-sb08.jpg
+  width: 554
+- height: 300
+  src: /images/hvorostovsky.jpg
+  width: 194
 publication:
   date: August
   publisher: of the
 subjects:
-  - Baritone
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
-  - Soprano
-  - Symphony
-  - Tenor
+- Baritone
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- Mezzo-soprano
+- Opera
+- Pyotr Ilyich Tchaikovsky
+- Richard Wagner
+- Soprano
+- Symphony
+- Tenor
 title: Untitled
-type: article
+type: interview
 ---
 
 ***
@@ -123,7 +123,7 @@ by Cheryl North, published by the Alameda Newspaper Group
 
 If great opera composers of the past could have dealt with baritones like Dmitri Hvorostovsky, they wouldn't have given all the hero roles to tenors. The splendid Russian-born and trained Hvorostovsky joined with conductor Michael Tilson Thomas and the San Francisco Symphony for what might become the definitive performance of Modest Mussorgsky's 'Songs and Dances of Death' Wednesday at Davies Symphony Hall in San Francisco.
 
-The entire program - Toru Takemitsu's ``Requiem for Strings,'' and Tchaikovsky's Symphony No. 6, ``Pathetique,'' in addition to the Mussorgsky songs - was a musical essay on life's somber closing moments. The serious, sober mood of the evening seemed appropriate, and perhaps even healing, as conductor, musicians, and public once again assemble, following the recent
+The entire program - Toru Takemitsu's "Requiem for Strings,'' and Tchaikovsky's Symphony No. 6, "Pathetique,'' in addition to the Mussorgsky songs - was a musical essay on life's somber closing moments. The serious, sober mood of the evening seemed appropriate, and perhaps even healing, as conductor, musicians, and public once again assemble, following the recent
 strike, to rekindle their relationship.
 
 The concert's most riveting moments were when Hvorostovsky was in command. Although only in his early 30s, he has the vocal equivalent of a Stradivarius in residence in his throat and barrel chest. This gives his voice a warm luminosity, which extends throughout his entire vocal

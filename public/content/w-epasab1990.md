@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_epasab1990
+id: w-epasab1990
 images:
 - height: 290
   src: /images/1990-sab-figure1.jpg
@@ -13,7 +13,7 @@ images:
   src: /images/1990-sab-figure3.jpg
   width: 220
 publication:
-  date: 
+  date: null
   publisher: the Global
 title: Untitled
 type: article
@@ -125,17 +125,17 @@ The author was affiliated at that time with Decision Focus Incorporated, Los Alt
 ![](/images/1990-sab-figure1.jpg)
 ](1990_sab_fig_1.htm)
 
-[Figure 1: Population Growth Projected by World Region - Click to enlarge](1990_sab_fig_1.htm)
+[Figure 1: Population Growth Projected by World Region - Click to enlarge](/content/1990_SAB_Fig_1.htm)
 
 [
 ![](/images/1990-sab-figure2.jpg)
 ](1990_sab_fig_2.htm)
 
-[Figure 2: End-Use Fuel Demand by Region - Click to enlarge](1990_sab_fig_2.htm)
+[Figure 2: End-Use Fuel Demand by Region - Click to enlarge](/content/1990_SAB_Fig_2.htm)
 
 [
 ![](/images/1990-sab-figure3.jpg)
 ](1990_sab_fig_3.htm)
 
-[Figure 3: Primary Energy Supply by Type - Click to enlarge](1990_sab_fig_3.htm)
+[Figure 3: Primary Energy Supply by Type - Click to enlarge](/content/1990_SAB_Fig_3.htm)
 

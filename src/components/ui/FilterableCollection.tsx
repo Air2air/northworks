@@ -1,3 +1,5 @@
+"use client";
+
 /**
  * FilterableCollection - HOC for reusable filtered lists
  * Works with any content type that matches ContentItem interface

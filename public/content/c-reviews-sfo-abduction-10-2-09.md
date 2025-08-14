@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews_SFO Abduction 10-2-09
+id: c-reviews-sfo-abduction-10-2-09
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-reviews.gif
+  width: 250
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  date: 
+  date: null
   publisher: Wolfgang Amadeus
 subjects:
-  - Bass
-  - Concert Review
-  - Debut Performance
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Opera
-  - San Francisco Opera
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Bass
+- Concert Review
+- Debut Performance
+- Giacomo Puccini
+- Giuseppe Verdi
+- Opera
+- San Francisco Opera
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Untitled
 type: review
 ---

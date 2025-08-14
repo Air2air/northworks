@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';

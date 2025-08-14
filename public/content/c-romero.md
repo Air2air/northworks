@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_romero
+id: c-romero
 images:
 - height: 28
   src: /images/title-gray-romeros.gif
@@ -27,7 +27,7 @@ subjects:
 - San Francisco Symphony
 - Davies Symphony Hall
 title: Celino Romero Interview
-type: article
+type: interview
 ---
 
 ### Celino Romero Interview

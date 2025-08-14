@@ -1,36 +1,36 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_pub_vniigaz
+id: w-pub-vniigaz
 images:
-  - height: 195
-    src: /images/balticgasinfdiag.gif
-    width: 260
-  - height: 360
-    src: /images/balticgasparttree.gif
-    width: 260
-  - height: 195
-    src: /images/balticgascumd.gif
-    width: 260
-  - height: 125
-    src: /images/persiangulfinfd.png
-    width: 220
-  - height: 284
-    src: /images/persiangulfinfkey.png
-    width: 237
-  - height: 190
-    src: /images/synfuelstree.jpg
-    width: 237
+- height: 195
+  src: /images/balticgasinfdiag.gif
+  width: 260
+- height: 360
+  src: /images/balticgasparttree.gif
+  width: 260
+- height: 195
+  src: /images/balticgascumd.gif
+  width: 260
+- height: 125
+  src: /images/persiangulfinfd.png
+  width: 220
+- height: 284
+  src: /images/persiangulfinfkey.png
+  width: 237
+- height: 190
+  src: /images/synfuelstree.jpg
+  width: 237
 publication:
   date: 10 October 2002
   publisher: US energy
 subjects:
-  - Aria
-  - Assessing Risks
-  - Music Article
-  - Opera
-  - Probabilistic Scenario Analysis
-  - Term Planning
+- Aria
+- Assessing Risks
+- Music Article
+- Opera
+- Probabilistic Scenario Analysis
+- Term Planning
 title: The Author
 type: article
 ---
@@ -101,7 +101,7 @@ An influence diagram is shown in Figure 1.
 
      _Analytical Tools Area #2: Energy Models for Long-range Planning:_ Planning the future of a complex energy system on a time scale of many decades is a daunting challenge. Dating back at least to period in the 1970s when the United States was considering large investments in new energy systems, such computer planning models are increasingly being used by businesses and government agencies.
 
-     Stanford University has since the 1970s had an activity called the Energy Modeling Forum, in which leaders in the field of energy modeling bring their models (often proprietary computer software, developed at considerable investment expense) and come together to analyze case exercises, from regional planning to global response in the context of global climate change. Reference [15] is a report on dealing with natural gas supply in North America. One of the models used in the exercise described in [15], the North American Gas Model (NARG), is a direct descendent of the SRI-Gulf model used for the synthetic fuel commercialization analysis described in [3] and [4]. In [15] this model was being used on behalf of the California Energy Commission; it has also been used for many leading US and international oil and gas companies. The lead modeler, [Dale Nesbitt](http://www.altosmgmt.com/dale.htm), worked with the author on the 1975 synthetic fuel analysis ([3] and [4]). The generalized equilibrium methodology involves an extension from mathematical programming to finding the fixed point solution x to an equation f(x) = x, where x is a vector of very high dimensionality describing flow quantities and prices of energy materials at different locations in a network connecting energy resources in the ground to energy end use demands, and at different time points from the beginning to the end of the planning horizon [16,17]. The NARG model and its European counterpart, the European Gas Model, are not unique to one vendor. Argonne National Laboratory (ANL) and Rice University have developed similar models based on the generalized equilibrium approach. Other modeling and simulation approaches can be used to forecast how the competition may evolve between natural gas from Russia, natural gas from other sources, and competing fuels and technologies for meeting Europe's needs.
+     Stanford University has since the 1970s had an activity called the Energy Modeling Forum, in which leaders in the field of energy modeling bring their models (often proprietary computer software, developed at considerable investment expense) and come together to analyze case exercises, from regional planning to global response in the context of global climate change. Reference [15] is a report on dealing with natural gas supply in North America. One of the models used in the exercise described in [15], the North American Gas Model (NARG), is a direct descendent of the SRI-Gulf model used for the synthetic fuel commercialization analysis described in [3] and [4]. In [15] this model was being used on behalf of the California Energy Commission; it has also been used for many leading US and international oil and gas companies. The lead modeler, [Dale Nesbitt](/articles/http://www.altosmgmt.com/dale), worked with the author on the 1975 synthetic fuel analysis ([3] and [4]). The generalized equilibrium methodology involves an extension from mathematical programming to finding the fixed point solution x to an equation f(x) = x, where x is a vector of very high dimensionality describing flow quantities and prices of energy materials at different locations in a network connecting energy resources in the ground to energy end use demands, and at different time points from the beginning to the end of the planning horizon [16,17]. The NARG model and its European counterpart, the European Gas Model, are not unique to one vendor. Argonne National Laboratory (ANL) and Rice University have developed similar models based on the generalized equilibrium approach. Other modeling and simulation approaches can be used to forecast how the competition may evolve between natural gas from Russia, natural gas from other sources, and competing fuels and technologies for meeting Europe's needs.
 
      Understanding how the European energy system may evolve over a period from now to the middle of the twenty-first century can be greatly aided by the use of advanced energy modeling tools. Energy models are particularly useful for projecting changes as energy prices and the availability of energy technologies change over time. The models can also be used to analyze upset conditions, such as those that occurred in the US during the last half of 2005 because of hurricane damage.
 
@@ -137,9 +137,9 @@ References****
 
 [8]. Ronald A. Howard and James E. Matheson, 'Influence Diagrams,' *Decision Analysis* 2**:127-143 (2005). **
 
-[9]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](http://www.northworks.net/w_epasab1990.htm)
+[9]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/articles/w-epasab1990)
 
-[10]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](http://www.northworks.net/w_pub_stuttgart.htm) in press for conference report publication, 2006.
+[10]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/articles/w-pub-stuttgart) in press for conference report publication, 2006.
 
 [11]. Robert T. Clemen, *Making Hard Decisions: An Introduction to Decision Analysis*, Belmont, CA: Duxbury Press, 1991.
 
@@ -149,7 +149,7 @@ References****
 
 [14]. Elisabeth Pat'-Cornell and Seth Guikema, 'Probabilistic Modeling of Terrorist Threats: A Systems Analysis Approach to Setting Priorities Among Countermeasures,' *Military Operations Research* 7**(4):5-23, 2002.**
 
-[15]. [Stanford Energy Modeling Forum](http://www.stanford.edu/group/emf/publications/order.htm), Natural Gas, Energy Diversity, and North American Energy Markets, [report on EMF 20](http://www.stanford.edu/group/emf/publications/doc/emf20summary.pdf), Stanford University, September 2003.
+[15]. [Stanford Energy Modeling Forum](/articles/http://www.stanford.edu/group/emf/publications/order), Natural Gas, Energy Diversity, and North American Energy Markets, [report on EMF 20](http://www.stanford.edu/group/emf/publications/doc/emf20summary.pdf), Stanford University, September 2003.
 
 [16]. Edward G. Cazalet, *Generalized Equilibrium Modeling: The Methodology of the SRI-Gulf Energy Model*, report prepared by Stanford Research Institute for the Federal Energy Administration, May 1977.
 
@@ -179,7 +179,7 @@ Figure 1. Influence Diagram for Lithuanian Gas Supply ' Simple Illustration. Dia
 ![](/images/balticgasinfdiag.gif)
 ](febalticgasinfdiag.htm)
 
-[Figure 1 - Click to enlarge](febalticgasinfdiag.htm)
+[Figure 1 - Click to enlarge](/articles/febalticgasinfdiag)
 
 Figure 2. Tree representation showing probability assignments for 'peak demand' node in the Influence Diagram. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
@@ -187,7 +187,7 @@ Figure 2. Tree representation showing probability assignments for 'peak demand' 
 ![](/images/balticgasparttree.gif)
 ](febalticgasparttree.htm)
 
-[Figure 2 - Click to enlarge](febalticgasparttree.htm)
+[Figure 2 - Click to enlarge](/articles/febalticgasparttree)
 
 Figure 3. Cumulative Probability Distribution of Losses from Interruption in Gas Supply. Numbers are in Monetary Units (euros) and Illustrative Only. Output from [Decision Advisor](http://www.smartorg.com/decisionadvisor.html).
 
@@ -195,7 +195,7 @@ Figure 3. Cumulative Probability Distribution of Losses from Interruption in Gas
 ![](/images/balticgascumd.gif)
 ](febalticgascumd.htm)
 
-[Figure 3 - Click to enlarge](febalticgascumd.htm)
+[Figure 3 - Click to enlarge](/articles/febalticgascumd)
 
 Figure 4. Influence Diagram for Persian Gulf Political Events (from [7], page 145. The original version was produced by Allen Miller and colleagues in 1973-74.)
 
@@ -203,7 +203,7 @@ Figure 4. Influence Diagram for Persian Gulf Political Events (from [7], page 14
 ![](/images/persiangulfinfd.png)
 ](fepersiangulfinfd.htm)
 
-[Figure 4 - Click to enlarge](fepersiangulfinfd.htm)
+[Figure 4 - Click to enlarge](/articles/fepersiangulfinfd)
 
 Table 1. Key for Decisions and Uncertain Events, Persian Gulf Decision Tree
 
@@ -211,7 +211,7 @@ Table 1. Key for Decisions and Uncertain Events, Persian Gulf Decision Tree
 ![](/images/persiangulfinfkey.png)
 ](fepersiangulfinfkey.htm)
 
-[Table 1 - Click to enlarge](fepersiangulfinfkey.htm)
+[Table 1 - Click to enlarge](/articles/fepersiangulfinfkey)
 
 Figure 5. Decision Tree for Synthetic Fuels Analysis
 
@@ -219,5 +219,5 @@ Figure 5. Decision Tree for Synthetic Fuels Analysis
 ![](/images/synfuelstree.jpg)
 ](fesynfuelstree.htm)
 
-[Figure 5 - Click to enlarge](fesynfuelstree.htm)
+[Figure 5 - Click to enlarge](/articles/fesynfuelstree)
 

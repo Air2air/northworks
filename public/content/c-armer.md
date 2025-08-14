@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_armer
+id: c-armer
 images:
-  - height: 200
-    src: /images/elinor-armer.jpg
-    width: 160
+- height: 200
+  src: /images/elinor-armer.jpg
+  width: 160
 publication:
-  publisher: "ANG Newspapers"
-  date: "November 18, 1995"
+  date: November 18, 1995
+  publisher: ANG Newspapers
 subjects:
-  - Elinor Armer
-  - Interview
-  - Island Earth
-  - Johann Sebastian Bach
-  - Music Article
-  - Performance
-  - Piano
-  - Premiere
-  - Ursula Le Guin
-  - World Premiere
-title: "Cheryl North Interviews Elinor Armer"
-type: article
+- Elinor Armer
+- Interview
+- Island Earth
+- Johann Sebastian Bach
+- Music Article
+- Performance
+- Piano
+- Premiere
+- Ursula Le Guin
+- World Premiere
+title: Cheryl North Interviews Elinor Armer
+type: interview
 ---
 
 It takes a creative sort of person to see a relationship between plate tectonics and music. Berkeley composer Elinor Armer, and her artistic collaborator, science fiction/fantasy writer Ursula Le Guin, feel that the two indeed interrelate and they have just completed the last element of a set of pieces with this in mind.

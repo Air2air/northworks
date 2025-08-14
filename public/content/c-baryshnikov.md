@@ -1,28 +1,24 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_baryshnikov
+id: c-baryshnikov
 images:
 - height: 140
   src: /images/thm-baryshnikov.jpg
   width: 144
 publication:
-  date: March
-  publisher: critics as
-title: Untitled
-type: article
+  date: March 17, 2006
+  publisher: ANG Newspapers Classical Music Column
+title: More honors for the amazing Mikhail Baryshnikov
+type: interview
 ---
-
-#### Cheryl North Interviews Mikhail Baryshnikov**
-
-*ANG Newspapers Classical Music Column - March 17, 2006*, under headline, More honors for the amazing Mikhail Baryshnikov**
 
 FICTION can seldom outdo the surprises, ironies and plot twists of real life.
 Imagine this unlikely scenario: a member of the military of the former Soviet Union and his wife are stationed in Riga ' the erstwhile capital city of freedom-loving Latvia, the cold, birch-forested country bordering the Baltic Sea.
 
 In 1948, this Russian-born couple have a son who will someday be awarded The National Medal of Honor of the United States of America.
 
-Fiction? No ' fact.
+Fiction? No; fact.
 
 ![](/images/thm-baryshnikov.jpg)
 

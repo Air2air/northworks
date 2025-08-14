@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_articles
+id: c-articles
 images:
-  - height: 28
-    src: /images/title-articles.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-articles.gif
+  width: 250
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   date: July
   publisher: Richard Wagner
 subjects:
-  - Berkeley Opera Production
-  - Ludwig van Beethoven
-  - Merola Opera Program
-  - Opera
-  - Premiere
-  - Richard Wagner
-  - San Francisco Opera
-  - Symphony
-  - World Premiere
+- Berkeley Opera Production
+- Ludwig van Beethoven
+- Merola Opera Program
+- Opera
+- Premiere
+- Richard Wagner
+- San Francisco Opera
+- Symphony
+- World Premiere
 title: Untitled
 type: article
 ---
@@ -67,7 +67,7 @@ July 2, 2004
 2000
 
 [Article on the
-Opera, *Dead Man Walking,* by Jake Heggie, prior to its world premiere by the San Francisco Opera](c_articles_deadman.htm)**
+Opera, *Dead Man Walking,* by Jake Heggie, prior to its world premiere by the San Francisco Opera](c-articles-deadman)**
 ***Feature Article in the British Publication, *OPERA NOW****
 
 June 14 & 15, 1999

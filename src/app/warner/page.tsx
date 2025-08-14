@@ -1,8 +1,8 @@
 import { getContentBySlug } from '@/lib/content';
 import { BiographyFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle, Sidebar } from '@/components/ui';
-import type { NavigationCardProps } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
+import NavigationCard, { type NavigationCardProps } from '@/components/ui/NavigationCard';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -159,18 +159,39 @@ export default function WarnerPage() {
             )}
           </div>
 
-          {/* Sidebar */}
-          <Sidebar
-            title="Professional Portfolio"
-            cards={portfolioCards}
-            image={frontmatter.images && frontmatter.images.length > 3 ? {
-              src: frontmatter.images[3].src,
-              alt: "Advisory Boards",
-              width: frontmatter.images[3].width || 220,
-              height: frontmatter.images[3].height || 45
-            } : undefined}
-            skills={['Risk Analysis', 'Decision Analysis', 'Nuclear Safety', 'Environmental Policy', 'Waste Management']}
-          />
+          {/* Navigation Section */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-semibold mb-4">Professional Portfolio</h3>
+            
+            {frontmatter.images && frontmatter.images.length > 3 && (
+              <div className="mb-6">
+                <Image
+                  src={frontmatter.images[3].src}
+                  alt="Advisory Boards"
+                  width={frontmatter.images[3].width || 220}
+                  height={frontmatter.images[3].height || 45}
+                  className="w-full h-auto rounded"
+                />
+              </div>
+            )}
+            
+            <div className="space-y-3">
+              {portfolioCards.map((card, index) => (
+                <NavigationCard key={index} {...card} className="w-full" />
+              ))}
+            </div>
+            
+            <div className="mt-6">
+              <h4 className="font-medium text-gray-900 mb-2">Expertise Areas</h4>
+              <div className="flex flex-wrap gap-2">
+                {['Risk Analysis', 'Decision Analysis', 'Nuclear Safety', 'Environmental Policy', 'Waste Management'].map((skill) => (
+                  <span key={skill} className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </ContentLayout>

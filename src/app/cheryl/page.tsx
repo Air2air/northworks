@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { BiographyFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';

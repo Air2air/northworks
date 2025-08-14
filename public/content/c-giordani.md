@@ -1,30 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_giordani
+id: c-giordani
 images:
-  - height: 28
-    src: /images/title-giordani.gif
-    width: 250
-  - height: 250
-    src: /images/giordani.jpg
-    width: 191
+- height: 28
+  src: /images/title-giordani.gif
+  width: 250
+- height: 250
+  src: /images/giordani.jpg
+  width: 191
 publication:
   date: August
   publisher: Cheryl North
 subjects:
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - La Traviata
-  - Metropolitan Opera
-  - Opera
-  - Rigoletto
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - Tosca
+- Giacomo Puccini
+- Giuseppe Verdi
+- La Traviata
+- Metropolitan Opera
+- Opera
+- Rigoletto
+- San Francisco Opera
+- Soprano
+- Tenor
+- Tosca
 title: Untitled
-type: article
+type: interview
 ---
 
 ***

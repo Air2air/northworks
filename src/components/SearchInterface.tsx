@@ -5,7 +5,8 @@
  * Handles all interactive search functionality
  */
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { ContentCard, ContentItem } from '@/components/ui/ContentCard';
 
 // Client-side search interface
@@ -16,6 +17,9 @@ export default function SearchInterface({
   allContent: (ContentItem & { domain: string })[];
   warnerLists: Record<string, any[]>;
 }) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDomain, setSelectedDomain] = useState<string>('all');
   const [selectedType, setSelectedType] = useState<string>('all');
@@ -23,6 +27,30 @@ export default function SearchInterface({
   const [currentPage, setCurrentPage] = useState(1);
   const [showLists, setShowLists] = useState(false);
   const pageSize = 12;
+
+  // Initialize search term from URL parameters
+  useEffect(() => {
+    const queryParam = searchParams?.get('q');
+    if (queryParam) {
+      setSearchTerm(queryParam);
+    }
+  }, [searchParams]);
+
+  // Update URL when search term changes
+  const updateURL = (newSearchTerm: string) => {
+    const params = new URLSearchParams();
+    if (newSearchTerm) {
+      params.set('q', newSearchTerm);
+    }
+    const newURL = params.toString() ? `/search?${params.toString()}` : '/search';
+    router.replace(newURL, { scroll: false });
+  };
+
+  const handleSearchChange = (newSearchTerm: string) => {
+    setSearchTerm(newSearchTerm);
+    setCurrentPage(1); // Reset to first page when search changes
+    updateURL(newSearchTerm);
+  };
 
   // Get unique domains and types
   const domains = useMemo(() => {
@@ -158,7 +186,7 @@ export default function SearchInterface({
               type="text"
               placeholder="Search across all content..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => handleSearchChange(e.target.value)}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
             />
           </div>

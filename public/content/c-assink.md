@@ -1,33 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_assink
+id: c-assink
 images:
-  - height: 150
-    src: /images/assink.jpg
-    width: 112
+- height: 150
+  src: /images/assink.jpg
+  width: 112
 publication:
-  date: October
+  date: October 28, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Baritone
-  - Concerto
-  - Conducting
-  - Franz Liszt
-  - Piano
-  - San Francisco Symphony
-  - Soprano
-  - Symphony
-  - Tenor
-  - Wolfgang Amadeus Mozart
-title: Cheryl North Column, based on an interview with Brent Assink, on the new "6.5" Format
-type: article
+- Baritone
+- Concerto
+- Conducting
+- Franz Liszt
+- Piano
+- San Francisco Symphony
+- Soprano
+- Symphony
+- Tenor
+- Wolfgang Amadeus Mozart
+title: Interview with Brent Assink, on the new "6.5" Format
+type: interview
 ---
 
-### Cheryl North Column, based on an interview with Brent Assink, on the new "6.5" Format
-
-*ANG Newspapers Classical Music Column - October 28, 2005*,
-under
-headline,**"Come to S.F. Symphony for the New Early Show**
 
 ONE OF THE fascinations about great classical music is that there doesn't seem to be any limit on how much you can learn about it.
 

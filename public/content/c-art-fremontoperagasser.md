@@ -1,14 +1,14 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_fremontoperagasser
+id: c-art-fremontoperagasser
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: August 15, 2008
-  publisher: Bay Area News Media Preview Section/Inside Bay Area Classical Music
+  date: "August 15, 2008"
+  publisher: "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
 subjects:
   - Baritone
   - Carmen

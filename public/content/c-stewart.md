@@ -1,30 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_stewart
+id: c-stewart
 images:
-  - height: 28
-    src: /images/title-stewart.gif
-    width: 250
-  - height: 185
-    src: /images/stewart.jpg
-    width: 227
+- height: 28
+  src: /images/title-stewart.gif
+  width: 250
+- height: 185
+  src: /images/stewart.jpg
+  width: 227
 publication:
   date: June
   publisher: Tom Stoppard
 subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Interview
-  - Luc Picard
-  - Opera
-  - Piano
-  - San Francisco Symphony
-  - Starship Enterprise
-  - Symphony
-  - Violin
+- Baritone
+- Davies Symphony Hall
+- Interview
+- Luc Picard
+- Opera
+- Piano
+- San Francisco Symphony
+- Starship Enterprise
+- Symphony
+- Violin
 title: Untitled
-type: article
+type: interview
 ---
 
 ***

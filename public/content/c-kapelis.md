@@ -1,30 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_kapelis
+id: c-kapelis
 images:
-  - height: 160
-    src: /images/kapelis-consul.jpg
-    width: 207
-  - height: 147
-    src: /images/kapelis-norths.jpg
-    width: 207
+- height: 160
+  src: /images/kapelis-consul.jpg
+  width: 207
+- height: 147
+  src: /images/kapelis-norths.jpg
+  width: 207
 publication:
   date: March
   publisher: the Greek
 subjects:
-  - Bass
-  - Conducting
-  - Debut Performance
-  - Interview
-  - Johann Sebastian Bach
-  - Mythic Proportions
-  - Opera
-  - Piano
-  - Sergei Rachmaninoff
-  - Symphony
+- Bass
+- Conducting
+- Debut Performance
+- Interview
+- Johann Sebastian Bach
+- Mythic Proportions
+- Opera
+- Piano
+- Sergei Rachmaninoff
+- Symphony
 title: Cheryl North Interviews Alexandros Kapelis
-type: article
+type: interview
 ---
 
 **
@@ -80,4 +80,4 @@ Consul General of Greece in San Francisco, March 20, 2007
 
 Alexandros Kapelis with Cheryl and Warner North at a reception follwing his concert on March 20, 2007
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

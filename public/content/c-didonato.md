@@ -1,31 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_diDonato
+id: c-didonato
 images: null
 publication:
-  date: November
-  publisher: Cheryl North
+  date: November 13, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-  - Aria
-  - Giacomo Puccini
-  - Her Recital
-  - Interview
-  - Merola Opera Program
-  - Mezzo-soprano
-  - Opera
-  - Piano
-  - San Francisco Opera
-  - Soprano
-title: Untitled
-type: article
+- Aria
+- Giacomo Puccini
+- Her Recital
+- Interview
+- Merola Opera Program
+- Mezzo-soprano
+- Opera
+- Piano
+- San Francisco Opera
+- Soprano
+title: DiDonato dips into Latin repertoire to keep dazzle going
+type: interview
 ---
 
-#### **Cheryl North Interviews Joyce DiDonato Prior to Her Recital at the Herbst Theater, November 16, 2009**
 
-Material from the Classical Music Column for the November 13, 2009 Preview Section and Inside Bay Area website, Bay Area News Group, under the headline, "DiDonato dips into Latin repertoire to keep dazzle going."
-
-By Cheryl North
 
 Remember Dorothy's exclamation to her little dog Toto in the classic movie *The Wizard of Oz*? "Toto, I've a feeling we're not in Kansas anymore," she said as the two emerged from the tornado-transported farmhouse into the magical Technicolor of Oz.
 

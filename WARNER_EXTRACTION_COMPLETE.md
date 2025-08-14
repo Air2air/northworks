@@ -56,7 +56,7 @@ The Warner content extraction **successfully demonstrates** that our component a
 ### 🔧 **Technical Architecture Benefits**
 
 #### **Universal Schema Support**:
-```json
+"`json
 {
   "metadata": { "type": "interview" | "project_collection" | "publication_list" },
   "content": { "title", "summary", "body" },
@@ -64,7 +64,7 @@ The Warner content extraction **successfully demonstrates** that our component a
   "publication": { "date", "publisher" },
   "tags": [...]
 }
-```
+"`
 
 #### **Flexible Content Types**:
 - **Interviews**: `subject.people` with roles and descriptions

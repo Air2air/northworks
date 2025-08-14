@@ -1,10 +1,25 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageHeader, StatsGrid, NavigationCard, QuickAccessLinks } from '@/components/ui';
-import type { StatItem, QuickAccessItem } from '@/components/ui';
+import NavigationCard from '@/components/ui/NavigationCard';
+import type { NavigationCardProps } from '@/components/ui/NavigationCard';
 import Link from 'next/link';
 import { Metadata } from 'next';
+
+// Local type definitions
+interface StatItem {
+  value: string;
+  label: string;
+  color: string;
+}
+
+interface QuickAccessItem {
+  title: string;
+  description: string;
+  href: string;
+  icon: React.ReactNode;
+  color: string;
+}
 import { 
   FaUniversity, 
   FaStar, 
@@ -130,15 +145,10 @@ export default function WarnerProjectsPage() {
     <ContentLayout frontmatter={layoutFrontmatter}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <PageHeader
-          title="Projects & Consulting"
-          description="Over 50 years of consulting experience in risk analysis, decision analysis, and nuclear safety for government agencies, utilities, and private sector clients."
-          gradientFrom="blue-500"
-          gradientTo="purple-600"
-        />
+        
 
         {/* Statistics */}
-        <StatsGrid stats={stats} />
+        
 
         {/* Main Projects Content */}
         {projectsData && (
@@ -190,7 +200,7 @@ export default function WarnerProjectsPage() {
         </div>
 
         {/* Quick Access Links */}
-        <QuickAccessLinks items={quickAccessItems} />
+        
 
         {/* Navigation */}
         <div className="border-t pt-8">

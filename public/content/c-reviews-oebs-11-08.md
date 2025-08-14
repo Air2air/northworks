@@ -1,29 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_reviews_OEBS_11-08
+id: c-reviews-oebs-11-08
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 28
+  src: /images/title-reviews.gif
+  width: 250
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   author: Cheryl North
   date: November
   publisher: Oakland Tribune
 subjects:
-  - Bass
-  - Concert Review
-  - Conducting
-  - Jazz Symphony
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
-  - Premiere
-  - Symphony
-  - World Premiere
+- Bass
+- Concert Review
+- Conducting
+- Jazz Symphony
+- Johann Sebastian Bach
+- Opera
+- Piano
+- Premiere
+- Symphony
+- World Premiere
 title: Untitled
 type: review
 ---

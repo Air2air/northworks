@@ -1,50 +1,54 @@
 import { getContentBySlug } from '@/lib/content';
 import { ArticleFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import ContentListComponent, { parseArticlesFromMarkdown } from '@/components/ContentListComponent';
+import Image from 'next/image';
+import { generateAltText, generateSEOMetadata, getImageDimensions } from '@/lib/uiHelpers';
 
 export default function ArticlesIndexPage() {
-  // Get the articles index content
-  const articlesData = getContentBySlug('c_articles');
-  
-  if (!articlesData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Articles</h1>
-          <p className="text-gray-600">Content not found</p>
+  try {
+    // Get the articles index content
+    const articlesData = getContentBySlug('c_articles');
+    
+    if (!articlesData) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Articles</h1>
+            <p className="text-gray-600">Content not found</p>
+          </div>
         </div>
-      </div>
+      );
+    }
+
+    const frontmatter = articlesData.frontmatter as ArticleFrontmatter;
+    
+    // Parse the articles from the markdown content
+    const articles = parseArticlesFromMarkdown(
+      articlesData.content, 
+      frontmatter.images || []
     );
-  }
 
-  const frontmatter = articlesData.frontmatter as ArticleFrontmatter;
-  
-  // Parse the articles from the markdown content
-  const articles = parseArticlesFromMarkdown(
-    articlesData.content, 
-    frontmatter.images || []
-  );
+    // Create breadcrumbs
+    const breadcrumbs = [
+      { label: 'Home', href: '/', active: false },
+      { label: 'Cheryl North', href: '/cheryl', active: false },
+      { label: 'Articles', href: '/articles-index', active: true }
+    ];
 
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Articles', href: '/articles', active: true }
-  ];
-
-  // Enhanced frontmatter for layout
-  const enhancedFrontmatter = {
-    ...frontmatter,
-    title: 'Classical Music Articles',
-    seo: {
-      title: 'Classical Music Articles - Cheryl North - NorthWorks',
-      description: 'Feature articles about classical music, opera, composers, and musical trends by music journalist Cheryl North.',
-      keywords: ['classical music articles', 'opera articles', 'music features', 'composer profiles', 'musical analysis', 'Cheryl North']
-    },
-    breadcrumbs
-  };
+    // Enhanced frontmatter for layout
+    const enhancedFrontmatter = {
+      ...frontmatter,
+      title: 'Classical Music Articles',
+      seo: generateSEOMetadata(
+        'Classical Music Articles - Cheryl North',
+        'Feature articles about classical music, opera, composers, and musical trends by music journalist Cheryl North.',
+        ['classical music articles', 'opera articles', 'music features', 'composer profiles', 'musical analysis', 'Cheryl North'],
+        'index'
+      ),
+      breadcrumbs
+    };
 
   return (
     <ContentLayout frontmatter={enhancedFrontmatter}>
@@ -53,12 +57,15 @@ export default function ArticlesIndexPage() {
         <div className="text-center mb-12">
           {frontmatter.images?.[0] && (
             <div className="mb-6">
-              <img
-                src={`/${frontmatter.images[0].src}`}
-                alt="Articles"
+              <Image
+                src={frontmatter.images[0].src}
+                alt={generateAltText(frontmatter.images[0], { 
+                  type: 'hero', 
+                  title: 'Articles Collection', 
+                  fallback: 'Articles header image' 
+                })}
                 className="mx-auto"
-                width={frontmatter.images[0].width}
-                height={frontmatter.images[0].height}
+                {...getImageDimensions(frontmatter.images[0], 'hero')}
               />
             </div>
           )}
@@ -134,4 +141,15 @@ export default function ArticlesIndexPage() {
       </div>
     </ContentLayout>
   );
+  } catch (error) {
+    console.error('Error loading articles index:', error);
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Error</h1>
+          <p className="text-gray-600">Failed to load articles. Please try again later.</p>
+        </div>
+      </div>
+    );
+  }
 }

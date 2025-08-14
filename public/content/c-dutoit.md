@@ -1,10 +1,10 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_dutoit
+id: c-dutoit
 publication:
-  date: April
-  publisher: the  San
+  date: April 27, 2007
+  publisher: Bay Area News Group Classical Music Column
 subjects:
 - the upcoming
 - on their
@@ -16,14 +16,10 @@ subjects:
 - first professional
 - he will
 - was named
-title: Cheryl North Interviews Charles Dutoit about his career and the upcoming
-  performance of Berlioz <i>The Damnation of Faust</i>
-type: article
+title: Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust
+type: interview
 ---
 
-### **Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz *The Damnation of Faust***
-
-*Material from the Classical Music Column for the April 27, 2007 Preview Section, Bay Area News Group, *
 
  Not all of the world's greatest musicians started out on their performing paths as three-year-olds toddling up to the family piano and proceeding to dazzle their amazed parents with a display of precocious musical ability. The great Swiss-born conductor, Charles Dutoit, for example, was far more interested in math and science than music during his early youth.
 
@@ -61,10 +57,3 @@ type: article
 
  "Berlioz was among the first to read its initial French translation in 1824 when he was only 21. When he eventually began composing his own version, being an intense Romantic, he felt strongly that Faust should be damned (Goethe's original suggests Faust's ultimate redemption) and Marguerite alone, redeemed. His orchestration and interpretation of the major characters is lush and Romantic, like the music and literature of his own era. Goethe, more of a Classicist, was from the generation that preceded him."
 
-[.](http://www.dunningmarketing.com)
-[.](http://www.witnessamerica.com)
-[.](http://www.witnessamerica.com/camcorders)
-[.](http://www.ksql.com)
-[.](http://www.ascendaviation.com)
-[.](http://www.echovalleysupply.com)
-[.](http://www.northworks.net)

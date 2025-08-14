@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_rosenberg
+id: c-rosenberg
 images:
-  - height: 141
-    src: /images/rosenberg.jpg
-    width: 192
+- height: 141
+  src: /images/rosenberg.jpg
+  width: 192
 publication:
   date: November
   publisher: the early
 subjects:
-  - Carnegie Hall
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Gustav Mahler
-  - Ludwig van Beethoven
-  - Opera
-  - Richard Wagner
-  - San Francisco Opera
-  - Symphony
-  - War Memorial Opera House
+- Carnegie Hall
+- Giacomo Puccini
+- Giuseppe Verdi
+- Gustav Mahler
+- Ludwig van Beethoven
+- Opera
+- Richard Wagner
+- San Francisco Opera
+- Symphony
+- War Memorial Opera House
 title: Cheryl North Interviews Pamela Rosenberg
-type: article
+type: interview
 ---
 
 ### Cheryl North Interviews Pamela Rosenberg

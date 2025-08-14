@@ -1,7 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ReviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import ContentListComponent, { parseReviewsFromMarkdown } from '@/components/ContentListComponent';
 import { cleanTitle } from '@/lib/pathUtils';
 import Link from 'next/link';

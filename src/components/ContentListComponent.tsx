@@ -94,7 +94,7 @@ function ContentCard({ item, showThumbnail, layout, contentType }: ContentCardPr
       {showThumbnail && item.thumbnail && (
         <div className={layout === 'grid' ? 'relative aspect-square' : 'flex-shrink-0'}>
           <Image
-            src={`/${item.thumbnail.src}`}
+            src={item.thumbnail.src}
             alt={item.thumbnail.alt || item.title}
             width={layout === 'grid' ? 200 : 70}
             height={layout === 'grid' ? 200 : 70}

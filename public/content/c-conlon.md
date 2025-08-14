@@ -1,34 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_conlon
+id: c-conlon
 images:
-  - height: 125
-    src: /images/james-conlon-conducting.jpg
-    width: 173
+- height: 125
+  src: /images/james-conlon-conducting.jpg
+  width: 173
 publication:
-  date: June
-  publisher: maestro James
+  date: June 2, 2006
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Baritone
-  - Franz Liszt
-  - Giuseppe Verdi
-  - Gustav Mahler
-  - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Soprano
-  - Symphony
-  - Tenor
-title: James Conlon Interview
-type: article
+- Baritone
+- Franz Liszt
+- Giuseppe Verdi
+- Gustav Mahler
+- Mezzo-soprano
+- Opera
+- Pyotr Ilyich Tchaikovsky
+- Soprano
+- Symphony
+- Tenor
+title: James Conlon - Conductor trying to preserve musical legacy
+type: interview
 ---
 
-### James Conlon Interview
-
-*ANG Newspapers Classical Music Column - June 2, 2006*,
-under
-headline,**"Conductor trying to preserve musical legacy"**
 
 Classical music might be very different today, had World War II never happened.
 That's a contention made by maestro James Conlon, the thoughtful conductor heading up the San Francisco Symphony's 2006 June Festival, beginning Wednesday and continuing until June 25 at Davies Symphony Hall in San Francisco.

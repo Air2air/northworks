@@ -1,35 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_braun_russell
+id: c-braun-russell
 images:
-  - height: 200
-    src: /images/russell-braun.jpg
-    width: 160
+- height: 200
+  src: /images/russell-braun.jpg
+  width: 160
 publication:
-  date: December
-  publisher: Kiri Te
+  date: December 2, 2004
+  publisher: ANG Newspapers Classical Music  Column
 subjects:
-  - Baritone
-  - Franz Schubert
-  - Gustav Mahler
-  - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
-  - Soprano
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Baritone
+- Franz Schubert
+- Gustav Mahler
+- Mezzo-soprano
+- Opera
+- Pyotr Ilyich Tchaikovsky
+- Richard Wagner
+- Soprano
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Russell Braun
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Russell Braun**
-
-*ANG Newspapers Classical Music
- Column, Lifestyle Section, Thursday, December 2, 2004 *
 
 Can a genuinely dedicated family man be a major world-class opera singer?
 

@@ -1,33 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_cohenjeremy
+id: c-cohenjeremy
 images:
-  - height: 250
-    src: /images/jeremy-cohen.jpg
-    width: 200
+- height: 250
+  src: /images/jeremy-cohen.jpg
+  width: 200
 publication:
-  date: January
+  date: January 11, 2002
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Bass
-  - Boston Symphony
-  - Conducting
-  - Gustav Mahler
-  - Opera
-  - Piano
-  - San Francisco Symphony
-  - Symphony
-  - Violin
-  - World Premiere
+- Bass
+- Boston Symphony
+- Conducting
+- Gustav Mahler
+- Opera
+- Piano
+- San Francisco Symphony
+- Symphony
+- Violin
+- World Premiere
 title: Cheryl North Interviews Jeremy Cohen
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Jeremy Cohen**
-
-*Classical Music Column for ANG Newspapers, January 11, 2002*
 
 On October 5, 1957, a lot of people on the planet were mesmerized by Russia's succesful launch of Sputnik, the first man-made object to be set into orbit around the earth. But for Mr. and Mrs. Cohen of Oakland, an earthbound event on the next day, October 6, eclipsed even Sputnik. That was the day their third son, Jeremy, was born. Now, 44 years later, it has become a day that aficionados of jazz violin and country fiddling have come to appreciate.
 

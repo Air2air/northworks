@@ -1,15 +1,15 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_theorin
+id: c-theorin
 images:
   - src: /images/theorin-lg.jpg
     width: 600
   - src: /images/theorin-sm.jpg
     width: 230
 publication:
-  date: September
-  publisher: Cheryl North
+  date: "September"
+  publisher: "Cheryl North"
 subjects:
   - Aria
   - Don Giovanni
@@ -22,7 +22,7 @@ subjects:
   - Tosca
   - Wolfgang Amadeus Mozart
 title: "Classical Music: 2011 Interview with Swedish Soprano Iréne Theorin, Opening Night Turandot that year for the San Francisco Opera"
-type: article
+type: interview
 ---
 
 ### **Classical Music:

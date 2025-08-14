@@ -1,13 +1,13 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_cleve
+id: c-cleve
 images:
-- src: /images/cleve-george.jpg
-  alt: George Cleve
+- alt: George Cleve
+  src: /images/cleve-george.jpg
 publication:
-  date: July
-  publisher: suddenly singing
+  date: July 3, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
 - by suddenly
 - of his
@@ -19,20 +19,15 @@ subjects:
 - pencil and
 - him on
 - to study
-title: Cheryl North Interviews George Cleve about his career and the Midsummer
-  Mozart Festival
-type: article
+title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
+  Festival
+type: interview
 ---
-
-### **Cheryl North Interviews George Cleve about his career and the Midsummer Mozart Festival**
-
-*Material from the Classical Music Column for the July 3, 2009 Preview Section, Bay Area News Group, under the headlines, "Not just Mozart for Maestro," and "Bay Area's preeminent Mozart expert reflects on a long career in music." Note: This version is the interview as originally submitted to Bay Area News Group. Some of the text was not included in the print or the Inside Bay Area website publication. *
 
 It's well known that Austrian-born Wolfgang Amadeus Mozart (1756-1791) exhibited astonishing musical ability during very early childhood. But then, so did Austrian-born George Wolfgang Cleve almost two centuries later. Cleve sang before he spoke.
 
 His parents and other witnesses staunchly maintained that the little toddler shocked them all by suddenly singing out the tune to the famous German folk song, *Kommt ein Vogel geflogen*, from the confines of his playpen. His initial audience was limited to family in Vienna; today, Cleve has an audience that extends throughout the world.
 
-*
 
 A Berkeley resident since 1970, conductor Cleve has garnered an international reputation as one of the greatest contemporary interpreters of Mozart's music. Now 72, he resembles a youthful, hale Johannes Brahms. He is co-founder, along with horn player Wendell Rider and oboist Robert Hubbard, of the Bay Area's highly acclaimed Midsummer Mozart Festival, celebrating its 35th anniversary this year with a tempting menu of Mozart concerts in the Bay Area from July 16 through 26.
 

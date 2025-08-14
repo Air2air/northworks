@@ -39,7 +39,7 @@ export default function ImageGallery({
           >
             <div className="relative group">
               <Image
-                src={`/${image.src}`}
+                src={image.src}
                 alt={image.alt || `Image ${index + 1}`}
                 width={image.width || 300}
                 height={image.height || 200}

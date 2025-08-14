@@ -1,30 +1,30 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_snicket
+id: c-snicket
 images:
-  - height: 160
-    src: /images/snicket-handler.jpg
-    width: 120
-  - height: 150
-    src: /images/stookey.jpg
-    width: 127
+- height: 160
+  src: /images/snicket-handler.jpg
+  width: 120
+- height: 150
+  src: /images/stookey.jpg
+  width: 127
 publication:
   date: June
   publisher: chance when
 subjects:
-  - Conducting
-  - Daniel Handler
-  - Davies Symphony Hall
-  - Interview
-  - Johann Sebastian Bach
-  - Lemony Snicket
-  - Ludwig van Beethoven
-  - San Francisco Symphony
-  - Symphony
-  - Violin
+- Conducting
+- Daniel Handler
+- Davies Symphony Hall
+- Interview
+- Johann Sebastian Bach
+- Lemony Snicket
+- Ludwig van Beethoven
+- San Francisco Symphony
+- Symphony
+- Violin
 title: Interview with Lemony Snicket, (a.k.a. Daniel Handler)
-type: article
+type: interview
 ---
 
 ### **Interview with Lemony Snicket,
@@ -95,5 +95,5 @@ Could a funeral — or memorial service — be scheduled at San Francisco's Davi
 
  He further described it as, unlike much contemporary music, "quite accessible to first-time listeners. It's fun, despite being sometimes sinister and even downright scary at times."
 
-Cheryl North's interview with [Nat Stookey](http://www.northworks.net/c_stookey.htm) from November 2004 is also on this website. [Lemony Snicket's website](http://www.lemonysnicket.com/author.cfm) has much additional information about him and his literary output.
+Cheryl North's interview with [Nat Stookey](/articles/c-stookey) from November 2004 is also on this website. [Lemony Snicket's website](http://www.lemonysnicket.com/author.cfm) has much additional information about him and his literary output.
 

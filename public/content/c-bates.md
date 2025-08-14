@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_bates
+id: c-bates
 images:
 - height: 160
   src: /images/thm-bates.jpg
@@ -10,8 +10,8 @@ images:
   src: /images/leon-bates.jpg
   width: 200
 publication:
-  date: April
-  publisher: his Kindergarten
+  date: April 5, 2002
+  publisher: ANG Newspapers Classical Music Column
 subjects:
 - programs were
 - heard me
@@ -20,16 +20,9 @@ subjects:
 - helped me
 - He has
 title: Cheryl North Interviews Leon Bates
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Leon
-Bates**
-
-*ANG Newspapers Classical Music
- Column for April 5, 2002*
 
 Anyone who says that Kindergarten teachers don't have much impact on a child's life would have a bit of an argument with star pianist Leon Bates. According to Bates, it was his Kindergarten teacher in the Philadelphia Public School system, who initially inspired his love and interest in music.
 

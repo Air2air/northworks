@@ -1,21 +1,21 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_national_anthem
+id: c-art-national-anthem
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
   date: July 2, 2004
   publisher: ANG Newspapers
 subjects:
-  - Bay Area
-  - Classical Music
-  - Music Article
-  - Our National Anthem
-  - Performance
-  - Spangled Banner
+- Bay Area
+- Classical Music
+- Music Article
+- Our National Anthem
+- Performance
+- Spangled Banner
 title: Thoughts on Our National Anthem
 type: article
 ---

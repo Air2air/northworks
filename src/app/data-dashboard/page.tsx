@@ -1,4 +1,3 @@
-import { GetStaticProps } from 'next';
 import Link from 'next/link';
 import { getStatsSummary, loadDataIndex, DataIndex } from '@/lib/jsonData';
 import PageTitle from '@/components/ui/PageTitle';
@@ -8,7 +7,9 @@ interface DataDashboardProps {
   dataIndex: DataIndex;
 }
 
-export default function DataDashboard({ stats, dataIndex }: DataDashboardProps) {
+export default async function DataDashboard() {
+  const stats = getStatsSummary();
+  const dataIndex = loadDataIndex();
   if (!stats) {
     return (
       <div className="container mx-auto px-4 py-8">
@@ -107,7 +108,7 @@ export default function DataDashboard({ stats, dataIndex }: DataDashboardProps) 
         <div className="p-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link 
-              href="/interviews-dynamic" 
+              href="/interviews" 
               className="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
             >
               <div>
@@ -120,7 +121,7 @@ export default function DataDashboard({ stats, dataIndex }: DataDashboardProps) 
             </Link>
             
             <Link 
-              href="/articles-dynamic" 
+              href="/articles" 
               className="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
             >
               <div>
@@ -182,39 +183,3 @@ export default function DataDashboard({ stats, dataIndex }: DataDashboardProps) 
     </div>
   );
 }
-
-export const getStaticProps: GetStaticProps<DataDashboardProps> = async () => {
-  try {
-    const stats = getStatsSummary();
-    const dataIndex = loadDataIndex();
-    
-    return {
-      props: {
-        stats,
-        dataIndex,
-      },
-      // Revalidate every hour
-      revalidate: 3600,
-    };
-  } catch (error) {
-    console.error('Error loading dashboard data:', error);
-    
-    return {
-      props: {
-        stats: null,
-        dataIndex: {
-          metadata: {
-            created: new Date().toISOString(),
-            extractionDuration: "unknown",
-            totalEntries: 0
-          },
-          collections: {
-            interviews: { file: "interviews.json", count: 0, status: "failed" },
-            articles: { file: "articles.json", count: 0, status: "failed" },
-            profile: { file: "profile.json", count: 0, status: "failed" }
-          }
-        }
-      },
-    };
-  }
-};

@@ -1,41 +1,34 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_bell
+id: c-bell
 images:
-  - height: 28
-    src: /images/title-bell.gif
-    width: 250
-  - height: 300
-    src: /images/bell.jpg
-    width: 219
+- height: 28
+  src: /images/title-bell.gif
+  width: 250
+- height: 300
+  src: /images/bell.jpg
+  width: 219
 publication:
-  date: September
-  publisher: Cheryl North
+  date: September 13, 2002
+  publisher: ANG PREVIEW Section
 subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - San Francisco Symphony
-  - Symphony
-  - Violin
-  - Wolfgang Amadeus Mozart
-title: Untitled
-type: article
+- Carnegie Hall
+- Davies Symphony Hall
+- Johann Sebastian Bach
+- Johannes Brahms
+- Ludwig van Beethoven
+- San Francisco Symphony
+- Symphony
+- Violin
+- Wolfgang Amadeus Mozart
+title: Joshua Bell
+type: interview
 ---
 
-*
-
-Classical Music Column for September 13, 2002 ANG PREVIEW Section*
-
-by Cheryl North
 
 The rarefied world of the violin, its masters and its lovers, brims with intrigue - and uncanny coincidence.
 Consider last night at Davies Symphony Hall. Joshua Bell, the hot young head of the world's current remarkable set of youthful violin virtuosos, performed Samuel Barber's resplendent Violin Concerto with the San Francisco Symphony on his multi-million-dollar 1713 Stradivarius Violin.
-
-*
 
 But just a few feet to his right, was another multi-million-dollar instrument of great significance to Bell. The 1742 Guarneri del Jesu violin, known as the "David," was cradled in the arms of SFS Concertmaster Alexander Barantschik. Named for one of its previous owners, the great 19th century virtuoso Ferdinand David, the "David" was the favorite instrument of the 20th century's premier virtuoso, Jascha Heifetz.
 

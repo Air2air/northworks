@@ -1,35 +1,29 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_Ring_Legend
+id: c-art-ring-legend
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  date: July
-  publisher: David Seaman
+  date: July 30, 2010
+  publisher:  Bay Area News Preview Section
 subjects:
-  - Baritone
-  - Bass
-  - Berkeley Opera Production
-  - Merola Opera Program
-  - Mezzo-soprano
-  - Opera
-  - Richard Wagner
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-title: >-
-  <b>Berkeley Opera Production of the Condensed Version of Wagner's <i>Der Ring
-  des Nibelungen</i> by David Seaman, <i>The Legend of the Ring</i>
+- Baritone
+- Bass
+- Berkeley Opera Production
+- Merola Opera Program
+- Mezzo-soprano
+- Opera
+- Richard Wagner
+- San Francisco Opera
+- Soprano
+- Tenor
+title: Berkeley Opera Production of the Condensed Version of Wagner's <i>Der Ring des Nibelungen</i>
 type: article
 ---
 
-### **Berkeley Opera Production of the Condensed Version of Wagner's *Der Ring des Nibelungen* by David Seaman, *The Legend of the Ring*
-**
-
-* Classical Music Column, Bay Area News Preview Section/Inside Bay Area, for July 30, 2010*
 
 One of the most frequent complaints folks have about composer Richard Wagner's epic four-opera cycle based on the old Germanic legends of *Der Ring des Nibelungen* is that it's sooo long!
 

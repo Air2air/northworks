@@ -1,33 +1,33 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_projects_government
+id: w-projects-government
 images:
-  - height: 28
-    src: /images/title-experience-government.gif
-    width: 250
-  - height: 50
-    src: /images/logo-epa.gif
-    width: 50
-  - height: 50
-    src: /images/logo-epa.gif
-    width: 50
-  - height: 50
-    src: /images/logo-us.gif
-    width: 50
-  - height: 50
-    src: /images/logo-us.gif
-    width: 50
-  - height: 50
-    src: /images/logo-cal.gif
-    width: 50
+- height: 28
+  src: /images/title-experience-government.gif
+  width: 250
+- height: 50
+  src: /images/logo-epa.gif
+  width: 50
+- height: 50
+  src: /images/logo-epa.gif
+  width: 50
+- height: 50
+  src: /images/logo-us.gif
+  width: 50
+- height: 50
+  src: /images/logo-us.gif
+  width: 50
+- height: 50
+  src: /images/logo-cal.gif
+  width: 50
 subjects:
-  - Environmental Health Committee
-  - Extrapolation Models Review Panel
-  - Music Article
-  - Performance
-  - Risk Assessment
-  - United States Federal
+- Environmental Health Committee
+- Extrapolation Models Review Panel
+- Music Article
+- Performance
+- Risk Assessment
+- United States Federal
 title: Untitled
 type: article
 ---
@@ -80,5 +80,5 @@ State of California**
 
 Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65); Co-Chair, Risk Assessment Subpanel (1987-1989). Member, Independent Science Board, California Bay-Delta Authority (February-May, 2005).
 
- [Laser technology consulting](/w_laser.htm)
+ [Laser technology consulting](/articles//w-laser)
 

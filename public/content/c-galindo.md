@@ -1,34 +1,28 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_galindo
+id: c-galindo
 images:
-  - height: 140
-    src: /images/guillermo-galindo.jpg
-    width: 100
+- height: 140
+  src: /images/guillermo-galindo.jpg
+  width: 100
 publication:
-  date: November
-  publisher: glue made
+  date: November 11, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Cheryl North Interviews
-  - Conducting
-  - Interview
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
-  - Premiere
-  - Sergei Rachmaninoff
-  - Symphony
-  - World Premiere
-title: Untitled
-type: article
+- Cheryl North Interviews
+- Conducting
+- Interview
+- Johann Sebastian Bach
+- Opera
+- Piano
+- Premiere
+- Sergei Rachmaninoff
+- Symphony
+- World Premiere
+title: Cheryl North Interviews** Guillermo Galindo
+type: interview
 ---
-
-#### Cheryl North Interviews** Guillermo Galindo
-
-*ANG Newspapers Classical Music Column - November 11, 2005*,
-
- under headline, Galindo's *Routes*, a musical tour through an American city**
 
 THE Oakland East Bay Symphony can be counted upon to come up with innovative, American-to-the-hilt programming. Michael Morgan, its conductor/music director, seems to be innately tuned in to one of the things that make the United States so great: our deeply ingrained diversity.
 

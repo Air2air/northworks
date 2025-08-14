@@ -1,29 +1,26 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_ventris
+id: c-ventris
 images:
-  - height: 200
-    src: /images/christopher-ventris.jpg
-    width: 160
+- height: 200
+  src: /images/christopher-ventris.jpg
+  width: 160
 publication:
   date: June
   publisher: participating in
 subjects:
-  - Christopher Ventris
-  - Conducting
-  - Debut Performance
-  - Interview
-  - Opera
-  - Richard Wagner
-  - |-
-    San Francisco
-    Opera
-  - San Francisco Opera
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Christopher Ventris
+- Conducting
+- Debut Performance
+- Interview
+- Opera
+- Richard Wagner
+- San Francisco Opera
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Christopher Ventris
-type: article
+type: interview
 ---
 
 ### **Cheryl North Interviews
@@ -80,7 +77,3 @@ tenors."
 Here is a link to the
 [ Christopher
 Ventris](http://www.christopherventris.com/menu.html) website, which includes this interview.
-
-[.](http://www.todddunning.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/)
-[.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/)
-[.](http://www.briandunning.com/)

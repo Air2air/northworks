@@ -1,27 +1,28 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_racette
+id: c-racette
 images:
-  - height: 184
-    src: /images/racette-c-w-9-15-09.jpg
-    width: 230
+- height: 184
+  src: /images/racette-c-w-9-15-09.jpg
+  width: 230
 publication:
   date: September
   publisher: Cheryl North
 subjects:
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - La Traviata
-  - Mezzo-soprano
-  - Opera
-  - Richard Wagner
-  - San Francisco Opera
-  - Soprano
-  - War Memorial Opera House
-title: Cheryl North Interviews Patricia Racette, who sings all three roles in Puccini's Il Trittico with the San Francisco Opera, September 2009
-type: article
+- Giacomo Puccini
+- Giuseppe Verdi
+- Johann Sebastian Bach
+- La Traviata
+- Mezzo-soprano
+- Opera
+- Richard Wagner
+- San Francisco Opera
+- Soprano
+- War Memorial Opera House
+title: Cheryl North Interviews Patricia Racette, who sings all three roles in Puccini's
+  Il Trittico with the San Francisco Opera, September 2009
+type: interview
 ---
 
 ### **Cheryl North Interviews Patricia Racette, who sings all three roles in Puccini's *Il Trittico* with the San Francisco Opera, September 2009**

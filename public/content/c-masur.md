@@ -1,25 +1,25 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_ masur
+id: c-masur
 images:
-  - height: 160
-    src: /images/thm-masur.jpg
-    width: 160
+- height: 160
+  src: /images/thm-masur.jpg
+  width: 160
 publication:
   date: November
   publisher: the Nazis
 subjects:
-  - Aria
-  - Bass
-  - Conducting
-  - Interview
-  - Kurt Masur
-  - Piano
-  - San Francisco Symphony
-  - Symphony
+- Aria
+- Bass
+- Conducting
+- Interview
+- Kurt Masur
+- Piano
+- San Francisco Symphony
+- Symphony
 title: Cheryl North Interviews Kurt Masur
-type: article
+type: interview
 ---
 
 **

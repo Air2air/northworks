@@ -1,14 +1,14 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_dunleavy
+id: c-dunleavy
 images:
 - height: 200
   src: /images/mary-dunleavy-violetta-2002.jpg
   width: 160
 publication:
-  date: October
-  publisher: the Bay
+  date: October 8, 2004
+  publisher: ANG Newspapers Classical Music  Column
 subjects:
 - whole bunch
 - hear me
@@ -21,15 +21,9 @@ subjects:
 - someday to
 - Wood will
 title: Cheryl North Interviews Mary Dunleavy
-type: article
+type: interview
 ---
 
-**
-
-### Cheryl North Interviews Mary Dunleavy**
-
-*ANG Newspapers Classical Music
- Column for October 8, 2004*
 
 Julie Andrews or Dame Kiri te Kanawa?
 

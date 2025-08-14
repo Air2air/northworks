@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_main
+id: w-main
 images:
 - height: 28
   src: /images/title-warner.gif
@@ -111,4 +111,4 @@ Dr. North was an invited speaker for the Risk Management Conference in Moscow Ma
 
 Dr. North gave the keynote address at the First International Symposium on Sanitary and Phytosanitary Risk Methodology, organized by Tuskegee University under sponsorship from the United States Department of Agriculture Animal and Plant Health Inspection Service (APHIS), Food Safety Inspection Service (FSIS), Agricultural Research Service (ARS), and the Society for Risk Analysis, Washington D.C., August 11-13, 2005.
 
-[Laser technology consulting](/w_laser.htm)
+[Laser technology consulting](/articles//w-laser)

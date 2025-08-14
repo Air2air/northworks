@@ -28,7 +28,7 @@ Based on analysis of 252 markdown files, the content falls into these main categ
 
 ### Core Required Fields
 
-```json
+"`json
 {
   "metadata": {
     "id": "unique-identifier",
@@ -40,13 +40,13 @@ Based on analysis of 252 markdown files, the content falls into these main categ
     "body": "Main content in HTML/Markdown"
   }
 }
-```
+"`
 
 ### Publication Information
 
 Handles the various publication patterns found in the content:
 
-```json
+"`json
 {
   "publication": {
     "date": "2010-02-22",
@@ -56,7 +56,7 @@ Handles the various publication patterns found in the content:
     "headline": "Published headline if different from title"
   }
 }
-```
+"`
 
 **Common Publishers Found:**
 - Bay Area News Group (most common)
@@ -70,7 +70,7 @@ Handles the various publication patterns found in the content:
 
 For interviews and reviews, captures the people and organizations:
 
-```json
+"`json
 {
   "subject": {
     "people": [
@@ -84,13 +84,13 @@ For interviews and reviews, captures the people and organizations:
     "venues": ["Davies Symphony Hall", "War Memorial Opera House"]
   }
 }
-```
+"`
 
 ### Performance Details
 
 Specific to reviews, captures event information:
 
-```json
+"`json
 {
   "performance": {
     "date": "2009-06-05",
@@ -112,13 +112,13 @@ Specific to reviews, captures event information:
     ]
   }
 }
-```
+"`
 
 ### Technical/Professional Content
 
 For Warner North's professional content:
 
-```json
+"`json
 {
   "technical": {
     "projectType": "government-consulting",
@@ -131,13 +131,13 @@ For Warner North's professional content:
     "keywords": ["nuclear waste", "environmental protection"]
   }
 }
-```
+"`
 
 ### Media Assets
 
 Captures the extensive image and document libraries:
 
-```json
+"`json
 {
   "media": {
     "images": [
@@ -160,7 +160,7 @@ Captures the extensive image and document libraries:
     ]
   }
 }
-```
+"`
 
 ## Content Migration Strategy
 
@@ -185,7 +185,7 @@ Captures the extensive image and document libraries:
 ## Implementation Examples
 
 ### Classical Music Interview
-```json
+"`json
 {
   "metadata": {
     "id": "c_romero",
@@ -213,10 +213,10 @@ Captures the extensive image and document libraries:
   },
   "tags": ["guitar", "classical", "spanish-music", "family-dynasty"]
 }
-```
+"`
 
 ### Opera Review
-```json
+"`json
 {
   "metadata": {
     "id": "c_reviews_sfo_faust_6-10",
@@ -244,10 +244,10 @@ Captures the extensive image and document libraries:
     ]
   }
 }
-```
+"`
 
 ### Professional Project
-```json
+"`json
 {
   "metadata": {
     "id": "w_projects_nrc",
@@ -266,7 +266,7 @@ Captures the extensive image and document libraries:
     "keywords": ["nuclear-waste", "regulatory-review", "technical-analysis"]
   }
 }
-```
+"`
 
 ## Benefits of This Schema
 

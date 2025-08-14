@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_thibaudet
+id: c-thibaudet
 images:
 - height: 297
   src: /images/thibaudet1.jpg
@@ -24,7 +24,7 @@ subjects:
 - after the
 - San Francisco Symphony
 title: Interview with Jean-Yves Thibaudet<br />
-type: article
+type: interview
 ---
 
 ### **Interview with Jean-Yves Thibaudet

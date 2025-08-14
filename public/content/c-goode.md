@@ -1,27 +1,27 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_goode
+id: c-goode
 images:
-  - height: 215
-    src: /images/richard-goode.jpg
-    width: 150
+- height: 215
+  src: /images/richard-goode.jpg
+  width: 150
 publication:
   date: March
   publisher: wreaths of
 subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Franz Schubert
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - Piano
-  - Symphony
-  - Wolfgang Amadeus Mozart
+- Carnegie Hall
+- Davies Symphony Hall
+- Franz Schubert
+- Frédéric Chopin
+- Johann Sebastian Bach
+- Johannes Brahms
+- Ludwig van Beethoven
+- Piano
+- Symphony
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Richard Goode
-type: article
+type: interview
 ---
 
 **

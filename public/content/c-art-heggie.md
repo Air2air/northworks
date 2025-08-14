@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_heggie
+id: c-art-heggie
 images:
 - height: 248
   src: /images/logos-newspaper.gif
@@ -31,8 +31,7 @@ Richard Wagner. All have had the near-magical gift of being able to meld words w
 endowed with great emotional color and significance. Often this rare musical skill adds a strong psychological dimension
 as well, thereby transporting mere words up to a profound level.
 
-Heggie, with the expert help of the Pacific Chorale and the Pacific Symphony, made such a thing happen on Sunday
-[November 5, 2006]
+Heggie, with the expert help of the Pacific Chorale and the Pacific Symphony, made such a thing happen on Sunday.
 at the sumptuous new Segerstrom Concert Hall in Orange County's Performing Arts Complex during the premiere of one of
 his new works, *Seeking Higher Ground*, which he describes as "a theater piece for chorus and orchestra."
 
@@ -55,7 +54,7 @@ many people. I want my music to not only reflect my own thoughts, but to cross b
  The production's stars include vocalists Isabel Bayrakdarian and Patti LuPone.
 
  Heggie is best known as the composer for the opera [
-*Dead Man Walking*](http://www.northworks.net/c_articles_deadman.htm), based on the novel by Sister Helen Prejean and libretto by Terrence McNally
+*Dead Man Walking*](/articles/c-articles-deadman), based on the novel by Sister Helen Prejean and libretto by Terrence McNally
 (also made into a movie starring Susan Sarandon and Sean Penn), which had its world premiere with the
 San Francisco Opera in 2000. It has since been performed in major opera houses nationally and internationally;
 in September 2007, it will open in Vienna.

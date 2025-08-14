@@ -6,11 +6,12 @@ import { cleanTitle } from '@/lib/pathUtils';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
 import { notFound } from 'next/navigation';
+import Tags from '@/components/ui/Tags';
 
 interface InterviewPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export default async function InterviewPage({ params }: InterviewPageProps) {
@@ -64,16 +65,11 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
           {frontmatter.subjects && frontmatter.subjects.length > 0 && (
             <div className="mb-6">
               <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
-              <div className="flex flex-wrap gap-2">
-                {frontmatter.subjects.map((subject, index) => (
-                  <span 
-                    key={index}
-                    className="inline-block px-3 py-1 text-sm font-medium bg-purple-100 text-purple-800 rounded-full"
-                  >
-                    {subject}
-                  </span>
-                ))}
-              </div>
+              <Tags 
+                tags={frontmatter.subjects} 
+                maxVisible={10} 
+                variant="compact"
+              />
             </div>
           )}
         </header>

@@ -1,31 +1,32 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_art_gergiev9
+id: c-art-gergiev9
 images:
-  - height: 231
-    src: /images/gergiev.jpg
-    width: 165
-  - height: 146
-    src: /images/gergiev-freedom-banner.jpg
-    width: 450
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+- height: 231
+  src: /images/gergiev.jpg
+  width: 165
+- height: 146
+  src: /images/gergiev-freedom-banner.jpg
+  width: 450
+- height: 248
+  src: /images/logos-newspaper.gif
+  width: 220
 publication:
-  date: ANG Newspapers Classical Music Column
-  publisher: Valery Gergiev
+  date: 
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Conducting
-  - Gustav Mahler
-  - Interview
-  - Ludwig van Beethoven
-  - Ninth Symphony Conducted
-  - Opera
-  - Richard Wagner
-  - Symphony
-  - Violin
-title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands
+- Conducting
+- Gustav Mahler
+- Interview
+- Ludwig van Beethoven
+- Ninth Symphony Conducted
+- Opera
+- Richard Wagner
+- Symphony
+- Violin
+title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the
+  Gergiev Festival in Rotterdam, The Netherlands
 type: article
 ---
 

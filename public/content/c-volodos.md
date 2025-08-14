@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_volodos
+id: c-volodos
 images:
 - height: 28
   src: /images/title-volodos.gif
@@ -43,7 +43,7 @@ subjects:
 
   High'
 title: Untitled
-type: article
+type: interview
 ---
 
 ***

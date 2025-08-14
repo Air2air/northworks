@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_rubin
+id: c-rubin
 images:
 - height: 140
   src: /images/nathan-rubin.jpg
@@ -18,7 +18,7 @@ subjects:
 - San Francisco ballet
 - Oakland Symphony
 title: Untitled
-type: article
+type: interview
 ---
 
 #### Cheryl North Remembers Nathan Rubin**

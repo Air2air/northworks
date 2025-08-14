@@ -1,33 +1,33 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_orbelian
+id: c-orbelian
 images:
-  - height: 28
-    src: /images/title-orbelian.gif
-    width: 290
-  - height: 144
-    src: /images/orbelian.jpg
-    width: 141
-  - height: 205
-    src: /images/moscow.jpg
-    width: 250
+- height: 28
+  src: /images/title-orbelian.gif
+  width: 290
+- height: 144
+  src: /images/orbelian.jpg
+  width: 141
+- height: 205
+  src: /images/moscow.jpg
+  width: 250
 publication:
   date: February
   publisher: Columbia Artists
 subjects:
-  - Carmen
-  - Carnegie Hall
-  - Concerto
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Piano
-  - Pyotr Ilyich Tchaikovsky
-  - San Francisco Symphony
-  - Symphony
-  - Violin
+- Carmen
+- Carnegie Hall
+- Concerto
+- Johann Sebastian Bach
+- Ludwig van Beethoven
+- Piano
+- Pyotr Ilyich Tchaikovsky
+- San Francisco Symphony
+- Symphony
+- Violin
 title: Untitled
-type: article
+type: interview
 ---
 
 ***

@@ -1,33 +1,33 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_gasser
+id: c-gasser
 images:
-  - height: 212
-    src: /images/nolan-gasser.jpg
-    width: 150
-  - height: 138
-    src: /images/nolan-gasser-2.jpg
-    width: 181
-  - height: 140
-    src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
-    width: 196
+- height: 212
+  src: /images/nolan-gasser.jpg
+  width: 150
+- height: 138
+  src: /images/nolan-gasser-2.jpg
+  width: 181
+- height: 140
+  src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
+  width: 196
 publication:
   date: January
   publisher: the wayside
 subjects:
-  - Baritone
-  - Frédéric Chopin
-  - Ludwig van Beethoven
-  - Mezzo-soprano
-  - Opera
-  - Richard Wagner
-  - Soprano
-  - Symphony
-  - Tenor
-  - Wolfgang Amadeus Mozart
+- Baritone
+- Frédéric Chopin
+- Ludwig van Beethoven
+- Mezzo-soprano
+- Opera
+- Richard Wagner
+- Soprano
+- Symphony
+- Tenor
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Nolan Gasser
-type: article
+type: interview
 ---
 
 **
@@ -153,4 +153,4 @@ The Oakland East Bay Symphony's upcoming concert, dubbed by its organizers *A Gl
 
  A third exotic instrument Gasser has employed in his new world work will be the Arabic Oud, a fretless 11-stringed, plucked instrument that resembles a lute. It will be played by the Lebanese-born composer, conductor, and instrumentalist Bassam Saba, one of the major figures working in classical Arabic music today, and a participant in the Silk Road Project championed by cellist Yo-Yo Ma.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

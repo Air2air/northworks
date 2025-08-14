@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
-import { PageTitle } from '@/components/ui';
+import PageTitle from '@/components/ui/PageTitle';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -129,7 +129,7 @@ export default function StanfordIndexPage() {
             {/* Stanford Logo if available */}
             {(frontmatter as any).images && (frontmatter as any).images.length > 8 && (
               <Image
-                src={`/${(frontmatter as any).images[8].src}`}
+                src={(frontmatter as any).images[8].src}
                 alt="Stanford University"
                 width={(frontmatter as any).images[8].width || 220}
                 height={(frontmatter as any).images[8].height || 175}

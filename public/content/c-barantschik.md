@@ -1,38 +1,33 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_barantschik
+id: c-barantschik
 images:
-  - height: 250
-    src: /images/barantschik-and-mtt-cologne.jpg
-    width: 350
-  - height: 202
-    src: /images/barantschik-and-violin.jpg
-    width: 123
+- height: 250
+  src: /images/barantschik-and-mtt-cologne.jpg
+  width: 350
+- height: 202
+  src: /images/barantschik-and-violin.jpg
+  width: 123
 publication:
-  date: September
-  publisher: the vast
+  date: February 16, 2007
+  publisher: San Francisco Examiner
 subjects:
-  - Concerto
-  - Davies Symphony Hall
-  - Gustav Mahler
-  - Johann Sebastian Bach
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
-  - San Francisco Symphony
-  - Symphony
-  - Violin
-  - Wolfgang Amadeus Mozart
+- Concerto
+- Davies Symphony Hall
+- Gustav Mahler
+- Johann Sebastian Bach
+- Pyotr Ilyich Tchaikovsky
+- Richard Wagner
+- San Francisco Symphony
+- Symphony
+- Violin
+- Wolfgang Amadeus Mozart
 title: Cheryl North Interviews with Alexander Barantschik
-type: article
+type: interview
 ---
 
-**
-### Cheryl North Interviews with Alexander Barantschik**
 
-*ANG Newspapers: September 7, 2001; September 6, 2002; February 16, 2007, San Francisco Examiner, February 13, 2007* (below in reverse chronological order)
-
-*ANG Newspaper Preview Section, February 16, under title: Concerts in San Francisco, Cupertino Celebrate J.S. Bach's Legendary Music*
 
 One of the nicer coincidences in this world is that the first day of spring coincides with the birthday of Johann Sebastian Bach. The great man, considered by the vast majority of accomplished classical musicians and tens of thousands of ordinary folk, to be the greatest composer of all time, was born on March 21, 1685, in Eisenach, Germany.
 
@@ -92,7 +87,7 @@ Back in 1979, when aspiring violinist Alexander Barantschik played through his f
 
  However, this time around, the instrument was not banged up, but rather, one of the finest, rarest violins in the world -- the 1742 "David" Guarnerius del Gesu. This particular multi-million dollar violin was one of the coveted masterpieces of Bartolomeo Giuseppe Guarneri, the most illustrious member of the violin-making Guarneri family of Cremona Italy. It was named after Ferdinand David, the violinist who owned it in the mid-19th century and for whom composer Felix Mendelssohn wrote his legendary violin concerto.
 
- The famous fiddle was purchased by the great Jascha Heifetz in 1922 and became his favorite instrument. He willed it to the San Francisco Fine Arts Museums, with the stipulation that it be played only by ``worthy performers.'' Following his death in 1987, Itzhak Perlman, Gil Shaham, Stuart Canin, and Barantschik are among the very few worthy performers who have been fortunate enough to pass bows over its venerable strings.
+ The famous fiddle was purchased by the great Jascha Heifetz in 1922 and became his favorite instrument. He willed it to the San Francisco Fine Arts Museums, with the stipulation that it be played only by "worthy performers.'' Following his death in 1987, Itzhak Perlman, Gil Shaham, Stuart Canin, and Barantschik are among the very few worthy performers who have been fortunate enough to pass bows over its venerable strings.
 
  During a recent chat, I asked Barantschik if he would try to summon up some words to describe the "David" and how he would contrast its timbre with that of a Stradivarius violin. (Antonio Stradivari, who lived from 1644 to 1737, is the other equally acclaimed Cremona violin-maker).
 
@@ -170,4 +165,4 @@ One of the many things Alexander Barantschik likes best about his new job is the
 
  "Afterwards, the Emperor and his entourage came backstage to greet the Maestro and members of the Orchestra. One of the security men came up to me and whispered, `You are a very brave man!'" Barantschik said.
 
-[.](http://www.dunningmarketing.com/) [.](http://www.witnessamerica.com/) [.](http://www.witnessamerica.com/camcorders) [.](http://www.ksql.com/) [.](http://www.ascendaviation.com/) [.](http://www.echovalleysupply.com/) [.](http://www.northworks.net/) [.](http://www.attainia.com/) [.](http://www.briandunning.com/) [.](http://www.rolandovillazon.com/)
+

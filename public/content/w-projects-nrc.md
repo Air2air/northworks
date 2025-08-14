@@ -1,7 +1,7 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: w_projects_nrc
+id: w-projects-nrc
 images:
 - height: 28
   src: /images/title-experience-nrc.gif
@@ -274,5 +274,5 @@ National Academy Press
 
 191 pages, 1983
 
-[Laser technology consulting](/w_laser.htm)
+[Laser technology consulting](/articles//w-laser)
 

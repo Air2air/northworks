@@ -23,7 +23,8 @@
             "publication", 
             "contact", 
             "index",
-            "technical"
+            "technical",
+            "collection"
           ],
           "description": "Primary content type"
         },
@@ -48,7 +49,14 @@
             "conductor-interview",
             "government-project",
             "academic-publication",
-            "feature-article"
+            "feature-article",
+            "interview-directory",
+            "article-directory",
+            "academic-profile",
+            "opera-article",
+            "symphony-article",
+            "premiere-article",
+            "review-article"
           ]
         },
         "status": {
@@ -412,6 +420,182 @@
               }
             }
           }
+        }
+      }
+    },
+    "professional": {
+      "type": "object",
+      "description": "Professional background and qualifications",
+      "properties": {
+        "currentPosition": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "organization": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "previousPositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "organization": {
+                "type": "string"
+              },
+              "department": {
+                "type": "string"
+              },
+              "startDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "endDate": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        },
+        "education": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "degree": {
+                "type": "string"
+              },
+              "field": {
+                "type": "string"
+              },
+              "institution": {
+                "type": "string"
+              },
+              "year": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "specializations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "clients": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "year": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "boardMemberships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "focus": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "currentActivities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "panel-membership",
+              "commission-participation",
+              "editorial-role",
+              "conference-participation",
+              "conference-leadership",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "collections": {
+      "type": "object",
+      "description": "For index/collection type content",
+      "properties": {
+        "interviews": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "articles": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "totalEntries": {
+          "type": "integer"
+        },
+        "thumbnailImages": {
+          "type": "integer"
         }
       }
     },

@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import PageTitle from '@/components/ui/PageTitle';
 import dynamic from 'next/dynamic';
 import fs from 'fs';
 import path from 'path';
@@ -85,16 +86,15 @@ export default async function ProfessionalListsPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
-      <div className="mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Professional Lists & Structured Data
-        </h1>
-        <p className="text-xl text-gray-600 mb-6">
-          Comprehensive overview of structured professional information extracted from Warner North's portfolio
-        </p>
-        
-        {/* Overview Stats */}
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg">
+      <PageTitle 
+        title="Professional Lists & Structured Data"
+        description="Comprehensive overview of structured professional information extracted from Warner North's portfolio"
+        size="large"
+        align="left"
+      />
+      
+      {/* Overview Stats */}
+      <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg mb-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-2xl font-bold text-green-600">{totalItems}</div>
@@ -118,7 +118,6 @@ export default async function ProfessionalListsPage() {
             </div>
           </div>
         </div>
-      </div>
 
       {/* Key Insights */}
       {metadata && Object.keys(metadata).length > 0 && (

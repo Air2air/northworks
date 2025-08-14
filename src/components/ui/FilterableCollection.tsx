@@ -222,7 +222,7 @@ export function FilterableCollection({
       ) : (
         <div className={`
           ${view === 'grid' 
-            ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' 
+            ? 'space-y-6' 
             : 'space-y-4'
           }
         `}>
@@ -230,7 +230,8 @@ export function FilterableCollection({
             <ContentCard
               key={item.metadata.id}
               item={item}
-              variant={view === 'grid' ? 'grid' : 'detailed'}
+              showImage={true}
+              showTags={true}
             />
           ))}
         </div>

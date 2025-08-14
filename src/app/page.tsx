@@ -5,6 +5,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import PageTitle from '@/components/ui/PageTitle';
 import { loadInterviews, loadArticles, loadWarnerPortfolio, loadWarnerLists } from '@/lib/jsonData';
 import { 
   FaBullseye, 
@@ -15,48 +16,18 @@ import {
 } from 'react-icons/fa';
 
 // Data loader for overview statistics
-async function getOverviewStats() {
-  try {
-    const interviews = loadInterviews();
-    const articles = loadArticles();
-    const portfolio = loadWarnerPortfolio();
-    const lists = loadWarnerLists();
-    
-    return {
-      interviews: interviews.interviews?.length || 0,
-      articles: articles.articles?.length || 0,
-      portfolioItems: Object.values(portfolio.collections || {}).reduce((total: number, items: any) => total + (items?.length || 0), 0),
-      listItems: Object.values(lists.lists || {}).reduce((total: number, items: any) => total + (items?.length || 0), 0),
-      totalContent: 0
-    };
-  } catch (error) {
-    console.error('Error loading overview stats:', error);
-    return {
-      interviews: 0,
-      articles: 0,
-      portfolioItems: 0,
-      listItems: 0,
-      totalContent: 0
-    };
-  }
-}
-
 export default async function Home() {
-  const stats = await getOverviewStats();
-  stats.totalContent = stats.interviews + stats.articles + stats.portfolioItems + stats.listItems;
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Northworks
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-            Demonstrating <span className="font-semibold text-purple-600">true cross-domain architecture</span> with 
-            unified search across classical music content and professional portfolio data
-          </p>
+          <PageTitle 
+            title="Northworks"
+            description="Demonstrating true cross-domain architecture with unified search across classical music content and professional portfolio data"
+            size="large"
+            align="center"
+          />
           
           {/* Key Value Proposition */}
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-purple-100 mb-12">
@@ -69,26 +40,6 @@ export default async function Home() {
               and technical professional data, proving true schema consistency and component reusability 
               across completely different subject domains.
             </p>
-          </div>
-
-          {/* Statistics Overview */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-              <div className="text-3xl font-bold text-purple-600 mb-2">{stats.totalContent}</div>
-              <div className="text-sm text-gray-600">Total Items</div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-              <div className="text-3xl font-bold text-blue-600 mb-2">{stats.interviews}</div>
-              <div className="text-sm text-gray-600">Interviews</div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-              <div className="text-3xl font-bold text-green-600 mb-2">{stats.portfolioItems}</div>
-              <div className="text-sm text-gray-600">Portfolio</div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-              <div className="text-3xl font-bold text-orange-600 mb-2">{stats.listItems}</div>
-              <div className="text-sm text-gray-600">Structured Lists</div>
-            </div>
           </div>
 
           {/* CTA Buttons */}
@@ -125,7 +76,7 @@ export default async function Home() {
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Classical Music Interviews</h3>
             <p className="text-gray-600 mb-4">
-              Comprehensive collection of {stats.interviews} interviews with renowned classical musicians, 
+              Comprehensive collection of interviews with renowned classical musicians, 
               conductors, and composers. Rich metadata and structured content.
             </p>
             <div className="space-y-2 mb-6">

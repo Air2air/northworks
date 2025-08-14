@@ -28,8 +28,12 @@ export default function WarnerPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">D. Warner North</h1>
-          <p className="text-gray-600">Content not found</p>
+          <PageTitle 
+            title="D. Warner North"
+            description="Content not found"
+            size="medium"
+            align="center"
+          />
         </div>
       </div>
     );

@@ -1,6 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import PageTitle from '@/components/ui/PageTitle';
 import NavigationCard from '@/components/ui/NavigationCard';
 import type { NavigationCardProps } from '@/components/ui/NavigationCard';
 import Link from 'next/link';
@@ -72,8 +73,12 @@ export default function PublicationsIndexPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Publications Index</h1>
-          <p className="text-gray-600">Content not found</p>
+          <PageTitle 
+            title="Publications Index"
+            description="Content not found"
+            size="medium"
+            align="center"
+          />
         </div>
       </div>
     );

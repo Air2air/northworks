@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import PageTitle from '@/components/ui/PageTitle';
 import { FilterableCollection } from '@/components/ui/FilterableCollection';
 import { ContentItem } from '@/components/ui/ContentCard';
 import fs from 'fs';
@@ -77,17 +78,6 @@ export default async function WarnerPortfolioPage() {
     ...portfolio.collections.documents
   ];
   
-  // Calculate statistics
-  const stats = {
-    total: allContent.length,
-    projects: portfolio.collections.projects.length,
-    publications: portfolio.collections.publications.length,
-    affiliations: portfolio.collections.affiliations.length,
-    expertise: portfolio.collections.expertise.length,
-    documents: portfolio.collections.documents.length,
-    uniqueTags: [...new Set(allContent.flatMap(item => item.tags || []))].length
-  };
-
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header Section */}
@@ -99,60 +89,17 @@ export default async function WarnerPortfolioPage() {
             className="w-24 h-32 object-cover rounded-lg shadow-md"
           />
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              D. Warner North
-            </h1>
-            <p className="text-xl text-blue-600 font-medium mb-3">
-              Principal Scientist, NorthWorks
-            </p>
+            <PageTitle 
+              title="D. Warner North"
+              description="Principal Scientist, NorthWorks"
+              size="large"
+              align="left"
+            />
             <p className="text-lg text-gray-600 max-w-4xl">
               Over fifty years of applications in decision analysis and risk analysis 
               for electric utilities, petroleum and chemical industries, and government agencies 
               with responsibility for energy and environmental protection.
             </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Statistics Overview */}
-      <div className="mb-8 p-6 bg-gradient-to-r from-blue-50 to-green-50 rounded-lg">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">Professional Portfolio Overview</h2>
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-4 text-center">
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-blue-600 mb-1">
-              {stats.total}
-            </div>
-            <div className="text-sm text-gray-600">Total Items</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-green-600 mb-1">
-              {stats.projects}
-            </div>
-            <div className="text-sm text-gray-600">Projects</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-purple-600 mb-1">
-              {stats.publications}
-            </div>
-            <div className="text-sm text-gray-600">Publications</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-orange-600 mb-1">
-              {stats.expertise}
-            </div>
-            <div className="text-sm text-gray-600">Expertise Areas</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-red-600 mb-1">
-              {stats.affiliations}
-            </div>
-            <div className="text-sm text-gray-600">Affiliations</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-indigo-600 mb-1">
-              {stats.uniqueTags}
-            </div>
-            <div className="text-sm text-gray-600">Subject Areas</div>
           </div>
         </div>
       </div>

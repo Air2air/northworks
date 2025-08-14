@@ -1,6 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ReviewFrontmatter, ContentData } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
+import PageTitle from '@/components/ui/PageTitle';
 import { cleanTitle } from '@/lib/pathUtils';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -75,9 +76,11 @@ export default async function ReviewPage({ params }: Props) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {cleanTitle(frontmatter.title)}
-          </h1>
+          <PageTitle 
+            title={frontmatter.title}
+            size="large"
+            align="left"
+          />
           
           {/* Publication Info */}
           {frontmatter.publication && (

@@ -7,6 +7,7 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
+import PageTitle from '@/components/ui/PageTitle';
 import { ContentCard, ContentItem } from '@/components/ui/ContentCard';
 
 // Client-side search interface
@@ -128,19 +129,10 @@ export default function SearchInterface({
     setCurrentPage(1);
   }, [searchTerm, selectedDomain, selectedType, sortBy]);
 
-  // Calculate statistics
-  const stats = {
-    total: allContent.length,
-    interviews: allContent.filter(item => item.metadata.type === 'interview').length,
-    articles: allContent.filter(item => item.metadata.type === 'article').length,
-    professional: allContent.filter(item => item.domain === 'Professional Portfolio').length,
-    searchResults: filteredContent.length
-  };
-
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
-      <div className="mb-8">
+      {/* <div className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Unified Content Search
         </h1>
@@ -148,34 +140,7 @@ export default function SearchInterface({
           Search across classical music interviews, articles, and professional portfolio content. 
           Discover connections and insights across different domains with unified filtering and sorting.
         </p>
-      </div>
-
-      {/* Statistics Overview */}
-      <div className="mb-8 p-6 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">Content Overview</h2>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-purple-600 mb-1">{stats.total}</div>
-            <div className="text-sm text-gray-600">Total Items</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-blue-600 mb-1">{stats.interviews}</div>
-            <div className="text-sm text-gray-600">Interviews</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-green-600 mb-1">{stats.articles}</div>
-            <div className="text-sm text-gray-600">Articles</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-orange-600 mb-1">{stats.professional}</div>
-            <div className="text-sm text-gray-600">Professional</div>
-          </div>
-          <div className="bg-white rounded-lg p-4 shadow-sm">
-            <div className="text-2xl font-bold text-red-600 mb-1">{stats.searchResults}</div>
-            <div className="text-sm text-gray-600">Results</div>
-          </div>
-        </div>
-      </div>
+      </div> */}
 
       {/* Search and Filters */}
       <div className="mb-8 p-6 bg-gray-50 rounded-lg">
@@ -262,10 +227,10 @@ export default function SearchInterface({
             <p className="text-sm text-gray-400 mt-2">Try adjusting your search terms or filters.</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="space-y-6">
             {paginatedContent.map((item: ContentItem & { domain: string }, index: number) => (
               <div key={`${item.metadata.id}-${index}`} className="relative">
-                <ContentCard item={item} variant="grid" />
+                <ContentCard item={item} showImage={true} showTags={true} />
                 {/* Domain Badge */}
                 <div className="absolute top-2 right-2">
                   <span className={`px-2 py-1 text-xs font-medium rounded-full ${

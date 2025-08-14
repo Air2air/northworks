@@ -5,8 +5,6 @@
 
 import React, { Suspense } from 'react';
 import { ContentItem } from '@/components/ui/ContentCard';
-import { getInterviews, getArticles, getWarnerLists } from '@/lib/content';
-import { ContentCard } from '@/components/ui/ContentCard';
 import dynamic from 'next/dynamic';
 import { loadInterviews, loadArticles, loadWarnerPortfolio, loadWarnerLists } from '@/lib/jsonData';
 
@@ -73,13 +71,7 @@ async function getAllContentData(): Promise<{
     });
     
     // Helper function to extract title from description
-    function extractTitle(description: string): string {
-      if (!description) return 'Professional Item';
-      // Take first 50 characters as title, ending at word boundary
-      const truncated = description.substring(0, 50);
-      const lastSpace = truncated.lastIndexOf(' ');
-      return lastSpace > 20 ? truncated.substring(0, lastSpace) + '...' : truncated;
-    }
+
     
     const warnerPortfolio = warnerData.portfolio_sections ? 
       warnerData.portfolio_sections.map((item: any) => convertWarnerToContentItem(item, 'portfolio_section')) : 

@@ -2,6 +2,7 @@ import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
 import { InterviewFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
 import ImageGallery from '@/components/ImageGallery';
+import PageTitle from '@/components/ui/PageTitle';
 import { cleanTitle } from '@/lib/pathUtils';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
@@ -43,7 +44,11 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
       <article className="max-w-4xl mx-auto">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{cleanTitle(frontmatter.title)}</h1>
+          <PageTitle 
+            title={frontmatter.title}
+            size="large"
+            align="left"
+          />
           
           {frontmatter.publication && (
             <div className="bg-gray-50 rounded-lg p-4 mb-6">

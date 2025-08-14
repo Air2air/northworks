@@ -15,8 +15,12 @@ export default function InterviewsIndexPage() {
       return (
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Interviews</h1>
-            <p className="text-gray-600">Content not found</p>
+            <PageTitle 
+              title="Interviews"
+              description="Content not found"
+              size="medium"
+              align="center"
+            />
           </div>
         </div>
       );
@@ -122,8 +126,12 @@ export default function InterviewsIndexPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Error</h1>
-          <p className="text-gray-600">Failed to load interviews. Please try again later.</p>
+          <PageTitle 
+            title="Error"
+            description="Failed to load interviews. Please try again later."
+            size="medium"
+            align="center"
+          />
         </div>
       </div>
     );

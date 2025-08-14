@@ -71,6 +71,108 @@ export function ContentCard({
   const primaryPerson = item.subject?.people?.[0];
   const publishDate = item.publication?.date ? new Date(item.publication.date) : null;
 
+  // Interview-style horizontal layout for detailed variant
+  if (variant === 'detailed') {
+    const cardStyles = `
+      bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow
+      ${className}
+    `;
+
+    const CardWrapper = ({ children }: { children: React.ReactNode }) => {
+      if (hasUrl) {
+        return (
+          <Link href={item.content.url!} className="block">
+            <article className={cardStyles} onClick={handleClick}>
+              {children}
+            </article>
+          </Link>
+        );
+      }
+      return (
+        <article className={cardStyles} onClick={handleClick}>
+          {children}
+        </article>
+      );
+    };
+
+    return (
+      <CardWrapper>
+        <div className="flex">
+          {/* Optional thumbnail */}
+          {showImage && thumbnail && (
+            <div className="flex-shrink-0 w-48 h-32 relative">
+              <img
+                src={thumbnail.url}
+                alt={thumbnail.alt || item.content.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+          
+          <div className="flex-1 p-6">
+            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              {hasUrl ? (
+                <span className="hover:text-blue-600 transition-colors">
+                  {item.content.title}
+                </span>
+              ) : (
+                <span>{item.content.title}</span>
+              )}
+            </h3>
+            
+            {/* Metadata row */}
+            {showPublication && (
+              <div className="text-sm text-gray-500 mb-3">
+                {item.publication?.date && (
+                  <span>{item.publication.date}</span>
+                )}
+                {item.publication?.publisher && (
+                  <span>{item.publication?.date ? ' • ' : ''}{item.publication.publisher}</span>
+                )}
+                {item.metadata.type && (
+                  <span>{(item.publication?.date || item.publication?.publisher) ? ' • ' : ''}{item.metadata.type}</span>
+                )}
+                {primaryPerson?.role && (
+                  <span>{(item.publication?.date || item.publication?.publisher || item.metadata.type) ? ' • ' : ''}{primaryPerson.role}</span>
+                )}
+              </div>
+            )}
+
+            {/* Tags */}
+            {showTags && item.tags && item.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-3">
+                {item.tags.slice(0, 5).map((tag, index) => (
+                  <span 
+                    key={index} 
+                    className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+                {item.tags.length > 5 && (
+                  <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
+                    +{item.tags.length - 5} more
+                  </span>
+                )}
+              </div>
+            )}
+
+            {/* Summary/Description */}
+            {item.content.summary && (
+              <p className="text-gray-600 text-sm">
+                {item.content.summary.length > 200 
+                  ? `${item.content.summary.substring(0, 200)}...`
+                  : item.content.summary
+                }
+              </p>
+            )}
+          </div>
+        </div>
+      </CardWrapper>
+    );
+  }
+
+  // Keep existing styles for other variants
   const cardStyles = `
     bg-white rounded-lg border border-gray-200 shadow-sm p-6 
     ${onItemClick || hasUrl ? 'cursor-pointer hover:shadow-md transition-shadow duration-200' : ''}
@@ -159,7 +261,7 @@ export function ContentCard({
           )}
 
           {/* Summary */}
-          {item.content.summary && variant === 'detailed' && (
+          {item.content.summary && variant === 'grid' && (
             <p className="text-sm text-gray-600 line-clamp-3">
               {item.content.summary}
             </p>

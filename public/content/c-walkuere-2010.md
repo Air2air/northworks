@@ -1,9 +1,10 @@
 ---
 conversion_date: '2025-08-13'
 converted_from_html: true
-id: c_Walkuere 2010publication:
-  date: June
-  publisher: Cheryl North
+id: c_Walkuere_2010
+publication:
+  date: "June"
+  publisher: "Cheryl North"
 subjects:
 - do is
 - in my
@@ -12,8 +13,8 @@ subjects:
 - San Francisco
 - she had
 - San Francisco Opera
-title: <b>Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde)
-  about the 2010 San Francisco Opera Production of <i>Die Walküre</i></b>
+title: Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde)
+  about the 2010 San Francisco Opera Production of <i>Die Walküre</i>
 type: article
 ---
 

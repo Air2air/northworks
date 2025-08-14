@@ -24,7 +24,7 @@ subjects:
   - Symphony
 title: >-
   <b>California Symphony season opens with Robert Moody, the first of seven
-  conductors auditioning for permanent post of music director</b>
+  conductors auditioning for permanent post of music director
 type: review
 ---
 

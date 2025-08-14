@@ -14,7 +14,7 @@
         "type": "index_page",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_articles.md"
+        "source_file": "c-articles.md"
       },
       "content": {
         "title": "Untitled",
@@ -154,7 +154,7 @@
         "type": "index_page",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_articles_deadman.md"
+        "source_file": "c-articles-deadman.md"
       },
       "content": {
         "title": "Untitled",
@@ -259,7 +259,7 @@
         "type": "index_page",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_interviews.md"
+        "source_file": "c-interviews.md"
       },
       "content": {
         "title": "New in 2018:",
@@ -976,7 +976,7 @@
         "type": "index_page",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_main.md"
+        "source_file": "c-main.md"
       },
       "content": {
         "title": "Untitled",

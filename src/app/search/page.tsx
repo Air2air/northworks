@@ -35,8 +35,8 @@ async function getAllContentData(): Promise<{
     const warnerListsPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
     const warnerListsData = JSON.parse(fs.readFileSync(warnerListsPath, 'utf8'));
     
-    // Convert Warner portfolio data to ContentItem format
-    const convertWarnerToContentItem = (item: any, category: string): ContentItem => ({
+    // Convert warner portfolio section to content item
+    const convertWarnerToContentItem = (item: any, category: string) => ({
       metadata: {
         id: item.id || Math.random().toString(),
         type: 'professional_document',
@@ -45,23 +45,24 @@ async function getAllContentData(): Promise<{
         status: 'published'
       },
       content: {
-        title: item.title || extractTitle(item.description),
-        summary: item.description || item.text || '',
-        url: item.url
+        title: item.content?.title || 'Professional Section',
+        summary: item.content?.summary || item.content?.excerpt || '',
+        excerpt: item.content?.excerpt || '',
+        full_content: item.content?.full_content || ''
       },
       subject: {
         people: [{
           name: "D. Warner North",
           role: category,
-          description: item.description || item.text
+          description: item.content?.summary || item.content?.excerpt || ''
         }]
       },
       publication: {
-        date: item.year ? `${item.year}-01-01` : undefined,
-        publisher: item.organization || "NorthWorks"
+        date: undefined,
+        publisher: "NorthWorks"
       },
       media: {},
-      tags: item.keywords || []
+      tags: item.professional_data?.organizations || []
     });
     
     // Helper function to extract title from description
@@ -73,12 +74,9 @@ async function getAllContentData(): Promise<{
       return lastSpace > 20 ? truncated.substring(0, lastSpace) + '...' : truncated;
     }
     
-    const warnerPortfolio = [
-      ...warnerData.portfolio.projects.map((item: any) => convertWarnerToContentItem(item, 'project')),
-      ...warnerData.portfolio.publications.map((item: any) => convertWarnerToContentItem(item, 'publication')),
-      ...warnerData.portfolio.positions.map((item: any) => convertWarnerToContentItem(item, 'position')),
-      ...warnerData.portfolio.affiliations.map((item: any) => convertWarnerToContentItem(item, 'affiliation'))
-    ];
+    const warnerPortfolio = warnerData.portfolio_sections ? 
+      warnerData.portfolio_sections.map((item: any) => convertWarnerToContentItem(item, 'portfolio_section')) : 
+      [];
     
     return {
       interviews: interviewsData.interviews || [],

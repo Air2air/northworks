@@ -223,63 +223,72 @@ export function InterviewGrid({
       )}
 
       {/* Interview Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-8">
+      <div className="grid gap-6 mb-8">
         {paginatedInterviews.map((interview) => (
           <div key={interview.metadata.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-            {/* Thumbnail */}
-            {interview.media.images.length > 0 && (
-              <div className="relative w-full h-32 bg-gray-200">
-                <Image
-                  src={interview.media.images[0].url}
-                  alt={interview.media.images[0].alt}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                />
-              </div>
-            )}
-            
-            {/* Content */}
-            <div className="p-4">
-              <h3 className="font-semibold text-lg text-gray-900 mb-2 line-clamp-2">
-                {interview.content.title}
-              </h3>
+            <div className="flex">
+              {/* Thumbnail */}
+              {interview.media.images.length > 0 && (
+                <div className="flex-shrink-0 w-48 h-32 relative">
+                  <Image
+                    src={interview.media.images[0].url}
+                    alt={interview.media.images[0].alt}
+                    fill
+                    className="object-cover"
+                    sizes="192px"
+                  />
+                </div>
+              )}
               
-              <p className="text-sm text-gray-600 mb-2">
-                {interview.subject.people[0]?.role}
-              </p>
-              
-              <p className="text-xs text-gray-500 mb-3">
-                {interview.publication.publisher} • {interview.publication.date}
-              </p>
-              
-              {/* Tags */}
-              <div className="flex flex-wrap gap-1 mb-3">
-                {interview.tags.slice(0, 3).map((tag, index) => (
-                  <span
-                    key={index}
-                    className="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full"
+              {/* Content */}
+              <div className="flex-1 p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  <Link
+                    href={`/interviews/${interview.metadata.id}`}
+                    className="hover:text-blue-600 transition-colors"
                   >
-                    {tag}
-                  </span>
-                ))}
-                {interview.tags.length > 3 && (
-                  <span className="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full">
-                    +{interview.tags.length - 3}
-                  </span>
+                    {interview.content.title}
+                  </Link>
+                </h3>
+                
+                <div className="text-sm text-gray-500 mb-3">
+                  {interview.publication.date && (
+                    <span>{interview.publication.date}</span>
+                  )}
+                  {interview.publication.publisher && (
+                    <span> • {interview.publication.publisher}</span>
+                  )}
+                  {interview.subject.people[0]?.role && (
+                    <span> • {interview.subject.people[0].role}</span>
+                  )}
+                </div>
+                
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {interview.tags.slice(0, 5).map((tag, index) => (
+                    <span
+                      key={index}
+                      className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                  {interview.tags.length > 5 && (
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
+                      +{interview.tags.length - 5} more
+                    </span>
+                  )}
+                </div>
+
+                {interview.content.summary && (
+                  <p className="text-gray-600 text-sm">
+                    {interview.content.summary.length > 200 
+                      ? `${interview.content.summary.substring(0, 200)}...`
+                      : interview.content.summary
+                    }
+                  </p>
                 )}
               </div>
-              
-              {/* Read More Link */}
-              <Link
-                href={`/interviews/${interview.metadata.id}`}
-                className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 font-medium"
-              >
-                Read interview
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
             </div>
           </div>
         ))}

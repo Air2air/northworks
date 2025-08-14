@@ -14,7 +14,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_Ring_Legend.md"
+        "source_file": "c-art-ring-legend.md"
       },
       "content": {
         "title": "Berkeley Opera: Wagner Ring Cycle Condensed",
@@ -138,7 +138,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_brain.md"
+        "source_file": "c-art-brain.md"
       },
       "content": {
         "title": "How Music Trains the Brain",
@@ -251,7 +251,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_casablanca.md"
+        "source_file": "c-art-casablanca.md"
       },
       "content": {
         "title": "Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca",
@@ -361,7 +361,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_coco.md"
+        "source_file": "c-art-coco.md"
       },
       "content": {
         "title": "High-Tech Hand-Held Concert Companion for Symphony Audiences",
@@ -495,7 +495,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_fremontoperagasser.md"
+        "source_file": "c-art-fremontoperagasser.md"
       },
       "content": {
         "title": "Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is Achieving Deserved Recognition",
@@ -620,7 +620,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_gergiev9.md"
+        "source_file": "c-art-gergiev9.md"
       },
       "content": {
         "title": "Gergiev Conducts Beethoven 9th in Rotterdam",
@@ -765,7 +765,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_heggie.md"
+        "source_file": "c-art-heggie.md"
       },
       "content": {
         "title": "Composer Jake Heggie: An Update",
@@ -897,7 +897,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_national_anthem.md"
+        "source_file": "c-art-national-anthem.md"
       },
       "content": {
         "title": "Our National Anthem: A Musical Perspective",
@@ -1006,7 +1006,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_natlsymph.md"
+        "source_file": "c-art-natlsymph.md"
       },
       "content": {
         "title": "National Symphony Orchestra Plays Music from the 1940s",
@@ -1133,7 +1133,7 @@
         "type": "feature_article",
         "category": "classical_music",
         "status": "published",
-        "source_file": "c_art_wozzeck.md"
+        "source_file": "c-art-wozzeck.md"
       },
       "content": {
         "title": "Ensemble Parallele: Wozzeck at Yerba Buena",

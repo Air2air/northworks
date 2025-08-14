@@ -258,28 +258,28 @@ function loadJsonData<T>(filename: string): T {
  * Load interviews data
  */
 export function loadInterviews(): InterviewsData {
-  return loadJsonData<InterviewsData>('interviews.json');
+  return loadJsonData<InterviewsData>('interviews-specialized.json');
 }
 
 /**
  * Load articles data
  */
 export function loadArticles(): ArticlesData {
-  return loadJsonData<ArticlesData>('articles.json');
+  return loadJsonData<ArticlesData>('articles-specialized.json');
 }
 
 /**
  * Load profile data
  */
 export function loadProfile(): ProfileData {
-  return loadJsonData<ProfileData>('profile.json');
+  return loadJsonData<ProfileData>('reviews-specialized.json');
 }
 
 /**
  * Load data index
  */
 export function loadDataIndex(): DataIndex {
-  return loadJsonData<DataIndex>('index.json');
+  return loadJsonData<DataIndex>('data-manifest.json');
 }
 
 /**

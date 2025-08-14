@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Temporary files
+test-*.js
+analyze-*.js
+
+# Analysis output
+*_ANALYSIS.md
+*_CLEANUP_PLAN.md

@@ -14,7 +14,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_background.md"
+        "source_file": "w-background.md"
       },
       "content": {
         "title": "Arts Organization Board Roles",
@@ -134,7 +134,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_epasab1990.md"
+        "source_file": "w-epasab1990.md"
       },
       "content": {
         "title": "Professional Music Organizations",
@@ -255,7 +255,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_main.md"
+        "source_file": "w-main.md"
       },
       "content": {
         "title": "Arts Organization Board Roles",
@@ -482,7 +482,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_northworks.md"
+        "source_file": "w-northworks.md"
       },
       "content": {
         "title": "NorthWorks Consulting",
@@ -618,7 +618,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_projects.md"
+        "source_file": "w-projects.md"
       },
       "content": {
         "title": "Strategic Arts Consulting",
@@ -981,7 +981,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_projects_government.md"
+        "source_file": "w-projects-government.md"
       },
       "content": {
         "title": "Strategic Arts Consulting",
@@ -1109,7 +1109,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_projects_nrc.md"
+        "source_file": "w-projects-nrc.md"
       },
       "content": {
         "title": "Main Publications",
@@ -1372,7 +1372,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_projects_stanford.md"
+        "source_file": "w-projects-stanford.md"
       },
       "content": {
         "title": "Strategic Arts Consulting",
@@ -1518,7 +1518,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_pub.md"
+        "source_file": "w-pub.md"
       },
       "content": {
         "title": "Professional Music Organizations",
@@ -1948,7 +1948,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_pub_seif-iv.md"
+        "source_file": "w-pub-seif-iv.md"
       },
       "content": {
         "title": "Publication Authorship",
@@ -2156,7 +2156,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_pub_stuttgart.md"
+        "source_file": "w-pub-stuttgart.md"
       },
       "content": {
         "title": "Academic Music Research Publications",
@@ -2338,7 +2338,7 @@
         "type": "portfolio_section",
         "category": "professional_biography",
         "status": "published",
-        "source_file": "w_pub_vniigaz.md"
+        "source_file": "w-pub-vniigaz.md"
       },
       "content": {
         "title": "Publication Authorship",

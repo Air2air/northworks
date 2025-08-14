@@ -145,27 +145,78 @@ function ProfessionalList({
       {/* Content */}
       {expanded && (
         <div className="px-4 pb-4">
-          <div className="space-y-3">
+          <div className="space-y-4">
             {displayItems.map((item, index) => (
-              <div 
+              <article 
                 key={index} 
-                className="p-3 bg-gray-50 rounded-md hover:bg-gray-100 transition-colors"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
-                    <h4 className="font-medium text-gray-900 mb-1">
-                      {item.content?.title || item.title || item.text || 'Untitled'}
+                <div className="flex">
+                  {/* Optional image placeholder - can be added later */}
+                  <div className="flex-1 p-6">
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      {(item.content?.url || item.url) ? (
+                        <a 
+                          href={item.content?.url || item.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-blue-600 transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {item.content?.title || item.title || item.text || 'Untitled'}
+                        </a>
+                      ) : (
+                        <span>{item.content?.title || item.title || item.text || 'Untitled'}</span>
+                      )}
                     </h4>
                     
+                    {/* Metadata row */}
+                    <div className="text-sm text-gray-500 mb-3">
+                      {(item.date || item.dateRange) && (
+                        <span>{item.date || item.dateRange}</span>
+                      )}
+                      {item.organization && (
+                        <span>{(item.date || item.dateRange) ? ' • ' : ''}{item.organization}</span>
+                      )}
+                      {item.type && (
+                        <span>{(item.date || item.dateRange || item.organization) ? ' • ' : ''}{item.type}</span>
+                      )}
+                    </div>
+
+                    {/* Tags */}
+                    {item.tags && item.tags.length > 0 && (
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {item.tags.slice(0, 5).map((tag, tagIndex) => (
+                          <span 
+                            key={tagIndex} 
+                            className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {item.tags.length > 5 && (
+                          <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
+                            +{item.tags.length - 5} more
+                          </span>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Description */}
                     {(item.content?.summary || item.description) && (
-                      <p className="text-sm text-gray-600 mb-2">
-                        {item.content?.summary || item.description}
+                      <p className="text-gray-600 text-sm mb-3">
+                        {(() => {
+                          const description = item.content?.summary || item.description || '';
+                          return description.length > 200 
+                            ? `${description.substring(0, 200)}...`
+                            : description;
+                        })()}
                       </p>
                     )}
                     
                     {/* Sub-items */}
                     {item.subItems && item.subItems.length > 0 && (
-                      <ul className="mt-2 ml-4 space-y-1">
+                      <ul className="mt-3 ml-4 space-y-1">
                         {item.subItems.map((subItem, subIndex) => (
                           <li key={subIndex} className="text-sm text-gray-600 flex items-start">
                             <span className="text-gray-400 mr-2">•</span>
@@ -174,66 +225,9 @@ function ProfessionalList({
                         ))}
                       </ul>
                     )}
-                    
-                    <div className="flex flex-wrap gap-2 text-xs text-gray-500">
-                      {item.organization && (
-                        <span className="bg-white px-2 py-1 rounded">
-                          🏢 {item.organization}
-                        </span>
-                      )}
-                      {(item.date || item.dateRange) && (
-                        <span className="bg-white px-2 py-1 rounded">
-                          📅 {item.date || item.dateRange}
-                        </span>
-                      )}
-                      {item.type && (
-                        <span className="bg-white px-2 py-1 rounded">
-                          🏷️ {item.type}
-                        </span>
-                      )}
-                    </div>
-                    
-                    {item.tags && item.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mt-2">
-                        {item.tags.slice(0, 3).map((tag, tagIndex) => (
-                          <span 
-                            key={tagIndex} 
-                            className={`px-2 py-1 text-xs rounded-full ${
-                              color === 'blue' ? 'bg-blue-100 text-blue-800' :
-                              color === 'green' ? 'bg-green-100 text-green-800' :
-                              color === 'purple' ? 'bg-purple-100 text-purple-800' :
-                              color === 'orange' ? 'bg-orange-100 text-orange-800' :
-                              color === 'red' ? 'bg-red-100 text-red-800' :
-                              color === 'yellow' ? 'bg-yellow-100 text-yellow-800' :
-                              color === 'indigo' ? 'bg-indigo-100 text-indigo-800' :
-                              'bg-gray-100 text-gray-800'
-                            }`}
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.length > 3 && (
-                          <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-600">
-                            +{item.tags.length - 3} more
-                          </span>
-                        )}
-                      </div>
-                    )}
                   </div>
-                  
-                  {(item.content?.url || item.url) && (
-                    <a 
-                      href={item.content?.url || item.url} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 text-sm font-medium ml-3"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      View →
-                    </a>
-                  )}
                 </div>
-              </div>
+              </article>
             ))}
           </div>
           

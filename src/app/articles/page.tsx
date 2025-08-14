@@ -85,63 +85,65 @@ export default function ArticlesPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
               {indexArticles.length > 0 ? 'Additional Features' : 'All Articles'}
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid gap-6">
               {individualArticles.map((article) => {
                 const frontmatter = article.frontmatter as ArticleFrontmatter;
                 const heroImage = frontmatter.images?.[0];
                 
                 return (
                   <article key={article.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                    {heroImage && (
-                      <div className="aspect-video relative">
-                        <Image
-                          src={heroImage.src}
-                          alt={heroImage.alt || cleanTitle(frontmatter.title)}
-                          fill
-                          className="object-cover"
-                        />
+                    <div className="flex">
+                      {heroImage && (
+                        <div className="flex-shrink-0 w-48 h-32 relative">
+                          <Image
+                            src={heroImage.src}
+                            alt={heroImage.alt || cleanTitle(frontmatter.title)}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      )}
+                      <div className="flex-1 p-6">
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                          <Link 
+                            href={`/articles/${article.slug}`}
+                            className="hover:text-blue-600 transition-colors"
+                          >
+                            {cleanTitle(frontmatter.title)}
+                          </Link>
+                        </h3>
+                        
+                        {frontmatter.publication && (
+                          <div className="text-sm text-gray-500 mb-3">
+                            {frontmatter.publication.date && (
+                              <span>{frontmatter.publication.date}</span>
+                            )}
+                            {frontmatter.publication.publisher && (
+                              <span> • {frontmatter.publication.publisher}</span>
+                            )}
+                            {frontmatter.publication.author && (
+                              <span> • By {frontmatter.publication.author}</span>
+                            )}
+                          </div>
+                        )}
+
+                        {frontmatter.subjects && frontmatter.subjects.length > 0 && (
+                          <div className="flex flex-wrap gap-2 mb-3">
+                            {frontmatter.subjects.slice(0, 5).map((subject, index) => (
+                              <span 
+                                key={index}
+                                className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                              >
+                                {subject}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+
+                        <p className="text-gray-600 text-sm line-clamp-3">
+                          {article.content.substring(0, 150).replace(/[#*_]/g, '')}...
+                        </p>
                       </div>
-                    )}
-                    <div className="p-6">
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                        <Link 
-                          href={`/articles/${article.slug}`}
-                          className="hover:text-blue-600 transition-colors"
-                        >
-                          {cleanTitle(frontmatter.title)}
-                        </Link>
-                      </h3>
-                      
-                      {frontmatter.publication && (
-                        <div className="text-sm text-gray-500 mb-3">
-                          {frontmatter.publication.date && (
-                            <span>{frontmatter.publication.date}</span>
-                          )}
-                          {frontmatter.publication.publisher && (
-                            <span> • {frontmatter.publication.publisher}</span>
-                          )}
-                          {frontmatter.publication.author && (
-                            <span> • By {frontmatter.publication.author}</span>
-                          )}
-                        </div>
-                      )}
-
-                      {frontmatter.subjects && frontmatter.subjects.length > 0 && (
-                        <div className="flex flex-wrap gap-2 mb-3">
-                          {frontmatter.subjects.slice(0, 3).map((subject, index) => (
-                            <span 
-                              key={index}
-                              className="inline-block px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full"
-                            >
-                              {subject}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-
-                      <p className="text-gray-600 text-sm line-clamp-3">
-                        {article.content.substring(0, 150).replace(/[#*_]/g, '')}...
-                      </p>
                     </div>
                   </article>
                 );

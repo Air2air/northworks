@@ -275,77 +275,70 @@ export function ArticleList({
       )}
 
       {/* Articles */}
-      <div className={layout === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8' : 'space-y-6 mb-8'}>
+      <div className="grid gap-6 mb-8">
         {paginatedArticles.map((article) => (
           <article 
             key={article.metadata.id} 
-            className={layout === 'grid' 
-              ? 'bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow'
-              : 'bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow'
-            }
+            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <div className={layout === 'grid' ? 'p-6' : ''}>
-              {/* Type badge */}
-              <div className="flex items-center justify-between mb-2">
-                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                  {formatType(article.metadata.subcategory)}
-                </span>
-                <time className="text-sm text-gray-500">
-                  {formatDate(article.publication.date)}
-                </time>
-              </div>
-              
-              {/* Title and headline */}
-              <h3 className="font-bold text-xl text-gray-900 mb-2 line-clamp-2">
-                {article.content.title}
-              </h3>
-              
-              {article.content.headline && article.content.headline !== article.content.title && (
-                <h4 className="font-medium text-lg text-gray-700 mb-2 line-clamp-2">
-                  {article.content.headline}
-                </h4>
-              )}
-              
-              {/* Summary */}
-              <p className="text-gray-600 mb-4 line-clamp-3">
-                {article.content.summary}
-              </p>
-              
-              {/* Publication info */}
-              <div className="text-sm text-gray-500 mb-3">
-                <span className="font-medium">{article.publication.publisher}</span>
-                {article.publication.section && (
-                  <span> • {article.publication.section}</span>
+            <div className="flex">
+              {/* Optional image placeholder - can be added later if needed */}
+              <div className="flex-1 p-6">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+                    {formatType(article.metadata.subcategory)}
+                  </span>
+                  <time className="text-sm text-gray-500">
+                    {formatDate(article.publication.date)}
+                  </time>
+                </div>
+                
+                {/* Title and headline */}
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  {article.content.title}
+                </h3>
+                
+                {article.content.headline && article.content.headline !== article.content.title && (
+                  <h4 className="font-medium text-lg text-gray-700 mb-2">
+                    {article.content.headline}
+                  </h4>
+                )}
+                
+                {/* Publication info */}
+                <div className="text-sm text-gray-500 mb-3">
+                  <span className="font-medium">{article.publication.publisher}</span>
+                  {article.publication.section && (
+                    <span> • {article.publication.section}</span>
+                  )}
+                </div>
+                
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {article.tags.slice(0, 5).map((tag, index) => (
+                    <span
+                      key={index}
+                      className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                  {article.tags.length > 5 && (
+                    <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-600 rounded-full">
+                      +{article.tags.length - 5} more
+                    </span>
+                  )}
+                </div>
+                
+                {/* Summary */}
+                {article.content.summary && (
+                  <p className="text-gray-600 text-sm">
+                    {article.content.summary.length > 200 
+                      ? `${article.content.summary.substring(0, 200)}...`
+                      : article.content.summary
+                    }
+                  </p>
                 )}
               </div>
-              
-              {/* Tags */}
-              <div className="flex flex-wrap gap-1 mb-4">
-                {article.tags.slice(0, 4).map((tag, index) => (
-                  <span
-                    key={index}
-                    className="px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-                {article.tags.length > 4 && (
-                  <span className="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full">
-                    +{article.tags.length - 4}
-                  </span>
-                )}
-              </div>
-              
-              {/* Read More Link */}
-              <Link
-                href={`/articles/${article.metadata.id}`}
-                className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 font-medium"
-              >
-                Read article
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
             </div>
           </article>
         ))}

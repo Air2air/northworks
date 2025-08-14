@@ -10,6 +10,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
+  date: 
   publisher: Wolfgang Amadeus
 subjects:
   - Bass

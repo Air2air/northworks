@@ -21,7 +21,7 @@ async function getWarnerPortfolioData(): Promise<{
   }
 }> {
   try {
-    const dataPath = path.join(process.cwd(), 'src/data/warner-portfolio.json');
+    const dataPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
     const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     
     // Convert to ContentItem format for compatibility

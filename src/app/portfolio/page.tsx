@@ -21,8 +21,8 @@ async function getPortfolioData() {
     const warnerListsData = JSON.parse(fs.readFileSync(warnerListsPath, 'utf8'));
     
     return {
-      portfolio: warnerData.portfolio,
-      biography: warnerData.portfolio.biography,
+      portfolio: warnerData.portfolio_sections || [],
+      biography: warnerData.portfolio_sections?.[0]?.content || {},
       lists: warnerListsData.lists || {},
       metadata: warnerData.metadata || {}
     };

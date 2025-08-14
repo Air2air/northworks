@@ -52,7 +52,7 @@ export const getStaticProps: GetStaticProps<InterviewsPageProps> = async () => {
             featured: true
           },
           content: {
-            title: "Interviews",
+            title: Interviews",
             summary: "Interview collection temporarily unavailable",
             body: ""
           },

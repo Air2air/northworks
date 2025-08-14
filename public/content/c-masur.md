@@ -18,7 +18,7 @@ subjects:
   - Piano
   - San Francisco Symphony
   - Symphony
-title: <b>Cheryl North Interviews Kurt Masur</b>
+title: Cheryl North Interviews Kurt Masur
 type: article
 ---
 

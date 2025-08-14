@@ -14,7 +14,7 @@ async function getOverviewStats() {
     // Load all data sources for statistics
     const interviewsPath = path.join(process.cwd(), 'src/data/interviews-specialized.json');
     const articlesPath = path.join(process.cwd(), 'src/data/articles-specialized.json');
-    const warnerPortfolioPath = path.join(process.cwd(), 'src/data/warner-portfolio.json');
+    const warnerPortfolioPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
     const warnerListsPath = path.join(process.cwd(), 'src/data/warner-portfolio-specialized.json');
     
     const interviews = JSON.parse(fs.readFileSync(interviewsPath, 'utf8'));

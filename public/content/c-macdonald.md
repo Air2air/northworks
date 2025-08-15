@@ -2,19 +2,19 @@
 conversion date: "2025-08-13"
 id: c-macdonald
 publication:
- date: April 16, 2010
- publisher: Bay Area News Group Classical Music Column
+  date: April 16, 2010
+  publisher: Bay Area News Group Classical Music Column
 subjects:
- - to her
- - aunts toured
- - you dad
- - the remarkable
- - scheduled to
- - Sperling will
- - diverse achievements
- - well as
- - even still
- - classically trained
+  - to her
+  - aunts toured
+  - you dad
+  - the remarkable
+  - scheduled to
+  - Sperling will
+  - diverse achievements
+  - well as
+  - even still
+  - classically trained
 title: Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010
 type: interview
 ---

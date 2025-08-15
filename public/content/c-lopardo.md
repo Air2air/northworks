@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-lopardo
 images:
-- height: 139
- src: /images/frank-lopardo.jpg
- width: 183
+  - height: 139
+    src: /images/frank-lopardo.jpg
+    width: 183
 publication:
- date: September 21, 2001
- publisher: *ANG Newspapers Classical Music Column
+  date: September 21, 2001
+  publisher: "ANG Newspapers Classical Music Column"
 subjects:
-- Giuseppe Verdi
-- Johann Sebastian Bach
-- Metropolitan Opera
-- Opera
-- Richard Wagner
-- Rigoletto
-- San Francisco Opera
-- Tenor
-- Wolfgang Amadeus Mozart
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Metropolitan Opera
+  - Opera
+  - Richard Wagner
+  - Rigoletto
+  - San Francisco Opera
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Frank Lopardo
 type: interview
 ---

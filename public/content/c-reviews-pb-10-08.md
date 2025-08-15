@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-reviews-pb-10-08
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- author: Cheryl North
- date: October
- publisher: Oakland Tribune
+  author: Cheryl North
+  date: October
+  publisher: Oakland Tribune
 subjects:
-- Concert Review
-- Concerto
-- Conducting
-- Contra Costa Times
-- Johann Sebastian Bach
-- Oakland Tribune
-- Performance
-- Philharmonia Baroque Revisits
-- Violin
+  - Concert Review
+  - Concerto
+  - Conducting
+  - Contra Costa Times
+  - Johann Sebastian Bach
+  - Oakland Tribune
+  - Performance
+  - Philharmonia Baroque Revisits
+  - Violin
 title: Untitled
 type: review
 ---

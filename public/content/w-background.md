@@ -2,12 +2,12 @@
 conversion date: '2025-08-13'
 id: w-background
 images:
-- height: 28
- src: /images/title-background.gif
- width: 250
+  - height: 28
+    src: /images/title-background.gif
+    width: 250
 publication:
- date: null
- publisher: the Decision
+  date: null
+  publisher: the Decision
 title: Untitled
 type: biography
 ---

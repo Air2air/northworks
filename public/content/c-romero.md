@@ -2,29 +2,29 @@
 conversion date: '2025-08-13'
 id: c-romero
 images:
-- height: 28
- src: /images/title-gray-romeros.gif
- width: 220
-- height: 224
- src: /images/celedonio-romero.jpg
- width: 220
-- height: 260
- src: /images/romeros.jpg
- width: 220
+  - height: 28
+    src: /images/title-gray-romeros.gif
+    width: 220
+  - height: 224
+    src: /images/celedonio-romero.jpg
+    width: 220
+  - height: 260
+    src: /images/romeros.jpg
+    width: 220
 publication:
- author: such typical
- date: July
- publisher: San Mateo County Times
+  author: such typical
+  date: July
+  publisher: San Mateo County Times
 subjects:
-- activities as
-- love to
-- professional soccer
-- He even
-- seven grandchildren
-- he has
-- when he
-- San Francisco Symphony
-- Davies Symphony Hall
+  - activities as
+  - love to
+  - professional soccer
+  - He even
+  - seven grandchildren
+  - he has
+  - when he
+  - San Francisco Symphony
+  - Davies Symphony Hall
 title: Celino Romero Interview
 type: interview
 ---

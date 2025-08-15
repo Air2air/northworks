@@ -2,20 +2,20 @@
 conversion date: '2025-08-13'
 id: c-rubin
 images:
-- height: 140
- src: /images/nathan-rubin.jpg
- width: 144
+  - height: 140
+    src: /images/nathan-rubin.jpg
+    width: 144
 publication:
- date: January
- publisher: such avant
+  date: January
+  publisher: such avant
 subjects:
-- same person
-- be found
-- pop orchestra
-- served as
-- San Francisco Symphony
-- San Francisco ballet
-- Oakland Symphony
+  - same person
+  - be found
+  - pop orchestra
+  - served as
+  - San Francisco Symphony
+  - San Francisco ballet
+  - Oakland Symphony
 title: Untitled
 type: interview
 ---

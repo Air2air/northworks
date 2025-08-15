@@ -2,25 +2,25 @@
 conversion date: "2025-08-13"
 id: c-reviews-calif-symphony-9-30-2012
 images:
- - height: 28
- src: /images/title-reviews.gif
- width: 250
- - height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: September 30 2012
- publisher: Bay Area News Group
+  date: September 30 2012
+  publisher: Bay Area News Group
 subjects:
- - Bass
- - California Symphony
- - Concert Review
- - Concerto
- - Conducting
- - Piano
- - Robert Moody
- - Sergei Rachmaninoff
- - Symphony
+  - Bass
+  - California Symphony
+  - Concert Review
+  - Concerto
+  - Conducting
+  - Piano
+  - Robert Moody
+  - Sergei Rachmaninoff
+  - Symphony
 title: California Symphony season opens with Robert Moody, the first of seven conductors auditioning for permanent post of music director
 type: review
 ---

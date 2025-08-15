@@ -52,19 +52,18 @@ export default async function PortfolioPage() {
       />
       
       <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg mb-12">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">Professional Summary</h2>
-          <p className="text-gray-700 leading-relaxed">
-            {biography.overview?.text || 'Distinguished professional with extensive experience in risk analysis, decision analysis, environmental protection, and management science.'}
-          </p>
-          {biography.currentPosition && (
-            <div className="mt-4 p-4 bg-white rounded-lg">
-              <h3 className="font-semibold text-gray-900">Current Position</h3>
-              <p className="text-gray-700">
-                {biography.currentPosition.title} at {biography.currentPosition.organization}, {biography.currentPosition.location}
-              </p>
-            </div>
-          )}
-        </div>
+        <h2 className="text-lg font-semibold text-gray-900 mb-4">Professional Summary</h2>
+        <p className="text-gray-700 leading-relaxed">
+          {biography.overview?.text || 'Distinguished professional with extensive experience in risk analysis, decision analysis, environmental protection, and management science.'}
+        </p>
+        {biography.currentPosition && (
+          <div className="mt-4 p-4 bg-white rounded-lg">
+            <h3 className="font-semibold text-gray-900">Current Position</h3>
+            <p className="text-gray-700">
+              {biography.currentPosition.title} at {biography.currentPosition.organization}, {biography.currentPosition.location}
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Key Expertise Areas */}

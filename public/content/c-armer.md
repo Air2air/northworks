@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-armer
 images:
-- height: 200
- src: /images/elinor-armer.jpg
- width: 160
+  - height: 200
+    src: /images/elinor-armer.jpg
+    width: 160
 publication:
- date: November 18, 1995
- publisher: ANG Newspapers
+  date: November 18, 1995
+  publisher: ANG Newspapers
 subjects:
-- Elinor Armer
-- Interview
-- Island Earth
-- Johann Sebastian Bach
-- Music Article
-- Performance
-- Piano
-- Premiere
-- Ursula Le Guin
-- World Premiere
+  - Elinor Armer
+  - Interview
+  - Island Earth
+  - Johann Sebastian Bach
+  - Music Article
+  - Performance
+  - Piano
+  - Premiere
+  - Ursula Le Guin
+  - World Premiere
 title: Cheryl North Interviews Elinor Armer
 type: interview
 ---

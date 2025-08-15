@@ -2,25 +2,25 @@
 conversion date: '2025-08-13'
 id: c-articles
 images:
-- height: 28
- src: /images/title-articles.gif
- width: 250
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-articles.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: July
- publisher: Richard Wagner
+  date: July
+  publisher: Richard Wagner
 subjects:
-- Berkeley Opera Production
-- Ludwig van Beethoven
-- Merola Opera Program
-- Opera
-- Premiere
-- Richard Wagner
-- San Francisco Opera
-- Symphony
-- World Premiere
+  - Berkeley Opera Production
+  - Ludwig van Beethoven
+  - Merola Opera Program
+  - Opera
+  - Premiere
+  - Richard Wagner
+  - San Francisco Opera
+  - Symphony
+  - World Premiere
 title: Untitled
 type: article
 ---

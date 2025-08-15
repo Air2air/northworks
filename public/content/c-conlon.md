@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-conlon
 images:
-- height: 125
- src: /images/james-conlon-conducting.jpg
- width: 173
+  - height: 125
+    src: /images/james-conlon-conducting.jpg
+    width: 173
 publication:
- date: June 2, 2006
- publisher: ANG Newspapers Classical Music Column
+  date: June 2, 2006
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Baritone
-- Franz Liszt
-- Giuseppe Verdi
-- Gustav Mahler
-- Mezzo-soprano
-- Opera
-- Pyotr Ilyich Tchaikovsky
-- Soprano
-- Symphony
-- Tenor
+  - Baritone
+  - Franz Liszt
+  - Giuseppe Verdi
+  - Gustav Mahler
+  - Mezzo-soprano
+  - Opera
+  - Pyotr Ilyich Tchaikovsky
+  - Soprano
+  - Symphony
+  - Tenor
 title: James Conlon - Conductor trying to preserve musical legacy
 type: interview
 ---

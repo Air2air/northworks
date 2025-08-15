@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-delavan
 images:
-- height: 137
- src: /images/delavan-mark.jpg
- width: 175
+  - height: 137
+    src: /images/delavan-mark.jpg
+    width: 175
 publication:
- date: June 13, 2003
- publisher: ANG Newspapers Classical Music Column
+  date: June 13, 2003
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Baritone
-- Davies Symphony Hall
-- Johann Sebastian Bach
-- Opera
-- Richard Wagner
-- San Francisco Opera
-- San Francisco Symphony
-- Soprano
-- Symphony
-- Tosca
+  - Baritone
+  - Davies Symphony Hall
+  - Johann Sebastian Bach
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Tosca
 title: Cheryl North Interviews Mark Delavan
 type: interview
 ---

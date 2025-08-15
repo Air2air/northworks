@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-bates
 images:
-- height: 160
- src: /images/thm-bates.jpg
- width: 160
-- height: 200
- src: /images/leon-bates.jpg
- width: 200
+  - height: 160
+    src: /images/thm-bates.jpg
+    width: 160
+  - height: 200
+    src: /images/leon-bates.jpg
+    width: 200
 publication:
- date: April 5, 2002
- publisher: ANG Newspapers Classical Music Column
+  date: April 5, 2002
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- programs were
-- heard me
-- when we
-- piano or
-- helped me
-- He has
+  - programs were
+  - heard me
+  - when we
+  - piano or
+  - helped me
+  - He has
 title: Cheryl North Interviews Leon Bates
 type: interview
 ---

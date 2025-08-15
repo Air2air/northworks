@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-reviews-sfo-faust-6-10
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: June
- publisher: Cheryl North
+  date: June
+  publisher: Cheryl North
 subjects:
-- Francisco Opera
-- his debut
-- acting and
-- lively chorus
-- San Francisco Opera
-- War Memorial Opera House
+  - Francisco Opera
+  - his debut
+  - acting and
+  - lively chorus
+  - San Francisco Opera
+  - War Memorial Opera House
 title: Untitled
 type: review
 ---

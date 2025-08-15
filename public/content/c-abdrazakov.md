@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-abdrazakov
 images:
-- height: 213
- src: /images/ildar-abdrazakov-and-cheryl-north.jpg
- width: 154
+  - height: 213
+    src: /images/ildar-abdrazakov-and-cheryl-north.jpg
+    width: 154
 publication:
- date: August 30, 2013
- publisher: Bay Area News Group
+  date: August 30, 2013
+  publisher: Bay Area News Group
 subjects:
-- Aida
-- Don Giovanni
-- Giuseppe Verdi
-- Opera
-- San Francisco Opera
-- Soprano
-- Tenor
-- War Memorial Opera House
-- Wolfgang Amadeus Mozart
+  - Aida
+  - Don Giovanni
+  - Giuseppe Verdi
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - War Memorial Opera House
+  - Wolfgang Amadeus Mozart
 title: Ildar Abdrazakov sings like the devil in San Francisco Opera's Mefistofele
 type: interview
 ---

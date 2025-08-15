@@ -2,27 +2,27 @@
 conversion date: '2025-08-13'
 id: w-northworks
 images:
-- height: 28
- src: /images/titlewarner.gif
- width: 250
-- height: 92
- src: /images/warnersm.gif
- width: 70
-- height: 28
- src: /images/titlecheryl.gif
- width: 250
-- height: 92
- src: /images/cherylsm.gif
- width: 70
-- height: 28
- src: /images/titlegrayvolodos.gif
- width: 220
-- height: 70
- src: /images/thmvolodos.jpg
- width: 70
+  - height: 28
+    src: /images/titlewarner.gif
+    width: 250
+  - height: 92
+    src: /images/warnersm.gif
+    width: 70
+  - height: 28
+    src: /images/titlecheryl.gif
+    width: 250
+  - height: 92
+    src: /images/cherylsm.gif
+    width: 70
+  - height: 28
+    src: /images/titlegrayvolodos.gif
+    width: 220
+  - height: 70
+    src: /images/thmvolodos.jpg
+    width: 70
 publication:
- date: ''
- publisher: ''
+  date: ''
+  publisher: ''
 title: NorthWorks Consulting
 type: company
 ---

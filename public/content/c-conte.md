@@ -3,19 +3,19 @@ conversion date: '2025-08-13'
 id: c-conte
 images: null
 publication:
- date: October 1, 2010
- publisher: Bay Area News Group Classical Music Column
+  date: October 1, 2010
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- Aria
-- Baritone
-- Conducting
-- Interview
-- Opera
-- Piano
-- Premiere
-- Soprano
-- Symphony
-- Violin
+  - Aria
+  - Baritone
+  - Conducting
+  - Interview
+  - Opera
+  - Piano
+  - Premiere
+  - Soprano
+  - Symphony
+  - Violin
 title: Cheryl North Interviews Composer David Conte
 type: interview
 ---

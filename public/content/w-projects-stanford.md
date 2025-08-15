@@ -2,36 +2,36 @@
 conversion date: '2025-08-13'
 id: w-projects-stanford
 images:
-- height: 28
- src: /images/title-experience-stanford.gif
- width: 230
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 50
- src: /images/logo-stan.gif
- width: 50
-- height: 175
- src: /images/stanford.gif
- width: 220
-- height: 39
- src: /images/title-stanford.gif
- width: 220
+  - height: 28
+    src: /images/title-experience-stanford.gif
+    width: 230
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 50
+    src: /images/logo-stan.gif
+    width: 50
+  - height: 175
+    src: /images/stanford.gif
+    width: 220
+  - height: 39
+    src: /images/title-stanford.gif
+    width: 220
 title: Untitled
 type: article
 ---

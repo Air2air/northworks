@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-villazon
 images:
-- height: 200
- src: /images/rolando-villazon.jpg
- width: 160
+  - height: 200
+    src: /images/rolando-villazon.jpg
+    width: 160
 publication:
- date: September
+  date: September
 subjects:
-- slated to
-- Classical music
-- records he
-- words and
-- asked to
-- an opera
-- trip to
-- hear him
-- Rolando to
-- he is
+  - slated to
+  - Classical music
+  - records he
+  - words and
+  - asked to
+  - an opera
+  - trip to
+  - hear him
+  - Rolando to
+  - he is
 title: Cheryl North Interviews Rolando Villazon
 type: interview
 ---

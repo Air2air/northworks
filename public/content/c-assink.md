@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-assink
 images:
-- height: 150
- src: /images/assink.jpg
- width: 112
+  - height: 150
+    src: /images/assink.jpg
+    width: 112
 publication:
- date: October 28, 2005
- publisher: ANG Newspapers Classical Music Column
+  date: October 28, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Baritone
-- Concerto
-- Conducting
-- Franz Liszt
-- Piano
-- San Francisco Symphony
-- Soprano
-- Symphony
-- Tenor
-- Wolfgang Amadeus Mozart
+  - Baritone
+  - Concerto
+  - Conducting
+  - Franz Liszt
+  - Piano
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Interview with Brent Assink, on the new "6.5" Format
 type: interview
 ---

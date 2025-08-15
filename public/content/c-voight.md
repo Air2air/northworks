@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-voight
 images:
-- height: 305
- src: /images/voight-deborah.jpg
- width: 200
-- height: 596
- src: /images/voight-salome.jpg
- width: 200
+  - height: 305
+    src: /images/voight-deborah.jpg
+    width: 200
+  - height: 596
+    src: /images/voight-salome.jpg
+    width: 200
 publication:
- date: September
- publisher: fickle fashion
+  date: September
+  publisher: fickle fashion
 subjects:
-- when she
-- characters she
-- musician and
-- feet wet
-- single opera
-- get to
-- San Francisco Opera
+  - when she
+  - characters she
+  - musician and
+  - feet wet
+  - single opera
+  - get to
+  - San Francisco Opera
 title: Interview with Deborah Voight
 type: interview
 ---

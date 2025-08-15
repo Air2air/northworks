@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-stookey
 images:
-- height: 150
- src: /images/stookey.jpg
- width: 127
+  - height: 150
+    src: /images/stookey.jpg
+    width: 127
 publication:
- date: November
- publisher: the same
+  date: November
+  publisher: the same
 subjects:
-- Bass
-- Conducting
-- Interview
-- Johann Sebastian Bach
-- Opera
-- Piano
-- Premiere
-- San Francisco Symphony
-- Symphony
-- Violin
+  - Bass
+  - Conducting
+  - Interview
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - Premiere
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Cheryl North Interviews Nat Stookey
 type: interview
 ---

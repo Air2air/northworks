@@ -2,25 +2,25 @@
 conversion date: '2025-08-13'
 id: c-reviews-sfo-boheme-luisotti-11-08
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: November
- publisher: Nicola Luisotti
+  date: November
+  publisher: Nicola Luisotti
 subjects:
-- Baritone
-- Bass
-- Giacomo Puccini
-- Merola Opera Program
-- Opera
-- San Francisco Opera
-- Soprano
-- Tenor
-- War Memorial Opera House
+  - Baritone
+  - Bass
+  - Giacomo Puccini
+  - Merola Opera Program
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - War Memorial Opera House
 title: Untitled
 type: review
 ---

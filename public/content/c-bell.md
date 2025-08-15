@@ -2,25 +2,25 @@
 conversion date: '2025-08-13'
 id: c-bell
 images:
-- height: 28
- src: /images/title-bell.gif
- width: 250
-- height: 300
- src: /images/bell.jpg
- width: 219
+  - height: 28
+    src: /images/title-bell.gif
+    width: 250
+  - height: 300
+    src: /images/bell.jpg
+    width: 219
 publication:
- date: September 13, 2002
- publisher: ANG PREVIEW Section
+  date: September 13, 2002
+  publisher: ANG PREVIEW Section
 subjects:
-- Carnegie Hall
-- Davies Symphony Hall
-- Johann Sebastian Bach
-- Johannes Brahms
-- Ludwig van Beethoven
-- San Francisco Symphony
-- Symphony
-- Violin
-- Wolfgang Amadeus Mozart
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Ludwig van Beethoven
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Joshua Bell
 type: interview
 ---

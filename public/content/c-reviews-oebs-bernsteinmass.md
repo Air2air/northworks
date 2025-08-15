@@ -2,38 +2,30 @@
 conversion date: '2025-08-13'
 id: c-reviews-oebs-bernsteinmass
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- author: Cheryl North
- date: May
- publisher: Oakland Tribune
+  author: Cheryl North
+  date: May 20, 2005
+  publisher: Oakland Tribune,Alameda Newspaper Group
 subjects:
-- Aria
-- Baritone
-- Conducting
-- Franz Schubert
-- Giuseppe Verdi
-- Johann Sebastian Bach
-- Ludwig van Beethoven
-- Opera
-- Soprano
-- Symphony
-title: Untitled
+  - Aria
+  - Baritone
+  - Conducting
+  - Franz Schubert
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Opera
+  - Soprano
+  - Symphony
+title: Oakland East Bay Symphony Performance of Leonard Bernstein's Mass, Michael Morgan Conducting
 type: review
 ---
-
-***
-
-Oakland East Bay Symphony Performance of Leonard Bernstein's Mass, Michael Morgan Conducting**
-
-Review of the performance of May 20, 2005 published in the Oakland Tribune* and other papers of the Alameda Newspaper Group on May 23, 2005 (or shortly thereafter).
-
-By Cheryl North
 
 Are heroes extinct? Their species on planet earth has seemed alarmingly sparse since the turn of the 21st century.
 
@@ -43,7 +35,7 @@ It was Michael Morgan, the music director and conductor of the Oakland East Bay 
 
 One of the prime character requisites of any genuine hero is that he/she be able to inspire heroic qualities and aspirations in those about him. Morgan managed all of that and more for the more than 250 performers involved in the production as well as the capacity audience filling the Paramount.
 
-The difficult and rarely performed Bernstein Mass was composed at the behest of the John F. Kennedy family for the opening of the Kennedy Center for the Performing Arts in Washington, D.C. in 1971. It is described as "A Theatre Piece for Singers, Players, and Dancers." The libretto is based somewhat loosely on the liturgy of the Roman Catholic Mass, with additional text by the composer, Leonard Bernstein, plus Stephen Schwartz, librettist for the musical, *Godspell*, and a quatrain by song-writer Paul Simon.
+The difficult and rarely performed Bernstein Mass was composed at the behest of the John F. Kennedy family for the opening of the Kennedy Center for the Performing Arts in Washington, D.C. in 1971. It is described as "A Theatre Piece for Singers, Players, and Dancers." The libretto is based somewhat loosely on the liturgy of the Roman Catholic Mass, with additional text by the composer, Leonard Bernstein, plus Stephen Schwartz, librettist for the musical, _Godspell_, and a quatrain by song-writer Paul Simon.
 
 Bernstein, a 20th century American edition of the classic Renaissance man, was a pianist, conductor, teacher, lecturer and composer of successful Broadway shows, ballets, movie music, and classical symphonic and ensemble works of just about every other musical form available to him.
 
@@ -80,4 +72,3 @@ He is soon joined in his reverent supplication by the Celebrant as well as all t
 The applause began tentatively before swelling into a heartfelt crescendo of claps, foot stomps, bravos and whistles. Then the hero, Michael Morgan turned, exhausted, but with arms outstretched, to acknowledge his victory.
 
 ![](/images/logos-newspaper.gif)
-

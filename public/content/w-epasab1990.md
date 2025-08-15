@@ -2,18 +2,18 @@
 conversion date: '2025-08-13'
 id: w-epasab1990
 images:
-- height: 290
- src: /images/1990-sab-figure1.jpg
- width: 220
-- height: 290
- src: /images/1990-sab-figure2.jpg
- width: 220
-- height: 290
- src: /images/1990-sab-figure3.jpg
- width: 220
+  - height: 290
+    src: /images/1990-sab-figure1.jpg
+    width: 220
+  - height: 290
+    src: /images/1990-sab-figure2.jpg
+    width: 220
+  - height: 290
+    src: /images/1990-sab-figure3.jpg
+    width: 220
 publication:
- date: null
- publisher: the Global
+  date: null
+  publisher: the Global
 title: Untitled
 type: article
 ---

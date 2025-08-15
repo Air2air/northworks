@@ -2,24 +2,24 @@
 conversion date: '2025-08-13'
 id: c-gilfry
 images:
-- height: 140
- src: /images/thm-gilfry.jpg
- width: 140
-- height: 214
- src: /images/gilfry.jpg
- width: 140
+  - height: 140
+    src: /images/thm-gilfry.jpg
+    width: 140
+  - height: 214
+    src: /images/gilfry.jpg
+    width: 140
 publication:
- date: October 14, 2005
- publisher: ANG Newspapers Classical Music Column
+  date: October 14, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- luminaries to
-- him to
-- an opera
-- music and
-- can have
-- His virile
-- preparing to
-- San Francisco Opera
+  - luminaries to
+  - him to
+  - an opera
+  - music and
+  - can have
+  - His virile
+  - preparing to
+  - San Francisco Opera
 title: Cheryl North Interviews Rodney Gilfry
 type: interview
 ---

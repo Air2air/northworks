@@ -2,14 +2,14 @@
 conversion date: "2025-08-13"
 id: c-lindstrom
 publication:
- date: October 25, 2013
- publisher: Bay Area News Group Classical Music Column
+  date: October 25, 2013
+  publisher: Bay Area News Group Classical Music Column
 subjects:
- - Area while
- - two accomplished
- - of her
- - like to
- - San Francisco Opera
+  - Area while
+  - two accomplished
+  - of her
+  - like to
+  - San Francisco Opera
 title: Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut
 type: interview
 ---

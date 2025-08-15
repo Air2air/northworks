@@ -2,18 +2,18 @@
 conversion date: '2025-08-13'
 id: c-copley
 publication:
- date: November 3, 2000
- publisher: ANG Newspapers Classical Music Column
+  date: November 3, 2000
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- understand why
-- the most
-- hard to
-- youth he
-- the eminent
-- Der Rosenkavalier
-- Program and
-- will be
-- San Francisco Opera
+  - understand why
+  - the most
+  - hard to
+  - youth he
+  - the eminent
+  - Der Rosenkavalier
+  - Program and
+  - will be
+  - San Francisco Opera
 title: John Copley Interview
 type: interview
 ---

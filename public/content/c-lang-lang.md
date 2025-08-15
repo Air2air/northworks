@@ -2,25 +2,25 @@
 conversion date: "2025-08-13"
 id: c-lang-lang
 images:
- - height: 212
- src: /images/langcherie09.jpg
- width: 212
- - height: 212
- src: /images/lang-lang-mother.jpg
- width: 212
+  - height: 212
+    src: /images/langcherie09.jpg
+    width: 212
+  - height: 212
+    src: /images/lang-lang-mother.jpg
+    width: 212
 publication:
- date: September 9, 2009
- publisher: Bay Area News Group Classical Music Column
+  date: September 9, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
- - Concerto
- - Franz Liszt
- - Frédéric Chopin
- - Johann Sebastian Bach
- - Opera
- - Piano
- - San Francisco Symphony
- - Sergei Rachmaninoff
- - Symphony
+  - Concerto
+  - Franz Liszt
+  - Frédéric Chopin
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - San Francisco Symphony
+  - Sergei Rachmaninoff
+  - Symphony
 title: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
 type: interview
 ---

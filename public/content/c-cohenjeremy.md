@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-cohenjeremy
 images:
-- height: 250
- src: /images/jeremy-cohen.jpg
- width: 200
+  - height: 250
+    src: /images/jeremy-cohen.jpg
+    width: 200
 publication:
- date: January 11, 2002
- publisher: ANG Newspapers Classical Music Column
+  date: January 11, 2002
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Bass
-- Boston Symphony
-- Conducting
-- Gustav Mahler
-- Opera
-- Piano
-- San Francisco Symphony
-- Symphony
-- Violin
-- World Premiere
+  - Bass
+  - Boston Symphony
+  - Conducting
+  - Gustav Mahler
+  - Opera
+  - Piano
+  - San Francisco Symphony
+  - Symphony
+  - Violin
+  - World Premiere
 title: Cheryl North Interviews Jeremy Cohen
 type: interview
 ---

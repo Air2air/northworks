@@ -3,19 +3,19 @@ conversion date: '2025-08-13'
 id: c-didonato
 images: null
 publication:
- date: November 13, 2009
- publisher: Bay Area News Group Classical Music Column
+  date: November 13, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- Aria
-- Giacomo Puccini
-- Her Recital
-- Interview
-- Merola Opera Program
-- Mezzo-soprano
-- Opera
-- Piano
-- San Francisco Opera
-- Soprano
+  - Aria
+  - Giacomo Puccini
+  - Her Recital
+  - Interview
+  - Merola Opera Program
+  - Mezzo-soprano
+  - Opera
+  - Piano
+  - San Francisco Opera
+  - Soprano
 title: DiDonato dips into Latin repertoire to keep dazzle going
 type: interview
 ---

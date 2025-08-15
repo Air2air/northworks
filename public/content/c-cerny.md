@@ -2,21 +2,21 @@
 conversion date: '2025-08-13'
 id: c-cerny
 images:
-- height: 300
- src: /images/cerny-dallas.jpg
- width: 200
+  - height: 300
+    src: /images/cerny-dallas.jpg
+    width: 200
 publication:
- date: April 30
- publisher: Bay Area News Group Classical Music Column
+  date: April 30
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- world premiere
-- stake every
-- accompanying and
-- enjoyed stints
-- he was
-- she was
-- San Francisco Opera
-- San Francisco Symphony
+  - world premiere
+  - stake every
+  - accompanying and
+  - enjoyed stints
+  - he was
+  - she was
+  - San Francisco Opera
+  - San Francisco Symphony
 title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera
 type: interview
 ---

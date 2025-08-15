@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-art-natlsymph
 images:
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: February 11, 2005
- publisher: ANG Newspapers Classical Music Column
+  date: February 11, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Concerto
-- Giacomo Puccini
-- Metropolitan Opera
-- Music Article
-- National Symphony
-- Newspapers Preview Section
-- Opera
-- Premiere
-- Symphony
-- Violin
+  - Concerto
+  - Giacomo Puccini
+  - Metropolitan Opera
+  - Music Article
+  - National Symphony
+  - Newspapers Preview Section
+  - Opera
+  - Premiere
+  - Symphony
+  - Violin
 title: Different sort of 40s tunes from National Symphony
 type: article
 ---

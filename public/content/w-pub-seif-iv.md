@@ -2,38 +2,38 @@
 conversion date: '2025-08-13'
 id: w-pub-seif-iv
 images:
-- height: 320
- src: /images/wn-speaking-belgian-senate-4-18-06.jpg
- width: 213
-- height: 161
- src: /images/lithgen.gif
- width: 260
-- height: 201
- src: /images/balticgasmap.jpg
- width: 224
-- height: 225
- src: /images/legbalticgasmap.jpg
- width: 200
-- height: 195
- src: /images/balticgasinfdiag.gif
- width: 260
-- height: 360
- src: /images/balticgasparttree.gif
- width: 260
-- height: 195
- src: /images/balticgascumd.gif
- width: 260
+  - height: 320
+    src: /images/wn-speaking-belgian-senate-4-18-06.jpg
+    width: 213
+  - height: 161
+    src: /images/lithgen.gif
+    width: 260
+  - height: 201
+    src: /images/balticgasmap.jpg
+    width: 224
+  - height: 225
+    src: /images/legbalticgasmap.jpg
+    width: 200
+  - height: 195
+    src: /images/balticgasinfdiag.gif
+    width: 260
+  - height: 360
+    src: /images/balticgasparttree.gif
+    width: 260
+  - height: 195
+    src: /images/balticgascumd.gif
+    width: 260
 publication:
- date: December
- publisher: which Lithuania
+  date: December
+  publisher: which Lithuania
 subjects:
-- Aria
-- Bass
-- Music Article
-- Natural Gas Supply
-- Opera
-- Supply Interruption
-- Warner North
+  - Aria
+  - Bass
+  - Music Article
+  - Natural Gas Supply
+  - Opera
+  - Supply Interruption
+  - Warner North
 title: The Author
 type: article
 ---

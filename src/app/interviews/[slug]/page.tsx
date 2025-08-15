@@ -4,8 +4,7 @@ import ContentLayout from '@/components/layouts/ContentLayout';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import { cleanTitle } from '@/lib/pathUtils';
-import { serialize } from 'next-mdx-remote/serialize';
-import { MDXRemote } from 'next-mdx-remote';
+import { MDXRemote } from 'next-mdx-remote/rsc';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
 
@@ -24,7 +23,6 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
   }
 
   const frontmatter = contentData.frontmatter as InterviewFrontmatter;
-  const mdxSource = await serialize(contentData.content);
 
   // Create breadcrumbs
   const breadcrumbs = [
@@ -81,7 +79,7 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
 
         {/* Content */}
         <div className="prose prose-lg max-w-none mb-8">
-          <MDXRemote {...mdxSource} />
+          <MDXRemote source={contentData.content} />
         </div>
 
         {/* Images Gallery */}

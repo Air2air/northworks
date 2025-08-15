@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-reviews-sfs-masur-2-09
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
 publication:
- author: Cheryl North
- date: February
- publisher: Oakland Tribune
+  author: Cheryl North
+  date: February
+  publisher: Oakland Tribune
 subjects:
-- Concert Review
-- Davies Hall
-- Davies Symphony Hall
-- Oakland Tribune
-- Performance
-- San Francisco Symphony
-- Symphony
-- Symphony Review
-- Violin
+  - Concert Review
+  - Davies Hall
+  - Davies Symphony Hall
+  - Oakland Tribune
+  - Performance
+  - San Francisco Symphony
+  - Symphony
+  - Symphony Review
+  - Violin
 title: Untitled
 type: review
 ---

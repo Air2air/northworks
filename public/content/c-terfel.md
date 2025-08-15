@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-terfel
 images:
-- height: 28
- src: /images/titleterfel.gif
- width: 250
-- height: 233
- src: /images/terfel.jpg
- width: 200
+  - height: 28
+    src: /images/titleterfel.gif
+    width: 250
+  - height: 233
+    src: /images/terfel.jpg
+    width: 200
 publication:
- date: June
- publisher: Cheryl North
+  date: June
+  publisher: Cheryl North
 subjects:
-- Baritone
-- Franz Schubert
-- Giacomo Puccini
-- Giuseppe Verdi
-- Johann Sebastian Bach
-- Johannes Brahms
-- Opera
-- Richard Wagner
-- Tenor
-- Wolfgang Amadeus Mozart
+  - Baritone
+  - Franz Schubert
+  - Giacomo Puccini
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Opera
+  - Richard Wagner
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Untitled
 type: interview
 ---

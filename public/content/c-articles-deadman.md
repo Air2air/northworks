@@ -2,37 +2,37 @@
 conversion date: '2025-08-13'
 id: c-articles-deadman
 images:
-- height: 28
- src: /images/title-articles.gif
- width: 250
-- height: 28
- src: /images/title-gray-dead.gif
- width: 220
-- height: 218
- src: /images/opera-now-cover.jpg
- width: 150
-- height: 149
- src: /images/dmw-1.jpg
- width: 220
-- height: 181
- src: /images/dmw-2.jpg
- width: 220
-- height: 258
- src: /images/dmw-3.jpg
- width: 220
+  - height: 28
+    src: /images/title-articles.gif
+    width: 250
+  - height: 28
+    src: /images/title-gray-dead.gif
+    width: 220
+  - height: 218
+    src: /images/opera-now-cover.jpg
+    width: 150
+  - height: 149
+    src: /images/dmw-1.jpg
+    width: 220
+  - height: 181
+    src: /images/dmw-2.jpg
+    width: 220
+  - height: 258
+    src: /images/dmw-3.jpg
+    width: 220
 publication:
- date: 2000
- publisher: Opera Now
+  date: 2000
+  publisher: Opera Now
 subjects:
-- Baritone
-- Conducting
-- Franz Schubert
-- Opera
-- Opera Now
-- Piano
-- San Francisco Opera
-- Soprano
-- War Memorial Opera House
+  - Baritone
+  - Conducting
+  - Franz Schubert
+  - Opera
+  - Opera Now
+  - Piano
+  - San Francisco Opera
+  - Soprano
+  - War Memorial Opera House
 title: Dead Man Walking at San Francisco Opera
 type: article
 ---

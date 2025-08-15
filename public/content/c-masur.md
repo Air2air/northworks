@@ -2,21 +2,21 @@
 conversion date: "2025-08-13"
 id: c-masur
 images:
- - height: 160
- src: /images/thm-masur.jpg
- width: 160
+  - height: 160
+    src: /images/thm-masur.jpg
+    width: 160
 publication:
- date: November 1, 2002
- publisher: ANG Newspapers Classical Music Column
+  date: November 1, 2002
+  publisher: ANG Newspapers Classical Music Column
 subjects:
- - Aria
- - Bass
- - Conducting
- - Interview
- - Kurt Masur
- - Piano
- - San Francisco Symphony
- - Symphony
+  - Aria
+  - Bass
+  - Conducting
+  - Interview
+  - Kurt Masur
+  - Piano
+  - San Francisco Symphony
+  - Symphony
 title: Cheryl North Interviews Kurt Masur
 type: interview
 ---

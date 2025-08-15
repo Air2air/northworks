@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-bayless
 images:
-- height: 150
- src: /images/thm-bayless.jpg
- width: 150
+  - height: 150
+    src: /images/thm-bayless.jpg
+    width: 150
 publication:
- date: November 3, 2006
- publisher: ANG PREVIEW Section
+  date: November 3, 2006
+  publisher: ANG PREVIEW Section
 subjects:
-- Franz Liszt
-- Giacomo Puccini
-- Johann Sebastian Bach
-- Johannes Brahms
-- Ludwig van Beethoven
-- Opera
-- Pyotr Ilyich Tchaikovsky
-- Sergei Rachmaninoff
-- Symphony
-- Wolfgang Amadeus Mozart
+  - Franz Liszt
+  - Giacomo Puccini
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Ludwig van Beethoven
+  - Opera
+  - Pyotr Ilyich Tchaikovsky
+  - Sergei Rachmaninoff
+  - Symphony
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews John Bayless
 type: interview
 ---

@@ -2,19 +2,19 @@
 conversion date: '2025-08-13'
 id: c-hoopes
 publication:
- date: December 25, 2009
- publisher: Bay Area News Group Classical Music Column
+  date: December 25, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- to his
-- bit of
-- by guest
-- Luhrmann to
-- as the
-- they will
-- and to
-- learn and
-- marathon to
-- he will
+  - to his
+  - bit of
+  - by guest
+  - Luhrmann to
+  - as the
+  - they will
+  - and to
+  - learn and
+  - marathon to
+  - he will
 title: Cheryl North Interviews Chad Hoopes
 type: interview
 ---

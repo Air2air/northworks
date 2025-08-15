@@ -2,26 +2,26 @@
 conversion date: "2025-08-13"
 id: c-reviews-cal-symph-9-10
 images:
- - height: 28
- src: /images/title-reviews.gif
- width: 250
- - height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: October 3, 2010
- publisher: Bay Area News Group
+  date: October 3, 2010
+  publisher: Bay Area News Group
 subjects:
- - Chamber Music
- - Concert Review
- - Concerto
- - Conducting
- - Franz Schubert
- - Johann Sebastian Bach
- - Ludwig van Beethoven
- - Opera
- - Piano
- - Symphony
+  - Chamber Music
+  - Concert Review
+  - Concerto
+  - Conducting
+  - Franz Schubert
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Opera
+  - Piano
+  - Symphony
 title: California Symphony Opening Concert of the 2010-2011 Season
 type: review
 ---

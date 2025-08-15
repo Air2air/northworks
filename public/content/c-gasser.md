@@ -2,29 +2,29 @@
 conversion date: '2025-08-13'
 id: c-gasser
 images:
-- height: 212
- src: /images/nolan-gasser.jpg
- width: 150
-- height: 138
- src: /images/nolan-gasser-2.jpg
- width: 181
-- height: 140
- src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
- width: 196
+  - height: 212
+    src: /images/nolan-gasser.jpg
+    width: 150
+  - height: 138
+    src: /images/nolan-gasser-2.jpg
+    width: 181
+  - height: 140
+    src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
+    width: 196
 publication:
- date: January 19, 2007
- publisher: ANG Newspapers Classical Music
+  date: January 19, 2007
+  publisher: ANG Newspapers Classical Music
 subjects:
-- Baritone
-- Frédéric Chopin
-- Ludwig van Beethoven
-- Mezzo-soprano
-- Opera
-- Richard Wagner
-- Soprano
-- Symphony
-- Tenor
-- Wolfgang Amadeus Mozart
+  - Baritone
+  - Frédéric Chopin
+  - Ludwig van Beethoven
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - Soprano
+  - Symphony
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Nolan Gasser
 type: interview
 ---

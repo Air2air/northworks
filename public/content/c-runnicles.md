@@ -2,25 +2,25 @@
 conversion date: '2025-08-13'
 id: c-runnicles
 images:
-- height: 28
- src: /images/title-runnicles.gif
- width: 250
-- height: 200
- src: /images/runnicles.jpg
- width: 160
+  - height: 28
+    src: /images/title-runnicles.gif
+    width: 250
+  - height: 200
+    src: /images/runnicles.jpg
+    width: 160
 publication:
- date: January
- publisher: praising Runnicles
+  date: January
+  publisher: praising Runnicles
 subjects:
-- Baritone
-- Bass
-- Conducting
-- Opera
-- Piano
-- Richard Wagner
-- San Francisco Opera
-- San Francisco Symphony
-- Symphony
+  - Baritone
+  - Bass
+  - Conducting
+  - Opera
+  - Piano
+  - Richard Wagner
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Symphony
 title: Untitled
 type: interview
 ---

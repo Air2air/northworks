@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-dunleavy
 images:
-- height: 200
- src: /images/mary-dunleavy-violetta-2002.jpg
- width: 160
+  - height: 200
+    src: /images/mary-dunleavy-violetta-2002.jpg
+    width: 160
 publication:
- date: October 8, 2004
- publisher: ANG Newspapers Classical Music Column
+  date: October 8, 2004
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- whole bunch
-- hear me
-- give her
-- high school
-- interesting to
-- should be
-- have to
-- original soprano
-- someday to
-- Wood will
+  - whole bunch
+  - hear me
+  - give her
+  - high school
+  - interesting to
+  - should be
+  - have to
+  - original soprano
+  - someday to
+  - Wood will
 title: Cheryl North Interviews Mary Dunleavy
 type: interview
 ---

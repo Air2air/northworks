@@ -2,21 +2,21 @@
 conversion date: '2025-08-13'
 id: c-sarah-chang
 images:
-- height: 124
- src: /images/sarah-chang-informal.jpg
- width: 100
+  - height: 124
+    src: /images/sarah-chang-informal.jpg
+    width: 100
 publication:
- date: January
+  date: January
 subjects:
-- Concerto
-- Conducting
-- Davies Symphony Hall
-- Interview
-- Johannes Brahms
-- Pyotr Ilyich Tchaikovsky
-- San Francisco Symphony
-- Symphony
-- Violin
+  - Concerto
+  - Conducting
+  - Davies Symphony Hall
+  - Interview
+  - Johannes Brahms
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Cheryl North Interviews Sarah Chang
 type: interview
 ---

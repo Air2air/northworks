@@ -2,24 +2,23 @@
 conversion date: '2025-08-13'
 id: c-graham
 images:
-- height: 150
- src: /images/graham-with-norths.jpg
- width: 210
+  - height: 150
+    src: /images/graham-with-norths.jpg
+    width: 210
 publication:
- date: February 2, 2007
- publisher: ANG Newspapers Classical Music
- Column
+  date: February 2, 2007
+  publisher: "ANG Newspapers Classical Music Column"
 subjects:
-- Carnegie Hall
-- Davies Symphony Hall
-- Giuseppe Verdi
-- Mezzo-soprano
-- Opera
-- San Francisco Opera
-- San Francisco Symphony
-- Soprano
-- Symphony
-- Wolfgang Amadeus Mozart
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Giuseppe Verdi
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Soprano
+  - Symphony
+  - Wolfgang Amadeus Mozart
 title: Busy Susan Graham Brings Her Talents to San Francisco*
 type: interview
 ---

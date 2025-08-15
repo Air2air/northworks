@@ -2,24 +2,24 @@
 conversion date: "2025-08-13"
 id: c-reviews-berkeley-opera-don-giovanni-2010
 images:
- - height: 28
- src: /images/title-reviews.gif
- width: 250
- - height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: February 22, 2010
- publisher: Bay Area News Group
+  date: February 22, 2010
+  publisher: Bay Area News Group
 subjects:
- - Aria
- - Baritone
- - Berkeley Opera Performance
- - Don Giovanni
- - Opera
- - Soprano
- - Tenor
- - Wolfgang Amadeus Mozart
+  - Aria
+  - Baritone
+  - Berkeley Opera Performance
+  - Don Giovanni
+  - Opera
+  - Soprano
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Berkeley Opera Performance of Don Giovanni
 type: review
 ---

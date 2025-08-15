@@ -2,22 +2,22 @@
 conversion date: "2025-08-13"
 id: c-kissine
 images:
- - height: 168
- src: /images/kissine-with-wife-and-c-3-4-10.jpg
- width: 217
+  - height: 168
+    src: /images/kissine-with-wife-and-c-3-4-10.jpg
+    width: 217
 publication:
- date: February 26, 2010
- publisher: Bay Area News Group Classical Music Column
+  date: February 26, 2010
+  publisher: Bay Area News Group Classical Music Column
 subjects:
- - Carnegie Hall
- - Davies Symphony Hall
- - Interview
- - Ludwig van Beethoven
- - Piano
- - Premiere
- - San Francisco Symphony
- - Symphony
- - World Premiere
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Interview
+  - Ludwig van Beethoven
+  - Piano
+  - Premiere
+  - San Francisco Symphony
+  - Symphony
+  - World Premiere
 title: Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony
 type: interview
 ---

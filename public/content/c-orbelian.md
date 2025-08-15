@@ -2,29 +2,29 @@
 conversion date: '2025-08-13'
 id: c-orbelian
 images:
-- height: 28
- src: /images/title-orbelian.gif
- width: 290
-- height: 144
- src: /images/orbelian.jpg
- width: 141
-- height: 205
- src: /images/moscow.jpg
- width: 250
+  - height: 28
+    src: /images/title-orbelian.gif
+    width: 290
+  - height: 144
+    src: /images/orbelian.jpg
+    width: 141
+  - height: 205
+    src: /images/moscow.jpg
+    width: 250
 publication:
- date: February 7, 2003
- publisher: ANG Newspapers Classical Music Column
+  date: February 7, 2003
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Carmen
-- Carnegie Hall
-- Concerto
-- Johann Sebastian Bach
-- Ludwig van Beethoven
-- Piano
-- Pyotr Ilyich Tchaikovsky
-- San Francisco Symphony
-- Symphony
-- Violin
+  - Carmen
+  - Carnegie Hall
+  - Concerto
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Piano
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Symphony
+  - Violin
 title: Interview - Constantine Orbelian
 type: interview
 ---

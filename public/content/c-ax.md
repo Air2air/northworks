@@ -3,19 +3,19 @@ conversion date: '2025-08-13'
 id: c-ax
 images: null
 publication:
- date: October 10, 2008
- publisher: Bay Area News Group
+  date: October 10, 2008
+  publisher: Bay Area News Group
 subjects:
-- Conducting
-- Frédéric Chopin
-- Interview
-- Opera
-- Piano
-- Pyotr Ilyich Tchaikovsky
-- San Francisco Symphony
-- Symphony
-- Symphony No
-- Wolfgang Amadeus Mozart
+  - Conducting
+  - Frédéric Chopin
+  - Interview
+  - Opera
+  - Piano
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Symphony
+  - Symphony No
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra
 type: article
 ---

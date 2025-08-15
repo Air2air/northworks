@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-galindo
 images:
-- height: 140
- src: /images/guillermo-galindo.jpg
- width: 100
+  - height: 140
+    src: /images/guillermo-galindo.jpg
+    width: 100
 publication:
- date: November 11, 2005
- publisher: ANG Newspapers Classical Music Column
+  date: November 11, 2005
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Cheryl North Interviews
-- Conducting
-- Interview
-- Johann Sebastian Bach
-- Opera
-- Piano
-- Premiere
-- Sergei Rachmaninoff
-- Symphony
-- World Premiere
+  - Cheryl North Interviews
+  - Conducting
+  - Interview
+  - Johann Sebastian Bach
+  - Opera
+  - Piano
+  - Premiere
+  - Sergei Rachmaninoff
+  - Symphony
+  - World Premiere
 title: Cheryl North Interviews** Guillermo Galindo
 type: interview
 ---

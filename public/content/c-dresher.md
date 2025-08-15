@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-dresher
 images:
-- height: 114
- src: /images/dresher-paul-ensemble.jpg
- width: 150
-- height: 159
- src: /images/dresher-paul-07.jpg
- width: 125
+  - height: 114
+    src: /images/dresher-paul-ensemble.jpg
+    width: 150
+  - height: 159
+    src: /images/dresher-paul-07.jpg
+    width: 125
 publication:
- date: November 12, 2004
- publisher: ANG Newspapers Classical Music Column
+  date: November 12, 2004
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- Aria
-- Carnegie Hall
-- Concerto
-- Debut Performance
-- Interview
-- Johann Sebastian Bach
-- Ludwig van Beethoven
-- Opera
-- Premiere
-- Violin
+  - Aria
+  - Carnegie Hall
+  - Concerto
+  - Debut Performance
+  - Interview
+  - Johann Sebastian Bach
+  - Ludwig van Beethoven
+  - Opera
+  - Premiere
+  - Violin
 title: Cheryl North Interviews Paul Dresher
 type: interview
 ---

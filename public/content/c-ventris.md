@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-ventris
 images:
-- height: 200
- src: /images/christopher-ventris.jpg
- width: 160
+  - height: 200
+    src: /images/christopher-ventris.jpg
+    width: 160
 publication:
- date: June
- publisher: participating in
+  date: June
+  publisher: participating in
 subjects:
-- Christopher Ventris
-- Conducting
-- Debut Performance
-- Interview
-- Opera
-- Richard Wagner
-- San Francisco Opera
-- Tenor
-- Wolfgang Amadeus Mozart
+  - Christopher Ventris
+  - Conducting
+  - Debut Performance
+  - Interview
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Tenor
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Christopher Ventris
 type: interview
 ---

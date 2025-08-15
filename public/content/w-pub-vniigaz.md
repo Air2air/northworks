@@ -2,34 +2,34 @@
 conversion date: '2025-08-13'
 id: w-pub-vniigaz
 images:
-- height: 195
- src: /images/balticgasinfdiag.gif
- width: 260
-- height: 360
- src: /images/balticgasparttree.gif
- width: 260
-- height: 195
- src: /images/balticgascumd.gif
- width: 260
-- height: 125
- src: /images/persiangulfinfd.png
- width: 220
-- height: 284
- src: /images/persiangulfinfkey.png
- width: 237
-- height: 190
- src: /images/synfuelstree.jpg
- width: 237
+  - height: 195
+    src: /images/balticgasinfdiag.gif
+    width: 260
+  - height: 360
+    src: /images/balticgasparttree.gif
+    width: 260
+  - height: 195
+    src: /images/balticgascumd.gif
+    width: 260
+  - height: 125
+    src: /images/persiangulfinfd.png
+    width: 220
+  - height: 284
+    src: /images/persiangulfinfkey.png
+    width: 237
+  - height: 190
+    src: /images/synfuelstree.jpg
+    width: 237
 publication:
- date: 10 October 2002
- publisher: US energy
+  date: 10 October 2002
+  publisher: US energy
 subjects:
-- Aria
-- Assessing Risks
-- Music Article
-- Opera
-- Probabilistic Scenario Analysis
-- Term Planning
+  - Aria
+  - Assessing Risks
+  - Music Article
+  - Opera
+  - Probabilistic Scenario Analysis
+  - Term Planning
 title: The Author
 type: article
 ---

@@ -3,22 +3,23 @@ id: home
 title: NorthWorks - Risk Analysis and Classical Music Journalism
 type: homepage
 layout:
- hasHero: true
- hasSidebar: true
- hasTwoColumn: true
+  hasHero: true
+  hasSidebar: true
+  hasTwoColumn: true
 seo:
- title: NorthWorks - Risk Analysis Consultants and Classical Music Journalism"
- description: "NorthWorks is the consulting home for Dr. D. Warner North, a leading expert in risk analysis and nuclear waste issues, and for his wife Cheryl North, who writes on classical music."
- keywords: ["risk", "risk analysis", "consulting", "nuclear", "livermore", "nasa", "commission", "nuclear safety", "nuclear disposal", "disposal", "storage", "atomic", "classical music", "opera", "symphony"]
+  title: "NorthWorks - Risk Analysis Consultants and Classical Music Journalism"
+  description: "NorthWorks is the consulting home for Dr. D. Warner North, a leading expert in risk analysis and nuclear waste issues, and for his wife Cheryl North, who writes on classical music."
+  keywords: ["risk", "risk analysis", "consulting", "nuclear", "livermore", "nasa", "commission", "nuclear safety", "nuclear disposal", "disposal", "storage", "atomic", "classical music", "opera", "symphony"]
 navigation:
- - label: "Home"
- href: "/"
- active: true
- - label: "D. Warner North"
- href: "/warner"
- - label: "Cheryl North" 
- href: "/cheryl"
- - label: "Contact"
+  - label: "Home"
+    href: "/"
+    active: true
+  - label: "D. Warner North"
+    href: "/warner"
+  - label: "Cheryl North" 
+    href: "/cheryl"
+  - label: "Contact"
+    href: "/contact"
  href: "/contact"
 hero images:
  - src: "images/topleft 1.gif"

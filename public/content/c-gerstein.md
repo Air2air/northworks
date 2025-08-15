@@ -2,22 +2,22 @@
 conversion date: '2025-08-13'
 id: c-gerstein
 images:
-- height: 150
- src: /images/gersteinc.jpg
- width: 207
+  - height: 150
+    src: /images/gersteinc.jpg
+    width: 207
 publication:
- date: October 15, 2010
- publisher: Bay Area News Group
+  date: October 15, 2010
+  publisher: Bay Area News Group
 subjects:
-- Conducting
-- Giacomo Puccini
-- Interview
-- Johann Sebastian Bach
-- Piano
-- Pyotr Ilyich Tchaikovsky
-- San Francisco Symphony
-- Sergei Rachmaninoff
-- Symphony
+  - Conducting
+  - Giacomo Puccini
+  - Interview
+  - Johann Sebastian Bach
+  - Piano
+  - Pyotr Ilyich Tchaikovsky
+  - San Francisco Symphony
+  - Sergei Rachmaninoff
+  - Symphony
 title: Kiril Gerstein's appearance with the San Francisco Symphony playing Rachmaninoff's Rhapsody on a Theme of Paganini
 type: interview
 ---

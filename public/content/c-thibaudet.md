@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-thibaudet
 images:
-- height: 297
- src: /images/thibaudet1.jpg
- width: 200
-- height: 280
- src: /images/thibaudet-wandc.jpg
- width: 200
+  - height: 297
+    src: /images/thibaudet1.jpg
+    width: 200
+  - height: 280
+    src: /images/thibaudet-wandc.jpg
+    width: 200
 publication:
- date: October
- publisher: an exhausted
+  date: October
+  publisher: an exhausted
 subjects:
-- music is
-- young son
-- he has
-- renown opera
-- ability in
-- seem to
-- me to
-- Wright to
-- after the
-- San Francisco Symphony
+  - music is
+  - young son
+  - he has
+  - renown opera
+  - ability in
+  - seem to
+  - me to
+  - Wright to
+  - after the
+  - San Francisco Symphony
 title: Interview with Jean-Yves Thibaudet<br />
 type: interview
 ---

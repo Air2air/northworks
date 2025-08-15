@@ -2,23 +2,23 @@
 conversion date: "2025-08-13"
 id: c-racette
 images:
- - height: 184
- src: /images/racette-c-w-9-15-09.jpg
- width: 230
+  - height: 184
+    src: /images/racette-c-w-9-15-09.jpg
+    width: 230
 publication:
- date: September 16, 2009
- publisher: Bay Area News Group Classical Music Column
+  date: September 16, 2009
+  publisher: Bay Area News Group Classical Music Column
 subjects:
- - Giacomo Puccini
- - Giuseppe Verdi
- - Johann Sebastian Bach
- - La Traviata
- - Mezzo-soprano
- - Opera
- - Richard Wagner
- - San Francisco Opera
- - Soprano
- - War Memorial Opera House
+  - Giacomo Puccini
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - La Traviata
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Soprano
+  - War Memorial Opera House
 title: Racette makes a lifelong run with Puccini's *Senza Mama*
 type: interview
 ---

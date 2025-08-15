@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-borodina
 images:
-- height: 160
- src: /images/thm-borodina.jpg
- width: 160
+  - height: 160
+    src: /images/thm-borodina.jpg
+    width: 160
 publication:
- date: September 15, 2000
- publisher: ANG Newspapers Classical Music Column for Preview Section
+  date: September 15, 2000
+  publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
-- Baritone
-- Giuseppe Verdi
-- Johann Sebastian Bach
-- Metropolitan Opera
-- Mezzo-soprano
-- Opera
-- San Francisco Opera
-- Soprano
-- Symphony
-- War Memorial Opera House
+  - Baritone
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Metropolitan Opera
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Symphony
+  - War Memorial Opera House
 title: Cheryl North Interviews Olga Borodina
 type: interview
 ---

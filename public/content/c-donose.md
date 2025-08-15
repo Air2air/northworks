@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-donose
 images:
-- height: 28
- src: /images/title-donose.gif
- width: 250
+  - height: 28
+    src: /images/title-donose.gif
+    width: 250
 publication:
- author: Giuseppe Sinopoli
- date: June 28, 2002
- publisher: Oakland Tribune
+  author: Giuseppe Sinopoli
+  date: June 28, 2002
+  publisher: Oakland Tribune
 subjects:
-- Frédéric Chopin
-- Giuseppe Verdi
-- Mezzo-soprano
-- Opera
-- San Francisco Opera
-- Soprano
-- Tenor
-- War Memorial Opera House
-- Wolfgang Amadeus Mozart
+  - Frédéric Chopin
+  - Giuseppe Verdi
+  - Mezzo-soprano
+  - Opera
+  - San Francisco Opera
+  - Soprano
+  - Tenor
+  - War Memorial Opera House
+  - Wolfgang Amadeus Mozart
 title: Donose goes from glamour queen to boy, with motherhood in betwee
 type: interview
 ---

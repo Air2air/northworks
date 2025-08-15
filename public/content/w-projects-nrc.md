@@ -2,102 +2,102 @@
 conversion date: '2025-08-13'
 id: w-projects-nrc
 images:
-- height: 28
- src: /images/title-experience-nrc.gif
- width: 304
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 50
- src: /images/logo-nrc.gif
- width: 50
-- height: 28
- src: /images/title-gray-nrc.gif
- width: 220
-- height: 86
- src: /images/book-disposition.jpg
- width: 60
-- height: 86
- src: /images/public-participation-image.gif
- width: 60
-- height: 86
- src: /images/book-understanding.gif
- width: 60
-- height: 86
- src: /images/book-judgement.gif
- width: 60
-- height: 86
- src: /images/book-communication.gif
- width: 60
-- height: 86
- src: /images/book-government.gif
- width: 60
+  - height: 28
+    src: /images/title-experience-nrc.gif
+    width: 304
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 50
+    src: /images/logo-nrc.gif
+    width: 50
+  - height: 28
+    src: /images/title-gray-nrc.gif
+    width: 220
+  - height: 86
+    src: /images/book-disposition.jpg
+    width: 60
+  - height: 86
+    src: /images/public-participation-image.gif
+    width: 60
+  - height: 86
+    src: /images/book-understanding.gif
+    width: 60
+  - height: 86
+    src: /images/book-judgement.gif
+    width: 60
+  - height: 86
+    src: /images/book-communication.gif
+    width: 60
+  - height: 86
+    src: /images/book-government.gif
+    width: 60
 title: Main Publications
 type: article
 ---

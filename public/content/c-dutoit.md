@@ -2,19 +2,19 @@
 conversion date: '2025-08-13'
 id: c-dutoit
 publication:
- date: April 27, 2007
- publisher: Bay Area News Group Classical Music Column
+  date: April 27, 2007
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- the upcoming
-- on their
-- weeks to
-- of four
-- wanted to
-- well as
-- prize in
-- first professional
-- he will
-- was named
+  - the upcoming
+  - on their
+  - weeks to
+  - of four
+  - wanted to
+  - well as
+  - prize in
+  - first professional
+  - he will
+  - was named
 title: Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust
 type: interview
 ---

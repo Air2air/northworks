@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-thibaudet2011
 images:
-- height: 297
- src: /images/thibaudet1.jpg
- width: 200
-- height: 280
- src: /images/thibaudet-wandc.jpg
- width: 200
+  - height: 297
+    src: /images/thibaudet1.jpg
+    width: 200
+  - height: 280
+    src: /images/thibaudet-wandc.jpg
+    width: 200
 publication:
- date: January
- publisher: different composers
+  date: January
+  publisher: different composers
 subjects:
-- write and
-- Thibaudet will
-- pianist might
-- also will
-- music is
-- young son
-- he has
-- renown opera
-- ability in
-- seem to
+  - write and
+  - Thibaudet will
+  - pianist might
+  - also will
+  - music is
+  - young son
+  - he has
+  - renown opera
+  - ability in
+  - seem to
 title: Two Interviews with Jean-Yves Thibaudet, 2006 and 2011<br />
 type: interview
 ---

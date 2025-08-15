@@ -2,30 +2,30 @@
 conversion date: '2025-08-13'
 id: c-reviews-tristan-stuttgart
 images:
-- height: 28
- src: /images/title-reviews.gif
- width: 250
-- height: 180
- src: /images/stuttgart-state-opera.jpg
- width: 300
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 180
+    src: /images/stuttgart-state-opera.jpg
+    width: 300
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- author: Cheryl North
- date: October
- publisher: Oakland Tribune
+  author: Cheryl North
+  date: October
+  publisher: Oakland Tribune
 subjects:
-- Aria
-- Baritone
-- Concert Review
-- Interview
-- Mezzo-soprano
-- Opera
-- Richard Wagner
-- San Francisco Opera
-- Soprano
-- Stuttgart Reveals
+  - Aria
+  - Baritone
+  - Concert Review
+  - Interview
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Soprano
+  - Stuttgart Reveals
 title: Untitled
 type: review
 ---

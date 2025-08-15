@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-art-wozzeck
 images:
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: January 26, 2010
- publisher: ANG Newspapers Preview Section
+  date: January 26, 2010
+  publisher: ANG Newspapers Preview Section
 subjects:
-- Baritone
-- Bass
-- Conducting
-- Music Article
-- Music Ensemble Parallele
-- Opera
-- San Francisco Conservatory
-- Soprano
-- Tenor
-- Yerba Buena Center
+  - Baritone
+  - Bass
+  - Conducting
+  - Music Article
+  - Music Ensemble Parallele
+  - Opera
+  - San Francisco Conservatory
+  - Soprano
+  - Tenor
+  - Yerba Buena Center
 title: Berg's *Wozzeck* is still powerful after 85 years
 ---
 

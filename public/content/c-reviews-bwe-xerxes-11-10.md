@@ -2,26 +2,26 @@
 conversion date: "2025-08-13"
 id: c-reviews-bwe-xerxes-11-10
 images:
- - height: 28
- src: /images/title-reviews.gif
- width: 250
- - height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: November 13, 2010
- publisher: Bay Area News Group
+  date: November 13, 2010
+  publisher: Bay Area News Group
 subjects:
- - orchestral musicians
- - exquisite harpsichords
- - as assistant
- - planting the
- - stage like
- - stances while
- - managed to
- - boy who
- - Roger McCracken
- - Persian King
+  - orchestral musicians
+  - exquisite harpsichords
+  - as assistant
+  - planting the
+  - stage like
+  - stances while
+  - managed to
+  - boy who
+  - Roger McCracken
+  - Persian King
 title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
 ---

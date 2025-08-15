@@ -2,26 +2,26 @@
 conversion date: "2025-08-13"
 id: c-kapelis
 images:
- - height: 160
- src: /images/kapelis-consul.jpg
- width: 207
- - height: 147
- src: /images/kapelis-norths.jpg
- width: 207
+  - height: 160
+    src: /images/kapelis-consul.jpg
+    width: 207
+  - height: 147
+    src: /images/kapelis-norths.jpg
+    width: 207
 publication:
- date: March 16, 2007
- publisher: ANG Newspapers Classical Music
+  date: March 16, 2007
+  publisher: ANG Newspapers Classical Music
 subjects:
- - Bass
- - Conducting
- - Debut Performance
- - Interview
- - Johann Sebastian Bach
- - Mythic Proportions
- - Opera
- - Piano
- - Sergei Rachmaninoff
- - Symphony
+  - Bass
+  - Conducting
+  - Debut Performance
+  - Interview
+  - Johann Sebastian Bach
+  - Mythic Proportions
+  - Opera
+  - Piano
+  - Sergei Rachmaninoff
+  - Symphony
 title: Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions
 type: interview
 ---

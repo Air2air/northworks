@@ -2,26 +2,26 @@
 conversion date: '2025-08-13'
 id: c-volodos
 images:
-- height: 28
- src: /images/title-volodos.gif
- width: 250
-- height: 190
- src: /images/volodos.jpg
- width: 200
+  - height: 28
+    src: /images/title-volodos.gif
+    width: 250
+  - height: 190
+    src: /images/volodos.jpg
+    width: 200
 publication:
- date: February
- publisher: such late
+  date: February
+  publisher: such late
 subjects:
-- during his
-- not the
-- have to
-- he deftly
-- parents were
-- voice and
-- actually did
-- orchestras and
-- indeed piano
-- 'Newspapers
+  - during his
+  - not the
+  - have to
+  - he deftly
+  - parents were
+  - voice and
+  - actually did
+  - orchestras and
+  - indeed piano
+  - 'Newspapers
 
 
 
@@ -40,7 +40,7 @@ subjects:
 
 
 
- High'
+    High'
 title: Untitled
 type: interview
 ---

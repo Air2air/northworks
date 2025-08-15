@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-goode
 images:
-- height: 215
- src: /images/richard-goode.jpg
- width: 150
+  - height: 215
+    src: /images/richard-goode.jpg
+    width: 150
 publication:
- date: March 29, 2002
- publisher: ANG Newspapers Preview Section Classical Music Column
+  date: March 29, 2002
+  publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
-- Carnegie Hall
-- Davies Symphony Hall
-- Franz Schubert
-- Frédéric Chopin
-- Johann Sebastian Bach
-- Johannes Brahms
-- Ludwig van Beethoven
-- Piano
-- Symphony
-- Wolfgang Amadeus Mozart
+  - Carnegie Hall
+  - Davies Symphony Hall
+  - Franz Schubert
+  - Frédéric Chopin
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Ludwig van Beethoven
+  - Piano
+  - Symphony
+  - Wolfgang Amadeus Mozart
 title: Cheryl North Interviews Richard Goode
 type: interview
 ---

@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-art-heggie
 images:
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: October 27, 2006
- publisher: ANG Newspapers Classical Music Column
+  date: October 27, 2006
+  publisher: ANG Newspapers Classical Music Column
 subjects:
-- attending the
-- McGegan will
-- since been
-- doctor and
-- he started
-- divided choir
-- choirs are
-- Bay Area
-- after the
-- San Francisco
+  - attending the
+  - McGegan will
+  - since been
+  - doctor and
+  - he started
+  - divided choir
+  - choirs are
+  - Bay Area
+  - after the
+  - San Francisco
 title: Composer Heggie keeps seeking higher ground
 type: article
 ---

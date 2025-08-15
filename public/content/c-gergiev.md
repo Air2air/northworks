@@ -2,19 +2,19 @@
 conversion date: '2025-08-13'
 id: c-gergiev
 publication:
- date: October 7, 2011
- publisher: Bay Area News Group Classical Music Column
+  date: October 7, 2011
+  publisher: Bay Area News Group Classical Music Column
 subjects:
-- to his
-- Zellerbach Hall
-- charismatic orchestral
-- with charismatic
-- will be
-- to try
-- him to
-- gave him
-- interested in
-- soccer than
+  - to his
+  - Zellerbach Hall
+  - charismatic orchestral
+  - with charismatic
+  - will be
+  - to try
+  - him to
+  - gave him
+  - interested in
+  - soccer than
 title: Passion for his fellow Russian renders Gergiev the Tchaikovsky Ambassador
 type: interview
 ---

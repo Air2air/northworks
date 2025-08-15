@@ -2,29 +2,29 @@
 conversion date: "2025-08-13"
 id: c-hvorostovsky
 images:
- - height: 28
- src: /images/title-hvorostovsky.gif
- width: 290
- - height: 300
- src: /images/hvorostovsky-sb08.jpg
- width: 554
- - height: 300
- src: /images/hvorostovsky.jpg
- width: 194
+  - height: 28
+    src: /images/title-hvorostovsky.gif
+    width: 290
+  - height: 300
+    src: /images/hvorostovsky-sb08.jpg
+    width: 554
+  - height: 300
+    src: /images/hvorostovsky.jpg
+    width: 194
 publication:
- date: May 15, 1997
- publisher: Alameda Newspaper Group
+  date: May 15, 1997
+  publisher: Alameda Newspaper Group
 subjects:
- - Baritone
- - Giuseppe Verdi
- - Johann Sebastian Bach
- - Mezzo-soprano
- - Opera
- - Pyotr Ilyich Tchaikovsky
- - Richard Wagner
- - Soprano
- - Symphony
- - Tenor
+  - Baritone
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Mezzo-soprano
+  - Opera
+  - Pyotr Ilyich Tchaikovsky
+  - Richard Wagner
+  - Soprano
+  - Symphony
+  - Tenor
 title: Dmitri Hvorostovsky - Voice of the Century?
 type: interview
 ---

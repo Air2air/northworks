@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-art-ring-legend
 images:
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: July 30, 2010
- publisher: Bay Area News Preview Section
+  date: July 30, 2010
+  publisher: Bay Area News Preview Section
 subjects:
-- Baritone
-- Bass
-- Berkeley Opera Production
-- Merola Opera Program
-- Mezzo-soprano
-- Opera
-- Richard Wagner
-- San Francisco Opera
-- Soprano
-- Tenor
+  - Baritone
+  - Bass
+  - Berkeley Opera Production
+  - Merola Opera Program
+  - Mezzo-soprano
+  - Opera
+  - Richard Wagner
+  - San Francisco Opera
+  - Soprano
+  - Tenor
 title: Berkeley Opera Production of the Condensed Version of Wagner's <i>Der Ring des Nibelungen</i>
 type: article
 ---

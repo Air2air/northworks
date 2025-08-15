@@ -2,21 +2,21 @@
 conversion date: '2025-08-13'
 id: w-main
 images:
-- height: 28
- src: /images/title-warner.gif
- width: 250
-- height: 133
- src: /images/warner-north-6-06.jpg
- width: 100
-- height: 512
- src: /images/wn-speaking-belgian-senate-4-18-06.jpg
- width: 342
-- height: 45
- src: /images/title-advisory-boards.gif
- width: 220
+  - height: 28
+    src: /images/title-warner.gif
+    width: 250
+  - height: 133
+    src: /images/warner-north-6-06.jpg
+    width: 100
+  - height: 512
+    src: /images/wn-speaking-belgian-senate-4-18-06.jpg
+    width: 342
+  - height: 45
+    src: /images/title-advisory-boards.gif
+    width: 220
 publication:
- date: December
- publisher: the Commission
+  date: December
+  publisher: the Commission
 title: Untitled
 type: article
 ---

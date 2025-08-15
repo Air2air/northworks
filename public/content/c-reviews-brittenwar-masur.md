@@ -2,23 +2,23 @@
 conversion date: "2025-08-13"
 id: c-reviews-brittenwar-masur
 images:
- - height: 28
- src: /images/title-reviews.gif
- width: 250
- - height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 28
+    src: /images/title-reviews.gif
+    width: 250
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- author: Cheryl North
- date: October 24, 2002
- publisher: Oakland Tribune, Alameda Newspaper Group
+  author: Cheryl North
+  date: October 24, 2002
+  publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
- - Kurt Masur
- - William Stone
- - leadership of
- - stabbing staccato
- - San Francisco Symphony
- - Davies Symphony Hall
+  - Kurt Masur
+  - William Stone
+  - leadership of
+  - stabbing staccato
+  - San Francisco Symphony
+  - Davies Symphony Hall
 title: Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's War Requiem
 type: review
 ---

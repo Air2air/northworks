@@ -2,23 +2,23 @@
 conversion date: '2025-08-13'
 id: c-art-brain
 images:
-- height: 248
- src: /images/logos-newspaper.gif
- width: 220
+  - height: 248
+    src: /images/logos-newspaper.gif
+    width: 220
 publication:
- date: June 14, 1999
- publisher: ANG Newspapers
+  date: June 14, 1999
+  publisher: ANG Newspapers
 subjects:
-- Brandenburg Concerto No
-- Concerto
-- Johann Sebastian Bach
-- Johannes Brahms
-- Little James
-- Music Article
-- Music Trains
-- Piano
-- Violin
-- Wolfgang Amadeus Mozart
+  - Brandenburg Concerto No
+  - Concerto
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Little James
+  - Music Article
+  - Music Trains
+  - Piano
+  - Violin
+  - Wolfgang Amadeus Mozart
 title: Music Trains the Brain
 type: article
 ---

@@ -154,7 +154,7 @@ export interface BiographyFrontmatter extends BaseFrontmatter {
   images?: ContentImage[];
 }
 
-export type ContentType = 'interview' | 'review' | 'article' | 'biography' | 'homepage';
+export type ContentType = 'interview' | 'review' | 'article' | 'biography' | 'homepage' | 'project' | 'professional';
 
 export type ContentFrontmatter = 
   | InterviewFrontmatter 

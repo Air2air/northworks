@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-armer
 images:
 - height: 200
-  src: /images/elinor-armer.jpg
-  width: 160
+ src: /images/elinor-armer.jpg
+ width: 160
 publication:
-  date: November 18, 1995
-  publisher: ANG Newspapers
+ date: November 18, 1995
+ publisher: ANG Newspapers
 subjects:
 - Elinor Armer
 - Interview
@@ -52,15 +51,15 @@ Mills College, from which she graduated in 1961, provided even further stimulati
 
 Now the chairman of the composition department at the San Francisco Conservatory of Music, she has received national recognition for her performed, published, and recorded works. She also remains an important advocate of new music and is a founding member of the Bay Area Contemporary music series, a member of the American Music Center and the Society of Composers, Incorporated, and has received awards and honors from the MacDowell Colony, the Charles Ives Center for American Music, Yaddo, the Djerassi Foundation, and more. She is also in frequent demand as a panelist, reviewer and adjudicator and has served on advisory panels for NEA and the U.S. Information Agency.
 
-In spite of her many academic accolades, however, her musical style is very accessible, rhythmically lively and reflects her tonal background. "I am a very harmonic animal," she emphasizes, "and I almost always base my music on a program _ even when there is no specific text, there is a sort of narration going on in my mind. For this reason, my collaboration with Le Guin was a complete joy _ it freed my imagination. And I've always enjoyed playing popular music and jazz by ear. My music, I think, is all the better for it."
+In spite of her many academic accolades, however, her musical style is very accessible, rhythmically lively and reflects her tonal background. "I am a very harmonic animal," she emphasizes, "and I almost always base my music on a program even when there is no specific text, there is a sort of narration going on in my mind. For this reason, my collaboration with Le Guin was a complete joy it freed my imagination. And I've always enjoyed playing popular music and jazz by ear. My music, I think, is all the better for it."
 
 Playfulness and humor also play a part in her music. "I take playing very seriously and think it is essential to survival," she says. "We suffer when we're deprived of play. Art is, in fact, a form of human play."
 
-Of the current state of creative music in the world, she says, "We've had an explosion of musical languages in the 20th century _ and because of the quick worldwide communication through the mass media, things are evolving faster. Music has a shorter shelf life now than it did before my father's stereophonic sound."
+Of the current state of creative music in the world, she says, "We've had an explosion of musical languages in the 20th century and because of the quick worldwide communication through the mass media, things are evolving faster. Music has a shorter shelf life now than it did before my father's stereophonic sound."
 
 With the verbal facility of a philosopher, she characterized mid-20th century music as being rather academic, technically skillful and taking on the properties of intellectual systems. "It was more science than art," she says.
 
-"But lately, we seem to be longing for more pure artistic expression. There may be some reversion to art with purely human values _ art that touches the emotions."
+"But lately, we seem to be longing for more pure artistic expression. There may be some reversion to art with purely human values art that touches the emotions."
 
 In agreement is Frank LaRoca, a professor of composition and music theory at California State University, Hayward, and one of Armer's fellow founders of Composers, Inc.
 

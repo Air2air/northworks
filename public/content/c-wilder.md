@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-wilder
 images:
 - height: 170
-  src: /images/tappan-wilder-c-w-2007.jpg
-  width: 245
+ src: /images/tappan-wilder-c-w-2007.jpg
+ width: 245
 publication:
-  date: August
-  publisher: members of
+ date: August
+ publisher: members of
 subjects:
 - Interview
 - Music Article

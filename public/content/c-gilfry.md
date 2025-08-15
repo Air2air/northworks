@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-gilfry
 images:
 - height: 140
-  src: /images/thm-gilfry.jpg
-  width: 140
+ src: /images/thm-gilfry.jpg
+ width: 140
 - height: 214
-  src: /images/gilfry.jpg
-  width: 140
+ src: /images/gilfry.jpg
+ width: 140
 publication:
-  date: October
-  publisher: providing residential
+ date: October 14, 2005
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - luminaries to
 - him to
@@ -21,14 +20,9 @@ subjects:
 - His virile
 - preparing to
 - San Francisco Opera
-title: Untitled
+title: Cheryl North Interviews Rodney Gilfry
 type: interview
 ---
-
-#### Cheryl North Interviews
- Rodney Gilfry
-
-*ANG Newspapers Classical Music Column - October 14, 2005*,
 
 There aren't many operatic baritones in the world who can give a concert one night and run a foot race the next day. But, the fit and feisty Rodney Gilfry plans to run the "U.S. Half Marathon" (a formidible 13.1 miles rather than the whole whopping 26.2) later this month, after giving a solo recital the night before in Santa Rosa.
 

@@ -1,29 +1,28 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-pub-vniigaz
 images:
 - height: 195
-  src: /images/balticgasinfdiag.gif
-  width: 260
+ src: /images/balticgasinfdiag.gif
+ width: 260
 - height: 360
-  src: /images/balticgasparttree.gif
-  width: 260
+ src: /images/balticgasparttree.gif
+ width: 260
 - height: 195
-  src: /images/balticgascumd.gif
-  width: 260
+ src: /images/balticgascumd.gif
+ width: 260
 - height: 125
-  src: /images/persiangulfinfd.png
-  width: 220
+ src: /images/persiangulfinfd.png
+ width: 220
 - height: 284
-  src: /images/persiangulfinfkey.png
-  width: 237
+ src: /images/persiangulfinfkey.png
+ width: 237
 - height: 190
-  src: /images/synfuelstree.jpg
-  width: 237
+ src: /images/synfuelstree.jpg
+ width: 237
 publication:
-  date: 10 October 2002
-  publisher: US energy
+ date: 10 October 2002
+ publisher: US energy
 subjects:
 - Aria
 - Assessing Risks
@@ -71,7 +70,7 @@ II.  Methodology Needed****
 
      How can these planning needs be met? In this paper the author shares experience from applications within the United States of risk and decision analysis, in the belief that such experience may be useful for those in Russia and in Europe responsible for planning GAZPROM's future and a reliable supply of energy to meet European energy needs. In the 1970s the author was involved in a number of energy planning studies in the United States, including the analysis of a major Presidential initiative to create a one million barrels-per-day synthetic fuel capability within ten years [3,4], and a comparison of the economic and social costs of coal and nuclear generation [5]. The author was also involved in a pioneering application of decision analysis to political events in the Persian Gulf area that might impact on the reliability of energy supply from that region [6]. The influence diagram methods developed in that project are described in a recently published pair of journal articles [7.8]. The author also chaired the review of the first set of reports to the US Congress on global climate change, for the Science Advisory Board of the US Environmental Protection Agency [9]. In October of 2004 the author substituted on short notice for his Stanford University colleague, Professor Stephen Schneider, in giving a presentation on global climate alteration in Stuttgart, at a meeting organized by the Minister of Transport and Energy of the State of Baden-W'rttemberg [10]. Especially in the roundtable discussion that followed the presentations, which included leaders of German industry and representatives from the German Bundestag, the author became persuaded that formal analysis of the kind done in the United States in the 1970s would be very helpful in Europe.
 
-     _Analytical Tools Area #1 ' Probabilistic Risk Analysis:_ A shortfall or failure in a complex system often can be described as a scenario, a set of events leading to this failure. Probabilistic models of such event sequences have a long history in statistics and reliability theory. Such approaches were developed in the aerospace and nuclear power industries and then widely applied in these industries and elsewhere. Decision analysis evolved out of statistical decision theory in the aftermath of World War II. In decision analysis, sequences are examined of decisions and uncertain events. A decision tree is often used as a visual display and as a computing device for computing the probability distributions corresponding to different decision alternatives, and then evaluating these to find the best decision. [11].
+      Analytical Tools Area #1 ' Probabilistic Risk Analysis: A shortfall or failure in a complex system often can be described as a scenario, a set of events leading to this failure. Probabilistic models of such event sequences have a long history in statistics and reliability theory. Such approaches were developed in the aerospace and nuclear power industries and then widely applied in these industries and elsewhere. Decision analysis evolved out of statistical decision theory in the aftermath of World War II. In decision analysis, sequences are examined of decisions and uncertain events. A decision tree is often used as a visual display and as a computing device for computing the probability distributions corresponding to different decision alternatives, and then evaluating these to find the best decision. [11].
 
      Influence diagrams [6,7,8] evolved from decision trees to deal with situations in the sequence of decisions and events has a complex structure of conditionality. For example, a series of ten to twenty uncertain events precedes the system failure of interest, and the probabilities assigned to one of these events may depend on some (say, 2 to 6), but not all of the preceding events and decisions in the sequence. With binary (two possible outcomes) events, a sequence of ten events leads to a thousand end points or scenarios, and 20 leads to a million. An illustration of such a tree showing all the possible outcomes becomes impractical except in a generic form. The influence diagram is a schematic form that shows by means of arrows connecting decisions and events (collectively referred to as 'nodes') the conditionality structure. Influence diagrams have achieved widespread use in decision analysis, operations research [12] reliability [13] and also in computer science applications, sometimes under the term, Bayesian nets. A recent application to protection against terrorism by the author's department chairman at Stanford and one of her students is found in [14]. Software packages for influence diagram computations are available from several sources. For the illustrative example below, the author has used [Decision Advisor](http://www.smartorg.com/decisionadvisor.html), a propriety software package for R&D management marketed by [SmartOrg](http://www.smartorg.com) of Menlo Park, California, USA.
 
@@ -99,7 +98,7 @@ An influence diagram is shown in Figure 1.
 
      The structure shown in Figure 1 here is intended only as a highly simplistic description of the methodology, for those not familiar with influence diagrams and probabilistic risk analysis. Applications of probabilistic risk analysis to weather and equipment failure are widely carried out by gas and electric utilities. Application to the threat posed by terrorism and political decisions to interrupt supply are not widely practiced. It may be useful to carry out such an analysis as the basis for dialogue among the concerned parties. For example, some parties in Russia may assert that the threat of terrorist attack in Lithuania and other Baltic countries led to a preference for the Baltic undersea pipeline route over the cheaper overland route. Figure 4 and influence diagrams of similar complexity in [14] illustrate how complex sequences of events may be represented suing influence diagrams as a means of assessment expert judgment for probabilistic risk analysis.
 
-     _Analytical Tools Area #2: Energy Models for Long-range Planning:_ Planning the future of a complex energy system on a time scale of many decades is a daunting challenge. Dating back at least to period in the 1970s when the United States was considering large investments in new energy systems, such computer planning models are increasingly being used by businesses and government agencies.
+      Analytical Tools Area #2: Energy Models for Long-range Planning: Planning the future of a complex energy system on a time scale of many decades is a daunting challenge. Dating back at least to period in the 1970s when the United States was considering large investments in new energy systems, such computer planning models are increasingly being used by businesses and government agencies.
 
      Stanford University has since the 1970s had an activity called the Energy Modeling Forum, in which leaders in the field of energy modeling bring their models (often proprietary computer software, developed at considerable investment expense) and come together to analyze case exercises, from regional planning to global response in the context of global climate change. Reference [15] is a report on dealing with natural gas supply in North America. One of the models used in the exercise described in [15], the North American Gas Model (NARG), is a direct descendent of the SRI-Gulf model used for the synthetic fuel commercialization analysis described in [3] and [4]. In [15] this model was being used on behalf of the California Energy Commission; it has also been used for many leading US and international oil and gas companies. The lead modeler, [Dale Nesbitt](/articles/http://www.altosmgmt.com/dale), worked with the author on the 1975 synthetic fuel analysis ([3] and [4]). The generalized equilibrium methodology involves an extension from mathematical programming to finding the fixed point solution x to an equation f(x) = x, where x is a vector of very high dimensionality describing flow quantities and prices of energy materials at different locations in a network connecting energy resources in the ground to energy end use demands, and at different time points from the beginning to the end of the planning horizon [16,17]. The NARG model and its European counterpart, the European Gas Model, are not unique to one vendor. Argonne National Laboratory (ANL) and Rice University have developed similar models based on the generalized equilibrium approach. Other modeling and simulation approaches can be used to forecast how the competition may evolve between natural gas from Russia, natural gas from other sources, and competing fuels and technologies for meeting Europe's needs.
 
@@ -159,10 +158,10 @@ References****
 
 [19]. National Research Council, *[Understanding Risk: Informing Decisions in a Democratic Society](http://books.nap.edu/catalog/5138.html)*, Washington DC: National Academy Press, 1996.
 
-[20]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public_Participation.html](http://www7.nationalacademies.org/hdgc/public_participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access). A final report from this Panel of the National Research Council is expected in late 2006.
+[20]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public Participation.html](http://www7.nationalacademies.org/hdgc/public participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access). A final report from this Panel of the National Research Council is expected in late 2006.
 
 [21]. Ortwin Renn,[
-*Risk Governance: Towards and Integrative Approach*](http://www.irgc.org/irgc/projects/risk_characterization/_b/contentfiles/irgc_wp_no_1_risk_governance_(reprinted_version).pdf), White Paper #1, International Risk Governance Council, Geneva, Switzerland, September 2005.
+*Risk Governance: Towards and Integrative Approach*](http://www.irgc.org/irgc/projects/risk characterization/ b/contentfiles/irgc wp no 1 risk governance (reprinted version).pdf), White Paper #1, International Risk Governance Council, Geneva, Switzerland, September 2005.
 
 ### The Author
 

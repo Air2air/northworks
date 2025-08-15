@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-braun-russell
 images:
 - height: 200
-  src: /images/russell-braun.jpg
-  width: 160
+ src: /images/russell-braun.jpg
+ width: 160
 publication:
-  date: December 2, 2004
-  publisher: ANG Newspapers Classical Music  Column
+ date: December 2, 2004
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Baritone
 - Franz Schubert

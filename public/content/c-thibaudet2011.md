@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-thibaudet2011
 images:
 - height: 297
-  src: /images/thibaudet1.jpg
-  width: 200
+ src: /images/thibaudet1.jpg
+ width: 200
 - height: 280
-  src: /images/thibaudet-wandc.jpg
-  width: 200
+ src: /images/thibaudet-wandc.jpg
+ width: 200
 publication:
-  date: January
-  publisher: different composers
+ date: January
+ publisher: different composers
 subjects:
 - write and
 - Thibaudet will

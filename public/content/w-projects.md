@@ -1,143 +1,142 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-projects
 images:
 - height: 28
-  src: /images/title-experience.gif
-  width: 250
+ src: /images/title-experience.gif
+ width: 250
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-nrc.gif
-  width: 50
+ src: /images/logo-nrc.gif
+ width: 50
 - height: 50
-  src: /images/logo-stan.gif
-  width: 50
+ src: /images/logo-stan.gif
+ width: 50
 - height: 50
-  src: /images/logo-cra.gif
-  width: 50
+ src: /images/logo-cra.gif
+ width: 50
 - height: 50
-  src: /images/logo-ntrb.gif
-  width: 50
+ src: /images/logo-ntrb.gif
+ width: 50
 - height: 50
-  src: /images/logo-epri.gif
-  width: 50
+ src: /images/logo-epri.gif
+ width: 50
 - height: 50
-  src: /images/logo-fluor.gif
-  width: 50
+ src: /images/logo-fluor.gif
+ width: 50
 - height: 50
-  src: /images/logo-plek.gif
-  width: 50
+ src: /images/logo-plek.gif
+ width: 50
 - height: 50
-  src: /images/logo-mwra.gif
-  width: 50
+ src: /images/logo-mwra.gif
+ width: 50
 - height: 50
-  src: /images/logo-cma.gif
-  width: 50
+ src: /images/logo-cma.gif
+ width: 50
 - height: 50
-  src: /images/logo-gma.gif
-  width: 50
+ src: /images/logo-gma.gif
+ width: 50
 - height: 50
-  src: /images/logo-nsf.gif
-  width: 50
+ src: /images/logo-nsf.gif
+ width: 50
 - height: 50
-  src: /images/logo-doe.gif
-  width: 50
+ src: /images/logo-doe.gif
+ width: 50
 - height: 50
-  src: /images/logo-mex.gif
-  width: 50
+ src: /images/logo-mex.gif
+ width: 50
 - height: 50
-  src: /images/logo-epri.gif
-  width: 50
+ src: /images/logo-epri.gif
+ width: 50
 - height: 50
-  src: /images/logo-epa.gif
-  width: 50
+ src: /images/logo-epa.gif
+ width: 50
 - height: 50
-  src: /images/logo-epa.gif
-  width: 50
+ src: /images/logo-epa.gif
+ width: 50
 - height: 50
-  src: /images/logo-epa.gif
-  width: 50
+ src: /images/logo-epa.gif
+ width: 50
 - height: 50
-  src: /images/logo-doe.gif
-  width: 50
+ src: /images/logo-doe.gif
+ width: 50
 - height: 50
-  src: /images/logo-aba.gif
-  width: 50
+ src: /images/logo-aba.gif
+ width: 50
 - height: 50
-  src: /images/logo-los.gif
-  width: 50
+ src: /images/logo-los.gif
+ width: 50
 - height: 50
-  src: /images/logo-epri.gif
-  width: 50
+ src: /images/logo-epri.gif
+ width: 50
 - height: 50
-  src: /images/logo-nrel.gif
-  width: 50
+ src: /images/logo-nrel.gif
+ width: 50
 - height: 50
-  src: /images/logo-blank.gif
-  width: 50
+ src: /images/logo-blank.gif
+ width: 50
 - height: 50
-  src: /images/logo-blank.gif
-  width: 50
+ src: /images/logo-blank.gif
+ width: 50
 - height: 50
-  src: /images/logo-erda.gif
-  width: 50
+ src: /images/logo-erda.gif
+ width: 50
 - height: 50
-  src: /images/logo-sra.gif
-  width: 50
+ src: /images/logo-sra.gif
+ width: 50
 - height: 50
-  src: /images/logo-sra.gif
-  width: 50
+ src: /images/logo-sra.gif
+ width: 50
 - height: 50
-  src: /images/logo-setac.gif
-  width: 50
+ src: /images/logo-setac.gif
+ width: 50
 - height: 50
-  src: /images/logo-liv.gif
-  width: 50
+ src: /images/logo-liv.gif
+ width: 50
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-erda.gif
-  width: 50
+ src: /images/logo-erda.gif
+ width: 50
 - height: 50
-  src: /images/logo-nasa.gif
-  width: 50
+ src: /images/logo-nasa.gif
+ width: 50
 - height: 50
-  src: /images/logo-usda.gif
-  width: 50
+ src: /images/logo-usda.gif
+ width: 50
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-nih.gif
-  width: 50
+ src: /images/logo-nih.gif
+ width: 50
 - height: 50
-  src: /images/logo-dod.gif
-  width: 50
+ src: /images/logo-dod.gif
+ width: 50
 - height: 50
-  src: /images/logo-noaa.gif
-  width: 50
+ src: /images/logo-noaa.gif
+ width: 50
 - height: 50
-  src: /images/logo-blank.gif
-  width: 50
+ src: /images/logo-blank.gif
+ width: 50
 - height: 50
-  src: /images/logo-cfe.gif
-  width: 50
+ src: /images/logo-cfe.gif
+ width: 50
 - height: 50
-  src: /images/logo-blank.gif
-  width: 50
+ src: /images/logo-blank.gif
+ width: 50
 - height: 50
-  src: /images/logo-blank.gif
-  width: 50
+ src: /images/logo-blank.gif
+ width: 50
 publication:
-  date: January
-  publisher: the Society
+ date: January
+ publisher: the Society
 subjects:
 - Government Service
 - Music Article
@@ -155,20 +154,20 @@ Dr. North's specialties are decision analysis; risk assessment and risk manageme
 
 [
 ![](/images/logo-us.gif)
-](w_projects_government.htm)
+](w projects government.htm)
     
  [Government Service**](w-projects-government)**Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
 
 [
 ![](/images/logo-nrc.gif)
-](w_projects_nrc.htm)
+](w projects nrc.htm)
     
  [The National Academies](w-projects-nrc):
 The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine****Assignments for the National Research Council and the National Academies.
 
 [
 ![](/images/logo-stan.gif)
-](w_projects_stanford.htm)
+](w projects stanford.htm)
     
  [Stanford University](w-projects-stanford)****Teaching and university research
 

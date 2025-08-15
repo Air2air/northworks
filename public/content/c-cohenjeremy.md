@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-cohenjeremy
 images:
 - height: 250
-  src: /images/jeremy-cohen.jpg
-  width: 200
+ src: /images/jeremy-cohen.jpg
+ width: 200
 publication:
-  date: January 11, 2002
-  publisher: ANG Newspapers Classical Music Column
+ date: January 11, 2002
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Bass
 - Boston Symphony

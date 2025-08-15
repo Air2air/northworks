@@ -1,47 +1,46 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-pub
 images:
 - height: 28
-  src: /images/title-pub.gif
-  width: 250
+ src: /images/title-pub.gif
+ width: 250
 - height: 16
-  src: /images/icon-pdf.gif
-  width: 16
+ src: /images/icon-pdf.gif
+ width: 16
 - height: 16
-  src: /images/icon-pdf.gif
-  width: 16
+ src: /images/icon-pdf.gif
+ width: 16
 - height: 16
-  src: /images/icon-pdf.gif
-  width: 16
+ src: /images/icon-pdf.gif
+ width: 16
 - height: 28
-  src: /images/title-gray-publications.gif
-  width: 220
+ src: /images/title-gray-publications.gif
+ width: 220
 - height: 83
-  src: /images/public-participation-image.gif
-  width: 57
+ src: /images/public-participation-image.gif
+ width: 57
 - height: 86
-  src: /images/book-disposition.jpg
-  width: 60
+ src: /images/book-disposition.jpg
+ width: 60
 - height: 86
-  src: /images/book-human.jpg
-  width: 60
+ src: /images/book-human.jpg
+ width: 60
 - height: 86
-  src: /images/book-understanding.gif
-  width: 60
+ src: /images/book-understanding.gif
+ width: 60
 - height: 86
-  src: /images/book-judgement.gif
-  width: 60
+ src: /images/book-judgement.gif
+ width: 60
 - height: 86
-  src: /images/book-communication.gif
-  width: 60
+ src: /images/book-communication.gif
+ width: 60
 - height: 86
-  src: /images/book-government.gif
-  width: 60
+ src: /images/book-government.gif
+ width: 60
 publication:
-  date: April
-  publisher: Silvio Funtowicz
+ date: April
+ publisher: Silvio Funtowicz
 subjects:
 - Aria
 - International Office
@@ -60,7 +59,7 @@ type: article
 
 DOWNLOADABLE PUBLICATIONS**
 
-The following .pdf files are reproduced with permission of the copyright
+The following.pdf files are reproduced with permission of the copyright
 holders.*
 
 [*](hurricanes.pdf)**
@@ -86,12 +85,12 @@ Scientific and Technical Review, International Office of Epizootics,
 
 [
 ![](/images/icon-pdf.gif)
-](phd_thesis.pdf)
+](phd thesis.pdf)
 
-[5.9mb](phd_thesis.pdf)
+[5.9mb](phd thesis.pdf)
 
 [The Invariance Approach to the Probabilistic
-Encoding of Information](phd_thesis.pdf)
+Encoding of Information](phd thesis.pdf)
 
 Ph. D. Thesis, Department of Operations Research, Stanford University,
 1970.
@@ -290,7 +289,7 @@ Mark R. Powell, **Risk Analysis 21**(2), 395-7, 2001.
 
 [**Disposition
 of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and
-Technical Challenges**](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: National
+Technical Challenges**](http://www.nap.edu/catalog.php?record id=10119), (with committee), Washington, D.C.: National
 Academy Press, 2001.
 
 "Performance Confirmation for the Candidate Yucca Mountain High-Level Waste
@@ -318,15 +317,15 @@ and Bruce Hope), **Risk Analysis 24**(4):901-908, 2004.
 
 "A Review of Whole Animal Bioassays of the Carcinogenic Potential of Naphthalene," (with Kamal M Abdo, PhD; Janet M Benson, PhD; Alan R Dahl, PhD; John B Morris, PhD; Roger Renne, PhD; Hanspeter Witschi, MD), **Regulatory Toxicology and Pharmacology, 51**:S6-S14, 2008.
 
-[Letter Report](http://www.nap.edu/catalog.php?record_id=12073) to the Secretary, Executive Office of Energy and Environmental Affairs, State of Massachusetts, from the Committee on Technical Input on the National Institute of Health's Draft Supplementary Risk Assessments and Site Suitability Analysis for the National Emerging Infectious Diseases Laboratory, Boston University, **Report from the National Research Council**, National Academy Press (with committee), November 29 2007.
+[Letter Report](http://www.nap.edu/catalog.php?record id=12073) to the Secretary, Executive Office of Energy and Environmental Affairs, State of Massachusetts, from the Committee on Technical Input on the National Institute of Health's Draft Supplementary Risk Assessments and Site Suitability Analysis for the National Emerging Infectious Diseases Laboratory, Boston University, **Report from the National Research Council**, National Academy Press (with committee), November 29 2007.
 
 "Comments on the IRGC Framework for Risk Governance," Chapter 4 of **Global Risk Governance: Concept and Practice Using the IRGC Framework**, Dordrecht, The Netherlands: Springer, 2008.
 
 "Energy Security for the Baltic Region," Chapter 12 of **Global Risk Governance: Concept and Practice Using the IRGC Framework**, Dordrecht, The Netherlands: Springer, 2008.
 
-Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [**Letter Report ](http://www.nap.edu/catalog.php?record_id=12208)from the National Research Council **(with committee), April 29, 2008.
+Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [**Letter Report ](http://www.nap.edu/catalog.php?record id=12208)from the National Research Council **(with committee), April 29, 2008.
 
-[**Public Participation in Environmental Assessment and Decision Making**](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: National
+[**Public Participation in Environmental Assessment and Decision Making**](http://www.nap.edu/catalog.php?record id=12434), (with committee), Washington, D.C.: National
 Academy Press, 2008.
 
 ["What is the Scope of Risk Analysis*," ](https://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2008.01138.x)**Risk Analysis 27**(5), 1135-1136, 2008. **
@@ -335,7 +334,7 @@ Academy Press, 2008.
 
 Comment on the Deepwater Horizon Oil Spill, **RISK Newsletter**, Third Quarter, 2010.**
 
-Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University NEIDL, Three Letter Reports from the National Research Council **(with committee), [Phase 1:](http://www.nap.edu/catalog.php?record_id=12902) April 20, 2010; [ Phase 2: ](http://www.nap.edu/catalog.php?record_id=13054)November 5, 2010; [Phase 3:](http://www.nap.edu/openbook.php?record_id=13310) December 6, 2011. **
+Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University NEIDL, Three Letter Reports from the National Research Council **(with committee), [Phase 1:](http://www.nap.edu/catalog.php?record id=12902) April 20, 2010; [ Phase 2: ](http://www.nap.edu/catalog.php?record id=13054)November 5, 2010; [Phase 3:](http://www.nap.edu/openbook.php?record id=13310) December 6, 2011. **
 
 Review of book by B. John Garrick, Quantifying and Controlling Catastrophic Risks, Risk Analysis 30**(10):1623-1625, 2010. **
 
@@ -365,7 +364,7 @@ Review of five books: Alex Epstein, The Moral Case for Fossil Fuels**, Kenneth P
 
 "Introduction to Special Issue on Air Pollution Risks," by D. Warner North, Risk Analysis 36**(9)1688-1692, 2016.**
 
- "Decision Analysis and Bayesian Uncertainty Quantification for Decision Support," Chapter 41, Handbook on Uncertainty Quantification**, Springer International Publishing, Switzerland, R. Ghanem et al., eds., DOI 10.1007/978-3-319-11259-6_41-1, 2016. **
+ "Decision Analysis and Bayesian Uncertainty Quantification for Decision Support," Chapter 41, Handbook on Uncertainty Quantification**, Springer International Publishing, Switzerland, R. Ghanem et al., eds., DOI 10.1007/978-3-319-11259-6 41-1, 2016. **
 
 "Space Weather: Introducing a Survey Paper and a Recent Executive Order," Risk Analysis 37** (2), 203-204, 2017.**
 
@@ -387,9 +386,9 @@ Two papers are included here, one an [ unpublished manuscript](w-epasab1990) pre
 
 [
 ![](/images/public-participation-image.gif)
-](http://www.nap.edu/catalog.php?record_id=12434)
+](http://www.nap.edu/catalog.php?record id=12434)
 
-[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434)
+[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record id=12434)
 
 National Research Council,
 National Academy Press.
@@ -397,9 +396,9 @@ National Academy Press.
 
 [
 ![](/images/book-disposition.jpg)
-](http://lab.nap.edu/catalog/10119.html?onpi_newsdoc06062001)
+](http://lab.nap.edu/catalog/10119.html?onpi newsdoc06062001)
 
-[Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119)
+[Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record id=10119)
 
 National Research Council,
 National Academy Press.
@@ -407,9 +406,9 @@ National Academy Press.
 
 [
 ![](/images/book-human.jpg)
-](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720)
+](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr 1 1/104-6008309-9092720)
 
-[Human and Ecological Risk Assessment: Theory and Pactice](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720) Dennis J. Paustenbach, Editor.
+[Human and Ecological Risk Assessment: Theory and Pactice](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr 1 1/104-6008309-9092720) Dennis J. Paustenbach, Editor.
 
 Hardcover, 1200 pages. Publisher: John Wiley & Sons; ISBN: 0471147478
 
@@ -440,10 +439,10 @@ National Research Council, 1989
 
 [
 ![](/images/book-government.gif)
-](http://books.nap.edu/catalog.php?record_id=366)
+](http://books.nap.edu/catalog.php?record id=366)
 
 [Risk Assessment in the Federal Government:
-Managing the Process](http://books.nap.edu/catalog.php?record_id=366)
+Managing the Process](http://books.nap.edu/catalog.php?record id=366)
 
 National Research Council, 1983
 

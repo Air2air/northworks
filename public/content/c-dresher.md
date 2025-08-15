@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-dresher
 images:
 - height: 114
-  src: /images/dresher-paul-ensemble.jpg
-  width: 150
+ src: /images/dresher-paul-ensemble.jpg
+ width: 150
 - height: 159
-  src: /images/dresher-paul-07.jpg
-  width: 125
+ src: /images/dresher-paul-07.jpg
+ width: 125
 publication:
-  date: November 12, 2004
-  publisher: ANG Newspapers Classical Music Column
+ date: November 12, 2004
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Aria
 - Carnegie Hall

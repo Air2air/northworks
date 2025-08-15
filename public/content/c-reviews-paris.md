@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-paris
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: null
-  publisher: Cheryl North
+ date: null
+ publisher: Cheryl North
 subjects:
 - Aria
 - Baritone
@@ -43,7 +42,7 @@ By Cheryl North
 
  Then, as Maestro Pierre Boulez raised his arms to signal the beginning strains of the sublime Adagio from Gustav Mahler's Symphony No. 10, I was transported into that timeless realm without national boundaries - the universal world of music. Instead of isolated groups of Frenchmen, small enclaves of English-speaking Americans, Brits, and Welshmen, or coteries of German, Hungarian, Russian, or Arabic-speaking people, all of us seated in the hall quickly became one world - a world united by a single musical language that we could readily understand. Without translation.
 
- Boulez conducted without a baton, using instead, a right hand to shape rhythmic phrases and a mobile left , with palms turned upward at times so that his fingers reached out to encourage wood winds or brass to give a bit more, or to entice cellos to dig deeper into a melodic line. At times one hand gently patted the air to signal the brass to silence, or to quiet violins to a mere whisper of sound.
+ Boulez conducted without a baton, using instead, a right hand to shape rhythmic phrases and a mobile left, with palms turned upward at times so that his fingers reached out to encourage wood winds or brass to give a bit more, or to entice cellos to dig deeper into a melodic line. At times one hand gently patted the air to signal the brass to silence, or to quiet violins to a mere whisper of sound.
 
  The Paris strings were, in fact, some of the most unified I've ever heard. They repeatedly tricked one's ears into perceiving a sound that seemed to be produced by a single, rather than a mass, of players. Rich organ-like textures emanated from the brass and winds and a particularly long-winded trumpet player eventually evolved his sound into a stream of ineffable sweetness.
 

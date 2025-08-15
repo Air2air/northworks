@@ -1,32 +1,31 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-pub-seif-iv
 images:
 - height: 320
-  src: /images/wn-speaking-belgian-senate-4-18-06.jpg
-  width: 213
+ src: /images/wn-speaking-belgian-senate-4-18-06.jpg
+ width: 213
 - height: 161
-  src: /images/lithgen.gif
-  width: 260
+ src: /images/lithgen.gif
+ width: 260
 - height: 201
-  src: /images/balticgasmap.jpg
-  width: 224
+ src: /images/balticgasmap.jpg
+ width: 224
 - height: 225
-  src: /images/legbalticgasmap.jpg
-  width: 200
+ src: /images/legbalticgasmap.jpg
+ width: 200
 - height: 195
-  src: /images/balticgasinfdiag.gif
-  width: 260
+ src: /images/balticgasinfdiag.gif
+ width: 260
 - height: 360
-  src: /images/balticgasparttree.gif
-  width: 260
+ src: /images/balticgasparttree.gif
+ width: 260
 - height: 195
-  src: /images/balticgascumd.gif
-  width: 260
+ src: /images/balticgascumd.gif
+ width: 260
 publication:
-  date: December
-  publisher: which Lithuania
+ date: December
+ publisher: which Lithuania
 subjects:
 - Aria
 - Bass
@@ -170,11 +169,11 @@ References****
 
 [10]. Arvydas Galinis and Dalius Tarvydas, 'Power Systems Planning for Lithuania and the Baltic Region,' paper presented at the SEIF-IV Conference, Brussels, November 2005.
 
-[11]. [*Environmental and Related Technical Upgrading of Lithuanian Power Plant*](http://www.lelektrine.lt/dokumentai/eia_addendum.pdf), Lithuanian Energy Institute, Addendum to 2003 EIA, 22 July 2004.
+[11]. [*Environmental and Related Technical Upgrading of Lithuanian Power Plant*](http://www.lelektrine.lt/dokumentai/eia addendum.pdf), Lithuanian Energy Institute, Addendum to 2003 EIA, 22 July 2004.
 
-[12]. [Green Paper, *Towards a European strategy for the security of energy supply*](http://europa.eu.int/comm/energy_transport/doc-principal/pubfinal_en.pdf), European Commission, November 2000.
+[12]. [Green Paper, *Towards a European strategy for the security of energy supply*](http://europa.eu.int/comm/energy transport/doc-principal/pubfinal en.pdf), European Commission, November 2000.
 
-[13]. [Study of Energy Supply Security and Geopolitics](http://europa.eu.int/comm/energy_transport/doc/2004_lv_ciep_report_en.pdf), carried out for the EC/DG-TREN, by the Clingendael International Energy Programme, January 2004.
+[13]. [Study of Energy Supply Security and Geopolitics](http://europa.eu.int/comm/energy transport/doc/2004 lv ciep report en.pdf), carried out for the EC/DG-TREN, by the Clingendael International Energy Programme, January 2004.
 
 [14]. Keith Smith, *Russian Energy Politics in the Baltics, Poland, and Ukraine,* Center for Strategic and International Studies, Washington, D.C., December 2004.
 
@@ -200,7 +199,7 @@ References****
 
 [25]. National Research Council, [*Understanding Risk: Informing Decisions in a Democratic Society*](http://books.nap.edu/catalog/5138.html), Washington DC: National Academy Press, 1996.
 
-[26]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public_Participation.html](http://www7.nationalacademies.org/hdgc/public_participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access).
+[26]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public Participation.html](http://www7.nationalacademies.org/hdgc/public participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access).
 
 ### The Author
 

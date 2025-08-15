@@ -1,20 +1,19 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-pub-stuttgart
 images:
 - height: 195
-  src: /images/wnstuttgart10-04.jpg
-  width: 260
+ src: /images/wnstuttgart10-04.jpg
+ width: 260
 publication:
-  date: 01/34/1242
-  publisher: the Ministerium
+ date: 01/34/1242
+ publisher: the Ministerium
 subjects:
 - Aria
 - 'Climate Congress
 
 
-  October'
+ October'
 - Global Climate Change
 - Music Article
 - Opera
@@ -192,7 +191,7 @@ http://books.nap.edu/catalog/10139.html](http://books.nap.edu/catalog/10139.html
 [9]. Brian M. Fagan, *The Little Ice Age*, New York: Basic Books, 2001.
 
 [10]. Michael E. Mann and Philip D. Jones, "Global surface temperatures over the past two millennia," *Geophysical Research Letters*, 30**(15):l820-1823 (2003).
-http://stephenschneider.stanford.edu/Publications/PDF_Papers/Mann_Jones1.pdf
+http://stephenschneider.stanford.edu/Publications/PDF Papers/Mann Jones1.pdf
 .**
 [11]. Hans von Storch et al., "Reconstructing Past Climate from Noisy Data," *Science*, 306**:679-682, 22 October 2004.**
 [12]. Timothy J. Osborn and Keith R. Briffa, "The Real Color of Climate Change," *Science* 306**:621-622, 22 October 2004. **

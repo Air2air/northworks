@@ -1,13 +1,12 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-cleve
 images:
 - alt: George Cleve
-  src: /images/cleve-george.jpg
+ src: /images/cleve-george.jpg
 publication:
-  date: July 3, 2009
-  publisher: Bay Area News Group Classical Music Column
+ date: July 3, 2009
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - by suddenly
 - of his
@@ -20,7 +19,7 @@ subjects:
 - him on
 - to study
 title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
-  Festival
+ Festival
 type: interview
 ---
 

@@ -1,10 +1,9 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-hoopes
 publication:
-  date: December
-  publisher: Cheryl North
+ date: December 25, 2009
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - to his
 - bit of
@@ -16,16 +15,9 @@ subjects:
 - learn and
 - marathon to
 - he will
-title: Cheryl North Interviews Chad Hoopes prior to his performance at the New Year's
-  Concert of the San Francisco Symphony, December 31, 2009
+title: Cheryl North Interviews Chad Hoopes
 type: interview
 ---
-
-### **Cheryl North Interviews Chad Hoopes prior to his performance at the New Year's Concert of the San Francisco Symphony, December 31, 2009**
-
-*Material from the Classical Music Column for the December 25, 2009 Preview Section, Bay Area News Group.*
-
-By Cheryl North
 
  Well, it's finally here: Christmas Day, 2009. Along with Merry Christmas wishes from me to all my readers, let me reveal my sure-fire recipe for an extra healthy helping of seasonal joy: add a bit of sing-along caroling to the day's traditional present-opening, toasting, and feasting activities. Whether one's voice resembles that of an angel or a waif with a severe case of laryngitis, a song shared will top off the day with an extra dollop of delight.
 

@@ -1,51 +1,42 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: "2025-08-13"
 id: c-reviews-bwe-xerxes-11-10
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ - height: 28
+ src: /images/title-reviews.gif
+ width: 250
+ - height: 248
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: November
-  publisher: Cheryl North
+ date: November 13, 2010
+ publisher: Bay Area News Group
 subjects:
-- orchestral musicians
-- exquisite harpsichords
-- as assistant
-- planting the
-- stage like
-- stances while
-- managed to
-- boy who
-- Roger McCracken
-- Persian King
-title: Untitled
+ - orchestral musicians
+ - exquisite harpsichords
+ - as assistant
+ - planting the
+ - stage like
+ - stances while
+ - managed to
+ - boy who
+ - Roger McCracken
+ - Persian King
+title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
 ---
-
-***
-
-Berkeley West Edge Opera's Performance of Handel's Xerxes***
-
-Review of the November 13, 2010 performance, posted November 15 on the website amd subsequently in newspapers of the Bay Area News Group
-
-By Cheryl North
 
 When you go to a Berkeley West Edge Opera production, expect the unexpected.
 
 Characteristically, the audacious company, from its early decades as Berkeley Opera to its new iteration under the new name, has maintained an uncanny ability to overcome problems of budgets, venues, human resources and just about anything else and still consistently produce compelling, often provocative, opera.
 
-Not surprisingly then, last Saturday's opening of Georg Frideric Handel's 1738 opera, *Xerxes*, was a triumph.
+Not surprisingly then, last Saturday's opening of Georg Frideric Handel's 1738 opera, Xerxes, was a triumph.
 
 Had I sat through it with eyes closed, I would have felt I had just heard a concert of the world's most sublime Baroque music, artfully performed. On the other hand, had I witnessed it with the sound blotted out, I would have felt that I had been enormously entertained by a show falling somewhere between a Feydeau farce and a Charlie Chaplin silent film.
 
 Conducting the music in flawless fashion was Alan Curtis, an internationally acclaimed Handel scholar and early music specialist. His skilled orchestral musicians played on authentic reconstructions of period instruments, including two exquisite harpsichords played by both Curtis and the multitalented Gilbert Martinez, who also served as assistant conductor and program annotator.
 
-In short, Berkeley West Edge's *Xerxes* has it all: gorgeous music, terrific singers, simple but effective sets, vivid but tasteful lighting, and quite unexpectedly -- comedy. Most Baroque operas, with their staid plots centered on the problems of the gods, are presented in a formulaic style that combines recitatives -- a sort of spoken-sung parlance that expounds the story action -- with lengthy, highly embellished arias meant to express the characters' emotions. Although the music can indeed be ravishing, the format can be a little dull.
+In short, Berkeley West Edge's Xerxes has it all: gorgeous music, terrific singers, simple but effective sets, vivid but tasteful lighting, and quite unexpectedly -- comedy. Most Baroque operas, with their staid plots centered on the problems of the gods, are presented in a formulaic style that combines recitatives -- a sort of spoken-sung parlance that expounds the story action -- with lengthy, highly embellished arias meant to express the characters' emotions. Although the music can indeed be ravishing, the format can be a little dull.
 
 But Mark Streshinsky, Berkeley West Edge Opera's artistic director, saw in its impossibly convoluted plot the commedia dell'arte qualities, which, if approached right, are sure to resonate with modern audiences. This led him to mix a mash of clever sight gags with moments of real emotion and heart. Instead of planting the singers on stage like singing statues, he had them assume all sorts of interesting stances while singing through Handel's characteristic coloratura twists and acrobatic vocal turns.
 
@@ -60,4 +51,3 @@ Other cast members are petite soprano and consummate comedian Anna Slate, who sa
 And heres an ironic bit: Xerxes' opening aria happens to be the original source of the beloved piece we now call Handel's Largo. Not the stately, semi-religious piece we use for grand ceremonial occasions, it's actually the love song the ancient Persian King sings to -- of all things -- a tree!
 
 ![](/images/logos-newspaper.gif)
-

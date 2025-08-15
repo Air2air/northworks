@@ -14,7 +14,7 @@
 - ✅ **Updated**: `/portfolio` → `/warner-portfolio` in homepage
 - ✅ **Updated**: `/portfolio` → `/warner-portfolio` in navigation
 - ✅ **Updated**: `/interviews-dynamic` → `/interviews` in data dashboard
-- ✅ **Updated**: `/articles-dynamic` → `/articles` in data dashboard  
+- ✅ **Updated**: `/articles-dynamic` → `/articles` in data dashboard 
 - ✅ **Updated**: `/interviews-index` → `/interviews` in articles page
 - ✅ **Updated**: `/articles-index` → `/articles` in interviews page
 
@@ -37,24 +37,24 @@
 
 ### Remaining Active Routes (22)
 ```
-/                    (Homepage)
-/articles            (Main articles page) 
-/articles/[slug]     (Individual articles)
-/cheryl              (Cheryl page)
-/contact             (Contact page) 
-/data-dashboard      (Data dashboard)
-/interviews          (Main interviews page)
-/interviews/[slug]   (Individual interviews)
-/lists               (Lists page)
-/reviews             (Reviews page)
-/reviews-index       (Reviews index)
-/reviews/[slug]      (Individual reviews)
-/search              (Search page)
-/warner              (Warner main)
-/warner-portfolio    (Warner portfolio - kept)
-/warner/background   (Warner background)
-/warner/nrc-index    (Warner NRC index)
-/warner/projects     (Warner projects)
+/     (Homepage)
+/articles   (Main articles page) 
+/articles/[slug]  (Individual articles)
+/cheryl    (Cheryl page)
+/contact    (Contact page) 
+/data-dashboard  (Data dashboard)
+/interviews   (Main interviews page)
+/interviews/[slug] (Individual interviews)
+/lists    (Lists page)
+/reviews    (Reviews page)
+/reviews-index  (Reviews index)
+/reviews/[slug]  (Individual reviews)
+/search    (Search page)
+/warner    (Warner main)
+/warner-portfolio (Warner portfolio - kept)
+/warner/background (Warner background)
+/warner/nrc-index (Warner NRC index)
+/warner/projects  (Warner projects)
 /warner/projects-index (Warner projects index)
 /warner/projects/government (Warner gov projects)
 /warner/publications (Warner publications)
@@ -72,7 +72,7 @@
 
 The route consolidation is complete and successful. The codebase is now:
 - **Cleaner**: 7 fewer duplicate routes
-- **More maintainable**: Single source of truth for each content type  
+- **More maintainable**: Single source of truth for each content type 
 - **Less confusing**: Clear navigation patterns
 - **Better performing**: Reduced route processing overhead
 

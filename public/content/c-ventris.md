@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-ventris
 images:
 - height: 200
-  src: /images/christopher-ventris.jpg
-  width: 160
+ src: /images/christopher-ventris.jpg
+ width: 160
 publication:
-  date: June
-  publisher: participating in
+ date: June
+ publisher: participating in
 subjects:
 - Christopher Ventris
 - Conducting

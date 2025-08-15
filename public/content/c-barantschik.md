@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-barantschik
 images:
 - height: 250
-  src: /images/barantschik-and-mtt-cologne.jpg
-  width: 350
+ src: /images/barantschik-and-mtt-cologne.jpg
+ width: 350
 - height: 202
-  src: /images/barantschik-and-violin.jpg
-  width: 123
+ src: /images/barantschik-and-violin.jpg
+ width: 123
 publication:
-  date: February 16, 2007
-  publisher: San Francisco Examiner
+ date: February 16, 2007
+ publisher: San Francisco Examiner
 subjects:
 - Concerto
 - Davies Symphony Hall
@@ -119,7 +118,7 @@ Back in 1979, when aspiring violinist Alexander Barantschik played through his f
 
  Now happily ensconced in a home with a garden in San Mateo with his violinist wife Alena, Benjamin, their four-year-old son, and his mother, Sasha is happy to call the San Francisco Bay Area his home -- and to be privy to playing the prized Guarneri as the concertmaster of the San Francisco Symphony.
 
- When asked what the high point of his first year as San Francisco's concertmaster, he replied with nary a pause, "The first concert we played after September 11th (Mahler's Symphony No. 6, on Sept. 12, 2001). It was the most deeply touching event of my life ... there was a feeling of such unity ... we were all making that music and those feelings together -- the Maestro, Michael Tilson Thomas, the musicians, and the audience. That day and that concert I will always remember -- even though I was playing my old violin."
+ When asked what the high point of his first year as San Francisco's concertmaster, he replied with nary a pause, "The first concert we played after September 11th (Mahler's Symphony No. 6, on Sept. 12, 2001). It was the most deeply touching event of my life... there was a feeling of such unity... we were all making that music and those feelings together -- the Maestro, Michael Tilson Thomas, the musicians, and the audience. That day and that concert I will always remember -- even though I was playing my old violin."
 
 *
 

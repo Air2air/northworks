@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-borodina
 images:
 - height: 160
-  src: /images/thm-borodina.jpg
-  width: 160
+ src: /images/thm-borodina.jpg
+ width: 160
 publication:
-  date: September 15, 2000
-  publisher: ANG Newspapers Classical Music  Column for Preview Section
+ date: September 15, 2000
+ publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
 - Baritone
 - Giuseppe Verdi

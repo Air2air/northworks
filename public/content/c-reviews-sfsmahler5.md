@@ -1,15 +1,14 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-sfsmahler5
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 publication:
-  author: Cheryl North
-  date: September
-  publisher: Oakland Tribune
+ author: Cheryl North
+ date: September
+ publisher: Oakland Tribune
 subjects:
 - Concert Review
 - Conducting

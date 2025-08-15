@@ -1,14 +1,14 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-graham
 images:
 - height: 150
-  src: /images/graham-with-norths.jpg
-  width: 210
+ src: /images/graham-with-norths.jpg
+ width: 210
 publication:
-  date: February
-  publisher: the San
+ date: February 2, 2007
+ publisher: ANG Newspapers Classical Music
+ Column
 subjects:
 - Carnegie Hall
 - Davies Symphony Hall
@@ -20,16 +20,9 @@ subjects:
 - Soprano
 - Symphony
 - Wolfgang Amadeus Mozart
-title: Cheryl North Interviews Susan Graham
+title: Busy Susan Graham Brings Her Talents to San Francisco*
 type: interview
 ---
-
-**
-### Cheryl North Interviews Susan Graham**
-
-*ANG Newspapers Classical Music
- Column from February 2, 2007, under title:
- Busy Susan Graham Brings Her Talents to San Francisco*
 
 The voice that rose above the rhythmic clickity-clack on the other end of the phone line was uncommonly focused and had a definite luminosity about it.
 

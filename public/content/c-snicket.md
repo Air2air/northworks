@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-snicket
 images:
 - height: 160
-  src: /images/snicket-handler.jpg
-  width: 120
+ src: /images/snicket-handler.jpg
+ width: 120
 - height: 150
-  src: /images/stookey.jpg
-  width: 127
+ src: /images/stookey.jpg
+ width: 127
 publication:
-  date: June
-  publisher: chance when
+ date: June
+ publisher: chance when
 subjects:
 - Conducting
 - Daniel Handler

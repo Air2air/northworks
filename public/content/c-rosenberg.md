@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-rosenberg
 images:
 - height: 141
-  src: /images/rosenberg.jpg
-  width: 192
+ src: /images/rosenberg.jpg
+ width: 192
 publication:
-  date: November
-  publisher: the early
+ date: November
+ publisher: the early
 subjects:
 - Carnegie Hall
 - Giacomo Puccini

@@ -1,20 +1,19 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-orbelian
 images:
 - height: 28
-  src: /images/title-orbelian.gif
-  width: 290
+ src: /images/title-orbelian.gif
+ width: 290
 - height: 144
-  src: /images/orbelian.jpg
-  width: 141
+ src: /images/orbelian.jpg
+ width: 141
 - height: 205
-  src: /images/moscow.jpg
-  width: 250
+ src: /images/moscow.jpg
+ width: 250
 publication:
-  date: February
-  publisher: Columbia Artists
+ date: February 7, 2003
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Carmen
 - Carnegie Hall
@@ -26,21 +25,14 @@ subjects:
 - San Francisco Symphony
 - Symphony
 - Violin
-title: Untitled
+title: Interview - Constantine Orbelian
 type: interview
 ---
 
-***
-
-Cheryl North Interviews Constantine Orbelian**
-
-ANG Newspapers Classical Music Column - February 7, 2003.*
 
 Imagine the following scenario for a terrific movie: A young American concert pianist arrives in cold blustery Moscow on a December day in 1990 to begin rehearsing for his upcoming appearance with the Moscow Chamber Orchestra. He is primed and ready to solo in the daunting Shostakovich Piano Concerto No. 1.
 
 Then, the conductor of the orchestra suddenly takes ill. He dies.
-
-*
 
 The concert is to be canceled. But, like the coming of the cavalry to save the besieged fort, the young American suggests that he can not only play the scheduled Shostakovich Concerto, he can also wield a baton! Like John Wayne with sword held high rallying the troops, he proposes to play the concerto and conduct the orchestra too. They doubt, of course. But after he displays his prowess during a rehearsal, they decide they must allow him to try.
 

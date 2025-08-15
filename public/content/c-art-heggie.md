@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-art-heggie
 images:
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: October 27, 2006
-  publisher: ANG Newspapers Classical Music Column
+ date: October 27, 2006
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - attending the
 - McGegan will

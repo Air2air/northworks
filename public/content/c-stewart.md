@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-stewart
 images:
 - height: 28
-  src: /images/title-stewart.gif
-  width: 250
+ src: /images/title-stewart.gif
+ width: 250
 - height: 185
-  src: /images/stewart.jpg
-  width: 227
+ src: /images/stewart.jpg
+ width: 227
 publication:
-  date: June
-  publisher: Tom Stoppard
+ date: June
+ publisher: Tom Stoppard
 subjects:
 - Baritone
 - Davies Symphony Hall
@@ -56,7 +55,7 @@ While Stewart has received such honors as the prestigious *Will Award* from the 
 
 "It embarrasses me a little to say it, but I truly no longer know where I begin and he (Picard) leaves off. A lot of me has gone into this man, and there are some aspects of him that I've tried to absorb myself," he said.
 
-Reflecting on the pervasive popularity of the Star Trek series, he continued, "There is something larger than life about the series. *Star Trek*'s dialogue isn't ordinary dialogue . . . There is always this element of the parable sewn into every episode. The underlying themes and myths are often about 20th century society or larger philosophical or poetic themes."
+Reflecting on the pervasive popularity of the Star Trek series, he continued, "There is something larger than life about the series. *Star Trek*'s dialogue isn't ordinary dialogue... There is always this element of the parable sewn into every episode. The underlying themes and myths are often about 20th century society or larger philosophical or poetic themes."
 
 "It seems to many Americans, that who sits in the Captain's chair on the Enterprise is more important than who occupies the throne of England," he quipped. "It still is some wonder to me."
 

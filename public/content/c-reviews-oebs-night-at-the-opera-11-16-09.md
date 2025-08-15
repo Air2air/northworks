@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-oebs-night-at-the-opera-11-16-09
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: November
-  publisher: Cheryl North
+ date: November
+ publisher: Cheryl North
 subjects:
 - Aida
 - Aria

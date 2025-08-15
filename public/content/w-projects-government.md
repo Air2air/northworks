@@ -1,26 +1,25 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-projects-government
 images:
 - height: 28
-  src: /images/title-experience-government.gif
-  width: 250
+ src: /images/title-experience-government.gif
+ width: 250
 - height: 50
-  src: /images/logo-epa.gif
-  width: 50
+ src: /images/logo-epa.gif
+ width: 50
 - height: 50
-  src: /images/logo-epa.gif
-  width: 50
+ src: /images/logo-epa.gif
+ width: 50
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-us.gif
-  width: 50
+ src: /images/logo-us.gif
+ width: 50
 - height: 50
-  src: /images/logo-cal.gif
-  width: 50
+ src: /images/logo-cal.gif
+ width: 50
 subjects:
 - Environmental Health Committee
 - Extrapolation Models Review Panel

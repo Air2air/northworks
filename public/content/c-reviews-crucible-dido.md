@@ -1,21 +1,20 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-crucible-dido
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 - height: 167
-  src: /images/dido-aeneas-225.jpg
-  width: 220
+ src: /images/dido-aeneas-225.jpg
+ width: 220
 publication:
-  author: Cheryl North
-  date: January
-  publisher: Oakland Tribune
+ author: Cheryl North
+ date: January 16, 2004
+ publisher: Oakland Tribune, The Alameda Times-Star
 subjects:
 - Auction and
 - their opera
@@ -23,17 +22,9 @@ subjects:
 - Soloists all
 - Rob Stafford
 - San Francisco Opera
-title: Untitled
+title: Burn, baby, burn - Crucible interpretation of 'Dido' is en fuego
 type: review
 ---
-
-***
-
-Burn, baby, burn: Crucible interpretation of 'Dido' is en fuego**
-
-Opera Preview based on the dress rehearsal from The Oakland Tribune and The Alameda Times-Star*, with headline above, Friday, January 16, 2004
-
-By Cheryl North
 
 Is it possible for a Baroque opera to catch fire with a 2004 audience? Well, that's what happened Wednesday in West Oakland when Henry Purcell's "Dido and Aeneas" ignited and fascinated the minds and sensibilities of its audience during a full dress rehearsal at The Crucible Arena/Theater. The old 17th century war horse opera will do that and more during its opening night Gala Reception, Art Auction and Performance at 6:30 tonight and at a subsequent performance and post-performance party at 8 p.m. Saturday.
 
@@ -54,4 +45,3 @@ I'm not usually an enthusiastic fan of the practice of "updating," adding to or 
 ](dido.htm)
 
 [Crucible flyer - Click to enlarge](/articles/dido)
-

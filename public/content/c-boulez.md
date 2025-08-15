@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-boulez
 images:
 - height: 227
-  src: /images/pierre-boulez.jpg
-  width: 150
+ src: /images/pierre-boulez.jpg
+ width: 150
 publication:
-  date: May 19, 2000
-  publisher: ANG Newspapers Classical Music  Column for Preview Section
+ date: May 19, 2000
+ publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
 - Cheryl North Writes
 - Conducting

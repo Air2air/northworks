@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-bell
 images:
 - height: 28
-  src: /images/title-bell.gif
-  width: 250
+ src: /images/title-bell.gif
+ width: 250
 - height: 300
-  src: /images/bell.jpg
-  width: 219
+ src: /images/bell.jpg
+ width: 219
 publication:
-  date: September 13, 2002
-  publisher: ANG PREVIEW Section
+ date: September 13, 2002
+ publisher: ANG PREVIEW Section
 subjects:
 - Carnegie Hall
 - Davies Symphony Hall
@@ -44,7 +43,7 @@ Bell's current fiddle is not only expensive, it is fraught with mystery and intr
 
 The good news is that the mysterious instrument, with its red-hued varnish, is now in Bell's worthy hands. Referring to the Grammy Award winning John Corigliano soundtrack to the film The Red Violin* in which he played the violin solos, Bell told a previous interviewer, "It's really ironic for me that I'm ending up with a red violin!"
 
-I asked Bell if he could summon up some English words to describe the vaunted Stradivarius sound. "It has incredible tonal quality ... it projects through a hall...it has distinctive, rich overtones...great subtlety and nuance. My first teacher, Josef Gingold, played a Strad."
+I asked Bell if he could summon up some English words to describe the vaunted Stradivarius sound. "It has incredible tonal quality... it projects through a hall...it has distinctive, rich overtones...great subtlety and nuance. My first teacher, Josef Gingold, played a Strad."
 
 Responding to my question about how a Stradivari compares to a Guarneri, he said, "The Guarneri is like a Lamborghini automobile - great power with 12 cylinders. The more you press it, the more it gives. The Strad, on the other hand, is more like a Porsche - finely, precisely engineered."
 

@@ -1,10 +1,9 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-gergiev
 publication:
-  date: October
-  publisher: the time
+ date: October 7, 2011
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - to his
 - Zellerbach Hall
@@ -16,15 +15,9 @@ subjects:
 - gave him
 - interested in
 - soccer than
-title: Cheryl North Interviews Valery Gergiev prior to his performances at Zellerbach
-  Hall conducting all six of Tchaikovsky's symphonies
+title: Passion for his fellow Russian renders Gergiev the Tchaikovsky Ambassador
 type: interview
 ---
-
-### **Cheryl North Interviews Valery Gergiev prior to his performances
-at Zellerbach Hall conducting all six of Tchaikovsky's symphonies**
-
-*Material from the Classical Music Column for October 7, 2011 published on the websites and newspapers of the Bay Area News Group, under the headlines, "Passion for his fellow Russian renders Gergiev the Tchaikovsky Ambassador."*
 
 A rare treat is coming up for Bay Area music lovers this month: Valery Gergiev, one of the world's most charismatic orchestral conductors in an era brimming with charismatic conductors, is scheduled to lead Russia's storied Mariinsky Orchestra through all six of Peter Illyich Tchaikovsky's beloved symphonies during a three-day residency next weekend at Zellerbach Hall on the UC Berkeley campus.
 

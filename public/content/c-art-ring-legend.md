@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-art-ring-legend
 images:
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: July 30, 2010
-  publisher:  Bay Area News Preview Section
+ date: July 30, 2010
+ publisher: Bay Area News Preview Section
 subjects:
 - Baritone
 - Bass

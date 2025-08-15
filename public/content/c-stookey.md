@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-stookey
 images:
 - height: 150
-  src: /images/stookey.jpg
-  width: 127
+ src: /images/stookey.jpg
+ width: 127
 publication:
-  date: November
-  publisher: the same
+ date: November
+ publisher: the same
 subjects:
 - Bass
 - Conducting

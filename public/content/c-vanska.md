@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-vanska
 images:
 - height: 226
-  src: /images/vanska-with-c-10-31-09.jpg
-  width: 257
+ src: /images/vanska-with-c-10-31-09.jpg
+ width: 257
 publication:
-  date: October
-  publisher: Cheryl North
+ date: October
+ publisher: Cheryl North
 subjects:
 - Concerto
 - Davies Symphony Hall

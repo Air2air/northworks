@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-gerstein
 images:
 - height: 150
-  src: /images/gersteinc.jpg
-  width: 207
+ src: /images/gersteinc.jpg
+ width: 207
 publication:
-  date: October
-  publisher: writing gorgeous
+ date: October 15, 2010
+ publisher: Bay Area News Group
 subjects:
 - Conducting
 - Giacomo Puccini
@@ -19,16 +18,10 @@ subjects:
 - San Francisco Symphony
 - Sergei Rachmaninoff
 - Symphony
-title: Interview with Kiril Gerstein, in connection with his appearance with the San
-  Francisco Symphony playing Rachmaninoff's Rhapsody on a Theme of Paganini
+title: Kiril Gerstein's appearance with the San Francisco Symphony playing Rachmaninoff's Rhapsody on a Theme of Paganini
 type: interview
 ---
 
-### **Interview with Kiril Gerstein, in connection with his appearance with the San Francisco Symphony playing Rachmaninoff's *Rhapsody on a Theme of Paganini*
-
-**
-
-*Column for the Bay Area New Group website and newspapers run on October 15, 2010.*,
 
  "Russia is a riddle wrapped in a mystery inside an enigma," said Winston Churchill in 1939. That very same aphorism could be applied to Sergei Vasilevich Rachmaninoff, 1873-1943, one of that country's most revered sons. He was not only a composer, but one of the world's greatest pianists, as well as a magnificent conductor.
 

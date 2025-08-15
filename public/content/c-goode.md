@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-goode
 images:
 - height: 215
-  src: /images/richard-goode.jpg
-  width: 150
+ src: /images/richard-goode.jpg
+ width: 150
 publication:
-  date: March
-  publisher: wreaths of
+ date: March 29, 2002
+ publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
 - Carnegie Hall
 - Davies Symphony Hall
@@ -23,12 +22,6 @@ subjects:
 title: Cheryl North Interviews Richard Goode
 type: interview
 ---
-
-**
-
-### Cheryl North Interviews Richard Goode**
-
-*Classical Music Column for ANG Newspapers Preview Section, March 29, 2002*
 
 Genius can pop up in unlikely places. Sometimes a rather extraordinary plant sprouts in the middle of a very ordinary flower garden -- or even amidst a field of weeds. At first it might not differ much from its neighbors. But as time passes, it begins to differentiate from the rest and metamorphoses into an unsolicited blossom of unique beauty.
 

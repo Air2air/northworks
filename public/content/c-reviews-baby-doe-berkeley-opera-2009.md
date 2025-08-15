@@ -1,40 +1,31 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: "2025-08-13"
 id: c-reviews-baby-doe-berkeley-opera-2009
 images:
-- height: 28
-  src: /images/title-reviews.gif
-  width: 250
-- height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ - height: 28
+ src: /images/title-reviews.gif
+ width: 250
+ - height: 248
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: July
-  publisher: Cheryl North
+ date: July
+ publisher: Bay Area News Group
 subjects:
-- Baby Doe
-- Baritone
-- Berkeley Opera Performance
-- Concert Review
-- Conducting
-- Mezzo-soprano
-- Opera
-- Performance
-- Soprano
-title: Untitled
+ - Baby Doe
+ - Baritone
+ - Berkeley Opera Performance
+ - Concert Review
+ - Conducting
+ - Mezzo-soprano
+ - Opera
+ - Performance
+ - Soprano
+title: Inventive 'Baby Doe' redefines riches at the Berkeley Opera
 type: review
 ---
 
-***
-
-Berkeley Opera Performance of The Ballad of Baby Doe***
-
-Review of the July 15, 2009 performance published July 17 in papers of the Bay Area News Group, under the headlines,"Inventive 'Baby Doe' redefines riches at the Berkeley Opera"and "Dire necessity gives birth to an inventive 'Baby Doe' at Berkeley Opera."
-
-By Cheryl North
-
-Hard times, whether economic, social, or political, can often serve as stimulus to human creativity — “necessity is the mother of invention” and that sort of thing. Berkeley Opera’s current production, Douglas Moore’s *The Ballad of Baby Doe*, set to a libretto by John Latouche, offers a vivid case in point.
+Hard times, whether economic, social, or political, can often serve as stimulus to human creativity — “necessity is the mother of invention” and that sort of thing. Berkeley Opera’s current production, Douglas Moore’s The Ballad of Baby Doe, set to a libretto by John Latouche, offers a vivid case in point.
 
 Composer Moore, known for his tonally melodic and engagingly rhythmic writing in what has been labeled “typical American folk style,” based his opera on a true story that took place in rip-roaring mid-19th century Colorado during the heyday of silver mining. It’s a rags-to-riches-to-ruin tale of Vermont-born Horace Tabor, who, in midlife, divorces his cold-fish wife Augusta after falling deeply in love with a warm, beautiful, but decades-younger woman, a divorcee named Elizabeth “Baby” Doe.
 
@@ -59,4 +50,3 @@ Tall, reed-slim mezzo-soprano Lisa Houston, in her severely cut black gowns, was
 In addition to a small, skilled chorus and orchestra, there were also two outstanding quartets of singers: Alexander Taite, Kenny Louis, Michael Beetham and Wayne Wong performing with exceptional dramatic and musical polish as Tabor’s long-time cronies, and a finely blended group of ladies — Elizabeth Wells, Angela Hayes, Elizabeth Gentner, and Cary Ann Rosko — who seemed to be having great fun acting out the righteous indignation of Augusta’s prim lady friends.
 
 ![](/images/logos-newspaper.gif)
-

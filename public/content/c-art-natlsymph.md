@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-art-natlsymph
 images:
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: February 11, 2005
-  publisher: ANG Newspapers Classical Music Column
+ date: February 11, 2005
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Concerto
 - Giacomo Puccini

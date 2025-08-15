@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-runnicles
 images:
 - height: 28
-  src: /images/title-runnicles.gif
-  width: 250
+ src: /images/title-runnicles.gif
+ width: 250
 - height: 200
-  src: /images/runnicles.jpg
-  width: 160
+ src: /images/runnicles.jpg
+ width: 160
 publication:
-  date: January
-  publisher: praising Runnicles
+ date: January
+ publisher: praising Runnicles
 subjects:
 - Baritone
 - Bass
@@ -52,7 +51,7 @@ last month.
 Audiences were unabashedly demonstrative, as were the orchestra
 members themselves. The Berliner Tagesspiegel* critic noted, "It is after all something of an upside-down world when our fabulous
 Berliner Philharmonic Orchestra turns around on its orchestral stage
-to applaud ..." while the Berliner *Morgenpost* critic extolled
+to applaud..." while the Berliner *Morgenpost* critic extolled
 "Finally another successful conducting debut with the Berlin
 Philharmonic!" The critique ended by praising Runnicles for
 succeeding in "giving form to the contemporary relevance of the
@@ -69,7 +68,7 @@ and chamber music concerts.
 
 Runnicles may be an Edinburgh-born Scot, but he has made his home
 in San Francisco. Before the Berlin engagement he said, "I think
-this is a wonderful place to live. ... I greatly love being at home,
+this is a wonderful place to live.... I greatly love being at home,
 just pottering around. I don't like being peripatetic and flying
 around from branch to branch. I'm connected to the Earth."
 
@@ -122,8 +121,8 @@ to new works. There is a pioneering, ambassadorial side to my work,
 my mandate, as the opera's music director. It brings with it an
 enormous responsibility with an enormous sense of fulfillment when
 we can introduce people to new music and they think after
-experiencing our 'Lady Macbeth' production, 'My goodness ...
-Shostakovich! I must go out and buy his symphonies ...'"
+experiencing our 'Lady Macbeth' production, 'My goodness...
+Shostakovich! I must go out and buy his symphonies...'"
 
 The Shostakovich "Macbeth" production came within a decimal point
 of outdoing "The Magic Flute" as the best-sold opera of this season.

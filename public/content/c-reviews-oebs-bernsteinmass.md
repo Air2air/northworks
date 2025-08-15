@@ -1,18 +1,17 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-oebs-bernsteinmass
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  author: Cheryl North
-  date: May
-  publisher: Oakland Tribune
+ author: Cheryl North
+ date: May
+ publisher: Oakland Tribune
 subjects:
 - Aria
 - Baritone
@@ -74,7 +73,7 @@ Eventually, during the Eucharist section, the Celebrant drops the chalice and th
 
 By now, members of the adult choir had cast off their sky-blue robes and members of the children's chorus moved from their previous position at stage right out into the aisles to join hands with the dancers.
 
-Then, when all seems lost, young 11-year-old Andy Gutierrez stepped forth to project his angelic soprano voice through the cacophony. His words, "Sing God a secret song, Lauda, Laude ... spread like a healing balsam over the chaos.
+Then, when all seems lost, young 11-year-old Andy Gutierrez stepped forth to project his angelic soprano voice through the cacophony. His words, "Sing God a secret song, Lauda, Laude... spread like a healing balsam over the chaos.
 
 He is soon joined in his reverent supplication by the Celebrant as well as all the stage voices and the orchestra. Then all froze for a moment of absolute quiet before a penetrating voice whispered, "Go in peace."
 

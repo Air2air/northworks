@@ -1,42 +1,35 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: "2025-08-13"
 id: c-lang-lang
 images:
-- height: 212
-  src: /images/langcherie09.jpg
-  width: 212
-- height: 212
-  src: /images/lang-lang-mother.jpg
-  width: 212
+ - height: 212
+ src: /images/langcherie09.jpg
+ width: 212
+ - height: 212
+ src: /images/lang-lang-mother.jpg
+ width: 212
 publication:
-  date: September
-  publisher: Warner North
+ date: September 9, 2009
+ publisher: Bay Area News Group Classical Music Column
 subjects:
-- Concerto
-- Franz Liszt
-- Frédéric Chopin
-- Johann Sebastian Bach
-- Opera
-- Piano
-- San Francisco Symphony
-- Sergei Rachmaninoff
-- Symphony
-title: Untitled
+ - Concerto
+ - Franz Liszt
+ - Frédéric Chopin
+ - Johann Sebastian Bach
+ - Opera
+ - Piano
+ - San Francisco Symphony
+ - Sergei Rachmaninoff
+ - Symphony
+title: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
 type: interview
 ---
 
-#### **Cheryl North Interviews Lang Lang prior to his performance at the Opening Concert of the San Francisco Symphony, September 9, 2009**
-
-*Material from the Classical Music Column for the September 4, 2009 Preview Section, Bay Area News Group, under the headlines, "Lang Lang, man of contrasts, opens S.F. Symphony season" and "Lang Lang not fazed by Prokofiev's 3rd."*
-
 If Roman philosopher Seneca's assertion that "art imitates nature" (or life) is true, then one could be well on the way to understanding the sometimes startling extremes in Chinese pianist Lang Lang's piano playing.
 
-At 8:30 p.m. Wednesday, Lang will be welcomed on San Francisco's Davies Hall stage to perform Sergei Prokofiev's thrilling Piano Concerto No. 3 under the baton of Maestro Michael Tilson Thomas for the San Francisco Symphony's 2009-2010 season-opening gala. Additional works on the program will be Liszt's *Mephisto Waltz No. 1,* Ravel's *La Valse* and Richard Rodgers' *Carousel* Waltz.
+At 8:30 p.m. Wednesday, Lang will be welcomed on San Francisco's Davies Hall stage to perform Sergei Prokofiev's thrilling Piano Concerto No. 3 under the baton of Maestro Michael Tilson Thomas for the San Francisco Symphony's 2009-2010 season-opening gala. Additional works on the program will be Liszt's Mephisto Waltz No. 1, Ravel's La Valse and Richard Rodgers' Carousel Waltz.
 
 Now arguably one of the greatest pianists of his generation, Lang is welcomed on the world's most prestigious stages, where he routinely performs with its most renowned orchestras and conductors. In 2008 he not only played for a worldwide audience at the opening ceremonies of the Beijing Olympics, he also played with jazz pianist Herbie Hancock at the Grammy Awards.
-
-*
 
 (Photo by Warner North of Cheryl North and Lang Lang immediately following his performance September 9, backstage at Davies Hall, San Francisco)
 
@@ -64,7 +57,7 @@ About the Prokofiev 3rd Piano Concerto, he said, "It's an easy piece for audienc
 
 Of course, as most musicians consider the Prokofiev 3rd to be excruciatingly difficult, I felt compelled to ask Lang just which concerto he would consider to be a level 5. "The Rachmaninoff 3rd," he said without the slightest hesitation.
 
-He revealed that one of his favorite works to play for his own enjoyment when he is alone is J.S. Bach's Goldberg Variations.* When Lang is not involved with the piano, he likes reading and admits to being a "huge sportsman," noting that he admires Chinese basketball ace Yao Ming and roots for any team that hails from Philadelphia, where he attended the Curtis School of Music.
+He revealed that one of his favorite works to play for his own enjoyment when he is alone is J.S. Bach's Goldberg Variations.\* When Lang is not involved with the piano, he likes reading and admits to being a "huge sportsman," noting that he admires Chinese basketball ace Yao Ming and roots for any team that hails from Philadelphia, where he attended the Curtis School of Music.
 
 And what sort of epitaph does he hope to have after he's lived to a ripe old age?
 

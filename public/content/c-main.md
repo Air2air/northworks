@@ -1,25 +1,24 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-main
 images:
 - height: 28
-  src: /images/titlecheryl.gif
-  width: 250
+ src: /images/titlecheryl.gif
+ width: 250
 - height: 150
-  src: /images/cherie-sm.jpg
-  width: 107
+ src: /images/cherie-sm.jpg
+ width: 107
 - height: 150
-  src: /images/opera-now.jpg
-  width: 107
+ src: /images/opera-now.jpg
+ width: 107
 - height: 290
-  src: /images/nicola-cheryl-placido-10-19-10.jpg
-  width: 390
+ src: /images/nicola-cheryl-placido-10-19-10.jpg
+ width: 390
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: October
+ date: October
 subjects:
 - Cheryl North
 - Classical Music

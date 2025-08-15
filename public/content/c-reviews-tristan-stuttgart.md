@@ -1,21 +1,20 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-tristan-stuttgart
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 180
-  src: /images/stuttgart-state-opera.jpg
-  width: 300
+ src: /images/stuttgart-state-opera.jpg
+ width: 300
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  author: Cheryl North
-  date: October
-  publisher: Oakland Tribune
+ author: Cheryl North
+ date: October
+ publisher: Oakland Tribune
 subjects:
 - Aria
 - Baritone
@@ -108,7 +107,7 @@ This in-depth staging and interpretation "takes opera beyond the merely culinary
 
 After he recited facts and figures testifying to the fiscal success of the operation, I was convinced that it all somehow works -- at least in Germany.
 
- ,
+,
 
 Stuttgart State Theater, Home of the Stuttgart State Opera
 

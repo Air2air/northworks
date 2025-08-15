@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-articles
 images:
 - height: 28
-  src: /images/title-articles.gif
-  width: 250
+ src: /images/title-articles.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: July
-  publisher: Richard Wagner
+ date: July
+ publisher: Richard Wagner
 subjects:
 - Berkeley Opera Production
 - Ludwig van Beethoven
@@ -29,7 +28,7 @@ type: article
 ***
 
 July 30, 2010
-[Berkeley Opera Production of The Legend of the Ring*, by Richard Wagner, condensed by David Seaman](http://www.insidebayarea.com/ci_15606273)*****Classical Music Column Bay Area News Preview Section, under headline, *
+[Berkeley Opera Production of The Legend of the Ring*, by Richard Wagner, condensed by David Seaman](http://www.insidebayarea.com/ci 15606273)*****Classical Music Column Bay Area News Preview Section, under headline, *
 Classical Music: Berkeley Opera is bringing back the 'Ring'
 
 January 26, 2010

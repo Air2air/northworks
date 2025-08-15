@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-art-casablanca
 images:
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: August 3, 2007
-  publisher: ANG Newspapers Classical Music Column
+ date: August 3, 2007
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Baritone
 - Bass

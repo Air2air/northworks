@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-galindo
 images:
 - height: 140
-  src: /images/guillermo-galindo.jpg
-  width: 100
+ src: /images/guillermo-galindo.jpg
+ width: 100
 publication:
-  date: November 11, 2005
-  publisher: ANG Newspapers Classical Music Column
+ date: November 11, 2005
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Cheryl North Interviews
 - Conducting

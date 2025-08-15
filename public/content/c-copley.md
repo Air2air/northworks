@@ -1,10 +1,9 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-copley
 publication:
-  date: November 3, 2000
-  publisher: ANG Newspapers Classical Music Column
+ date: November 3, 2000
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - understand why
 - the most
@@ -37,7 +36,7 @@ How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain y
 
  "The theater was one of the reasons that King Gustav was shot," Copley revealed. "He was much more involved with managing the theater than he was with running the country." (Sweden's King Gustav III was the character Verdi portrayed in his opera *Un Ballo in Maschera*).
 
- Copley described how such a configuration allowed for the depiction of one of his favorite Semele scenes _ the transformation from the brightly lit palace of Thebes to a lush leafy forest during the beautiful aria, "Where'er You Walk," Jupiter's love song to Semele.
+ Copley described how such a configuration allowed for the depiction of one of his favorite Semele scenes the transformation from the brightly lit palace of Thebes to a lush leafy forest during the beautiful aria, "Where'er You Walk," Jupiter's love song to Semele.
 
  It is Handel's music, however, that Copley feels is really responsible for the opera's appeal, both to modern as well as to 18th century audiences. "Handel's music is to me the most sincere; the most profound. It portrays real feelings and passions of real people with plenty of EMS," which, with raised eyebrows and exaggeratedly dramatic tones, he proceeded to define as "envy, malice, and spite - the curses of the opera world."
 

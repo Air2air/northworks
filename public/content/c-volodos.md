@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-volodos
 images:
 - height: 28
-  src: /images/title-volodos.gif
-  width: 250
+ src: /images/title-volodos.gif
+ width: 250
 - height: 190
-  src: /images/volodos.jpg
-  width: 200
+ src: /images/volodos.jpg
+ width: 200
 publication:
-  date: February
-  publisher: such late
+ date: February
+ publisher: such late
 subjects:
 - during his
 - not the
@@ -41,7 +40,7 @@ subjects:
 
 
 
-  High'
+ High'
 title: Untitled
 type: interview
 ---

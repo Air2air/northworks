@@ -1,23 +1,22 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: w-main
 images:
 - height: 28
-  src: /images/title-warner.gif
-  width: 250
+ src: /images/title-warner.gif
+ width: 250
 - height: 133
-  src: /images/warner-north-6-06.jpg
-  width: 100
+ src: /images/warner-north-6-06.jpg
+ width: 100
 - height: 512
-  src: /images/wn-speaking-belgian-senate-4-18-06.jpg
-  width: 342
+ src: /images/wn-speaking-belgian-senate-4-18-06.jpg
+ width: 342
 - height: 45
-  src: /images/title-advisory-boards.gif
-  width: 220
+ src: /images/title-advisory-boards.gif
+ width: 220
 publication:
-  date: December
-  publisher: the Commission
+ date: December
+ publisher: the Commission
 title: Untitled
 type: article
 ---
@@ -58,7 +57,7 @@ Warner North was an invited participant at the meeting of the Disposal Subcommit
 
 #### Society for Risk Analysis
 
-In April 2008 Dr. North became the Area Editor for decision sciences for [*Risk Analysis*, an international journal](http://www.sra.org/journal_editors.php), published by the Society for Risk Analysis.
+In April 2008 Dr. North became the Area Editor for decision sciences for [*Risk Analysis*, an international journal](http://www.sra.org/journal editors.php), published by the Society for Risk Analysis.
 
 Dr. North organized and wrote the introduction for a [ special issue published September 2016 on health risk analysis for criteria air pollutants](http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc). He has written an introductory commentary for a survey article on risk from space weather. Both the article and the introduction are in press for the February 2017 issue.
 
@@ -77,7 +76,7 @@ Dr. North is a member of the committee that has organized workshops in 2013 on r
 #### International Risk Governance Council (IRGC)
 
 From March 2006 to June 2012 Dr. North served on the Scientific and Technical Council of the
-[International Risk Governance Council](http://www.irgc.org/). He authored two chapters in the book Global Risk Governance: Concepts and Practice Using the IRGC Framework**. He has served as review coordinator for IRGC Policy Briefs on [**Regulation of Carbon Capture and Storage**](http://www.irgc.org/img/pdf/policy_brief_ccs.pdf) and [**Risk Governance Guidelines for Bioenergy Policies**](http://www.irgc.org/img/pdf/irgc_pb_bioenergy_web-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, **[Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance](http://www.irgc.org/img/pdf/srm_opinion_piece_web.pdf)**. In 2011 Dr. North led the development of a [Concept Note, **Improving the Management of Emerging Risks**](http://www.irgc.org/img/pdf/irgc_er2conceptnote_2011.pdf).
+[International Risk Governance Council](http://www.irgc.org/). He authored two chapters in the book Global Risk Governance: Concepts and Practice Using the IRGC Framework**. He has served as review coordinator for IRGC Policy Briefs on [**Regulation of Carbon Capture and Storage**](http://www.irgc.org/img/pdf/policy brief ccs.pdf) and [**Risk Governance Guidelines for Bioenergy Policies**](http://www.irgc.org/img/pdf/irgc pb bioenergy web-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, **[Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance](http://www.irgc.org/img/pdf/srm opinion piece web.pdf)**. In 2011 Dr. North led the development of a [Concept Note, **Improving the Management of Emerging Risks**](http://www.irgc.org/img/pdf/irgc er2conceptnote 2011.pdf).
 
 #### Other Professional Activities and Interests
 

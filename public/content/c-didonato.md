@@ -1,11 +1,10 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-didonato
 images: null
 publication:
-  date: November 13, 2009
-  publisher: Bay Area News Group Classical Music Column
+ date: November 13, 2009
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - Aria
 - Giacomo Puccini

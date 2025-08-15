@@ -1,20 +1,19 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-gasser
 images:
 - height: 212
-  src: /images/nolan-gasser.jpg
-  width: 150
+ src: /images/nolan-gasser.jpg
+ width: 150
 - height: 138
-  src: /images/nolan-gasser-2.jpg
-  width: 181
+ src: /images/nolan-gasser-2.jpg
+ width: 181
 - height: 140
-  src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
-  width: 196
+ src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
+ width: 196
 publication:
-  date: January
-  publisher: the wayside
+ date: January 19, 2007
+ publisher: ANG Newspapers Classical Music
 subjects:
 - Baritone
 - Frédéric Chopin
@@ -29,12 +28,6 @@ subjects:
 title: Cheryl North Interviews Nolan Gasser
 type: interview
 ---
-
-**
-### Cheryl North Interviews Nolan Gasser**
-
-*ANG Newspapers Classical Music
- Column from January 19, 2007** (Material from Classical Music Columns of August 15, 2008, and January 16, 2009 added below.)*
 
 I see a small but potent ray of hope attempting to pierce through the gloom clouding the world's 21st-century horizon.
 

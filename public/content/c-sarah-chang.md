@@ -1,13 +1,12 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-sarah-chang
 images:
 - height: 124
-  src: /images/sarah-chang-informal.jpg
-  width: 100
+ src: /images/sarah-chang-informal.jpg
+ width: 100
 publication:
-  date: January
+ date: January
 subjects:
 - Concerto
 - Conducting

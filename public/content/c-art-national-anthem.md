@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-art-national-anthem
 images:
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: July 2, 2004
-  publisher: ANG Newspapers
+ date: July 2, 2004
+ publisher: ANG Newspapers
 subjects:
 - Bay Area
 - Classical Music

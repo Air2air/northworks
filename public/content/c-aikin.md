@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-aikin
 images:
 - height: 200
-  src: /images/laura-aikin.jpg
-  width: 160
+ src: /images/laura-aikin.jpg
+ width: 160
 publication:
-  date: February 18, 2005
-  publisher: ANG Newspapers Classical Music Column
+ date: February 18, 2005
+ publisher: ANG Newspapers Classical Music Column
 subjects:
 - Baritone
 - Davies Symphony Hall

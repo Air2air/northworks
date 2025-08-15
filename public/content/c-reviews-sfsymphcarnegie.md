@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-sfsymphcarnegie
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: February
-  publisher: the Symphony
+ date: February
+ publisher: the Symphony
 subjects:
 - Baritone
 - Carnegie Hall
@@ -64,7 +63,7 @@ Tilson Thomas seemed totally in tune with both Mahler and his receptive New York
 
 Conductor and orchestra beautifully etched the work's many fascinating inner voices and set them in a satisfying context with the more obvious melodic elements. And the suppleness of the chorus' vocal lines, its dynamic flexibility, and the precision of its diction, were, as usual, outstanding.
 
-I wish everyone could hear what our locals did to musically illuminate such passages from the Lied as "The castle gleams from the high cliff;/Trumpets and drums resound;/There sits the band of brave knights,/And their ladies with gold necklaces ... "
+I wish everyone could hear what our locals did to musically illuminate such passages from the Lied as "The castle gleams from the high cliff;/Trumpets and drums resound;/There sits the band of brave knights,/And their ladies with gold necklaces... "
 
 Perhaps it's apt to paraphrase a different quote to sum up the performance - "They came, they played, and they conquered."
 

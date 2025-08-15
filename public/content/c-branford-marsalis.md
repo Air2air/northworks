@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-branford-marsalis
 images:
 - height: 287
-  src: /images/branford-marsalis-wc-08-1005.jpg
-  width: 350
+ src: /images/branford-marsalis-wc-08-1005.jpg
+ width: 350
 publication:
-  date: September 26, 2008
-  publisher: Bay Area News Group
+ date: September 26, 2008
+ publisher: Bay Area News Group
 subjects:
 - Classical Music
 - Conducting

@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-feltsman
 images:
 - height: 28
-  src: /images/title-feltsman.gif
-  width: 250
+ src: /images/title-feltsman.gif
+ width: 250
 publication:
-  date: June 14, 2002
-  publisher: ANG Newspapers Preview Section Classical Music Column
+ date: June 14, 2002
+ publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
 - Carnegie Hall
 - Davies Symphony Hall

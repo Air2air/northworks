@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-sfo-tote-stadt-9-08
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: September
-  publisher: Cheryl North
+ date: September
+ publisher: Cheryl North
 subjects:
 - Baritone
 - Giacomo Puccini
@@ -57,7 +56,7 @@ Tuesday's production opened with the distraught Paul, wandering about his Bruges
 
 "Bruges and I are the same — we worship the most beautiful thing that is: the past," Paul exclaims to his solicitous friend Frank.
 
-A battle ensues between a fantasy dream world vs. the real world. The orchestra evokes the conflict and chaos within Paul's grief-ridden mind via neo-Wagnerian chromatic dissonances punctuated with passages of sublime calm as the massive ceiling tips to a precipitous angle, as though balanced on a razor's edge . The "real" room continues to deconstruct as its mirror image, appears at the back of the stage: reality melds into dream — or nightmare.
+A battle ensues between a fantasy dream world vs. the real world. The orchestra evokes the conflict and chaos within Paul's grief-ridden mind via neo-Wagnerian chromatic dissonances punctuated with passages of sublime calm as the massive ceiling tips to a precipitous angle, as though balanced on a razor's edge. The "real" room continues to deconstruct as its mirror image, appears at the back of the stage: reality melds into dream — or nightmare.
 
 "You're divided between life and death!" exclaims Frank.
 

@@ -1,24 +1,23 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-lvo-barber-10-08
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  date: October
-  publisher: Cheryl North
+ date: October
+ publisher: Cheryl North
 subjects:
 - Baritone
 - Bass
 - 'By Cheryl North
 
 
-  For'
+ For'
 - Concert Review
 - Conducting
 - Giacomo Rossini
@@ -56,7 +55,7 @@ For anyone looking for a break from the grim economic news, I can think of no be
 
  Colorful costumes designed by Nancy Peacock fit harmoniously into the minimal, but ingeniously conceived sets by Jean-Francois Revon, which could quickly reverse from an exterior street scene into Bartolo's interior drawing room.
 
- As the fussy Don Basinio, tall, rangy Kevin Nakatani, dressed in a black cassock-like coat, comically augmented by red and white stripped stockings, pointy-toed shoes and an umbrella topped by a sort of plumber's helper, brought laughter every time he walked onstage. Other production attractions were an excellent baker's dozen male chorus doubling as the musicians accompanying Lindoro's opening serenade as well as the looting policemen; Marcella Caprario as the maid Berta; Michael Beetham as Fiorello, and R .Doug Holt as the notary.
+ As the fussy Don Basinio, tall, rangy Kevin Nakatani, dressed in a black cassock-like coat, comically augmented by red and white stripped stockings, pointy-toed shoes and an umbrella topped by a sort of plumber's helper, brought laughter every time he walked onstage. Other production attractions were an excellent baker's dozen male chorus doubling as the musicians accompanying Lindoro's opening serenade as well as the looting policemen; Marcella Caprario as the maid Berta; Michael Beetham as Fiorello, and R.Doug Holt as the notary.
 
  So, take a break from any financial trauma and treat yourself to a bit of light-hearted laughter with a trek to Livermore's *Barber of Seville.*
 

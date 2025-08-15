@@ -6,10 +6,10 @@
 - Created route consolidation plan
 - Analyzed dependency usage
 
-## ⚠️  MANUAL ACTIONS NEEDED
+## ⚠️ MANUAL ACTIONS NEEDED
 
 ### HIGH PRIORITY
-1. **Route Consolidation**: Follow ROUTE_CONSOLIDATION_PLAN.md
+1. **Route Consolidation**: Follow ROUTE CONSOLIDATION PLAN.md
 2. **Dependency Cleanup**: Review and remove unused MDX dependencies if confirmed
 3. **Content Strategy**: Decide between markdown files vs JSON data
 
@@ -19,7 +19,7 @@
 3. **Documentation**: Update README with current architecture
 
 ### LOW PRIORITY
-1. **Build Cleanup**: Periodically clear .next/ directory (80MB+)
+1. **Build Cleanup**: Periodically clear.next/ directory (80MB+)
 2. **Gitignore**: Add patterns for temporary files
 
 ## 📈 IMPACT

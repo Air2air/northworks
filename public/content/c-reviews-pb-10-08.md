@@ -1,18 +1,17 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-reviews-pb-10-08
 images:
 - height: 28
-  src: /images/title-reviews.gif
-  width: 250
+ src: /images/title-reviews.gif
+ width: 250
 - height: 248
-  src: /images/logos-newspaper.gif
-  width: 220
+ src: /images/logos-newspaper.gif
+ width: 220
 publication:
-  author: Cheryl North
-  date: October
-  publisher: Oakland Tribune
+ author: Cheryl North
+ date: October
+ publisher: Oakland Tribune
 subjects:
 - Concert Review
 - Concerto
@@ -53,7 +52,7 @@ By Cheryl North
 
  Highlights among the group were the first, taken from the *Easter Oratorio*, BWV 249, which was colored by three brightly hued baroque trumpets and timpani, and the penultimate section, lifted from Cantata, BWV 156, featuring one of the world's most beautiful, familiar melodies for oboe, played with sinewy grace by Ruiz.
 
- The youthful Ruiz , who is responsible for the re-workings of the program's other selections -- the *Orchestral Suite No. 2 in A minor* and the *Brandenburg Concerto No. 1 in F Major* -- is one of North America's most critically acclaimed and sought-after historical woodwind soloists. Moreover, he is also a formidable scholar of early music and authored parts of the concert's excellent program notes.
+ The youthful Ruiz, who is responsible for the re-workings of the program's other selections -- the *Orchestral Suite No. 2 in A minor* and the *Brandenburg Concerto No. 1 in F Major* -- is one of North America's most critically acclaimed and sought-after historical woodwind soloists. Moreover, he is also a formidable scholar of early music and authored parts of the concert's excellent program notes.
 
  Bach's four orchestral suites, filled with multiple unforgettable melodies and rhythmic figures, are particular sources of delight. (A baroque "Suite" is a composition in several movements inspired by, and named for, various Renaissance and Baroque dance forms, among which are gigues, menuets, sarabandes, and more.)
 

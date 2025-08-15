@@ -29,14 +29,14 @@ Northworks combines two distinct areas of expertise:
 
 "`
 public/
-├── content/          # All articles, reviews, and interviews
-├── images/          # Photos and graphics
-├── pdf/             # Publication documents
-└── pictures/        # Additional imagery
+├── content/   # All articles, reviews, and interviews
+├── images/   # Photos and graphics
+├── pdf/    # Publication documents
+└── pictures/  # Additional imagery
 
 src/
-├── app/             # Next.js app directory
-└── components/      # React components
+├── app/    # Next.js app directory
+└── components/  # React components
 "`
 
 ## Getting Started
@@ -58,14 +58,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Content Organization
 
 ### Classical Music Content
-- `c_*.md` - Interviews and articles about classical musicians
-- `c_reviews*.md` - Performance and concert reviews
-- `c_art_*.md` - Special feature articles
+- `c *.md` - Interviews and articles about classical musicians
+- `c reviews*.md` - Performance and concert reviews
+- `c art *.md` - Special feature articles
 
-### Risk Analysis Content  
-- `w_*.md` - Warner North's professional work and publications
-- `w_projects_*.md` - Government and academic projects
-- `w_pub_*.md` - Publications and research papers
+### Risk Analysis Content 
+- `w *.md` - Warner North's professional work and publications
+- `w projects *.md` - Government and academic projects
+- `w pub *.md` - Publications and research papers
 
 ## Features
 
@@ -82,7 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm medium=default-template&filter=next.js&utm source=create-next-app&utm campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 

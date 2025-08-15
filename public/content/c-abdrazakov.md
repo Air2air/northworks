@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-abdrazakov
 images:
 - height: 213
-  src: /images/ildar-abdrazakov-and-cheryl-north.jpg
-  width: 154
+ src: /images/ildar-abdrazakov-and-cheryl-north.jpg
+ width: 154
 publication:
-  date: August 30, 2013
-  publisher: Bay Area News Group
+ date: August 30, 2013
+ publisher: Bay Area News Group
 subjects:
 - Aida
 - Don Giovanni

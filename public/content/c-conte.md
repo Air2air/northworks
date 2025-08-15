@@ -1,11 +1,10 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-conte
 images: null
 publication:
-  date: October 1, 2010
-  publisher: Bay Area News Group Classical Music Column
+ date: October 1, 2010
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - Aria
 - Baritone
@@ -25,7 +24,7 @@ type: interview
 
  Where in the world do you find classical music composers capable of rivaling the greats of yesteryear?
 
- Many serious music aficionados would suggest that the San Francisco Bay Area is an especially felicitous place to start the search. Our beautiful Bay and its environs are akin to a 21st century Mother Lode of musical gold. Veins of artistic creativity run through our hills and vales like earthquake faults. Just consider the bounty of musical riches offered up by within our boundaries by Jake Heggie, Nate Stooky, Nolan Gasser, Kirke Mecham , Frank LaRocca, Kurt Rohde, Marty Rokeach and more within the past decade.
+ Many serious music aficionados would suggest that the San Francisco Bay Area is an especially felicitous place to start the search. Our beautiful Bay and its environs are akin to a 21st century Mother Lode of musical gold. Veins of artistic creativity run through our hills and vales like earthquake faults. Just consider the bounty of musical riches offered up by within our boundaries by Jake Heggie, Nate Stooky, Nolan Gasser, Kirke Mecham, Frank LaRocca, Kurt Rohde, Marty Rokeach and more within the past decade.
 
  Lately, the music of David Conte has flashed from our local shores - reaching the Capitol in Washington, D.C. and from there to televisions screens all over the world. His thrilling work, *An Exhortation*, was chosen to be premiered by the San Francisco Boys and Girls Choirs for the President's Jan. 20, 2009 Inauguration.
 

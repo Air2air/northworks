@@ -1,14 +1,13 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-cerny
 images:
 - height: 300
-  src: /images/cerny-dallas.jpg
-  width: 200
+ src: /images/cerny-dallas.jpg
+ width: 200
 publication:
-  date: April 30
-  publisher: Bay Area News Group Classical Music Column
+ date: April 30
+ publisher: Bay Area News Group Classical Music Column
 subjects:
 - world premiere
 - stake every
@@ -33,11 +32,11 @@ type: interview
 
  "I heard music, BIG music, when writer/playwright Terrence McNally first suggested that Moby Dick would be ideal for an opera," Heggie confided in an e-mail exchange earlier this week. When McNally became too ill to undertake the task, composer-librettist Gene Scheer was called upon as Heggie's collaborator.
 
- In words that exude the same grace and clarity as his music, Heggie continued his e-mail with the comment, "The story itself is of a time, but for all time ... and though it is an American story, it is truly a universal story about struggles people must confront no matter where they live or in what circumstance."
+ In words that exude the same grace and clarity as his music, Heggie continued his e-mail with the comment, "The story itself is of a time, but for all time... and though it is an American story, it is truly a universal story about struggles people must confront no matter where they live or in what circumstance."
 
- Further, he noted,that despite its scope, the tale has "great intimacy within immense forces ... where something is at stake every single moment. All that is terribly operatic."
+ Further, he noted,that despite its scope, the tale has "great intimacy within immense forces... where something is at stake every single moment. All that is terribly operatic."
 
- Heggie as well as Scheer were not cowed by Melville's somewhat stilted language, but rather, were inspired by it. "Melville's combination of prose, poetry, and metered speech ... is terribly moving," wrote Heggie.
+ Heggie as well as Scheer were not cowed by Melville's somewhat stilted language, but rather, were inspired by it. "Melville's combination of prose, poetry, and metered speech... is terribly moving," wrote Heggie.
 
  He also described the cast as "first rate across the boards starting with the great Ben Heppner as Captain Ahab. This man completely blows my mind: the overwhelming power of his voice and presence. He is great in the true sense of that word."
 

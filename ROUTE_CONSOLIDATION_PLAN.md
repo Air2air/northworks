@@ -26,7 +26,7 @@
 ```bash
 # Remove duplicate route directories
 rm -rf src/app/interviews-index src/app/interviews-improved src/app/interviews-dynamic
-rm -rf src/app/articles-index src/app/articles-dynamic  
+rm -rf src/app/articles-index src/app/articles-dynamic 
 rm -rf src/app/portfolio
 
 # Update any remaining references in code

@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-giordani
 images:
 - height: 28
-  src: /images/title-giordani.gif
-  width: 250
+ src: /images/title-giordani.gif
+ width: 250
 - height: 250
-  src: /images/giordani.jpg
-  width: 191
+ src: /images/giordani.jpg
+ width: 191
 publication:
-  date: August
-  publisher: Cheryl North
+ date: August 25, 2000
+ publisher: ANG PREVIEW Section Classical Music Column
 subjects:
 - Giacomo Puccini
 - Giuseppe Verdi
@@ -23,17 +22,9 @@ subjects:
 - Soprano
 - Tenor
 - Tosca
-title: Untitled
+title: Cheryl North Interviews Marcello Giordani
 type: interview
 ---
-
-***
-
-Cheryl North Interviews Marcello Giordani**
-
-Classical Music Column for August 25, 2000 ANG PREVIEW Section*
-
-by Cheryl North
 
 What do you think of when you hear the words 'Italian tenor?'
 

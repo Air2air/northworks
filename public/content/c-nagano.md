@@ -1,33 +1,26 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: "2025-08-13"
 id: c-nagano
 images:
-- height: 160
-  src: /images/kent-nagano.jpg
-  width: 160
+ - height: 160
+ src: /images/kent-nagano.jpg
+ width: 160
 publication:
-  date: August
-  publisher: the time
+ date: August 31, 2001
+ publisher: ANG Newspapers Classical Music Column
 subjects:
-- Concerto
-- Conducting
-- Franz Schubert
-- Gustav Mahler
-- London Symphony
-- Ludwig van Beethoven
-- Opera
-- Piano
-- Symphony
+ - Concerto
+ - Conducting
+ - Franz Schubert
+ - Gustav Mahler
+ - London Symphony
+ - Ludwig van Beethoven
+ - Opera
+ - Piano
+ - Symphony
 title: Cheryl North Interviews Kent Nagano
 type: interview
 ---
-
-**
-### Cheryl North Interviews Kent Nagano**
-
-*ANG Newspapers Classical Music
- Column - August 31, 2001*
 
 The conductor of the prestigious Deutsches Symphonie-Orchester Berlin as well as the Associate Principal Guest Conductor of the London Symphony,and the Principal Guest Conductor of the Los Angeles Opera will conduct the Berkeley Symphony Orchestra when it opens its 2001-2002 season on September 24.
 
@@ -39,9 +32,7 @@ A third-generation Californian, Nagano was only 27 when he first assumed leaders
 
 He attended local public schools during his early youth and went on to earn a B.A. degree from the University of California at Santa Cruz and an M.A. in music from San Francisco State University. In subsequent years he studied conducting with Seiji Ozawa, Pierre Boulez, Leonard Bernstein, Bernard Haitink, and Claudio Abbado. He also led both England's famed Halle Orchestra as well as the Opera de Lyon in France for nine years each.
 
-*
-
-His first taste of worldwide recognition came back in 1984 when he conducted the Boston Symphony Orchestra in a critically acclaimed performance of Mahler's great Symphony No. 9* on a single day's notice!
+His first taste of worldwide recognition came back in 1984 when he conducted the Boston Symphony Orchestra in a critically acclaimed performance of Mahler's great Symphony No. 9\* on a single day's notice!
 
 Since then he has garnered honors for three Grammy Awards and three Grand Prix du Disque awards for his recordings with leading orchestras and opera companies and has earned the admiration of the entire classical musical world. In addition, he has been happily married for a number of years to Mari Kodama, the elegantly beautiful Osaka-born, European-bred and educated concert pianist.
 
@@ -53,7 +44,7 @@ He explained that he owed much of his love for music to a particular teacher in 
 
 "We as children just fell in love with him," Nagano continued. "He established a sort of conservatory system and taught each of us personally. We would begin at 7 a.m., before regular classes, and often continue with more music after school. Eventually we had three concert bands and two orchestras in our little school!"
 
-So what keeps this powerhouse of world music coming back to lead the Berkeley Symphony year after year? "I love Berkeley," Nagano said during the telephone conversation he managed to sandwich between rehearsals of *Lohengrin* with Maximilian Schell for the Los Angeles Opera last week. "I feel a closeness with the orchestra as well as the whole community of Berkeley. For its size, Berkeley is especially rich in terms of intellectual and artistic achievement - and as a community, it has always been in a charismatic leadership role for social change. There's a very special collective personality and character in Berkeley."
+So what keeps this powerhouse of world music coming back to lead the Berkeley Symphony year after year? "I love Berkeley," Nagano said during the telephone conversation he managed to sandwich between rehearsals of Lohengrin with Maximilian Schell for the Los Angeles Opera last week. "I feel a closeness with the orchestra as well as the whole community of Berkeley. For its size, Berkeley is especially rich in terms of intellectual and artistic achievement - and as a community, it has always been in a charismatic leadership role for social change. There's a very special collective personality and character in Berkeley."
 
 "Many of the orchestra members have been with me since I began in '79,"he continued. "And the audience is unusually receptive to new and adventurous programming as well as in the more traditional classics. And besides, there are all sorts of Nobel Laureates, Pulitzer Prize winners, and more - who tuck themselves quietly away, without any limelight, in the audience."
 
@@ -61,9 +52,8 @@ As a result, BSO has come to be known for its performances of new and/or unusual
 
 When asked about BSO's upcoming season, with its strong emphasis on the music of Franz Schubert, Nagano explained that he has recently been involved in performances of Schubert cycles in Paris, Berlin and Vienna. "While most musical people are familiar with Schubert's songs, his orchestral music is very under appreciated," he said. "Therefore, I've included a Schubert orchestral work, alongside a number of other classics and new works that I consider to be related, on every one of the four Berkeley Symphony Programs."
 
-The Orchestra's opening program, scheduled for 8 p.m. Sept. 24 at Hertz Hall on the University of California campus in Berkeley, will combine Schubert's *Symphony No. 6* with Beethoven's *Coriolan Overture*; the local premiere of Richard Felciano's *Camp Songs*; and the world premiere's of Regis Campo's *Lumen* and Daniel Brewbaker's *Piano Concerto No. 2* with Jerry Kuderna as soloist.
+The Orchestra's opening program, scheduled for 8 p.m. Sept. 24 at Hertz Hall on the University of California campus in Berkeley, will combine Schubert's Symphony No. 6 with Beethoven's Coriolan Overture ; the local premiere of Richard Felciano's Camp Songs ; and the world premiere's of Regis Campo's Lumen and Daniel Brewbaker's Piano Concerto No. 2 with Jerry Kuderna as soloist.
 
-Subsequent concerts throughout the year will include Schubert's *Symphonies No. 3 and 5* and his *Rosamunde Overture *alongside works by Arnold Schoenberg, Gustav Mahler, Ichiro Nodaira, David Sheinfeld, Karen Lakey Buckwalter, Pierre Boulez, Zdzislaw Wysocki, and Anton Bruckner.
+Subsequent concerts throughout the year will include Schubert's Symphonies No. 3 and 5 and his *Rosamunde Overture *alongside works by Arnold Schoenberg, Gustav Mahler, Ichiro Nodaira, David Sheinfeld, Karen Lakey Buckwalter, Pierre Boulez, Zdzislaw Wysocki, and Anton Bruckner.
 
 "These musical combinations invite people to make connections - to draw lines from one piece of music to another and to understand how they are related," Maestro Nagano enthusiastically explained. "And one can do this especially well in Berkeley!"
-

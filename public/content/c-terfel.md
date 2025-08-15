@@ -1,17 +1,16 @@
 ---
-conversion_date: '2025-08-13'
-converted_from_html: true
+conversion date: '2025-08-13'
 id: c-terfel
 images:
 - height: 28
-  src: /images/titleterfel.gif
-  width: 250
+ src: /images/titleterfel.gif
+ width: 250
 - height: 233
-  src: /images/terfel.jpg
-  width: 200
+ src: /images/terfel.jpg
+ width: 200
 publication:
-  date: June
-  publisher: Cheryl North
+ date: June
+ publisher: Cheryl North
 subjects:
 - Baritone
 - Franz Schubert

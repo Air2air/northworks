@@ -1,72 +1,59 @@
 import Link from 'next/link';
 import PageTitle from '@/components/ui/PageTitle';
+import PageLayout from '@/components/layouts/PageLayout';
+import ContentList from '@/components/ui/ContentList';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { BackgroundFrontmatter } from '@/types/content';
 
 export default function BackgroundIndexPage() {
   const slugs = getAllContentSlugs();
   
-  // Filter for background content only
+  // Filter for background content only and convert to ContentList format
   const backgroundContent = slugs
     .map(slug => {
       const content = getContentBySlug(slug, false);
       if (content?.frontmatter.type === 'background') {
         return {
           slug,
-          frontmatter: content.frontmatter as BackgroundFrontmatter
+          frontmatter: {
+            title: content.frontmatter.title,
+            description: (content.frontmatter as any).description || '',
+            date: (content.frontmatter as any).date || ''
+          }
         };
       }
       return null;
     })
     .filter(Boolean);
 
+  const breadcrumbs = [
+    { label: 'Home', href: '/', active: false },
+    { label: 'Background', href: '/background', active: true }
+  ];
+
   return (
-    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-      <div className="px-4 py-6 sm:px-0">
-        <PageTitle 
-          title="Background Information"
-          description="Professional background and biographical information"
-          align="left"
-        />
+    <PageLayout breadcrumbs={breadcrumbs}>
+      <PageTitle 
+        title="Background Information"
+        description="Professional background and biographical information"
+        align="left"
+      />
         
-        <div className="grid gap-6">
-          {backgroundContent.map((item) => item && (
-            <div key={item.slug} className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                <Link 
-                  href={`/background/${item.slug}`}
-                  className="text-blue-600 hover:text-blue-800 transition-colors"
-                >
-                  {item.frontmatter.title}
-                </Link>
-              </h2>
-              
-              {(item.frontmatter.profession || item.frontmatter.education || item.frontmatter.affiliations) && (
-                <div className="text-gray-600 space-y-1">
-                  {item.frontmatter.profession && (
-                    <p><strong>Profession:</strong> {item.frontmatter.profession}</p>
-                  )}
-                  {item.frontmatter.education && (
-                    <p><strong>Education:</strong> {item.frontmatter.education}</p>
-                  )}
-                  {item.frontmatter.affiliations && (
-                    <p><strong>Affiliations:</strong> {item.frontmatter.affiliations.join(', ')}</p>
-                  )}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+      <ContentList 
+        items={backgroundContent as any}
+        baseUrl="/background"
+        emptyMessage="No background information available."
+        layout="list"
+      />
         
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <Link
-            href="/warner"
-            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
-          >
-            ← Back to D. Warner North
-          </Link>
-        </div>
+      <div className="mt-12 pt-8 border-t border-gray-200">
+        <Link
+          href="/warner"
+          className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+        >
+          ← Back to D. Warner North
+        </Link>
       </div>
-    </div>
+    </PageLayout>
   );
 }

@@ -11,15 +11,13 @@ import LazyImage from './LazyImage';
 import { FaCompass, FaCalendarAlt, FaBuilding } from 'react-icons/fa';
 import { UnifiedContentItem } from '@/types/content';
 
-export interface ContentItem extends UnifiedContentItem {}
-
 interface ContentCardProps {
-  item: ContentItem;
+  item: UnifiedContentItem;
   showImage?: boolean;
   showTags?: boolean;
   showPublication?: boolean;
   className?: string;
-  onItemClick?: (item: ContentItem) => void;
+  onItemClick?: (item: UnifiedContentItem) => void;
 }
 
 export function ContentCard({

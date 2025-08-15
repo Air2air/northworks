@@ -1,42 +1,44 @@
 /**
- * Unified Search Page - Keyword-based search across all content collections
- * Classical music interviews, articles, reviews, and professional portfolio
+ * Unified Search Page - Keyword-based search across all content collec        >
+          <SearchInterface allContent={allContent} />
+        </Suspense>
+      </div>
+    </PageLayout>
+  );
+}* Classical music interviews, articles, reviews, and professional portfolio
  */
 
 import React, { Suspense } from 'react';
-import { ContentItem } from '@/components/ui/ContentCard';
+import { UnifiedContentItem } from '@/types/content';
 import PageTitle from '@/components/ui/PageTitle';
+import PageLayout from '@/components/layouts/PageLayout';
 import dynamic from 'next/dynamic';
 import { getAllContentItems, getCollectionStats } from '@/lib/unifiedSearch';
 
 // Dynamic import for SearchInterface to reduce initial bundle size
 const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
   loading: () => (
-    <div className="container mx-auto px-4 py-8">
-      <div className="animate-pulse">
-        <div className="h-8 bg-gray-200 rounded mb-4"></div>
-        <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-          {[...Array(5)].map((_, i) => (
-            <div key={i} className="bg-gray-200 h-20 rounded"></div>
-          ))}
-        </div>
-        <div className="bg-gray-200 h-64 rounded"></div>
+    <div className="animate-pulse">
+      <div className="h-8 bg-gray-200 rounded mb-4"></div>
+      <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+        {[...Array(5)].map((_, i) => (
+          <div key={i} className="bg-gray-200 h-20 rounded"></div>
+        ))}
       </div>
+      <div className="bg-gray-200 h-64 rounded"></div>
     </div>
   )
 });
 
 // Load all content using unified search system
 async function getAllContentData(): Promise<{
-  allContent: ContentItem[];
+  allContent: UnifiedContentItem[];
   stats: any;
 }> {
   try {
     const allContent = getAllContentItems();
     const stats = getCollectionStats();
-    
-    console.log(`Loaded ${allContent.length} total content items from ${stats.totalCollections} collections`);
     
     return {
       allContent,
@@ -54,26 +56,33 @@ async function getAllContentData(): Promise<{
 export default async function UnifiedSearchPage() {
   const { allContent, stats } = await getAllContentData();
   
+  const breadcrumbs = [
+    { label: 'Home', href: '/', active: false },
+    { label: 'Search', href: '/search', active: true }
+  ];
+  
   return (
-    <div className="container mx-auto px-4 py-8">
-      <PageTitle 
-        title="Search NorthWorks"
-        description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
-      />
+    <PageLayout breadcrumbs={breadcrumbs}>
+      <div className="max-w-4xl mx-auto">
+        <PageTitle 
+          title="Search NorthWorks"
+          description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
+        />
       <Suspense fallback={
-        <div className="animate-pulse">
-          <div className="h-8 bg-gray-200 rounded mb-4"></div>
-          <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className="bg-gray-200 h-20 rounded"></div>
-            ))}
+          <div className="animate-pulse">
+            <div className="h-8 bg-gray-200 rounded mb-4"></div>
+            <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+              {[...Array(5)].map((_, i) => (
+                <div key={i} className="bg-gray-200 h-20 rounded"></div>
+              ))}
+            </div>
+            <div className="bg-gray-200 h-64 rounded"></div>
           </div>
-          <div className="bg-gray-200 h-64 rounded"></div>
-        </div>
-      }>
-        <SearchInterface allContent={allContent} stats={stats} />
-      </Suspense>
-    </div>
+        }>
+          <SearchInterface allContent={allContent} />
+        </Suspense>
+      </div>
+    </PageLayout>
   );
 }

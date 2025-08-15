@@ -7,15 +7,14 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { ContentCard, ContentItem } from '@/components/ui/ContentCard';
+import { ContentCard } from '@/components/ui/ContentCard';
+import { UnifiedContentItem } from '@/types/content';
 
 // Client-side search interface
 export default function SearchInterface({ 
-  allContent, 
-  stats 
+  allContent 
 }: { 
-  allContent: ContentItem[];
-  stats?: any;
+  allContent: UnifiedContentItem[];
 }) {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -147,7 +146,7 @@ export default function SearchInterface({
           </div>
         ) : (
           <div className="space-y-6">
-            {paginatedContent.map((item: ContentItem, index: number) => (
+            {paginatedContent.map((item: UnifiedContentItem, index: number) => (
               <div key={`${item.metadata.id}-${index}`} className="relative">
                 <ContentCard item={item} showImage={true} showTags={true} />
                 {/* Type Badge */}

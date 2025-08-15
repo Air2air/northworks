@@ -11,8 +11,7 @@ import {
   SearchOptions,
   SearchResponse,
   SearchResult,
-  ContentMetadata,
-  CollectionMetadata
+  ContentMetadata
 } from '@/types/content';
 
 // Data transformation functions to normalize different JSON structures

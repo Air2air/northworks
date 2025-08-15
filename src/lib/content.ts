@@ -13,14 +13,6 @@ marked.setOptions({
 const contentDirectory = path.join(process.cwd(), 'content');
 const publicContentDirectory = path.join(process.cwd(), 'public', 'content');
 
-/**
- * Simple function to clean up frontmatter - no path processing
- */
-function cleanFrontmatter(obj: any): any {
-  // Just return the frontmatter as-is, no path processing
-  return obj;
-}
-
 export function getContentBySlug(slug: string, processHtml: boolean = true): ContentData | null {
   try {
     // Check both content directories

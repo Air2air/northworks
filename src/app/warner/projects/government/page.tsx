@@ -1,21 +1,28 @@
 import { getContentBySlug } from '@/lib/content';
+import PageLayout from '@/components/layouts/PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import Link from 'next/link';
 
 export default function GovernmentProjectsPage() {
   const governmentData = getContentBySlug('w_projects_government');
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <PageTitle
-          title="Government Projects"
-          description="Federal and state government consulting projects and advisory board service."
-          align="center"
-          size="medium"
-        />
+  const breadcrumbs = [
+    { label: 'Home', href: '/', active: false },
+    { label: 'Warner North', href: '/warner', active: false },
+    { label: 'Projects', href: '/warner/projects', active: false },
+    { label: 'Government', href: '/warner/projects/government', active: true }
+  ];
 
-        {/* Search hint */}
+  return (
+    <PageLayout breadcrumbs={breadcrumbs} className="min-h-screen bg-gray-50">
+      <PageTitle
+        title="Government Projects"
+        description="Dr. Warner North's government consulting work and public service roles."
+        align="center"
+        size="medium"
+      />
+
+      {/* Search hint */}
         <div className="text-center mb-8">
           <Link 
             href="/search"
@@ -38,7 +45,6 @@ export default function GovernmentProjectsPage() {
             <p className="text-gray-600">Government projects content not found.</p>
           </div>
         )}
-      </div>
-    </div>
+    </PageLayout>
   );
 }

@@ -1,5 +1,5 @@
 import PageTitle from '@/components/ui/PageTitle';
-import Breadcrumbs from '@/components/Breadcrumbs';
+import PageLayout from '@/components/layouts/PageLayout';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -17,20 +17,17 @@ export default function CherylPage() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-      <div className="px-4 py-6 sm:px-0">
-        <Breadcrumbs items={breadcrumbs} />
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Hero Section */}
-        <PageTitle
-          title="Cheryl North"
-          description="Classical Music Journalist and Critic specializing in opera and symphony performances"
-          align="center"
-          size="large"
-        />
+    <PageLayout breadcrumbs={breadcrumbs}>
+      {/* Hero Section */}
+      <PageTitle
+        title="Cheryl North"
+        description="Classical Music Journalist and Critic specializing in opera and symphony performances"
+        align="center"
+        size="large"
+      />
 
-        {/* Content Cards */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-12">
+      {/* Content Cards */}
+      <div className="grid md:grid-cols-3 gap-8 mt-12">
           {/* Interviews Card */}
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
             <div className="text-center">
@@ -106,8 +103,6 @@ export default function CherylPage() {
             </div>
           </div>
         </div>
-        </div>
-      </div>
-    </div>
+    </PageLayout>
   );
 }

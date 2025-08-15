@@ -1,5 +1,5 @@
 import { getContentBySlug } from '@/lib/content';
-import { ContentFrontmatter } from '@/types/content';
+import PageLayout from '@/components/layouts/PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -15,7 +15,7 @@ export default function HomePage() {
   
   if (!homeData) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <PageLayout className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <PageTitle 
             title="NorthWorks"
@@ -24,29 +24,29 @@ export default function HomePage() {
             align="center"
           />
         </div>
-      </div>
+      </PageLayout>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <PageLayout className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto">
         <PageTitle
           title="NorthWorks"
-          description="Cross-Domain Content Platform for Classical Music and Risk Analysis"
+          description="Classical Music and Risk Analysis"
           align="center"
           size="large"
         />
 
-        {/* Main Content */}
-        <div className="max-w-4xl mx-auto mt-12">
-          <div className="prose prose-lg max-w-none">
-            <div dangerouslySetInnerHTML={{ __html: homeData.content }} />
-          </div>
+      {/* Main Content */}
+      <div className="mt-12">
+        <div className="prose prose-lg max-w-none">
+          <div dangerouslySetInnerHTML={{ __html: homeData.content }} />
         </div>
+      </div>
 
-        {/* Navigation Cards */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-16">
+      {/* Navigation Cards */}
+      <div className="grid md:grid-cols-2 gap-8 mt-16">
           {/* D. Warner North Card */}
           <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
             <div className="text-center">
@@ -117,6 +117,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-    </div>
+    </PageLayout>
   );
 }

@@ -71,8 +71,8 @@ export function resolveImagePath(originalPath: string): string {
   // Strategy 2: Try normalized path
   const normalizedPath = normalizePath(originalPath);
   
-  // Strategy 3: Try URL encoded path
-  const encodedPath = encodePath(originalPath);
+  // Strategy 3: Try URL encoded path (could be used for fallback)
+  // const encodedPath = encodePath(originalPath);
   
   // For now, return the normalized path as the safest option
   // In a real implementation, you could check if files exist and return the first working one

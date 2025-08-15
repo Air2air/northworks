@@ -1,12 +1,13 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-villazon
 images:
   - height: 200
     src: /images/rolando-villazon.jpg
     width: 160
 publication:
-  date: September
+  date: September 10, 2004
+  publisher: ANG Newspapers Classical Music Column
 subjects:
   - slated to
   - Classical music
@@ -22,13 +23,7 @@ title: Cheryl North Interviews Rolando Villazon
 type: interview
 ---
 
-**
-### Cheryl North Interviews Rolando Villazon**
-
-*ANG Newspapers Classical Music
- Column - September 10, 2004*
-
-Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's *La Traviata,* has lived a life full of "Eureka!" moments.
+Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's La Traviata, has lived a life full of "Eureka!" moments.
 
 He was born and raised in Mexico City. Neither his father, his mother, nor his sister were musical. But, since his father worked at the Sony Record Company in the city, he occasionally brought home records. Classical music played no particular part in the family's life, so the classical records were boxed up and put away.
 
@@ -54,11 +49,11 @@ Clearly lapsing into one of his favorite subjects, Villazon, continued his Lucia
 
 With stage worthy gestures and drama, he continued. "Lucia suddenly told me to stop the car! She said she had agreed to marry an opera singer. If I changed to be something else, the marriage was off. She told me that I had made her fall in love, not only with me, but with my dream as well. She said that she was willing to do whatever she could to help 'our' dream come true. So, we got married."
 
-*
+-
 
 For the next few years, Lucia, a psychologist, worked hard, sometimes from 6 am. to 10 p.m., while Rolando studied and practiced. As they agreed, how that his career is launched, he supports her.
 
-In 1998, Rolando was accepted into San Francisco Opera's Merola program, during which he sang Alfredo in the Merola's La Traviata* at Villa Montalvo. After Merola, he moved on to the Pittsburgh Opera's training program.
+In 1998, Rolando was accepted into San Francisco Opera's Merola program, during which he sang Alfredo in the Merola's La Traviata\* at Villa Montalvo. After Merola, he moved on to the Pittsburgh Opera's training program.
 
 Through all these years, Placido Domingo had remained his idol. He had long ago told the director of the Mexico City Opera that he hoped to one day meet Domingo. While he was in Pittsburgh, he received a call from the director with the news that Domingo was making a weekend trip to sing there the next Sunday. Would Rolando be able to come? According to the director, there was no guarantee that Domingo would have time to hear him sing, but perhaps Rolando could at least meet him.
 
@@ -81,4 +76,3 @@ But Villazon shares another formidable talent, not with Domingo, but Enrico Caru
 When I asked him which operatic role was his favorite, he replied, "Like Domingo, I am completely in love with whichever one I am currently singing."
 
 Although Villazon has already sung more than 80 performances of Verdi's "Traviata" in 15 previous productions at such world-class venues throughout the world, he will sing his first professional San Francisco "La Traviata" at 8 p.m. Tuesday at the War Memorial Opera House. Subsequent performances will be at 8 p.m. Sept. 18, 24 and Oct. 8; 7:30 p.m. Sept. 21, 27, 30, and Oct. 5; and 2 p.m. Oct. 3. His co-stars will be Ruth Ann Swenson and Mary Dunleavy alternating in the role of Violetta; Dmitri Hvorovstovsky and Zeljko Lucic in the role of Germont; Catherine Cook; Katherine Rohrer; Thomas Glenn; Ricardo Herrera; Joshua Bloom; and Stephen Bryant. Patrick Summers and Robert Wood will share conducting duties, while John Copley serves as stage director.
-

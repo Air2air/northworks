@@ -75,4 +75,4 @@ June 14 & 15, 1999
 
 Article in ANG Newspapers
 
-![](/images/logos-newspaper.gif)
+

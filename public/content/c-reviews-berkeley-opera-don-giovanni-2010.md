@@ -42,4 +42,4 @@ Another particularly clever bit of wit was Leporello's use of a Smart Phone that
 
 One of the very best parts of the production were Jeremy Knight's artful projection designs depicting the cemetery and the "marble" statue of Giovanni's victim, the murdered Commendatore, looming out of the entrance of his tomb. Equally evocative were the leaping, licking flames that swallowed the arrogant, unrepentent Don Giovanni into Hell. Pity that Knight's skills were not used more extensively to enhance the otherwise stark stage.
 
-![](/images/logos-newspaper.gif)
+

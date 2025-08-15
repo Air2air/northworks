@@ -50,5 +50,5 @@ Although my companions and I were initially expecting to merely endure the Thoms
 
 For those who might be touring the grand sights in D.C. soon, be sure to take in a National Symphony Orchestra concert.
 
-![](/images/logos-newspaper.gif)
+
 

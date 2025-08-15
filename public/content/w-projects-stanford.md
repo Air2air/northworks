@@ -32,8 +32,8 @@ images:
   - height: 39
     src: /images/title-stanford.gif
     width: 220
-title: Untitled
-type: article
+title: Stanford University Experience
+type: professional
 ---
 
 ![](/images/title-experience-stanford.gif)

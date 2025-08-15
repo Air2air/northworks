@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-reviews-tristan-stuttgart
 images:
   - height: 28
@@ -13,8 +13,8 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: October
-  publisher: Oakland Tribune
+  date: October 22, 2004
+  publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Aria
   - Baritone
@@ -26,18 +26,9 @@ subjects:
   - San Francisco Opera
   - Soprano
   - Stuttgart Reveals
-title: Untitled
+title: Stuttgart Reveals a New Way to Envision Tristan und Isolde
 type: review
 ---
-
-***
-
-Stuttgart Reveals a New Way to Envision Tristan und Isolde***
-
-Review of the Stuttgart Opera Performance from Cheryl North's Classical Music Column in the *Oakland Tribune* and other papers of the Alameda Newspaper Group, October 22, 2004, under the headline above. A correction regarding roles of the directorate of the Stuttgart State Opera has been made to the version published in the newspapers. Thanks to Thomas Koch of the Stuttgart Opera for providing
-this correction in material attributed to him.
-
-By Cheryl North
 
 WHEN the curtain rose Sunday after only a few bars of the prelude to Richard Wagner's "Tristan und Isolde," I knew I wasn't in Kansas anymore. But I also thought that just maybe it could have been San Francisco.
 
@@ -67,7 +58,7 @@ Finally it became clear that most of the men onstage were the chorus; the black-
 
 During the course of the opera (almost five hours), all the stage movements by soloists and chorus were minimal, performed almost in slow-motion.
 
-Initially, the whole thing seemed more like a quirky concert version of *Tristan* than a fully staged opera.
+Initially, the whole thing seemed more like a quirky concert version of Tristan than a fully staged opera.
 
 So why on earth was I so mesmerized?
 
@@ -81,7 +72,7 @@ The Tristan, Gabriel Sade of Romania, similarly sang with near-Olympian strength
 
 King Mark, Attila Jun of South Korea, employed his huge baritone in the last act for his deeply moving aria of betrayal and loss, while German mezzo-soprano Michaela Schuster sang Brangane with mighty voice and emotion throughout.
 
-In short, it was the most effective, riveting performance of *Tristan und Isolde* I've seen anywhere.
+In short, it was the most effective, riveting performance of Tristan und Isolde I've seen anywhere.
 
 But it differed from anything I've seen because of the way it was staged: unconventional with a capital U. The near static stage movement seemed to sensitize one's consciousness to be tuned to the tiniest, most subtle onstage movement or light change, allowing the music to assume an almost engulfing power.
 
@@ -95,13 +86,13 @@ But how did Stuttgart happen onto such a success?
 
 During an earlier interview, Thomas Koch, the Stuttgart Company's spokesman, helped answer my question.
 
-"Much of the credit is due to the work of the dramaturg," he said. "Juliane Votteler is the dramaturg of *Tristan*, the chief dramaturg of the Stuttgart State Opera, and a member of the opera directorate working closely with Klaus Zehelein, the general director. The other members of the directorate are Eytan Pessen, who also contributes greatly to the casting and ensemble management, Lothar Zagrosek, the general music director, and Doris Szenczer, the chief planner."
+"Much of the credit is due to the work of the dramaturg," he said. "Juliane Votteler is the dramaturg of Tristan , the chief dramaturg of the Stuttgart State Opera, and a member of the opera directorate working closely with Klaus Zehelein, the general director. The other members of the directorate are Eytan Pessen, who also contributes greatly to the casting and ensemble management, Lothar Zagrosek, the general music director, and Doris Szenczer, the chief planner."
 
 Noting that dramaturgie was first mentioned by the early 19th-century German writer Gotthold Lessing, Koch defined a dramaturg's function as an exceedingly "careful reading of a work of art."
 
 "A dramaturg," he said, "strives to put himself in a state of innocence as he approaches each piece. He tries to ask the very most basic questions, especially about the elements that are undefined. His job is to try to get very deep into the basic architectural elements of the piece. This often results in a staging concept that involves some added elements to the production."
 
-An example quickly came to my mind: San Francisco Opera's use of two dancers, in addition to singers, to illustrate the unspoken desires and fantasies of the two main characters during its recent production of Janacek's *Cunning Little Vixen.*
+An example quickly came to my mind: San Francisco Opera's use of two dancers, in addition to singers, to illustrate the unspoken desires and fantasies of the two main characters during its recent production of Janacek's Cunning Little Vixen.
 
 This in-depth staging and interpretation "takes opera beyond the merely culinary. It adds the component of reflection, even application," Koch said. "It's also quite a German thing."
 
@@ -112,6 +103,3 @@ After he recited facts and figures testifying to the fiscal success of the opera
 Stuttgart State Theater, Home of the Stuttgart State Opera
 
 ![](/images/stuttgart-state-opera.jpg)
-
-![](/images/logos-newspaper.gif)
-

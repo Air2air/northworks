@@ -6,7 +6,7 @@
 import React, { Suspense } from 'react';
 import { ContentItem } from '@/components/ui/ContentCard';
 import dynamic from 'next/dynamic';
-import { loadInterviews, loadArticles, loadWarnerPortfolio, loadWarnerLists } from '@/lib/jsonData';
+import { loadInterviews, loadArticles, loadProfile, loadWarnerProfessional, loadWarnerPublications, loadWarnerBackground } from '@/lib/jsonData';
 
 // Dynamic import for SearchInterface to reduce initial bundle size
 const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
@@ -30,52 +30,19 @@ const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
 async function getAllContentData(): Promise<{
   interviews: ContentItem[];
   articles: ContentItem[];
-  warnerPortfolio: ContentItem[];
-  warnerLists: any;
+  reviews: ContentItem[];
+  warnerProfessional: ContentItem[];
+  warnerPublications: ContentItem[];
+  warnerBackground: ContentItem[];
 }> {
   try {
     // Load data using helper functions
     const interviewsData = loadInterviews();
     const articlesData = loadArticles();
-    const warnerData = loadWarnerPortfolio();
-    const warnerListsData = loadWarnerLists();
-    
-    // Convert warner portfolio section to content item
-    const convertWarnerToContentItem = (item: any, category: string) => ({
-      metadata: {
-        id: item.id || Math.random().toString(),
-        type: 'professional_document',
-        category: 'professional',
-        subcategory: category,
-        status: 'published'
-      },
-      content: {
-        title: item.content?.title || 'Professional Section',
-        summary: item.content?.summary || item.content?.excerpt || '',
-        excerpt: item.content?.excerpt || '',
-        full_content: item.content?.full_content || ''
-      },
-      subject: {
-        people: [{
-          name: "D. Warner North",
-          role: category,
-          description: item.content?.summary || item.content?.excerpt || ''
-        }]
-      },
-      publication: {
-        date: undefined,
-        publisher: "NorthWorks"
-      },
-      media: {},
-      tags: item.professional_data?.organizations || []
-    });
-    
-    // Helper function to extract title from description
-
-    
-    const warnerPortfolio = warnerData.portfolio_sections ? 
-      warnerData.portfolio_sections.map((item: any) => convertWarnerToContentItem(item, 'portfolio_section')) : 
-      [];
+    const reviewsData = loadProfile();
+    const warnerProfessionalData = loadWarnerProfessional();
+    const warnerPublicationsData = loadWarnerPublications();
+    const warnerBackgroundData = loadWarnerBackground();
     
     return {
       interviews: (interviewsData.interviews || []).map((interview: any) => ({
@@ -92,28 +59,35 @@ async function getAllContentData(): Promise<{
           date: article.publication?.date || undefined
         }
       })),
-      warnerPortfolio,
-      warnerLists: warnerListsData.lists || {}
+      reviews: [], // Reviews are in profile data structure, need to check format
+      warnerProfessional: warnerProfessionalData.professional || [],
+      warnerPublications: warnerPublicationsData.publications || [],
+      warnerBackground: warnerBackgroundData.background || []
     };
   } catch (error) {
     console.error('Error loading content data:', error);
     return {
       interviews: [],
       articles: [],
-      warnerPortfolio: [],
-      warnerLists: {}
+      reviews: [],
+      warnerProfessional: [],
+      warnerPublications: [],
+      warnerBackground: []
     };
   }
 }
 
 export default async function UnifiedSearchPage() {
-  const { interviews, articles, warnerPortfolio, warnerLists } = await getAllContentData();
+  const { interviews, articles, reviews, warnerProfessional, warnerPublications, warnerBackground } = await getAllContentData();
   
   // Combine all content for unified search
   const allContent = [
-    ...interviews.map(item => ({ ...item, domain: 'Classical Music' })),
-    ...articles.map(item => ({ ...item, domain: 'Articles & Reviews' })),
-    ...warnerPortfolio.map(item => ({ ...item, domain: 'Professional Portfolio' }))
+    ...interviews.map(item => ({ ...item, domain: 'Classical Music Interviews' })),
+    ...articles.map(item => ({ ...item, domain: 'Articles' })),
+    ...reviews.map(item => ({ ...item, domain: 'Reviews' })),
+    ...warnerProfessional.map((item: any) => ({ ...item, domain: 'Professional Experience' })),
+    ...warnerPublications.map((item: any) => ({ ...item, domain: 'Publications' })),
+    ...warnerBackground.map((item: any) => ({ ...item, domain: 'Professional Background' }))
   ];
   
   return (
@@ -131,7 +105,7 @@ export default async function UnifiedSearchPage() {
         </div>
       </div>
     }>
-      <SearchInterface allContent={allContent} warnerLists={warnerLists} />
+      <SearchInterface allContent={allContent} warnerLists={{}} />
     </Suspense>
   );
 }

@@ -18,8 +18,8 @@ subjects:
   - Music Article
   - Opera
   - Stuttgart Energy
-title: The Authors
-type: article
+title: Stuttgart Conference Publication
+type: publication
 ---
 
 **

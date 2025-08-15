@@ -154,14 +154,51 @@ export interface BiographyFrontmatter extends BaseFrontmatter {
   images?: ContentImage[];
 }
 
-export type ContentType = 'interview' | 'review' | 'article' | 'biography' | 'homepage' | 'project' | 'professional';
+// Warner-specific content types
+export interface ProfessionalFrontmatter extends BaseFrontmatter {
+  type: 'professional';
+  organization?: string;
+  position?: string;
+  duration?: string;
+  description?: string;
+  images?: ContentImage[];
+  subjects?: string[];
+}
+
+export interface PublicationFrontmatter extends BaseFrontmatter {
+  type: 'publication';
+  publication?: PublicationInfo;
+  authors?: string[];
+  journal?: string;
+  volume?: string;
+  pages?: string;
+  doi?: string;
+  pdf_url?: string;
+  images?: ContentImage[];
+  subjects?: string[];
+}
+
+export interface BackgroundFrontmatter extends BaseFrontmatter {
+  type: 'background';
+  profession?: string;
+  education?: string[];
+  affiliations?: string[];
+  achievements?: string[];
+  images?: ContentImage[];
+  subjects?: string[];
+}
+
+export type ContentType = 'interview' | 'review' | 'article' | 'biography' | 'homepage' | 'project' | 'professional' | 'publication' | 'background';
 
 export type ContentFrontmatter = 
   | InterviewFrontmatter 
   | ReviewFrontmatter 
   | ArticleFrontmatter 
   | BiographyFrontmatter
-  | HomepageFrontmatter;
+  | HomepageFrontmatter
+  | ProfessionalFrontmatter
+  | PublicationFrontmatter
+  | BackgroundFrontmatter;
 
 export interface ContentData {
   frontmatter: ContentFrontmatter;

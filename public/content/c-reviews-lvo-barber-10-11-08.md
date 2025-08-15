@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-reviews-lvo-barber-10-08
 images:
   - height: 28
@@ -47,4 +47,4 @@ As the fussy Don Basinio, tall, rangy Kevin Nakatani, dressed in a black cassock
 
 So, take a break from any financial trauma and treat yourself to a bit of light-hearted laughter with a trek to Livermore's _Barber of Seville._
 
-![](/images/logos-newspaper.gif)
+

@@ -1,8 +1,5 @@
-import { getContentBySlug } from '@/lib/content';
-import { BiographyFrontmatter } from '@/types/content';
-import ContentLayout from '@/components/layouts/ContentLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import Image from 'next/image';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -13,50 +10,17 @@ export const metadata: Metadata = {
 };
 
 export default function CherylPage() {
-  const cherylData = getContentBySlug('c_main');
-  
-  if (!cherylData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Cheryl North</h1>
-          <p className="text-gray-600">Content not found</p>
-        </div>
-      </div>
-    );
-  }
-
-  const frontmatter = cherylData.frontmatter as BiographyFrontmatter;
-  
   // Create breadcrumbs
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
     { label: 'Cheryl North', href: '/cheryl', active: true }
   ];
 
-  // Create navigation with Cheryl active
-  const navigation = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: true },
-    { label: 'Contact', href: '/contact', active: false }
-  ];
-
-  const layoutFrontmatter = {
-    ...frontmatter,
-    title: 'Cheryl North',
-    breadcrumbs,
-    navigation,
-    seo: {
-      title: metadata.title as string,
-      description: metadata.description as string,
-      keywords: metadata.keywords as string[]
-    }
-  };
-
   return (
-    <ContentLayout frontmatter={layoutFrontmatter}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <div className="px-4 py-6 sm:px-0">
+        <Breadcrumbs items={breadcrumbs} />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <PageTitle
           title="Cheryl North"
@@ -65,139 +29,85 @@ export default function CherylPage() {
           size="large"
         />
 
-        <div className="grid lg:grid-cols-3 gap-12">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            {/* Professional Images */}
-            <div className="flex gap-6 mb-8">
-              {frontmatter.images && frontmatter.images.length > 1 && (
-                <div className="flex-shrink-0">
-                  <Image
-                    src={frontmatter.images[1].src.startsWith('/') ? frontmatter.images[1].src : `/${frontmatter.images[1].src}`}
-                    alt="Cheryl North"
-                    width={frontmatter.images[1].width || 150}
-                    height={frontmatter.images[1].height || 150}
-                    className="rounded-lg shadow-md"
-                  />
-                </div>
-              )}
-              {frontmatter.images && frontmatter.images.length > 2 && (
-                <div className="flex-shrink-0">
-                  <Image
-                    src={frontmatter.images[2].src.startsWith('/') ? frontmatter.images[2].src : `/${frontmatter.images[2].src}`}
-                    alt="Opera Now Magazine"
-                    width={frontmatter.images[2].width || 150}
-                    height={frontmatter.images[2].height || 150}
-                    className="rounded-lg shadow-md"
-                  />
-                </div>
-              )}
-            </div>
-
-            {/* Biography Content */}
-            <div className="prose prose-lg max-w-none mb-8">
-              <div dangerouslySetInnerHTML={{ __html: cherylData.content }} />
-            </div>
-
-            {/* Featured Photo */}
-            {frontmatter.images && frontmatter.images.length > 3 && (
-              <div className="mb-8">
-                <Image
-                  src={frontmatter.images[3].src.startsWith('/') ? frontmatter.images[3].src : `/${frontmatter.images[3].src}`}
-                  alt="Cheryl North with Nicola and Placido"
-                  width={frontmatter.images[3].width || 400}
-                  height={frontmatter.images[3].height || 290}
-                  className="rounded-lg shadow-md mx-auto"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2 italic">
-                  With renowned opera performers
-                </p>
+        {/* Content Cards */}
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-12">
+          {/* Interviews Card */}
+          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                </svg>
               </div>
-            )}
-
-            {/* Publications */}
-            {frontmatter.images && frontmatter.images.length > 4 && (
-              <div className="text-center">
-                <Image
-                  src={frontmatter.images[4].src.startsWith('/') ? frontmatter.images[4].src : `/${frontmatter.images[4].src}`}
-                  alt="Publication Logos"
-                  width={frontmatter.images[4].width || 220}
-                  height={frontmatter.images[4].height || 248}
-                  className="mx-auto"
-                />
-              </div>
-            )}
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Interviews</h3>
+              <p className="text-gray-600 mb-4">
+                In-depth conversations with classical music artists, conductors, and performers
+              </p>
+              <p className="text-sm text-gray-500 mb-4">73 interviews available</p>
+              <Link
+                href="/interviews"
+                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+              >
+                View Interviews
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </div>
 
-          {/* Sidebar */}
-          <div className="lg:col-span-1">
-            <div className="bg-white rounded-lg shadow-lg p-6 sticky top-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">Music Journalism</h3>
-              
-              <div className="space-y-4">
-                <Link 
-                  href="/interviews"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
-                >
-                  <h4 className="font-medium text-gray-900 mb-1">Artist Interviews</h4>
-                  <p className="text-sm text-gray-600">In-depth conversations with classical music performers</p>
-                </Link>
-                
-                <Link 
-                  href="/reviews"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
-                >
-                  <h4 className="font-medium text-gray-900 mb-1">Performance Reviews</h4>
-                  <p className="text-sm text-gray-600">Opera and symphony concert reviews</p>
-                </Link>
-                
-                <Link 
-                  href="/articles"
-                  className="block p-4 border border-gray-200 rounded-lg hover:border-green-300 hover:shadow-md transition-all"
-                >
-                  <h4 className="font-medium text-gray-900 mb-1">Feature Articles</h4>
-                  <p className="text-sm text-gray-600">In-depth articles about classical music</p>
-                </Link>
+          {/* Articles Card */}
+          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
               </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Articles</h3>
+              <p className="text-gray-600 mb-4">
+                Feature articles and in-depth analysis of classical music and opera
+              </p>
+              <p className="text-sm text-gray-500 mb-4">14 articles available</p>
+              <Link
+                href="/articles"
+                className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+              >
+                View Articles
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </div>
 
-              {/* Specialties */}
-              <div className="mt-8">
-                <h4 className="font-medium text-gray-900 mb-3">Specializations</h4>
-                <div className="flex flex-wrap gap-2">
-                  {['Opera', 'Symphony', 'Chamber Music', 'Classical Performance', 'Music Criticism'].map((specialty) => (
-                    <span 
-                      key={specialty}
-                      className="inline-block px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full"
-                    >
-                      {specialty}
-                    </span>
-                  ))}
-                </div>
+          {/* Reviews Card */}
+          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                </svg>
               </div>
-
-              {/* Publications */}
-              <div className="mt-6">
-                <h4 className="font-medium text-gray-900 mb-3">Publications</h4>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Oakland Tribune</li>
-                  <li>• Opera Now (UK)</li>
-                  <li>• Bay Area News Group</li>
-                  <li>• Classical Music Publications</li>
-                </ul>
-              </div>
-
-              {/* Featured Venue */}
-              {(frontmatter as any).subjects && (frontmatter as any).subjects.includes('War Memorial Opera House') && (
-                <div className="mt-6 p-3 bg-green-50 rounded-lg">
-                  <p className="text-sm text-green-800">
-                    <strong>Frequent Coverage:</strong> War Memorial Opera House and San Francisco Bay Area venues
-                  </p>
-                </div>
-              )}
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Reviews</h3>
+              <p className="text-gray-600 mb-4">
+                Professional reviews of opera, symphony, and classical music performances
+              </p>
+              <p className="text-sm text-gray-500 mb-4">28 reviews available</p>
+              <Link
+                href="/reviews"
+                className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors"
+              >
+                View Reviews
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
+        </div>
       </div>
-    </ContentLayout>
+    </div>
   );
 }

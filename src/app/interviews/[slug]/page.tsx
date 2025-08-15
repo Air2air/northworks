@@ -1,8 +1,8 @@
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
 import { InterviewFrontmatter } from '@/types/content';
-import ContentLayout from '@/components/layouts/ContentLayout';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { cleanTitle } from '@/lib/pathUtils';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { notFound } from 'next/navigation';
@@ -16,7 +16,7 @@ interface InterviewPageProps {
 
 export default async function InterviewPage({ params }: InterviewPageProps) {
   const resolvedParams = await params;
-  const contentData = getContentBySlug(resolvedParams.slug);
+  const contentData = getContentBySlug(resolvedParams.slug, false); // Get raw markdown for MDX
   
   if (!contentData || contentData.frontmatter.type !== 'interview') {
     notFound();
@@ -31,15 +31,11 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
     { label: cleanTitle(frontmatter.title), href: `/interviews/${resolvedParams.slug}`, active: true }
   ];
 
-  // Add breadcrumbs to frontmatter
-  const enhancedFrontmatter = {
-    ...frontmatter,
-    breadcrumbs
-  };
-
   return (
-    <ContentLayout frontmatter={enhancedFrontmatter}>
-      <article className="max-w-4xl mx-auto">
+    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <div className="px-4 py-6 sm:px-0">
+        <Breadcrumbs items={breadcrumbs} />
+        <article className="max-w-4xl mx-auto">
         {/* Header */}
         <header className="mb-8">
           <PageTitle 
@@ -99,8 +95,9 @@ export default async function InterviewPage({ params }: InterviewPageProps) {
             ← Back to All Interviews
           </a>
         </div>
-      </article>
-    </ContentLayout>
+        </article>
+      </div>
+    </div>
   );
 }
 
@@ -109,7 +106,7 @@ export async function generateStaticParams() {
   
   // Filter for interview content only
   const interviewSlugs = slugs.filter(slug => {
-    const content = getContentBySlug(slug);
+    const content = getContentBySlug(slug, false); // Use raw content for type checking
     return content?.frontmatter.type === 'interview';
   });
 

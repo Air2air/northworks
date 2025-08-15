@@ -1,5 +1,4 @@
 import { ContentFrontmatter } from '@/types/content';
-import Navigation from '@/components/Navigation';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { ReactNode } from 'react';
 
@@ -14,21 +13,10 @@ export default function ContentLayout({
   children, 
   showBreadcrumbs = true 
 }: ContentLayoutProps) {
-  const defaultNavigation = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Contact', href: '/contact', active: false }
-  ];
-
-  const navigation = (frontmatter as any).navigation || defaultNavigation;
   const breadcrumbs = (frontmatter as any).breadcrumbs;
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navigation */}
-      <Navigation items={navigation} />
-
       {/* Breadcrumbs */}
       {showBreadcrumbs && breadcrumbs && (
         <Breadcrumbs items={breadcrumbs} />

@@ -38,7 +38,7 @@ Singing the role of Dido is SFO Adler fellow mezzo-soprano Katherine Rohrer. Adl
 
 I'm not usually an enthusiastic fan of the practice of "updating," adding to or reinterpreting grand opera, but in this uniquely energizing and exciting case, I can only applaud. It's thrill-a-minute opera -- artistically valid, while thoroughly entertaining.
 
-![](/images/logos-newspaper.gif)
+
 
 [
 ![](/images/dido-aeneas-225.jpg)

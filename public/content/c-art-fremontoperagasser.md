@@ -59,5 +59,5 @@ His latest commission is to create a piece he's calling *Cosmic Reflections*, a 
 
 Nolan Gasser's *GLAST Prelude* received mention in the [July 11, 2008 issue of *Science*](http://www.sciencemag.org/cgi/content/full/321/5886/183b). Further information can be found at [nolangasser.com](http://www.nolangasser.com/glastprelude.html).
 
-![](/images/logos-newspaper.gif)
+
 

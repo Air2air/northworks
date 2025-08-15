@@ -42,4 +42,4 @@ The evening's high points included honey-voiced soprano Briggs in a powerfully m
 
 Donizetti's glorious Sextet from his  Lucia di Lammermoor , featuring Briggs, Houston, Wilson, Glueckert, Gordin, Bloom and the Oakland Symphony Chorus, was up at a similar heady level, as were the ensemble performances of the "Triumphal Scene" from Verdi's  Aida  and the achingly beautiful rendition of  Make Our Garden Grow  from Bernstein's  Candide .
 
-![](/images/logos-newspaper.gif)
+

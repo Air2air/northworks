@@ -1,163 +1,55 @@
-import { getContentBySlug, getContentByType } from '@/lib/content';
-import { ArticleFrontmatter } from '@/types/content';
-import ContentLayout from '@/components/layouts/ContentLayout';
+import { getContentByType } from '@/lib/content';
 import PageTitle from '@/components/ui/PageTitle';
-import ContentListComponent, { parseArticlesFromMarkdown } from '@/components/ContentListComponent';
-import { cleanTitle } from '@/lib/pathUtils';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function ArticlesPage() {
-  // Get both the articles index and individual articles
-  const articlesIndexData = getContentBySlug('c_articles');
+  // Get individual articles
   const individualArticles = getContentByType('article');
 
-  const defaultNavigation = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Contact', href: '/contact', active: false }
-  ];
-
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Articles', href: '/articles', active: true }
-  ];
-
-  const mockFrontmatter = {
-    id: 'articles',
-    title: 'Articles & Features',
-    type: 'article' as const,
-    seo: {
-      title: 'Music Articles & Features - NorthWorks',
-      description: 'In-depth articles about classical music, performers, and the music industry.',
-      keywords: ['classical music articles', 'music features', 'music journalism', 'performer profiles']
-    },
-    navigation: defaultNavigation,
-    breadcrumbs
-  };
-
-  // Parse articles from the index if available
-  let indexArticles: any[] = [];
-  if (articlesIndexData) {
-    const frontmatter = articlesIndexData.frontmatter as ArticleFrontmatter;
-    indexArticles = parseArticlesFromMarkdown(
-      articlesIndexData.content, 
-      frontmatter.images || []
-    );
-  }
-
   return (
-    <ContentLayout frontmatter={mockFrontmatter}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <PageTitle
-          title="Articles & Features"
-          description="In-depth articles and feature stories about classical music, performers, and the cultural landscape of the performing arts."
+          title="Music Articles & Features"
+          description="In-depth articles about classical music, performers, and the music industry."
           align="center"
           size="medium"
         />
 
-        {/* Show index-based articles if available */}
-        {indexArticles.length > 0 && (
-          <div className="mb-12">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-semibold text-gray-900">Featured Articles Collection</h2>
-              <Link 
-                href="/articles" 
-                className="text-blue-600 hover:text-blue-800 transition-colors font-medium"
-              >
-                View Full Collection →
+        {/* Search hint */}
+        <div className="text-center mb-8">
+          <Link 
+            href="/search"
+            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            🔍 Search All Content
+          </Link>
+        </div>
+
+        {/* Simple list of articles */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {individualArticles.map((article) => (
+            <article key={article.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <Link href={`/articles/${article.slug}`}>
+                <div className="p-6">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">
+                    {article.frontmatter.title}
+                  </h3>
+                  <p className="text-sm text-blue-600">
+                    Click to read article →
+                  </p>
+                </div>
               </Link>
-            </div>
-            <ContentListComponent 
-              items={indexArticles.slice(0, 8)} // Show first 8
-              title=""
-              showThumbnails={true}
-              layout="grid"
-              contentType="articles"
-            />
-          </div>
-        )}
+            </article>
+          ))}
+        </div>
 
-        {/* Show individual article files */}
-        {individualArticles.length > 0 && (
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-              {indexArticles.length > 0 ? 'Additional Features' : 'All Articles'}
-            </h2>
-            <div className="grid gap-6">
-              {individualArticles.map((article) => {
-                const frontmatter = article.frontmatter as ArticleFrontmatter;
-                const heroImage = frontmatter.images?.[0];
-                
-                return (
-                  <article key={article.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                    <div className="flex">
-                      {heroImage && (
-                        <div className="flex-shrink-0 w-48 h-32 relative">
-                          <Image
-                            src={heroImage.src}
-                            alt={heroImage.alt || cleanTitle(frontmatter.title)}
-                            fill
-                            className="object-cover"
-                          />
-                        </div>
-                      )}
-                      <div className="flex-1 p-6">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                          <Link 
-                            href={`/articles/${article.slug}`}
-                            className="hover:text-blue-600 transition-colors"
-                          >
-                            {cleanTitle(frontmatter.title)}
-                          </Link>
-                        </h3>
-                        
-                        {frontmatter.publication && (
-                          <div className="text-sm text-gray-500 mb-3">
-                            {frontmatter.publication.date && (
-                              <span>{frontmatter.publication.date}</span>
-                            )}
-                            {frontmatter.publication.publisher && (
-                              <span> • {frontmatter.publication.publisher}</span>
-                            )}
-                            {frontmatter.publication.author && (
-                              <span> • By {frontmatter.publication.author}</span>
-                            )}
-                          </div>
-                        )}
-
-                        {frontmatter.subjects && frontmatter.subjects.length > 0 && (
-                          <div className="flex flex-wrap gap-2 mb-3">
-                            {frontmatter.subjects.slice(0, 5).map((subject, index) => (
-                              <span 
-                                key={index}
-                                className="inline-block px-2 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full"
-                              >
-                                {subject}
-                              </span>
-                            ))}
-                          </div>
-                        )}
-
-                        <p className="text-gray-600 text-sm line-clamp-3">
-                          {article.content.substring(0, 150).replace(/[#*_]/g, '')}...
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {indexArticles.length === 0 && individualArticles.length === 0 && (
+        {individualArticles.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500">No articles found.</p>
+            <p className="text-gray-600">No articles available at this time.</p>
           </div>
         )}
       </div>
-    </ContentLayout>
+    </div>
   );
 }

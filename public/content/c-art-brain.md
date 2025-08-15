@@ -45,5 +45,5 @@ And even further back in history, to the "Golden Age" of Greece circa 450 B.C., 
 
 Addded February 2005: For recent research on music and the brain, see the [ American Music Conference website](/articles/http://www.amc-music.org/musicmaking/thebrain).
 
-![](/images/logos-newspaper.gif)
+
 

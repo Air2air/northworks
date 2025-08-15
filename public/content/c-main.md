@@ -51,5 +51,5 @@ taught piano and music appreciation for music majors at Ohlone College; served o
 Cheryl North between two favorite maestros, Nicola Luisotti and Placido Domingo, at the San Francisco War Memorial Opera House,
 October 19, 2010 (photo by DWN)
 
-![](/images/logos-newspaper.gif)
+
 

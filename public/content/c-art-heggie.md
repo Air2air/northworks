@@ -126,5 +126,5 @@ Jake Heggie has matured into one of the leading music drama composers of this ag
 among the Bay Area's music critics do not seem to agree with my evaluation, I believe Heggie's achievements will
 eclipse those of most other contemporary composers, and hopefully, will endure through the ages.
 
-![](/images/logos-newspaper.gif)
+
 

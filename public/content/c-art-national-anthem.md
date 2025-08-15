@@ -46,5 +46,5 @@ There were, and have remained to this day, other musical contenders for the hono
 
 However, none better capture the fervor of America's great promise, to remain "the land of the free and the home of the brave!" than does *The Star-Spangled Banner*. Perhaps the difficult range of notes through which we must struggle in order to sing it remind us of the difficulties through which we must struggle to maintain the United States as the honorable land of the free and the home of the brave!
 
-![](/images/logos-newspaper.gif)
+
 

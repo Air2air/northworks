@@ -27,8 +27,8 @@ subjects:
   - Performance
   - Risk Assessment
   - United States Federal
-title: Untitled
-type: article
+title: Government Projects & Consulting
+type: professional
 ---
 
 ![](/images/title-experience-government.gif)

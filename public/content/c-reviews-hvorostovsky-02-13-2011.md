@@ -44,4 +44,4 @@ His second encore was an unaccompanied primeval-sounding lament, Farewell, Happi
 
 But not this time. The audience's standing ovation summoned the performers back for a final, glorious, culminating masterpiece: Sergei Rachmaninoff's rapturous, In the Silence of the Night .
 
-![](/images/logos-newspaper.gif)
+

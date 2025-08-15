@@ -186,5 +186,5 @@ April 8, 1994
 
 *Concert Review from The Oakland Tribune and Other ANG Newspapers*
 
-![](/images/logos-newspaper.gif)
+
 

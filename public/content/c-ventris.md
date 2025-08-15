@@ -1,13 +1,13 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-ventris
 images:
   - height: 200
     src: /images/christopher-ventris.jpg
     width: 160
 publication:
-  date: June
-  publisher: participating in
+  date: June 30, 2000
+  publisher: ANG Newspapers Classical Music Column
 subjects:
   - Christopher Ventris
   - Conducting
@@ -22,17 +22,11 @@ title: Cheryl North Interviews Christopher Ventris
 type: interview
 ---
 
-### **Cheryl North Interviews
- Christopher Ventris**
-
-*ANG Newspapers Classical Music
- Column - June 30, 2000*
-
- Christopher Ventris has taken a few unconventional turns along his path
+Christopher Ventris has taken a few unconventional turns along his path
 toward a major operatic career. The London-born tenor is currently in San Francisco for his U.S. debut singing the title role in the San Francisco
-Opera's current production of Richard Wagner's *Parsifal*.
+Opera's current production of Richard Wagner's Parsifal .
 
-His first major stage experience happened when he was 12 and sang the lead female role In Gilbert & Sullivan's *The Sorcerer* for his all-boys' school.
+His first major stage experience happened when he was 12 and sang the lead female role In Gilbert & Sullivan's The Sorcerer for his all-boys' school.
 
 "Stage acting was much more fun than schoolwork," the genial singer said during a telephone interview last week. "When my voice changed. I continued by participating in England's very good amateur operetta program. I was initially a member of the chorus, and we did 2 shows yearly. While I was there, I met Joy Mammen, a wonderful Australian voice teacher who had sung with both Joan Sutherland and Luciano Pavarotti. After studying with her for two years, she arranged for me to have an audition with the Royal Academy of Music."
 
@@ -42,14 +36,14 @@ Academy, however, proved to be a launch pad for bigger things, since major
 coaches, teachers and performers from both the Royal Opera and the Glyndebourne
 Festival regularly worked with Academy students. Ventris was eventually given
 an apprenticeship with Glyndebourne and was assigned to be the understudy for
-the role of Tom Rakewell in *The Rake's Progress*. A little later, he served as understudy for a production of Jan'cek's *Katya Kabanova* which, coincidentally, was directed by Nikolaus Lehnhoff, the director of San Francisco Opera's current *Parsifal* production. The young tenor made an important operatic debut in 1992 as Steuermann in the Leipzig Opera production of Wagner's *Der Fliegende Hollander*, which was followed by an appearance there as Narraboth in Strauss' *Salome*. The role of Kudryash in *Katya Kabanova* was the vehicle for his Covent
+the role of Tom Rakewell in The Rake's Progress . A little later, he served as understudy for a production of Jan'cek's Katya Kabanova which, coincidentally, was directed by Nikolaus Lehnhoff, the director of San Francisco Opera's current Parsifal production. The young tenor made an important operatic debut in 1992 as Steuermann in the Leipzig Opera production of Wagner's Der Fliegende Hollander , which was followed by an appearance there as Narraboth in Strauss' Salome . The role of Kudryash in Katya Kabanova was the vehicle for his Covent
 Garden debut in 1994.
 
-*
+-
 
 A major bit of serendipity occurred in 1998 when he
 received a telephone call asking if he would be willing to substitute for an
-ailing tenor and sing the role of Max in Der Freisch'tz* at La Scala the very next day. After taking a few seconds to recover from the surprise, he said yes and prepared to board the next plane from London to Milan (he had sung the
+ailing tenor and sing the role of Max in Der Freisch'tz\* at La Scala the very next day. After taking a few seconds to recover from the surprise, he said yes and prepared to board the next plane from London to Milan (he had sung the
 role in Cologne only two weeks before). According to Ventris, the La Scala
 performance went very well, even though he had only a single afternoon's
 rehearsal. His name became familiar throughout the Continent, since the

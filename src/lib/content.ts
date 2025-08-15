@@ -7,7 +7,7 @@ import { ContentData, ContentFrontmatter, ContentType } from '@/types/content';
 // Configure marked options
 marked.setOptions({
   gfm: true, // GitHub Flavored Markdown
-  breaks: true, // Convert \n to <br>
+  breaks: false, // Don't convert \n to <br> - causes MDX parsing issues
 });
 
 const contentDirectory = path.join(process.cwd(), 'content');
@@ -21,7 +21,7 @@ function cleanFrontmatter(obj: any): any {
   return obj;
 }
 
-export function getContentBySlug(slug: string): ContentData | null {
+export function getContentBySlug(slug: string, processHtml: boolean = true): ContentData | null {
   try {
     // Check both content directories
     let filePath: string;
@@ -46,12 +46,12 @@ export function getContentBySlug(slug: string): ContentData | null {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data: frontmatter, content } = matter(fileContent);
 
-    // Convert markdown to HTML synchronously without path processing
-    let htmlContent = marked.parse(content) as string;
+    // Either return raw markdown for MDX or processed HTML
+    const finalContent = processHtml ? marked.parse(content) as string : content;
 
     return {
       frontmatter: frontmatter as ContentFrontmatter,
-      content: htmlContent,
+      content: finalContent,
       slug
     };
   } catch (error) {
@@ -149,6 +149,46 @@ export function getReviews(): ContentData[] {
 
 export function getArticles(): ContentData[] {
   return getContentByType('article');
+}
+
+// Warner-specific content functions
+export function getProfessionalContent(): ContentData[] {
+  return getContentByType('professional');
+}
+
+export function getPublications(): ContentData[] {
+  return getContentByType('publication');
+}
+
+export function getBackgroundContent(): ContentData[] {
+  return getContentByType('background');
+}
+
+// Helper function to get Warner content by prefix pattern
+export function getWarnerContentByPattern(pattern: 'projects' | 'pub' | 'background'): ContentData[] {
+  const allContent = getAllContent();
+  let prefixPattern: string;
+  
+  switch (pattern) {
+    case 'projects':
+      prefixPattern = 'w-projects';
+      break;
+    case 'pub':
+      prefixPattern = 'w-pub';
+      break;
+    case 'background':
+      prefixPattern = 'w-main|w-background|w-northworks';
+      break;
+    default:
+      return [];
+  }
+  
+  return allContent.filter(content => {
+    if (pattern === 'background') {
+      return content.slug.match(/^w-(main|background|northworks)/);
+    }
+    return content.slug.startsWith(prefixPattern);
+  });
 }
 
 export function getWarnerLists(): any[] {

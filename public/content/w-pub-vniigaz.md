@@ -30,8 +30,8 @@ subjects:
   - Opera
   - Probabilistic Scenario Analysis
   - Term Planning
-title: The Author
-type: article
+title: VNIIGAZ Publication
+type: publication
 ---
 
 **

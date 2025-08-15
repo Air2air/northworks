@@ -34,8 +34,8 @@ subjects:
   - Opera
   - Supply Interruption
   - Warner North
-title: The Author
-type: article
+title: SEIF-IV Publication
+type: publication
 ---
 
 **

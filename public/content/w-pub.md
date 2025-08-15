@@ -51,8 +51,8 @@ subjects:
   - Richard Wagner
   - Seed Hurricanes
   - Technical Review
-title: Untitled
-type: article
+title: Publications & Research Papers
+type: publication
 ---
 
 ***

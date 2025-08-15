@@ -2,8 +2,7 @@ import { getContentBySlug } from '@/lib/content';
 import { ContentFrontmatter } from '@/types/content';
 import ContentLayout from '@/components/layouts/ContentLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import NavigationCard from '@/components/ui/NavigationCard';
-import type { NavigationCardProps } from '@/components/ui/NavigationCard';
+import { ContentCard, ContentItem } from '@/components/ui/ContentCard';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -250,29 +249,32 @@ export default function PublicationsIndexPage() {
 
         {/* Publication Categories */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <NavigationCard
-            title="Risk Analysis Papers"
-            description="Peer-reviewed publications on quantitative risk assessment methods"
-            href="/warner/publications/risk-analysis"
-            icon={<FaChartBar className="text-blue-600" />}
-            color="blue"
-            size="medium"
+          <ContentCard
+            item={{
+              metadata: { id: 'risk-analysis', type: 'navigation', category: 'publications', status: 'active' },
+              content: { title: 'Risk Analysis Papers', summary: 'Peer-reviewed publications on quantitative risk assessment methods', url: '/warner/publications/risk-analysis' },
+              tags: ['risk', 'analysis', 'peer-reviewed']
+            }}
+            showImage={true}
+            showTags={true}
           />
-          <NavigationCard
-            title="Environmental Policy"
-            description="Publications on environmental decision making and policy analysis"
-            href="/warner/publications/environmental"
-            icon={<FaGlobe className="text-green-600" />}
-            color="green"
-            size="medium"
+          <ContentCard
+            item={{
+              metadata: { id: 'environmental', type: 'navigation', category: 'publications', status: 'active' },
+              content: { title: 'Environmental Policy', summary: 'Publications on environmental decision making and policy analysis', url: '/warner/publications/environmental' },
+              tags: ['environmental', 'policy', 'decision-making']
+            }}
+            showImage={true}
+            showTags={true}
           />
-          <NavigationCard
-            title="Nuclear Safety"
-            description="Research on nuclear waste management and reactor safety"
-            href="/warner/publications/nuclear"
-            icon={<FaAtom className="text-red-600" />}
-            color="red"
-            size="medium"
+          <ContentCard
+            item={{
+              metadata: { id: 'nuclear', type: 'navigation', category: 'publications', status: 'active' },
+              content: { title: 'Nuclear Safety', summary: 'Research on nuclear waste management and reactor safety', url: '/warner/publications/nuclear' },
+              tags: ['nuclear', 'safety', 'waste-management']
+            }}
+            showImage={true}
+            showTags={true}
           />
         </div>
 

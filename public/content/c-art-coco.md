@@ -70,5 +70,5 @@ And, I would add, that this "sustained exposure" should be sustained throughout 
 
 And a little afterthought -- bring your teenagers to the concert. They can certainly help us older folk operate CoCo.
 
-![](/images/logos-newspaper.gif)
+
 

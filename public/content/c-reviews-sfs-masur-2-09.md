@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-reviews-sfs-masur-2-09
 images:
   - height: 28
@@ -7,8 +7,8 @@ images:
     width: 250
 publication:
   author: Cheryl North
-  date: February
-  publisher: Oakland Tribune
+  date: February 18, 2009
+  publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Concert Review
   - Davies Hall
@@ -19,23 +19,15 @@ subjects:
   - Symphony
   - Symphony Review
   - Violin
-title: Untitled
+title: Masur, Gubaidulina make out-of-this-world music in Davies Hall
 type: review
 ---
-
-***
-
-S.F. Symphony Review: Masur, Gubaidulina make out-of-this-world music in Davies Hall**
-
-Review of the San Francisco Symphony Performance of February 18, 2009 in the Oakland Tribune* and other papers of the Alameda Newspaper Group under the headline above.
-
-By Cheryl North
 
 The sounds coming from the stage during the first piece on the San Francisco Symphony's Wednesday night program at Davies Symphony Hall were like none I've heard before. They were downright otherworldly.
 
 The closest comparison I can conjure is perhaps background music for a wild, far-out science fiction film — or, maybe a musical score for a flick about a squadron of maddened ghosts dive-bombing the world.
 
-The piece agitating my eardrums was the Russian-born composer Sofia Gubaidulina's 25 minute, single-movement piece, *The Light of the End*, composed in 2003.
+The piece agitating my eardrums was the Russian-born composer Sofia Gubaidulina's 25 minute, single-movement piece,  The Light of the End , composed in 2003.
 
 Conducted, and indeed, championed, by the legendary Kurt Masur, the performance was a tour-de-force testament to the virtuosity and the steely nerves of the musicians in our San Francisco Symphony.
 

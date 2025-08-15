@@ -25,9 +25,7 @@ type: interview
 
 "THE voice of an angel" is an oft-used phrase used to describe soprano Laura Aikin's singing.
 
-Aikin, the unforgettable blue angel with only one wing in
-the San Francisco Opera production of Messian's *Saint Fran'ois d'Assise* a couple of years ago, wowed audiences and critics alike with her amazing crystalline voice and playfully mysterious interpretation.
-The role required athletic ability and balance, both of which she had in abundance, as she sang while suspended on wires and platforms high above the opera house stage.
+Aikin, the unforgettable blue angel with only one wing in the San Francisco Opera production of Messian's *Saint Fran'ois d'Assise* a couple of years ago, wowed audiences and critics alike with her amazing crystalline voice and playfully mysterious interpretation. The role required athletic ability and balance, both of which she had in abundance, as she sang while suspended on wires and platforms high above the opera house stage.
 
 Once again, Aikin is doing the angel thing in San Francisco ' albeit this time it's a "fallen" angel ' in the San Francisco Symphony's performances of Robert Schumann's *Das Paradies und die Peri.* The last of three performances of this lovely, lyrical piece, which Schumann himself termed "an oratorio for happy people," is at 8 tonight.
 

@@ -143,8 +143,8 @@ subjects:
   - National Research Council
   - Performance
   - United States Federal
-title: Untitled
-type: article
+title: Professional Experience & Projects
+type: professional
 ---
 
 ![](/images/title-experience.gif)

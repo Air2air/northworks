@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: "2025-08-13"
 id: c-volodos
 images:
   - height: 28
@@ -9,8 +9,8 @@ images:
     src: /images/volodos.jpg
     width: 200
 publication:
-  date: February
-  publisher: such late
+  date: February 4, 2003
+  publisher: ANG Newspapers Classical Music Column
 subjects:
   - during his
   - not the
@@ -21,35 +21,10 @@ subjects:
   - actually did
   - orchestras and
   - indeed piano
-  - 'Newspapers
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    High'
-title: Untitled
+title: Cheryl North Interviews Arcadi Volodos
 type: interview
 ---
-
-***
-
-Cheryl North Interviews Arcadi Volodos**
-
-ANG Newspapers Classical Music Column - February 4, 2003.*
 
 During a radio broadcast in 1939, Sir Winston Churchill said 'Russia is a riddle wrapped in a mystery inside an enigma.' These same words seem uncannily appropriate for describing Arcadi Volodos, one of Russia's contemporary sons.
 
@@ -100,4 +75,3 @@ But his primary life activity is indeed piano playing, affirmed Gates.
 'Arcadi always tries to arrange for a piano to be set up in whatever hotel room he stays in. And, he keeps at the piano off and on for most of the day. Music always seems to be on his mind.'
 
 '1999-2002 by MediaNews Group, Inc. and ANG Newspapers
-

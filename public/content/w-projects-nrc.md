@@ -98,8 +98,8 @@ images:
   - height: 86
     src: /images/book-government.gif
     width: 60
-title: Main Publications
-type: article
+title: National Research Council Experience
+type: professional
 ---
 
 ***

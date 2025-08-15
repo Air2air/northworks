@@ -81,5 +81,5 @@ oesn't do spring-training or batting practice. He flies in for the big game and 
 
 ![](/images/gergiev-freedom-banner.jpg)
 
-![](/images/logos-newspaper.gif)
+
 

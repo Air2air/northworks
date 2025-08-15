@@ -24,7 +24,7 @@ publication:
   date: ''
   publisher: ''
 title: NorthWorks Consulting
-type: company
+type: background
 ---
 
 ***

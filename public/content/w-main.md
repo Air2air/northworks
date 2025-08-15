@@ -17,8 +17,8 @@ images:
 publication:
   date: December
   publisher: the Commission
-title: Untitled
-type: article
+title: D. Warner North - Professional Biography
+type: background
 ---
 
 ***

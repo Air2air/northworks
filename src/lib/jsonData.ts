@@ -258,42 +258,49 @@ function loadJsonData<T>(filename: string): T {
  * Load interviews data
  */
 export function loadInterviews(): InterviewsData {
-  return loadJsonData<InterviewsData>('interviews-specialized.json');
+  return loadJsonData<InterviewsData>('cheryl-interviews.json');
 }
 
 /**
  * Load articles data
  */
 export function loadArticles(): ArticlesData {
-  return loadJsonData<ArticlesData>('articles-specialized.json');
+  return loadJsonData<ArticlesData>('cheryl-articles.json');
 }
 
 /**
- * Load profile data
+ * Load profile data (reviews)
  */
 export function loadProfile(): ProfileData {
-  return loadJsonData<ProfileData>('reviews-specialized.json');
+  return loadJsonData<ProfileData>('cheryl-reviews.json');
 }
 
 /**
- * Load data index
+ * Load Warner professional data
+ */
+export function loadWarnerProfessional(): any {
+  return loadJsonData<any>('warner-professional.json');
+}
+
+/**
+ * Load Warner publications data
+ */
+export function loadWarnerPublications(): any {
+  return loadJsonData<any>('warner-publications.json');
+}
+
+/**
+ * Load Warner background data
+ */
+export function loadWarnerBackground(): any {
+  return loadJsonData<any>('warner-background.json');
+}
+
+/**
+ * Load data index (classifications)
  */
 export function loadDataIndex(): DataIndex {
-  return loadJsonData<DataIndex>('data-manifest.json');
-}
-
-/**
- * Load Warner portfolio data
- */
-export function loadWarnerPortfolio(): any {
-  return loadJsonData<any>('warner-portfolio-specialized.json');
-}
-
-/**
- * Load Warner lists data  
- */
-export function loadWarnerLists(): any {
-  return loadJsonData<any>('warner-portfolio-specialized.json');
+  return loadJsonData<DataIndex>('classifications-index.json');
 }
 
 /**

@@ -38,5 +38,5 @@ According to director Kagey, composer-librettist Pasatieri, who was born in New 
 
 Kagey not only has a gift for stage and set design but he is thoroughly adept at leading and directing young people. Tall, affable and ever ready with his warm, baritone laugh, he has a natural affinity for gracefully bringing the quirks and subtleties of human nature to the stage. Long associated with the academic world (the faculty of the University of Maryland, plus other schools), he has spent summers for more than 40 years directing young people with operatic aspirations at the Seagle Music Colony in the Schroon Lake area of upper New York. His most recent endeavor has been directing Pasatieri's *Frau Margot* with the Fort Worth Opera. Upcoming engagements include *The Merry Widow* at the Seagle Music Colony; *Hotel Casablanca* for the University of Kentucky; *Cold Sassy Tree* for Atlanta Opera; and *Of Mice and Men* for Fort Worth Opera. He also will direct the soon-to-open Energy Center for the Performing Arts in Atlanta. He and his wife, Betsy, an epidemiologist, make their home in Atlanta.
 
-![](/images/logos-newspaper.gif)
+
 

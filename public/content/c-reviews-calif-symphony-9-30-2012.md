@@ -26,6 +26,7 @@ type: review
 ---
 
 Robert Moody, the first of the seven guest conductors to lead a California Symphony concert this year as part of a search for a new permanent music director, won a number of hearts and minds Sunday as he stood on the Lesher Center for the Arts podium in Walnut Creek to preside over the opening of the California Symphony's 26th season.
+a
 Wisely, the skilled, engaging and impressively fit young Moody, who is music director of both the Winston-Salem Symphony in North Carolina and the Portland Symphony Orchestra in Maine, chose a win-win program for the occasion: Danzon No. 2, a scintillating, sensuous 1950 composition by Mexico's Arturo Marquez; Piano Concerto No. 2, the mesmerizingly passionate Russian masterpiece Sergei Rachmaninoff composed as part of his doctor-prescribed recovery therapy from severe mental depression in 1901; and the fascinating, evocatively atmospheric Symphony No. 2 composed by the Finnish Jean Sibelius in 1901.
 
 It would have been hard to discover an audience member who was not thoroughly entranced by Danzon. A commission from the Universidad Nacional Autonoma de Mexico dedicated to Marquez's daughter, Lily, it is a highly listenable piece with pervasive Latin dance rhythms, dazzling solo parts from various orchestral sections and an important role for piano. A particularly showy solo from the trumpets is intriguingly cast over hoarse sounds created by scratching bow slashes from the string sections. Percussion rhythms redolent of Latin dance pulse throughout the work, as touches of melancholy are occasionally insinuated into its jazz inflections. The large, receptive audience seemed almost universally captivated, with some even swaying or nodding their heads in time with the piece's infectious rhythms.
@@ -40,4 +41,4 @@ The orchestra's individual sections shone like never before: There was A-plus pl
 
 Next up on the California Symphony podium on Oct. 18 will be East Bay native David Commanday, founding artistic director of the Heartland Festival Orchestra in central Illinois, who has shaped a program that will be a tribute to his late stepbrother, J. Christopher Stevens, the former Piedmont resident and U.S. ambassador to Libya who was killed in an attack on the mission in Benghazi on Sept. 11.
 
-![](/images/logos-newspaper.gif)
+

@@ -1,5 +1,6 @@
 /**
- * ContentCard component - Single variant with thumbnail on left
+ * ContentCard component - Consistent horizontal layout with thumbnail always on left
+ * Shows either actual image or fallback compass icon when no image available
  * Supports interviews, articles, profiles, and any future content
  */
 
@@ -7,6 +8,7 @@ import React from 'react';
 import Tags from './Tags';
 import Link from 'next/link';
 import LazyImage from './LazyImage';
+import { FaCompass } from 'react-icons/fa';
 
 export interface ContentItem {
   metadata: {
@@ -95,9 +97,9 @@ export function ContentCard({
   return (
     <CardWrapper>
       <div className="flex">
-        {/* Thumbnail image on the left */}
-        {showImage && thumbnail && (
-          <div className="flex-shrink-0 w-48 h-32 relative">
+        {/* Thumbnail image on the left - always present */}
+        <div className="flex-shrink-0 w-48 h-32 relative">
+          {showImage && thumbnail ? (
             <LazyImage
               src={thumbnail.url}
               alt={thumbnail.alt || item.content.title}
@@ -105,8 +107,12 @@ export function ContentCard({
               height={128}
               className="rounded-l-lg"
             />
-          </div>
-        )}
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 rounded-l-lg flex items-center justify-center">
+              <FaCompass className="text-4xl text-gray-400" />
+            </div>
+          )}
+        </div>
         
         <div className="flex-1 p-6">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">

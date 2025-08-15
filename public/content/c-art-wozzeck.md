@@ -47,5 +47,5 @@ And there, stuffed into a rather contorted nutshell, you have the world that fac
 
 Be assured: Despite Berg's sallies into Expressionistic shock, the upcoming "Wozzeck" is bound to awe you with an emotional force you will neither regret nor forget. (Although its original audiences often walked out mid-performance or even rioted, within its first 10 years, *Wozzeck* was performed more than 150 times in 28 European cities.)
 
-![](/images/logos-newspaper.gif)
+
 

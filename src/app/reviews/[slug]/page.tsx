@@ -1,7 +1,7 @@
 import { getContentBySlug, getContentByType } from '@/lib/content';
 import { ReviewFrontmatter, ContentData } from '@/types/content';
-import ContentLayout from '@/components/layouts/ContentLayout';
 import PageTitle from '@/components/ui/PageTitle';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { cleanTitle } from '@/lib/pathUtils';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -58,22 +58,11 @@ export default async function ReviewPage({ params }: Props) {
     { label: cleanTitle(frontmatter.title), href: `/reviews/${resolvedParams.slug}`, active: true }
   ];
 
-  // Create navigation - using default navigation since reviews don't have navigation in frontmatter
-  const navigation = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Contact', href: '/contact', active: false }
-  ];
-
-  const layoutFrontmatter = {
-    ...frontmatter,
-    breadcrumbs
-  };
-
   return (
-    <ContentLayout frontmatter={layoutFrontmatter}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <div className="px-4 py-6 sm:px-0">
+        <Breadcrumbs items={breadcrumbs} />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
           <PageTitle 
@@ -179,7 +168,8 @@ export default async function ReviewPage({ params }: Props) {
             </div>
           </div>
         </div>
+        </div>
       </div>
-    </ContentLayout>
+    </div>
   );
 }

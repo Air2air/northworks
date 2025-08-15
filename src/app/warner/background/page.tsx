@@ -1,91 +1,55 @@
-import { getContentBySlug } from '@/lib/content';
-import { ContentFrontmatter } from '@/types/content';
-import ContentLayout from '@/components/layouts/ContentLayout';
+import { getWarnerContentByPattern } from '@/lib/content';
 import PageTitle from '@/components/ui/PageTitle';
-import Image from 'next/image';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'D. Warner North - Background & Education | NorthWorks',
-  description: 'Educational background and professional credentials of Dr. D. Warner North, risk analysis expert and Stanford consulting professor.',
-  keywords: ['Warner North', 'education', 'credentials', 'Stanford University', 'risk analysis background']
-};
+import Link from 'next/link';
 
 export default function WarnerBackgroundPage() {
-  const backgroundData = getContentBySlug('w_background');
-  
-  if (!backgroundData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Background & Education</h1>
-          <p className="text-gray-600">Content not found</p>
-        </div>
-      </div>
-    );
-  }
-
-  const frontmatter = backgroundData.frontmatter as ContentFrontmatter;
-  
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Background', href: '/warner/background', active: true }
-  ];
-
-  // Create navigation
-  const navigation = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: true },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Contact', href: '/contact', active: false }
-  ];
-
-  const layoutFrontmatter = {
-    ...frontmatter,
-    title: 'Background & Education',
-    breadcrumbs,
-    navigation,
-    seo: {
-      title: metadata.title as string,
-      description: metadata.description as string,
-      keywords: metadata.keywords as string[]
-    }
-  };
+  // Get background content
+  const backgroundContent = getWarnerContentByPattern('background');
 
   return (
-    <ContentLayout frontmatter={layoutFrontmatter}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <PageTitle
-          title="Background & Education"
-          description="Academic background and professional credentials of D. Warner North"
-          align="left"
-          size="large"
+          title="Professional Background"
+          description="Dr. Warner North's biography, education, and professional credentials."
+          align="center"
+          size="medium"
         />
 
-        {/* Content */}
-        <div className="prose prose-lg max-w-none mb-12">
-          <div dangerouslySetInnerHTML={{ __html: backgroundData.content }} />
+        {/* Search hint */}
+        <div className="text-center mb-8">
+          <Link 
+            href="/search"
+            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            🔍 Search All Content
+          </Link>
         </div>
 
-        {/* Navigation back to main profile */}
-        <div className="border-t pt-8">
-          <div className="flex justify-between items-center">
-            <a 
-              href="/warner"
-              className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
-            >
-              ← Back to D. Warner North
-            </a>
-            
-            <div className="text-sm text-gray-500">
-              Professional Background
-            </div>
-          </div>
+        {/* Simple list of background content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {backgroundContent.map((content) => (
+            <article key={content.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <Link href={`/warner/background/${content.slug}`}>
+                <div className="p-6">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">
+                    {content.frontmatter.title}
+                  </h3>
+                  <p className="text-sm text-blue-600">
+                    Click to read more →
+                  </p>
+                </div>
+              </Link>
+            </article>
+          ))}
         </div>
+
+        {backgroundContent.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-gray-600">No background content available at this time.</p>
+          </div>
+        )}
       </div>
-    </ContentLayout>
+    </div>
   );
 }

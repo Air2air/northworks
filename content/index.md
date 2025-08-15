@@ -20,56 +20,55 @@ navigation:
     href: "/cheryl"
   - label: "Contact"
     href: "/contact"
- href: "/contact"
-hero images:
- - src: "images/topleft 1.gif"
- alt: "NorthWorks Logo 1"
- - src: "images/topleft 2.gif"
- alt: "NorthWorks Logo 2"
- - src: "images/topleft 3.gif"
- alt: "NorthWorks Logo 3"
- - src: "images/topleft 4.gif"
- alt: "NorthWorks Logo 4"
-header logo: "images/logo.gif"
-header tagline: "images/h top right.jpg"
+hero_images:
+  - src: "images/topleft1.gif"
+    alt: "NorthWorks Logo 1"
+  - src: "images/topleft2.gif"
+    alt: "NorthWorks Logo 2"
+  - src: "images/topleft3.gif"
+    alt: "NorthWorks Logo 3"
+  - src: "images/topleft4.gif"
+    alt: "NorthWorks Logo 4"
+header_logo: "images/logo.gif"
+header_tagline: "images/htopright.jpg"
 profiles:
- warner:
- name: "D. Warner North"
- title: Principal Scientist"
- image: "images/warner north 6-06.jpg"
- description: "Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection."
- link: "/warner"
- cheryl:
- name: "Cheryl North"
- title: Music Journalist"
- image: "images/cherie mug.jpg"
- description: "A noted music columnist for the Oakland Tribune and other papers of the Bay Area News Group. She writes performance reviews and feature articles for other publications, including Opera Now, based in Great Britain."
- link: "/cheryl"
-recent content:
- cheryl:
- - title: Berkeley Symphony 2017"
-  description: "Dmitri Shostakovich's Symphony No. 13, Babi Yar, powerfully sets the text by Yevgeni Yevtushenko commemorating the massacre of Jews at Babi Yar during World War II."
-  link: "http://www.mercurynews.com/2017/05/01/berkeley-symphony-to-perform-shostakovichs-riveting-babi-yar-symphony/"
-  type: "preview"
- - title: San Francisco Symphony 2017"
-  description: "Das kalgende Lied is a rarely performed early work of Gustav Mahler. Michael Tilson Thomas led the San Francisco Symphony in semi-staged performances January 13-15, 2017."
-  link: "http://www.mercurynews.com/2017/01/09/michael-tilson-thomas-pulls-out-all-the-stops-for-san-francisco-symphonys-performance-of-mahler-cantata-based-on-a-grimms-fairy-tale/"
-  type: "review"
- - title: San Francisco Opera"
-  description: "Korean tenor Yonghoon Lee makes his S.F. Opera debut in Andrea Chenier on opening night of the Fall 2016 season."
-  link: "http://www.mercurynews.com/2016/09/02/cheryl-north-san-francisco-opera-opens-new-season-with-a-gala-production-of-giordanos-andrea-chenier/"
-  type: "interview"
- warner:
- - title: Health Risk Analysis for Criteria Air Pollutants"
-  description: "As area editor for the journal Risk Analysis Warner North organized and wrote the introduction for a special issue published September 2016."
-  link: "http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc"
-  type: "publication"
- - title: National Academies Reports"
-  description: "Warner North served as a peer reviewer for 'Preparing for Future Products of Biotechnology' and 'A Review of the Environmental Protection Agency's Science to Achieve Results Program.'"
-  type: "review"
- - title: Shale Gas Development Workshops"
-  description: "Warner North was a member of the committee that organized two workshops on risks from hydraulic fracturing and improving governance for risk management."
-  type: "workshop"
+  warner:
+    name: "D. Warner North"
+    title: "Principal Scientist"
+    image: "images/warner north 6-06.jpg"
+    description: "Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection."
+    link: "/warner"
+  cheryl:
+    name: "Cheryl North"
+    title: "Music Journalist"
+    image: "images/cherie mug.jpg"
+    description: "A noted music columnist for the Oakland Tribune and other papers of the Bay Area News Group. She writes performance reviews and feature articles for other publications, including Opera Now, based in Great Britain."
+    link: "/cheryl"
+recent_content:
+  cheryl:
+    - title: "Berkeley Symphony 2017"
+      description: "Dmitri Shostakovich's Symphony No. 13, Babi Yar, powerfully sets the text by Yevgeni Yevtushenko commemorating the massacre of Jews at Babi Yar during World War II."
+      link: "http://www.mercurynews.com/2017/05/01/berkeley-symphony-to-perform-shostakovichs-riveting-babi-yar-symphony/"
+      type: "preview"
+    - title: "San Francisco Symphony 2017"
+      description: "Das kalgende Lied is a rarely performed early work of Gustav Mahler. Michael Tilson Thomas led the San Francisco Symphony in semi-staged performances January 13-15, 2017."
+      link: "http://www.mercurynews.com/2017/01/09/michael-tilson-thomas-pulls-out-all-the-stops-for-san-francisco-symphonys-performance-of-mahler-cantata-based-on-a-grimms-fairy-tale/"
+      type: "review"
+    - title: "San Francisco Opera"
+      description: "Korean tenor Yonghoon Lee makes his S.F. Opera debut in Andrea Chenier on opening night of the Fall 2016 season."
+      link: "http://www.mercurynews.com/2016/09/02/cheryl-north-san-francisco-opera-opens-new-season-with-a-gala-production-of-giordanos-andrea-chenier/"
+      type: "interview"
+  warner:
+    - title: "Health Risk Analysis for Criteria Air Pollutants"
+      description: "As area editor for the journal Risk Analysis Warner North organized and wrote the introduction for a special issue published September 2016."
+      link: "http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc"
+      type: "publication"
+    - title: "National Academies Reports"
+      description: "Warner North served as a peer reviewer for 'Preparing for Future Products of Biotechnology' and 'A Review of the Environmental Protection Agency's Science to Achieve Results Program.'"
+      type: "review"
+    - title: "Shale Gas Development Workshops"
+      description: "Warner North was a member of the committee that organized two workshops on risks from hydraulic fracturing and improving governance for risk management."
+      type: "workshop"
 ---
 
 # NorthWorks
@@ -78,13 +77,13 @@ recent content:
 
 ## D. Warner North
 
-![D. Warner North](/images/warner north 6-06.jpg)
+![D. Warner North](/images/warner-north-6-06.jpg)
 
 [D. Warner North](/warner) is principal scientist of NorthWorks. Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection. Dr. North has a long association with Stanford University as adjunct faculty beginning in 1976 and as a consulting professor in the Department of Management Science and Engineering from 1988 to 2009.
 
 ## Cheryl North
 
-![Cheryl North](/images/cherie mug.jpg)
+![Cheryl North](/images/cheriemug.jpg)
 
 [Cheryl North](/cheryl) (Warner's wife and the director of the music journalism activities of NorthWorks) is a noted music columnist for the *Oakland Tribune* and other papers of the [Bay Area News Group](http://www.insidebayarea.com). She writes performance reviews and feature articles for other publications, including *Opera Now*, based in Great Britain. Profile/interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene have become an important specialty for which she is in demand.
 

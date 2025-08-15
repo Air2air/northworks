@@ -54,4 +54,4 @@ Which leaves me with the Beethoven.
 
 Alas. All the notes were indeed there, but they were performed mechanically and rote-like, giving the piece the character of a careful recitation rather than whole phrases presenting whole meaningful ideas. I suspect that being the most familiar work on the program to both conductor and musicians, it received the least rehearsal time.
 
-![](/images/logos-newspaper.gif)
+

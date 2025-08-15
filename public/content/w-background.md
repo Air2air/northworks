@@ -8,8 +8,8 @@ images:
 publication:
   date: null
   publisher: the Decision
-title: Untitled
-type: biography
+title: Professional Background & Education
+type: background
 ---
 
 ***

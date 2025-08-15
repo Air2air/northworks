@@ -50,4 +50,4 @@ Other cast members are petite soprano and consummate comedian Anna Slate, who sa
 
 And heres an ironic bit: Xerxes' opening aria happens to be the original source of the beloved piece we now call Handel's Largo. Not the stately, semi-religious piece we use for grand ceremonial occasions, it's actually the love song the ancient Persian King sings to -- of all things -- a tree!
 
-![](/images/logos-newspaper.gif)
+

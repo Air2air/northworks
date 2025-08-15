@@ -39,4 +39,4 @@ Masur brillantly illuminated Britten's many musical "word paintings" - passages 
 But, it was an incisive thrust atypically inflicted by the harp that vividly evoked the appropriate sense of terror that accompanied the lines "...limbs...full-nerved--still warm--too hard to stir?"
 Britten's masterwork, as performed Thursday, powerfully drove home Owen's painful question, "Was it for THIS the clay (i.e., man) grew tall?"
 
-![](/images/logos-newspaper.gif)
+

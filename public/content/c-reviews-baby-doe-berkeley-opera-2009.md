@@ -49,4 +49,4 @@ Tall, reed-slim mezzo-soprano Lisa Houston, in her severely cut black gowns, was
 
 In addition to a small, skilled chorus and orchestra, there were also two outstanding quartets of singers: Alexander Taite, Kenny Louis, Michael Beetham and Wayne Wong performing with exceptional dramatic and musical polish as Tabor’s long-time cronies, and a finely blended group of ladies — Elizabeth Wells, Angela Hayes, Elizabeth Gentner, and Cary Ann Rosko — who seemed to be having great fun acting out the righteous indignation of Augusta’s prim lady friends.
 
-![](/images/logos-newspaper.gif)
+

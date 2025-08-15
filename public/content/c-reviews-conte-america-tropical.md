@@ -36,4 +36,4 @@ A second run occurred in Los Angeles in October, 2010. Composer David Conte tell
 
 See Cheryl North's [interview ](c-conte)with David Conte from October 2010.
 
-![](/images/logos-newspaper.gif)
+

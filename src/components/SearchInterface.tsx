@@ -7,26 +7,21 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import PageTitle from '@/components/ui/PageTitle';
 import { ContentCard, ContentItem } from '@/components/ui/ContentCard';
 
 // Client-side search interface
 export default function SearchInterface({ 
   allContent, 
-  warnerLists 
+  stats 
 }: { 
-  allContent: (ContentItem & { domain: string })[];
-  warnerLists: Record<string, any[]>;
+  allContent: ContentItem[];
+  stats?: any;
 }) {
   const searchParams = useSearchParams();
   const router = useRouter();
   
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedDomain, setSelectedDomain] = useState<string>('all');
-  const [selectedType, setSelectedType] = useState<string>('all');
-  const [sortBy, setSortBy] = useState<'relevance' | 'date' | 'title'>('relevance');
   const [currentPage, setCurrentPage] = useState(1);
-  const [showLists, setShowLists] = useState(false);
   const pageSize = 12;
 
   // Initialize search term from URL parameters
@@ -53,69 +48,47 @@ export default function SearchInterface({
     updateURL(newSearchTerm);
   };
 
-  // Get unique domains and types
-  const domains = useMemo(() => {
-    const domainSet = new Set(allContent.map(item => item.domain));
-    return Array.from(domainSet).sort();
-  }, [allContent]);
-
-  const types = useMemo(() => {
-    const typeSet = new Set(allContent.map(item => item.metadata.type));
-    return Array.from(typeSet).sort();
-  }, [allContent]);
-
-  // Search and filter logic
+  // Simplified search logic - only search term based
   const filteredContent = useMemo(() => {
     let filtered = allContent;
 
-    // Search filter
+    // Search filter only
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       filtered = filtered.filter(item => 
         item.content.title.toLowerCase().includes(term) ||
         item.content.summary?.toLowerCase().includes(term) ||
+        item.content.body?.toLowerCase().includes(term) ||
         item.tags?.some(tag => tag.toLowerCase().includes(term)) ||
         item.subject?.people?.some(person => 
           person.name.toLowerCase().includes(term) ||
-          person.role.toLowerCase().includes(term)
+          (person.role && person.role.toLowerCase().includes(term))
         ) ||
-        item.domain.toLowerCase().includes(term)
+        item.subject?.organizations?.some(org => 
+          org.name.toLowerCase().includes(term)
+        ) ||
+        item.metadata.type.toLowerCase().includes(term) ||
+        item.metadata.category.toLowerCase().includes(term)
       );
     }
 
-    // Domain filter
-    if (selectedDomain !== 'all') {
-      filtered = filtered.filter(item => item.domain === selectedDomain);
-    }
-
-    // Type filter
-    if (selectedType !== 'all') {
-      filtered = filtered.filter(item => item.metadata.type === selectedType);
-    }
-
-    // Sorting
+    // Default sorting by relevance (search term in title gets priority)
     filtered.sort((a, b) => {
-      switch (sortBy) {
-        case 'date':
-          const dateA = new Date(a.publication?.date || '1900-01-01');
-          const dateB = new Date(b.publication?.date || '1900-01-01');
-          return dateB.getTime() - dateA.getTime();
-        case 'title':
-          return a.content.title.localeCompare(b.content.title);
-        case 'relevance':
-        default:
-          // Simple relevance: items with search term in title ranked higher
-          if (searchTerm) {
-            const aInTitle = a.content.title.toLowerCase().includes(searchTerm.toLowerCase()) ? 1 : 0;
-            const bInTitle = b.content.title.toLowerCase().includes(searchTerm.toLowerCase()) ? 1 : 0;
-            return bInTitle - aInTitle;
-          }
-          return 0;
+      if (searchTerm) {
+        const aInTitle = a.content.title.toLowerCase().includes(searchTerm.toLowerCase()) ? 1 : 0;
+        const bInTitle = b.content.title.toLowerCase().includes(searchTerm.toLowerCase()) ? 1 : 0;
+        if (aInTitle !== bInTitle) {
+          return bInTitle - aInTitle;
+        }
       }
+      // Secondary sort by date (newest first)
+      const dateA = new Date(a.publication?.date || '1900-01-01');
+      const dateB = new Date(b.publication?.date || '1900-01-01');
+      return dateB.getTime() - dateA.getTime();
     });
 
     return filtered;
-  }, [allContent, searchTerm, selectedDomain, selectedType, sortBy]);
+  }, [allContent, searchTerm]);
 
   // Pagination
   const totalPages = Math.ceil(filteredContent.length / pageSize);
@@ -124,89 +97,35 @@ export default function SearchInterface({
     currentPage * pageSize
   );
 
-  // Reset pagination when filters change
+  // Reset pagination when search changes
   React.useEffect(() => {
     setCurrentPage(1);
-  }, [searchTerm, selectedDomain, selectedType, sortBy]);
+  }, [searchTerm]);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      {/* Header */}
-      {/* <div className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Unified Content Search
-        </h1>
-        <p className="text-lg text-gray-600 max-w-4xl">
-          Search across classical music interviews, articles, and professional portfolio content. 
-          Discover connections and insights across different domains with unified filtering and sorting.
-        </p>
-      </div> */}
-
-      {/* Search and Filters */}
-      <div className="mb-8 p-6 bg-gray-50 rounded-lg">
-        <div className="flex flex-col gap-4">
-          {/* Search Input */}
-          <div className="flex-1">
+    <div>
+      {/* Search Interface */}
+      <div className="mb-8">
+        <div className="max-w-2xl mx-auto">
+          <div className="relative">
             <input
               type="text"
               placeholder="Search across all content..."
               value={searchTerm}
               onChange={(e) => handleSearchChange(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+              className="w-full px-6 py-4 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 shadow-sm"
             />
+            <div className="absolute inset-y-0 right-0 flex items-center pr-6">
+              <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
           </div>
-
-          {/* Filters Row */}
-          <div className="flex flex-wrap gap-4">
-            {/* Domain Filter */}
-            <select
-              value={selectedDomain}
-              onChange={(e) => setSelectedDomain(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-            >
-              <option value="all">All Domains</option>
-              {domains.map((domain: string) => (
-                <option key={domain} value={domain}>{domain}</option>
-              ))}
-            </select>
-
-            {/* Type Filter */}
-            <select
-              value={selectedType}
-              onChange={(e) => setSelectedType(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-            >
-              <option value="all">All Types</option>
-              {types.map((type: string) => (
-                <option key={type} value={type}>
-                  {type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}
-                </option>
-              ))}
-            </select>
-
-            {/* Sort Options */}
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as 'relevance' | 'date' | 'title')}
-              className="px-3 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-            >
-              <option value="relevance">Sort by Relevance</option>
-              <option value="date">Sort by Date</option>
-              <option value="title">Sort by Title</option>
-            </select>
-
-            {/* Lists Toggle */}
-            <button
-              onClick={() => setShowLists(!showLists)}
-              className={`px-4 py-2 rounded-md font-medium transition-colors ${
-                showLists 
-                  ? 'bg-purple-600 text-white' 
-                  : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
-              }`}
-            >
-              {showLists ? 'Hide Lists' : 'Show Lists'}
-            </button>
-          </div>
+          {searchTerm && (
+            <div className="mt-3 text-sm text-gray-600 text-center">
+              Searching across interviews, articles, reviews, and professional content
+            </div>
+          )}
         </div>
       </div>
 
@@ -228,17 +147,20 @@ export default function SearchInterface({
           </div>
         ) : (
           <div className="space-y-6">
-            {paginatedContent.map((item: ContentItem & { domain: string }, index: number) => (
+            {paginatedContent.map((item: ContentItem, index: number) => (
               <div key={`${item.metadata.id}-${index}`} className="relative">
                 <ContentCard item={item} showImage={true} showTags={true} />
-                {/* Domain Badge */}
+                {/* Type Badge */}
                 <div className="absolute top-2 right-2">
                   <span className={`px-2 py-1 text-xs font-medium rounded-full ${
-                    item.domain === 'Classical Music' ? 'bg-purple-100 text-purple-800' :
-                    item.domain === 'Articles & Reviews' ? 'bg-green-100 text-green-800' :
-                    'bg-orange-100 text-orange-800'
+                    item.metadata.type === 'interview' ? 'bg-purple-100 text-purple-800' :
+                    item.metadata.type === 'article' ? 'bg-green-100 text-green-800' :
+                    item.metadata.type === 'review' ? 'bg-blue-100 text-blue-800' :
+                    item.metadata.type === 'professional' ? 'bg-orange-100 text-orange-800' :
+                    item.metadata.type === 'publication' ? 'bg-indigo-100 text-indigo-800' :
+                    'bg-gray-100 text-gray-800'
                   }`}>
-                    {item.domain}
+                    {item.metadata.type}
                   </span>
                 </div>
               </div>
@@ -297,34 +219,15 @@ export default function SearchInterface({
         )}
       </div>
 
-      {/* Professional Lists Section */}
-      {showLists && Object.keys(warnerLists).length > 0 && (
-        <div className="mt-12 p-6 bg-blue-50 rounded-lg">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4">Professional Lists</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Object.entries(warnerLists).map(([category, items]) => (
-              <div key={category} className="bg-white p-4 rounded-lg shadow-sm">
-                <h3 className="font-medium text-gray-800 capitalize mb-2">{category}</h3>
-                <div className="text-2xl font-bold text-blue-600">{items.length}</div>
-                <div className="text-sm text-gray-600">
-                  {items.length === 1 ? 'item' : 'items'}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {/* Cross-Domain Compatibility Notice */}
       <div className="mt-8 p-4 bg-green-50 border border-green-200 rounded-lg">
         <h3 className="text-sm font-medium text-green-800 mb-2">
-          ✅ Cross-Domain Search Architecture
+          ✅ Unified Search Experience
         </h3>
         <p className="text-sm text-green-700">
-          This unified search demonstrates true cross-domain compatibility, seamlessly searching 
-          across classical music content, articles, and professional portfolio using the same 
-          ContentCard and filtering infrastructure. The consistent schema enables unified 
-          search experiences across completely different subject areas.
+          Search seamlessly across classical music interviews, articles, reviews, and professional 
+          portfolio content. Results are automatically sorted by relevance and recency to show 
+          the most pertinent content first.
         </p>
       </div>
     </div>

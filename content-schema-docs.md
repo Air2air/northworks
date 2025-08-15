@@ -21,7 +21,6 @@ Based on analysis of 252 markdown files, the content falls into these main categ
 - **Main bio** (`w main.md`) - Professional biography
 
 ### Special Pages
-- **Contact** (`contact.md`) - Contact information
 - **Index pages** - Content navigation and organization
 
 ## Schema Structure
@@ -32,7 +31,7 @@ Based on analysis of 252 markdown files, the content falls into these main categ
 {
  "metadata": {
  "id": "unique-identifier",
- "type": "interview|review|article|biography|project|publication|contact|index|technical",
+ "type": "interview|review|article|biography|project|publication|index|technical",
  "category": "classical-music|risk-analysis|professional|personal|navigation"
  },
  "content": {

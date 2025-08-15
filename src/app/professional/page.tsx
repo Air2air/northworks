@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageTitle from '@/components/ui/PageTitle';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { ProfessionalFrontmatter } from '@/types/content';
 
@@ -22,7 +23,11 @@ export default function ProfessionalIndexPage() {
   return (
     <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div className="px-4 py-6 sm:px-0">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8">Professional Experience</h1>
+        <PageTitle 
+          title="Professional Experience"
+          description="Career history and professional accomplishments"
+          align="left"
+        />
         
         <div className="grid gap-6">
           {professionalContent.map((item) => item && (

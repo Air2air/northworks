@@ -59,10 +59,10 @@ export default function UniversalListComponent({
   const contentItems: ContentItem[] = filteredItems.map(item => ({
     metadata: {
       id: item.id,
-      type: item.type || 'other',
+      type: (item.type === 'other' || item.type === 'project') ? 'professional' : (item.type as any),
       category: item.category || contentType,
       subcategory: item.organization,
-      status: 'published'
+      status: 'published' as const
     },
     content: {
       title: item.title,

@@ -8,42 +8,10 @@ import React from 'react';
 import Tags from './Tags';
 import Link from 'next/link';
 import LazyImage from './LazyImage';
-import { FaCompass } from 'react-icons/fa';
+import { FaCompass, FaCalendarAlt, FaBuilding } from 'react-icons/fa';
+import { UnifiedContentItem } from '@/types/content';
 
-export interface ContentItem {
-  metadata: {
-    id: string;
-    type: string;
-    category: string;
-    subcategory?: string;
-    status: string;
-  };
-  content: {
-    title: string;
-    summary?: string;
-    url?: string;
-  };
-  subject?: {
-    people?: Array<{
-      name: string;
-      role: string;
-      description?: string;
-    }>;
-  };
-  publication?: {
-    date?: string;
-    publisher?: string;
-    publication?: string;
-  };
-  media?: {
-    images?: Array<{
-      url: string;
-      type: string;
-      alt: string;
-    }>;
-  };
-  tags?: string[];
-}
+export interface ContentItem extends UnifiedContentItem {}
 
 interface ContentCardProps {
   item: ContentItem;
@@ -127,18 +95,24 @@ export function ContentCard({
           
           {/* Metadata row */}
           {showPublication && (
-            <div className="text-sm text-gray-500 mb-3">
+            <div className="flex items-center text-sm text-gray-500 mb-3 space-x-4">
               {item.publication?.date && (
-                <span>{item.publication.date}</span>
+                <div className="flex items-center space-x-1">
+                  <FaCalendarAlt className="text-blue-500" />
+                  <span>{item.publication.date}</span>
+                </div>
               )}
               {item.publication?.publisher && (
-                <span>{item.publication?.date ? ' • ' : ''}{item.publication.publisher}</span>
+                <div className="flex items-center space-x-1">
+                  <FaBuilding className="text-blue-500" />
+                  <span>{item.publication.publisher}</span>
+                </div>
               )}
               {item.metadata.type && (
-                <span>{(item.publication?.date || item.publication?.publisher) ? ' • ' : ''}{item.metadata.type}</span>
+                <span className="text-gray-400">• {item.metadata.type}</span>
               )}
               {primaryPerson?.role && (
-                <span>{(item.publication?.date || item.publication?.publisher || item.metadata.type) ? ' • ' : ''}{primaryPerson.role}</span>
+                <span className="text-gray-400">• {primaryPerson.role}</span>
               )}
             </div>
           )}
@@ -149,19 +123,9 @@ export function ContentCard({
               <Tags 
                 tags={item.tags} 
                 maxVisible={5} 
-                variant="compact"
+                variant="medium"
               />
             </div>
-          )}
-
-          {/* Summary/Description */}
-          {item.content.summary && (
-            <p className="text-gray-600 text-sm">
-              {item.content.summary.length > 200 
-                ? `${item.content.summary.substring(0, 200)}...`
-                : item.content.summary
-              }
-            </p>
           )}
         </div>
       </div>

@@ -38,7 +38,7 @@ export default function PageTitle({
       },
       large: {
         container: 'mb-12',
-        title: 'text-5xl',
+        title: 'text-3xl',
         description: 'text-xl'
       }
     };

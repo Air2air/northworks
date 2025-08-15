@@ -887,29 +887,6 @@
     "excerpt": "### Cheryl North Interviews Pamela Rosenberg"
   },
   {
-    "id": "contact",
-    "title": "Untitled",
-    "type": "article",
-    "slug": "contact",
-    "date": "",
-    "publisher": "",
-    "subjects": [],
-    "images": [
-      {
-        "height": 28,
-        "src": "/images/title-contact.gif"
-      },
-      {
-        "height": 315,
-        "src": "images/wc aug 08 morgan \nhill.jpg",
-        "width": 225
-      }
-    ],
-    "conversion_date": "2025-08-13",
-    "converted_from_html": true,
-    "excerpt": "![](/images/title-contact.gif)"
-  },
-  {
     "id": "c-stookey",
     "title": "Cheryl North Interviews Nat Stookey",
     "type": "article",

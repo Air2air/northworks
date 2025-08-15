@@ -18,8 +18,6 @@ navigation:
     href: "/warner"
   - label: "Cheryl North" 
     href: "/cheryl"
-  - label: "Contact"
-    href: "/contact"
 hero_images:
   - src: "images/topleft1.gif"
     alt: "NorthWorks Logo 1"

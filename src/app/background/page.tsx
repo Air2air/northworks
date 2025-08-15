@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageTitle from '@/components/ui/PageTitle';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { BackgroundFrontmatter } from '@/types/content';
 
@@ -22,7 +23,11 @@ export default function BackgroundIndexPage() {
   return (
     <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div className="px-4 py-6 sm:px-0">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8">Background Information</h1>
+        <PageTitle 
+          title="Background Information"
+          description="Professional background and biographical information"
+          align="left"
+        />
         
         <div className="grid gap-6">
           {backgroundContent.map((item) => item && (

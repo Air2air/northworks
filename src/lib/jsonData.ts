@@ -267,6 +267,63 @@ export function loadInterviews(): InterviewsData {
 export function loadArticles(): ArticlesData {
   return loadJsonData<ArticlesData>('cheryl-articles.json');
 }
+export interface ReviewsData {
+  metadata: {
+    classification: string;
+    description: string;
+    count: number;
+    generated: string;
+    version: string;
+  };
+  reviews: Array<{
+    metadata: {
+      id: string;
+      type: string;
+      category: string;
+      status: string;
+      source: string;
+      lastModified: string;
+    };
+    content: {
+      title: string;
+      subtitle?: string;
+      summary?: string;
+      body: string;
+    };
+    publication?: {
+      name?: string;
+      date?: string;
+      url?: string;
+    };
+    subject?: {
+      people?: Array<{
+        name: string;
+        role?: string;
+      }>;
+      works?: Array<{
+        title: string;
+        composer?: string;
+        genre?: string;
+      }>;
+      organizations?: Array<{
+        name: string;
+        role?: string;
+      }>;
+      venues?: Array<{
+        name: string;
+        location?: string;
+      }>;
+    };
+    tags?: string[];
+  }>;
+}
+
+/**
+ * Load reviews data
+ */
+export function loadReviews(): ReviewsData {
+  return loadJsonData<ReviewsData>('cheryl-reviews.json');
+}
 
 /**
  * Load profile data (reviews)

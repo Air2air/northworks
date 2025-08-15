@@ -28,8 +28,7 @@ export default function RootLayout({
     { label: 'Home', href: '/', active: false },
     { label: 'D. Warner North', href: '/warner', active: false },
     { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Search', href: '/search', active: false },
-    { label: 'Contact', href: '/contact', active: false }
+    { label: 'Search', href: '/search', active: false }
   ];
 
   return (

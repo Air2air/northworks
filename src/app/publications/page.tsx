@@ -37,6 +37,7 @@ export default function PublicationsIndexPage() {
         title="Publications"
         description="Research publications, reports, and written works"
         align="left"
+        size="medium"
       />
         
       <ContentList 

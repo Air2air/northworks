@@ -18,19 +18,9 @@ export default function InterviewsPage() {
       <PageTitle
         title="Classical Music Interviews"
         description="Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene."
-        align="center"
+        align="left"
         size="medium"
       />
-
-      {/* Search hint */}
-      <div className="text-center mb-8">
-        <Link 
-          href="/search"
-          className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          🔍 Search All Content
-        </Link>
-      </div>
 
       {/* Interviews */}
       <ContentList 

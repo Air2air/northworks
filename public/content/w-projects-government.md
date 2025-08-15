@@ -79,5 +79,4 @@ State of California**
 
 Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65); Co-Chair, Risk Assessment Subpanel (1987-1989). Member, Independent Science Board, California Bay-Delta Authority (February-May, 2005).
 
- [Laser technology consulting](/articles//w-laser)
 

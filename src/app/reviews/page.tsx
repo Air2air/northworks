@@ -19,19 +19,9 @@ export default function ReviewsPage() {
       <PageTitle
         title="Performance Reviews"
         description="Reviews of opera, symphony, and classical music performances in the San Francisco Bay Area."
-        align="center"
+        align="left"
         size="medium"
       />
-
-      {/* Search hint */}
-      <div className="text-center mb-8">
-        <Link 
-          href="/search"
-          className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          🔍 Search All Content
-        </Link>
-      </div>
 
       {/* Reviews */}
       <ContentList 

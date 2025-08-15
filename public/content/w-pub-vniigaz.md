@@ -21,8 +21,8 @@ images:
     src: /images/synfuelstree.jpg
     width: 237
 publication:
-  date: 10 October 2002
-  publisher: US energy
+  date: February 2, 2006
+  publisher: VNIIGAZ/GAZPROM Conference
 subjects:
   - Aria
   - Assessing Risks
@@ -30,22 +30,9 @@ subjects:
   - Opera
   - Probabilistic Scenario Analysis
   - Term Planning
-title: VNIIGAZ Publication
+title: Assessing Risks in Long-Term Planning - Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
 type: publication
 ---
-
-**
-
-####
-
-Assessing Risks in Long-Term Planning: Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
-
-D. Warner North****
-
-NorthWorks, Inc., Belmont CA, USA; and
-Department of Management Science and Engineering,
-Stanford University,
-Stanford, CA USA
 
 Paper presented at the
 RIMS-2006 VNIIGAZ/GAZPROM Conference, Moscow, Russia, February 1-2, 2006

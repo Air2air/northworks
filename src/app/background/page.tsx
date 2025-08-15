@@ -37,6 +37,7 @@ export default function BackgroundIndexPage() {
         title="Background Information"
         description="Professional background and biographical information"
         align="left"
+        size="medium"
       />
         
       <ContentList 

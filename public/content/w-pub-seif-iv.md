@@ -24,8 +24,8 @@ images:
     src: /images/balticgascumd.gif
     width: 260
 publication:
-  date: December
-  publisher: which Lithuania
+  date: November 14, 2005
+  publisher: SEIF-IV Conference, Brussels, Belgium 
 subjects:
   - Aria
   - Bass
@@ -34,26 +34,10 @@ subjects:
   - Opera
   - Supply Interruption
   - Warner North
-title: SEIF-IV Publication
+title: Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
 type: publication
 ---
 
-**
-
-####
-
-Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
-
-D. Warner North****
-
-NorthWorks, Inc., Belmont CA, USA; and
-Department of Management Science and Engineering,
-Stanford University,
-Stanford, CA USA
-
-Paper prepared for the SEIF-IV Conference,
-Brussels, Belgium, November 14-16, 2005;
-Revised December 4, 2005. (Minor editorial changes were made when placing this paper on the web, April 2006.)
 
 Abstract**
 

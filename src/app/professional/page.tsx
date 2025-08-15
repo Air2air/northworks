@@ -37,6 +37,7 @@ export default function ProfessionalIndexPage() {
         title="Professional Experience"
         description="Career history and professional accomplishments"
         align="left"
+        size="medium"
       />
         
       <ContentList 

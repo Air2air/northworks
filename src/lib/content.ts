@@ -156,33 +156,6 @@ export function getBackgroundContent(): ContentData[] {
   return getContentByType('background');
 }
 
-// Helper function to get Warner content by prefix pattern
-export function getWarnerContentByPattern(pattern: 'projects' | 'pub' | 'background'): ContentData[] {
-  const allContent = getAllContent();
-  let prefixPattern: string;
-  
-  switch (pattern) {
-    case 'projects':
-      prefixPattern = 'w-projects';
-      break;
-    case 'pub':
-      prefixPattern = 'w-pub';
-      break;
-    case 'background':
-      prefixPattern = 'w-main|w-background|w-northworks';
-      break;
-    default:
-      return [];
-  }
-  
-  return allContent.filter(content => {
-    if (pattern === 'background') {
-      return content.slug.match(/^w-(main|background|northworks)/);
-    }
-    return content.slug.startsWith(prefixPattern);
-  });
-}
-
 export function getWarnerLists(): any[] {
   try {
     const warnerListsPath = path.join(process.cwd(), 'src', 'data', 'warner-lists-enhanced.json');

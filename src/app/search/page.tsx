@@ -63,26 +63,26 @@ export default async function UnifiedSearchPage() {
   
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      <div className="max-w-4xl mx-auto">
-        <PageTitle 
-          title="Search NorthWorks"
-          description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
-        />
+      <PageTitle 
+        title="Search NorthWorks"
+        description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
+        align="left"
+        size="medium"
+      />
       <Suspense fallback={
-          <div className="animate-pulse">
-            <div className="h-8 bg-gray-200 rounded mb-4"></div>
-            <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="bg-gray-200 h-20 rounded"></div>
-              ))}
-            </div>
-            <div className="bg-gray-200 h-64 rounded"></div>
+        <div className="animate-pulse">
+          <div className="h-8 bg-gray-200 rounded mb-4"></div>
+          <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+            {[...Array(5)].map((_, i) => (
+              <div key={i} className="bg-gray-200 h-20 rounded"></div>
+            ))}
           </div>
-        }>
-          <SearchInterface allContent={allContent} />
-        </Suspense>
-      </div>
+          <div className="bg-gray-200 h-64 rounded"></div>
+        </div>
+      }>
+        <SearchInterface allContent={allContent} />
+      </Suspense>
     </PageLayout>
   );
 }

@@ -1,129 +1,44 @@
-import { notFound } from 'next/navigation';
-import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
+import React from 'react';
 import { MDXRemote } from 'next-mdx-remote/rsc';
-import PageLayout from '@/components/layouts/PageLayout';
+import PageLayout from './PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
 
-// Map routes to content types
-const routeToContentType: Record<string, string> = {
-  'interviews': 'interview',
-  'articles': 'article', 
-  'reviews': 'review',
-  'background': 'background',
-  'professional': 'professional',
-  'publications': 'publication'
-};
+interface BreadcrumbItem {
+  label: string;
+  href: string;
+  active: boolean;
+}
 
-// Get breadcrumb configuration for each content type
-const getBreadcrumbConfig = (contentType: string, slug: string) => {
-  // Determine if this is Warner content (w-* prefix)
-  const isWarnerContent = slug && slug.startsWith('w-');
-  const grandParentPath = isWarnerContent ? '/warner' : '/cheryl';
-  const grandParentLabel = isWarnerContent ? 'Warner North' : 'Cheryl North';
-  
-  const configs = {
-    interview: {
-      parentPath: '/interviews',
-      parentLabel: 'Interviews',
-      grandParentPath,
-      grandParentLabel
-    },
-    article: {
-      parentPath: '/articles',
-      parentLabel: 'Articles',
-      grandParentPath,
-      grandParentLabel
-    },
-    review: {
-      parentPath: '/reviews',
-      parentLabel: 'Reviews',
-      grandParentPath,
-      grandParentLabel
-    },
-    background: {
-      parentPath: '/background',
-      parentLabel: 'Background',
-      grandParentPath,
-      grandParentLabel
-    },
-    professional: {
-      parentPath: '/professional',
-      parentLabel: 'Professional Work',
-      grandParentPath,
-      grandParentLabel
-    },
-    publication: {
-      parentPath: '/publications',
-      parentLabel: 'Publications',
-      grandParentPath,
-      grandParentLabel
-    }
+interface ContentDetailLayoutProps {
+  frontmatter: any; // Using any to handle different frontmatter types
+  content: string;
+  slug: string;
+  contentType: string;
+  breadcrumbConfig: {
+    parentPath: string;
+    parentLabel: string;
+    grandParentPath?: string;
+    grandParentLabel?: string;
   };
-  
-  return configs[contentType as keyof typeof configs] || configs.article;
-};
-
-// Generate static params for all content
-export async function generateStaticParams() {
-  const params = [];
-  const allSlugs = getAllContentSlugs();
-  
-  // Get all content and organize by type
-  for (const slug of allSlugs) {
-    const content = getContentBySlug(slug, false);
-    if (content && content.frontmatter.type) {
-      const contentType = content.frontmatter.type;
-      
-      // Find matching route for this content type
-      const route = Object.keys(routeToContentType).find(
-        key => routeToContentType[key] === contentType
-      );
-      
-      if (route) {
-        params.push({
-          slug: [route, slug]
-        });
-      }
-    }
-  }
-  
-  return params;
 }
 
-interface PageProps {
-  params: Promise<{ slug: string[] }>;
-}
-
-export default async function UniversalContentPage({ params }: PageProps) {
-  const { slug } = await params;
-  
-  // Validate slug structure (should be [contentType, itemSlug])
-  if (!slug || slug.length !== 2) {
-    notFound();
-  }
-  
-  const [route, itemSlug] = slug;
-  const contentType = routeToContentType[route];
-  
-  if (!contentType) {
-    notFound();
-  }
-  
-  // Get the content
-  const contentData = getContentBySlug(itemSlug, false);
-  
-  if (!contentData || contentData.frontmatter.type !== contentType) {
-    notFound();
-  }
-
-  const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
-  const frontmatter = contentData.frontmatter as any; // Use any to handle different frontmatter types
+/**
+ * Unified content detail layout component
+ * Handles all content types with dynamic formatting based on frontmatter properties
+ */
+export default function ContentDetailLayout({
+  frontmatter,
+  content,
+  slug,
+  contentType,
+  breadcrumbConfig
+}: ContentDetailLayoutProps) {
   
   // Create breadcrumbs dynamically
-  const breadcrumbs = [
+  const breadcrumbs: BreadcrumbItem[] = [
     { label: 'Home', href: '/', active: false }
   ];
 
@@ -143,9 +58,22 @@ export default async function UniversalContentPage({ params }: PageProps) {
 
   breadcrumbs.push({
     label: cleanTitle(frontmatter.title),
-    href: `${breadcrumbConfig.parentPath}/${itemSlug}`,
+    href: `${breadcrumbConfig.parentPath}/${slug}`,
     active: true
   });
+
+  // Dynamic content type labels
+  const getContentTypeLabel = (type: string) => {
+    const labels = {
+      'interview': 'Interview',
+      'article': 'Article',
+      'review': 'Review', 
+      'background': 'Background',
+      'professional': 'Professional Work',
+      'publication': 'Publication'
+    };
+    return labels[type as keyof typeof labels] || 'Content';
+  };
 
   // Dynamic publication section labels
   const getPublicationLabel = (type: string) => {
@@ -154,9 +82,11 @@ export default async function UniversalContentPage({ params }: PageProps) {
 
   // Get appropriate tags field based on content type
   const getTagsField = (frontmatter: any, type: string) => {
+    // Check for specific fields first based on content type
     if ((type === 'interview' || type === 'article' || type === 'review') && frontmatter.subjects) {
       return frontmatter.subjects;
     }
+    // Fallback to common fields
     if (frontmatter.tags) return frontmatter.tags;
     if (frontmatter.keywords) return frontmatter.keywords;
     return [];
@@ -173,7 +103,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
   };
 
   const tags = getTagsField(frontmatter, contentType);
-  
+
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
       <article>
@@ -234,7 +164,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
 
         {/* Content */}
         <div className="prose prose-lg max-w-none">
-          <MDXRemote source={contentData.content} />
+          <MDXRemote source={content} />
         </div>
 
         {/* Back Navigation */}

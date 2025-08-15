@@ -18,22 +18,12 @@ export default function ArticlesPage() {
     <PageLayout breadcrumbs={breadcrumbs}>
       <PageTitle
         title="Classical Music Articles"
-        description="Feature articles and analysis pieces covering the classical music world, with insights from performances, personalities, and trends."
-        align="center"
+        description="Feature articles, profiles, and in-depth analysis of classical music and the arts."
+        align="left"
         size="medium"
       />
 
-      {/* Search hint */}
-      <div className="text-center mb-8">
-        <Link 
-          href="/search"
-          className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          🔍 Search All Content
-        </Link>
-      </div>
-
-      {/* Content list */}
+      {/* Articles */}
       <ContentList 
         items={individualArticles}
         baseUrl="/articles"

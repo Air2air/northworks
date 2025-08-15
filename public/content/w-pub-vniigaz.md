@@ -136,9 +136,9 @@ References****
 
 [8]. Ronald A. Howard and James E. Matheson, 'Influence Diagrams,' *Decision Analysis* 2**:127-143 (2005). **
 
-[9]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/articles/w-epasab1990)
+[9]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/professional/w-epasab1990)
 
-[10]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/articles/w-pub-stuttgart) in press for conference report publication, 2006.
+[10]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/publications/w-pub-stuttgart) in press for conference report publication, 2006.
 
 [11]. Robert T. Clemen, *Making Hard Decisions: An Introduction to Decision Analysis*, Belmont, CA: Duxbury Press, 1991.
 

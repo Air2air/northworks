@@ -30,7 +30,7 @@ export default function WarnerPublicationsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {publicationsContent.map((content) => (
             <article key={content.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-              <Link href={`/warner/publications/${content.slug}`}>
+              <Link href={`/publications/${content.slug}`}>
                 <div className="p-6">
                   <h3 className="font-bold text-lg text-gray-900 mb-2">
                     {content.frontmatter.title}

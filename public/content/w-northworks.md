@@ -33,7 +33,7 @@ type: background
 
 ![](/images/warnersm.gif)
 
-[D. Warner North](w-main) is president and principal scientist of NorthWorks, Inc., and consulting professor in the Department of Management Science and Engineering at Stanford University. Over the past thirty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection.
+[D. Warner North](/background/w-main) is president and principal scientist of NorthWorks, Inc., and consulting professor in the Department of Management Science and Engineering at Stanford University. Over the past thirty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection.
 
 ***
 
@@ -47,7 +47,7 @@ type: background
 
 **Current Activities**
 
-Warner North is again teaching at Stanford University, on the application of decision analysis to public policy. For details, see [D. Warner North](w-main).
+Warner North is again teaching at Stanford University, on the application of decision analysis to public policy. For details, see [D. Warner North](/background/w-main).
 
 ![](/images/titlegrayvolodos.gif)
 

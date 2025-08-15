@@ -380,7 +380,7 @@ Commentary, on "Should health risks of air pollution be studied scientifically?"
 
 Global Climate Change **
 
-Two papers are included here, one an [ unpublished manuscript](w-epasab1990) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](w-pub-stuttgart) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
+Two papers are included here, one an [ unpublished manuscript](/professional/w-epasab1990) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](/publications/w-pub-stuttgart) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
 
 ![](/images/title-gray-publications.gif)
 

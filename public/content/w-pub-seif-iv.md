@@ -155,9 +155,9 @@ References****
 
 [3]. Stephen M. Barrager, Bruce R. Judd, and D. Warner North, *The Economic and Social Costs of Coal and Nuclear Generation*, Report Prepared for the National Science Foundation by Stanford Research Institute, Menlo Park, CA, March 1976.
 
-[4]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/articles/w-epasab1990).
+[4]. D. Warner North, ['EPA's Draft Reports to Congress on Global Warming: An Overview from 1990.'](/professional/w-epasab1990).
 
-[5]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/articles/w-pub-stuttgart) in press for conference report publication, 2006.
+[5]. D. Warner North and Stephen H. Schneider, ['Global Climate Change: A Survey of the Science and Policy Implications,'](/publications/w-pub-stuttgart) in press for conference report publication, 2006.
 
 [6]. J. Vilemas, V. Mi'kinis, and A. Galinis, *National Energy Strategy*, Prepared for, and approved by, the Seimas (Lithuanian Parliament) on 10 October 2002, Lithuanian Energy Institute, 2003.
 
@@ -212,7 +212,7 @@ Web:
 
 ![](/images/wn-speaking-belgian-senate-4-18-06.jpg)
 
-Dr. Warner North speaking at the Podium of the Belgian Senate to the Organization for Security and Cooperation in Europe, on risk issues similar to those covered in this paper, April 18, 2006. (See main [D. Warner North](w-main) page, right hand column.)
+Dr. Warner North speaking at the Podium of the Belgian Senate to the Organization for Security and Cooperation in Europe, on risk issues similar to those covered in this paper, April 18, 2006. (See main [D. Warner North](/background/w-main) page, right hand column.)
 
 Figure 1. Forecast of electricity generation in Lithuania (basic demand scenario). Source: [6], p. 25.
 

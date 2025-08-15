@@ -156,20 +156,20 @@ Dr. North's specialties are decision analysis; risk assessment and risk manageme
 ![](/images/logo-us.gif)
 ](w projects government.htm)
     
- [Government Service**](w-projects-government)**Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
+ [Government Service**](/professional/w-projects-government)**Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
 
 [
 ![](/images/logo-nrc.gif)
 ](w projects nrc.htm)
     
- [The National Academies](w-projects-nrc):
+ [The National Academies](/professional/w-projects-nrc):
 The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine****Assignments for the National Research Council and the National Academies.
 
 [
 ![](/images/logo-stan.gif)
 ](w projects stanford.htm)
     
- [Stanford University](w-projects-stanford)****Teaching and university research
+ [Stanford University](/professional/w-projects-stanford)****Teaching and university research
 
 ![](/images/logo-cra.gif)
 

@@ -10,28 +10,13 @@ marked.setOptions({
   breaks: false, // Don't convert \n to <br> - causes MDX parsing issues
 });
 
-const contentDirectory = path.join(process.cwd(), 'content');
 const publicContentDirectory = path.join(process.cwd(), 'public', 'content');
 
 export function getContentBySlug(slug: string, processHtml: boolean = true): ContentData | null {
   try {
-    // Check both content directories
-    let filePath: string;
-    let fileExists = false;
-
-    // First check the main content directory
-    filePath = path.join(contentDirectory, `${slug}.md`);
-    if (fs.existsSync(filePath)) {
-      fileExists = true;
-    } else {
-      // Then check the public/content directory
-      filePath = path.join(publicContentDirectory, `${slug}.md`);
-      if (fs.existsSync(filePath)) {
-        fileExists = true;
-      }
-    }
-
-    if (!fileExists) {
+    const filePath = path.join(publicContentDirectory, `${slug}.md`);
+    
+    if (!fs.existsSync(filePath)) {
       return null;
     }
 
@@ -65,29 +50,26 @@ export function getContentBySlug(slug: string, processHtml: boolean = true): Con
 
 export function getAllContent(contentType?: ContentType): ContentData[] {
   try {
-    const directories = [contentDirectory, publicContentDirectory];
     const allContent: ContentData[] = [];
 
-    for (const dir of directories) {
-      if (!fs.existsSync(dir)) {
+    if (!fs.existsSync(publicContentDirectory)) {
+      return allContent;
+    }
+
+    const filenames = fs.readdirSync(publicContentDirectory);
+    
+    for (const filename of filenames) {
+      if (!filename.endsWith('.md')) {
         continue;
       }
 
-      const filenames = fs.readdirSync(dir);
+      const slug = filename.replace('.md', '');
+      const contentData = getContentBySlug(slug);
       
-      for (const filename of filenames) {
-        if (!filename.endsWith('.md')) {
-          continue;
-        }
-
-        const slug = filename.replace('.md', '');
-        const contentData = getContentBySlug(slug);
-        
-        if (contentData) {
-          // Filter by content type if specified
-          if (!contentType || contentData.frontmatter.type === contentType) {
-            allContent.push(contentData);
-          }
+      if (contentData) {
+        // Filter by content type if specified
+        if (!contentType || contentData.frontmatter.type === contentType) {
+          allContent.push(contentData);
         }
       }
     }
@@ -111,22 +93,19 @@ export function getAllContent(contentType?: ContentType): ContentData[] {
 
 export function getAllContentSlugs(): string[] {
   try {
-    const directories = [contentDirectory, publicContentDirectory];
     const slugs: string[] = [];
 
-    for (const dir of directories) {
-      if (!fs.existsSync(dir)) {
-        continue;
-      }
+    if (!fs.existsSync(publicContentDirectory)) {
+      return slugs;
+    }
 
-      const filenames = fs.readdirSync(dir);
-      
-      for (const filename of filenames) {
-        if (filename.endsWith('.md')) {
-          const slug = filename.replace('.md', '');
-          if (!slugs.includes(slug)) {
-            slugs.push(slug);
-          }
+    const filenames = fs.readdirSync(publicContentDirectory);
+    
+    for (const filename of filenames) {
+      if (filename.endsWith('.md')) {
+        const slug = filename.replace('.md', '');
+        if (!slugs.includes(slug)) {
+          slugs.push(slug);
         }
       }
     }

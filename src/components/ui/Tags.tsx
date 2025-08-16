@@ -3,7 +3,7 @@ import Link from 'next/link';
 export interface TagsProps {
   tags: string[];
   maxVisible?: number;
-  variant?: 'default' | 'compact' | 'large';
+  variant?: 'default' | 'compact' | 'medium' | 'large';
   showMoreText?: boolean;
   className?: string;
 }
@@ -28,6 +28,8 @@ const Tags: React.FC<TagsProps> = ({
     switch (variant) {
       case 'compact':
         return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-900 text-white rounded-full hover:bg-blue-800 focus:ring-blue-500`;
+      case 'medium':
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-900 text-white rounded-md hover:bg-blue-800 focus:ring-blue-500`;
       case 'large':
         return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-900 text-white rounded-lg hover:bg-blue-800 focus:ring-blue-500`;
       default:
@@ -41,6 +43,8 @@ const Tags: React.FC<TagsProps> = ({
     switch (variant) {
       case 'compact':
         return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-800 text-white rounded-full`;
+      case 'medium':
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-800 text-white rounded-md`;
       case 'large':
         return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-800 text-white rounded-lg`;
       default:

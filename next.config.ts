@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 const nextConfig: NextConfig = {
-  // Temporarily disable ESLint for bundle analysis
+  // Temporarily disable ESLint for deployment
   eslint: {
     ignoreDuringBuilds: true,
   },

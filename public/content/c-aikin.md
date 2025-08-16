@@ -11,14 +11,16 @@ publication:
 subjects:
   - Baritone
   - Davies Symphony Hall
-  - Gustav Mahler
   - Metropolitan Opera
-  - Opera
   - San Francisco Opera
   - San Francisco Symphony
   - Soprano
-  - Symphony
-  - Wolfgang Amadeus Mozart
+  - Laura Aikin
+  - Saint Fran
+  - Robert Schumann
+  - Das Paradies
+  - Deutsche Staatsoper
+  - Gianluca Pojaghi
 title: Super Mom, super Singer -- that's soprano Aikin
 type: interview
 ---

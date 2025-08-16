@@ -8,22 +8,21 @@ images:
   - height: 146
     src: /images/gergiev-freedom-banner.jpg
     width: 450
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+
 publication:
   date:
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Conducting
-  - Gustav Mahler
   - Interview
-  - Ludwig van Beethoven
-  - Ninth Symphony Conducted
-  - Opera
-  - Richard Wagner
-  - Symphony
-  - Violin
+  - Valery Gergiev
+  - Bay Area
+  - Freedom Festival
+  - Cal Performances
+  - Yale University
+  - Alumni Chorus
+  - University Music
+  - Rotterdam Royal
 title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the
   Gergiev Festival in Rotterdam, The Netherlands
 type: article

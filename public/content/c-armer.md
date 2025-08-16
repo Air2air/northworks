@@ -12,13 +12,15 @@ subjects:
   - Elinor Armer
   - Interview
   - Island Earth
-  - Johann Sebastian Bach
-  - Music Article
-  - Performance
-  - Piano
   - Premiere
   - Ursula Le Guin
   - World Premiere
+  - Ursula Le
+  - Zellerbach Hall
+  - Uttermost Men
+  - Le Guin
+  - The Uttermost
+  - Uttermost Parts
 title: Cheryl North Interviews Elinor Armer
 type: interview
 ---

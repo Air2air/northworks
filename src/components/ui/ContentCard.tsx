@@ -48,37 +48,37 @@ export function ContentCard({
             className="rounded-l-lg"
           />
         ) : (
-          <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 rounded-l-lg flex items-center justify-center">
-            <FaCompass className="text-4xl text-gray-400" />
+          <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 rounded-l-lg flex items-center justify-center">
+            <FaCompass className="text-4xl text-sky-400" />
           </div>
         )}
       </div>
       
       <div className="flex-1 p-6">
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+        <h3 className="text-xl font-semibold text-sky-900 mb-2">
           {item.content.title}
         </h3>
         
         {/* Metadata row */}
         {showPublication && (
-          <div className="flex items-center text-sm text-gray-500 mb-3 space-x-4">
+          <div className="flex items-center text-sm text-sky-500 mb-3 space-x-4">
             {item.publication?.date && (
               <div className="flex items-center space-x-1">
-                <FaCalendarAlt className="text-blue-500" />
+                <FaCalendarAlt className="text-sky-500" />
                 <span>{item.publication.date}</span>
               </div>
             )}
             {item.publication?.publisher && (
               <div className="flex items-center space-x-1">
-                <FaBuilding className="text-blue-500" />
+                <FaBuilding className="text-sky-500" />
                 <span>{item.publication.publisher}</span>
               </div>
             )}
             {item.metadata.type && (
-              <span className="text-gray-400">• {item.metadata.type}</span>
+              <span className="text-sky-400">• {item.metadata.type}</span>
             )}
             {primaryPerson?.role && (
-              <span className="text-gray-400">• {primaryPerson.role}</span>
+              <span className="text-sky-400">• {primaryPerson.role}</span>
             )}
           </div>
         )}

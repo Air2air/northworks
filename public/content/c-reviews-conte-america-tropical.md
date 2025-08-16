@@ -2,26 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-conte-america-tropical
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: Cheryl North
   date: 2007-05-25
   publisher: Oakland Tribune, Bay Area News Group
 subjects:
-  - Concert Review
   - Interview
-  - Oakland Tribune
-  - Opera
-  - Performance
-  - Premiere
   - San Francisco
   - Thick House
-  - World Premiere
+  - Bay Area
+  - David Conte
+  - Oliver Mayer
+  - America Tropical
+  - John Kendall
+  - Potrero Hill
+  - Professional Theater
 title: World Premiere of David Conte's One-Act Opera, America Tropical
 type: review
 ---

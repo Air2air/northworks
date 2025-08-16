@@ -2,23 +2,29 @@
 conversion date: 2025-08-13
 id: c-reviews-sfs-masur-2-09
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
 publication:
   author: Cheryl North
   date: 2009-02-18
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
-  - Concert Review
-  - Davies Hall
   - Davies Symphony Hall
-  - Oakland Tribune
-  - Performance
   - San Francisco Symphony
+  - Sofia Gubaidulina
+  - The Light
+  - Kurt Masur
+  - Francisco Symphony
+  - Davies Symphony
+  - Symphony Hall
   - Symphony
-  - Symphony Review
   - Violin
+  - Performance
+  - Composer
+  - Musician
+  - Score
+  - Wednesday
+  - They
+  - Russian
+  - Conducted
 title: Masur, Gubaidulina make out-of-this-world music in Davies Hall
 type: review
 ---

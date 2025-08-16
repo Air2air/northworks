@@ -2,23 +2,22 @@
 conversion date: 2025-08-13
 id: c-art-fremontoperagasser
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2008-08-15
   publisher: "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
 subjects:
   - Baritone
   - Carmen
-  - Giacomo Puccini
-  - Opera
-  - Richard Wagner
   - San Francisco Opera
-  - Symphony
   - Tenor
   - Tosca
-  - Wolfgang Amadeus Mozart
+  - Maestro David
+  - Says Sloss
+  - Gioachino Rossini
+  - Augustin Caron
+  - The Barber
+  - La Boheme
+  - No Wagner
 title: "Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is Achieving Deserved Recognition"
 type: article
 ---

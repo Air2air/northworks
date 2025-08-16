@@ -4,7 +4,8 @@
     "description": "Performance reviews of opera, symphony, and classical concerts",
     "count": 28,
     "generated": "2025-08-15T18:09:54.802Z",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "lastModified": "2025-08-16T01:22:30.193Z"
   },
   "reviews": [
     {
@@ -26,13 +27,16 @@
         "topics": [
           "Baby Doe",
           "Baritone",
-          "Berkeley Opera Performance",
-          "Concert Review",
           "Conducting",
           "Mezzo-soprano",
-          "Opera",
-          "Performance",
-          "Soprano"
+          "Soprano",
+          "Berkeley Opera",
+          "Douglas Moore",
+          "The Ballad",
+          "John Latouche",
+          "Composer Moore",
+          "Horace Tabor",
+          "Jonathan Khuner"
         ]
       },
       "publication": {
@@ -82,14 +86,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Baritone",
-          "Berkeley Opera Performance",
           "Don Giovanni",
-          "Opera",
           "Soprano",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Berkeley Opera",
+          "Mark Streshinsky",
+          "El Cerrito",
+          "High School",
+          "Baritone Eugene",
+          "Baritone Igor",
+          "Kaileen Miller",
+          "Donna Anna"
         ]
       },
       "publication": {
@@ -143,7 +151,13 @@
           "leadership of",
           "stabbing staccato",
           "San Francisco Symphony",
-          "Davies Symphony Hall"
+          "Davies Symphony Hall",
+          "Benjamin Britten",
+          "War Requiem",
+          "Hall Thursday",
+          "Girls Chorus",
+          "Pacific Boychoir",
+          "Christine Brewer"
         ]
       },
       "publication": {
@@ -200,7 +214,9 @@
           "managed to",
           "boy who",
           "Roger McCracken",
-          "Persian King"
+          "Persian King",
+          "Berkeley West",
+          "Edge Opera"
         ]
       },
       "publication": {
@@ -252,15 +268,15 @@
       "subject": {
         "topics": [
           "Chamber Music",
-          "Concert Review",
           "Concerto",
-          "Conducting",
-          "Franz Schubert",
-          "Johann Sebastian Bach",
-          "Ludwig van Beethoven",
-          "Opera",
-          "Piano",
-          "Symphony"
+          "Bay Area",
+          "Lesher Center",
+          "Walnut Creek",
+          "Asher Raboy",
+          "Michael Soza",
+          "Maestro Barry",
+          "The Star",
+          "Spangled Banner"
         ]
       },
       "publication": {
@@ -313,13 +329,15 @@
         "topics": [
           "Bass",
           "California Symphony",
-          "Concert Review",
           "Concerto",
-          "Conducting",
-          "Piano",
           "Robert Moody",
           "Sergei Rachmaninoff",
-          "Symphony"
+          "Lesher Center",
+          "Walnut Creek",
+          "North Carolina",
+          "Danzon No",
+          "Arturo Marquez",
+          "Piano Concerto"
         ]
       },
       "publication": {
@@ -369,15 +387,16 @@
       },
       "subject": {
         "topics": [
-          "Concert Review",
           "Interview",
-          "Oakland Tribune",
-          "Opera",
-          "Performance",
-          "Premiere",
           "San Francisco",
           "Thick House",
-          "World Premiere"
+          "Bay Area",
+          "David Conte",
+          "Oliver Mayer",
+          "America Tropical",
+          "John Kendall",
+          "Potrero Hill",
+          "Professional Theater"
         ]
       },
       "publication": {
@@ -433,7 +452,13 @@
           "four excellent",
           "Soloists all",
           "Rob Stafford",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "West Oakland",
+          "Henry Purcell",
+          "The Crucible",
+          "Gala Reception",
+          "Art Auction",
+          "The San"
         ]
       },
       "publication": {
@@ -885,15 +910,17 @@
       "subject": {
         "topics": [
           "Aida",
-          "Aria",
           "Baritone",
-          "Giuseppe Verdi",
           "Mezzo-soprano",
-          "Opera",
-          "Richard Wagner",
           "Soprano",
-          "Symphony",
-          "Tenor"
+          "Tenor",
+          "Paramount Theatre",
+          "Michael Morgan",
+          "Maestro Morgan",
+          "Funeral Music",
+          "Die Gotterdammerung",
+          "Brian Nies",
+          "Carl Maria"
         ]
       },
       "publication": {
@@ -944,16 +971,16 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Baritone",
-          "Benefit Concert",
-          "Concert Review",
           "Gustav Mahler",
-          "Mahler Library",
-          "Opera",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "Performing Arts",
+          "San Mateo",
+          "Walnut Creek",
+          "Maestro Pierre",
+          "The Paris",
+          "Baritone Thomas",
+          "Adler Fellow"
         ]
       },
       "publication": {
@@ -1004,16 +1031,16 @@
       },
       "subject": {
         "topics": [
-          "Aria",
-          "Giacomo Puccini",
-          "Giuseppe Verdi",
-          "Johann Sebastian Bach",
-          "Opera",
-          "Piano",
           "Soprano",
-          "Symphony",
           "Tenor",
-          "Violin"
+          "Van Cliburn",
+          "Pierre Rampal",
+          "Van Gogh",
+          "Luciano Pavarotti",
+          "San Jose",
+          "Arena Wednesday",
+          "The Voice",
+          "Mama Butterfly"
         ]
       },
       "publication": {
@@ -1070,15 +1097,16 @@
       },
       "subject": {
         "topics": [
-          "Concert Review",
           "Concerto",
-          "Conducting",
-          "Contra Costa Times",
           "Johann Sebastian Bach",
-          "Oakland Tribune",
-          "Performance",
-          "Philharmonia Baroque Revisits",
-          "Violin"
+          "Johann Sebastian",
+          "Philharmonia Baroque",
+          "Paul Goodwin",
+          "Brandenburg Concerto",
+          "Reconstructing Bach",
+          "Palo Alto",
+          "Ancient Music",
+          "Easter Oratorio"
         ]
       },
       "publication": {
@@ -1479,15 +1507,14 @@
       },
       "subject": {
         "topics": [
-          "Concert Review",
-          "Davies Hall",
           "Davies Symphony Hall",
-          "Oakland Tribune",
-          "Performance",
           "San Francisco Symphony",
-          "Symphony",
-          "Symphony Review",
-          "Violin"
+          "Sofia Gubaidulina",
+          "The Light",
+          "Kurt Masur",
+          "Francisco Symphony",
+          "Davies Symphony",
+          "Symphony Hall"
         ]
       },
       "publication": {
@@ -1533,16 +1560,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Baritone",
-          "Concert Review",
           "Interview",
           "Mezzo-soprano",
-          "Opera",
           "Richard Wagner",
           "San Francisco Opera",
           "Soprano",
-          "Stuttgart Reveals"
+          "Stuttgart Opera",
+          "Pamela Rosenberg",
+          "Klaus Zehelein",
+          "The Prelude",
+          "State Opera",
+          "Lothar Zagrosek"
         ]
       },
       "publication": {
@@ -1602,10 +1631,14 @@
           "Francisco Symphony",
           "Bay Symphony",
           "Kurt Masur",
-          "Newspapers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh",
-          "San Francisco Opera",
-          "San Francisco Symphony",
-          "Berkeley Opera"
+          "Opening Concert",
+          "Bay Area",
+          "News Group",
+          "Inside Bay",
+          "Dmitri Hvorostovsky",
+          "Davies Hall",
+          "Slavic Soul",
+          "Berkeley West"
         ]
       },
       "publication": {

@@ -12,7 +12,6 @@ publication:
   date: 2006-10-20
   publisher: ANG Newspapers
 subjects:
-  - music is
   - young son
   - he has
   - renown opera
@@ -22,6 +21,9 @@ subjects:
   - Wright to
   - after the
   - San Francisco Symphony
+  - Yves Thibaudet
+  - Davies Hall
+  - Franz Liszt
 title: For Thibaudet, music is played in the key of life
 type: interview
 ---

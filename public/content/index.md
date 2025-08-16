@@ -15,13 +15,18 @@ publication:
   date: 2017-01-01
   publisher: NorthWorks
 subjects:
-  - Homepage
   - D. Warner North
   - Cheryl North
   - Risk Analysis
   - Music Journalism
   - Classical Music
-  - Opera
+  - Warner North
+  - Stanford University
+  - Management Science
+  - Michael Greenberg
+  - Karen Lowrie
+  - National Academies
+  - National Research
 title: NorthWorks - Cross-Domain Content Platform
 type: homepage
 ---

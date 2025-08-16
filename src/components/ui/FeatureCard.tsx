@@ -24,9 +24,9 @@ export default function FeatureCard({
 }: FeatureCardProps) {
   const cardContent = (
     <div className={`bg-white rounded-lg shadow-md p-6 ${interactive ? 'hover:shadow-lg transition-shadow' : ''} ${className}`}>
-      <h3 className="text-xl font-semibold text-gray-900 mb-3">{title}</h3>
+      <h3 className="text-xl font-semibold text-sky-900 mb-3">{title}</h3>
       {description && (
-        <p className="text-gray-600 mb-4">{description}</p>
+        <p className="text-sky-600 mb-4">{description}</p>
       )}
       {content}
     </div>

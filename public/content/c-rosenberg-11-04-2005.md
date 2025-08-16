@@ -10,15 +10,16 @@ publication:
   publisher: ANG Preview Section
 subjects:
   - Carnegie Hall
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Gustav Mahler
-  - Ludwig van Beethoven
-  - Opera
-  - Richard Wagner
   - San Francisco Opera
-  - Symphony
   - War Memorial Opera House
+  - On Jan
+  - Pamela Rosenberg
+  - War Memorial
+  - Opera House
+  - Animating Opera
+  - Ambitious Francois
+  - North American
+  - Olivier Messiaen
 title: Parting Words from S.F. Opera Director Pamela Rosenberg
 type: interview
 ---

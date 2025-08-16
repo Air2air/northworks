@@ -2,24 +2,29 @@
 conversion date: 2025-08-13
 id: c-reviews-sfsmahler5
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
 publication:
   author: Cheryl North
   date: 2005-09-28
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
-  - Concert Review
-  - Conducting
   - Davies Symphony Hall
   - Gustav Mahler
-  - Oakland Tribune
   - Recording
   - San Francisco Symphony
   - Sparks Fly
+  - Michael Tilson
+  - Francisco Symphony
+  - Davies Symphony
+  - Symphony Hall
   - Symphony
-  - Symphony Meets Mahler
+  - Conductor
+  - Performance
+  - Concert
+  - Musician
+  - Mahler
+  - Michael Tilson Thomas
+  - When
+  - Wednesday
 title: When MTT's S.F. Symphony Meets Mahler, Sparks Fly
 type: review
 ---

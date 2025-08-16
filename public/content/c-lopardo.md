@@ -9,15 +9,18 @@ publication:
   date: 2001-09-21
   publisher: "ANG Newspapers Classical Music Column"
 subjects:
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
   - Metropolitan Opera
-  - Opera
-  - Richard Wagner
   - Rigoletto
   - San Francisco Opera
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Frank Lopardo
+  - Robert White
+  - Northern Italy
+  - Queens College
+  - Juilliard School
+  - Although Lopardo
+  - La Boheme
+  - Eugene Onegin
 title: Cheryl North Interviews Frank Lopardo
 type: interview
 ---

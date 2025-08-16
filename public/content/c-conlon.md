@@ -10,15 +10,17 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone
-  - Franz Liszt
-  - Giuseppe Verdi
-  - Gustav Mahler
   - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
   - Soprano
-  - Symphony
   - Tenor
+  - World War
+  - James Conlon
+  - June Festival
+  - The Third
+  - Viktor Ullmann
+  - Pavel Haas
+  - Amadeus Hartmann
+  - Franz Schreker
 title: James Conlon - Conductor trying to preserve musical legacy
 type: interview
 ---

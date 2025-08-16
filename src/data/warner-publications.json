@@ -4,7 +4,8 @@
     "description": "Academic papers, research publications, and reports",
     "count": 95,
     "generated": "2025-08-15T18:09:54.804Z",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "lastModified": "2025-08-16T01:22:30.204Z"
   },
   "publications": [
     {
@@ -4714,13 +4715,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Bass",
-          "Music Article",
           "Natural Gas Supply",
-          "Opera",
           "Supply Interruption",
-          "Warner North"
+          "Warner North",
+          "European Union",
+          "Christian Kirchsteiger",
+          "Public Policy",
+          "Stanford University",
+          "Lithuanian Energy",
+          "Baltic Sea",
+          "Green Paper",
+          "Russian Federation"
         ]
       },
       "publication": {
@@ -4793,12 +4799,15 @@
       },
       "subject": {
         "topics": [
-          "Aria",
-          "Climate Congress\n\nOctober",
           "Global Climate Change",
           "Music Article",
-          "Opera",
-          "Stuttgart Energy"
+          "Stuttgart Energy",
+          "Global Climate",
+          "Policy Implications",
+          "Warner North",
+          "Stanford University",
+          "Stephen Schneider",
+          "Stuttgart Conference"
         ]
       },
       "publication": {
@@ -4840,12 +4849,16 @@
       },
       "subject": {
         "topics": [
-          "Aria",
-          "Assessing Risks",
-          "Music Article",
-          "Opera",
           "Probabilistic Scenario Analysis",
-          "Term Planning"
+          "Term Planning",
+          "Western Europe",
+          "Presidential Task",
+          "European Union",
+          "Ignalina Nuclear",
+          "Power Plant",
+          "Soviet Union",
+          "Russian Federation",
+          "North Sea"
         ]
       },
       "publication": {

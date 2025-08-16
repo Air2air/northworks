@@ -6,16 +6,18 @@ publication:
   date: 2010-10-01
   publisher: Bay Area News Group Classical Music Column
 subjects:
-  - Aria
   - Baritone
   - Conducting
-  - Interview
-  - Opera
-  - Piano
   - Premiere
   - Soprano
-  - Symphony
-  - Violin
+  - Bay Area
+  - Mother Lode
+  - Jake Heggie
+  - Nate Stooky
+  - Nolan Gasser
+  - Kirke Mecham
+  - Kurt Rohde
+  - Marty Rokeach
 title: Cheryl North Interviews Composer David Conte
 type: interview
 ---

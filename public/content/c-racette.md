@@ -9,16 +9,18 @@ publication:
   date: 2009-09-16
   publisher: Bay Area News Group Classical Music Column
 subjects:
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
   - La Traviata
   - Mezzo-soprano
-  - Opera
-  - Richard Wagner
   - San Francisco Opera
   - Soprano
   - War Memorial Opera House
+  - Patricia Racette
+  - Il Trittico
+  - War Memorial
+  - Opera House
+  - Suor Angelica
+  - Patrick Summers
+  - Il Tabarro
 title: Racette makes a lifelong run with Puccini's *Senza Mama*
 type: interview
 ---

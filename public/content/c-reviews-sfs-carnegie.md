@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-reviews-sfsymphcarnegie
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2001-02-23
   publisher: Classical Music Column for ANG Newspapers Cue Sections
@@ -19,8 +13,11 @@ subjects:
   - Mezzo-soprano
   - San Francisco Symphony
   - Soprano
-  - Symphony
   - Tenor
+  - And New
+  - Maestro Michael
+  - Tilson Thomas
+  - Randall Thompson
 title: San Francisco Symphony takes Carnegie Hall by Storm
 type: review
 ---

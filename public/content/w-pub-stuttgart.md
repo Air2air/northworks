@@ -9,6 +9,38 @@ publication:
   date: 2004-10-11
   publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
 subjects:
+  - Global Climate Change
+  - Music Article
+  - Stuttgart Energy
+  - Global Climate
+  - Policy Implications
+  - Warner North
+  - Stanford University
+  - Stephen Schneider
+  - Stuttgart Conference
+  - Opera
+  - Composition
+  - Singer
+  - Aria
+  - Stanford
+  - Ministerium
+  - Umwelt
+  - Verkehr
+  - State
+title: Global Climate Change - A Survey of the Science and Policy Implications
+type: publication
+---
+---
+conversion date: 2025-08-13
+id: w-pub-stuttgart
+images:
+  - height: 195
+    src: /images/wnstuttgart10-04.jpg
+    width: 260
+publication:
+  date: 2004-10-11
+  publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
+subjects:
   - Aria
   - Global Climate Change
   - Music Article

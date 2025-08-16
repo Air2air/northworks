@@ -2,30 +2,25 @@
 conversion date: 2025-08-13
 id: c-reviews-pavarotti
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
   - height: 250
     src: /images/pavarotti.jpg
     width: 185
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+
 publication:
   author: Cheryl North
   date: 1994-04-08
   publisher: Oakland Tribune
 subjects:
-  - Aria
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
   - Soprano
-  - Symphony
   - Tenor
-  - Violin
+  - Van Cliburn
+  - Pierre Rampal
+  - Van Gogh
+  - Luciano Pavarotti
+  - San Jose
+  - Arena Wednesday
+  - The Voice
+  - Mama Butterfly
 title: Selling the Audience Short
 type: review
 ---

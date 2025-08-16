@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
-  - height: 28
-    src: /images/title-hvorostovsky.gif
-    width: 290
   - height: 300
     src: /images/hvorostovsky-sb08.jpg
     width: 554
@@ -17,14 +14,22 @@ publication:
 subjects:
   - Baritone
   - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Mezzo-soprano
+  - Dmitri Hvorostovsky
+  - Simon Boccanegra
+  - Krasnoyarsk High
+  - Yekaterina Yofel
+  - First Prize
+  - Most Beautiful
+  - Russian Elvees
   - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
-  - Soprano
   - Symphony
-  - Tenor
+  - Conducting
+  - Conductor
+  - Piano
+  - Orchestra
+  - Modern
+  - Singer
+  - Aria
 title: Russian Baritone Wholeheartedly Embraces his "Boccanegra" Role
 type: interview
 ---

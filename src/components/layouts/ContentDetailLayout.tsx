@@ -131,7 +131,7 @@ export default function ContentDetailLayout({
           {/* Tags */}
           {tags && tags.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">{getTagsLabel(contentType)}</h3>
+              <h3 className="text-sm font-semibold text-sky-900 mb-2">{getTagsLabel(contentType)}</h3>
               <Tags tags={tags} variant="medium" maxVisible={10} />
             </div>
           )}
@@ -150,10 +150,10 @@ export default function ContentDetailLayout({
         </div>
 
         {/* Back Navigation */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="mt-12 pt-8 border-t border-sky-200">
           <a
             href={breadcrumbConfig.parentPath}
-            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
           >
             ← Back to {breadcrumbConfig.parentLabel}
           </a>

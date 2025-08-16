@@ -18,6 +18,12 @@ subjects:
   - piano or
   - helped me
   - He has
+  - Leon Bates
+  - Philadelphia Public
+  - Four Seasons
+  - Borealis Wind
+  - Ramsey Lewis
+  - Raoul Wallenberg
 title: Cheryl North Interviews Leon Bates
 type: interview
 ---

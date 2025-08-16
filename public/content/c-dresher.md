@@ -12,16 +12,18 @@ publication:
   date: 2004-11-12
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Aria
   - Carnegie Hall
   - Concerto
-  - Debut Performance
   - Interview
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Opera
   - Premiere
-  - Violin
+  - Paul Dresher
+  - Daniel Schmidt
+  - Says Dresher
+  - Bay Area
+  - Electro Acoustic
+  - Yerba Buena
+  - Arts Forum
+  - Mission St
 title: Cheryl North Interviews Paul Dresher
 type: interview
 ---

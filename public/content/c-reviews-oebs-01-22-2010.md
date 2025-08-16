@@ -2,27 +2,29 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-1-10
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: Cheryl North
   date: 2010-01-22
   publisher: Contra Costa Times, Oakland Tribune
 subjects:
-  - Concert Review
   - Concerto
-  - Conducting
-  - Contra Costa Times
   - Michael Morgan
   - Mikhail Simonyan
-  - Performance
+  - Paramount Theatre
+  - Russian Federation
+  - Dmitri Medvedev
+  - Mariinsky Theater
+  - Musik Verein
+  - Oakland East
   - Symphony
   - Violin
-  - Wolfgang Amadeus Mozart
+  - Orchestra
+  - Concert
+  - Singer
+  - Ensemble
+  - Maestro
+  - Chorus
+  - Mozart
 title: Oakland East Bay Symphony Armenia Concert, Michael Morgan conducting
 type: review
 ---

@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: w-projects
 images:
-  - height: 28
-    src: /images/title-experience.gif
-    width: 250
   - height: 50
     src: /images/logo-us.gif
     width: 50
@@ -139,10 +136,15 @@ publication:
   publisher: the Society
 subjects:
   - Government Service
-  - Music Article
   - National Research Council
-  - Performance
   - United States Federal
+  - The National
+  - Research Council
+  - The Institute
+  - National Research
+  - National Academies
+  - Stanford University
+  - Charles River
 title: Professional Experience & Projects
 type: professional
 ---

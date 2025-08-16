@@ -10,15 +10,17 @@ publication:
   publisher: ANG Newspaper Column
 subjects:
   - Bass
-  - Conducting
   - Interview
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
   - Premiere
   - San Francisco Symphony
-  - Symphony
-  - Violin
+  - The Oakland
+  - East Bay
+  - Big Bang
+  - Paramount Theatre
+  - Michael Morgan
+  - West Coast
+  - Duke University
+  - North Carolina
 title: Cheryl North Interviews Nat Stookey
 type: interview
 ---

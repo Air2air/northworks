@@ -2,14 +2,31 @@
 conversion date: 2025-08-13
 id: w-background
 images:
-  - height: 28
-    src: /images/title-background.gif
-    width: 250
+
 publication:
   date: null
   publisher: the Decision
 title: Professional Background & Education
 type: background
+subjects:
+  - Decision Focus
+  - Senior Vice
+  - Assistant Director
+  - Decision Analysis
+  - Stanford Research
+  - Operations Research
+  - Stanford University
+  - Yale University
+  - D. Warner North
+  - Opera
+  - Stanford
+  - President
+  - Decision Focus Incorporated
+  - Senior Vice President
+  - Stanford Research Institute
+  - Supervisor
+  - Dissertation
+  - Physics
 ---
 
 ***

@@ -222,7 +222,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <a
             href={breadcrumbConfig.parentPath}
-            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
           >
             ← Back to {breadcrumbConfig.parentLabel}
           </a>

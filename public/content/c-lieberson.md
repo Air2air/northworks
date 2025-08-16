@@ -17,6 +17,10 @@ subjects:
   - she will
   - San Francisco Symphony
   - Oakland Symphony
+  - Lorraine Hunt
+  - Bay Area
+  - Robert Hughes
+  - San Mateo
 title: Cheryl North Interviews Lorraine Hunt Lieberson
 type: interview
 ---

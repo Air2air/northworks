@@ -10,14 +10,16 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Christopher Ventris
-  - Conducting
-  - Debut Performance
   - Interview
-  - Opera
   - Richard Wagner
   - San Francisco Opera
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - The London
+  - In Gilbert
+  - The Sorcerer
+  - Joy Mammen
+  - Joan Sutherland
+  - Luciano Pavarotti
 title: Cheryl North Interviews Christopher Ventris
 type: interview
 ---

@@ -2,15 +2,10 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-nov04
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
   - height: 190
     src: /images/thm-stookey.jpg
     width: 190
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+
 publication:
   author: Cheryl North
   date: 2004-11-22
@@ -18,14 +13,15 @@ publication:
 subjects:
   - Bass
   - Concerto
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Opera
-  - Piano
-  - San Francisco Symphony
   - Sergei Rachmaninoff
-  - Symphony
-  - Violin
+  - The Oakland
+  - East Bay
+  - Paramount Theatre
+  - Michael Morgan
+  - The East
+  - Oaktown Jazz
+  - Kalil Shaheed
+  - Dianne Nicolini
 title: Opening Concert of the Oakland East Bay Symphony's 16th Season
 type: review
 ---

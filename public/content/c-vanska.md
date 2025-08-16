@@ -11,13 +11,15 @@ publication:
 subjects:
   - Concerto
   - Davies Symphony Hall
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - Piano
-  - Pyotr Ilyich Tchaikovsky
   - San Francisco Symphony
-  - Symphony
-  - Violin
+  - Osmo Vanska
+  - Finn Jean
+  - Carl Nielsen
+  - Leonard Bernstein
+  - Jorma Panula
+  - Sibelius Academy
+  - Besancon Young
+  - Turku Philharmonic
 title: Osmo Vanska to bring music from his native Finland to Davies Hall
 type: interview
 ---

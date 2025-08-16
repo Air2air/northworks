@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-art-natlsymph
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2005-02-11
   publisher: ANG Newspapers Classical Music Column
@@ -12,13 +9,15 @@ subjects:
   - Concerto
   - Giacomo Puccini
   - Metropolitan Opera
-  - Music Article
   - National Symphony
-  - Newspapers Preview Section
-  - Opera
   - Premiere
-  - Symphony
-  - Violin
+  - Kennedy Center
+  - New America
+  - Leonard Slatkin
+  - Virgil Thomson
+  - Yankee Doodle
+  - Paul Creston
+  - Erich Korngold
 title: Different sort of 40s tunes from National Symphony
 type: article
 ---

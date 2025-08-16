@@ -12,16 +12,18 @@ publication:
   date: 2006-06-30
   publisher: ANG Newspapers
 subjects:
-  - Conducting
   - Daniel Handler
   - Davies Symphony Hall
   - Interview
-  - Johann Sebastian Bach
   - Lemony Snicket
-  - Ludwig van Beethoven
   - San Francisco Symphony
-  - Symphony
-  - Violin
+  - The Composer
+  - Is Dead
+  - Nathaniel Stookey
+  - Unfortunate Events
+  - The Bad
+  - The Reptile
+  - The Wide
 title: Snicket, Stookey responsible for symphonic murder
 type: interview
 ---

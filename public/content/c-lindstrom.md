@@ -10,6 +10,13 @@ subjects:
   - of her
   - like to
   - San Francisco Opera
+  - Bay Area
+  - King Herod
+  - The Flying
+  - Royal Opera
+  - Covent Garden
+  - Lise Lindstrom
+  - Richard Wagner
 title: Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut
 type: interview
 ---

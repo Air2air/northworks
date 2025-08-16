@@ -17,6 +17,10 @@ subjects:
   - she was
   - San Francisco Opera
   - San Francisco Symphony
+  - Lone Star
+  - Bay Area
+  - Keith Cerny
+  - General Director
 title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera
 type: interview
 ---

@@ -36,7 +36,7 @@ export default function InfoCard({
   return (
     <div className={`bg-white rounded-lg ${shadowStyles[shadow]} ${paddingStyles[padding]} ${centered ? 'text-center' : ''} ${className}`}>
       {title && (
-        <h3 className="text-xl font-semibold text-gray-900 mb-4">{title}</h3>
+        <h3 className="text-xl font-semibold text-sky-900 mb-4">{title}</h3>
       )}
       {children}
     </div>

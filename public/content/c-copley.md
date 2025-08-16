@@ -14,6 +14,9 @@ subjects:
   - Program and
   - will be
   - San Francisco Opera
+  - John Copley
+  - George Frideric
+  - If Franz
 title: John Copley Interview
 type: interview
 ---

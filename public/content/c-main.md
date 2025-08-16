@@ -14,9 +14,7 @@ images:
   - height: 290
     src: /images/nicola-cheryl-placido-10-19-10.jpg
     width: 390
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+
 publication:
   date: null
 subjects:
@@ -24,11 +22,12 @@ subjects:
   - Classical Music
   - Frances Tipton
   - Harry Tomlinson
-  - Johann Sebastian Bach
-  - Music Article
-  - Opera
-  - Piano
   - War Memorial Opera House
+  - Leah Neiman
+  - Ruth Goodsmith
+  - Jong Jr
+  - Brigham Young
+  - Donald King
 title: Untitled
 type: interview
 ---

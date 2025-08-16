@@ -12,13 +12,15 @@ subjects:
   - Baritone
   - Concerto
   - Conducting
-  - Franz Liszt
-  - Piano
   - San Francisco Symphony
   - Soprano
-  - Symphony
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Brent Assink
+  - Michael Tilson
+  - Alan Gilbert
+  - Martin Haselbock
+  - Edwin Outwater
+  - James Conlon
 title: Interview with Brent Assink, on the new "6.5" Format
 type: interview
 ---

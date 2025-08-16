@@ -6,16 +6,18 @@ publication:
   date: 2009-11-13
   publisher: Bay Area News Group Classical Music Column
 subjects:
-  - Aria
-  - Giacomo Puccini
-  - Her Recital
   - Interview
-  - Merola Opera Program
   - Mezzo-soprano
-  - Opera
-  - Piano
   - San Francisco Opera
   - Soprano
+  - Remember Dorothy
+  - The Wizard
+  - Marilyn Horne
+  - Herbst Theatre
+  - John Churchwell
+  - Southern European
+  - Tunisian Francesco
+  - Catalonian Fernando
 title: DiDonato dips into Latin repertoire to keep dazzle going
 type: interview
 ---

@@ -10,15 +10,23 @@ publication:
   publisher: ANG PREVIEW Section
 subjects:
   - Franz Liszt
-  - Giacomo Puccini
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
+  - Joshua Bell
+  - Richard Goode
+  - Evgeny Kissin
+  - When Mozart
+  - John Bayless
+  - Oakland East
+  - Paramount Theatre
   - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Sergei Rachmaninoff
   - Symphony
-  - Wolfgang Amadeus Mozart
+  - Concerto
+  - Conducting
+  - Piano
+  - Violin
+  - Orchestra
+  - Performance
+  - Concert
+  - Classical Music
 title: Cheryl North Interviews John Bayless
 type: interview
 ---

@@ -15,6 +15,8 @@ subjects:
   - learn and
   - marathon to
   - he will
+  - Christmas Day
+  - Merry Christmas
 title: Cheryl North Interviews Chad Hoopes
 type: interview
 ---

@@ -2,19 +2,20 @@
 conversion date: 2025-08-13
 id: c-art-national-anthem
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2004-07-02
   publisher: ANG Newspapers
 subjects:
   - Bay Area
   - Classical Music
-  - Music Article
   - Our National Anthem
-  - Performance
   - Spangled Banner
+  - The Star
+  - Our National
+  - Francis Scott
+  - To Anacreon
+  - Anacreontic Society
+  - Commodore Stephen
 title: Thoughts on Our National Anthem
 type: article
 ---

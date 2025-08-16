@@ -2,26 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-sfo-tote-stadt-9-08
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2008-09-23
   publisher: Bay Area News Group
 subjects:
   - Baritone
-  - Giacomo Puccini
   - Gustav Mahler
-  - Johann Sebastian Bach
-  - Opera
-  - Richard Wagner
   - Soprano
   - Tenor
   - War Memorial Opera House
-  - Wolfgang Amadeus Mozart
+  - Sigmund Freud
+  - Erich Wolfgang
+  - Die Tote
+  - Stadt Tuesday
+  - War Memorial
+  - Opera House
+  - World War
 title: "Die Tote Stadt an S.F. Opera Stunner"
 type: review
 ---

@@ -2,23 +2,22 @@
 conversion date: 2025-08-13
 id: c-art-wozzeck
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2010-01-26
   publisher: ANG Newspapers Preview Section
 subjects:
   - Baritone
   - Bass
-  - Conducting
-  - Music Article
-  - Music Ensemble Parallele
-  - Opera
   - San Francisco Conservatory
   - Soprano
   - Tenor
-  - Yerba Buena Center
+  - Ensemble Parallele
+  - Nicole Paiement
+  - Alban Berg
+  - John Rea
+  - Director Brian
+  - Austin Forbord
+  - Bojan Knezevic
 title: Berg's *Wozzeck* is still powerful after 85 years
 ---
 

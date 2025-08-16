@@ -9,14 +9,17 @@ publication:
   date: 2000-05-19
   publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
-  - Cheryl North Writes
   - Conducting
   - Gustav Mahler
   - Interview
-  - Music Article
-  - Piano
   - Pierre Boulez
-  - Symphony
+  - Igor Stravinsky
+  - High Canning
+  - Maestro Boulez
+  - Deutsche Grammophon
+  - Contemporary Music
+  - Concert Series
+  - Yerba Buena
 title: Cheryl North Writes about Pierre Boulez
 type: interview
 ---

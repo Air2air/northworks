@@ -5,7 +5,6 @@ publication:
   date: 2007-04-27
   publisher: Bay Area News Group Classical Music Column
 subjects:
-  - the upcoming
   - on their
   - weeks to
   - of four
@@ -15,6 +14,9 @@ subjects:
   - first professional
   - he will
   - was named
+  - Charles Dutoit
+  - Huntington Hotel
+  - Bay Area
 title: Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust
 type: interview
 ---

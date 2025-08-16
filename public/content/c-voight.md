@@ -19,6 +19,11 @@ subjects:
   - single opera
   - get to
   - San Francisco Opera
+  - Deborah Voigt
+  - Masked Ball
+  - Covent Garden
+  - Richard Strauss
+  - Chicago Lyric
 title: Voight's success not thinly veiled
 type: interview
 ---

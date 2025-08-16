@@ -27,13 +27,18 @@ publication:
   date: 2005-11-14
   publisher: SEIF-IV Conference, Brussels, Belgium 
 subjects:
-  - Aria
   - Bass
-  - Music Article
   - Natural Gas Supply
-  - Opera
   - Supply Interruption
   - Warner North
+  - European Union
+  - Christian Kirchsteiger
+  - Public Policy
+  - Stanford University
+  - Lithuanian Energy
+  - Baltic Sea
+  - Green Paper
+  - Russian Federation
 title: Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
 type: publication
 ---

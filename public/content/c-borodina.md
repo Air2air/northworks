@@ -10,15 +10,17 @@ publication:
   publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
   - Baritone
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
   - Metropolitan Opera
   - Mezzo-soprano
-  - Opera
   - San Francisco Opera
   - Soprano
-  - Symphony
   - War Memorial Opera House
+  - The Russians
+  - Cold War
+  - Bay Area
+  - Valery Gergiev
+  - Alexander Toradze
+  - Zellerbach Auditorium
 title: Cheryl North Interviews Olga Borodina
 type: interview
 ---

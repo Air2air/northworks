@@ -16,15 +16,17 @@ publication:
   publisher: ANG Newspapers Classical Music
 subjects:
   - Baritone
-  - Frédéric Chopin
-  - Ludwig van Beethoven
   - Mezzo-soprano
-  - Opera
-  - Richard Wagner
   - Soprano
-  - Symphony
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Middle East
+  - Nolan Gasser
+  - Black Suit
+  - Oakland East
+  - Paramount Theatre
+  - The Arts
+  - Stanford University
+  - Robert Trent
 title: Cheryl North Interviews Nolan Gasser
 type: interview
 ---

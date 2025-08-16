@@ -14,14 +14,16 @@ publication:
 subjects:
   - Bass
   - Conducting
-  - Debut Performance
   - Interview
   - Johann Sebastian Bach
-  - Mythic Proportions
-  - Opera
-  - Piano
-  - Sergei Rachmaninoff
-  - Symphony
+  - Alexandros Kapelis
+  - Al Pacino
+  - Bay Area
+  - Herbst Theatre
+  - The Greek
+  - Greek National
+  - Greek Consulate
+  - Hellenic Ministry
 title: Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions
 type: interview
 ---

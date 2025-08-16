@@ -2,24 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-berkeley-opera-don-giovanni-2010
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2010-02-22
   publisher: Bay Area News Group
 subjects:
-  - Aria
   - Baritone
-  - Berkeley Opera Performance
   - Don Giovanni
-  - Opera
   - Soprano
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Berkeley Opera
+  - Mark Streshinsky
+  - El Cerrito
+  - High School
+  - Baritone Eugene
+  - Baritone Igor
+  - Kaileen Miller
+  - Donna Anna
 title: Berkeley Opera Performance of Don Giovanni
 type: review
 ---

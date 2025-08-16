@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-reviews-crucible-dido
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
   - height: 167
     src: /images/dido-aeneas-225.jpg
     width: 220
@@ -22,6 +16,12 @@ subjects:
   - Soloists all
   - Rob Stafford
   - San Francisco Opera
+  - West Oakland
+  - Henry Purcell
+  - The Crucible
+  - Gala Reception
+  - Art Auction
+  - The San
 title: Burn, baby, burn - Crucible interpretation of 'Dido' is en fuego
 type: review
 ---

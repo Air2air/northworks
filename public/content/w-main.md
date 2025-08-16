@@ -2,23 +2,36 @@
 conversion date: 2025-08-13
 id: w-main
 images:
-  - height: 28
-    src: /images/title-warner.gif
-    width: 250
   - height: 133
     src: /images/warner-north-6-06.jpg
     width: 100
   - height: 512
     src: /images/wn-speaking-belgian-senate-4-18-06.jpg
     width: 342
-  - height: 45
-    src: /images/title-advisory-boards.gif
-    width: 220
 publication:
   date: null
   publisher: the Commission
 title: D. Warner North - Professional Biography
 type: background
+subjects:
+  - Warner North
+  - Management Science
+  - Stanford University
+  - Science Advisory
+  - Environmental Protection
+  - Nuclear Waste
+  - Technical Review
+  - National Research
+  - D. Warner North
+  - Opera
+  - Contemporary
+  - Stanford
+  - San Francisco
+  - California
+  - Until
+  - Department
+  - Engineering
+  - Over
 ---
 
 ***

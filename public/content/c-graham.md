@@ -11,14 +11,16 @@ publication:
 subjects:
   - Carnegie Hall
   - Davies Symphony Hall
-  - Giuseppe Verdi
   - Mezzo-soprano
-  - Opera
   - San Francisco Opera
   - San Francisco Symphony
   - Soprano
-  - Symphony
-  - Wolfgang Amadeus Mozart
+  - Susan Graham
+  - Malcolm Martineau
+  - Maestro Michael
+  - Tilson Thomas
+  - West Coast
+  - Hector Berlioz
 title: Busy Susan Graham Brings Her Talents to San Francisco*
 type: interview
 ---

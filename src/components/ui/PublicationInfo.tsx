@@ -21,26 +21,26 @@ export default function PublicationInfo({
   }
 
   return (
-    <div className={`bg-blue-50 rounded-lg p-4 mb-6 ${className}`}>
-      <div className="text-sm text-blue-900 space-y-1">
+    <div className={`bg-sky-50 rounded-lg p-4 mb-6 ${className}`}>
+      <div className="text-sm text-sky-900 space-y-1">
         {date && (
           <div>
-            <span className="text-gray-400 uppercase font-bold">Date:</span> {date}
+            <span className="text-sky-400 uppercase font-bold">Date:</span> {date}
           </div>
         )}
         {publication && (
           <div>
-            <span className="text-gray-400 uppercase font-bold">Publication:</span> {publication}
+            <span className="text-sky-400 uppercase font-bold">Publication:</span> {publication}
           </div>
         )}
         {section && (
           <div>
-            <span className="text-gray-400 uppercase font-bold">Section:</span> {section}
+            <span className="text-sky-400 uppercase font-bold">Section:</span> {section}
           </div>
         )}
         {author && (
           <div>
-            <span className="text-gray-400 uppercase font-bold">Author:</span> {author}
+            <span className="text-sky-400 uppercase font-bold">Author:</span> {author}
           </div>
         )}
       </div>

@@ -14,10 +14,13 @@ subjects:
   - Franz Schubert
   - Gustav Mahler
   - London Symphony
-  - Ludwig van Beethoven
-  - Opera
-  - Piano
-  - Symphony
+  - Deutsches Symphonie
+  - Orchester Berlin
+  - Associate Principal
+  - Guest Conductor
+  - Principal Guest
+  - Kent Nagano
+  - Morro Bay
 title: Cheryl North Interviews Kent Nagano
 type: interview
 ---

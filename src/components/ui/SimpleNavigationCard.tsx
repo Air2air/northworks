@@ -26,8 +26,8 @@ export default function NavigationCard({
 }: NavigationCardProps) {
   const variantClasses = {
     primary: {
-      button: 'bg-blue-600 hover:bg-blue-700 text-white',
-      icon: 'bg-blue-100'
+      button: 'bg-sky-600 hover:bg-sky-700 text-white',
+      icon: 'bg-sky-100'
     },
     secondary: {
       button: 'bg-green-600 hover:bg-green-700 text-white',
@@ -46,8 +46,8 @@ export default function NavigationCard({
       <div className={`w-16 h-16 ${iconBg} rounded-full flex items-center justify-center mx-auto mb-4`}>
         {icon}
       </div>
-      <h3 className="text-2xl font-semibold text-gray-900 mb-3">{title}</h3>
-      <p className="text-gray-600 mb-6">{description}</p>
+      <h3 className="text-2xl font-semibold text-sky-900 mb-3">{title}</h3>
+      <p className="text-sky-600 mb-6">{description}</p>
       <Link
         href={href}
         className={`inline-flex items-center px-6 py-3 rounded-md transition-colors ${button}`}

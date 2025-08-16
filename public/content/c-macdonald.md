@@ -15,6 +15,8 @@ subjects:
   - well as
   - even still
   - classically trained
+  - Cheryl North
+  - Interviews Audra
 title: Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010
 type: interview
 ---

@@ -18,6 +18,8 @@ subjects:
   - pencil and
   - him on
   - to study
+  - Wolfgang Amadeus
+  - George Wolfgang
 title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
   Festival
 type: interview

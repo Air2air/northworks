@@ -12,9 +12,14 @@ subjects:
   - San Francisco
   - she had
   - San Francisco Opera
+  - Mark Delavan
+  - Richard Wagner
+  - Die Walk
+  - Das Rheingold
+  - Valkyrie Br
 title:
   Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about
-  the 2010 San Francisco Opera Production of <i>Die Walküre</i>
+  the 2010 San Francisco Opera Production of Die Walküre
 type: interview
 ---
 

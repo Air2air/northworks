@@ -14,13 +14,15 @@ publication:
 subjects:
   - Concerto
   - Franz Liszt
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
   - San Francisco Symphony
-  - Sergei Rachmaninoff
-  - Symphony
+  - If Roman
+  - Lang Lang
+  - Davies Hall
+  - Sergei Prokofiev
+  - Piano Concerto
+  - Maestro Michael
+  - Tilson Thomas
+  - Mephisto Waltz
 title: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
 type: interview
 ---

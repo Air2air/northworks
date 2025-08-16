@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-reviews-bwe-xerxes-11-10
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2010-11-13
   publisher: Bay Area News Group
@@ -22,6 +16,8 @@ subjects:
   - boy who
   - Roger McCracken
   - Persian King
+  - Berkeley West
+  - Edge Opera
 title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
 ---

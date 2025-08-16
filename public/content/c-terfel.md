@@ -13,15 +13,15 @@ publication:
   publisher: ANG newspapers
 subjects:
   - Baritone
-  - Franz Schubert
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Opera
-  - Richard Wagner
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Bryn Terfel
+  - Nick Shadow
+  - The Rake
+  - Igor Stravinsky
+  - Malcolm Martineau
+  - Richard Burton
+  - Frank Sinatra
+  - Elvis Presley
 title: Cheryl North Interviews Bryn Terfel
 type: interview
 ---

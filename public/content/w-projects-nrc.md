@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: w-projects-nrc
 images:
-  - height: 28
-    src: /images/title-experience-nrc.gif
-    width: 304
   - height: 50
     src: /images/logo-nrc.gif
     width: 50
@@ -77,9 +74,6 @@ images:
   - height: 50
     src: /images/logo-nrc.gif
     width: 50
-  - height: 28
-    src: /images/title-gray-nrc.gif
-    width: 220
   - height: 86
     src: /images/book-disposition.jpg
     width: 60
@@ -100,6 +94,25 @@ images:
     width: 60
 title: National Research Council Experience
 type: professional
+subjects:
+  - National Associate
+  - National Research
+  - Members Library
+  - National Academies
+  - National Academy
+  - National Associates
+  - Natural Resources
+  - Stationary Source
+  - D. Warner North
+  - Opera
+  - North
+  - National Research Council
+  - Such
+  - Institute
+  - Medicine
+  - Less
+  - There
+  - Sciences
 ---
 
 ***

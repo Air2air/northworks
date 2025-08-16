@@ -2,30 +2,27 @@
 conversion date: 2025-08-13
 id: c-reviews-tristan-stuttgart
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
   - height: 180
     src: /images/stuttgart-state-opera.jpg
     width: 300
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
+
 publication:
   author: Cheryl North
   date: 2004-10-22
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
-  - Aria
   - Baritone
-  - Concert Review
   - Interview
   - Mezzo-soprano
-  - Opera
   - Richard Wagner
   - San Francisco Opera
   - Soprano
-  - Stuttgart Reveals
+  - Stuttgart Opera
+  - Pamela Rosenberg
+  - Klaus Zehelein
+  - The Prelude
+  - State Opera
+  - Lothar Zagrosek
 title: Stuttgart Reveals a New Way to Envision Tristan und Isolde
 type: review
 ---

@@ -9,16 +9,16 @@ publication:
   date: 2007-07-20
   publisher: ANG Preview Section
 subjects:
-  - Carnegie Hall
-  - Giacomo Puccini
-  - Giuseppe Verdi
   - Gustav Mahler
-  - Ludwig van Beethoven
-  - Opera
-  - Richard Wagner
   - San Francisco Opera
-  - Symphony
-  - War Memorial Opera House
+  - Spree Rivers
+  - Central European
+  - Klaus Wowereit
+  - Bay Area
+  - Pamela Rosenberg
+  - General Director
+  - Sir Simon
+  - Speight Jenkins
 title: Rosenberg Brings S.F. Flavor to Berlin Philharmonic
 type: interview
 ---

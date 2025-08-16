@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-reviews-brittenwar-masur
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: Cheryl North
   date: 2002-10-24
@@ -19,6 +13,12 @@ subjects:
   - stabbing staccato
   - San Francisco Symphony
   - Davies Symphony Hall
+  - Benjamin Britten
+  - War Requiem
+  - Hall Thursday
+  - Girls Chorus
+  - Pacific Boychoir
+  - Christine Brewer
 title: Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's War Requiem
 type: review
 ---

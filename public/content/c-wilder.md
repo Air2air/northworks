@@ -9,16 +9,17 @@ publication:
   date: 2007-08-10
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Interview
-  - Music Article
-  - Opera
   - Our Town
   - Premiere
   - Pulitzer Prize
   - Soprano
-  - Symphony
   - Tenor
   - Thornton Wilder
+  - Coachella Valley
+  - Union High
+  - Bay Area
+  - Ned Rorem
+  - West Coast
 title: Cheryl North Interviews Tappan Wilder on Our Town as an Opera
 type: interview
 ---

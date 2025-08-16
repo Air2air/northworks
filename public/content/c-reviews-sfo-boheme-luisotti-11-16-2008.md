@@ -2,25 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-sfo-boheme-luisotti-11-08
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2008-11-16
   publisher: Bay Area News Group
 subjects:
   - Baritone
   - Bass
-  - Giacomo Puccini
-  - Merola Opera Program
-  - Opera
   - San Francisco Opera
   - Soprano
   - Tenor
   - War Memorial Opera House
+  - Grand Opera
+  - La Boheme
+  - War Memorial
+  - Opera House
+  - Nicola Luisotti
+  - Maestro Luisotti
 title: San Francisco Opera Performance of Puccini's La Boheme, directed by Nicola Luisotti
 type: review
 ---

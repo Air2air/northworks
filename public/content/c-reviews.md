@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-reviews
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: doe berkeley
   date: 9-30-2012
@@ -16,30 +10,14 @@ subjects:
   - Francisco Symphony
   - Bay Symphony
   - Kurt Masur
-  - 'Newspapers
+  - Opening Concert
+  - Bay Area
+  - News Group
+  - Inside Bay
+  - Dmitri Hvorostovsky
+  - Davies Hall
+  - Slavic Soul
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    High'
   - San Francisco Opera
   - San Francisco Symphony
   - Berkeley Opera

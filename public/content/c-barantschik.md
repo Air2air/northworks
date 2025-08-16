@@ -14,14 +14,16 @@ publication:
 subjects:
   - Concerto
   - Davies Symphony Hall
-  - Gustav Mahler
   - Johann Sebastian Bach
-  - Pyotr Ilyich Tchaikovsky
   - Richard Wagner
   - San Francisco Symphony
-  - Symphony
-  - Violin
-  - Wolfgang Amadeus Mozart
+  - Johann Sebastian
+  - Bach Gesellschaft
+  - Bay Area
+  - Flint Center
+  - Maestro Tilson
+  - Alexander Barantschik
+  - Brandenburg Concerto
 title: Cheryl North Interviews with Alexander Barantschik
 type: interview
 ---

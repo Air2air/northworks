@@ -11,13 +11,16 @@ publication:
 subjects:
   - Carnegie Hall
   - Davies Symphony Hall
-  - Interview
-  - Ludwig van Beethoven
-  - Piano
   - Premiere
   - San Francisco Symphony
-  - Symphony
   - World Premiere
+  - When American
+  - Charles Ives
+  - The Unanswered
+  - Victor Kissine
+  - Michael Tilson
+  - Leningrad Conservatory
+  - Perennial Question
 title: Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony
 type: interview
 ---

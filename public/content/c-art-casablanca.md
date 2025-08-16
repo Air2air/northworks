@@ -2,23 +2,22 @@
 conversion date: 2025-08-13
 id: c-art-casablanca
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2007-08-03
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone
   - Bass
-  - Conducting
   - Mezzo-soprano
-  - Opera
   - San Francisco Opera
   - Soprano
   - Tenor
-  - Wolfgang Amadeus Mozart
   - World Premiere
+  - Richard Kagey
+  - Merola Opera
+  - Thomas Pasatieri
+  - Hotel Casablanca
+  - Joseph Illick
 title: Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca
 type: article
 ---

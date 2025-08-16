@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
-  - height: 28
-    src: /images/title-hvorostovsky.gif
-    width: 290
   - height: 300
     src: /images/hvorostovsky-sb08.jpg
     width: 554
@@ -16,15 +13,16 @@ publication:
   publisher: Alameda Newspaper Group
 subjects:
   - Baritone
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
   - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
   - Soprano
-  - Symphony
-  - Tenor
+  - European Tour
+  - Dmitri Hvorostovsky
+  - Olga Borodina
+  - Mario Bernardi
+  - Van Ness
+  - Grove Street
+  - La Favorita
+  - Il Barbiere
 title: Dmitri Hvorostovsky - Voice of the Century?
 type: interview
 ---

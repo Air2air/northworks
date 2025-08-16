@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-giordani
 images:
-  - height: 28
-    src: /images/title-giordani.gif
-    width: 250
   - height: 250
     src: /images/giordani.jpg
     width: 191
@@ -12,16 +9,18 @@ publication:
   date: 2000-08-25
   publisher: ANG PREVIEW Section Classical Music Column
 subjects:
-  - Giacomo Puccini
-  - Giuseppe Verdi
   - La Traviata
   - Metropolitan Opera
-  - Opera
   - Rigoletto
   - San Francisco Opera
   - Soprano
   - Tenor
   - Tosca
+  - Marcello Giordani
+  - Bay Area
+  - Luisa Miller
+  - Patricia Racette
+  - Elena Zaremba
 title: Cheryl North Interviews Marcello Giordani
 type: interview
 ---

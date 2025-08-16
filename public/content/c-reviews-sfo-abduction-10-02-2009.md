@@ -2,25 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-sfo-abduction-10-2-09
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2009-10-02
   publisher: Bay Area News Group
 subjects:
   - Bass
-  - Concert Review
-  - Debut Performance
-  - Giacomo Puccini
-  - Giuseppe Verdi
-  - Opera
   - San Francisco Opera
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - The San
+  - Francisco Opera
+  - Il Trovatore
+  - Il Trittico
+  - The Abduction
+  - General Manager
+  - David Gockley
+  - David Zinn
 title: "San Francisco Opera Performance of The Abduction from the Seraglio by Wolfgang Amadeus Mozart"
 type: review
 ---

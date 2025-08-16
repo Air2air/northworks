@@ -11,14 +11,16 @@ publication:
 subjects:
   - Baritone
   - Davies Symphony Hall
-  - Johann Sebastian Bach
-  - Opera
   - Richard Wagner
   - San Francisco Opera
   - San Francisco Symphony
   - Soprano
-  - Symphony
   - Tosca
+  - Mark Delavan
+  - The Flying
+  - Davies Hall
+  - Dallas Cowboys
+  - Joining Delavan
 title: Cheryl North Interviews Mark Delavan
 type: interview
 ---

@@ -2,27 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-bernsteinmass
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: Cheryl North
   date: 2005-05-20
   publisher: Oakland Tribune,Alameda Newspaper Group
 subjects:
-  - Aria
   - Baritone
-  - Conducting
-  - Franz Schubert
-  - Giuseppe Verdi
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Opera
   - Soprano
-  - Symphony
+  - Leonard Bernstein
+  - Oakland East
+  - Paramount Theatre
+  - Michael Morgan
+  - Bernstein Mass
+  - Kennedy Center
+  - Performing Arts
+  - Theatre Piece
 title: Oakland East Bay Symphony Performance of Leonard Bernstein's Mass, Michael Morgan Conducting
 type: review
 ---

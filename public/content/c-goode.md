@@ -11,14 +11,14 @@ publication:
 subjects:
   - Carnegie Hall
   - Davies Symphony Hall
-  - Franz Schubert
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
-  - Piano
-  - Symphony
-  - Wolfgang Amadeus Mozart
+  - Sir Isaac
+  - Richard Goode
+  - Bay Area
+  - Marcia Weinfeld
+  - Charles Dickens
+  - Rudolf Serkin
+  - Marlboro Music
+  - Mannes College
 title: Cheryl North Interviews Richard Goode
 type: interview
 ---

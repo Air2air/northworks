@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: w-pub
 images:
-  - height: 28
-    src: /images/title-pub.gif
-    width: 250
   - height: 16
     src: /images/icon-pdf.gif
     width: 16
@@ -14,9 +11,6 @@ images:
   - height: 16
     src: /images/icon-pdf.gif
     width: 16
-  - height: 28
-    src: /images/title-gray-publications.gif
-    width: 220
   - height: 83
     src: /images/public-participation-image.gif
     width: 57
@@ -42,15 +36,24 @@ publication:
   date: null
   publisher: Silvio Funtowicz
 subjects:
-  - Aria
   - International Office
-  - Johann Sebastian Bach
-  - Music Article
-  - Opera
-  - Performance
-  - Richard Wagner
   - Seed Hurricanes
   - Technical Review
+  - The Decision
+  - The Invariance
+  - Operations Research
+  - Stanford University
+  - Tutorial Introduction
+  - Opera
+  - Alto
+  - Performance
+  - Aria
+  - Stanford
+  - Bach
+  - Wagner
+  - Howard
+  - Matheson
+  - Science
 title: Publications & Research Papers
 type: publication
 ---

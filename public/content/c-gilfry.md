@@ -20,6 +20,10 @@ subjects:
   - His virile
   - preparing to
   - San Francisco Opera
+  - Rodney Gilfry
+  - Half Marathon
+  - Santa Rosa
+  - Gala Concert
 title: Cheryl North Interviews Rodney Gilfry
 type: interview
 ---

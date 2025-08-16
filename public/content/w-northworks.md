@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: w-northworks
 images:
-  - height: 28
-    src: /images/titlewarner.gif
-    width: 250
   - height: 92
     src: /images/warnersm.gif
     width: 70
@@ -25,6 +22,25 @@ publication:
   publisher: ''
 title: NorthWorks Consulting
 type: background
+subjects:
+  - Warner North
+  - Management Science
+  - Stanford University
+  - Cheryl North
+  - Oakland Tribune
+  - Alameda Newspaper
+  - Opera Now
+  - Great Britain
+  - D. Warner North
+  - Opera
+  - Performance
+  - Classical Music
+  - Stanford
+  - Department
+  - Engineering
+  - Over
+  - North
+  - Mexico
 ---
 
 ***

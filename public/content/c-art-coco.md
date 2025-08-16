@@ -2,23 +2,28 @@
 conversion date: 2025-08-13
 id: c-art-coco
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2005-02-25
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Conducting
-  - Debut Performance
-  - Held Concert Companion
-  - Johann Sebastian Bach
   - Metropolitan Opera
-  - Music Article
+  - Oakland East
+  - Paramount Theatre
+  - Michael Morgan
+  - Rolland Valliere
+  - Opera Glass
+  - Professor Robert
+  - Antenna Audio
   - Opera
   - Symphony
-  - Symphony Audiences
-  - Tech Hand
+  - Conductor
+  - Orchestra
+  - Performance
+  - Concert
+  - Classical Music
+  - Musician
+  - Artist
+  - Maestro
 title: High-Tech Hand-Held Concert Companion for Symphony Audiences
 type: article
 ---

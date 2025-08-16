@@ -11,14 +11,16 @@ publication:
 subjects:
   - Bass
   - Boston Symphony
-  - Conducting
-  - Gustav Mahler
-  - Opera
-  - Piano
   - San Francisco Symphony
-  - Symphony
-  - Violin
   - World Premiere
+  - On October
+  - Bay Area
+  - Joe Venuti
+  - Eddie South
+  - Stephane Grappelli
+  - Itzhak Perlman
+  - The Phantom
+  - Forever Tango
 title: Cheryl North Interviews Jeremy Cohen
 type: interview
 ---

@@ -12,12 +12,15 @@ subjects:
   - Concerto
   - Conducting
   - Davies Symphony Hall
-  - Interview
-  - Johannes Brahms
-  - Pyotr Ilyich Tchaikovsky
   - San Francisco Symphony
-  - Symphony
-  - Violin
+  - Running Rings
+  - The Memoirs
+  - Dmitri Shostakovich
+  - The Guide
+  - Perfect Handbag
+  - Soviet Union
+  - Sarah Chang
+  - Max Bruch
 title: Cheryl North Interviews Sarah Chang
 type: interview
 ---

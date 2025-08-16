@@ -2,12 +2,6 @@
 conversion date: 2025-08-13
 id: c-articles-deadman
 images:
-  - height: 28
-    src: /images/title-articles.gif
-    width: 250
-  - height: 28
-    src: /images/title-gray-dead.gif
-    width: 220
   - height: 218
     src: /images/opera-now-cover.jpg
     width: 150
@@ -25,14 +19,17 @@ publication:
   publisher: Opera Now
 subjects:
   - Baritone
-  - Conducting
-  - Franz Schubert
-  - Opera
-  - Opera Now
-  - Piano
   - San Francisco Opera
   - Soprano
   - War Memorial Opera House
+  - So San
+  - Francisco Opera
+  - Dead Man
+  - War Memorial
+  - Opera House
+  - Sister Helen
+  - Roman Catholic
+  - Patrick Sonnier
 title: Dead Man Walking at San Francisco Opera
 type: article
 ---

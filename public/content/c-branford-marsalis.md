@@ -10,15 +10,15 @@ publication:
   publisher: Bay Area News Group
 subjects:
   - Classical Music
-  - Conducting
-  - Interview
-  - Johann Sebastian Bach
-  - Music Article
   - New Orleans
-  - Piano
-  - Preview Section
   - Soprano
-  - Symphony
+  - Branford Marsalis
+  - Bay Area
+  - Stanford Lively
+  - Marsalis Brasilianos
+  - Memorial Auditorium
+  - Palo Alto
+  - Ellis Marsalis
 title: Cheryl North Interviews Branford Marsalis
 type: interview
 ---

@@ -2,23 +2,21 @@
 conversion date: 2025-08-13
 id: c-feltsman
 images:
-  - height: 28
-    src: /images/title-feltsman.gif
-    width: 250
 publication:
   date: 2002-06-14
   publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
   - Carnegie Hall
   - Davies Symphony Hall
-  - Franz Liszt
-  - Frédéric Chopin
-  - Johann Sebastian Bach
-  - Ludwig van Beethoven
-  - Pyotr Ilyich Tchaikovsky
   - San Francisco Symphony
-  - Sergei Rachmaninoff
-  - Symphony
+  - Vladimir Feltsman
+  - Sergei Prokofiev
+  - Piano Concerto
+  - Russian Festival
+  - Michael Tilson
+  - Russian Virtuosity
+  - Russian Rarities
+  - Tilson Thomas
 title: Feature Article on Vladimir Feltsman
 type: interview
 ---

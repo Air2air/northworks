@@ -24,12 +24,16 @@ publication:
   date: 2006-02-02
   publisher: VNIIGAZ/GAZPROM Conference
 subjects:
-  - Aria
-  - Assessing Risks
-  - Music Article
-  - Opera
   - Probabilistic Scenario Analysis
   - Term Planning
+  - Western Europe
+  - Presidential Task
+  - European Union
+  - Ignalina Nuclear
+  - Power Plant
+  - Soviet Union
+  - Russian Federation
+  - North Sea
 title: Assessing Risks in Long-Term Planning - Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
 type: publication
 ---

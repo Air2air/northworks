@@ -2,23 +2,23 @@
 conversion date: 2025-08-13
 id: c-donose
 images:
-  - height: 28
-    src: /images/title-donose.gif
-    width: 250
 publication:
   author: Giuseppe Sinopoli
   date: 2002-06-28
   publisher: Oakland Tribune
 subjects:
-  - Frédéric Chopin
-  - Giuseppe Verdi
   - Mezzo-soprano
-  - Opera
   - San Francisco Opera
   - Soprano
   - Tenor
   - War Memorial Opera House
-  - Wolfgang Amadeus Mozart
+  - The Oakland
+  - Ruxandra Donose
+  - Femmes Fatales
+  - War Memorial
+  - Opera House
+  - Giulio Cesare
+  - Peter Pawlik
 title: Donose goes from glamour queen to boy, with motherhood in betwee
 type: interview
 ---

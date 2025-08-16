@@ -2,25 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-lvo-barber-10-08
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2008-10-11
   publisher: Bay Area News Group
 subjects:
   - Baritone
   - Bass
-  - Concert Review
-  - Conducting
-  - Giacomo Rossini
   - Livermore Valley Opera
   - Metropolitan Opera
-  - Opera
   - Tenor
+  - Livermore Valley
+  - Bankhead Theater
+  - Augustin Caron
+  - Alex Katsman
+  - Daniel Helfgot
+  - Count Almaviva
+  - David Ward
 title: Livermore Valley Opera Performance of Giacomo Rossini's The Barber of Seville
 type: review
 ---

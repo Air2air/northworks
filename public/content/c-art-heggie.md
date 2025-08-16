@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-art-heggie
 images:
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2006-10-27
   publisher: ANG Newspapers Classical Music Column
@@ -19,6 +16,8 @@ subjects:
   - Bay Area
   - after the
   - San Francisco
+  - Jake Heggie
+  - Franz Schubert
 title: Composer Heggie keeps seeking higher ground
 type: article
 ---

@@ -4,7 +4,8 @@
     "description": "Professional experience, consulting projects, and career work",
     "count": 47,
     "generated": "2025-08-15T18:09:54.803Z",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "lastModified": "2025-08-16T01:22:30.198Z"
   },
   "professional": [
     {
@@ -1805,10 +1806,15 @@
         "topics": [
           "Environmental Health Committee",
           "Extrapolation Models Review Panel",
-          "Music Article",
-          "Performance",
           "Risk Assessment",
-          "United States Federal"
+          "United States Federal",
+          "Environmental Protection",
+          "Agency Science",
+          "Environmental Health",
+          "Carcinogenicity Risk",
+          "Assessment Guidelines",
+          "Review Group",
+          "Extrapolation Models"
         ]
       },
       "media": {
@@ -2033,7 +2039,19 @@
           }
         ]
       },
-      "tags": []
+      "tags": [],
+      "subject": {
+        "topics": [
+          "National Associate",
+          "National Research",
+          "Members Library",
+          "National Academies",
+          "National Academy",
+          "National Associates",
+          "Natural Resources",
+          "Stationary Source"
+        ]
+      }
     },
     {
       "metadata": {
@@ -2104,7 +2122,19 @@
           }
         ]
       },
-      "tags": []
+      "tags": [],
+      "subject": {
+        "topics": [
+          "Management Science",
+          "Consulting Associate",
+          "Consulting Professor",
+          "Professor Burke",
+          "William Perry",
+          "Stanford Professor",
+          "Professor John",
+          "Professor Ross"
+        ]
+      }
     }
   ]
 }

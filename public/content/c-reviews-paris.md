@@ -2,26 +2,20 @@
 conversion date: 2025-08-13
 id: c-reviews-paris
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 1999-11-16
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Aria
   - Baritone
-  - Benefit Concert
-  - Concert Review
   - Gustav Mahler
-  - Mahler Library
-  - Opera
   - San Francisco Symphony
-  - Symphony
-  - Violin
+  - Performing Arts
+  - San Mateo
+  - Walnut Creek
+  - Maestro Pierre
+  - The Paris
+  - Baritone Thomas
+  - Adler Fellow
 title: Review of the Orchestre de Paris, Benefit Concert for the Mahler Library
 type: review
 ---

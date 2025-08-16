@@ -2,27 +2,23 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-11-08
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   author: Cheryl North
   date: 2008-11-14
   publisher: Oakland Tribune
 subjects:
   - Bass
-  - Concert Review
   - Conducting
   - Jazz Symphony
-  - Johann Sebastian Bach
-  - Opera
-  - Piano
   - Premiere
-  - Symphony
   - World Premiere
+  - Opening Night
+  - Oakland East
+  - George Anthiel
+  - World Premier
+  - Nathaniel Stookey
+  - Michael Morgan
+  - Season Opening
 title: Opening Night of the 2008-2009 Season of the Oakland East Bay Symphony
 type: review
 ---

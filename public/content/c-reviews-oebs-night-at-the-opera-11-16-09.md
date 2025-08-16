@@ -2,26 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-night-at-the-opera-11-16-09
 images:
-  - height: 28
-    src: /images/title-reviews.gif
-    width: 250
-  - height: 248
-    src: /images/logos-newspaper.gif
-    width: 220
 publication:
   date: 2009-11-13
   publisher: Cheryl North
 subjects:
   - Aida
-  - Aria
   - Baritone
-  - Giuseppe Verdi
   - Mezzo-soprano
-  - Opera
-  - Richard Wagner
   - Soprano
-  - Symphony
   - Tenor
+  - Paramount Theatre
+  - Michael Morgan
+  - Maestro Morgan
+  - Funeral Music
+  - Die Gotterdammerung
+  - Brian Nies
+  - Carl Maria
 title: Oakland East Bay Symphony Performance, "A Night at the Opera"
 type: review
 ---

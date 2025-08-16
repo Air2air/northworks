@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-volodos
 images:
-  - height: 28
-    src: /images/title-volodos.gif
-    width: 250
   - height: 190
     src: /images/volodos.jpg
     width: 200
@@ -21,6 +18,9 @@ subjects:
   - actually did
   - orchestras and
   - indeed piano
+  - Sir Winston
+  - Arcadi Volodos
+  - Franz Liszt
 
 title: Cheryl North Interviews Arcadi Volodos
 type: interview

@@ -10,15 +10,17 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone
-  - Franz Schubert
-  - Gustav Mahler
   - Mezzo-soprano
-  - Opera
-  - Pyotr Ilyich Tchaikovsky
-  - Richard Wagner
   - Soprano
   - Tenor
-  - Wolfgang Amadeus Mozart
+  - Russell Braun
+  - Victor Braun
+  - Eraine Schwing
+  - Royal Conservatory
+  - Canadian Opera
+  - Carolyn Maule
+  - Young Benjamin
+  - Michael Schade
 title: Cheryl North Interviews Russell Braun
 type: interview
 ---

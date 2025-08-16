@@ -10,16 +10,18 @@ publication:
   date: 2011-09-02
   publisher: Bay Area News Group
 subjects:
-  - Aria
   - Don Giovanni
   - Giacomo Puccini
-  - Opera
-  - Richard Wagner
   - San Francisco Opera
   - Soprano
-  - Swedish Soprano Ir
   - Tosca
-  - Wolfgang Amadeus Mozart
+  - War Memorial
+  - Royal Opera
+  - Alban Berg
+  - Birgit Nilsson
+  - Richard Strauss
+  - Das Rheingold
+  - Donna Anna
 title: Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*
 type: interview
 ---

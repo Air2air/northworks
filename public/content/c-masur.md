@@ -9,14 +9,17 @@ publication:
   date: 2002-11-01
   publisher: ANG Newspapers Classical Music Column
 subjects:
-  - Aria
   - Bass
   - Conducting
-  - Interview
   - Kurt Masur
-  - Piano
   - San Francisco Symphony
-  - Symphony
+  - Bay Area
+  - Benjamin Britten
+  - War Requiem
+  - Mandarin Restaurant
+  - World War
+  - Berlin Wall
+  - Federal Republic
 title: Cheryl North Interviews Kurt Masur
 type: interview
 ---

@@ -42,11 +42,11 @@ export default function PageTitle({
   return (
     <div className={`flex flex-col justify-end ${alignment} ${sizes.container} ${className} min-h-[160px]`}>
       <div>
-        <h1 className={`${sizes.title} font-bold text-gray-900 mb-6`}>
+        <h1 className={`${sizes.title} font-bold text-sky-900 mb-6`}>
           {cleanedTitle}
         </h1>
         {description && (
-          <p className={`${sizes.description} text-gray-600 max-w-3xl ${align === 'center' ? 'mx-auto' : ''}`}>
+          <p className={`${sizes.description} text-sky-600 max-w-3xl ${align === 'center' ? 'mx-auto' : ''}`}>
             {description}
           </p>
         )}

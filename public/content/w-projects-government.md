@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: w-projects-government
 images:
-  - height: 28
-    src: /images/title-experience-government.gif
-    width: 250
   - height: 50
     src: /images/logo-epa.gif
     width: 50
@@ -23,10 +20,15 @@ images:
 subjects:
   - Environmental Health Committee
   - Extrapolation Models Review Panel
-  - Music Article
-  - Performance
   - Risk Assessment
   - United States Federal
+  - Environmental Protection
+  - Agency Science
+  - Environmental Health
+  - Carcinogenicity Risk
+  - Assessment Guidelines
+  - Review Group
+  - Extrapolation Models
 title: Government Projects & Consulting
 type: professional
 ---

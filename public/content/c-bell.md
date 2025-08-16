@@ -2,9 +2,6 @@
 conversion date: 2025-08-13
 id: c-bell
 images:
-  - height: 28
-    src: /images/title-bell.gif
-    width: 250
   - height: 300
     src: /images/bell.jpg
     width: 219
@@ -14,13 +11,15 @@ publication:
 subjects:
   - Carnegie Hall
   - Davies Symphony Hall
-  - Johann Sebastian Bach
-  - Johannes Brahms
-  - Ludwig van Beethoven
   - San Francisco Symphony
-  - Symphony
-  - Violin
-  - Wolfgang Amadeus Mozart
+  - Joshua Bell
+  - Samuel Barber
+  - Violin Concerto
+  - Stradivarius Violin
+  - Concertmaster Alexander
+  - Ferdinand David
+  - Jascha Heifetz
+  - Felix Mendelssohn
 title: Joshua Bell
 type: interview
 ---

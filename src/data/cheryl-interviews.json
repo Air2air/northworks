@@ -4,7 +4,8 @@
     "description": "Classical music interviews with major figures",
     "count": 65,
     "generated": "2025-08-15T18:09:54.796Z",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "lastModified": "2025-08-16T01:22:30.177Z"
   },
   "interviews": [
     {
@@ -26,14 +27,16 @@
         "topics": [
           "Baritone",
           "Davies Symphony Hall",
-          "Gustav Mahler",
           "Metropolitan Opera",
-          "Opera",
           "San Francisco Opera",
           "San Francisco Symphony",
           "Soprano",
-          "Symphony",
-          "Wolfgang Amadeus Mozart"
+          "Laura Aikin",
+          "Saint Fran",
+          "Robert Schumann",
+          "Das Paradies",
+          "Deutsche Staatsoper",
+          "Gianluca Pojaghi"
         ]
       },
       "publication": {
@@ -82,13 +85,15 @@
           "Elinor Armer",
           "Interview",
           "Island Earth",
-          "Johann Sebastian Bach",
-          "Music Article",
-          "Performance",
-          "Piano",
           "Premiere",
           "Ursula Le Guin",
-          "World Premiere"
+          "World Premiere",
+          "Ursula Le",
+          "Zellerbach Hall",
+          "Uttermost Men",
+          "Le Guin",
+          "The Uttermost",
+          "Uttermost Parts"
         ]
       },
       "publication": {
@@ -137,13 +142,15 @@
           "Baritone",
           "Concerto",
           "Conducting",
-          "Franz Liszt",
-          "Piano",
           "San Francisco Symphony",
           "Soprano",
-          "Symphony",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Brent Assink",
+          "Michael Tilson",
+          "Alan Gilbert",
+          "Martin Haselbock",
+          "Edwin Outwater",
+          "James Conlon"
         ]
       },
       "publication": {
@@ -189,16 +196,16 @@
       },
       "subject": {
         "topics": [
-          "Conducting",
-          "Frédéric Chopin",
-          "Interview",
-          "Opera",
-          "Piano",
-          "Pyotr Ilyich Tchaikovsky",
           "San Francisco Symphony",
-          "Symphony",
           "Symphony No",
-          "Wolfgang Amadeus Mozart"
+          "Emanuel Ax",
+          "Richard Strauss",
+          "Karol Szymanowski",
+          "Music Director",
+          "Peter Oundjian",
+          "The Magic",
+          "Helen Ax",
+          "Father Joachim"
         ]
       },
       "publication": {
@@ -237,14 +244,16 @@
         "topics": [
           "Concerto",
           "Davies Symphony Hall",
-          "Gustav Mahler",
           "Johann Sebastian Bach",
-          "Pyotr Ilyich Tchaikovsky",
           "Richard Wagner",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin",
-          "Wolfgang Amadeus Mozart"
+          "Johann Sebastian",
+          "Bach Gesellschaft",
+          "Bay Area",
+          "Flint Center",
+          "Maestro Tilson",
+          "Alexander Barantschik",
+          "Brandenburg Concerto"
         ]
       },
       "publication": {
@@ -306,7 +315,18 @@
           }
         ]
       },
-      "tags": []
+      "tags": [],
+      "subject": {
+        "topics": [
+          "Soviet Union",
+          "Baltic Sea",
+          "The National",
+          "Mikhail Nikolaevitch",
+          "Kennedy Center",
+          "Commonwealth Award",
+          "Chubb Fellowship"
+        ]
+      }
     },
     {
       "metadata": {
@@ -330,7 +350,13 @@
           "when we",
           "piano or",
           "helped me",
-          "He has"
+          "He has",
+          "Leon Bates",
+          "Philadelphia Public",
+          "Four Seasons",
+          "Borealis Wind",
+          "Ramsey Lewis",
+          "Raoul Wallenberg"
         ]
       },
       "publication": {
@@ -378,15 +404,13 @@
       "subject": {
         "topics": [
           "Franz Liszt",
-          "Giacomo Puccini",
-          "Johann Sebastian Bach",
-          "Johannes Brahms",
-          "Ludwig van Beethoven",
-          "Opera",
-          "Pyotr Ilyich Tchaikovsky",
-          "Sergei Rachmaninoff",
-          "Symphony",
-          "Wolfgang Amadeus Mozart"
+          "Joshua Bell",
+          "Richard Goode",
+          "Evgeny Kissin",
+          "When Mozart",
+          "John Bayless",
+          "Oakland East",
+          "Paramount Theatre"
         ]
       },
       "publication": {
@@ -434,13 +458,15 @@
         "topics": [
           "Carnegie Hall",
           "Davies Symphony Hall",
-          "Johann Sebastian Bach",
-          "Johannes Brahms",
-          "Ludwig van Beethoven",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin",
-          "Wolfgang Amadeus Mozart"
+          "Joshua Bell",
+          "Samuel Barber",
+          "Violin Concerto",
+          "Stradivarius Violin",
+          "Concertmaster Alexander",
+          "Ferdinand David",
+          "Jascha Heifetz",
+          "Felix Mendelssohn"
         ]
       },
       "publication": {
@@ -491,15 +517,17 @@
       "subject": {
         "topics": [
           "Baritone",
-          "Giuseppe Verdi",
-          "Johann Sebastian Bach",
           "Metropolitan Opera",
           "Mezzo-soprano",
-          "Opera",
           "San Francisco Opera",
           "Soprano",
-          "Symphony",
-          "War Memorial Opera House"
+          "War Memorial Opera House",
+          "The Russians",
+          "Cold War",
+          "Bay Area",
+          "Valery Gergiev",
+          "Alexander Toradze",
+          "Zellerbach Auditorium"
         ]
       },
       "publication": {
@@ -545,14 +573,17 @@
       },
       "subject": {
         "topics": [
-          "Cheryl North Writes",
           "Conducting",
           "Gustav Mahler",
           "Interview",
-          "Music Article",
-          "Piano",
           "Pierre Boulez",
-          "Symphony"
+          "Igor Stravinsky",
+          "High Canning",
+          "Maestro Boulez",
+          "Deutsche Grammophon",
+          "Contemporary Music",
+          "Concert Series",
+          "Yerba Buena"
         ]
       },
       "publication": {
@@ -597,15 +628,15 @@
       "subject": {
         "topics": [
           "Classical Music",
-          "Conducting",
-          "Interview",
-          "Johann Sebastian Bach",
-          "Music Article",
           "New Orleans",
-          "Piano",
-          "Preview Section",
           "Soprano",
-          "Symphony"
+          "Branford Marsalis",
+          "Bay Area",
+          "Stanford Lively",
+          "Marsalis Brasilianos",
+          "Memorial Auditorium",
+          "Palo Alto",
+          "Ellis Marsalis"
         ]
       },
       "publication": {
@@ -652,15 +683,17 @@
       "subject": {
         "topics": [
           "Baritone",
-          "Franz Schubert",
-          "Gustav Mahler",
           "Mezzo-soprano",
-          "Opera",
-          "Pyotr Ilyich Tchaikovsky",
-          "Richard Wagner",
           "Soprano",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Russell Braun",
+          "Victor Braun",
+          "Eraine Schwing",
+          "Royal Conservatory",
+          "Canadian Opera",
+          "Carolyn Maule",
+          "Young Benjamin",
+          "Michael Schade"
         ]
       },
       "publication": {
@@ -713,7 +746,11 @@
           "he was",
           "she was",
           "San Francisco Opera",
-          "San Francisco Symphony"
+          "San Francisco Symphony",
+          "Lone Star",
+          "Bay Area",
+          "Keith Cerny",
+          "General Director"
         ]
       },
       "publication": {
@@ -766,7 +803,9 @@
           "School for",
           "pencil and",
           "him on",
-          "to study"
+          "to study",
+          "Wolfgang Amadeus",
+          "George Wolfgang"
         ]
       },
       "publication": {
@@ -814,14 +853,16 @@
         "topics": [
           "Bass",
           "Boston Symphony",
-          "Conducting",
-          "Gustav Mahler",
-          "Opera",
-          "Piano",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin",
-          "World Premiere"
+          "World Premiere",
+          "On October",
+          "Bay Area",
+          "Joe Venuti",
+          "Eddie South",
+          "Stephane Grappelli",
+          "Itzhak Perlman",
+          "The Phantom",
+          "Forever Tango"
         ]
       },
       "publication": {
@@ -868,15 +909,17 @@
       "subject": {
         "topics": [
           "Baritone",
-          "Franz Liszt",
-          "Giuseppe Verdi",
-          "Gustav Mahler",
           "Mezzo-soprano",
-          "Opera",
-          "Pyotr Ilyich Tchaikovsky",
           "Soprano",
-          "Symphony",
-          "Tenor"
+          "Tenor",
+          "World War",
+          "James Conlon",
+          "June Festival",
+          "The Third",
+          "Viktor Ullmann",
+          "Pavel Haas",
+          "Amadeus Hartmann",
+          "Franz Schreker"
         ]
       },
       "publication": {
@@ -922,16 +965,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Baritone",
           "Conducting",
-          "Interview",
-          "Opera",
-          "Piano",
           "Premiere",
           "Soprano",
-          "Symphony",
-          "Violin"
+          "Bay Area",
+          "Mother Lode",
+          "Jake Heggie",
+          "Nate Stooky",
+          "Nolan Gasser",
+          "Kirke Mecham",
+          "Kurt Rohde",
+          "Marty Rokeach"
         ]
       },
       "publication": {
@@ -976,7 +1021,10 @@
           "Der Rosenkavalier",
           "Program and",
           "will be",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "John Copley",
+          "George Frideric",
+          "If Franz"
         ]
       },
       "publication": {
@@ -1014,14 +1062,16 @@
         "topics": [
           "Baritone",
           "Davies Symphony Hall",
-          "Johann Sebastian Bach",
-          "Opera",
           "Richard Wagner",
           "San Francisco Opera",
           "San Francisco Symphony",
           "Soprano",
-          "Symphony",
-          "Tosca"
+          "Tosca",
+          "Mark Delavan",
+          "The Flying",
+          "Davies Hall",
+          "Dallas Cowboys",
+          "Joining Delavan"
         ]
       },
       "publication": {
@@ -1067,16 +1117,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
-          "Giacomo Puccini",
-          "Her Recital",
           "Interview",
-          "Merola Opera Program",
           "Mezzo-soprano",
-          "Opera",
-          "Piano",
           "San Francisco Opera",
-          "Soprano"
+          "Soprano",
+          "Remember Dorothy",
+          "The Wizard",
+          "Marilyn Horne",
+          "Herbst Theatre",
+          "John Churchwell",
+          "Southern European",
+          "Tunisian Francesco",
+          "Catalonian Fernando"
         ]
       },
       "publication": {
@@ -1113,15 +1165,18 @@
       },
       "subject": {
         "topics": [
-          "Frédéric Chopin",
-          "Giuseppe Verdi",
           "Mezzo-soprano",
-          "Opera",
           "San Francisco Opera",
           "Soprano",
           "Tenor",
           "War Memorial Opera House",
-          "Wolfgang Amadeus Mozart"
+          "The Oakland",
+          "Ruxandra Donose",
+          "Femmes Fatales",
+          "War Memorial",
+          "Opera House",
+          "Giulio Cesare",
+          "Peter Pawlik"
         ]
       },
       "publication": {
@@ -1167,16 +1222,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Carnegie Hall",
           "Concerto",
-          "Debut Performance",
           "Interview",
-          "Johann Sebastian Bach",
-          "Ludwig van Beethoven",
-          "Opera",
           "Premiere",
-          "Violin"
+          "Paul Dresher",
+          "Daniel Schmidt",
+          "Says Dresher",
+          "Bay Area",
+          "Electro Acoustic",
+          "Yerba Buena",
+          "Arts Forum",
+          "Mission St"
         ]
       },
       "publication": {
@@ -1227,7 +1284,6 @@
       },
       "subject": {
         "topics": [
-          "the upcoming",
           "on their",
           "weeks to",
           "of four",
@@ -1236,7 +1292,10 @@
           "prize in",
           "first professional",
           "he will",
-          "was named"
+          "was named",
+          "Charles Dutoit",
+          "Huntington Hotel",
+          "Bay Area"
         ]
       },
       "publication": {
@@ -1275,14 +1334,15 @@
         "topics": [
           "Carnegie Hall",
           "Davies Symphony Hall",
-          "Franz Liszt",
-          "Frédéric Chopin",
-          "Johann Sebastian Bach",
-          "Ludwig van Beethoven",
-          "Pyotr Ilyich Tchaikovsky",
           "San Francisco Symphony",
-          "Sergei Rachmaninoff",
-          "Symphony"
+          "Vladimir Feltsman",
+          "Sergei Prokofiev",
+          "Piano Concerto",
+          "Russian Festival",
+          "Michael Tilson",
+          "Russian Virtuosity",
+          "Russian Rarities",
+          "Tilson Thomas"
         ]
       },
       "publication": {
@@ -1329,15 +1389,17 @@
       "subject": {
         "topics": [
           "Baritone",
-          "Frédéric Chopin",
-          "Ludwig van Beethoven",
           "Mezzo-soprano",
-          "Opera",
-          "Richard Wagner",
           "Soprano",
-          "Symphony",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Middle East",
+          "Nolan Gasser",
+          "Black Suit",
+          "Oakland East",
+          "Paramount Theatre",
+          "The Arts",
+          "Stanford University",
+          "Robert Trent"
         ]
       },
       "publication": {
@@ -1400,7 +1462,11 @@
           "can have",
           "His virile",
           "preparing to",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "Rodney Gilfry",
+          "Half Marathon",
+          "Santa Rosa",
+          "Gala Concert"
         ]
       },
       "publication": {
@@ -1449,16 +1515,18 @@
       },
       "subject": {
         "topics": [
-          "Giacomo Puccini",
-          "Giuseppe Verdi",
           "La Traviata",
           "Metropolitan Opera",
-          "Opera",
           "Rigoletto",
           "San Francisco Opera",
           "Soprano",
           "Tenor",
-          "Tosca"
+          "Tosca",
+          "Marcello Giordani",
+          "Bay Area",
+          "Luisa Miller",
+          "Patricia Racette",
+          "Elena Zaremba"
         ]
       },
       "publication": {
@@ -1511,14 +1579,14 @@
         "topics": [
           "Carnegie Hall",
           "Davies Symphony Hall",
-          "Franz Schubert",
-          "Frédéric Chopin",
-          "Johann Sebastian Bach",
-          "Johannes Brahms",
-          "Ludwig van Beethoven",
-          "Piano",
-          "Symphony",
-          "Wolfgang Amadeus Mozart"
+          "Sir Isaac",
+          "Richard Goode",
+          "Bay Area",
+          "Marcia Weinfeld",
+          "Charles Dickens",
+          "Rudolf Serkin",
+          "Marlboro Music",
+          "Mannes College"
         ]
       },
       "publication": {
@@ -1566,14 +1634,16 @@
         "topics": [
           "Carnegie Hall",
           "Davies Symphony Hall",
-          "Giuseppe Verdi",
           "Mezzo-soprano",
-          "Opera",
           "San Francisco Opera",
           "San Francisco Symphony",
           "Soprano",
-          "Symphony",
-          "Wolfgang Amadeus Mozart"
+          "Susan Graham",
+          "Malcolm Martineau",
+          "Maestro Michael",
+          "Tilson Thomas",
+          "West Coast",
+          "Hector Berlioz"
         ]
       },
       "publication": {
@@ -1628,7 +1698,9 @@
           "and to",
           "learn and",
           "marathon to",
-          "he will"
+          "he will",
+          "Christmas Day",
+          "Merry Christmas"
         ]
       },
       "publication": {
@@ -1862,14 +1934,16 @@
         "topics": [
           "Bass",
           "Conducting",
-          "Debut Performance",
           "Interview",
           "Johann Sebastian Bach",
-          "Mythic Proportions",
-          "Opera",
-          "Piano",
-          "Sergei Rachmaninoff",
-          "Symphony"
+          "Alexandros Kapelis",
+          "Al Pacino",
+          "Bay Area",
+          "Herbst Theatre",
+          "The Greek",
+          "Greek National",
+          "Greek Consulate",
+          "Hellenic Ministry"
         ]
       },
       "publication": {
@@ -1922,13 +1996,16 @@
         "topics": [
           "Carnegie Hall",
           "Davies Symphony Hall",
-          "Interview",
-          "Ludwig van Beethoven",
-          "Piano",
           "Premiere",
           "San Francisco Symphony",
-          "Symphony",
-          "World Premiere"
+          "World Premiere",
+          "When American",
+          "Charles Ives",
+          "The Unanswered",
+          "Victor Kissine",
+          "Michael Tilson",
+          "Leningrad Conservatory",
+          "Perennial Question"
         ]
       },
       "publication": {
@@ -1975,13 +2052,15 @@
         "topics": [
           "Concerto",
           "Franz Liszt",
-          "Frédéric Chopin",
-          "Johann Sebastian Bach",
-          "Opera",
-          "Piano",
           "San Francisco Symphony",
-          "Sergei Rachmaninoff",
-          "Symphony"
+          "If Roman",
+          "Lang Lang",
+          "Davies Hall",
+          "Sergei Prokofiev",
+          "Piano Concerto",
+          "Maestro Michael",
+          "Tilson Thomas",
+          "Mephisto Waltz"
         ]
       },
       "publication": {
@@ -2038,7 +2117,11 @@
           "will also",
           "she will",
           "San Francisco Symphony",
-          "Oakland Symphony"
+          "Oakland Symphony",
+          "Lorraine Hunt",
+          "Bay Area",
+          "Robert Hughes",
+          "San Mateo"
         ]
       },
       "publication": {
@@ -2086,7 +2169,14 @@
           "two accomplished",
           "of her",
           "like to",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "Bay Area",
+          "King Herod",
+          "The Flying",
+          "Royal Opera",
+          "Covent Garden",
+          "Lise Lindstrom",
+          "Richard Wagner"
         ]
       },
       "publication": {
@@ -2118,15 +2208,18 @@
       },
       "subject": {
         "topics": [
-          "Giuseppe Verdi",
-          "Johann Sebastian Bach",
           "Metropolitan Opera",
-          "Opera",
-          "Richard Wagner",
           "Rigoletto",
           "San Francisco Opera",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Frank Lopardo",
+          "Robert White",
+          "Northern Italy",
+          "Queens College",
+          "Juilliard School",
+          "Although Lopardo",
+          "La Boheme",
+          "Eugene Onegin"
         ]
       },
       "publication": {
@@ -2180,7 +2273,9 @@
           "diverse achievements",
           "well as",
           "even still",
-          "classically trained"
+          "classically trained",
+          "Cheryl North",
+          "Interviews Audra"
         ]
       },
       "publication": {
@@ -2221,11 +2316,12 @@
           "Classical Music",
           "Frances Tipton",
           "Harry Tomlinson",
-          "Johann Sebastian Bach",
-          "Music Article",
-          "Opera",
-          "Piano",
-          "War Memorial Opera House"
+          "War Memorial Opera House",
+          "Leah Neiman",
+          "Ruth Goodsmith",
+          "Jong Jr",
+          "Brigham Young",
+          "Donald King"
         ]
       },
       "publication": {
@@ -2289,14 +2385,17 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Bass",
           "Conducting",
-          "Interview",
           "Kurt Masur",
-          "Piano",
           "San Francisco Symphony",
-          "Symphony"
+          "Bay Area",
+          "Benjamin Britten",
+          "War Requiem",
+          "Mandarin Restaurant",
+          "World War",
+          "Berlin Wall",
+          "Federal Republic"
         ]
       },
       "publication": {
@@ -2465,10 +2564,13 @@
           "Franz Schubert",
           "Gustav Mahler",
           "London Symphony",
-          "Ludwig van Beethoven",
-          "Opera",
-          "Piano",
-          "Symphony"
+          "Deutsches Symphonie",
+          "Orchester Berlin",
+          "Associate Principal",
+          "Guest Conductor",
+          "Principal Guest",
+          "Kent Nagano",
+          "Morro Bay"
         ]
       },
       "publication": {
@@ -2516,13 +2618,15 @@
           "Carmen",
           "Carnegie Hall",
           "Concerto",
-          "Johann Sebastian Bach",
-          "Ludwig van Beethoven",
-          "Piano",
-          "Pyotr Ilyich Tchaikovsky",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "Moscow Chamber",
+          "Shostakovich Piano",
+          "Concerto No",
+          "Shostakovich Concerto",
+          "Like John",
+          "Constantine Orbelian",
+          "Herbst Theatre",
+          "Van Ness"
         ]
       },
       "publication": {
@@ -2578,16 +2682,18 @@
       },
       "subject": {
         "topics": [
-          "Giacomo Puccini",
-          "Giuseppe Verdi",
-          "Johann Sebastian Bach",
           "La Traviata",
           "Mezzo-soprano",
-          "Opera",
-          "Richard Wagner",
           "San Francisco Opera",
           "Soprano",
-          "War Memorial Opera House"
+          "War Memorial Opera House",
+          "Patricia Racette",
+          "Il Trittico",
+          "War Memorial",
+          "Opera House",
+          "Suor Angelica",
+          "Patrick Summers",
+          "Il Tabarro"
         ]
       },
       "publication": {
@@ -2746,12 +2852,15 @@
           "Baritone",
           "Bass",
           "Conducting",
-          "Opera",
-          "Piano",
-          "Richard Wagner",
           "San Francisco Opera",
           "San Francisco Symphony",
-          "Symphony"
+          "Bay Area",
+          "Michael Tilson",
+          "Maestro Kent",
+          "Donald Runnicles",
+          "Berlin Philharmonic",
+          "Benjamin Britten",
+          "War Requiem"
         ]
       },
       "publication": {
@@ -2804,12 +2913,15 @@
           "Concerto",
           "Conducting",
           "Davies Symphony Hall",
-          "Interview",
-          "Johannes Brahms",
-          "Pyotr Ilyich Tchaikovsky",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "Running Rings",
+          "The Memoirs",
+          "Dmitri Shostakovich",
+          "The Guide",
+          "Perfect Handbag",
+          "Soviet Union",
+          "Sarah Chang",
+          "Max Bruch"
         ]
       },
       "publication": {
@@ -2854,16 +2966,18 @@
       },
       "subject": {
         "topics": [
-          "Conducting",
           "Daniel Handler",
           "Davies Symphony Hall",
           "Interview",
-          "Johann Sebastian Bach",
           "Lemony Snicket",
-          "Ludwig van Beethoven",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "The Composer",
+          "Is Dead",
+          "Nathaniel Stookey",
+          "Unfortunate Events",
+          "The Bad",
+          "The Reptile",
+          "The Wide"
         ]
       },
       "publication": {
@@ -2915,15 +3029,17 @@
       "subject": {
         "topics": [
           "Bass",
-          "Conducting",
           "Interview",
-          "Johann Sebastian Bach",
-          "Opera",
-          "Piano",
           "Premiere",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "The Oakland",
+          "East Bay",
+          "Big Bang",
+          "Paramount Theatre",
+          "Michael Morgan",
+          "West Coast",
+          "Duke University",
+          "North Carolina"
         ]
       },
       "publication": {
@@ -2970,15 +3086,15 @@
       "subject": {
         "topics": [
           "Baritone",
-          "Franz Schubert",
-          "Giacomo Puccini",
-          "Giuseppe Verdi",
-          "Johann Sebastian Bach",
-          "Johannes Brahms",
-          "Opera",
-          "Richard Wagner",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "Bryn Terfel",
+          "Nick Shadow",
+          "The Rake",
+          "Igor Stravinsky",
+          "Malcolm Martineau",
+          "Richard Burton",
+          "Frank Sinatra",
+          "Elvis Presley"
         ]
       },
       "publication": {
@@ -3029,16 +3145,18 @@
       },
       "subject": {
         "topics": [
-          "Aria",
           "Don Giovanni",
           "Giacomo Puccini",
-          "Opera",
-          "Richard Wagner",
           "San Francisco Opera",
           "Soprano",
-          "Swedish Soprano Ir",
           "Tosca",
-          "Wolfgang Amadeus Mozart"
+          "War Memorial",
+          "Royal Opera",
+          "Alban Berg",
+          "Birgit Nilsson",
+          "Richard Strauss",
+          "Das Rheingold",
+          "Donna Anna"
         ]
       },
       "publication": {
@@ -3211,13 +3329,15 @@
         "topics": [
           "Concerto",
           "Davies Symphony Hall",
-          "Johannes Brahms",
-          "Ludwig van Beethoven",
-          "Piano",
-          "Pyotr Ilyich Tchaikovsky",
           "San Francisco Symphony",
-          "Symphony",
-          "Violin"
+          "Osmo Vanska",
+          "Finn Jean",
+          "Carl Nielsen",
+          "Leonard Bernstein",
+          "Jorma Panula",
+          "Sibelius Academy",
+          "Besancon Young",
+          "Turku Philharmonic"
         ]
       },
       "publication": {
@@ -3263,14 +3383,16 @@
       "subject": {
         "topics": [
           "Christopher Ventris",
-          "Conducting",
-          "Debut Performance",
           "Interview",
-          "Opera",
           "Richard Wagner",
           "San Francisco Opera",
           "Tenor",
-          "Wolfgang Amadeus Mozart"
+          "The London",
+          "In Gilbert",
+          "The Sorcerer",
+          "Joy Mammen",
+          "Joan Sutherland",
+          "Luciano Pavarotti"
         ]
       },
       "publication": {
@@ -3324,7 +3446,9 @@
           "trip to",
           "hear him",
           "Rolando to",
-          "he is"
+          "he is",
+          "Rolando Villazon",
+          "La Traviata"
         ]
       },
       "publication": {
@@ -3376,7 +3500,12 @@
           "feet wet",
           "single opera",
           "get to",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "Deborah Voigt",
+          "Masked Ball",
+          "Covent Garden",
+          "Richard Strauss",
+          "Chicago Lyric"
         ]
       },
       "publication": {
@@ -3432,7 +3561,10 @@
           "voice and",
           "actually did",
           "orchestras and",
-          "indeed piano"
+          "indeed piano",
+          "Sir Winston",
+          "Arcadi Volodos",
+          "Franz Liszt"
         ]
       },
       "publication": {
@@ -3475,7 +3607,7 @@
         "lastModified": "2025-08-15T18:09:54.782Z"
       },
       "content": {
-        "title": "Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about the 2010 San Francisco Opera Production of <i>Die Walküre</i>",
+        "title": "Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about the 2010 San Francisco Opera Production of Die Walküre",
         "summary": "How do you portray a god?\n\nThat was a question a fan recently asked handsome, linebacker-built baritone Mark Delavan, who will portray Wotan, Nordic king of the gods, in San Francisco Opera's upcomin...",
         "fullContent": "\nHow do you portray a god?\n\nThat was a question a fan recently asked handsome, linebacker-built baritone Mark Delavan, who will portray Wotan, Nordic king of the gods, in San Francisco Opera's upcoming production of Richard Wagner's  Die Walküre. \"\n\n\"You don't!\" said Delavan.\"What you do is play up the god's human-like qualities,\" he added.\n\nDelavan's Wotan — a character he first stepped into when S.F. Opera began its so-called \"American\" take on the Wagner  Ring  Cycle with a production of  Das Rheingold  in 2008 — \"is just as messed up as we ordinary people are.\"\n\nDuring a recent phone chat, amiable, bronze-voiced Delavan explained he portrays Wotan as passionate, emotional, quick to anger when disobeyed, incredibly duplicitous and greedy — \"a little like one of the big financial moguls during the first part of the last century in the United States.\"\n\n\"He's also terrifically henpecked by his wife, the goddess Fricka, and deeply loves and trusts his favorite daughter, the Valkyrie Brünnhilde,\" he continued. (The Valkyries were the flying godlike maidens resulting from Wotan's previous coupling with the Earth goddess Erda.)\n\nDelavan, who also has sung the title role in Wagner's  The Flying Dutchman  throughout the world, quips that \"I'm just a rookie Wotan,\" but he does seem to have found his niche.\n\nA deeply committed family man, he revealed that he fights tears when the point in the opera comes for Wotan to kill his son, Sigmund.\n\n\"It's a moment when I can't help but think how I feel about my own four sons, he said. \"I'm sure it shows up in my singing.\"\n\nAnother commonality shared by Wotan and Delavan is that both carve wood and work with metal. Wotan is supposed to have crafted his own spear, Delavan explained.\n\n\"I love to carve wood, especially knife, dirk and dagger handles, as well as to etch the metal of the blades. I even carved my own spear for  Die Walküre 's premiere in Washington, D.C. But the director/designer, Francesca Zambello, replaced the staff part with something more raw and rough-hewn.\"\n\nHis passion for carving and design almost rivals his love for opera. He even has a website displaying his artistic creations, [www.delavanedge.com](http://www.delavanedge.com).\n\n\"But, I generally carve for relaxation and satisfaction, sometimes even during rehearsal breaks,\" he said. \"A lot of pieces of wood have saved my sanity!\"\n\nAccording to Delavan, Wagner's ingenious use of the leitmotif technique in his  Ring  operas has contributed to their popularity. (A leitmotif is a specific musical theme played throughout the opera to signify a particular idea, emotion, or person.)\n\n\"Somehow, a leitmotif can penetrate your brain, even if you don't know music that well. That's one reason why there are so many 'Ringheads' around,\" he said, adding that one middle-aged fan told him after a recent performance that it was his 85th  Ring .\n\nAs an example, Delavan singled out the Valhalla theme, especially as it is played by a choir of brass instruments, as his choice for the most noble, profound music in Wagner's operas. When I asked him if he could remind me of that particular theme, he said, \"Just a minute — I'll try to find my horn voice.\"\n\nThen, right over the phone, he proceeded to replicate the timbre of a French horn to illustrate the soaring theme. I almost cried.\n\nI suppose I would have, had soprano Nina Stemme, the production's Brünnhilde, not appeared at the door for our scheduled interview.\n\nPetite, fit and dark-haired, Swedish-born Stemme can dazzle at first sight with her incandescent blue eyes. But the alto-pitched warmth of her speaking voice put me completely at ease.\n\nAlthough she is seasoned in many roles, the San Francisco performance represents her debut as Brünnhilde. According to a talk conductor Donald Runnicles gave at the Opera House later that evening, Stemme is on the fast track to becoming one of the greatest Brünnhildes ever.\n\nWhen I asked her how she perceives the character, she replied, \"Brünnhilde is the son Wotan never got. He trusts her to carry out his will and together, they create a sort of team.\"\n\nShe elaborated that Wotan, as ruler of the gods, is expected to follow the rules. Brünnhilde, on the other hand, is driven by a will of her own and strong emotions. In \"Walküre,\" she is a very undeveloped persona, a teenager. By the end of the  Ring ,\" in  Götterdämmerung , the mature Brünnhilde becomes civilization's savior by casting the Rhine gold back into the river from which it was wrongly stolen.\n\nWhen I asked her if she always wanted to be a singer, she replied that although she had played violin, viola and piano and sang in school choirs as a child, she actually had planned to become an engineer or an economist. After a year as an exchange student in a Virginia high school, she was converted to music. When she returned to Sweden, she had to go through three auditions at a college where she could study opera before she was finally admitted.\n\nNow she is in demand in the greatest opera houses of the world. However, despite her fame and acclaim, she says, \"I devote most of my non-singing time to my family -- my stage-designer husband, two daughters and a son.\" The smile accompanying these words told me she means it.\n",
         "url": "/interviews/c-walkuere-2010"
@@ -3488,7 +3620,12 @@
           "it is",
           "San Francisco",
           "she had",
-          "San Francisco Opera"
+          "San Francisco Opera",
+          "Mark Delavan",
+          "Richard Wagner",
+          "Die Walk",
+          "Das Rheingold",
+          "Valkyrie Br"
         ]
       },
       "publication": {
@@ -3522,16 +3659,17 @@
       },
       "subject": {
         "topics": [
-          "Interview",
-          "Music Article",
-          "Opera",
           "Our Town",
           "Premiere",
           "Pulitzer Prize",
           "Soprano",
-          "Symphony",
           "Tenor",
-          "Thornton Wilder"
+          "Thornton Wilder",
+          "Coachella Valley",
+          "Union High",
+          "Bay Area",
+          "Ned Rorem",
+          "West Coast"
         ]
       },
       "publication": {

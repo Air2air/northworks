@@ -17,11 +17,11 @@ subjects:
   - pianist might
   - also will
   - music is
-  - young son
-  - he has
-  - renown opera
-  - ability in
-  - seem to
+  - Yves Thibaudet
+  - Zellerbach Hall
+  - Like Liszt
+  - In Europe
+  - Franz Liszt
 title: Thibaubet gives a lift to legacy of Liszt in Berkeley recital
 type: interview
 ---

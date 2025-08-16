@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "analyze": "ANALYZE=true next build"
+    "analyze": "ANALYZE=true next build",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod",
+    "preview": "vercel dev",
+    "vercel-build": "next build",
+    "postbuild": "echo 'Build completed successfully!'"
   },
   "dependencies": {
     "@types/marked": "^5.0.2",

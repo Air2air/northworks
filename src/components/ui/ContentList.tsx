@@ -32,7 +32,7 @@ export default function ContentList({
   if (items.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-gray-600">{emptyMessage}</p>
+        <p className="text-sky-600">{emptyMessage}</p>
       </div>
     );
   }
@@ -49,10 +49,10 @@ export default function ContentList({
           href={`${baseUrl}/${item.slug}`}
           className="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
         >
-          <h3 className="font-bold text-lg text-gray-900 mb-2">
+          <h3 className="font-bold text-lg text-sky-900 mb-2">
             {item.frontmatter.title}
           </h3>
-          <p className="text-sm text-blue-600">
+          <p className="text-sm text-sky-600">
             Click to read {item.frontmatter.type || 'content'} →
           </p>
         </Link>

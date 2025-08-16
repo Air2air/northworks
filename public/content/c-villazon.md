@@ -19,6 +19,8 @@ subjects:
   - hear him
   - Rolando to
   - he is
+  - Rolando Villazon
+  - La Traviata
 title: Cheryl North Interviews Rolando Villazon
 type: interview
 ---

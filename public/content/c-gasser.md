@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-gasser
 images:
   - height: 212
@@ -12,7 +12,7 @@ images:
     src: /images/bob-jones-and-nolan-gasser-in-nm.jpg
     width: 196
 publication:
-  date: January 19, 2007
+  date: 2007-01-19
   publisher: ANG Newspapers Classical Music
 subjects:
   - Baritone

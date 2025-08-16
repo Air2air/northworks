@@ -1,8 +1,8 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-walkuere-2010
 publication:
-  date: June 4, 2010
+  date: 2010-06-04
   publisher: Bay Area News Group
 subjects:
   - do is

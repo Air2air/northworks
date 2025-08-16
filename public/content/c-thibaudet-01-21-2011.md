@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-thibaudet2011
 images:
   - height: 297
@@ -9,7 +9,7 @@ images:
     src: /images/thibaudet-wandc.jpg
     width: 200
 publication:
-  date: January 21, 2011
+  date: 2011-01-21
   publisher: Bay Area News Group, Contra Costa Times
 subjects:
   - write and

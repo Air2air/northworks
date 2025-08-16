@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-tristan-stuttgart
 images:
   - height: 28
@@ -13,7 +13,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: October 22, 2004
+  date: 2004-10-22
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Aria

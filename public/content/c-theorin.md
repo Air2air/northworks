@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-theorin
 images:
   - src: /images/theorin-lg.jpg
@@ -7,7 +7,7 @@ images:
   - src: /images/theorin-sm.jpg
     width: 230
 publication:
-  date: September 2, 2011
+  date: 2011-09-02
   publisher: Bay Area News Group
 subjects:
   - Aria

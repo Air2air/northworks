@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-oebs-11-08
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: November 14, 2008
+  date: 2008-11-14
   publisher: Oakland Tribune
 subjects:
   - Bass

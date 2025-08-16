@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-articles-deadman
 images:
   - height: 28
@@ -21,7 +21,7 @@ images:
     src: /images/dmw-3.jpg
     width: 220
 publication:
-  date: 2000
+  date: 2000-01-01
   publisher: Opera Now
 subjects:
   - Baritone

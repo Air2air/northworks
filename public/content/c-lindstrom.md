@@ -1,8 +1,8 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-lindstrom
 publication:
-  date: October 25, 2013
+  date: 2013-10-25
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Area while

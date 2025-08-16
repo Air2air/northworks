@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-main
 images:
   - height: 28
@@ -18,7 +18,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: October
+  date: null
 subjects:
   - Cheryl North
   - Classical Music

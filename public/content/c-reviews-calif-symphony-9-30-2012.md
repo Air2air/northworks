@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-calif-symphony-9-30-2012
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: September 30 2012
+  date: 2012-09-30
   publisher: Bay Area News Group
 subjects:
   - Bass

@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-crucible-dido
 images:
   - height: 28
@@ -13,7 +13,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: January 16, 2004
+  date: 2004-01-16
   publisher: Oakland Tribune, The Alameda Times-Star
 subjects:
   - Auction and

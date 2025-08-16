@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-paris
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: November 16, 1999
+  date: 1999-11-16
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Aria

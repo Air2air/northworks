@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-conlon
 images:
   - height: 125
     src: /images/james-conlon-conducting.jpg
     width: 173
 publication:
-  date: June 2, 2006
+  date: 2006-06-02
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

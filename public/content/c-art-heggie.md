@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-heggie
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: October 27, 2006
+  date: 2006-10-27
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - attending the

@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-sfsmahler5
 images:
   - height: 28
@@ -7,7 +7,7 @@ images:
     width: 250
 publication:
   author: Cheryl North
-  date: September 28, 2005
+  date: 2005-09-28
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Concert Review

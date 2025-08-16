@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-assink
 images:
   - height: 150
     src: /images/assink.jpg
     width: 112
 publication:
-  date: October 28, 2005
+  date: 2005-10-28
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

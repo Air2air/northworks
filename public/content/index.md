@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-15'
+conversion date: 2025-08-15
 id: index
 images:
   - height: 140
@@ -12,7 +12,7 @@ images:
     src: /images/mephisto-square-ildar-abdrazakov-sfop-2013.png
     width: 150
 publication:
-  date: 2017
+  date: 2017-01-01
   publisher: NorthWorks
 subjects:
   - Homepage

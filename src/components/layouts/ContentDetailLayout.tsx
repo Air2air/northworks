@@ -2,9 +2,11 @@ import React from 'react';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import PageLayout from './PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
+import PublicationInfo from '@/components/ui/PublicationInfo';
 import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
+import { formatDate } from '@/lib/dateUtils';
 
 interface BreadcrumbItem {
   label: string;
@@ -117,33 +119,13 @@ export default function ContentDetailLayout({
           
           {/* Publication Information */}
           {frontmatter.publication && (
-            <div className="bg-gray-50 rounded-lg p-4 mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                {getPublicationLabel(contentType)}
-              </h3>
-              <div className="text-sm text-gray-600 space-y-1">
-                {frontmatter.publication.date && (
-                  <div>
-                    <span className="font-medium">Date:</span> {frontmatter.publication.date}
-                  </div>
-                )}
-                {(frontmatter.publication.outlet || frontmatter.publication.publisher) && (
-                  <div>
-                    <span className="font-medium">Publication:</span> {frontmatter.publication.outlet || frontmatter.publication.publisher}
-                  </div>
-                )}
-                {frontmatter.publication.section && (
-                  <div>
-                    <span className="font-medium">Section:</span> {frontmatter.publication.section}
-                  </div>
-                )}
-                {frontmatter.publication.author && (
-                  <div>
-                    <span className="font-medium">Author:</span> {frontmatter.publication.author}
-                  </div>
-                )}
-              </div>
-            </div>
+            <PublicationInfo
+              date={frontmatter.publication.date ? formatDate(frontmatter.publication.date) : null}
+              publication={frontmatter.publication.outlet || frontmatter.publication.publisher}
+              section={frontmatter.publication.section}
+              author={frontmatter.publication.author}
+              title={getPublicationLabel(contentType)}
+            />
           )}
 
           {/* Tags */}

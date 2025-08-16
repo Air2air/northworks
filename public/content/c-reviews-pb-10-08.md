@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-pb-10-08
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: October 17, 2008
+  date: 2008-10-17
   publisher: Oakland Tribune
 subjects:
   - Concert Review

@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-stookey
 images:
   - height: 150
     src: /images/stookey.jpg
     width: 127
 publication:
-  date: November 19, 2004
+  date: 2004-11-19
   publisher: ANG Newspaper Column
 subjects:
   - Bass

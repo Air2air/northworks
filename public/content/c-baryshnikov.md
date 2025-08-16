@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-baryshnikov
 images:
   - height: 140
     src: /images/thm-baryshnikov.jpg
     width: 144
 publication:
-  date: March 17, 2006
+  date: 2006-03-17
   publisher: ANG Newspapers Classical Music Column
 title: More honors for the amazing Mikhail Baryshnikov
 type: interview

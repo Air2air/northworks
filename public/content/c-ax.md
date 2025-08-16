@@ -1,9 +1,9 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-ax
 images: null
 publication:
-  date: October 10, 2008
+  date: 2008-10-10
   publisher: Bay Area News Group
 subjects:
   - Conducting

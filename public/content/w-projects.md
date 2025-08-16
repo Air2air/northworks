@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-projects
 images:
   - height: 28
@@ -135,7 +135,7 @@ images:
     src: /images/logo-blank.gif
     width: 50
 publication:
-  date: January
+  date: null
   publisher: the Society
 subjects:
   - Government Service
@@ -332,5 +332,5 @@ Analysis of nuclear power and electric capacity expansion decisions; development
 
  Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bodies.
 
- [Laser technology consulting](/articles//w-laser)
+ 
 

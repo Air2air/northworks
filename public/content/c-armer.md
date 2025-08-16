@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-armer
 images:
   - height: 200
     src: /images/elinor-armer.jpg
     width: 160
 publication:
-  date: November 18, 1995
+  date: 1995-11-18
   publisher: ANG Newspapers
 subjects:
   - Elinor Armer

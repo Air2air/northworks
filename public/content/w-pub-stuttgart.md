@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: w-pub-stuttgart
 images:
   - height: 195
     src: /images/wnstuttgart10-04.jpg
     width: 260
 publication:
-  date: October 11, 2004
+  date: 2004-10-11
   publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
 subjects:
   - Aria

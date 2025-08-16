@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-pub
 images:
   - height: 28
@@ -39,7 +39,7 @@ images:
     src: /images/book-government.gif
     width: 60
 publication:
-  date: April
+  date: null
   publisher: Silvio Funtowicz
 subjects:
   - Aria
@@ -446,7 +446,7 @@ Managing the Process](http://books.nap.edu/catalog.php?record id=366)
 
 National Research Council, 1983
 
-[Laser technology consulting](/articles//w-laser)
+
 
 [.](http://www.dunningmarketing.com)
 [.](http://www.northworks.net)

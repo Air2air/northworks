@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-lvo-barber-10-08
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: October 11, 2008
+  date: 2008-10-11
   publisher: Bay Area News Group
 subjects:
   - Baritone

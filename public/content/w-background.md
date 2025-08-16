@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-background
 images:
   - height: 28
@@ -46,5 +46,5 @@ Sigma Xi, Phi Beta Kappa.
 
 National Science Foundation fellowships in physics (1962-4), mathematics (1965-7).
 
- [Laser technology consulting](/articles//w-laser)
+ 
 

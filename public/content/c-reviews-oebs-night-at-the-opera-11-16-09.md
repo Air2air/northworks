@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-oebs-night-at-the-opera-11-16-09
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: November 13, 2009
+  date: 2009-11-13
   publisher: Cheryl North
 subjects:
   - Aida

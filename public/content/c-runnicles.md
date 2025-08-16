@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-runnicles
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/runnicles.jpg
     width: 160
 publication:
-  date: January 16, 2004
+  date: 2004-01-16
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

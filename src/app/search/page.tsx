@@ -63,12 +63,12 @@ export default async function UnifiedSearchPage() {
   
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      <PageTitle 
+      {/* <PageTitle 
         title="Search NorthWorks"
         description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
         align="left"
         size="medium"
-      />
+      /> */}
       <Suspense fallback={
         <div className="animate-pulse">
           <div className="h-8 bg-gray-200 rounded mb-4"></div>

@@ -1,8 +1,8 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-macdonald
 publication:
-  date: April 16, 2010
+  date: 2010-04-16
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - to her

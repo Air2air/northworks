@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-baby-doe-berkeley-opera-2009
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: July
+  date: null
   publisher: Bay Area News Group
 subjects:
   - Baby Doe

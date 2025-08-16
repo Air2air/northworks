@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-barantschik
 images:
   - height: 250
@@ -9,7 +9,7 @@ images:
     src: /images/barantschik-and-violin.jpg
     width: 123
 publication:
-  date: February 16, 2007
+  date: 2007-02-16
   publisher: San Francisco Examiner
 subjects:
   - Concerto

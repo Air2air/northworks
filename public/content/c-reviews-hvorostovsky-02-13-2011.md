@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-hvorostovsky-2-13-2011
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: February 13, 2011
+  date: 2011-02-13
   publisher: ANG Newspapers
 subjects:
   - Baritone

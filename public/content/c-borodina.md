@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-borodina
 images:
   - height: 160
     src: /images/thm-borodina.jpg
     width: 160
 publication:
-  date: September 15, 2000
+  date: 2000-09-15
   publisher: ANG Newspapers Classical Music Column for Preview Section
 subjects:
   - Baritone

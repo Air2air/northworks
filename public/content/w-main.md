@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-main
 images:
   - height: 28
@@ -15,7 +15,7 @@ images:
     src: /images/title-advisory-boards.gif
     width: 220
 publication:
-  date: December
+  date: null
   publisher: the Commission
 title: D. Warner North - Professional Biography
 type: background

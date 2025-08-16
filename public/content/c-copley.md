@@ -1,8 +1,8 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-copley
 publication:
-  date: November 3, 2000
+  date: 2000-11-03
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - understand why

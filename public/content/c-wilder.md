@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-wilder
 images:
   - height: 170
     src: /images/tappan-wilder-c-w-2007.jpg
     width: 245
 publication:
-  date: August 10, 2007
+  date: 2007-08-10
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Interview

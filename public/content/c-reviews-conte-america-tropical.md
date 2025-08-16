@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-conte-america-tropical
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: May 25, 2007
+  date: 2007-05-25
   publisher: Oakland Tribune, Bay Area News Group
 subjects:
   - Concert Review

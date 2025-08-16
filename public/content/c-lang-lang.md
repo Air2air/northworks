@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-lang-lang
 images:
   - height: 212
@@ -9,7 +9,7 @@ images:
     src: /images/lang-lang-mother.jpg
     width: 212
 publication:
-  date: September 9, 2009
+  date: 2009-09-09
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Concerto

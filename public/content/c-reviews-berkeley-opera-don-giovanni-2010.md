@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-berkeley-opera-don-giovanni-2010
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: February 22, 2010
+  date: 2010-02-22
   publisher: Bay Area News Group
 subjects:
   - Aria

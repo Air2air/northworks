@@ -1,8 +1,8 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-dutoit
 publication:
-  date: April 27, 2007
+  date: 2007-04-27
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - the upcoming

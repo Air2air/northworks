@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-sfo-simonboc-9-08
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: September 5, 2008
+  date: 2008-09-05
   publisher: Bay Area News Group
 subjects:
   - Aria

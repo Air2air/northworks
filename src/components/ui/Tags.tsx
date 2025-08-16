@@ -3,7 +3,7 @@ import Link from 'next/link';
 export interface TagsProps {
   tags: string[];
   maxVisible?: number;
-  variant?: 'default' | 'compact' | 'medium' | 'large';
+  variant?: 'default' | 'compact' | 'large';
   showMoreText?: boolean;
   className?: string;
 }
@@ -27,13 +27,11 @@ const Tags: React.FC<TagsProps> = ({
     
     switch (variant) {
       case 'compact':
-        return `${baseStyles} px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full hover:bg-blue-200 focus:ring-blue-500`;
-      case 'medium':
-        return `${baseStyles} px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-lg hover:bg-blue-200 focus:ring-blue-500`;
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-900 text-white rounded-full hover:bg-blue-800 focus:ring-blue-500`;
       case 'large':
-        return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-100 text-blue-800 rounded-lg hover:bg-blue-200 focus:ring-blue-500`;
+        return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-900 text-white rounded-lg hover:bg-blue-800 focus:ring-blue-500`;
       default:
-        return `${baseStyles} px-2 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-md hover:bg-blue-200 focus:ring-blue-500`;
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-900 text-white rounded-md hover:bg-blue-800 focus:ring-blue-500`;
     }
   };
 
@@ -42,13 +40,11 @@ const Tags: React.FC<TagsProps> = ({
     
     switch (variant) {
       case 'compact':
-        return `${baseStyles} px-2 py-1 text-xs font-medium bg-blue-50 text-blue-600 rounded-full`;
-      case 'medium':
-        return `${baseStyles} px-3 py-1 text-sm font-medium bg-blue-50 text-blue-600 rounded-lg`;
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-800 text-white rounded-full`;
       case 'large':
-        return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-50 text-blue-600 rounded-lg`;
+        return `${baseStyles} px-4 py-2 text-base font-medium bg-blue-800 text-white rounded-lg`;
       default:
-        return `${baseStyles} px-2 py-1 text-xs font-medium bg-blue-50 text-blue-600 rounded-md`;
+        return `${baseStyles} px-3 py-1.5 text-sm font-medium bg-blue-800 text-white rounded-md`;
     }
   };
 

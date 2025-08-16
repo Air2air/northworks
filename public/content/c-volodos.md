@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-volodos
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/volodos.jpg
     width: 200
 publication:
-  date: February 4, 2003
+  date: 2003-02-04
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - during his

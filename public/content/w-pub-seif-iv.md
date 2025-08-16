@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-pub-seif-iv
 images:
   - height: 320
@@ -24,7 +24,7 @@ images:
     src: /images/balticgascumd.gif
     width: 260
 publication:
-  date: November 14, 2005
+  date: 2005-11-14
   publisher: SEIF-IV Conference, Brussels, Belgium 
 subjects:
   - Aria

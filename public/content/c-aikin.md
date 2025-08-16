@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-aikin
 images:
   - height: 200
     src: /images/laura-aikin.jpg
     width: 160
 publication:
-  date: February 18, 2005
+  date: 2005-02-18
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

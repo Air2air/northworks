@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-stewart
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/stewart.jpg
     width: 227
 publication:
-  date: June 16, 1999
+  date: 1999-06-16
   publisher: ANG Newspapers
 subjects:
   - Baritone

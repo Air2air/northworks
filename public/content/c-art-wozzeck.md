@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-wozzeck
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: January 26, 2010
+  date: 2010-01-26
   publisher: ANG Newspapers Preview Section
 subjects:
   - Baritone

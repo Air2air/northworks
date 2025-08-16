@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-oebs-bernsteinmass
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: May 20, 2005
+  date: 2005-05-20
   publisher: Oakland Tribune,Alameda Newspaper Group
 subjects:
   - Aria

@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-giordani
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/giordani.jpg
     width: 191
 publication:
-  date: August 25, 2000
+  date: 2000-08-25
   publisher: ANG PREVIEW Section Classical Music Column
 subjects:
   - Giacomo Puccini

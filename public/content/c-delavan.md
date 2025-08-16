@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-delavan
 images:
   - height: 137
     src: /images/delavan-mark.jpg
     width: 175
 publication:
-  date: June 13, 2003
+  date: 2003-06-13
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

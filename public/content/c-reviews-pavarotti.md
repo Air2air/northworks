@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-pavarotti
 images:
   - height: 28
@@ -13,7 +13,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: April 8, 1994
+  date: 1994-04-08
   publisher: Oakland Tribune
 subjects:
   - Aria

@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-racette
 images:
   - height: 184
     src: /images/racette-c-w-9-15-09.jpg
     width: 230
 publication:
-  date: September 16, 2009
+  date: 2009-09-16
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Giacomo Puccini

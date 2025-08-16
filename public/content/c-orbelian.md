@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-orbelian
 images:
   - height: 28
@@ -12,7 +12,7 @@ images:
     src: /images/moscow.jpg
     width: 250
 publication:
-  date: February 7, 2003
+  date: 2003-02-07
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Carmen

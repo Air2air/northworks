@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-kapelis
 images:
   - height: 160
@@ -9,7 +9,7 @@ images:
     src: /images/kapelis-norths.jpg
     width: 207
 publication:
-  date: March 16, 2007
+  date: 2007-03-16
   publisher: ANG Newspapers Classical Music
 subjects:
   - Bass

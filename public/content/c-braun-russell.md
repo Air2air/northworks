@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-braun-russell
 images:
   - height: 200
     src: /images/russell-braun.jpg
     width: 160
 publication:
-  date: December 2, 2004
+  date: 2004-12-02
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Baritone

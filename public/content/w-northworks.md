@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-northworks
 images:
   - height: 28
@@ -55,4 +55,3 @@ Warner North is again teaching at Stanford University, on the application of dec
 
 Read Cheryl North's recent column on the brilliant young Russian pianist, [Arcadi Volodos](c-volodos), who performed at Davies Hall in San Francisco in February 2003. For other such features on stars of the local and international music scene, see [Interviews](c-interviews).
 
-[Laser technology consulting](/articles//w-laser)

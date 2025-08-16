@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
   - height: 28
@@ -12,7 +12,7 @@ images:
     src: /images/hvorostovsky.jpg
     width: 194
 publication:
-  date: May 15, 1997
+  date: 1997-05-15
   publisher: Alameda Newspaper Group
 subjects:
   - Baritone

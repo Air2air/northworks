@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-bwe-xerxes-11-10
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: November 13, 2010
+  date: 2010-11-13
   publisher: Bay Area News Group
 subjects:
   - orchestral musicians

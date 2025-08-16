@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-graham
 images:
   - height: 150
     src: /images/graham-with-norths.jpg
     width: 210
 publication:
-  date: February 2, 2007
+  date: 2007-02-02
   publisher: "ANG Newspapers Classical Music Column"
 subjects:
   - Carnegie Hall

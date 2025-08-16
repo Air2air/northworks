@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-cerny
 images:
   - height: 300
     src: /images/cerny-dallas.jpg
     width: 200
 publication:
-  date: April 30
+  date: null
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - world premiere

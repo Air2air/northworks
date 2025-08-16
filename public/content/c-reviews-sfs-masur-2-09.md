@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-sfs-masur-2-09
 images:
   - height: 28
@@ -7,7 +7,7 @@ images:
     width: 250
 publication:
   author: Cheryl North
-  date: February 18, 2009
+  date: 2009-02-18
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Concert Review

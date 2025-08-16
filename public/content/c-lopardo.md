@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-lopardo
 images:
   - height: 139
     src: /images/frank-lopardo.jpg
     width: 183
 publication:
-  date: September 21, 2001
+  date: 2001-09-21
   publisher: "ANG Newspapers Classical Music Column"
 subjects:
   - Giuseppe Verdi

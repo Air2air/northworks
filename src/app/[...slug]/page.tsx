@@ -3,66 +3,68 @@ import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import PageLayout from '@/components/layouts/PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
+import PublicationInfo from '@/components/ui/PublicationInfo';
 import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
+import { formatDate } from '@/lib/dateUtils';
 
 // Map routes to content types
 const routeToContentType: Record<string, string> = {
-  'interviews': 'interview',
-  'articles': 'article', 
-  'reviews': 'review',
-  'background': 'background',
-  'professional': 'professional',
-  'publications': 'publication'
+  interviews: "interview",
+  articles: "article",
+  reviews: "review",
+  background: "background",
+  professional: "professional",
+  publications: "publication",
 };
 
 // Get breadcrumb configuration for each content type
 const getBreadcrumbConfig = (contentType: string, slug: string) => {
   // Determine if this is Warner content (w-* prefix)
-  const isWarnerContent = slug && slug.startsWith('w-');
-  const grandParentPath = isWarnerContent ? '/warner' : '/cheryl';
-  const grandParentLabel = isWarnerContent ? 'Warner North' : 'Cheryl North';
-  
+  const isWarnerContent = slug && slug.startsWith("w-");
+  const grandParentPath = isWarnerContent ? "/warner" : "/cheryl";
+  const grandParentLabel = isWarnerContent ? "Warner North" : "Cheryl North";
+
   const configs = {
     interview: {
-      parentPath: '/interviews',
-      parentLabel: 'Interviews',
+      parentPath: "/interviews",
+      parentLabel: "Interviews",
       grandParentPath,
-      grandParentLabel
+      grandParentLabel,
     },
     article: {
-      parentPath: '/articles',
-      parentLabel: 'Articles',
+      parentPath: "/articles",
+      parentLabel: "Articles",
       grandParentPath,
-      grandParentLabel
+      grandParentLabel,
     },
     review: {
-      parentPath: '/reviews',
-      parentLabel: 'Reviews',
+      parentPath: "/reviews",
+      parentLabel: "Reviews",
       grandParentPath,
-      grandParentLabel
+      grandParentLabel,
     },
     background: {
-      parentPath: '/background',
-      parentLabel: 'Background',
+      parentPath: "/background",
+      parentLabel: "Background",
       grandParentPath,
-      grandParentLabel
+      grandParentLabel,
     },
     professional: {
-      parentPath: '/professional',
-      parentLabel: 'Professional Work',
+      parentPath: "/professional",
+      parentLabel: "Professional Work",
       grandParentPath,
-      grandParentLabel
+      grandParentLabel,
     },
     publication: {
-      parentPath: '/publications',
-      parentLabel: 'Publications',
+      parentPath: "/publications",
+      parentLabel: "Publications",
       grandParentPath,
-      grandParentLabel
-    }
+      grandParentLabel,
+    },
   };
-  
+
   return configs[contentType as keyof typeof configs] || configs.article;
 };
 
@@ -70,26 +72,26 @@ const getBreadcrumbConfig = (contentType: string, slug: string) => {
 export async function generateStaticParams() {
   const params = [];
   const allSlugs = getAllContentSlugs();
-  
+
   // Get all content and organize by type
   for (const slug of allSlugs) {
     const content = getContentBySlug(slug, false);
     if (content && content.frontmatter.type) {
       const contentType = content.frontmatter.type;
-      
+
       // Find matching route for this content type
       const route = Object.keys(routeToContentType).find(
-        key => routeToContentType[key] === contentType
+        (key) => routeToContentType[key] === contentType
       );
-      
+
       if (route) {
         params.push({
-          slug: [route, slug]
+          slug: [route, slug],
         });
       }
     }
   }
-  
+
   return params;
 }
 
@@ -99,62 +101,65 @@ interface PageProps {
 
 export default async function UniversalContentPage({ params }: PageProps) {
   const { slug } = await params;
-  
+
   // Validate slug structure (should be [contentType, itemSlug])
   if (!slug || slug.length !== 2) {
     notFound();
   }
-  
+
   const [route, itemSlug] = slug;
   const contentType = routeToContentType[route];
-  
+
   if (!contentType) {
     notFound();
   }
-  
+
   // Get the content
   const contentData = getContentBySlug(itemSlug, false);
-  
+
   if (!contentData || contentData.frontmatter.type !== contentType) {
     notFound();
   }
 
   const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
   const frontmatter = contentData.frontmatter as any; // Use any to handle different frontmatter types
-  
+
   // Create breadcrumbs dynamically
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false }
-  ];
+  const breadcrumbs = [{ label: "Home", href: "/", active: false }];
 
   if (breadcrumbConfig.grandParentPath && breadcrumbConfig.grandParentLabel) {
     breadcrumbs.push({
       label: breadcrumbConfig.grandParentLabel,
       href: breadcrumbConfig.grandParentPath,
-      active: false
+      active: false,
     });
   }
 
   breadcrumbs.push({
     label: breadcrumbConfig.parentLabel,
     href: breadcrumbConfig.parentPath,
-    active: false
+    active: false,
   });
 
   breadcrumbs.push({
     label: cleanTitle(frontmatter.title),
     href: `${breadcrumbConfig.parentPath}/${itemSlug}`,
-    active: true
+    active: true,
   });
 
   // Dynamic publication section labels
   const getPublicationLabel = (type: string) => {
-    return type === 'interview' ? 'Publication Info' : 'Publication Information';
+    return type === "interview"
+      ? "Publication Info"
+      : "Publication Information";
   };
 
   // Get appropriate tags field based on content type
   const getTagsField = (frontmatter: any, type: string) => {
-    if ((type === 'interview' || type === 'article' || type === 'review') && frontmatter.subjects) {
+    if (
+      (type === "interview" || type === "article" || type === "review") &&
+      frontmatter.subjects
+    ) {
       return frontmatter.subjects;
     }
     if (frontmatter.tags) return frontmatter.tags;
@@ -164,66 +169,42 @@ export default async function UniversalContentPage({ params }: PageProps) {
 
   // Get appropriate tags label based on content type
   const getTagsLabel = (type: string) => {
-    if (type === 'interview') return 'People Interviewed';
-    if (type === 'article') return 'Subjects';
-    if (type === 'review') return 'Performance Details';
-    if (type === 'professional') return 'Areas of Expertise';
-    if (type === 'publication') return 'Keywords';
-    return 'Tags';
+    if (type === "interview") return "People Interviewed";
+    if (type === "article") return "Subjects";
+    if (type === "review") return "Performance Details";
+    if (type === "professional") return "Areas of Expertise";
+    if (type === "publication") return "Keywords";
+    return "Tags";
   };
 
   const tags = getTagsField(frontmatter, contentType);
-  
+
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
       <article>
         {/* Header */}
-        <header className="mb-8">
-          <PageTitle 
-            title={frontmatter.title}
-            size="medium"
-            align="left"
-          />
-          
-          {/* Publication Information */}
-          {frontmatter.publication && (
-            <div className="bg-gray-50 rounded-lg p-4 mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                {getPublicationLabel(contentType)}
-              </h3>
-              <div className="text-sm text-gray-600 space-y-1">
-                {frontmatter.publication.date && (
-                  <div>
-                    <span className="font-medium">Date:</span> {frontmatter.publication.date}
-                  </div>
-                )}
-                {(frontmatter.publication.outlet || frontmatter.publication.publisher) && (
-                  <div>
-                    <span className="font-medium">Publication:</span> {frontmatter.publication.outlet || frontmatter.publication.publisher}
-                  </div>
-                )}
-                {frontmatter.publication.section && (
-                  <div>
-                    <span className="font-medium">Section:</span> {frontmatter.publication.section}
-                  </div>
-                )}
-                {frontmatter.publication.author && (
-                  <div>
-                    <span className="font-medium">Author:</span> {frontmatter.publication.author}
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
+        <PageTitle title={frontmatter.title} size="medium" align="left" />
 
-          {/* Tags */}
-          {tags && tags.length > 0 && (
-            <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">{getTagsLabel(contentType)}</h3>
-              <Tags tags={tags} variant="medium" maxVisible={10} />
-            </div>
-          )}
-        </header>
+        {/* Publication Information */}
+        {frontmatter.publication && (
+          <PublicationInfo
+            date={frontmatter.publication.date ? formatDate(frontmatter.publication.date) : null}
+            publication={frontmatter.publication.outlet || frontmatter.publication.publisher}
+            section={frontmatter.publication.section}
+            author={frontmatter.publication.author}
+            title={getPublicationLabel(contentType)}
+          />
+        )}
+
+        {/* Tags */}
+        {tags && tags.length > 0 && (
+          <div className="mb-6">
+            <h3 className="text-sm font-semibold text-gray-900 mb-2">
+              {getTagsLabel(contentType)}
+            </h3>
+            <Tags tags={tags} variant="medium" maxVisible={10} />
+          </div>
+        )}
 
         {/* Images */}
         {frontmatter.images && frontmatter.images.length > 0 && (

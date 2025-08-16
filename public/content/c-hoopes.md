@@ -1,8 +1,8 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-hoopes
 publication:
-  date: December 25, 2009
+  date: 2009-12-25
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - to his

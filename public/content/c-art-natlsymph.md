@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-natlsymph
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: February 11, 2005
+  date: 2005-02-11
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Concerto

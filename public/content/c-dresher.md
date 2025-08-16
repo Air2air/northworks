@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-dresher
 images:
   - height: 114
@@ -9,7 +9,7 @@ images:
     src: /images/dresher-paul-07.jpg
     width: 125
 publication:
-  date: November 12, 2004
+  date: 2004-11-12
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Aria

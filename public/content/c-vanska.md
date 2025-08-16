@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-vanska
 images:
   - height: 226
     src: /images/vanska-with-c-10-31-09.jpg
     width: 257
 publication:
-  date: October 22, 2009
+  date: 2009-10-22
   publisher: Bay Area News Group
 subjects:
   - Concerto

@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-thibaudet
 images:
   - height: 297
@@ -9,7 +9,7 @@ images:
     src: /images/thibaudet-wandc.jpg
     width: 200
 publication:
-  date: October 20, 2006
+  date: 2006-10-20
   publisher: ANG Newspapers
 subjects:
   - music is

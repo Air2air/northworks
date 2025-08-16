@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-gilfry
 images:
   - height: 140
@@ -9,7 +9,7 @@ images:
     src: /images/gilfry.jpg
     width: 140
 publication:
-  date: October 14, 2005
+  date: 2005-10-14
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - luminaries to

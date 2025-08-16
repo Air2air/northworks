@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-masur
 images:
   - height: 160
     src: /images/thm-masur.jpg
     width: 160
 publication:
-  date: November 1, 2002
+  date: 2002-11-01
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Aria

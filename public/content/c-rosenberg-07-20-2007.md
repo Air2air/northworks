@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-rosenberg
 images:
   - height: 141
     src: /images/rosenberg.jpg
     width: 192
 publication:
-  date: July 20, 2007
+  date: 2007-07-20
   publisher: ANG Preview Section
 subjects:
   - Carnegie Hall

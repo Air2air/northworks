@@ -1,9 +1,9 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-didonato
 images: null
 publication:
-  date: November 13, 2009
+  date: 2009-11-13
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Aria

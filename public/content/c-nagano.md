@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-nagano
 images:
   - height: 160
     src: /images/kent-nagano.jpg
     width: 160
 publication:
-  date: August 31, 2001
+  date: 2001-08-31
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Concerto

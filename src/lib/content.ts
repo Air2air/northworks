@@ -36,7 +36,18 @@ export function getContentBySlug(slug: string, processHtml: boolean = true): Con
     }
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
-    const { data: frontmatter, content } = matter(fileContent);
+    const { data: frontmatter, content } = matter(fileContent, {
+      engines: {
+        yaml: {
+          parse: (str: string) => {
+            const yaml = require('js-yaml');
+            return yaml.load(str, { 
+              schema: yaml.JSON_SCHEMA,  // Use JSON schema which doesn't auto-parse dates
+            });
+          }
+        }
+      }
+    });
 
     // Either return raw markdown for MDX or processed HTML
     const finalContent = processHtml ? marked.parse(content) as string : content;

@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-cal-symph-9-10
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: October 3, 2010
+  date: 2010-10-03
   publisher: Bay Area News Group
 subjects:
   - Chamber Music

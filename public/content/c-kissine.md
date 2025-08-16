@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-kissine
 images:
   - height: 168
     src: /images/kissine-with-wife-and-c-3-4-10.jpg
     width: 217
 publication:
-  date: February 26, 2010
+  date: 2010-02-26
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Carnegie Hall

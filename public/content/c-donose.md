@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-donose
 images:
   - height: 28
@@ -7,7 +7,7 @@ images:
     width: 250
 publication:
   author: Giuseppe Sinopoli
-  date: June 28, 2002
+  date: 2002-06-28
   publisher: Oakland Tribune
 subjects:
   - Frédéric Chopin

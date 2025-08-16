@@ -4,6 +4,7 @@ import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import { cleanTitle } from '@/lib/pathUtils';
+import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
 
@@ -51,7 +52,7 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
           <h3 className="text-sm font-semibold text-gray-900 mb-2">Publication Info</h3>
           <div className="text-sm text-gray-600 space-y-1">
             {frontmatter.publication.date && (
-              <p><strong>Date:</strong> {frontmatter.publication.date}</p>
+              <p><strong>Date:</strong> {formatDate(frontmatter.publication.date)}</p>
             )}
             {frontmatter.publication.publisher && (
               <p><strong>Publisher:</strong> {frontmatter.publication.publisher}</p>

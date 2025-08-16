@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-cohenjeremy
 images:
   - height: 250
     src: /images/jeremy-cohen.jpg
     width: 200
 publication:
-  date: January 11, 2002
+  date: 2002-01-11
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Bass

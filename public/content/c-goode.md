@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-goode
 images:
   - height: 215
     src: /images/richard-goode.jpg
     width: 150
 publication:
-  date: March 29, 2002
+  date: 2002-03-29
   publisher: ANG Newspapers Preview Section Classical Music Column
 subjects:
   - Carnegie Hall

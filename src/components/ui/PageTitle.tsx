@@ -17,7 +17,7 @@ export default function PageTitle({
 }: PageTitleProps) {
   const getAlignmentClasses = (align: string) => {
     const alignmentMap = {
-      left: 'text-left flex flex-col justify-center',
+      left: 'text-left',
       center: 'text-center',
       right: 'text-right'
     };
@@ -26,18 +26,8 @@ export default function PageTitle({
 
   const getSizeClasses = (size: string) => {
     const sizeMap = {
-      small: {
-        container: 'mb-8',
-        title: 'text-3xl',
-        description: 'text-lg'
-      },
       medium: {
-        container: 'mb-10',
-        title: 'text-4xl',
-        description: 'text-xl'
-      },
-      large: {
-        container: 'mb-12',
+        container: 'mb-4',
         title: 'text-3xl',
         description: 'text-xl'
       }
@@ -50,8 +40,8 @@ export default function PageTitle({
   const cleanedTitle = cleanTitle(title);
 
   return (
-    <div className={`${alignment} ${sizes.container} ${className} ${align === 'left' ? 'min-h-[200px]' : ''}`}>
-      <div className={align === 'left' ? 'flex flex-col justify-center h-full' : ''}>
+    <div className={`flex flex-col justify-end ${alignment} ${sizes.container} ${className} min-h-[160px]`}>
+      <div>
         <h1 className={`${sizes.title} font-bold text-gray-900 mb-6`}>
           {cleanedTitle}
         </h1>

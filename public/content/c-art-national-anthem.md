@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-national-anthem
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: July 2, 2004
+  date: 2004-07-02
   publisher: ANG Newspapers
 subjects:
   - Bay Area

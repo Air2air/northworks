@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-projects-stanford
 images:
   - height: 28
@@ -73,5 +73,5 @@ to Professor Ronald A. Howard in 1966 for the first course in decision analysis 
 
 ![](/images/title-stanford.gif)
 
-[Laser technology consulting](/articles//w-laser)
+
 

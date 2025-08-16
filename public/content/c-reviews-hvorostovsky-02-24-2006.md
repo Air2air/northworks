@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-hvorostovsky06
 images:
   - height: 28
@@ -7,7 +7,7 @@ images:
     width: 250
 publication:
   author: Cheryl North
-  date: February 24, 2006
+  date: 2006-02-24
   publisher: Oakland Tribune
 title: Another Example - Music is the International Language
 type: review

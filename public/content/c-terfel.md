@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-terfel
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/terfel.jpg
     width: 200
 publication:
-  date: November 14, 1997
+  date: 1997-11-14
   publisher: ANG newspapers
 subjects:
   - Baritone

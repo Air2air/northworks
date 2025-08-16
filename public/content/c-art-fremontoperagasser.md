@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-fremontoperagasser
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: "August 15, 2008"
+  date: 2008-08-15
   publisher: "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
 subjects:
   - Baritone

@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-ventris
 images:
   - height: 200
     src: /images/christopher-ventris.jpg
     width: 160
 publication:
-  date: June 30, 2000
+  date: 2000-06-30
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - Christopher Ventris

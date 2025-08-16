@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-sfo-boheme-luisotti-11-08
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: November 16, 2008
+  date: 2008-11-16
   publisher: Bay Area News Group
 subjects:
   - Baritone

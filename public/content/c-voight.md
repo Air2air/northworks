@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-voight
 images:
   - height: 305
@@ -9,7 +9,7 @@ images:
     src: /images/voight-salome.jpg
     width: 200
 publication:
-  date: September 1, 2006
+  date: 2006-09-01
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - when she

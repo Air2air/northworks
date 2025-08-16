@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-reviews-sfo-abduction-10-2-09
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: October 2nd, 2009
+  date: 2009-10-02
   publisher: Bay Area News Group
 subjects:
   - Bass

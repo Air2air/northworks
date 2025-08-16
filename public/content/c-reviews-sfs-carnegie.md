@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-sfsymphcarnegie
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: February 23, 2001
+  date: 2001-02-23
   publisher: Classical Music Column for ANG Newspapers Cue Sections
 subjects:
   - Baritone

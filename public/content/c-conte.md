@@ -1,9 +1,9 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-conte
 images: null
 publication:
-  date: October 1, 2010
+  date: 2010-10-01
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Aria

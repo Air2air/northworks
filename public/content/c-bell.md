@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-bell
 images:
   - height: 28
@@ -9,7 +9,7 @@ images:
     src: /images/bell.jpg
     width: 219
 publication:
-  date: September 13, 2002
+  date: 2002-09-13
   publisher: ANG PREVIEW Section
 subjects:
   - Carnegie Hall

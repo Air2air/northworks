@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-pub-vniigaz
 images:
   - height: 195
@@ -21,7 +21,7 @@ images:
     src: /images/synfuelstree.jpg
     width: 237
 publication:
-  date: February 2, 2006
+  date: 2006-02-02
   publisher: VNIIGAZ/GAZPROM Conference
 subjects:
   - Aria

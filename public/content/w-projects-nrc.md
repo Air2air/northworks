@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: w-projects-nrc
 images:
   - height: 28
@@ -273,5 +273,5 @@ National Academy Press
 
 191 pages, 1983
 
-[Laser technology consulting](/articles//w-laser)
+
 

@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-brittenwar-masur
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: October 24, 2002
+  date: 2002-10-24
   publisher: Oakland Tribune, Alameda Newspaper Group
 subjects:
   - Kurt Masur

@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-reviews-oebs-1-10
 images:
   - height: 28
@@ -10,7 +10,7 @@ images:
     width: 220
 publication:
   author: Cheryl North
-  date: January 22, 2010
+  date: 2010-01-22
   publisher: Contra Costa Times, Oakland Tribune
 subjects:
   - Concert Review

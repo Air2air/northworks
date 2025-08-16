@@ -4,6 +4,7 @@ import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import { cleanTitle } from '@/lib/pathUtils';
+import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
 

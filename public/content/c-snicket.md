@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-snicket
 images:
   - height: 160
@@ -9,7 +9,7 @@ images:
     src: /images/stookey.jpg
     width: 127
 publication:
-  date: June 30, 2006
+  date: 2006-06-30
   publisher: ANG Newspapers
 subjects:
   - Conducting

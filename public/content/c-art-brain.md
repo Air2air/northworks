@@ -1,12 +1,12 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-art-brain
 images:
   - height: 248
     src: /images/logos-newspaper.gif
     width: 220
 publication:
-  date: June 14, 1999
+  date: 1999-06-14
   publisher: ANG Newspapers
 subjects:
   - Brandenburg Concerto No

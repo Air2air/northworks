@@ -1,5 +1,5 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
   - height: 28
@@ -12,7 +12,7 @@ images:
     src: /images/hvorostovsky.jpg
     width: 194
 publication:
-  date: August 29, 2008
+  date: 2008-08-29
   publisher: Bay Area News Group Classical Music Column
 subjects:
   - Baritone

@@ -1,12 +1,12 @@
 ---
-conversion date: "2025-08-13"
+conversion date: 2025-08-13
 id: c-villazon
 images:
   - height: 200
     src: /images/rolando-villazon.jpg
     width: 160
 publication:
-  date: September 10, 2004
+  date: 2004-09-10
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - slated to

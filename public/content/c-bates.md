@@ -1,5 +1,5 @@
 ---
-conversion date: '2025-08-13'
+conversion date: 2025-08-13
 id: c-bates
 images:
   - height: 160
@@ -9,7 +9,7 @@ images:
     src: /images/leon-bates.jpg
     width: 200
 publication:
-  date: April 5, 2002
+  date: 2002-04-05
   publisher: ANG Newspapers Classical Music Column
 subjects:
   - programs were

@@ -1,5 +1,6 @@
 import { NavigationItem } from '@/types/content';
 import Link from 'next/link';
+import { FaCompass } from 'react-icons/fa';
 
 interface NavigationProps {
   items: NavigationItem[];
@@ -12,8 +13,9 @@ export default function Navigation({ items }: NavigationProps) {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-2xl font-bold text-white">
-                NorthWorks
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-white">
+                <FaCompass className="w-6 h-6 text-sky-300" />
+                <span>NorthWorks</span>
               </Link>
             </div>
           </div>

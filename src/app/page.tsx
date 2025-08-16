@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'NorthWorks - Cross-Domain Content Platform',
+  title: 'NorthWorks - ',
   description: 'Unified platform for classical music content and professional portfolio data with cross-domain search capabilities',
   keywords: ['NorthWorks', 'classical music', 'risk analysis', 'Warner North', 'Cheryl North', 'journalism', 'consulting']
 };
@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="text-center">
           <PageTitle 
             title="NorthWorks"
-            description="Cross-Domain Content Platform"
+            description=""
             size="medium"
             align="left"
           />

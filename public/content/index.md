@@ -27,7 +27,7 @@ subjects:
   - Karen Lowrie
   - National Academies
   - National Research
-title: NorthWorks - Cross-Domain Content Platform
+title: NorthWorks - 
 type: homepage
 ---
 

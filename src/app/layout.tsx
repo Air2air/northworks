@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Northworks - Cross-Domain Content Platform",
+  title: "Northworks - ",
   description: "Unified platform for classical music content and professional portfolio data with cross-domain search capabilities",
 };
 

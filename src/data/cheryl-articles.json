@@ -2,7 +2,7 @@
   "metadata": {
     "classification": "cheryl-articles",
     "description": "In-depth articles about classical music and performers",
-    "count": 14,
+    "count": 13,
     "generated": "2025-08-15T18:09:54.800Z",
     "version": "1.0.0",
     "lastModified": "2025-08-16T02:52:31.988Z"
@@ -682,62 +682,6 @@
         "San Francisco Opera",
         "Soprano",
         "Stuttgart Reveals"
-      ]
-    },
-    {
-      "metadata": {
-        "id": "c-stewart",
-        "type": "article",
-        "category": "articles",
-        "status": "published",
-        "source": "markdown",
-        "lastModified": "2025-08-15T18:09:54.785Z"
-      },
-      "content": {
-        "title": "Cheryl North Interviews Patrick Stewart",
-        "summary": "Picture the following scene: The setting is a place quite inhospitable to humanoid life forms. Jean-Luc Picard, lying on his stomach, is nose-to-nose with a non-human life form. Picard, of course, is...",
-        "url": "/articles/c-stewart"
-      },
-      "subject": {
-        "topics": [
-          "Baritone",
-          "Davies Symphony Hall",
-          "Interview",
-          "Luc Picard",
-          "Opera",
-          "Piano",
-          "San Francisco Symphony",
-          "Starship Enterprise",
-          "Symphony",
-          "Violin"
-        ]
-      },
-      "publication": {
-        "date": "June 16, 1999",
-        "publisher": "ANG Newspapers"
-      },
-      "media": {
-        "images": [
-          {
-            "url": "/images/stewart.jpg",
-            "alt": "c-stewart",
-            "type": "image",
-            "width": 227,
-            "height": 185
-          }
-        ]
-      },
-      "tags": [
-        "Baritone",
-        "Davies Symphony Hall",
-        "Interview",
-        "Luc Picard",
-        "Opera",
-        "Piano",
-        "San Francisco Symphony",
-        "Starship Enterprise",
-        "Symphony",
-        "Violin"
       ]
     }
   ]

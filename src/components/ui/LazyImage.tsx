@@ -7,6 +7,7 @@
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import Image from 'next/image';
+import { FaCompass } from 'react-icons/fa';
 
 interface LazyImageProps {
   src: string;
@@ -99,9 +100,7 @@ const LazyImage = React.memo(function LazyImage({
         style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
       >
         <div className="text-center">
-          <svg className="w-8 h-8 mx-auto text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+          <FaCompass className="w-8 h-8 mx-auto text-sky-400" />
         </div>
       </div>
     );
@@ -116,9 +115,7 @@ const LazyImage = React.memo(function LazyImage({
       {/* Placeholder while loading */}
       {!isLoaded && (
         <div className="absolute inset-0 bg-sky-200 animate-pulse flex items-center justify-center">
-          <svg className="w-6 h-6 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+          <FaCompass className="w-6 h-6 text-sky-400" />
         </div>
       )}
       

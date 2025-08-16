@@ -36,6 +36,11 @@ const LazyImage = React.memo(function LazyImage({
   const [isInView, setIsInView] = useState(priority);
   const imgRef = useRef<HTMLDivElement>(null);
 
+  // Check if we should use responsive sizing
+  const isResponsive = className.includes('w-full') && className.includes('h-full');
+  const containerWidth = isResponsive ? undefined : width;
+  const containerHeight = isResponsive ? undefined : height;
+
   // Intersection Observer for lazy loading
   useEffect(() => {
     if (priority || isInView) return;
@@ -74,8 +79,10 @@ const LazyImage = React.memo(function LazyImage({
   const getPlaceholder = () => {
     if (placeholder) return placeholder;
     // Simple base64 placeholder
+    const placeholderWidth = containerWidth || width;
+    const placeholderHeight = containerHeight || height;
     return `data:image/svg+xml;base64,${btoa(`
-      <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
+      <svg width="${placeholderWidth}" height="${placeholderHeight}" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill="#f3f4f6"/>
         <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="14">
           Loading...
@@ -88,14 +95,13 @@ const LazyImage = React.memo(function LazyImage({
     return (
       <div 
         ref={imgRef}
-        className={`flex items-center justify-center bg-sky-100 text-sky-500 ${className}`}
-        style={{ width, height }}
+        className={`flex items-center justify-center bg-gradient-to-br from-sky-100 to-sky-300 ${className}`}
+        style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
       >
         <div className="text-center">
-          <svg className="w-8 h-8 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          <svg className="w-8 h-8 mx-auto text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <span className="text-xs">Image not found</span>
         </div>
       </div>
     );
@@ -105,7 +111,7 @@ const LazyImage = React.memo(function LazyImage({
     <div 
       ref={imgRef}
       className={`relative overflow-hidden ${className}`}
-      style={{ width, height }}
+      style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
     >
       {/* Placeholder while loading */}
       {!isLoaded && (
@@ -121,8 +127,7 @@ const LazyImage = React.memo(function LazyImage({
         <Image
           src={src}
           alt={alt}
-          width={width}
-          height={height}
+          {...(isResponsive ? {} : { width, height })}
           className={`transition-opacity duration-300 ${
             isLoaded ? 'opacity-100' : 'opacity-0'
           }`}
@@ -136,6 +141,8 @@ const LazyImage = React.memo(function LazyImage({
             width: '100%',
             height: '100%'
           }}
+          {...(isResponsive ? { fill: true } : {})}
+          sizes={isResponsive ? '(max-width: 768px) 100vw, 50vw' : undefined}
         />
       )}
     </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export interface TagsProps {
@@ -63,6 +65,7 @@ const Tags: React.FC<TagsProps> = ({
           href={`/search?q=${encodeURIComponent(tag)}`}
           className={getTagStyles(variant)}
           title={`Search for "${tag}"`}
+          onClick={(e) => e.stopPropagation()}
         >
           {tag}
         </Link>
@@ -73,6 +76,7 @@ const Tags: React.FC<TagsProps> = ({
           href={`/search?q=${encodeURIComponent(tags.join(" OR "))}`}
           className={getMoreTagStyles(variant)}
           title={`Search for all ${tags.length} tags`}
+          onClick={(e) => e.stopPropagation()}
         >
           +{remainingCount} more
         </Link>

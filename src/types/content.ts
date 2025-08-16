@@ -69,6 +69,8 @@ export interface MediaInfo {
     type: string;
     alt: string;
     caption?: string;
+    width?: number;
+    height?: number;
   }>;
   videos?: Array<{
     url: string;

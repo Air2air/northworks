@@ -4,11 +4,13 @@
  * Supports interviews, articles, profiles, and any future content
  */
 
+"use client";
+
 import React from 'react';
 import Tags from './Tags';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import LazyImage from './LazyImage';
-import { FaCompass, FaCalendarAlt, FaBuilding } from 'react-icons/fa';
+import { FaCalendarAlt, FaBuilding, FaCompass } from 'react-icons/fa';
 import { UnifiedContentItem } from '@/types/content';
 
 interface ContentCardProps {
@@ -28,28 +30,42 @@ export function ContentCard({
   className = '',
   onItemClick
 }: ContentCardProps) {
-  const thumbnail = item.media?.images?.find(img => img.type === 'thumbnail');
+  // Get the first image (prioritized non-thumbnail) or fallback to any image
+  const primaryImage = item.media?.images?.[0];
   const primaryPerson = item.subject?.people?.[0];
+  const router = useRouter();
   
-  const cardClasses = `bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow ${className}`;
+  const cardClasses = `bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer min-h-48 ${className}`;
 
-  const handleClick = () => onItemClick?.(item);
+  const handleClick = (e: React.MouseEvent) => {
+    // Don't navigate if clicking on a tag link or any other interactive element
+    const target = e.target as Element;
+    if (target.closest('a') || target.closest('button')) {
+      e.stopPropagation();
+      return;
+    }
+    
+    if (item.content.url) {
+      router.push(item.content.url);
+    }
+    onItemClick?.(item);
+  };
 
   const CardContent = () => (
-    <div className="flex">
-      {/* Thumbnail */}
-      <div className="flex-shrink-0 w-48 h-32 relative">
-        {showImage && thumbnail ? (
+    <div className="flex h-full">
+      {/* Image */}
+      <div className="flex-shrink-0 w-48 h-48 relative">
+        {showImage && primaryImage ? (
           <LazyImage
-            src={thumbnail.url}
-            alt={thumbnail.alt || item.content.title}
-            width={192}
-            height={128}
-            className="rounded-l-lg"
+            src={primaryImage.url}
+            alt={primaryImage.alt || item.content.title}
+            width={primaryImage.width || 192}
+            height={primaryImage.height || 128}
+            className="rounded-l-lg object-cover w-full h-full"
           />
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 rounded-l-lg flex items-center justify-center">
-            <FaCompass className="text-4xl text-sky-400" />
+            <FaCompass className="w-8 h-8 text-sky-400" />
           </div>
         )}
       </div>
@@ -90,16 +106,6 @@ export function ContentCard({
       </div>
     </div>
   );
-
-  if (item.content.url) {
-    return (
-      <Link href={item.content.url} className="block">
-        <article className={cardClasses} onClick={handleClick}>
-          <CardContent />
-        </article>
-      </Link>
-    );
-  }
 
   return (
     <article className={cardClasses} onClick={handleClick}>

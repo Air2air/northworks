@@ -1,12 +1,12 @@
-import { getContentByType } from '@/lib/content';
+import { getAllContentItems } from '@/lib/unifiedSearch';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import ContentList from '@/components/ui/ContentList';
-import Link from 'next/link';
+import { ContentCard } from '@/components/ui/ContentCard';
 
 export default function ArticlesPage() {
-  // Get individual articles
-  const individualArticles = getContentByType('article');
+  // Get articles from unified content system (includes images)
+  const allContent = getAllContentItems();
+  const articles = allContent.filter(item => item.metadata.type === 'article');
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
@@ -24,11 +24,24 @@ export default function ArticlesPage() {
       />
 
       {/* Articles */}
-      <ContentList 
-        items={individualArticles}
-        baseUrl="/articles"
-        emptyMessage="No articles available at this time."
-      />
+      <div className="space-y-6">
+        {articles.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-sky-600">No articles available at this time.</p>
+          </div>
+        ) : (
+          articles.map((article) => (
+            <ContentCard
+              key={article.metadata.id}
+              item={article}
+              showImage={true}
+              showTags={true}
+              showPublication={true}
+              className="mb-4"
+            />
+          ))
+        )}
+      </div>
     </PageLayout>
   );
 }

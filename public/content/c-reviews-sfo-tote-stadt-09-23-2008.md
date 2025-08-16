@@ -40,7 +40,7 @@ Often compared to the child-prodigy Mozart, young Erich had already composed and
 
 His father Julius, under the pseudonym Paul Schott, wrote the libretto, an adaption of the a novella titled Bruges-la-Morte by Belgian writer Georges Rodenbach. The joint father-son creation was an instant hit and received multiple stagings throughout Europe for the next decade until it was banned by the Nazis. Then, it fell into relative obscurity until it was restaged for the Salzburg Festival in 2004, conducted by our own Donald Runnicles.
 
-Tuesday's production opened with the distraught Paul, wandering about his Bruges, Belgium apartment, as he tenderly caresses a plait of the his dead wife Marie's red-gold hair while staring at a huge standing portrait of her.
+Tuesday's production opened with the distraught Paul, wandering about his Bruges, Belgium apartment, as he tenderly caresses a plait of the his dead wife Marie's sky-gold hair while staring at a huge standing portrait of her.
 
 "Bruges and I are the same — we worship the most beautiful thing that is: the past," Paul exclaims to his solicitous friend Frank.
 

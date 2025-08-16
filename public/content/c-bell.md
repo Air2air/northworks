@@ -40,7 +40,7 @@ I asked him why it is that old violins are so desirable.
 
 Bell's current fiddle is not only expensive, it is fraught with mystery and intrigue. Named the "Gibson" for Alfred Gibson, one of its earliest owners, it was owned early in the 20th century by Polish virtuoso Bronislaw Huberman. It was stolen from him in Vienna in 1919. Although soon returned, it was stolen once again from his dressing room in New York City's Carnegie Hall in 1936 and thereafter seemed to vanish from the face of the earth. Then in 1985, in a deathbed confession, a former cafe musician named Julian Altman revealed, with convincing, although mind-boggling evidence, that his violin was really the famed "Gibson" Stradivarius.
 
-The good news is that the mysterious instrument, with its red-hued varnish, is now in Bell's worthy hands. Referring to the Grammy Award winning John Corigliano soundtrack to the film The Red Violin* in which he played the violin solos, Bell told a previous interviewer, "It's really ironic for me that I'm ending up with a red violin!"
+The good news is that the mysterious instrument, with its sky-hued varnish, is now in Bell's worthy hands. Referring to the Grammy Award winning John Corigliano soundtrack to the film The Red Violin* in which he played the violin solos, Bell told a previous interviewer, "It's really ironic for me that I'm ending up with a red violin!"
 
 I asked Bell if he could summon up some English words to describe the vaunted Stradivarius sound. "It has incredible tonal quality... it projects through a hall...it has distinctive, rich overtones...great subtlety and nuance. My first teacher, Josef Gingold, played a Strad."
 

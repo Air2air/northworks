@@ -18,20 +18,11 @@ subjects:
   - Stanford University
   - Yale University
   - D. Warner North
-  - Opera
-  - Stanford
-  - President
-  - Decision Focus Incorporated
-  - Senior Vice President
-  - Stanford Research Institute
-  - Supervisor
-  - Dissertation
-  - Physics
 ---
 
-***
+---
 
-MANAGEMENT EXPERIENCE**
+MANAGEMENT EXPERIENCE\*\*
 
 President, Decision Focus Incorporated (1979-1981, 1983-1984). Senior Vice President, other periods from 1977-1998.
 
@@ -41,7 +32,7 @@ Supervisor or leader of over forty major DFI and SRI research projects.
 
 **ACADEMIC BACKGROUND**
 
- Ph.D., Operations Research, Stanford University (1970); decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](phd thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
+Ph.D., Operations Research, Stanford University (1970); decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](phd thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
 
 M.S., Physics (1963) and Mathematics (1966), Stanford University.
 
@@ -55,13 +46,10 @@ Frank P. Ramsey Medal for outstanding career achievement, awarded in 1997 by the
 
 Presidential appointee following nomination by the National Academy of Sciences, Nuclear Waste Technical Review Board, 1989 - May, 1994.
 
-Society for Risk Analysis (Chair of the Advisory Board, 1999-2000; president, 1991-1992; past member of the national council, past President of Northern California chapter; chair, Advisory Board, 1998-2000; member of the editorial boards of Risk Analysis, Risk Abstracts*; Area Editor for *Risk Analysis*, 2008 - 2019.
+Society for Risk Analysis (Chair of the Advisory Board, 1999-2000; president, 1991-1992; past member of the national council, past President of Northern California chapter; chair, Advisory Board, 1998-2000; member of the editorial boards of Risk Analysis, Risk Abstracts*; Area Editor for *Risk Analysis\*, 2008 - 2019.
 
 Society of Decision Professionals
 
 Sigma Xi, Phi Beta Kappa.
 
 National Science Foundation fellowships in physics (1962-4), mathematics (1965-7).
-
- 
-

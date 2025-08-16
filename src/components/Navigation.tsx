@@ -7,12 +7,12 @@ interface NavigationProps {
 
 export default function Navigation({ items }: NavigationProps) {
   return (
-    <nav className="bg-white border-b border-sky-200 shadow-sm">
+    <nav className="bg-sky-700 border-b border-sky-800 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-2xl font-bold text-sky-900">
+              <Link href="/" className="text-2xl font-bold text-white">
                 NorthWorks
               </Link>
             </div>
@@ -24,8 +24,8 @@ export default function Navigation({ items }: NavigationProps) {
                 href={item.href}
                 className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
                   item.active
-                    ? 'border-sky-500 text-sky-900'
-                    : 'border-transparent text-sky-500 hover:text-sky-700 hover:border-sky-300'
+                    ? 'border-white text-white'
+                    : 'border-transparent text-sky-200 hover:text-white hover:border-sky-300'
                 }`}
               >
                 {item.label}

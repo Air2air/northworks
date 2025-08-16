@@ -187,7 +187,7 @@ export default function SearchInterface({
                         : item.metadata.type === "review"
                         ? "bg-sky-100 text-sky-800"
                         : item.metadata.type === "professional"
-                        ? "bg-orange-100 text-orange-800"
+                        ? "bg-sky-100 text-sky-800"
                         : item.metadata.type === "publication"
                         ? "bg-sky-100 text-sky-800"
                         : "bg-sky-100 text-sky-800"

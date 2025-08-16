@@ -3,6 +3,7 @@ import { PublicationFrontmatter } from '@/types/content';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
+import PublicationInfo from '@/components/ui/PublicationInfo';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
@@ -48,20 +49,12 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
       />
       
       {frontmatter.publication && (
-        <div className="bg-gray-50 rounded-lg p-4 mb-6">
-          <h3 className="text-sm font-semibold text-gray-900 mb-2">Publication Info</h3>
-          <div className="text-sm text-gray-600 space-y-1">
-            {frontmatter.publication.date && (
-              <p><strong>Date:</strong> {formatDate(frontmatter.publication.date)}</p>
-            )}
-            {frontmatter.publication.publisher && (
-              <p><strong>Publisher:</strong> {frontmatter.publication.publisher}</p>
-            )}
-            {frontmatter.publication.author && (
-              <p><strong>Author:</strong> {frontmatter.publication.author}</p>
-            )}
-          </div>
-        </div>
+        <PublicationInfo 
+          date={frontmatter.publication.date ? formatDate(frontmatter.publication.date) : undefined}
+          publication={frontmatter.publication.publisher}
+          author={frontmatter.publication.author}
+          title="Publication Info"
+        />
       )}
 
       {frontmatter.subjects && frontmatter.subjects.length > 0 && (

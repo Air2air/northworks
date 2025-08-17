@@ -3,40 +3,22 @@ import Image from 'next/image';
 
 interface ImageGalleryProps {
   images: ContentImage[];
-  layout?: 'grid' | 'carousel' | 'masonry';
   showCaptions?: boolean;
 }
 
 export default function ImageGallery({ 
   images, 
-  layout = 'grid', 
   showCaptions = true 
 }: ImageGalleryProps) {
   if (!images || images.length === 0) {
     return null;
   }
 
-  const getImageClass = () => {
-    switch (layout) {
-      case 'grid':
-        return 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4';
-      case 'carousel':
-        return 'flex overflow-x-auto space-x-4 pb-4';
-      case 'masonry':
-        return 'columns-2 md:columns-3 lg:columns-4 gap-4';
-      default:
-        return 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4';
-    }
-  };
-
   return (
     <div className="my-8">
-      <div className={getImageClass()}>
+      <div className="space-y-4">
         {images.map((image, index) => (
-          <div 
-            key={index} 
-            className={`${layout === 'masonry' ? 'break-inside-avoid mb-4' : ''} ${layout === 'carousel' ? 'flex-none' : ''}`}
-          >
+          <div key={index}>
             <div className="relative group">
               <Image
                 src={image.src}
@@ -51,7 +33,7 @@ export default function ImageGallery({
                 </div>
               )}
             </div>
-            {showCaptions && image.caption && layout !== 'carousel' && (
+            {showCaptions && image.caption && (
               <p className="mt-2 text-sm text-gray-600 text-center">{image.caption}</p>
             )}
           </div>

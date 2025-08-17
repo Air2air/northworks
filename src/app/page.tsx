@@ -1,7 +1,7 @@
 import { getContentBySlug } from '@/lib/content';
 import PageLayout from '@/components/layouts/PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import SimpleNavigationCard from '@/components/ui/SimpleNavigationCard';
+import UnifiedCard from '@/components/ui/UnifiedCard';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -35,6 +35,33 @@ export default function HomePage() {
     );
   }
 
+  // Create navigation items for UnifiedCard
+  const warnerItem = {
+    id: 'warner-nav',
+    slug: 'warner',
+    type: 'professional' as const,
+    category: 'professional' as const,
+    title: 'D. Warner North',
+    summary: 'Risk analysis consultant with 50+ years of experience in decision analysis, environmental protection, and government consulting.',
+    url: '/warner',
+    status: 'published' as const,
+    source: 'manual' as const,
+    tags: ['risk analysis', 'decision analysis', 'consulting', 'environmental']
+  };
+
+  const cherylItem = {
+    id: 'cheryl-nav',
+    slug: 'cheryl',
+    type: 'article' as const,
+    category: 'articles' as const,
+    title: 'Cheryl North',
+    summary: 'Classical music journalist and critic specializing in opera, symphony, and chamber music with extensive interview collection.',
+    url: '/cheryl',
+    status: 'published' as const,
+    source: 'manual' as const,
+    tags: ['classical music', 'opera', 'journalism', 'interviews']
+  };
+
   return (
     <PageLayout>
       <PageTitle
@@ -51,34 +78,30 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Navigation Cards */}
-      <div className="grid md:grid-cols-2 gap-8 mt-16">
+      {/* Navigation Cards - Single Column Layout */}
+      <div className="space-y-6 mt-16">
           {/* D. Warner North Card */}
-          <SimpleNavigationCard
-            title="D. Warner North"
-            description="Risk analysis consultant with 50+ years of experience in decision analysis, environmental protection, and government consulting."
-            href="/warner"
-            buttonText="Explore Professional Work"
-            variant="primary"
-            icon={
-              <svg className="w-8 h-8 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            }
+          <UnifiedCard
+            item={warnerItem}
+            options={{
+              layout: 'horizontal',
+              size: 'large',
+              showTags: true,
+              showSummary: true,
+              clickable: true
+            }}
           />
 
           {/* Cheryl North Card */}
-          <SimpleNavigationCard
-            title="Cheryl North"
-            description="Classical music journalist and critic specializing in opera, symphony, and chamber music with extensive interview collection."
-            href="/cheryl"
-            buttonText="Explore Music Journalism"
-            variant="secondary"
-            icon={
-              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-              </svg>
-            }
+          <UnifiedCard
+            item={cherylItem}
+            options={{
+              layout: 'horizontal',
+              size: 'large',
+              showTags: true,
+              showSummary: true,
+              clickable: true
+            }}
           />
         </div>
     </PageLayout>

@@ -4,11 +4,11 @@
  */
 
 import React, { Suspense } from 'react';
-import { UnifiedContentItem } from '@/types/content';
+import { UnifiedContentItem } from '@/schemas/unified-content-schema';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import dynamic from 'next/dynamic';
-import { getAllContentItems, getCollectionStats } from '@/lib/unifiedSearch';
+import { getAllContent } from '@/lib/unified-data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -29,7 +29,7 @@ const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
     <div className="animate-pulse">
       <div className="h-8 bg-gray-200 rounded mb-4"></div>
       <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+      <div className="space-y-4 mb-8">
         {[...Array(5)].map((_, i) => (
           <div key={i} className="bg-gray-200 h-20 rounded"></div>
         ))}
@@ -39,30 +39,26 @@ const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
   )
 });
 
-// Load all content using unified search system
+// Load all content using unified data system
 async function getAllContentData(): Promise<{
   allContent: UnifiedContentItem[];
-  stats: any;
 }> {
   try {
-    const allContent = getAllContentItems();
-    const stats = getCollectionStats();
+    const allContent = await getAllContent();
     
     return {
-      allContent,
-      stats
+      allContent
     };
   } catch (error) {
     console.error('Error loading content data:', error);
     return {
-      allContent: [],
-      stats: { totalCollections: 0, totalItems: 0, collectionBreakdown: [] }
+      allContent: []
     };
   }
 }
 
 export default async function UnifiedSearchPage() {
-  const { allContent, stats } = await getAllContentData();
+  const { allContent } = await getAllContentData();
   
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
@@ -81,7 +77,7 @@ export default async function UnifiedSearchPage() {
         <div className="animate-pulse">
           <div className="h-8 bg-gray-200 rounded mb-4"></div>
           <div className="h-4 bg-gray-200 rounded mb-8 w-2/3"></div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+          <div className="space-y-4 mb-8">
             {[...Array(5)].map((_, i) => (
               <div key={i} className="bg-gray-200 h-20 rounded"></div>
             ))}

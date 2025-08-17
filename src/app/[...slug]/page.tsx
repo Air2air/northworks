@@ -25,7 +25,7 @@ const getBreadcrumbConfig = (contentType: string, slug: string) => {
   // Determine if this is Warner content (w-* prefix)
   const isWarnerContent = slug && slug.startsWith("w-");
   const grandParentPath = isWarnerContent ? "/warner" : "/cheryl";
-  const grandParentLabel = isWarnerContent ? "Warner North" : "Cheryl North";
+  const grandParentLabel = isWarnerContent ? "D. Warner North" : "Cheryl North";
 
   const configs = {
     interview: {
@@ -289,7 +289,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
         {/* Images */}
         {frontmatter.images && frontmatter.images.length > 0 && (
           <div className="mb-8">
-            <ImageGallery images={frontmatter.images} layout="grid" />
+            <ImageGallery images={frontmatter.images} />
           </div>
         )}
 

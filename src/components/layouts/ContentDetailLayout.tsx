@@ -139,7 +139,7 @@ export default function ContentDetailLayout({
         {/* Images */}
         {frontmatter.images && frontmatter.images.length > 0 && (
           <div className="mb-8">
-            <ImageGallery images={frontmatter.images} layout="grid" />
+            <ImageGallery images={frontmatter.images} />
           </div>
         )}
 

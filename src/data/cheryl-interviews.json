@@ -5,7 +5,7 @@
     "count": 65,
     "generated": "2025-08-15T18:09:54.796Z",
     "version": "1.0.0",
-    "lastModified": "2025-08-16T02:52:31.985Z"
+    "lastModified": "2025-08-17T13:36:43.046532Z"
   },
   "interviews": [
     {
@@ -38,16 +38,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Davies Symphony Hall",
-        "Gustav Mahler",
-        "Metropolitan Opera",
+        "Robert Schumann",
         "Opera",
-        "San Francisco Opera",
-        "San Francisco Symphony",
-        "Soprano",
-        "Symphony",
-        "Wolfgang Amadeus Mozart"
+        "Voice",
+        "Piano",
+        "Cello",
+        "San Francisco Symphony"
       ]
     },
     {
@@ -80,16 +76,12 @@
         ]
       },
       "tags": [
-        "Elinor Armer",
-        "Interview",
-        "Island Earth",
-        "Johann Sebastian Bach",
-        "Music Article",
-        "Performance",
+        "Orchestra",
         "Piano",
-        "Premiere",
-        "Ursula Le Guin",
-        "World Premiere"
+        "Composition",
+        "Voice",
+        "Johann Sebastian Bach",
+        "Ives"
       ]
     },
     {
@@ -122,15 +114,11 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Concerto",
-        "Conducting",
-        "Franz Liszt",
-        "Piano",
-        "San Francisco Symphony",
-        "Soprano",
+        "Concert",
         "Symphony",
-        "Tenor",
+        "Conducting",
+        "Orchestra",
+        "Classical",
         "Wolfgang Amadeus Mozart"
       ]
     },
@@ -153,16 +141,12 @@
         "publisher": "Bay Area News Group"
       },
       "tags": [
-        "Conducting",
-        "Frédéric Chopin",
-        "Interview",
-        "Opera",
         "Piano",
-        "Pyotr Ilyich Tchaikovsky",
-        "San Francisco Symphony",
+        "Orchestra",
         "Symphony",
-        "Symphony No",
-        "Wolfgang Amadeus Mozart"
+        "Frédéric Chopin",
+        "Wolfgang Amadeus Mozart",
+        "Pyotr Ilyich Tchaikovsky"
       ]
     },
     {
@@ -200,16 +184,12 @@
         ]
       },
       "tags": [
-        "Concerto",
-        "Davies Symphony Hall",
-        "Gustav Mahler",
-        "Johann Sebastian Bach",
-        "Pyotr Ilyich Tchaikovsky",
-        "Richard Wagner",
-        "San Francisco Symphony",
-        "Symphony",
         "Violin",
-        "Wolfgang Amadeus Mozart"
+        "Johann Sebastian Bach",
+        "Orchestra",
+        "Concert",
+        "Symphony",
+        "Bernstein"
       ]
     },
     {
@@ -241,7 +221,14 @@
           }
         ]
       },
-      "tags": []
+      "tags": [
+        "Violin",
+        "Award",
+        "Pyotr Ilyich Tchaikovsky",
+        "Glass",
+        "Shostakovich",
+        "Interview"
+      ]
     },
     {
       "metadata": {
@@ -278,12 +265,12 @@
         ]
       },
       "tags": [
-        "programs were",
-        "heard me",
-        "when we",
-        "piano or",
-        "helped me",
-        "He has"
+        "Piano",
+        "Sergei Rachmaninoff",
+        "Orchestra",
+        "Concert",
+        "Gershwin",
+        "Ludwig van Beethoven"
       ]
     },
     {
@@ -316,16 +303,12 @@
         ]
       },
       "tags": [
-        "Franz Liszt",
-        "Giacomo Puccini",
-        "Johann Sebastian Bach",
-        "Johannes Brahms",
-        "Ludwig van Beethoven",
-        "Opera",
-        "Pyotr Ilyich Tchaikovsky",
-        "Sergei Rachmaninoff",
-        "Symphony",
-        "Wolfgang Amadeus Mozart"
+        "Piano",
+        "Wolfgang Amadeus Mozart",
+        "Concert",
+        "Gershwin",
+        "Improvisation",
+        "Classical"
       ]
     },
     {
@@ -358,15 +341,12 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Johann Sebastian Bach",
-        "Johannes Brahms",
-        "Ludwig van Beethoven",
-        "San Francisco Symphony",
-        "Symphony",
         "Violin",
-        "Wolfgang Amadeus Mozart"
+        "Barber",
+        "Concert",
+        "Ives",
+        "Orchestra",
+        "Carnegie Hall"
       ]
     },
     {
@@ -399,16 +379,12 @@
         ]
       },
       "tags": [
-        "Baritone",
+        "Opera",
+        "Conservatory",
         "Giuseppe Verdi",
         "Johann Sebastian Bach",
-        "Metropolitan Opera",
-        "Mezzo-soprano",
-        "Opera",
-        "San Francisco Opera",
-        "Soprano",
-        "Symphony",
-        "War Memorial Opera House"
+        "Maurice Ravel",
+        "Debut"
       ]
     },
     {
@@ -441,14 +417,12 @@
         ]
       },
       "tags": [
-        "Cheryl North Writes",
-        "Conducting",
-        "Gustav Mahler",
-        "Interview",
-        "Music Article",
         "Piano",
-        "Pierre Boulez",
-        "Symphony"
+        "Gustav Mahler",
+        "Stravinsky",
+        "Tempo",
+        "Orchestra",
+        "Percussion"
       ]
     },
     {
@@ -481,16 +455,12 @@
         ]
       },
       "tags": [
-        "Classical Music",
-        "Conducting",
-        "Interview",
         "Johann Sebastian Bach",
-        "Music Article",
-        "New Orleans",
-        "Piano",
-        "Preview Section",
-        "Soprano",
-        "Symphony"
+        "Orchestra",
+        "Stanford",
+        "Adams",
+        "Jazz",
+        "Classical"
       ]
     },
     {
@@ -523,16 +493,12 @@
         ]
       },
       "tags": [
-        "Baritone",
+        "Opera",
+        "Piano",
         "Franz Schubert",
         "Gustav Mahler",
-        "Mezzo-soprano",
-        "Opera",
-        "Pyotr Ilyich Tchaikovsky",
-        "Richard Wagner",
-        "Soprano",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Lieder",
+        "Richard Wagner"
       ]
     },
     {
@@ -565,14 +531,12 @@
         ]
       },
       "tags": [
-        "world premiere",
-        "stake every",
-        "accompanying and",
-        "enjoyed stints",
-        "he was",
-        "she was",
-        "San Francisco Opera",
-        "San Francisco Symphony"
+        "Heggie",
+        "Opera",
+        "Voice",
+        "Piano",
+        "Giacomo Puccini",
+        "Conducting"
       ]
     },
     {
@@ -603,16 +567,12 @@
         ]
       },
       "tags": [
-        "by suddenly",
-        "of his",
-        "with horn",
-        "had been",
-        "the premier",
-        "European opera",
-        "School for",
-        "pencil and",
-        "him on",
-        "to study"
+        "Wolfgang Amadeus Mozart",
+        "Orchestra",
+        "Concert",
+        "Violin",
+        "Conducting",
+        "Opera"
       ]
     },
     {
@@ -645,16 +605,12 @@
         ]
       },
       "tags": [
-        "Bass",
-        "Boston Symphony",
-        "Conducting",
-        "Gustav Mahler",
-        "Opera",
-        "Piano",
-        "San Francisco Symphony",
-        "Symphony",
         "Violin",
-        "World Premiere"
+        "Jazz",
+        "Orchestra",
+        "Bass",
+        "Symphony",
+        "Concert"
       ]
     },
     {
@@ -687,16 +643,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Franz Liszt",
-        "Giuseppe Verdi",
-        "Gustav Mahler",
-        "Mezzo-soprano",
-        "Opera",
-        "Pyotr Ilyich Tchaikovsky",
-        "Soprano",
         "Symphony",
-        "Tenor"
+        "Reich",
+        "Franz Liszt",
+        "Performance",
+        "Bass",
+        "Festival"
       ]
     },
     {
@@ -718,16 +670,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Conducting",
-        "Interview",
+        "Conservatory",
         "Opera",
-        "Piano",
-        "Premiere",
-        "Soprano",
-        "Symphony",
-        "Violin"
+        "Heggie",
+        "Interview",
+        "Violin",
+        "Piano"
       ]
     },
     {
@@ -749,15 +697,12 @@
         "publisher": "ANG Newspapers Classical Music Column"
       },
       "tags": [
-        "understand why",
-        "the most",
-        "hard to",
-        "youth he",
-        "the eminent",
-        "Der Rosenkavalier",
-        "Program and",
-        "will be",
-        "San Francisco Opera"
+        "Handel",
+        "Opera",
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Barber",
+        "Interview"
       ]
     },
     {
@@ -790,16 +735,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Davies Symphony Hall",
-        "Johann Sebastian Bach",
-        "Opera",
         "Richard Wagner",
-        "San Francisco Opera",
+        "Opera",
         "San Francisco Symphony",
-        "Soprano",
-        "Symphony",
-        "Tosca"
+        "Johann Sebastian Bach",
+        "Performance",
+        "Davies Symphony Hall"
       ]
     },
     {
@@ -821,16 +762,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "Aria",
-        "Giacomo Puccini",
-        "Her Recital",
-        "Interview",
-        "Merola Opera Program",
-        "Mezzo-soprano",
         "Opera",
-        "Piano",
-        "San Francisco Opera",
-        "Soprano"
+        "Rossini",
+        "Barber",
+        "Voice",
+        "Choir",
+        "Horn"
       ]
     },
     {
@@ -854,15 +791,12 @@
       },
       "media": {},
       "tags": [
-        "Frédéric Chopin",
-        "Giuseppe Verdi",
-        "Mezzo-soprano",
         "Opera",
-        "San Francisco Opera",
-        "Soprano",
-        "Tenor",
-        "War Memorial Opera House",
-        "Wolfgang Amadeus Mozart"
+        "Piano",
+        "Ives",
+        "Maurice Ravel",
+        "Voice",
+        "Monteverdi"
       ]
     },
     {
@@ -900,16 +834,12 @@
         ]
       },
       "tags": [
-        "Aria",
-        "Carnegie Hall",
-        "Concerto",
-        "Debut Performance",
-        "Interview",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Opera",
-        "Premiere",
-        "Violin"
+        "Adams",
+        "Guitar",
+        "Performance",
+        "Ives",
+        "Contemporary",
+        "Orchestra"
       ]
     },
     {
@@ -931,16 +861,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "the upcoming",
-        "on their",
-        "weeks to",
-        "of four",
-        "wanted to",
-        "well as",
-        "prize in",
-        "first professional",
-        "he will",
-        "was named"
+        "Orchestra",
+        "Berlioz",
+        "Maurice Ravel",
+        "Piano",
+        "Symphony",
+        "Conducting"
       ]
     },
     {
@@ -963,16 +889,12 @@
       },
       "media": {},
       "tags": [
-        "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Franz Liszt",
-        "Frédéric Chopin",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Pyotr Ilyich Tchaikovsky",
-        "San Francisco Symphony",
+        "Piano",
+        "Prokofiev",
+        "Concert",
         "Sergei Rachmaninoff",
-        "Symphony"
+        "Pyotr Ilyich Tchaikovsky",
+        "Orchestra"
       ]
     },
     {
@@ -1015,16 +937,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Frédéric Chopin",
-        "Ludwig van Beethoven",
-        "Mezzo-soprano",
-        "Opera",
-        "Richard Wagner",
-        "Soprano",
+        "Orchestra",
+        "Premiere",
         "Symphony",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Festival",
+        "Solo",
+        "Concert"
       ]
     },
     {
@@ -1062,14 +980,12 @@
         ]
       },
       "tags": [
-        "luminaries to",
-        "him to",
-        "an opera",
-        "music and",
-        "can have",
-        "His virile",
-        "preparing to",
-        "San Francisco Opera"
+        "Opera",
+        "Orchestra",
+        "Concert",
+        "Monteverdi",
+        "Wolfgang Amadeus Mozart",
+        "Giuseppe Verdi"
       ]
     },
     {
@@ -1102,16 +1018,12 @@
         ]
       },
       "tags": [
-        "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "La Traviata",
-        "Metropolitan Opera",
+        "Cello",
+        "Voice",
         "Opera",
-        "Rigoletto",
-        "San Francisco Opera",
-        "Soprano",
-        "Tenor",
-        "Tosca"
+        "Giuseppe Verdi",
+        "Maurice Ravel",
+        "Massenet"
       ]
     },
     {
@@ -1144,15 +1056,11 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Franz Schubert",
-        "Frédéric Chopin",
-        "Johann Sebastian Bach",
-        "Johannes Brahms",
         "Ludwig van Beethoven",
+        "Johann Sebastian Bach",
         "Piano",
-        "Symphony",
+        "Concert",
+        "Frédéric Chopin",
         "Wolfgang Amadeus Mozart"
       ]
     },
@@ -1186,16 +1094,12 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Giuseppe Verdi",
-        "Mezzo-soprano",
+        "Berlioz",
+        "Maurice Ravel",
         "Opera",
-        "San Francisco Opera",
-        "San Francisco Symphony",
-        "Soprano",
-        "Symphony",
-        "Wolfgang Amadeus Mozart"
+        "Voice",
+        "Giuseppe Verdi",
+        "Heggie"
       ]
     },
     {
@@ -1217,16 +1121,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "to his",
-        "bit of",
-        "by guest",
-        "Luhrmann to",
-        "as the",
-        "they will",
-        "and to",
-        "learn and",
-        "marathon to",
-        "he will"
+        "Violin",
+        "Orchestra",
+        "Concert",
+        "Symphony",
+        "Johannes Brahms",
+        "Pyotr Ilyich Tchaikovsky"
       ]
     },
     {
@@ -1264,16 +1164,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "Mezzo-soprano",
-        "Opera",
         "Pyotr Ilyich Tchaikovsky",
-        "Richard Wagner",
-        "Soprano",
-        "Symphony",
-        "Tenor"
+        "Orchestra",
+        "Strings",
+        "San Francisco Symphony",
+        "Voice",
+        "Concert"
       ]
     },
     {
@@ -1311,16 +1207,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "Mezzo-soprano",
-        "Opera",
-        "Pyotr Ilyich Tchaikovsky",
-        "Richard Wagner",
-        "Soprano",
-        "Symphony",
-        "Tenor"
+        "Voice",
+        "Rossini",
+        "Donizetti",
+        "Concert",
+        "Orchestra",
+        "Piano"
       ]
     },
     {
@@ -1358,16 +1250,12 @@
         ]
       },
       "tags": [
-        "Baritone",
         "Giuseppe Verdi",
         "Johann Sebastian Bach",
-        "Mezzo-soprano",
+        "Voice",
         "Opera",
-        "Pyotr Ilyich Tchaikovsky",
-        "Richard Wagner",
-        "Soprano",
-        "Symphony",
-        "Tenor"
+        "Piano",
+        "Gershwin"
       ]
     },
     {
@@ -1405,16 +1293,12 @@
         ]
       },
       "tags": [
-        "Bass",
-        "Conducting",
-        "Debut Performance",
-        "Interview",
-        "Johann Sebastian Bach",
-        "Mythic Proportions",
-        "Opera",
         "Piano",
+        "Johann Sebastian Bach",
         "Sergei Rachmaninoff",
-        "Symphony"
+        "Maurice Ravel",
+        "Orchestra",
+        "Recital"
       ]
     },
     {
@@ -1447,15 +1331,12 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Interview",
-        "Ludwig van Beethoven",
-        "Piano",
-        "Premiere",
+        "Ives",
         "San Francisco Symphony",
-        "Symphony",
-        "World Premiere"
+        "Ludwig van Beethoven",
+        "Premiere",
+        "Composition",
+        "Sonata"
       ]
     },
     {
@@ -1493,15 +1374,12 @@
         ]
       },
       "tags": [
-        "Concerto",
-        "Franz Liszt",
-        "Frédéric Chopin",
-        "Johann Sebastian Bach",
-        "Opera",
         "Piano",
+        "Prokofiev",
+        "Performance",
         "San Francisco Symphony",
-        "Sergei Rachmaninoff",
-        "Symphony"
+        "Concert",
+        "Franz Liszt"
       ]
     },
     {
@@ -1534,14 +1412,12 @@
         ]
       },
       "tags": [
-        "her vocal",
-        "excited about",
-        "go into",
-        "not only",
-        "will also",
-        "she will",
-        "San Francisco Symphony",
-        "Oakland Symphony"
+        "Viola",
+        "Voice",
+        "Opera",
+        "Orchestra",
+        "Symphony",
+        "Adams"
       ]
     },
     {
@@ -1563,11 +1439,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "Area while",
-        "two accomplished",
-        "of her",
-        "like to",
-        "San Francisco Opera"
+        "Opera",
+        "Richard Wagner",
+        "Voice",
+        "Debut",
+        "Johann Sebastian Bach",
+        "Giacomo Puccini"
       ]
     },
     {
@@ -1600,15 +1477,12 @@
         ]
       },
       "tags": [
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "Metropolitan Opera",
         "Opera",
+        "Voice",
+        "Rossini",
         "Richard Wagner",
-        "Rigoletto",
-        "San Francisco Opera",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Wolfgang Amadeus Mozart",
+        "Giuseppe Verdi"
       ]
     },
     {
@@ -1630,16 +1504,12 @@
         "publisher": "Bay Area News Group Classical Music Column"
       },
       "tags": [
-        "to her",
-        "aunts toured",
-        "you dad",
-        "the remarkable",
-        "scheduled to",
-        "Sperling will",
-        "diverse achievements",
-        "well as",
-        "even still",
-        "classically trained"
+        "Voice",
+        "San Francisco Symphony",
+        "Piano",
+        "Classical",
+        "Performance",
+        "Ludwig van Beethoven"
       ]
     },
     {
@@ -1686,15 +1556,12 @@
         ]
       },
       "tags": [
-        "Cheryl North",
-        "Classical Music",
-        "Frances Tipton",
-        "Harry Tomlinson",
-        "Johann Sebastian Bach",
-        "Music Article",
-        "Opera",
         "Piano",
-        "War Memorial Opera House"
+        "Johann Sebastian Bach",
+        "Interview",
+        "War Memorial Opera House",
+        "Music Criticism",
+        "Jong Jr"
       ]
     },
     {
@@ -1727,14 +1594,12 @@
         ]
       },
       "tags": [
-        "Aria",
-        "Bass",
-        "Conducting",
+        "Orchestra",
+        "Bernstein",
+        "Award",
         "Interview",
-        "Kurt Masur",
-        "Piano",
-        "San Francisco Symphony",
-        "Symphony"
+        "Voice",
+        "Piano"
       ]
     },
     {
@@ -1767,16 +1632,12 @@
         ]
       },
       "tags": [
-        "well as",
-        "then the",
-        "old assistant",
-        "an assistant",
-        "rescue the",
-        "collaboration between",
-        "are all",
-        "that visiting",
-        "English horn",
-        "soloist and"
+        "Orchestra",
+        "Symphony",
+        "Concert",
+        "Gustav Mahler",
+        "Prokofiev",
+        "Ludwig van Beethoven"
       ]
     },
     {
@@ -1809,16 +1670,12 @@
         ]
       },
       "tags": [
-        "well as",
-        "then the",
-        "old assistant",
-        "an assistant",
-        "rescue the",
-        "collaboration between",
-        "are all",
-        "that visiting",
-        "English horn",
-        "soloist and"
+        "Bernstein",
+        "Carnegie Hall",
+        "Concert",
+        "Education",
+        "Gershwin",
+        "Gustav Mahler"
       ]
     },
     {
@@ -1851,15 +1708,12 @@
         ]
       },
       "tags": [
-        "Concerto",
-        "Conducting",
+        "Orchestra",
         "Franz Schubert",
+        "Symphony",
         "Gustav Mahler",
-        "London Symphony",
-        "Ludwig van Beethoven",
-        "Opera",
-        "Piano",
-        "Symphony"
+        "Concert",
+        "Piano"
       ]
     },
     {
@@ -1897,16 +1751,12 @@
         ]
       },
       "tags": [
-        "Carmen",
-        "Carnegie Hall",
-        "Concerto",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
+        "Orchestra",
+        "Concert",
+        "Shostakovich",
         "Piano",
         "Pyotr Ilyich Tchaikovsky",
-        "San Francisco Symphony",
-        "Symphony",
-        "Violin"
+        "Johann Sebastian Bach"
       ]
     },
     {
@@ -1940,15 +1790,11 @@
       },
       "tags": [
         "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "La Traviata",
-        "Mezzo-soprano",
         "Opera",
+        "Jazz",
+        "Voice",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Soprano",
-        "War Memorial Opera House"
+        "Giuseppe Verdi"
       ]
     },
     {
@@ -1981,16 +1827,12 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "Gustav Mahler",
-        "Ludwig van Beethoven",
+        "Orchestra",
         "Opera",
-        "Richard Wagner",
-        "San Francisco Opera",
-        "Symphony",
-        "War Memorial Opera House"
+        "Adams",
+        "Gustav Mahler",
+        "Glass",
+        "Ludwig van Beethoven"
       ]
     },
     {
@@ -2023,16 +1865,12 @@
         ]
       },
       "tags": [
-        "Carnegie Hall",
-        "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "Gustav Mahler",
-        "Ludwig van Beethoven",
         "Opera",
-        "Richard Wagner",
-        "San Francisco Opera",
-        "Symphony",
-        "War Memorial Opera House"
+        "Barber",
+        "Performance",
+        "Orchestra",
+        "Organ",
+        "Rossini"
       ]
     },
     {
@@ -2065,15 +1903,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Bass",
-        "Conducting",
+        "Orchestra",
         "Opera",
-        "Piano",
         "Richard Wagner",
-        "San Francisco Opera",
-        "San Francisco Symphony",
-        "Symphony"
+        "Conducting",
+        "Shostakovich",
+        "Bass"
       ]
     },
     {
@@ -2106,15 +1941,12 @@
         ]
       },
       "tags": [
-        "Concerto",
-        "Conducting",
-        "Davies Symphony Hall",
-        "Interview",
-        "Johannes Brahms",
-        "Pyotr Ilyich Tchaikovsky",
-        "San Francisco Symphony",
-        "Symphony",
-        "Violin"
+        "Violin",
+        "Concert",
+        "Shostakovich",
+        "Orchestra",
+        "Voice",
+        "Symphony"
       ]
     },
     {
@@ -2152,16 +1984,12 @@
         ]
       },
       "tags": [
-        "Conducting",
-        "Daniel Handler",
-        "Davies Symphony Hall",
-        "Interview",
-        "Johann Sebastian Bach",
-        "Lemony Snicket",
-        "Ludwig van Beethoven",
-        "San Francisco Symphony",
+        "Orchestra",
         "Symphony",
-        "Violin"
+        "Gershwin",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Stravinsky"
       ]
     },
     {
@@ -2194,16 +2022,12 @@
         ]
       },
       "tags": [
-        "Bass",
-        "Conducting",
-        "Interview",
-        "Johann Sebastian Bach",
-        "Opera",
-        "Piano",
-        "Premiere",
-        "San Francisco Symphony",
+        "Orchestra",
+        "Violin",
         "Symphony",
-        "Violin"
+        "Piano",
+        "Composition",
+        "Johann Sebastian Bach"
       ]
     },
     {
@@ -2241,16 +2065,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Franz Schubert",
-        "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "Johannes Brahms",
         "Opera",
         "Richard Wagner",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Johann Sebastian Bach",
+        "Stravinsky",
+        "Voice",
+        "Johannes Brahms"
       ]
     },
     {
@@ -2286,15 +2106,11 @@
         ]
       },
       "tags": [
-        "Aria",
-        "Don Giovanni",
-        "Giacomo Puccini",
-        "Opera",
         "Richard Wagner",
+        "Giacomo Puccini",
+        "Voice",
         "San Francisco Opera",
-        "Soprano",
-        "Swedish Soprano Ir",
-        "Tosca",
+        "Ives",
         "Wolfgang Amadeus Mozart"
       ]
     },
@@ -2333,16 +2149,12 @@
         ]
       },
       "tags": [
-        "write and",
-        "Thibaudet will",
-        "pianist might",
-        "also will",
-        "music is",
-        "young son",
-        "he has",
-        "renown opera",
-        "ability in",
-        "seem to"
+        "Franz Liszt",
+        "Piano",
+        "Ives",
+        "Recital",
+        "Richard Wagner",
+        "Frédéric Chopin"
       ]
     },
     {
@@ -2380,16 +2192,12 @@
         ]
       },
       "tags": [
-        "music is",
-        "young son",
-        "he has",
-        "renown opera",
-        "ability in",
-        "seem to",
-        "me to",
-        "Wright to",
-        "after the",
-        "San Francisco Symphony"
+        "Piano",
+        "Glass",
+        "Maurice Ravel",
+        "Concert",
+        "Violin",
+        "Conservatory"
       ]
     },
     {
@@ -2422,15 +2230,12 @@
         ]
       },
       "tags": [
-        "Concerto",
-        "Davies Symphony Hall",
-        "Johannes Brahms",
-        "Ludwig van Beethoven",
-        "Piano",
-        "Pyotr Ilyich Tchaikovsky",
-        "San Francisco Symphony",
+        "Orchestra",
+        "Sibelius",
         "Symphony",
-        "Violin"
+        "Ludwig van Beethoven",
+        "Clarinet",
+        "Concert"
       ]
     },
     {
@@ -2463,15 +2268,12 @@
         ]
       },
       "tags": [
-        "Christopher Ventris",
-        "Conducting",
-        "Debut Performance",
-        "Interview",
-        "Opera",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Wolfgang Amadeus Mozart",
+        "Opera",
+        "Voice",
+        "La Scala",
+        "Debut"
       ]
     },
     {
@@ -2504,16 +2306,12 @@
         ]
       },
       "tags": [
-        "slated to",
-        "Classical music",
-        "records he",
-        "words and",
-        "asked to",
-        "an opera",
-        "trip to",
-        "hear him",
-        "Rolando to",
-        "he is"
+        "Opera",
+        "Giuseppe Verdi",
+        "Voice",
+        "Pyotr Ilyich Tchaikovsky",
+        "Ives",
+        "Performance"
       ]
     },
     {
@@ -2551,13 +2349,12 @@
         ]
       },
       "tags": [
-        "when she",
-        "characters she",
-        "musician and",
-        "feet wet",
-        "single opera",
-        "get to",
-        "San Francisco Opera"
+        "Opera",
+        "Maurice Ravel",
+        "Richard Wagner",
+        "Giuseppe Verdi",
+        "Voice",
+        "Piano"
       ]
     },
     {
@@ -2590,15 +2387,12 @@
         ]
       },
       "tags": [
-        "during his",
-        "not the",
-        "have to",
-        "he deftly",
-        "parents were",
-        "voice and",
-        "actually did",
-        "orchestras and",
-        "indeed piano"
+        "Piano",
+        "Franz Liszt",
+        "Sergei Rachmaninoff",
+        "Orchestra",
+        "Conservatory",
+        "Concert"
       ]
     },
     {
@@ -2620,13 +2414,12 @@
         "publisher": "Bay Area News Group"
       },
       "tags": [
-        "do is",
-        "in my",
-        "musical theme",
-        "it is",
-        "San Francisco",
-        "she had",
-        "San Francisco Opera"
+        "Richard Wagner",
+        "Opera",
+        "Voice",
+        "Choir",
+        "Horn",
+        "Ives"
       ]
     },
     {
@@ -2659,16 +2452,12 @@
         ]
       },
       "tags": [
-        "Interview",
-        "Music Article",
         "Opera",
-        "Our Town",
-        "Premiere",
-        "Pulitzer Prize",
-        "Soprano",
-        "Symphony",
-        "Tenor",
-        "Thornton Wilder"
+        "Bernstein",
+        "Copland",
+        "Horn",
+        "Orchestra",
+        "Ives"
       ]
     }
   ]

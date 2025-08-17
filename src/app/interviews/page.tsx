@@ -1,7 +1,7 @@
-import { getAllContentItems } from '@/lib/unifiedSearch';
+import { getInterviewContent } from '@/lib/unified-data';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import { ContentCard } from '@/components/ui/ContentCard';
+import UnifiedList from '@/components/ui/UnifiedList';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
 };
 
 export default function InterviewsPage() {
-  // Get interviews from unified content system (includes images)
-  const allContent = getAllContentItems();
-  const interviews = allContent.filter(item => item.metadata.type === 'interview');
+  // Load normalized interview content data
+  const interviewContent = getInterviewContent();
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
+    { label: 'Cheryl', href: '/cheryl', active: false },
     { label: 'Interviews', href: '/interviews', active: true }
   ];
 
@@ -35,25 +35,17 @@ export default function InterviewsPage() {
         size="medium"
       />
 
-      {/* Interviews */}
-      <div className="space-y-6">
-        {interviews.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-sky-600">No interviews available at this time.</p>
-          </div>
-        ) : (
-          interviews.map((interview) => (
-            <ContentCard
-              key={interview.metadata.id}
-              item={interview}
-              showImage={true}
-              showTags={true}
-              showPublication={true}
-              className="mb-4"
-            />
-          ))
-        )}
-      </div>
+      <UnifiedList 
+        items={interviewContent}
+        options={{
+          layout: 'list',
+          searchable: true,
+          filterable: true,
+          sortBy: 'date',
+          pagination: true,
+          groupBy: 'category'
+        }}
+      />
     </PageLayout>
   );
 }

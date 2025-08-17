@@ -1,0 +1,38 @@
+{
+  "migration_summary": {
+    "total_files": 6,
+    "total_items": 252,
+    "normalized_items": 252,
+    "errors": 0,
+    "warnings": 0,
+    "by_type": {
+      "article": 12,
+      "professional": 47,
+      "background": 5,
+      "review": 28,
+      "publication": 95,
+      "interview": 65
+    },
+    "by_category": {
+      "articles": 12,
+      "professional": 47,
+      "background": 5,
+      "reviews": 28,
+      "publications": 95,
+      "interviews": 65
+    }
+  },
+  "timestamp": "2025-08-17T14:29:53.412302",
+  "config": {
+    "source_dir": "src/data",
+    "output_dir": "src/data/normalized",
+    "backup_dir": "src/data/backup",
+    "validate_output": true,
+    "generate_stats": true,
+    "preserve_legacy": true,
+    "clean_text": true,
+    "optimize_media": true
+  },
+  "errors": [],
+  "warnings": []
+}

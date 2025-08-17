@@ -1,60 +1,51 @@
-import { getAllContentItems } from '@/lib/unifiedSearch';
+import { getReviewContent } from '@/lib/unified-data';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import { ContentCard } from '@/components/ui/ContentCard';
+import UnifiedList from '@/components/ui/UnifiedList';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reviews | Cheryl North | NorthWorks',
-  description: 'Classical music and opera performance reviews by Cheryl North, covering concerts, recitals, and opera productions.',
-  keywords: ['music reviews', 'opera reviews', 'concert reviews', 'performance criticism', 'Cheryl North', 'classical music criticism'],
+  description: 'Classical music reviews and performance critiques by Cheryl North, covering opera, symphony, and chamber music.',
+  keywords: ['classical music reviews', 'opera reviews', 'symphony reviews', 'Cheryl North', 'performance critiques'],
   openGraph: {
     title: 'Reviews | Cheryl North | NorthWorks',
-    description: 'Classical music and opera performance reviews by Cheryl North.',
+    description: 'Classical music reviews and performance critiques by Cheryl North.',
     type: 'website',
     siteName: 'NorthWorks'
   }
 };
 
 export default function ReviewsPage() {
-  // Get reviews from unified content system (includes images)
-  const allContent = getAllContentItems();
-  const reviews = allContent.filter(item => item.metadata.type === 'review');
+  // Load normalized review content data
+  const reviewContent = getReviewContent();
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
+    { label: 'Cheryl', href: '/cheryl', active: false },
     { label: 'Reviews', href: '/reviews', active: true }
   ];
 
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
       <PageTitle
-        title="Performance Reviews"
-        description="Reviews of opera, symphony, and classical music performances in the San Francisco Bay Area."
+        title="Classical Music Reviews"
+        description="Reviews of performances, recordings, and musical events"
         align="left"
         size="medium"
       />
 
-      {/* Reviews */}
-      <div className="space-y-6">
-        {reviews.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-sky-600">No reviews available at this time.</p>
-          </div>
-        ) : (
-          reviews.map((review) => (
-            <ContentCard
-              key={review.metadata.id}
-              item={review}
-              showImage={true}
-              showTags={true}
-              showPublication={true}
-              className="mb-4"
-            />
-          ))
-        )}
-      </div>
+      <UnifiedList 
+        items={reviewContent}
+        options={{
+          layout: 'list',
+          searchable: true,
+          filterable: true,
+          sortBy: 'date',
+          pagination: true,
+          groupBy: 'category'
+        }}
+      />
     </PageLayout>
   );
 }

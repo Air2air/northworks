@@ -1,0 +1,821 @@
+{
+  "metadata": {
+    "id": "all-articles",
+    "title": "All Articles Content",
+    "type": "articles",
+    "count": 12,
+    "created": "2025-08-17T14:29:53.363496",
+    "version": "2.0.0",
+    "source": "consolidation"
+  },
+  "items": [
+    {
+      "id": "c-art-brain",
+      "slug": "c-art-brain",
+      "type": "article",
+      "category": "articles",
+      "title": "Music Trains the Brain",
+      "summary": "Babies like Bach. They also like Mozart, Vivaldi, and a bit of Brahms. Since the birth last week of James, my first grandchild, I have found that some of the little one's lustiest cries can usually b...",
+      "url": "/articles/c-art-brain",
+      "status": "published",
+      "publishedDate": "June 14, 1999",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers",
+        "author": null,
+        "date": "June 14, 1999",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "baroque period",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-brain",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Music Trains the Brain",
+            "summary": "Babies like Bach. They also like Mozart, Vivaldi, and a bit of Brahms. Since the birth last week of James, my first grandchild, I have found that some of the little one's lustiest cries can usually b...",
+            "url": "/articles/c-art-brain"
+          },
+          "publication": {
+            "date": "June 14, 1999",
+            "publisher": "ANG Newspapers"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Johannes Brahms",
+            "Piano",
+            "Vivaldi",
+            "Voice"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.242332",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-casablanca",
+      "slug": "c-art-casablanca",
+      "type": "article",
+      "category": "articles",
+      "title": "Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca",
+      "summary": "Richard Kagey, the stage director for the Merola Opera Program's upcoming world premiere of Thomas Pasatieri's new opera, Hotel Casablanca, was hand-picked for the job by the composer himself. Nice...",
+      "url": "/articles/c-art-casablanca",
+      "status": "published",
+      "publishedDate": "August 3, 2007",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "August 3, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "opera performance",
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-casablanca",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca",
+            "summary": "Richard Kagey, the stage director for the Merola Opera Program's upcoming world premiere of Thomas Pasatieri's new opera, Hotel Casablanca, was hand-picked for the job by the composer himself. Nice...",
+            "url": "/articles/c-art-casablanca"
+          },
+          "publication": {
+            "date": "August 3, 2007",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Opera",
+            "Carter",
+            "Premiere",
+            "Orchestra",
+            "Bass",
+            "Wolfgang Amadeus Mozart"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.242632",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-coco",
+      "slug": "c-art-coco",
+      "type": "article",
+      "category": "articles",
+      "title": "High-Tech Hand-Held Concert Companion for Symphony Audiences",
+      "summary": "Can high-tech and fine art coexist? Evidently, yes. But just to make sure, check out the Oakland East Bay Symphony Orchestra's performance tonight at the Paramount Theatre in Oakland. Michael Morga...",
+      "url": "/articles/c-art-coco",
+      "status": "published",
+      "publishedDate": "February 25, 2005",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 25, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "concert performance",
+        "orchestral music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-coco",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "High-Tech Hand-Held Concert Companion for Symphony Audiences",
+            "summary": "Can high-tech and fine art coexist?\n\nEvidently, yes. But just to make sure, check out the Oakland East Bay Symphony Orchestra's performance tonight at the Paramount Theatre in Oakland. Michael Morga...",
+            "url": "/articles/c-art-coco"
+          },
+          "publication": {
+            "date": "February 25, 2005",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Concert",
+            "Opera",
+            "Symphony",
+            "Orchestra",
+            "Percussion",
+            "Organ"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.242870",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-fremontoperagasser",
+      "slug": "c-art-fremontoperagasser",
+      "type": "article",
+      "category": "articles",
+      "title": "Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is Achieving Deserved Recognition",
+      "summary": "Is grand opera composed of great music to which some words have been added? Or is it good drama set to appealing tunes? According to Maestro David Sloss, conductor, professor and director of ope...",
+      "url": "/articles/c-art-fremontoperagasser",
+      "status": "published",
+      "publishedDate": "August 15, 2008",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Media Preview Section/Inside Bay Area Classical Music",
+        "author": null,
+        "date": "August 15, 2008",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "conductor leadership",
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-fremontoperagasser",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is Achieving Deserved Recognition",
+            "summary": "Is grand opera composed of great music to which some words have been added? Or is it good drama set to appealing tunes?\n\nAccording to Maestro David Sloss, conductor, professor and director of ope...",
+            "url": "/articles/c-art-fremontoperagasser"
+          },
+          "publication": {
+            "date": "August 15, 2008",
+            "publisher": "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Barber",
+            "Opera",
+            "Rossini",
+            "Richard Wagner",
+            "Wolfgang Amadeus Mozart",
+            "Orchestra"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.243108",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-gergiev9",
+      "slug": "c-art-gergiev9",
+      "type": "article",
+      "category": "articles",
+      "title": "Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands",
+      "summary": "Now I'm convinced. Valery Gergiev, the Moscow-born Ossetian conductor, is a genuine musical phenomenon. Although I'm still struggling through the pea-soup fog of the jet-lagged after my return to t...",
+      "url": "/articles/c-art-gergiev9",
+      "status": "published",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": null,
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/gergiev.jpg",
+          "type": "image",
+          "alt": "c-art-gergiev9",
+          "title": null,
+          "caption": null,
+          "width": 165,
+          "height": 231,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/gergiev-freedom-banner.jpg",
+          "type": "image",
+          "alt": "Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "hero",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "conductor leadership",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-gergiev9",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands",
+            "summary": "Now I'm convinced. Valery Gergiev, the Moscow-born Ossetian conductor, is a genuine musical phenomenon.\n\nAlthough I'm still struggling through the pea-soup fog of the jet-lagged after my return to t...",
+            "url": "/articles/c-art-gergiev9"
+          },
+          "publication": {
+            "date": null,
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/gergiev.jpg",
+                "alt": "c-art-gergiev9",
+                "type": "image",
+                "width": 165,
+                "height": 231
+              },
+              {
+                "url": "/images/gergiev-freedom-banner.jpg",
+                "alt": "Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Ludwig van Beethoven",
+            "Orchestra",
+            "Rehearsal",
+            "Performance",
+            "Festival",
+            "Symphony"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.243351",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-heggie",
+      "slug": "c-art-heggie",
+      "type": "article",
+      "category": "articles",
+      "title": "Composer Heggie keeps seeking higher ground",
+      "summary": "THE marriage of words and music, and the way this union can tell the whole story — including that which is not spoken — inspires me,\" says Jake Heggie(http://www.jakeheggie.com), the Bay Area's pre...",
+      "url": "/articles/c-art-heggie",
+      "status": "published",
+      "publishedDate": "October 27, 2006",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "October 27, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-heggie",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Composer Heggie keeps seeking higher ground",
+            "summary": "THE marriage of words and music, and the way this union can tell the whole story — including that which is not\nspoken — inspires me,\" says Jake Heggie(http://www.jakeheggie.com), the Bay Area's pre...",
+            "url": "/articles/c-art-heggie"
+          },
+          "publication": {
+            "date": "October 27, 2006",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Heggie",
+            "Choir",
+            "Opera",
+            "Performance",
+            "Orchestra",
+            "Baroque"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.243643",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-national-anthem",
+      "slug": "c-art-national-anthem",
+      "type": "article",
+      "category": "articles",
+      "title": "Thoughts on Our National Anthem",
+      "summary": "A couple of classical music organizations will present concerts to add some flash and dash to the Bay Area's Fourth of July celebrations this coming week. These events, in addition to baseball games...",
+      "url": "/articles/c-art-national-anthem",
+      "status": "published",
+      "publishedDate": "July 2, 2004",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers",
+        "author": null,
+        "date": "July 2, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "concert performance",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-national-anthem",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Thoughts on Our National Anthem",
+            "summary": "A couple of classical music organizations will present concerts to add some flash and dash to the Bay Area's Fourth of July celebrations this coming week. These events, in addition to baseball games...",
+            "url": "/articles/c-art-national-anthem"
+          },
+          "publication": {
+            "date": "July 2, 2004",
+            "publisher": "ANG Newspapers"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Organ",
+            "Ives",
+            "Performance",
+            "Concert",
+            "God Save",
+            "Think"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.245605",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-natlsymph",
+      "slug": "c-art-natlsymph",
+      "type": "article",
+      "category": "articles",
+      "title": "Different sort of 40s tunes from National Symphony",
+      "summary": "FUNNY thing, time. What was once new and exciting often becomes old and ' uh, well ' dull. But if you wait just a few more years, the tables turn and the old and dull take on a new sense of chic, and...",
+      "url": "/articles/c-art-natlsymph",
+      "status": "published",
+      "publishedDate": "February 11, 2005",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 11, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "orchestral music",
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-natlsymph",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Different sort of 40s tunes from National Symphony",
+            "summary": "FUNNY thing, time. What was once new and exciting often becomes old and ' uh, well ' dull. But if you wait just a few more years, the tables turn and the old and dull take on a new sense of chic, and...",
+            "url": "/articles/c-art-natlsymph"
+          },
+          "publication": {
+            "date": "February 11, 2005",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Orchestra",
+            "Concert",
+            "Symphony",
+            "Violin",
+            "Opera",
+            "Carter"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.245869",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-ring-legend",
+      "slug": "c-art-ring-legend",
+      "type": "article",
+      "category": "articles",
+      "title": "Berkeley Opera Production of the Condensed Version of Wagner's Der Ring des Nibelungen",
+      "summary": "One of the most frequent complaints folks have about composer Richard Wagner's epic four-opera cycle based on the old Germanic legends of Der Ring des Nibelungen is that it's sooo long! A thought...",
+      "url": "/articles/c-art-ring-legend",
+      "status": "published",
+      "publishedDate": "July 30, 2010",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Preview Section",
+        "author": null,
+        "date": "July 30, 2010",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "opera performance",
+        "romantic era"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-ring-legend",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Berkeley Opera Production of the Condensed Version of Wagner's Der Ring des Nibelungen",
+            "summary": "One of the most frequent complaints folks have about composer Richard Wagner's epic four-opera cycle based on the old Germanic legends of Der Ring des Nibelungen is that it's sooo long!\n\nA thought...",
+            "url": "/articles/c-art-ring-legend"
+          },
+          "publication": {
+            "date": "July 30, 2010",
+            "publisher": "Bay Area News Preview Section"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Richard Wagner",
+            "Berkeley Opera",
+            "Bass",
+            "Performance",
+            "Glass",
+            "Orchestra"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.246112",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-art-wozzeck",
+      "slug": "c-art-wozzeck",
+      "type": "article",
+      "category": "articles",
+      "title": "Berg's *Wozzeck* is still powerful after 85 years",
+      "summary": "The music, art and architecture of a given time often present a mirror image of the mood and mores of that time. As a potent example of this thesis, the San Francisco Conservatory of Music's resident...",
+      "url": "/articles/c-art-wozzeck",
+      "status": "published",
+      "publishedDate": "January 26, 2010",
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Preview Section",
+        "author": null,
+        "date": "January 26, 2010",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "music education"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-art-wozzeck",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Berg's *Wozzeck* is still powerful after 85 years",
+            "summary": "The music, art and architecture of a given time often present a mirror image of the mood and mores of that time. As a potent example of this thesis, the San Francisco Conservatory of Music's resident...",
+            "url": "/articles/c-art-wozzeck"
+          },
+          "publication": {
+            "date": "January 26, 2010",
+            "publisher": "ANG Newspapers Preview Section"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Bass",
+            "Opera",
+            "Expression",
+            "Claude Debussy",
+            "Ives",
+            "Orchestra"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.246348",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-articles-deadman",
+      "slug": "c-articles-deadman",
+      "type": "article",
+      "category": "articles",
+      "title": "Dead Man Walking at San Francisco Opera",
+      "summary": "Operas have been written about virtually every aspect of human experience. While libretti fairly brim with cases of mistaken identity, romance, slapstick comedy, and all manner of noble quests, they...",
+      "url": "/articles/c-articles-deadman",
+      "status": "published",
+      "publishedDate": 2000,
+      "lastModified": "2025-08-15T18:09:54.784Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Opera Now",
+        "author": null,
+        "date": 2000,
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-articles-deadman",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 218,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/dmw-1.jpg",
+          "type": "image",
+          "alt": "Dead Man Walking at San Francisco Opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/dmw-2.jpg",
+          "type": "image",
+          "alt": "Dead Man Walking at San Francisco Opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/dmw-3.jpg",
+          "type": "image",
+          "alt": "Dead Man Walking at San Francisco Opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-articles-deadman",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.784Z"
+          },
+          "content": {
+            "title": "Dead Man Walking at San Francisco Opera",
+            "summary": "Operas have been written about virtually every aspect of human experience. While libretti fairly brim with cases of mistaken identity, romance, slapstick comedy, and all manner of noble quests, they...",
+            "url": "/articles/c-articles-deadman"
+          },
+          "publication": {
+            "date": 2000,
+            "publisher": "Opera Now"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/opera-now-cover.jpg",
+                "alt": "c-articles-deadman",
+                "type": "image",
+                "width": 150,
+                "height": 218
+              },
+              {
+                "url": "/images/dmw-1.jpg",
+                "alt": "Dead Man Walking at San Francisco Opera",
+                "type": "image"
+              },
+              {
+                "url": "/images/dmw-2.jpg",
+                "alt": "Dead Man Walking at San Francisco Opera",
+                "type": "image"
+              },
+              {
+                "url": "/images/dmw-3.jpg",
+                "alt": "Dead Man Walking at San Francisco Opera",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Heggie",
+            "Opera",
+            "Ives",
+            "Voice",
+            "Orchestra",
+            "Composition"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.246660",
+        "sourceFile": "cheryl-articles"
+      }
+    },
+    {
+      "id": "c-articles",
+      "slug": "c-articles",
+      "type": "article",
+      "category": "articles",
+      "title": "Untitled",
+      "summary": "July 30, 2010 Berkeley Opera Production of The Legend of the Ring, by Richard Wagner, condensed by David Seaman(http://www.insidebayarea.com/ci 15606273)Classical Music Column Bay Area N...",
+      "url": "/articles/c-articles",
+      "status": "published",
+      "publishedDate": "July",
+      "lastModified": "2025-08-15T18:09:54.785Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Richard Wagner",
+        "author": null,
+        "date": "July",
+        "headline": null,
+        "url": null
+      },
+      "media": [],
+      "tags": [
+        "opera performance",
+        "classical period",
+        "romantic era"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-articles",
+            "type": "article",
+            "category": "articles",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.785Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "July 30, 2010\nBerkeley Opera Production of The Legend of the Ring, by Richard Wagner, condensed by David Seaman(http://www.insidebayarea.com/ci 15606273)Classical Music Column Bay Area N...",
+            "url": "/articles/c-articles"
+          },
+          "publication": {
+            "date": "July",
+            "publisher": "Richard Wagner"
+          },
+          "media": {
+            "images": []
+          },
+          "tags": [
+            "Classical",
+            "Heggie",
+            "Opera",
+            "Symphony",
+            "Richard Wagner",
+            "Ludwig van Beethoven"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.247302",
+        "sourceFile": "cheryl-articles"
+      }
+    }
+  ]
+}

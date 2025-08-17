@@ -5,7 +5,7 @@
     "count": 5,
     "generated": "2025-08-15T18:09:54.805Z",
     "version": "1.0.0",
-    "lastModified": "2025-08-16T02:52:32.000Z"
+    "lastModified": "2025-08-17T13:36:43.035597Z"
   },
   "background": [
     {
@@ -175,7 +175,14 @@
           }
         ]
       },
-      "tags": []
+      "tags": [
+        "Ives",
+        "Stanford",
+        "Organ",
+        "Composition",
+        "Mass",
+        "The Demise"
+      ]
     }
   ]
 }

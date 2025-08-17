@@ -115,7 +115,7 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
       {frontmatter.images && frontmatter.images.length > 0 && (
         <section className="mb-8">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Images</h3>
-          <ImageGallery images={frontmatter.images} layout="grid" />
+          <ImageGallery images={frontmatter.images} />
         </section>
       )}
 

@@ -7,9 +7,9 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { ContentCard } from "@/components/ui/ContentCard";
+import UnifiedCard from "@/components/ui/UnifiedCard";
 import Pagination from "@/components/ui/Pagination";
-import { UnifiedContentItem } from "@/types/content";
+import { UnifiedContentItem } from "@/schemas/unified-content-schema";
 
 // Client-side search interface
 export default function SearchInterface({
@@ -50,7 +50,7 @@ export default function SearchInterface({
     updateURL(newSearchTerm);
   };
 
-  // Simplified search logic - only search term based
+  // Simplified search logic - search using new schema fields
   const filteredContent = useMemo(() => {
     let filtered = allContent;
 
@@ -59,32 +59,26 @@ export default function SearchInterface({
       const term = searchTerm.toLowerCase();
       filtered = filtered.filter(
         (item) =>
-          item.content.title.toLowerCase().includes(term) ||
-          item.content.summary?.toLowerCase().includes(term) ||
-          item.content.body?.toLowerCase().includes(term) ||
+          item.title.toLowerCase().includes(term) ||
+          item.summary?.toLowerCase().includes(term) ||
+          item.body?.toLowerCase().includes(term) ||
+          item.excerpt?.toLowerCase().includes(term) ||
           item.tags?.some((tag) => tag.toLowerCase().includes(term)) ||
-          item.subject?.people?.some(
-            (person) =>
-              person.name.toLowerCase().includes(term) ||
-              (person.role && person.role.toLowerCase().includes(term))
-          ) ||
-          item.subject?.organizations?.some((org) =>
-            org.name.toLowerCase().includes(term)
-          ) ||
-          item.metadata.type.toLowerCase().includes(term) ||
-          item.metadata.category.toLowerCase().includes(term)
+          item.type.toLowerCase().includes(term) ||
+          item.category?.toLowerCase().includes(term) ||
+          item.slug?.toLowerCase().includes(term)
       );
     }
 
     // Default sorting by relevance (search term in title gets priority)
     filtered.sort((a, b) => {
       if (searchTerm) {
-        const aInTitle = a.content.title
+        const aInTitle = a.title
           .toLowerCase()
           .includes(searchTerm.toLowerCase())
           ? 1
           : 0;
-        const bInTitle = b.content.title
+        const bInTitle = b.title
           .toLowerCase()
           .includes(searchTerm.toLowerCase())
           ? 1
@@ -94,8 +88,8 @@ export default function SearchInterface({
         }
       }
       // Secondary sort by date (newest first)
-      const dateA = new Date(a.publication?.date || "1900-01-01");
-      const dateB = new Date(b.publication?.date || "1900-01-01");
+      const dateA = new Date(a.publishedDate || "1900-01-01");
+      const dateB = new Date(b.publishedDate || "1900-01-01");
       return dateB.getTime() - dateA.getTime();
     });
 
@@ -175,26 +169,36 @@ export default function SearchInterface({
         ) : (
           <div className="space-y-6">
             {paginatedContent.map((item: UnifiedContentItem, index: number) => (
-              <div key={`${item.metadata.id}-${index}`} className="relative">
-                <ContentCard item={item} showImage={true} showTags={true} />
+              <div key={`${item.id}-${index}`} className="relative">
+                <UnifiedCard 
+                  item={item} 
+                  options={{ 
+                    showTags: true,
+                    showSummary: true,
+                    showImage: true,
+                    clickable: true,
+                    layout: 'horizontal',
+                    size: 'medium'
+                  }} 
+                />
                 {/* Type Badge */}
                 <div className="absolute top-2 right-2">
                   <span
                     className={`px-2 py-1 text-xs font-medium rounded-full ${
-                      item.metadata.type === "interview"
+                      item.type === "interview"
                         ? "bg-purple-100 text-purple-800"
-                        : item.metadata.type === "article"
+                        : item.type === "article"
                         ? "bg-green-100 text-green-800"
-                        : item.metadata.type === "review"
+                        : item.type === "review"
                         ? "bg-sky-100 text-sky-800"
-                        : item.metadata.type === "professional"
+                        : item.type === "professional"
                         ? "bg-sky-100 text-sky-800"
-                        : item.metadata.type === "publication"
+                        : item.type === "publication"
                         ? "bg-sky-100 text-sky-800"
                         : "bg-sky-100 text-sky-800"
                     }`}
                   >
-                    {item.metadata.type}
+                    {item.type}
                   </span>
                 </div>
               </div>

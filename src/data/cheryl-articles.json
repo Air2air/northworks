@@ -2,10 +2,10 @@
   "metadata": {
     "classification": "cheryl-articles",
     "description": "In-depth articles about classical music and performers",
-    "count": 13,
+    "count": 12,
     "generated": "2025-08-15T18:09:54.800Z",
     "version": "1.0.0",
-    "lastModified": "2025-08-16T02:52:31.988Z"
+    "lastModified": "2025-08-17T13:36:43.029397Z"
   },
   "articles": [
     {
@@ -30,16 +30,12 @@
         "images": []
       },
       "tags": [
-        "Brandenburg Concerto No",
-        "Concerto",
+        "Wolfgang Amadeus Mozart",
         "Johann Sebastian Bach",
         "Johannes Brahms",
-        "Little James",
-        "Music Article",
-        "Music Trains",
         "Piano",
-        "Violin",
-        "Wolfgang Amadeus Mozart"
+        "Vivaldi",
+        "Voice"
       ]
     },
     {
@@ -64,16 +60,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Bass",
-        "Conducting",
-        "Mezzo-soprano",
         "Opera",
-        "San Francisco Opera",
-        "Soprano",
-        "Tenor",
-        "Wolfgang Amadeus Mozart",
-        "World Premiere"
+        "Carter",
+        "Premiere",
+        "Orchestra",
+        "Bass",
+        "Wolfgang Amadeus Mozart"
       ]
     },
     {
@@ -98,16 +90,12 @@
         "images": []
       },
       "tags": [
-        "Conducting",
-        "Debut Performance",
-        "Held Concert Companion",
-        "Johann Sebastian Bach",
-        "Metropolitan Opera",
-        "Music Article",
+        "Concert",
         "Opera",
         "Symphony",
-        "Symphony Audiences",
-        "Tech Hand"
+        "Orchestra",
+        "Percussion",
+        "Organ"
       ]
     },
     {
@@ -132,16 +120,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Carmen",
-        "Giacomo Puccini",
+        "Barber",
         "Opera",
+        "Rossini",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Symphony",
-        "Tenor",
-        "Tosca",
-        "Wolfgang Amadeus Mozart"
+        "Wolfgang Amadeus Mozart",
+        "Orchestra"
       ]
     },
     {
@@ -179,15 +163,12 @@
         ]
       },
       "tags": [
-        "Conducting",
-        "Gustav Mahler",
-        "Interview",
         "Ludwig van Beethoven",
-        "Ninth Symphony Conducted",
-        "Opera",
-        "Richard Wagner",
-        "Symphony",
-        "Violin"
+        "Orchestra",
+        "Rehearsal",
+        "Performance",
+        "Festival",
+        "Symphony"
       ]
     },
     {
@@ -212,16 +193,12 @@
         "images": []
       },
       "tags": [
-        "attending the",
-        "McGegan will",
-        "since been",
-        "doctor and",
-        "he started",
-        "divided choir",
-        "choirs are",
-        "Bay Area",
-        "after the",
-        "San Francisco"
+        "Heggie",
+        "Choir",
+        "Opera",
+        "Performance",
+        "Orchestra",
+        "Baroque"
       ]
     },
     {
@@ -246,12 +223,12 @@
         "images": []
       },
       "tags": [
-        "Bay Area",
-        "Classical Music",
-        "Music Article",
-        "Our National Anthem",
+        "Organ",
+        "Ives",
         "Performance",
-        "Spangled Banner"
+        "Concert",
+        "God Save",
+        "Think"
       ]
     },
     {
@@ -276,16 +253,12 @@
         "images": []
       },
       "tags": [
-        "Concerto",
-        "Giacomo Puccini",
-        "Metropolitan Opera",
-        "Music Article",
-        "National Symphony",
-        "Newspapers Preview Section",
-        "Opera",
-        "Premiere",
+        "Orchestra",
+        "Concert",
         "Symphony",
-        "Violin"
+        "Violin",
+        "Opera",
+        "Carter"
       ]
     },
     {
@@ -310,16 +283,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Bass",
-        "Berkeley Opera Production",
-        "Merola Opera Program",
-        "Mezzo-soprano",
-        "Opera",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Soprano",
-        "Tenor"
+        "Berkeley Opera",
+        "Bass",
+        "Performance",
+        "Glass",
+        "Orchestra"
       ]
     },
     {
@@ -344,16 +313,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
         "Bass",
-        "Conducting",
-        "Music Article",
-        "Music Ensemble Parallele",
         "Opera",
-        "San Francisco Conservatory",
-        "Soprano",
-        "Tenor",
-        "Yerba Buena Center"
+        "Expression",
+        "Claude Debussy",
+        "Ives",
+        "Orchestra"
       ]
     },
     {
@@ -401,15 +366,12 @@
         ]
       },
       "tags": [
-        "Baritone",
-        "Conducting",
-        "Franz Schubert",
+        "Heggie",
         "Opera",
-        "Opera Now",
-        "Piano",
-        "San Francisco Opera",
-        "Soprano",
-        "War Memorial Opera House"
+        "Ives",
+        "Voice",
+        "Orchestra",
+        "Composition"
       ]
     },
     {
@@ -434,58 +396,12 @@
         "images": []
       },
       "tags": [
-        "Berkeley Opera Production",
-        "Ludwig van Beethoven",
-        "Merola Opera Program",
+        "Classical",
+        "Heggie",
         "Opera",
-        "Premiere",
-        "Richard Wagner",
-        "San Francisco Opera",
         "Symphony",
-        "World Premiere"
-      ]
-    },
-    {
-      "metadata": {
-        "id": "c-reviews-tristan-stuttgart",
-        "type": "article",
-        "category": "articles",
-        "status": "published",
-        "source": "markdown",
-        "lastModified": "2025-08-15T18:09:54.785Z"
-      },
-      "content": {
-        "title": "Stuttgart Reveals a New Way to Envision Tristan und Isolde",
-        "summary": "WHEN the curtain rose Sunday after only a few bars of the prelude to Richard Wagner's \"Tristan und Isolde,\" I knew I wasn't in Kansas anymore. But I also thought that just maybe it could have been Sa...",
-        "url": "/articles/c-reviews-tristan-stuttgart"
-      },
-      "publication": {
-        "date": "October 22, 2004",
-        "publisher": "Oakland Tribune, Alameda Newspaper Group",
-        "author": "Cheryl North"
-      },
-      "media": {
-        "images": [
-          {
-            "url": "/images/stuttgart-state-opera.jpg",
-            "alt": "c-reviews-tristan-stuttgart",
-            "type": "image",
-            "width": 300,
-            "height": 180
-          }
-        ]
-      },
-      "tags": [
-        "Aria",
-        "Baritone",
-        "Concert Review",
-        "Interview",
-        "Mezzo-soprano",
-        "Opera",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Soprano",
-        "Stuttgart Reveals"
+        "Ludwig van Beethoven"
       ]
     }
   ]

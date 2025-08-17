@@ -1,0 +1,5176 @@
+{
+  "metadata": {
+    "id": "all-interviews",
+    "title": "All Interviews Content",
+    "type": "interviews",
+    "count": 65,
+    "created": "2025-08-17T14:29:53.363561",
+    "version": "2.0.0",
+    "source": "consolidation"
+  },
+  "items": [
+    {
+      "id": "c-aikin",
+      "slug": "c-aikin",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Super Mom, super Singer -- that's soprano Aikin",
+      "summary": "\"THE voice of an angel\" is an oft-used phrase used to describe soprano Laura Aikin's singing. Aikin, the unforgettable blue angel with only one wing in the San Francisco Opera production of Messian'...",
+      "url": "/interviews/c-aikin",
+      "status": "published",
+      "publishedDate": "February 18, 2005",
+      "lastModified": "2025-08-15T18:09:54.780Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 18, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/laura-aikin.jpg",
+          "type": "image",
+          "alt": "c-aikin",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "vocal artistry",
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-aikin",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.780Z"
+          },
+          "content": {
+            "title": "Super Mom, super Singer -- that's soprano Aikin",
+            "summary": "\"THE voice of an angel\" is an oft-used phrase used to describe soprano Laura Aikin's singing.\n\nAikin, the unforgettable blue angel with only one wing in\nthe San Francisco Opera production of Messian'...",
+            "url": "/interviews/c-aikin"
+          },
+          "publication": {
+            "date": "February 18, 2005",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/laura-aikin.jpg",
+                "alt": "c-aikin",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Robert Schumann",
+            "Opera",
+            "Voice",
+            "Piano",
+            "Cello",
+            "San Francisco Symphony"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.332437",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-armer",
+      "slug": "c-armer",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Elinor Armer",
+      "summary": "It takes a creative sort of person to see a relationship between plate tectonics and music. Berkeley composer Elinor Armer, and her artistic collaborator, science fiction/fantasy writer Ursula Le Gui...",
+      "url": "/interviews/c-armer",
+      "status": "published",
+      "publishedDate": "November 18, 1995",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers",
+        "author": null,
+        "date": "November 18, 1995",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/elinor-armer.jpg",
+          "type": "image",
+          "alt": "c-armer",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "musical interpretation"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-armer",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Elinor Armer",
+            "summary": "It takes a creative sort of person to see a relationship between plate tectonics and music. Berkeley composer Elinor Armer, and her artistic collaborator, science fiction/fantasy writer Ursula Le Gui...",
+            "url": "/interviews/c-armer"
+          },
+          "publication": {
+            "date": "November 18, 1995",
+            "publisher": "ANG Newspapers"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/elinor-armer.jpg",
+                "alt": "c-armer",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Piano",
+            "Composition",
+            "Voice",
+            "Johann Sebastian Bach",
+            "Ives"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.332710",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-assink",
+      "slug": "c-assink",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Interview with Brent Assink, on the new \"6.5\" Format",
+      "summary": "ONE OF THE fascinations about great classical music is that there doesn't seem to be any limit on how much you can learn about it. Perhaps hearing a great work of music for the first time is a bit...",
+      "url": "/interviews/c-assink",
+      "status": "published",
+      "publishedDate": "October 28, 2005",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "October 28, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/assink.jpg",
+          "type": "image",
+          "alt": "c-assink",
+          "title": null,
+          "caption": null,
+          "width": 112,
+          "height": 150,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "classical period",
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-assink",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Interview with Brent Assink, on the new \"6.5\" Format",
+            "summary": "ONE OF THE fascinations about great classical music is that there doesn't seem to be any limit on how much you can learn about it.\n\nPerhaps hearing a great work of music for the first time is a bit...",
+            "url": "/interviews/c-assink"
+          },
+          "publication": {
+            "date": "October 28, 2005",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/assink.jpg",
+                "alt": "c-assink",
+                "type": "image",
+                "width": 112,
+                "height": 150
+              }
+            ]
+          },
+          "tags": [
+            "Concert",
+            "Symphony",
+            "Conducting",
+            "Orchestra",
+            "Classical",
+            "Wolfgang Amadeus Mozart"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.332964",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-ax",
+      "slug": "c-ax",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra",
+      "summary": "Local lovers of the piano, that most versatile of musical instruments, can enjoy a bit of heaven this month, as the San Francisco Symphony presents four of the world's greatest living masters of this...",
+      "url": "/interviews/c-ax",
+      "status": "published",
+      "publishedDate": "October 10, 2008",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group",
+        "author": null,
+        "date": "October 10, 2008",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "orchestral music",
+        "instrumental mastery",
+        "recital performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-ax",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra",
+            "summary": "Local lovers of the piano, that most versatile of musical instruments, can enjoy a bit of heaven this month, as the San Francisco Symphony presents four of the world's greatest living masters of this...",
+            "url": "/interviews/c-ax"
+          },
+          "publication": {
+            "date": "October 10, 2008",
+            "publisher": "Bay Area News Group"
+          },
+          "tags": [
+            "Piano",
+            "Orchestra",
+            "Symphony",
+            "Frédéric Chopin",
+            "Wolfgang Amadeus Mozart",
+            "Pyotr Ilyich Tchaikovsky"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.333221",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-barantschik",
+      "slug": "c-barantschik",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews with Alexander Barantschik",
+      "summary": "One of the nicer coincidences in this world is that the first day of spring coincides with the birthday of Johann Sebastian Bach. The great man, considered by the vast majority of accomplished clas...",
+      "url": "/interviews/c-barantschik",
+      "status": "published",
+      "publishedDate": "February 16, 2007",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "San Francisco Examiner",
+        "author": null,
+        "date": "February 16, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/barantschik-and-mtt-cologne.jpg",
+          "type": "image",
+          "alt": "c-barantschik",
+          "title": null,
+          "caption": null,
+          "width": 350,
+          "height": 250,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/barantschik-and-violin.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews with Alexander Barantschik",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "baroque period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-barantschik",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews with Alexander Barantschik",
+            "summary": "One of the nicer coincidences in this world is that the first day of spring coincides with the birthday of Johann Sebastian Bach. The great man, considered by the vast majority of accomplished clas...",
+            "url": "/interviews/c-barantschik"
+          },
+          "publication": {
+            "date": "February 16, 2007",
+            "publisher": "San Francisco Examiner"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/barantschik-and-mtt-cologne.jpg",
+                "alt": "c-barantschik",
+                "type": "image",
+                "width": 350,
+                "height": 250
+              },
+              {
+                "url": "/images/barantschik-and-violin.jpg",
+                "alt": "Cheryl North Interviews with Alexander Barantschik",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Violin",
+            "Johann Sebastian Bach",
+            "Orchestra",
+            "Concert",
+            "Symphony",
+            "Bernstein"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.333464",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-baryshnikov",
+      "slug": "c-baryshnikov",
+      "type": "interview",
+      "category": "interviews",
+      "title": "More honors for the amazing Mikhail Baryshnikov",
+      "summary": "FICTION can seldom outdo the surprises, ironies and plot twists of real life. Imagine this unlikely scenario: a member of the military of the former Soviet Union and his wife are stationed in Riga '...",
+      "url": "/interviews/c-baryshnikov",
+      "status": "published",
+      "publishedDate": "March 17, 2006",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "March 17, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-baryshnikov.jpg",
+          "type": "image",
+          "alt": "c-baryshnikov",
+          "title": null,
+          "caption": null,
+          "width": 144,
+          "height": 140,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-baryshnikov",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "More honors for the amazing Mikhail Baryshnikov",
+            "summary": "FICTION can seldom outdo the surprises, ironies and plot twists of real life.\nImagine this unlikely scenario: a member of the military of the former Soviet Union and his wife are stationed in Riga '...",
+            "url": "/interviews/c-baryshnikov"
+          },
+          "publication": {
+            "date": "March 17, 2006",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-baryshnikov.jpg",
+                "alt": "c-baryshnikov",
+                "type": "image",
+                "width": 144,
+                "height": 140
+              }
+            ]
+          },
+          "tags": [
+            "Violin",
+            "Award",
+            "Pyotr Ilyich Tchaikovsky",
+            "Glass",
+            "Shostakovich",
+            "Interview"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.333723",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-bates",
+      "slug": "c-bates",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Leon Bates",
+      "summary": "Anyone who says that Kindergarten teachers don't have much impact on a child's life would have a bit of an argument with star pianist Leon Bates. According to Bates, it was his Kindergarten teacher...",
+      "url": "/interviews/c-bates",
+      "status": "published",
+      "publishedDate": "April 5, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "April 5, 2002",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-bates.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Leon Bates",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/leon-bates.jpg",
+          "type": "image",
+          "alt": "c-bates",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 200,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-bates",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Leon Bates",
+            "summary": "Anyone who says that Kindergarten teachers don't have much impact on a child's life would have a bit of an argument with star pianist Leon Bates. According to Bates, it was his Kindergarten teacher...",
+            "url": "/interviews/c-bates"
+          },
+          "publication": {
+            "date": "April 5, 2002",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-bates.jpg",
+                "alt": "Cheryl North Interviews Leon Bates",
+                "type": "image"
+              },
+              {
+                "url": "/images/leon-bates.jpg",
+                "alt": "c-bates",
+                "type": "image",
+                "width": 200,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Sergei Rachmaninoff",
+            "Orchestra",
+            "Concert",
+            "Gershwin",
+            "Ludwig van Beethoven"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.333974",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-bayless",
+      "slug": "c-bayless",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews John Bayless",
+      "summary": "Improvisation, in the minds of most of today's classical music mavens, is usually limited to jazz venues, piano bars, or someone's living room. This is to say, that if any unfamiliar or not-written...",
+      "url": "/interviews/c-bayless",
+      "status": "published",
+      "publishedDate": "November 3, 2006",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG PREVIEW Section",
+        "author": null,
+        "date": "November 3, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-bayless.jpg",
+          "type": "image",
+          "alt": "c-bayless",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 150,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "recital performance",
+        "instrumental mastery",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-bayless",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews John Bayless",
+            "summary": "Improvisation, in the minds of most of today's classical music mavens, is usually limited to jazz venues, piano bars, or someone's living room.\n\n This is to say, that if any unfamiliar or not-written...",
+            "url": "/interviews/c-bayless"
+          },
+          "publication": {
+            "date": "November 3, 2006",
+            "publisher": "ANG PREVIEW Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-bayless.jpg",
+                "alt": "c-bayless",
+                "type": "image",
+                "width": 150,
+                "height": 150
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Wolfgang Amadeus Mozart",
+            "Concert",
+            "Gershwin",
+            "Improvisation",
+            "Classical"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.334231",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-bell",
+      "slug": "c-bell",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Joshua Bell",
+      "summary": "The rarefied world of the violin, its masters and its lovers, brims with intrigue - and uncanny coincidence. Consider last night at Davies Symphony Hall. Joshua Bell, the hot young head of the world...",
+      "url": "/interviews/c-bell",
+      "status": "published",
+      "publishedDate": "September 13, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG PREVIEW Section",
+        "author": null,
+        "date": "September 13, 2002",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/bell.jpg",
+          "type": "image",
+          "alt": "c-bell",
+          "title": null,
+          "caption": null,
+          "width": 219,
+          "height": 300,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-bell",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Joshua Bell",
+            "summary": "The rarefied world of the violin, its masters and its lovers, brims with intrigue - and uncanny coincidence.\nConsider last night at Davies Symphony Hall. Joshua Bell, the hot young head of the world...",
+            "url": "/interviews/c-bell"
+          },
+          "publication": {
+            "date": "September 13, 2002",
+            "publisher": "ANG PREVIEW Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/bell.jpg",
+                "alt": "c-bell",
+                "type": "image",
+                "width": 219,
+                "height": 300
+              }
+            ]
+          },
+          "tags": [
+            "Violin",
+            "Barber",
+            "Concert",
+            "Ives",
+            "Orchestra",
+            "Carnegie Hall"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.334484",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-borodina",
+      "slug": "c-borodina",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Olga Borodina",
+      "summary": "The Russians are coming; the Russians are coming! The old Cold War chills have escalated into a red hot invasion of Russian musicians into the Bay Area. While this column's opening phrase was the ti...",
+      "url": "/interviews/c-borodina",
+      "status": "published",
+      "publishedDate": "September 15, 2000",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column for Preview Section",
+        "author": null,
+        "date": "September 15, 2000",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-borodina.jpg",
+          "type": "image",
+          "alt": "c-borodina",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 160,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-borodina",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Olga Borodina",
+            "summary": "The Russians are coming; the Russians are coming! The old Cold War chills have escalated into a red hot invasion of Russian musicians into the Bay Area. While this column's opening phrase was the ti...",
+            "url": "/interviews/c-borodina"
+          },
+          "publication": {
+            "date": "September 15, 2000",
+            "publisher": "ANG Newspapers Classical Music Column for Preview Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-borodina.jpg",
+                "alt": "c-borodina",
+                "type": "image",
+                "width": 160,
+                "height": 160
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Conservatory",
+            "Giuseppe Verdi",
+            "Johann Sebastian Bach",
+            "Maurice Ravel",
+            "Debut"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.334725",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-boulez",
+      "slug": "c-boulez",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Writes about Pierre Boulez",
+      "summary": "One of the most difficult, even disturbing, pieces of music I've ever encountered was a duo piano work written by the great French composer Pierre Boulez. Yet, one of the nicest, most thoroughly civi...",
+      "url": "/interviews/c-boulez",
+      "status": "published",
+      "publishedDate": "May 19, 2000",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column for Preview Section",
+        "author": null,
+        "date": "May 19, 2000",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/pierre-boulez.jpg",
+          "type": "image",
+          "alt": "c-boulez",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 227,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "recital performance",
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-boulez",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Writes about Pierre Boulez",
+            "summary": "One of the most difficult, even disturbing, pieces of music I've ever encountered was a duo piano work written by the great French composer Pierre Boulez. Yet, one of the nicest, most thoroughly civi...",
+            "url": "/interviews/c-boulez"
+          },
+          "publication": {
+            "date": "May 19, 2000",
+            "publisher": "ANG Newspapers Classical Music Column for Preview Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/pierre-boulez.jpg",
+                "alt": "c-boulez",
+                "type": "image",
+                "width": 150,
+                "height": 227
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Gustav Mahler",
+            "Stravinsky",
+            "Tempo",
+            "Orchestra",
+            "Percussion"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.334974",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-branford-marsalis",
+      "slug": "c-branford-marsalis",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Branford Marsalis",
+      "summary": "Some families seem to have an inordinate amount of genetic good luck. Consider the number of adept politicians and public servants abounding in the Adams or Kennedy family gene pools, or the bounty...",
+      "url": "/interviews/c-branford-marsalis",
+      "status": "published",
+      "publishedDate": "September 26, 2008",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group",
+        "author": null,
+        "date": "September 26, 2008",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/branford-marsalis-wc-08-1005.jpg",
+          "type": "image",
+          "alt": "c-branford-marsalis",
+          "title": null,
+          "caption": null,
+          "width": 350,
+          "height": 287,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-branford-marsalis",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Branford Marsalis",
+            "summary": "Some families seem to have an inordinate amount of genetic good luck.\n\nConsider the number of adept politicians and public servants abounding in the Adams or Kennedy family gene pools, or the bounty...",
+            "url": "/interviews/c-branford-marsalis"
+          },
+          "publication": {
+            "date": "September 26, 2008",
+            "publisher": "Bay Area News Group"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/branford-marsalis-wc-08-1005.jpg",
+                "alt": "c-branford-marsalis",
+                "type": "image",
+                "width": 350,
+                "height": 287
+              }
+            ]
+          },
+          "tags": [
+            "Johann Sebastian Bach",
+            "Orchestra",
+            "Stanford",
+            "Adams",
+            "Jazz",
+            "Classical"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.335223",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-braun-russell",
+      "slug": "c-braun-russell",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Russell Braun",
+      "summary": "Can a genuinely dedicated family man be a major world-class opera singer? If it's baritone Russell Braun you're talking about, the answer is an emphatic yes. Perhaps it helps some that almost ev...",
+      "url": "/interviews/c-braun-russell",
+      "status": "published",
+      "publishedDate": "December 2, 2004",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "December 2, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/russell-braun.jpg",
+          "type": "image",
+          "alt": "c-braun-russell",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-braun-russell",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Russell Braun",
+            "summary": "Can a genuinely dedicated family man be a major world-class opera singer?\n\n If it's baritone Russell Braun you're talking about, the answer is an emphatic yes.\n\n Perhaps it helps some that almost ev...",
+            "url": "/interviews/c-braun-russell"
+          },
+          "publication": {
+            "date": "December 2, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/russell-braun.jpg",
+                "alt": "c-braun-russell",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Piano",
+            "Franz Schubert",
+            "Gustav Mahler",
+            "Lieder",
+            "Richard Wagner"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.335461",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-cerny",
+      "slug": "c-cerny",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera",
+      "summary": "Opera lovers living in the \"Lone Star\" state of Texas ought to be thanking all their lucky stars these days for the super nova energy shining on them from the San Francisco Bay Area. Not only is B...",
+      "url": "/interviews/c-cerny",
+      "status": "published",
+      "publishedDate": "April 30",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "April 30",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/cerny-dallas.jpg",
+          "type": "image",
+          "alt": "c-cerny",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 300,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-cerny",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera",
+            "summary": "Opera lovers living in the\n\"Lone Star\" state of Texas ought to be thanking all their lucky stars these days for the super nova energy shining on them from the San Francisco Bay Area.\n\n Not only is B...",
+            "url": "/interviews/c-cerny"
+          },
+          "publication": {
+            "date": "April 30",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/cerny-dallas.jpg",
+                "alt": "c-cerny",
+                "type": "image",
+                "width": 200,
+                "height": 300
+              }
+            ]
+          },
+          "tags": [
+            "Heggie",
+            "Opera",
+            "Voice",
+            "Piano",
+            "Giacomo Puccini",
+            "Conducting"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.335706",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-cleve",
+      "slug": "c-cleve",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews George Cleve about his career and the Midsummer Mozart Festival",
+      "summary": "It's well known that Austrian-born Wolfgang Amadeus Mozart (1756-1791) exhibited astonishing musical ability during very early childhood. But then, so did Austrian-born George Wolfgang Cleve almost t...",
+      "url": "/interviews/c-cleve",
+      "status": "published",
+      "publishedDate": "July 3, 2009",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "July 3, 2009",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/cleve-george.jpg",
+          "type": "image",
+          "alt": "c-cleve",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "classical period",
+        "career development"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-cleve",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews George Cleve about his career and the Midsummer Mozart Festival",
+            "summary": "It's well known that Austrian-born Wolfgang Amadeus Mozart (1756-1791) exhibited astonishing musical ability during very early childhood. But then, so did Austrian-born George Wolfgang Cleve almost t...",
+            "url": "/interviews/c-cleve"
+          },
+          "publication": {
+            "date": "July 3, 2009",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/cleve-george.jpg",
+                "alt": "c-cleve",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Wolfgang Amadeus Mozart",
+            "Orchestra",
+            "Concert",
+            "Violin",
+            "Conducting",
+            "Opera"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.335947",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-cohenjeremy",
+      "slug": "c-cohenjeremy",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Jeremy Cohen",
+      "summary": "On October 5, 1957, a lot of people on the planet were mesmerized by Russia's succesful launch of Sputnik, the first man-made object to be set into orbit around the earth. But for Mr. and Mrs. Cohen...",
+      "url": "/interviews/c-cohenjeremy",
+      "status": "published",
+      "publishedDate": "January 11, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "January 11, 2002",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/jeremy-cohen.jpg",
+          "type": "image",
+          "alt": "c-cohenjeremy",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 250,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-cohenjeremy",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Jeremy Cohen",
+            "summary": "On October 5, 1957, a lot of people on the planet were mesmerized by Russia's succesful launch of Sputnik, the first man-made object to be set into orbit around the earth. But for Mr. and Mrs. Cohen...",
+            "url": "/interviews/c-cohenjeremy"
+          },
+          "publication": {
+            "date": "January 11, 2002",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/jeremy-cohen.jpg",
+                "alt": "c-cohenjeremy",
+                "type": "image",
+                "width": 200,
+                "height": 250
+              }
+            ]
+          },
+          "tags": [
+            "Violin",
+            "Jazz",
+            "Orchestra",
+            "Bass",
+            "Symphony",
+            "Concert"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.336181",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-conlon",
+      "slug": "c-conlon",
+      "type": "interview",
+      "category": "interviews",
+      "title": "James Conlon - Conductor trying to preserve musical legacy",
+      "summary": "Classical music might be very different today, had World War II never happened. That's a contention made by maestro James Conlon, the thoughtful conductor heading up the San Francisco Symphony's 200...",
+      "url": "/interviews/c-conlon",
+      "status": "published",
+      "publishedDate": "June 2, 2006",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "June 2, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/james-conlon-conducting.jpg",
+          "type": "image",
+          "alt": "c-conlon",
+          "title": null,
+          "caption": null,
+          "width": 173,
+          "height": 125,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "conductor leadership",
+        "orchestral music",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-conlon",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "James Conlon - Conductor trying to preserve musical legacy",
+            "summary": "Classical music might be very different today, had World War II never happened.\nThat's a contention made by maestro James Conlon, the thoughtful conductor heading up the San Francisco Symphony's 200...",
+            "url": "/interviews/c-conlon"
+          },
+          "publication": {
+            "date": "June 2, 2006",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/james-conlon-conducting.jpg",
+                "alt": "c-conlon",
+                "type": "image",
+                "width": 173,
+                "height": 125
+              }
+            ]
+          },
+          "tags": [
+            "Symphony",
+            "Reich",
+            "Franz Liszt",
+            "Performance",
+            "Bass",
+            "Festival"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.336552",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-conte",
+      "slug": "c-conte",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Composer David Conte",
+      "summary": "Where in the world do you find classical music composers capable of rivaling the greats of yesteryear? Many serious music aficionados would suggest that the San Francisco Bay Area is an especial...",
+      "url": "/interviews/c-conte",
+      "status": "published",
+      "publishedDate": "October 1, 2010",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "October 1, 2010",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-conte",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Composer David Conte",
+            "summary": "Where in the world do you find classical music composers capable of rivaling the greats of yesteryear?\n\n Many serious music aficionados would suggest that the San Francisco Bay Area is an especial...",
+            "url": "/interviews/c-conte"
+          },
+          "publication": {
+            "date": "October 1, 2010",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Conservatory",
+            "Opera",
+            "Heggie",
+            "Interview",
+            "Violin",
+            "Piano"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.336785",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-copley",
+      "slug": "c-copley",
+      "type": "interview",
+      "category": "interviews",
+      "title": "John Copley Interview",
+      "summary": "How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain young woman named Semele be made interesting to a sophisticated San Francisco audience? If anyone is up to the task,...",
+      "url": "/interviews/c-copley",
+      "status": "published",
+      "publishedDate": "November 3, 2000",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "November 3, 2000",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "opera performance",
+        "concert performance",
+        "baroque period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-copley",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "John Copley Interview",
+            "summary": "How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain young woman named Semele be made interesting to a sophisticated San Francisco audience?\n\n If anyone is up to the task,...",
+            "url": "/interviews/c-copley"
+          },
+          "publication": {
+            "date": "November 3, 2000",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "tags": [
+            "Handel",
+            "Opera",
+            "Giuseppe Verdi",
+            "Giacomo Puccini",
+            "Barber",
+            "Interview"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.336987",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-delavan",
+      "slug": "c-delavan",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Mark Delavan",
+      "summary": "Had composer Richard Wagner been clairvoyant, he might well have hand-picked bass-baritone Mark Delavan to sing the title role in his powerful opera, The Flying Dutchman. During a conversation w...",
+      "url": "/interviews/c-delavan",
+      "status": "published",
+      "publishedDate": "June 13, 2003",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "June 13, 2003",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/delavan-mark.jpg",
+          "type": "image",
+          "alt": "c-delavan",
+          "title": null,
+          "caption": null,
+          "width": 175,
+          "height": 137,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "romantic era"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-delavan",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Mark Delavan",
+            "summary": "Had composer Richard Wagner been clairvoyant, he might well have hand-picked bass-baritone Mark Delavan to sing the title role in his powerful opera, The Flying Dutchman.\n\nDuring a conversation w...",
+            "url": "/interviews/c-delavan"
+          },
+          "publication": {
+            "date": "June 13, 2003",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/delavan-mark.jpg",
+                "alt": "c-delavan",
+                "type": "image",
+                "width": 175,
+                "height": 137
+              }
+            ]
+          },
+          "tags": [
+            "Richard Wagner",
+            "Opera",
+            "San Francisco Symphony",
+            "Johann Sebastian Bach",
+            "Performance",
+            "Davies Symphony Hall"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.337195",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-didonato",
+      "slug": "c-didonato",
+      "type": "interview",
+      "category": "interviews",
+      "title": "DiDonato dips into Latin repertoire to keep dazzle going",
+      "summary": "Remember Dorothy's exclamation to her little dog Toto in the classic movie The Wizard of Oz? \"Toto, I've a feeling we're not in Kansas anymore,\" she said as the two emerged from the tornado-trans...",
+      "url": "/interviews/c-didonato",
+      "status": "published",
+      "publishedDate": "November 13, 2009",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "November 13, 2009",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-didonato",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "DiDonato dips into Latin repertoire to keep dazzle going",
+            "summary": "Remember Dorothy's exclamation to her little dog Toto in the classic movie The Wizard of Oz? \"Toto, I've a feeling we're not in Kansas anymore,\" she said as the two emerged from the tornado-trans...",
+            "url": "/interviews/c-didonato"
+          },
+          "publication": {
+            "date": "November 13, 2009",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Opera",
+            "Rossini",
+            "Barber",
+            "Voice",
+            "Choir",
+            "Horn"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.337436",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-donose",
+      "slug": "c-donose",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Donose goes from glamour queen to boy, with motherhood in betwee",
+      "summary": "Donose goes from glamour queen to boy, with motherhood in between The Oakland Tribune(http://www.oaklandtribune.com/stories/0,1413,82%7e1809%7e702395,00.html), Friday, June 28, 2002 Ruxandra...",
+      "url": "/interviews/c-donose",
+      "status": "published",
+      "publishedDate": "June 28, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Oakland Tribune",
+        "author": "Giuseppe Sinopoli",
+        "date": "June 28, 2002",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-donose",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Donose goes from glamour queen to boy, with motherhood in betwee",
+            "summary": "Donose goes from glamour queen to boy, with motherhood in between\n\nThe Oakland Tribune(http://www.oaklandtribune.com/stories/0,1413,82%7e1809%7e702395,00.html), Friday, June 28, 2002\n\nRuxandra...",
+            "url": "/interviews/c-donose"
+          },
+          "publication": {
+            "date": "June 28, 2002",
+            "publisher": "Oakland Tribune",
+            "author": "Giuseppe Sinopoli"
+          },
+          "media": {},
+          "tags": [
+            "Opera",
+            "Piano",
+            "Ives",
+            "Maurice Ravel",
+            "Voice",
+            "Monteverdi"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.337635",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-dresher",
+      "slug": "c-dresher",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Paul Dresher",
+      "summary": "What do you do if there's a tune roiling around in your head, but there's no existing instrument capable of reproducing it? Well, if you are long-time Berkeley resident Paul Dresher, you simply ca...",
+      "url": "/interviews/c-dresher",
+      "status": "published",
+      "publishedDate": "November 12, 2004",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "November 12, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/dresher-paul-ensemble.jpg",
+          "type": "image",
+          "alt": "c-dresher",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 114,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/dresher-paul-07.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Paul Dresher",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-dresher",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Paul Dresher",
+            "summary": "What do you do if there's a tune roiling around in your head, but there's no existing instrument capable of reproducing it?\n\nWell, if you are long-time Berkeley resident Paul Dresher, you simply ca...",
+            "url": "/interviews/c-dresher"
+          },
+          "publication": {
+            "date": "November 12, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/dresher-paul-ensemble.jpg",
+                "alt": "c-dresher",
+                "type": "image",
+                "width": 150,
+                "height": 114
+              },
+              {
+                "url": "/images/dresher-paul-07.jpg",
+                "alt": "Cheryl North Interviews Paul Dresher",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Adams",
+            "Guitar",
+            "Performance",
+            "Ives",
+            "Contemporary",
+            "Orchestra"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.337853",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-dutoit",
+      "slug": "c-dutoit",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust",
+      "summary": "Not all of the world's greatest musicians started out on their performing paths as three-year-olds toddling up to the family piano and proceeding to dazzle their amazed parents with a display of pr...",
+      "url": "/interviews/c-dutoit",
+      "status": "published",
+      "publishedDate": "April 27, 2007",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "April 27, 2007",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "recital performance",
+        "concert performance",
+        "instrumental mastery",
+        "career development"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-dutoit",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust",
+            "summary": "Not all of the world's greatest musicians started out on their performing paths as three-year-olds toddling up to the family piano and proceeding to dazzle their amazed parents with a display of pr...",
+            "url": "/interviews/c-dutoit"
+          },
+          "publication": {
+            "date": "April 27, 2007",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Orchestra",
+            "Berlioz",
+            "Maurice Ravel",
+            "Piano",
+            "Symphony",
+            "Conducting"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.338110",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-feltsman",
+      "slug": "c-feltsman",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Feature Article on Vladimir Feltsman",
+      "summary": "A dizzying display of piano pyrotechnics will explode through Davies Symphony Hall in San Francisco next Wednesday and Thursday evenings when Vladimir Feltsman attacks Sergei Prokofiev's Piano Conce...",
+      "url": "/interviews/c-feltsman",
+      "status": "published",
+      "publishedDate": "June 14, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Preview Section Classical Music Column",
+        "author": null,
+        "date": "June 14, 2002",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "orchestral music",
+        "recital performance",
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-feltsman",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Feature Article on Vladimir Feltsman",
+            "summary": "A dizzying display of piano pyrotechnics will explode through Davies Symphony Hall in San Francisco next Wednesday and Thursday evenings when Vladimir Feltsman attacks Sergei Prokofiev's Piano Conce...",
+            "url": "/interviews/c-feltsman"
+          },
+          "publication": {
+            "date": "June 14, 2002",
+            "publisher": "ANG Newspapers Preview Section Classical Music Column"
+          },
+          "media": {},
+          "tags": [
+            "Piano",
+            "Prokofiev",
+            "Concert",
+            "Sergei Rachmaninoff",
+            "Pyotr Ilyich Tchaikovsky",
+            "Orchestra"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.338366",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-gasser",
+      "slug": "c-gasser",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Nolan Gasser",
+      "summary": "I see a small but potent ray of hope attempting to pierce through the gloom clouding the world's 21st-century horizon. Yes — even amid all the seemingly endless strife in the Middle East, the dark...",
+      "url": "/interviews/c-gasser",
+      "status": "published",
+      "publishedDate": "January 19, 2007",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music",
+        "author": null,
+        "date": "January 19, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/nolan-gasser.jpg",
+          "type": "image",
+          "alt": "c-gasser",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 212,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/nolan-gasser-2.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Nolan Gasser",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/bob-jones-and-nolan-gasser-in-nm.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Nolan Gasser",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-gasser",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Nolan Gasser",
+            "summary": "I see a small but potent ray of hope attempting to pierce through the gloom clouding the world's 21st-century horizon.\n\n Yes — even amid all the seemingly endless strife in the Middle East, the dark...",
+            "url": "/interviews/c-gasser"
+          },
+          "publication": {
+            "date": "January 19, 2007",
+            "publisher": "ANG Newspapers Classical Music"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/nolan-gasser.jpg",
+                "alt": "c-gasser",
+                "type": "image",
+                "width": 150,
+                "height": 212
+              },
+              {
+                "url": "/images/nolan-gasser-2.jpg",
+                "alt": "Cheryl North Interviews Nolan Gasser",
+                "type": "image"
+              },
+              {
+                "url": "/images/bob-jones-and-nolan-gasser-in-nm.jpg",
+                "alt": "Cheryl North Interviews Nolan Gasser",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Premiere",
+            "Symphony",
+            "Festival",
+            "Solo",
+            "Concert"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.338645",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-gilfry",
+      "slug": "c-gilfry",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Rodney Gilfry",
+      "summary": "There aren't many operatic baritones in the world who can give a concert one night and run a foot race the next day. But, the fit and feisty Rodney Gilfry plans to run the \"U.S. Half Marathon\" (a for...",
+      "url": "/interviews/c-gilfry",
+      "status": "published",
+      "publishedDate": "October 14, 2005",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "October 14, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-gilfry.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Rodney Gilfry",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/gilfry.jpg",
+          "type": "image",
+          "alt": "c-gilfry",
+          "title": null,
+          "caption": null,
+          "width": 140,
+          "height": 214,
+          "variant": "thumbnail",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "concert performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-gilfry",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Rodney Gilfry",
+            "summary": "There aren't many operatic baritones in the world who can give a concert one night and run a foot race the next day. But, the fit and feisty Rodney Gilfry plans to run the \"U.S. Half Marathon\" (a for...",
+            "url": "/interviews/c-gilfry"
+          },
+          "publication": {
+            "date": "October 14, 2005",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-gilfry.jpg",
+                "alt": "Cheryl North Interviews Rodney Gilfry",
+                "type": "image"
+              },
+              {
+                "url": "/images/gilfry.jpg",
+                "alt": "c-gilfry",
+                "type": "image",
+                "width": 140,
+                "height": 214
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Orchestra",
+            "Concert",
+            "Monteverdi",
+            "Wolfgang Amadeus Mozart",
+            "Giuseppe Verdi"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.338939",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-giordani",
+      "slug": "c-giordani",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Marcello Giordani",
+      "summary": "What do you think of when you hear the words 'Italian tenor?' Whatever first comes to mind probably won't fit Marcello Giordani. The young 37-year-old tenor is currently in the Bay Area rehearsing f...",
+      "url": "/interviews/c-giordani",
+      "status": "published",
+      "publishedDate": "August 25, 2000",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG PREVIEW Section Classical Music Column",
+        "author": null,
+        "date": "August 25, 2000",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/giordani.jpg",
+          "type": "image",
+          "alt": "c-giordani",
+          "title": null,
+          "caption": null,
+          "width": 191,
+          "height": 250,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-giordani",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Marcello Giordani",
+            "summary": "What do you think of when you hear the words 'Italian tenor?'\n\nWhatever first comes to mind probably won't fit Marcello Giordani. The young 37-year-old tenor is currently in the Bay Area rehearsing f...",
+            "url": "/interviews/c-giordani"
+          },
+          "publication": {
+            "date": "August 25, 2000",
+            "publisher": "ANG PREVIEW Section Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/giordani.jpg",
+                "alt": "c-giordani",
+                "type": "image",
+                "width": 191,
+                "height": 250
+              }
+            ]
+          },
+          "tags": [
+            "Cello",
+            "Voice",
+            "Opera",
+            "Giuseppe Verdi",
+            "Maurice Ravel",
+            "Massenet"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.339199",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-goode",
+      "slug": "c-goode",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Richard Goode",
+      "summary": "Genius can pop up in unlikely places. Sometimes a rather extraordinary plant sprouts in the middle of a very ordinary flower garden -- or even amidst a field of weeds. At first it might not differ mu...",
+      "url": "/interviews/c-goode",
+      "status": "published",
+      "publishedDate": "March 29, 2002",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Preview Section Classical Music Column",
+        "author": null,
+        "date": "March 29, 2002",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/richard-goode.jpg",
+          "type": "image",
+          "alt": "c-goode",
+          "title": null,
+          "caption": null,
+          "width": 150,
+          "height": 215,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-goode",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Richard Goode",
+            "summary": "Genius can pop up in unlikely places. Sometimes a rather extraordinary plant sprouts in the middle of a very ordinary flower garden -- or even amidst a field of weeds. At first it might not differ mu...",
+            "url": "/interviews/c-goode"
+          },
+          "publication": {
+            "date": "March 29, 2002",
+            "publisher": "ANG Newspapers Preview Section Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/richard-goode.jpg",
+                "alt": "c-goode",
+                "type": "image",
+                "width": 150,
+                "height": 215
+              }
+            ]
+          },
+          "tags": [
+            "Ludwig van Beethoven",
+            "Johann Sebastian Bach",
+            "Piano",
+            "Concert",
+            "Frédéric Chopin",
+            "Wolfgang Amadeus Mozart"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.339432",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-graham",
+      "slug": "c-graham",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Busy Susan Graham Brings Her Talents to San Francisco*",
+      "summary": "The voice that rose above the rhythmic clickity-clack on the other end of the phone line was uncommonly focused and had a definite luminosity about it. No surprise here ' it was world-class mezzo so...",
+      "url": "/interviews/c-graham",
+      "status": "published",
+      "publishedDate": "February 2, 2007",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 2, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/graham-with-norths.jpg",
+          "type": "image",
+          "alt": "c-graham",
+          "title": null,
+          "caption": null,
+          "width": 210,
+          "height": 150,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-graham",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Busy Susan Graham Brings Her Talents to San Francisco*",
+            "summary": "The voice that rose above the rhythmic clickity-clack on the other end of the phone line was uncommonly focused and had a definite luminosity about it.\n\nNo surprise here ' it was world-class mezzo so...",
+            "url": "/interviews/c-graham"
+          },
+          "publication": {
+            "date": "February 2, 2007",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/graham-with-norths.jpg",
+                "alt": "c-graham",
+                "type": "image",
+                "width": 210,
+                "height": 150
+              }
+            ]
+          },
+          "tags": [
+            "Berlioz",
+            "Maurice Ravel",
+            "Opera",
+            "Voice",
+            "Giuseppe Verdi",
+            "Heggie"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.339673",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-hoopes",
+      "slug": "c-hoopes",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Chad Hoopes",
+      "summary": "Well, it's finally here: Christmas Day, 2009. Along with Merry Christmas wishes from me to all my readers, let me reveal my sure-fire recipe for an extra healthy helping of seasonal joy: add a bit o...",
+      "url": "/interviews/c-hoopes",
+      "status": "published",
+      "publishedDate": "December 25, 2009",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "December 25, 2009",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-hoopes",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Chad Hoopes",
+            "summary": "Well, it's finally here: Christmas Day, 2009. Along with Merry Christmas wishes from me to all my readers, let me reveal my sure-fire recipe for an extra healthy helping of seasonal joy: add a bit o...",
+            "url": "/interviews/c-hoopes"
+          },
+          "publication": {
+            "date": "December 25, 2009",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Violin",
+            "Orchestra",
+            "Concert",
+            "Symphony",
+            "Johannes Brahms",
+            "Pyotr Ilyich Tchaikovsky"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.339901",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-hvorostovsky-04-02-1997",
+      "slug": "c-hvorostovsky-04-02-1997",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997",
+      "summary": "If great opera composers of the past could have dealt with baritones like Dmitri Hvorostovsky, they wouldn't have given all the hero roles to tenors. The splendid Russian-born and trained Hvorostovsk...",
+      "url": "/interviews/c-hvorostovsky-04-02-1997",
+      "status": "published",
+      "publishedDate": "April 2, 1997",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "April 2, 1997",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/hvorostovsky-sb08.jpg",
+          "type": "image",
+          "alt": "c-hvorostovsky-04-02-1997",
+          "title": null,
+          "caption": null,
+          "width": 554,
+          "height": 300,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "orchestral music",
+        "concert performance",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-hvorostovsky-04-02-1997",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997",
+            "summary": "If great opera composers of the past could have dealt with baritones like Dmitri Hvorostovsky, they wouldn't have given all the hero roles to tenors. The splendid Russian-born and trained Hvorostovsk...",
+            "url": "/interviews/c-hvorostovsky-04-02-1997"
+          },
+          "publication": {
+            "date": "April 2, 1997",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/hvorostovsky-sb08.jpg",
+                "alt": "c-hvorostovsky-04-02-1997",
+                "type": "image",
+                "width": 554,
+                "height": 300
+              },
+              {
+                "url": "/images/hvorostovsky.jpg",
+                "alt": "Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Pyotr Ilyich Tchaikovsky",
+            "Orchestra",
+            "Strings",
+            "San Francisco Symphony",
+            "Voice",
+            "Concert"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.340129",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-hvorostovsky-05-15-1997",
+      "slug": "c-hvorostovsky-05-15-1997",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Dmitri Hvorostovsky - Voice of the Century?",
+      "summary": "There will be an opportunity this week to welcome the San Francisco Symphony back from the successes of its recent European Tour and to check out a rumor. A number of people who have heard the young...",
+      "url": "/interviews/c-hvorostovsky-05-15-1997",
+      "status": "published",
+      "publishedDate": "May 15, 1997",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Alameda Newspaper Group",
+        "author": null,
+        "date": "May 15, 1997",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/hvorostovsky-sb08.jpg",
+          "type": "image",
+          "alt": "c-hvorostovsky-05-15-1997",
+          "title": null,
+          "caption": null,
+          "width": 554,
+          "height": 300,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "Dmitri Hvorostovsky - Voice of the Century?",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-hvorostovsky-05-15-1997",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Dmitri Hvorostovsky - Voice of the Century?",
+            "summary": "There will be an opportunity this week to welcome the San Francisco Symphony back from the successes of its recent European Tour and to check out a rumor. A number of people who have heard the young...",
+            "url": "/interviews/c-hvorostovsky-05-15-1997"
+          },
+          "publication": {
+            "date": "May 15, 1997",
+            "publisher": "Alameda Newspaper Group"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/hvorostovsky-sb08.jpg",
+                "alt": "c-hvorostovsky-05-15-1997",
+                "type": "image",
+                "width": 554,
+                "height": 300
+              },
+              {
+                "url": "/images/hvorostovsky.jpg",
+                "alt": "Dmitri Hvorostovsky - Voice of the Century?",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Voice",
+            "Rossini",
+            "Donizetti",
+            "Concert",
+            "Orchestra",
+            "Piano"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.340394",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-hvorostovsky-07-29-2008",
+      "slug": "c-hvorostovsky-07-29-2008",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Russian Baritone Wholeheartedly Embraces his \"Boccanegra\" Role",
+      "summary": "Seated in the single chair in front of the security man's cubicle in the lonely lobby of the Zellerbach rehearsal area in Davies Symphony Hall, I had almost given up the possibility of an interview w...",
+      "url": "/interviews/c-hvorostovsky-07-29-2008",
+      "status": "published",
+      "publishedDate": "August 29, 2008",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "August 29, 2008",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/hvorostovsky-sb08.jpg",
+          "type": "image",
+          "alt": "c-hvorostovsky-07-29-2008",
+          "title": null,
+          "caption": null,
+          "width": 554,
+          "height": 300,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "Russian Baritone Wholeheartedly Embraces his \"Boccanegra\" Role",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "baroque period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-hvorostovsky-07-29-2008",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Russian Baritone Wholeheartedly Embraces his \"Boccanegra\" Role",
+            "summary": "Seated in the single chair in front of the security man's cubicle in the lonely lobby of the Zellerbach rehearsal area in Davies Symphony Hall, I had almost given up the possibility of an interview w...",
+            "url": "/interviews/c-hvorostovsky-07-29-2008"
+          },
+          "publication": {
+            "date": "August 29, 2008",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/hvorostovsky-sb08.jpg",
+                "alt": "c-hvorostovsky-07-29-2008",
+                "type": "image",
+                "width": 554,
+                "height": 300
+              },
+              {
+                "url": "/images/hvorostovsky.jpg",
+                "alt": "Russian Baritone Wholeheartedly Embraces his \"Boccanegra\" Role",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Giuseppe Verdi",
+            "Johann Sebastian Bach",
+            "Voice",
+            "Opera",
+            "Piano",
+            "Gershwin"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.340657",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-kapelis",
+      "slug": "c-kapelis",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions",
+      "summary": "Alexandros Kapelis' life sounds about as close to an ancient Greek myth as one can get in the 21st century. At age 30, the dark-eyed, smolderingly handsome pianist, who looks a bit like a young Al Pa...",
+      "url": "/interviews/c-kapelis",
+      "status": "published",
+      "publishedDate": "March 16, 2007",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music",
+        "author": null,
+        "date": "March 16, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/kapelis-consul.jpg",
+          "type": "image",
+          "alt": "c-kapelis",
+          "title": null,
+          "caption": null,
+          "width": 207,
+          "height": 160,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/kapelis-norths.jpg",
+          "type": "image",
+          "alt": "Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "career development"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-kapelis",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions",
+            "summary": "Alexandros Kapelis' life sounds about as close to an ancient Greek myth as one can get in the 21st century. At age 30, the dark-eyed, smolderingly handsome pianist, who looks a bit like a young Al Pa...",
+            "url": "/interviews/c-kapelis"
+          },
+          "publication": {
+            "date": "March 16, 2007",
+            "publisher": "ANG Newspapers Classical Music"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/kapelis-consul.jpg",
+                "alt": "c-kapelis",
+                "type": "image",
+                "width": 207,
+                "height": 160
+              },
+              {
+                "url": "/images/kapelis-norths.jpg",
+                "alt": "Alexandros Kapelis - Greek Pianist Builds Career of Mythic Proportions",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Johann Sebastian Bach",
+            "Sergei Rachmaninoff",
+            "Maurice Ravel",
+            "Orchestra",
+            "Recital"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.340939",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-kissine",
+      "slug": "c-kissine",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony",
+      "summary": "When American composer Charles Ives, 1874-1954, composed a piece he called The Unanswered Question in 1906, he couldn't have dreamed that a Russian composer born in Leningrad (now St. Petersburg) in...",
+      "url": "/interviews/c-kissine",
+      "status": "published",
+      "publishedDate": "February 26, 2010",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "February 26, 2010",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/kissine-with-wife-and-c-3-4-10.jpg",
+          "type": "image",
+          "alt": "c-kissine",
+          "title": null,
+          "caption": null,
+          "width": 217,
+          "height": 168,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-kissine",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony",
+            "summary": "When American composer Charles Ives, 1874-1954, composed a piece he called The Unanswered Question in 1906, he couldn't have dreamed that a Russian composer born in Leningrad (now St. Petersburg) in...",
+            "url": "/interviews/c-kissine"
+          },
+          "publication": {
+            "date": "February 26, 2010",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/kissine-with-wife-and-c-3-4-10.jpg",
+                "alt": "c-kissine",
+                "type": "image",
+                "width": 217,
+                "height": 168
+              }
+            ]
+          },
+          "tags": [
+            "Ives",
+            "San Francisco Symphony",
+            "Ludwig van Beethoven",
+            "Premiere",
+            "Composition",
+            "Sonata"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.341233",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-lang-lang",
+      "slug": "c-lang-lang",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
+      "summary": "If Roman philosopher Seneca's assertion that \"art imitates nature\" (or life) is true, then one could be well on the way to understanding the sometimes startling extremes in Chinese pianist Lang Lang'...",
+      "url": "/interviews/c-lang-lang",
+      "status": "published",
+      "publishedDate": "September 9, 2009",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "September 9, 2009",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/langcherie09.jpg",
+          "type": "image",
+          "alt": "c-lang-lang",
+          "title": null,
+          "caption": null,
+          "width": 212,
+          "height": 212,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/lang-lang-mother.jpg",
+          "type": "image",
+          "alt": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "concert performance",
+        "orchestral music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-lang-lang",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
+            "summary": "If Roman philosopher Seneca's assertion that \"art imitates nature\" (or life) is true, then one could be well on the way to understanding the sometimes startling extremes in Chinese pianist Lang Lang'...",
+            "url": "/interviews/c-lang-lang"
+          },
+          "publication": {
+            "date": "September 9, 2009",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/langcherie09.jpg",
+                "alt": "c-lang-lang",
+                "type": "image",
+                "width": 212,
+                "height": 212
+              },
+              {
+                "url": "/images/lang-lang-mother.jpg",
+                "alt": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Prokofiev",
+            "Performance",
+            "San Francisco Symphony",
+            "Concert",
+            "Franz Liszt"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.341500",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-lieberson",
+      "slug": "c-lieberson",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Lorraine Hunt Lieberson",
+      "summary": "During a telephone interview a couple of years ago, mezzo-soprano Lorraine Hunt Lieberson, now extravagantly praised for her vocal performances throughout the world, revealed that it was not her voic...",
+      "url": "/interviews/c-lieberson",
+      "status": "published",
+      "publishedDate": "June 11, 2004",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "June 11, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/lorraine-hunt-lieberson.jpg",
+          "type": "image",
+          "alt": "c-lieberson",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "vocal artistry",
+        "recital performance",
+        "concert performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-lieberson",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Lorraine Hunt Lieberson",
+            "summary": "During a telephone interview a couple of years ago, mezzo-soprano Lorraine Hunt Lieberson, now extravagantly praised for her vocal performances throughout the world, revealed that it was not her voic...",
+            "url": "/interviews/c-lieberson"
+          },
+          "publication": {
+            "date": "June 11, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/lorraine-hunt-lieberson.jpg",
+                "alt": "c-lieberson",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Viola",
+            "Voice",
+            "Opera",
+            "Orchestra",
+            "Symphony",
+            "Adams"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.341753",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-lindstrom",
+      "slug": "c-lindstrom",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut",
+      "summary": "A woman matching the following description: \"tall and willowy, yet perfectly proportioned, with thick, Nordic-blond hair cascading down her back, large sky-blue eyes and a radiant smile animating her...",
+      "url": "/interviews/c-lindstrom",
+      "status": "published",
+      "publishedDate": "October 25, 2013",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "October 25, 2013",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "opera performance",
+        "career development"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-lindstrom",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut",
+            "summary": "A woman matching the following description: \"tall and willowy, yet perfectly proportioned, with thick, Nordic-blond hair cascading down her back, large sky-blue eyes and a radiant smile animating her...",
+            "url": "/interviews/c-lindstrom"
+          },
+          "publication": {
+            "date": "October 25, 2013",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Opera",
+            "Richard Wagner",
+            "Voice",
+            "Debut",
+            "Johann Sebastian Bach",
+            "Giacomo Puccini"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.341990",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-lopardo",
+      "slug": "c-lopardo",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Frank Lopardo",
+      "summary": "Frank Lopardo is a tenor with both sense and sensibility -- a combination somewhat rare among the breed. His portrayal of the Duke of Mantua in the San Francisco Opera's current production of Verdi's...",
+      "url": "/interviews/c-lopardo",
+      "status": "published",
+      "publishedDate": "September 21, 2001",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "September 21, 2001",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/frank-lopardo.jpg",
+          "type": "image",
+          "alt": "c-lopardo",
+          "title": null,
+          "caption": null,
+          "width": 183,
+          "height": 139,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-lopardo",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Frank Lopardo",
+            "summary": "Frank Lopardo is a tenor with both sense and sensibility -- a combination somewhat rare among the breed. His portrayal of the Duke of Mantua in the San Francisco Opera's current production of Verdi's...",
+            "url": "/interviews/c-lopardo"
+          },
+          "publication": {
+            "date": "September 21, 2001",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/frank-lopardo.jpg",
+                "alt": "c-lopardo",
+                "type": "image",
+                "width": 183,
+                "height": 139
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Voice",
+            "Rossini",
+            "Richard Wagner",
+            "Wolfgang Amadeus Mozart",
+            "Giuseppe Verdi"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.342203",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-macdonald",
+      "slug": "c-macdonald",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010",
+      "summary": "Cheryl North Interviews Audra McDonald prior to her performance at a special concert with the San Francisco Symphony, April 26, 2010 Material from a Classical Music Column for the Preview Se...",
+      "url": "/interviews/c-macdonald",
+      "status": "published",
+      "publishedDate": "April 16, 2010",
+      "lastModified": "2025-08-15T18:09:54.781Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "April 16, 2010",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "concert performance",
+        "orchestral music",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-macdonald",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.781Z"
+          },
+          "content": {
+            "title": "Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010",
+            "summary": "Cheryl North Interviews Audra McDonald prior to her performance at a special concert with the San Francisco Symphony, April 26, 2010\n\nMaterial from a Classical Music Column for the Preview Se...",
+            "url": "/interviews/c-macdonald"
+          },
+          "publication": {
+            "date": "April 16, 2010",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "tags": [
+            "Voice",
+            "San Francisco Symphony",
+            "Piano",
+            "Classical",
+            "Performance",
+            "Ludwig van Beethoven"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.342440",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-main",
+      "slug": "c-main",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Untitled",
+      "summary": "!(/images/cherie-9-06.jpg) Cheryl North began piano studies at age 8. Among her teachers were Frances Tipton, Harry Tomlinson, Leah Neiman, Ruth Goodsmith of the Uni...",
+      "url": "/interviews/c-main",
+      "status": "published",
+      "publishedDate": "October",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": null,
+        "author": null,
+        "date": "October",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/titlecheryl.gif",
+          "type": "image",
+          "alt": "c-main",
+          "title": null,
+          "caption": null,
+          "width": 250,
+          "height": 28,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/cherie-sm.jpg",
+          "type": "image",
+          "alt": "Untitled",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/opera-now.jpg",
+          "type": "image",
+          "alt": "Untitled",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/nicola-cheryl-placido-10-19-10.jpg",
+          "type": "image",
+          "alt": "Untitled",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "recital performance",
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-main",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "\n\n!(/images/cherie-9-06.jpg)\n\nCheryl North began piano studies at age 8. Among her teachers were Frances Tipton, Harry Tomlinson, Leah Neiman, Ruth Goodsmith of the Uni...",
+            "url": "/interviews/c-main"
+          },
+          "publication": {
+            "date": "October"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/titlecheryl.gif",
+                "alt": "c-main",
+                "type": "image",
+                "width": 250,
+                "height": 28
+              },
+              {
+                "url": "/images/cherie-sm.jpg",
+                "alt": "Untitled",
+                "type": "image"
+              },
+              {
+                "url": "/images/opera-now.jpg",
+                "alt": "Untitled",
+                "type": "image"
+              },
+              {
+                "url": "/images/nicola-cheryl-placido-10-19-10.jpg",
+                "alt": "Untitled",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Johann Sebastian Bach",
+            "Interview",
+            "War Memorial Opera House",
+            "Music Criticism",
+            "Jong Jr"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.342647",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-masur",
+      "slug": "c-masur",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Kurt Masur",
+      "summary": "Some famous music makers are far more than just musicians. Some, like renowned conductor Kurt Masur, become, during the course of a lifetime, great humanitarians and citizens of the world. I had an...",
+      "url": "/interviews/c-masur",
+      "status": "published",
+      "publishedDate": "November 1, 2002",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "November 1, 2002",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thm-masur.jpg",
+          "type": "image",
+          "alt": "c-masur",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 160,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "conductor leadership"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-masur",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Kurt Masur",
+            "summary": "Some famous music makers are far more than just musicians. Some, like renowned conductor Kurt Masur, become, during the course of a lifetime, great humanitarians and citizens of the world.\n\nI had an...",
+            "url": "/interviews/c-masur"
+          },
+          "publication": {
+            "date": "November 1, 2002",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thm-masur.jpg",
+                "alt": "c-masur",
+                "type": "image",
+                "width": 160,
+                "height": 160
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Bernstein",
+            "Award",
+            "Interview",
+            "Voice",
+            "Piano"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.342926",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-mtt-02-27-2004",
+      "slug": "c-mtt-02-27-2004",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Tilson Thomas celebrates 10th anniversary with Symphony",
+      "summary": "THE collaboration between conductor Michael Tilson Thomas and the San Francisco Symphony is a music lovers' dream come true. Ten years ago, when MTT assumed the post of music director of the San Fr...",
+      "url": "/interviews/c-mtt-02-27-2004",
+      "status": "published",
+      "publishedDate": "February 27, 2004",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 27, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/mtt.jpg",
+          "type": "image",
+          "alt": "c-mtt-02-27-2004",
+          "title": null,
+          "caption": null,
+          "width": 237,
+          "height": 200,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "conductor leadership",
+        "artistic collaboration"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-mtt-02-27-2004",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Tilson Thomas celebrates 10th anniversary with Symphony",
+            "summary": "THE collaboration between conductor Michael Tilson Thomas and the San Francisco Symphony\nis a music lovers' dream come true.\n\nTen years ago, when MTT assumed the post of music director\nof the San Fr...",
+            "url": "/interviews/c-mtt-02-27-2004"
+          },
+          "publication": {
+            "date": "February 27, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/mtt.jpg",
+                "alt": "c-mtt-02-27-2004",
+                "type": "image",
+                "width": 237,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Symphony",
+            "Concert",
+            "Gustav Mahler",
+            "Prokofiev",
+            "Ludwig van Beethoven"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.343169",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-mtt-09-12-2008",
+      "slug": "c-mtt-09-12-2008",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Links to Leonard Bernsteing bring Michael Tilson Thomas to Carnegie Hall",
+      "summary": "Why would the management of New York's Carnegie Hall look all the way across the United States to San Francisco to fill the niche for its upcoming opening night gala commemorating the 90th anniversar...",
+      "url": "/interviews/c-mtt-09-12-2008",
+      "status": "published",
+      "publishedDate": "September 12, 2008",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Preview Section Classical Music Column",
+        "author": null,
+        "date": "September 12, 2008",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/mtt.jpg",
+          "type": "image",
+          "alt": "c-mtt-09-12-2008",
+          "title": null,
+          "caption": null,
+          "width": 237,
+          "height": 200,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "contemporary music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-mtt-09-12-2008",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Links to Leonard Bernsteing bring Michael Tilson Thomas to Carnegie Hall",
+            "summary": "Why would the management of New York's Carnegie Hall look all the way across the United States to San Francisco to fill the niche for its upcoming opening night gala commemorating the 90th anniversar...",
+            "url": "/interviews/c-mtt-09-12-2008"
+          },
+          "publication": {
+            "date": "September 12, 2008",
+            "publisher": "Bay Area News Group Preview Section Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/mtt.jpg",
+                "alt": "c-mtt-09-12-2008",
+                "type": "image",
+                "width": 237,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Bernstein",
+            "Carnegie Hall",
+            "Concert",
+            "Education",
+            "Gershwin",
+            "Gustav Mahler"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.343410",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-nagano",
+      "slug": "c-nagano",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Kent Nagano",
+      "summary": "The conductor of the prestigious Deutsches Symphonie-Orchester Berlin as well as the Associate Principal Guest Conductor of the London Symphony,and the Principal Guest Conductor of the Los Angeles Op...",
+      "url": "/interviews/c-nagano",
+      "status": "published",
+      "publishedDate": "August 31, 2001",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "August 31, 2001",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/kent-nagano.jpg",
+          "type": "image",
+          "alt": "c-nagano",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 160,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "conductor leadership",
+        "artistic collaboration"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-nagano",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Kent Nagano",
+            "summary": "The conductor of the prestigious Deutsches Symphonie-Orchester Berlin as well as the Associate Principal Guest Conductor of the London Symphony,and the Principal Guest Conductor of the Los Angeles Op...",
+            "url": "/interviews/c-nagano"
+          },
+          "publication": {
+            "date": "August 31, 2001",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/kent-nagano.jpg",
+                "alt": "c-nagano",
+                "type": "image",
+                "width": 160,
+                "height": 160
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Franz Schubert",
+            "Symphony",
+            "Gustav Mahler",
+            "Concert",
+            "Piano"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.343647",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-orbelian",
+      "slug": "c-orbelian",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Interview - Constantine Orbelian",
+      "summary": "Imagine the following scenario for a terrific movie: A young American concert pianist arrives in cold blustery Moscow on a December day in 1990 to begin rehearsing for his upcoming appearance with t...",
+      "url": "/interviews/c-orbelian",
+      "status": "published",
+      "publishedDate": "February 7, 2003",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 7, 2003",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/orbelian.jpg",
+          "type": "image",
+          "alt": "c-orbelian",
+          "title": null,
+          "caption": null,
+          "width": 141,
+          "height": 144,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/moscow.jpg",
+          "type": "image",
+          "alt": "Interview - Constantine Orbelian",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "concert performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-orbelian",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Interview - Constantine Orbelian",
+            "summary": "Imagine the following scenario for a terrific movie: A young American concert pianist arrives in cold blustery Moscow on a December day in 1990 to begin rehearsing for his upcoming appearance with t...",
+            "url": "/interviews/c-orbelian"
+          },
+          "publication": {
+            "date": "February 7, 2003",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/orbelian.jpg",
+                "alt": "c-orbelian",
+                "type": "image",
+                "width": 141,
+                "height": 144
+              },
+              {
+                "url": "/images/moscow.jpg",
+                "alt": "Interview - Constantine Orbelian",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Concert",
+            "Shostakovich",
+            "Piano",
+            "Pyotr Ilyich Tchaikovsky",
+            "Johann Sebastian Bach"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.343905",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-racette",
+      "slug": "c-racette",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Racette makes a lifelong run with Puccini's *Senza Mama*",
+      "summary": "Have you ever had a melody that you just can't seem to get out of your head? Sometimes it goes away, but it can become so much a part of you that it keeps coming back, often at quite unexpected momen...",
+      "url": "/interviews/c-racette",
+      "status": "published",
+      "publishedDate": "September 16, 2009",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group Classical Music Column",
+        "author": null,
+        "date": "September 16, 2009",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/racette-c-w-9-15-09.jpg",
+          "type": "image",
+          "alt": "c-racette",
+          "title": null,
+          "caption": null,
+          "width": 230,
+          "height": 184,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-racette",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Racette makes a lifelong run with Puccini's *Senza Mama*",
+            "summary": "Have you ever had a melody that you just can't seem to get out of your head? Sometimes it goes away, but it can become so much a part of you that it keeps coming back, often at quite unexpected momen...",
+            "url": "/interviews/c-racette"
+          },
+          "publication": {
+            "date": "September 16, 2009",
+            "publisher": "Bay Area News Group Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/racette-c-w-9-15-09.jpg",
+                "alt": "c-racette",
+                "type": "image",
+                "width": 230,
+                "height": 184
+              }
+            ]
+          },
+          "tags": [
+            "Giacomo Puccini",
+            "Opera",
+            "Jazz",
+            "Voice",
+            "Richard Wagner",
+            "Giuseppe Verdi"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.344169",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-rosenberg-07-20-2007",
+      "slug": "c-rosenberg-07-20-2007",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Rosenberg Brings S.F. Flavor to Berlin Philharmonic",
+      "summary": "A few weeks ago I visited Berlin, the edgy, energetic capitol of Germany. Berlin, having survived (sometimes barely) a tumultuous history beginning sometime in the 13th century in a niche between the...",
+      "url": "/interviews/c-rosenberg-07-20-2007",
+      "status": "published",
+      "publishedDate": "July 20, 2007",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Preview Section",
+        "author": null,
+        "date": "July 20, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/rosenberg.jpg",
+          "type": "image",
+          "alt": "c-rosenberg-07-20-2007",
+          "title": null,
+          "caption": null,
+          "width": 192,
+          "height": 141,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-rosenberg-07-20-2007",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Rosenberg Brings S.F. Flavor to Berlin Philharmonic",
+            "summary": "A few weeks ago I visited Berlin, the edgy, energetic capitol of Germany. Berlin, having survived (sometimes barely) a tumultuous history beginning sometime in the 13th century in a niche between the...",
+            "url": "/interviews/c-rosenberg-07-20-2007"
+          },
+          "publication": {
+            "date": "July 20, 2007",
+            "publisher": "ANG Preview Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/rosenberg.jpg",
+                "alt": "c-rosenberg-07-20-2007",
+                "type": "image",
+                "width": 192,
+                "height": 141
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Opera",
+            "Adams",
+            "Gustav Mahler",
+            "Glass",
+            "Ludwig van Beethoven"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.344414",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-rosenberg-11-04-2005",
+      "slug": "c-rosenberg-11-04-2005",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Parting Words from S.F. Opera Director Pamela Rosenberg",
+      "summary": "On Jan. 9, 2001, when Pamela Rosenberg stood before journalists, critics and media people packing the expansive lobby of San Francisco's War Memorial Opera House, she said she believed that opera had...",
+      "url": "/interviews/c-rosenberg-11-04-2005",
+      "status": "published",
+      "publishedDate": "November 4, 2005",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Preview Section",
+        "author": null,
+        "date": "November 4, 2005",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/rosenberg.jpg",
+          "type": "image",
+          "alt": "c-rosenberg-11-04-2005",
+          "title": null,
+          "caption": null,
+          "width": 192,
+          "height": 141,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-rosenberg-11-04-2005",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Parting Words from S.F. Opera Director Pamela Rosenberg",
+            "summary": "On Jan. 9, 2001, when Pamela Rosenberg stood before journalists, critics and media people packing the expansive lobby of San Francisco's War Memorial Opera House, she said she believed that opera had...",
+            "url": "/interviews/c-rosenberg-11-04-2005"
+          },
+          "publication": {
+            "date": "November 4, 2005",
+            "publisher": "ANG Preview Section"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/rosenberg.jpg",
+                "alt": "c-rosenberg-11-04-2005",
+                "type": "image",
+                "width": 192,
+                "height": 141
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Barber",
+            "Performance",
+            "Orchestra",
+            "Organ",
+            "Rossini"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.344659",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-runnicles",
+      "slug": "c-runnicles",
+      "type": "interview",
+      "category": "interviews",
+      "title": "San Francisco Opera's music director triumphant in Berlin",
+      "summary": "How lucky can we get? Within the confines of the Bay Area, we have three of the world's best, most sought-after classical music conductors. We have not only Michael Tilson Thomas presiding at the he...",
+      "url": "/interviews/c-runnicles",
+      "status": "published",
+      "publishedDate": "January 16, 2004",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "January 16, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/runnicles.jpg",
+          "type": "image",
+          "alt": "c-runnicles",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "conductor leadership",
+        "classical period"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-runnicles",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "San Francisco Opera's music director triumphant in Berlin",
+            "summary": "How lucky can we get? Within the confines of the Bay Area, we have three of the world's best, most sought-after classical music conductors.\n\nWe have not only Michael Tilson Thomas presiding at the he...",
+            "url": "/interviews/c-runnicles"
+          },
+          "publication": {
+            "date": "January 16, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/runnicles.jpg",
+                "alt": "c-runnicles",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Opera",
+            "Richard Wagner",
+            "Conducting",
+            "Shostakovich",
+            "Bass"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.344900",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-sarah-chang",
+      "slug": "c-sarah-chang",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Sarah Chang",
+      "summary": "What sort of person would you expect to have such books as John McClaren's Running Rings , The Memoirs of Dmitri Shostakovich and The Guide to Finding the Perfect Handbag on his or her current readin...",
+      "url": "/interviews/c-sarah-chang",
+      "status": "published",
+      "publishedDate": "January 12, 2007",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music",
+        "author": null,
+        "date": "January 12, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/sarah-chang-informal.jpg",
+          "type": "image",
+          "alt": "c-sarah-chang",
+          "title": null,
+          "caption": null,
+          "width": 100,
+          "height": 124,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-sarah-chang",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Sarah Chang",
+            "summary": "What sort of person would you expect to have such books as John McClaren's Running Rings , The Memoirs of Dmitri Shostakovich and The Guide to Finding the Perfect Handbag on his or her current readin...",
+            "url": "/interviews/c-sarah-chang"
+          },
+          "publication": {
+            "date": "January 12, 2007",
+            "publisher": "ANG Newspapers Classical Music"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/sarah-chang-informal.jpg",
+                "alt": "c-sarah-chang",
+                "type": "image",
+                "width": 100,
+                "height": 124
+              }
+            ]
+          },
+          "tags": [
+            "Violin",
+            "Concert",
+            "Shostakovich",
+            "Orchestra",
+            "Voice",
+            "Symphony"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.345166",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-snicket",
+      "slug": "c-snicket",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Snicket, Stookey responsible for symphonic murder",
+      "summary": "Could a funeral — or memorial service — be scheduled at San Francisco's Davies Symphony Hall? Or some other sort of mayhem? What's going on? \"The Composer Is Dead\" is the grim title of the program s...",
+      "url": "/interviews/c-snicket",
+      "status": "published",
+      "publishedDate": "June 30, 2006",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers",
+        "author": null,
+        "date": "June 30, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/snicket-handler.jpg",
+          "type": "image",
+          "alt": "c-snicket",
+          "title": null,
+          "caption": null,
+          "width": 120,
+          "height": 160,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/stookey.jpg",
+          "type": "image",
+          "alt": "Snicket, Stookey responsible for symphonic murder",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "orchestral music"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-snicket",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Snicket, Stookey responsible for symphonic murder",
+            "summary": "Could a funeral — or memorial service — be scheduled at San Francisco's Davies Symphony Hall? Or some other sort of mayhem? What's going on?\n\n\"The Composer Is Dead\" is the grim title of the program s...",
+            "url": "/interviews/c-snicket"
+          },
+          "publication": {
+            "date": "June 30, 2006",
+            "publisher": "ANG Newspapers"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/snicket-handler.jpg",
+                "alt": "c-snicket",
+                "type": "image",
+                "width": 120,
+                "height": 160
+              },
+              {
+                "url": "/images/stookey.jpg",
+                "alt": "Snicket, Stookey responsible for symphonic murder",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Symphony",
+            "Gershwin",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Stravinsky"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.345451",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-stookey",
+      "slug": "c-stookey",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Nat Stookey",
+      "summary": "If only Nathaniel (Nat) Stookey's great grandfather could have known, that the faithful old violin he used to play for barn dances, would one day play the great classics in the hands of his musically...",
+      "url": "/interviews/c-stookey",
+      "status": "published",
+      "publishedDate": "November 19, 2004",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspaper Column",
+        "author": null,
+        "date": "November 19, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/stookey.jpg",
+          "type": "image",
+          "alt": "c-stookey",
+          "title": null,
+          "caption": null,
+          "width": 127,
+          "height": 150,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "instrumental mastery"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-stookey",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Nat Stookey",
+            "summary": "If only Nathaniel (Nat) Stookey's great grandfather could have known, that the faithful old violin he used to play for barn dances, would one day play the great classics in the hands of his musically...",
+            "url": "/interviews/c-stookey"
+          },
+          "publication": {
+            "date": "November 19, 2004",
+            "publisher": "ANG Newspaper Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/stookey.jpg",
+                "alt": "c-stookey",
+                "type": "image",
+                "width": 127,
+                "height": 150
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Violin",
+            "Symphony",
+            "Piano",
+            "Composition",
+            "Johann Sebastian Bach"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.345710",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-terfel",
+      "slug": "c-terfel",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Bryn Terfel",
+      "summary": "Bryn Terfel doesn't look like an opera star. Moreover, on a one-to-one basis, he doesn't ACT like one either. But, make no mistake, the husky Welsh bass-baritone, now in his mid-30's, is one of the o...",
+      "url": "/interviews/c-terfel",
+      "status": "published",
+      "publishedDate": "November 14, 1997",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG newspapers",
+        "author": null,
+        "date": "November 14, 1997",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/titleterfel.gif",
+          "type": "image",
+          "alt": "c-terfel",
+          "title": null,
+          "caption": null,
+          "width": 250,
+          "height": 28,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/terfel.jpg",
+          "type": "image",
+          "alt": "Cheryl North Interviews Bryn Terfel",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-terfel",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Bryn Terfel",
+            "summary": "Bryn Terfel doesn't look like an opera star. Moreover, on a one-to-one basis,\nhe doesn't ACT like one either. But, make no mistake, the husky Welsh\nbass-baritone, now in his mid-30's, is one of the o...",
+            "url": "/interviews/c-terfel"
+          },
+          "publication": {
+            "date": "November 14, 1997",
+            "publisher": "ANG newspapers"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/titleterfel.gif",
+                "alt": "c-terfel",
+                "type": "image",
+                "width": 250,
+                "height": 28
+              },
+              {
+                "url": "/images/terfel.jpg",
+                "alt": "Cheryl North Interviews Bryn Terfel",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Richard Wagner",
+            "Johann Sebastian Bach",
+            "Stravinsky",
+            "Voice",
+            "Johannes Brahms"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.345954",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-theorin",
+      "slug": "c-theorin",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+      "summary": "Wagner's Brünnhilde? Absolutely. Puccini's Turandot? A stretch of the imagination. Those were the first words that ran through my mind as warmly smiling, strikingly blond and statuesque Iréne Theori...",
+      "url": "/interviews/c-theorin",
+      "status": "published",
+      "publishedDate": "September 2, 2011",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group",
+        "author": null,
+        "date": "September 2, 2011",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/theorin-lg.jpg",
+          "type": "image",
+          "alt": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/theorin-sm.jpg",
+          "type": "image",
+          "alt": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "vocal artistry",
+        "romantic era"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-theorin",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+            "summary": "Wagner's Brünnhilde? Absolutely. Puccini's Turandot? A stretch of the imagination.\n\nThose were the first words that ran through my mind as warmly smiling, strikingly blond and statuesque Iréne Theori...",
+            "url": "/interviews/c-theorin"
+          },
+          "publication": {
+            "date": "September 2, 2011",
+            "publisher": "Bay Area News Group"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/theorin-lg.jpg",
+                "alt": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+                "type": "image"
+              },
+              {
+                "url": "/images/theorin-sm.jpg",
+                "alt": "Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Richard Wagner",
+            "Giacomo Puccini",
+            "Voice",
+            "San Francisco Opera",
+            "Ives",
+            "Wolfgang Amadeus Mozart"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.346240",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-thibaudet-01-21-2011",
+      "slug": "c-thibaudet-01-21-2011",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
+      "summary": "For those of us who like our piano music strong and muscular but still packed with poetry and passion, there hardly could be a better choice than French virtuoso Jean-Yves Thibaudet's upcoming all-Li...",
+      "url": "/interviews/c-thibaudet-01-21-2011",
+      "status": "published",
+      "publishedDate": "January 21, 2011",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group, Contra Costa Times",
+        "author": null,
+        "date": "January 21, 2011",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thibaudet1.jpg",
+          "type": "image",
+          "alt": "c-thibaudet-01-21-2011",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 297,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thibaudet-wandc.jpg",
+          "type": "image",
+          "alt": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "recital performance",
+        "instrumental mastery",
+        "romantic era"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-thibaudet-01-21-2011",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
+            "summary": "For those of us who like our piano music strong and muscular but still packed with poetry and passion, there hardly could be a better choice than French virtuoso Jean-Yves Thibaudet's upcoming all-Li...",
+            "url": "/interviews/c-thibaudet-01-21-2011"
+          },
+          "publication": {
+            "date": "January 21, 2011",
+            "publisher": "Bay Area News Group, Contra Costa Times"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thibaudet1.jpg",
+                "alt": "c-thibaudet-01-21-2011",
+                "type": "image",
+                "width": 200,
+                "height": 297
+              },
+              {
+                "url": "/images/thibaudet-wandc.jpg",
+                "alt": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Franz Liszt",
+            "Piano",
+            "Ives",
+            "Recital",
+            "Richard Wagner",
+            "Frédéric Chopin"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.346517",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-thibaudet-10-20-2006",
+      "slug": "c-thibaudet-10-20-2006",
+      "type": "interview",
+      "category": "interviews",
+      "title": "For Thibaudet, music is played in the key of life",
+      "summary": "Remember that old saying, \"There are basically two kinds of people — those who describe a half-glass of water as half full, and those who describe the same glass as half empty?\" After a most amiable...",
+      "url": "/interviews/c-thibaudet-10-20-2006",
+      "status": "published",
+      "publishedDate": "October 20, 2006",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers",
+        "author": null,
+        "date": "October 20, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/thibaudet1.jpg",
+          "type": "image",
+          "alt": "c-thibaudet-10-20-2006",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 297,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thibaudet-wandc.jpg",
+          "type": "image",
+          "alt": "For Thibaudet, music is played in the key of life",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-thibaudet-10-20-2006",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "For Thibaudet, music is played in the key of life",
+            "summary": "Remember that old saying, \"There are basically two kinds of people — those who describe a half-glass of water as half full, and those who describe the same glass as half empty?\" After a most amiable...",
+            "url": "/interviews/c-thibaudet-10-20-2006"
+          },
+          "publication": {
+            "date": "October 20, 2006",
+            "publisher": "ANG Newspapers"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/thibaudet1.jpg",
+                "alt": "c-thibaudet-10-20-2006",
+                "type": "image",
+                "width": 200,
+                "height": 297
+              },
+              {
+                "url": "/images/thibaudet-wandc.jpg",
+                "alt": "For Thibaudet, music is played in the key of life",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Glass",
+            "Maurice Ravel",
+            "Concert",
+            "Violin",
+            "Conservatory"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.346866",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-vanska",
+      "slug": "c-vanska",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Osmo Vanska to bring music from his native Finland to Davies Hall",
+      "summary": "THE BAY AREA is about to experience some bracing energy from the north when Finnish-born Osmo Vanska assumes the podium to pilot the San Francisco Symphony through two weeks of concerts from Oct. 22...",
+      "url": "/interviews/c-vanska",
+      "status": "published",
+      "publishedDate": "October 22, 2009",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group",
+        "author": null,
+        "date": "October 22, 2009",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/vanska-with-c-10-31-09.jpg",
+          "type": "image",
+          "alt": "c-vanska",
+          "title": null,
+          "caption": null,
+          "width": 257,
+          "height": 226,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "orchestral music",
+        "concert performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-vanska",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Osmo Vanska to bring music from his native Finland to Davies Hall",
+            "summary": "THE BAY AREA is about to experience some bracing energy from the north when Finnish-born Osmo Vanska assumes the podium to pilot the San Francisco Symphony through two weeks of concerts from Oct. 22...",
+            "url": "/interviews/c-vanska"
+          },
+          "publication": {
+            "date": "October 22, 2009",
+            "publisher": "Bay Area News Group"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/vanska-with-c-10-31-09.jpg",
+                "alt": "c-vanska",
+                "type": "image",
+                "width": 257,
+                "height": 226
+              }
+            ]
+          },
+          "tags": [
+            "Orchestra",
+            "Sibelius",
+            "Symphony",
+            "Ludwig van Beethoven",
+            "Clarinet",
+            "Concert"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.347151",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-ventris",
+      "slug": "c-ventris",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Christopher Ventris",
+      "summary": "Christopher Ventris has taken a few unconventional turns along his path toward a major operatic career. The London-born tenor is currently in San Francisco for his U.S. debut singing the title role i...",
+      "url": "/interviews/c-ventris",
+      "status": "published",
+      "publishedDate": "June 30, 2000",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "June 30, 2000",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/christopher-ventris.jpg",
+          "type": "image",
+          "alt": "c-ventris",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "career development",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-ventris",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Christopher Ventris",
+            "summary": "Christopher Ventris has taken a few unconventional turns along his path\ntoward a major operatic career. The London-born tenor is currently in San Francisco for his U.S. debut singing the title role i...",
+            "url": "/interviews/c-ventris"
+          },
+          "publication": {
+            "date": "June 30, 2000",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/christopher-ventris.jpg",
+                "alt": "c-ventris",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Richard Wagner",
+            "Wolfgang Amadeus Mozart",
+            "Opera",
+            "Voice",
+            "La Scala",
+            "Debut"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.347410",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-villazon",
+      "slug": "c-villazon",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Rolando Villazon",
+      "summary": "Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's La Traviata, has lived a life full of \"Eureka!\" moments. He was born...",
+      "url": "/interviews/c-villazon",
+      "status": "published",
+      "publishedDate": "September 10, 2004",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "September 10, 2004",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/rolando-villazon.jpg",
+          "type": "image",
+          "alt": "c-villazon",
+          "title": null,
+          "caption": null,
+          "width": 160,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "concert performance",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-villazon",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Rolando Villazon",
+            "summary": "Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's La Traviata, has lived a life full of \"Eureka!\" moments.\n\nHe was born...",
+            "url": "/interviews/c-villazon"
+          },
+          "publication": {
+            "date": "September 10, 2004",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/rolando-villazon.jpg",
+                "alt": "c-villazon",
+                "type": "image",
+                "width": 160,
+                "height": 200
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Giuseppe Verdi",
+            "Voice",
+            "Pyotr Ilyich Tchaikovsky",
+            "Ives",
+            "Performance"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.347662",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-voight",
+      "slug": "c-voight",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Voight's success not thinly veiled",
+      "summary": "In demand: Deborah Voigt stars as Amelia in San Francisco Opera's \"A Masked Ball,\" which opens the 2006-07 season. It just doesn't seem fair. The greatest dramatic soprano of our age is dogged by fi...",
+      "url": "/interviews/c-voight",
+      "status": "published",
+      "publishedDate": "September 1, 2006",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "September 1, 2006",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/voight-deborah.jpg",
+          "type": "image",
+          "alt": "c-voight",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 305,
+          "variant": "original",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/voight-salome.jpg",
+          "type": "image",
+          "alt": "Voight's success not thinly veiled",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "opera performance",
+        "vocal artistry"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-voight",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Voight's success not thinly veiled",
+            "summary": "In demand: Deborah Voigt stars as Amelia in San Francisco Opera's \"A Masked Ball,\" which opens the 2006-07 season.\n\nIt just doesn't seem fair. The greatest dramatic soprano of our age is dogged by fi...",
+            "url": "/interviews/c-voight"
+          },
+          "publication": {
+            "date": "September 1, 2006",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/voight-deborah.jpg",
+                "alt": "c-voight",
+                "type": "image",
+                "width": 200,
+                "height": 305
+              },
+              {
+                "url": "/images/voight-salome.jpg",
+                "alt": "Voight's success not thinly veiled",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Maurice Ravel",
+            "Richard Wagner",
+            "Giuseppe Verdi",
+            "Voice",
+            "Piano"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.347919",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-volodos",
+      "slug": "c-volodos",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Arcadi Volodos",
+      "summary": "During a radio broadcast in 1939, Sir Winston Churchill said 'Russia is a riddle wrapped in a mystery inside an enigma.' These same words seem uncannily appropriate for describing Arcadi Volodos, one...",
+      "url": "/interviews/c-volodos",
+      "status": "published",
+      "publishedDate": "February 4, 2003",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "February 4, 2003",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/volodos.jpg",
+          "type": "image",
+          "alt": "c-volodos",
+          "title": null,
+          "caption": null,
+          "width": 200,
+          "height": 190,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-volodos",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Arcadi Volodos",
+            "summary": "During a radio broadcast in 1939, Sir Winston Churchill said 'Russia is a riddle wrapped in a mystery inside an enigma.' These same words seem uncannily appropriate for describing Arcadi Volodos, one...",
+            "url": "/interviews/c-volodos"
+          },
+          "publication": {
+            "date": "February 4, 2003",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/volodos.jpg",
+                "alt": "c-volodos",
+                "type": "image",
+                "width": 200,
+                "height": 190
+              }
+            ]
+          },
+          "tags": [
+            "Piano",
+            "Franz Liszt",
+            "Sergei Rachmaninoff",
+            "Orchestra",
+            "Conservatory",
+            "Concert"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.348206",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-walkuere-2010",
+      "slug": "c-walkuere-2010",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about the 2010 San Francisco Opera Production of Die Walküre",
+      "summary": "How do you portray a god? That was a question a fan recently asked handsome, linebacker-built baritone Mark Delavan, who will portray Wotan, Nordic king of the gods, in San Francisco Opera's upcomin...",
+      "url": "/interviews/c-walkuere-2010",
+      "status": "published",
+      "publishedDate": "June 4, 2010",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "Bay Area News Group",
+        "author": null,
+        "date": "June 4, 2010",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-walkuere-2010",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about the 2010 San Francisco Opera Production of Die Walküre",
+            "summary": "How do you portray a god?\n\nThat was a question a fan recently asked handsome, linebacker-built baritone Mark Delavan, who will portray Wotan, Nordic king of the gods, in San Francisco Opera's upcomin...",
+            "url": "/interviews/c-walkuere-2010"
+          },
+          "publication": {
+            "date": "June 4, 2010",
+            "publisher": "Bay Area News Group"
+          },
+          "tags": [
+            "Richard Wagner",
+            "Opera",
+            "Voice",
+            "Choir",
+            "Horn",
+            "Ives"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.348411",
+        "sourceFile": "cheryl-interviews"
+      }
+    },
+    {
+      "id": "c-wilder",
+      "slug": "c-wilder",
+      "type": "interview",
+      "category": "interviews",
+      "title": "Cheryl North Interviews Tappan Wilder on Our Town as an Opera",
+      "summary": "The first and only time I've seen Thornton Wilder's Pulitzer Prize-winning 1938 play, Our Town , was when it was performed by members of the senior class of Coachella Valley Union High School near In...",
+      "url": "/interviews/c-wilder",
+      "status": "published",
+      "publishedDate": "August 10, 2007",
+      "lastModified": "2025-08-15T18:09:54.782Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "ANG Newspapers Classical Music Column",
+        "author": null,
+        "date": "August 10, 2007",
+        "headline": null,
+        "url": null
+      },
+      "media": [
+        {
+          "url": "/images/tappan-wilder-c-w-2007.jpg",
+          "type": "image",
+          "alt": "c-wilder",
+          "title": null,
+          "caption": null,
+          "width": 245,
+          "height": 170,
+          "variant": "original",
+          "usage": "primary"
+        }
+      ],
+      "tags": [
+        "opera performance"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "c-wilder",
+            "type": "interview",
+            "category": "interviews",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.782Z"
+          },
+          "content": {
+            "title": "Cheryl North Interviews Tappan Wilder on Our Town as an Opera",
+            "summary": "The first and only time I've seen Thornton Wilder's Pulitzer Prize-winning 1938 play, Our Town , was when it was performed by members of the senior class of Coachella Valley Union High School near In...",
+            "url": "/interviews/c-wilder"
+          },
+          "publication": {
+            "date": "August 10, 2007",
+            "publisher": "ANG Newspapers Classical Music Column"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/tappan-wilder-c-w-2007.jpg",
+                "alt": "c-wilder",
+                "type": "image",
+                "width": 245,
+                "height": 170
+              }
+            ]
+          },
+          "tags": [
+            "Opera",
+            "Bernstein",
+            "Copland",
+            "Horn",
+            "Orchestra",
+            "Ives"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.348572",
+        "sourceFile": "cheryl-interviews"
+      }
+    }
+  ]
+}

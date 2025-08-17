@@ -5,7 +5,7 @@
     "count": 28,
     "generated": "2025-08-15T18:09:54.802Z",
     "version": "1.0.0",
-    "lastModified": "2025-08-16T02:52:31.975Z"
+    "lastModified": "2025-08-17T13:36:43.036901Z"
   },
   "reviews": [
     {
@@ -30,15 +30,12 @@
         "images": []
       },
       "tags": [
-        "Baby Doe",
-        "Baritone",
-        "Berkeley Opera Performance",
-        "Concert Review",
-        "Conducting",
-        "Mezzo-soprano",
-        "Opera",
+        "Berkeley Opera",
         "Performance",
-        "Soprano"
+        "Voice",
+        "Orchestra",
+        "Willard Hotel",
+        "The Ballad"
       ]
     },
     {
@@ -63,14 +60,12 @@
         "images": []
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Berkeley Opera Performance",
-        "Don Giovanni",
-        "Opera",
-        "Soprano",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Berkeley Opera",
+        "Wolfgang Amadeus Mozart",
+        "Performance",
+        "Orchestra",
+        "Bass",
+        "Donna Elvira"
       ]
     },
     {
@@ -96,12 +91,12 @@
         "images": []
       },
       "tags": [
-        "Kurt Masur",
-        "William Stone",
-        "leadership of",
-        "stabbing staccato",
         "San Francisco Symphony",
-        "Davies Symphony Hall"
+        "Orchestra",
+        "Choir",
+        "Requiem",
+        "Voice",
+        "Wolfgang Amadeus Mozart"
       ]
     },
     {
@@ -126,16 +121,12 @@
         "images": []
       },
       "tags": [
-        "orchestral musicians",
-        "exquisite harpsichords",
-        "as assistant",
-        "planting the",
-        "stage like",
-        "stances while",
-        "managed to",
-        "boy who",
-        "Roger McCracken",
-        "Persian King"
+        "Handel",
+        "Opera",
+        "Bass",
+        "Ives",
+        "Performance",
+        "Voice"
       ]
     },
     {
@@ -160,16 +151,12 @@
         "images": []
       },
       "tags": [
-        "Chamber Music",
-        "Concert Review",
-        "Concerto",
-        "Conducting",
-        "Franz Schubert",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Opera",
-        "Piano",
-        "Symphony"
+        "Orchestra",
+        "Copland",
+        "Adams",
+        "Concert",
+        "Symphony",
+        "Ludwig van Beethoven"
       ]
     },
     {
@@ -194,15 +181,12 @@
         "images": []
       },
       "tags": [
-        "Bass",
-        "California Symphony",
-        "Concert Review",
-        "Concerto",
-        "Conducting",
-        "Piano",
-        "Robert Moody",
+        "Orchestra",
+        "Sibelius",
+        "Symphony",
         "Sergei Rachmaninoff",
-        "Symphony"
+        "Piano",
+        "Bass"
       ]
     },
     {
@@ -228,15 +212,12 @@
         "images": []
       },
       "tags": [
-        "Concert Review",
-        "Interview",
-        "Oakland Tribune",
         "Opera",
-        "Performance",
         "Premiere",
-        "San Francisco",
+        "Performance",
         "Thick House",
-        "World Premiere"
+        "San Francisco",
+        "While"
       ]
     },
     {
@@ -270,12 +251,12 @@
         ]
       },
       "tags": [
-        "Auction and",
-        "their opera",
-        "four excellent",
-        "Soloists all",
-        "Rob Stafford",
-        "San Francisco Opera"
+        "Opera",
+        "Interpretation",
+        "Purcell",
+        "Johann Sebastian Bach",
+        "Glass",
+        "Performance"
       ]
     },
     {
@@ -300,16 +281,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Concert Review",
-        "Davies Symphony Hall",
-        "Dmitri Hvorostovsky",
-        "Franz Liszt",
-        "Giuseppe Verdi",
-        "Premiere",
         "Pyotr Ilyich Tchaikovsky",
-        "Sergei Rachmaninoff",
-        "Symphony"
+        "Franz Liszt",
+        "Voice",
+        "Recital",
+        "Concert",
+        "Fauré"
       ]
     },
     {
@@ -332,7 +309,14 @@
         "author": "Cheryl North"
       },
       "media": {},
-      "tags": []
+      "tags": [
+        "Performance",
+        "September",
+        "Dmitri Hvorostovsky",
+        "San Francisco January",
+        "Alameda Newspaper Group",
+        "Russia"
+      ]
     },
     {
       "metadata": {
@@ -356,15 +340,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Bass",
-        "Concert Review",
-        "Conducting",
-        "Giacomo Rossini",
-        "Livermore Valley Opera",
-        "Metropolitan Opera",
+        "Barber",
+        "Rossini",
+        "Orchestra",
         "Opera",
-        "Tenor"
+        "Performance",
+        "Voice"
       ]
     },
     {
@@ -390,16 +371,12 @@
         "images": []
       },
       "tags": [
-        "Concert Review",
-        "Concerto",
-        "Conducting",
-        "Contra Costa Times",
-        "Michael Morgan",
-        "Mikhail Simonyan",
-        "Performance",
-        "Symphony",
+        "Organ",
         "Violin",
-        "Wolfgang Amadeus Mozart"
+        "Orchestra",
+        "Concert",
+        "Wolfgang Amadeus Mozart",
+        "Symphony"
       ]
     },
     {
@@ -425,16 +402,12 @@
         "images": []
       },
       "tags": [
-        "Bass",
-        "Concert Review",
-        "Conducting",
-        "Jazz Symphony",
-        "Johann Sebastian Bach",
-        "Opera",
-        "Piano",
-        "Premiere",
+        "Organ",
         "Symphony",
-        "World Premiere"
+        "Gershwin",
+        "Prokofiev",
+        "Jazz",
+        "Voice"
       ]
     },
     {
@@ -468,16 +441,12 @@
         ]
       },
       "tags": [
-        "Bass",
-        "Concerto",
-        "Johann Sebastian Bach",
-        "Johannes Brahms",
-        "Opera",
-        "Piano",
-        "San Francisco Symphony",
+        "Organ",
+        "Glass",
+        "Orchestra",
         "Sergei Rachmaninoff",
-        "Symphony",
-        "Violin"
+        "Concert",
+        "Johannes Brahms"
       ]
     },
     {
@@ -503,15 +472,11 @@
         "images": []
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Conducting",
-        "Franz Schubert",
-        "Giuseppe Verdi",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Opera",
-        "Soprano",
+        "Bernstein",
+        "Organ",
+        "Mass",
+        "Voice",
+        "Choir",
         "Symphony"
       ]
     },
@@ -537,16 +502,12 @@
         "images": []
       },
       "tags": [
-        "Aida",
-        "Aria",
-        "Baritone",
         "Giuseppe Verdi",
-        "Mezzo-soprano",
+        "Orchestra",
         "Opera",
-        "Richard Wagner",
-        "Soprano",
         "Symphony",
-        "Tenor"
+        "Voice",
+        "Organ"
       ]
     },
     {
@@ -571,16 +532,12 @@
         "images": []
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Benefit Concert",
-        "Concert Review",
         "Gustav Mahler",
-        "Mahler Library",
-        "Opera",
-        "San Francisco Symphony",
-        "Symphony",
-        "Violin"
+        "Stravinsky",
+        "Brass",
+        "Concert",
+        "Performance",
+        "Symphony"
       ]
     },
     {
@@ -614,16 +571,12 @@
         ]
       },
       "tags": [
-        "Aria",
         "Giacomo Puccini",
-        "Giuseppe Verdi",
         "Johann Sebastian Bach",
-        "Opera",
-        "Piano",
-        "Soprano",
-        "Symphony",
-        "Tenor",
-        "Violin"
+        "Orchestra",
+        "Voice",
+        "Giuseppe Verdi",
+        "Gershwin"
       ]
     },
     {
@@ -649,14 +602,11 @@
         "images": []
       },
       "tags": [
-        "Concert Review",
-        "Concerto",
-        "Conducting",
-        "Contra Costa Times",
         "Johann Sebastian Bach",
-        "Oakland Tribune",
-        "Performance",
-        "Philharmonia Baroque Revisits",
+        "Orchestra",
+        "Baroque",
+        "Concert",
+        "Oboe",
         "Violin"
       ]
     },
@@ -682,15 +632,12 @@
         "images": []
       },
       "tags": [
-        "Bass",
-        "Concert Review",
-        "Debut Performance",
-        "Giacomo Puccini",
-        "Giuseppe Verdi",
-        "Opera",
+        "Wolfgang Amadeus Mozart",
         "San Francisco Opera",
-        "Tenor",
-        "Wolfgang Amadeus Mozart"
+        "Voice",
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Performance"
       ]
     },
     {
@@ -715,15 +662,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Bass",
         "Giacomo Puccini",
-        "Merola Opera Program",
-        "Opera",
         "San Francisco Opera",
-        "Soprano",
-        "Tenor",
-        "War Memorial Opera House"
+        "Performance",
+        "Voice",
+        "Cello",
+        "Bass"
       ]
     },
     {
@@ -748,16 +692,12 @@
         "images": []
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Bass",
-        "Concert Review",
         "Giuseppe Verdi",
         "Opera",
-        "San Francisco Opera",
-        "Simon Boccanegra",
-        "Tenor",
-        "War Memorial Opera House"
+        "Bass",
+        "Performance",
+        "Voice",
+        "Orchestra"
       ]
     },
     {
@@ -782,16 +722,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
-        "Giacomo Puccini",
-        "Gustav Mahler",
-        "Johann Sebastian Bach",
         "Opera",
+        "Gustav Mahler",
+        "Orchestra",
         "Richard Wagner",
-        "Soprano",
-        "Tenor",
-        "War Memorial Opera House",
-        "Wolfgang Amadeus Mozart"
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach"
       ]
     },
     {
@@ -816,15 +752,12 @@
         "images": []
       },
       "tags": [
-        "Baritone",
         "Carnegie Hall",
-        "Davies Symphony Hall",
-        "Gustav Mahler",
-        "Mezzo-soprano",
+        "Orchestra",
         "San Francisco Symphony",
-        "Soprano",
-        "Symphony",
-        "Tenor"
+        "Gustav Mahler",
+        "Voice",
+        "Trumpet"
       ]
     },
     {
@@ -848,16 +781,12 @@
       },
       "media": {},
       "tags": [
-        "Concert Review",
-        "Conducting",
-        "Davies Symphony Hall",
         "Gustav Mahler",
-        "Oakland Tribune",
-        "Recording",
-        "San Francisco Symphony",
-        "Sparks Fly",
         "Symphony",
-        "Symphony Meets Mahler"
+        "Performance",
+        "Michael Tilson Thomas",
+        "Wednesday",
+        "San Francisco"
       ]
     },
     {
@@ -881,15 +810,12 @@
       },
       "media": {},
       "tags": [
-        "Concert Review",
-        "Davies Hall",
-        "Davies Symphony Hall",
-        "Oakland Tribune",
-        "Performance",
         "San Francisco Symphony",
-        "Symphony",
-        "Symphony Review",
-        "Violin"
+        "Performance",
+        "Violin",
+        "Trombone",
+        "Tuba",
+        "Strings"
       ]
     },
     {
@@ -923,16 +849,12 @@
         ]
       },
       "tags": [
-        "Aria",
-        "Baritone",
-        "Concert Review",
-        "Interview",
-        "Mezzo-soprano",
         "Opera",
         "Richard Wagner",
-        "San Francisco Opera",
-        "Soprano",
-        "Stuttgart Reveals"
+        "Voice",
+        "Ives",
+        "Performance",
+        "Orchestra"
       ]
     },
     {
@@ -958,13 +880,12 @@
         "images": []
       },
       "tags": [
-        "Francisco Symphony",
-        "Bay Symphony",
-        "Kurt Masur",
-        "Newspapers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh",
-        "San Francisco Opera",
-        "San Francisco Symphony",
-        "Berkeley Opera"
+        "Symphony",
+        "Opera",
+        "Concert",
+        "Gustav Mahler",
+        "Orchestra",
+        "Classical"
       ]
     }
   ]

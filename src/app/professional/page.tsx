@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import ContentList from '@/components/ui/ContentList';
-import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
-import { ProfessionalFrontmatter } from '@/types/content';
+import UnifiedList from '@/components/ui/UnifiedList';
+import { getProfessionalContent } from '@/lib/unified-data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -19,28 +18,12 @@ export const metadata: Metadata = {
 };
 
 export default function ProfessionalIndexPage() {
-  const slugs = getAllContentSlugs();
-  
-  // Filter for professional content only and convert to ContentList format
-  const professionalContent = slugs
-    .map(slug => {
-      const content = getContentBySlug(slug, false);
-      if (content?.frontmatter.type === 'professional') {
-        return {
-          slug,
-          frontmatter: {
-            title: content.frontmatter.title,
-            description: (content.frontmatter as any).description || '',
-            date: (content.frontmatter as any).date || ''
-          }
-        };
-      }
-      return null;
-    })
-    .filter(Boolean);
+  // Load normalized professional content data
+  const professionalContent = getProfessionalContent();
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
+    { label: 'Warner', href: '/warner', active: false },
     { label: 'Professional Experience', href: '/professional', active: true }
   ];
 
@@ -53,11 +36,16 @@ export default function ProfessionalIndexPage() {
         size="medium"
       />
         
-      <ContentList 
-        items={professionalContent as any}
-        baseUrl="/professional"
-        emptyMessage="No professional experience content available."
-        layout="list"
+      <UnifiedList 
+        items={professionalContent}
+        options={{
+          layout: 'list',
+          searchable: true,
+          filterable: true,
+          sortBy: 'date',
+          pagination: true,
+          groupBy: 'category'
+        }}
       />
         
       <div className="mt-12 pt-8 border-t border-gray-200">

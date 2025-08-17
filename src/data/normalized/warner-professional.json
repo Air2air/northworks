@@ -1,0 +1,3473 @@
+{
+  "metadata": {
+    "id": "warner-professional",
+    "title": "Warner North Professional Experience",
+    "description": "Professional experience, consulting projects, and career work",
+    "type": "professional",
+    "category": "professional",
+    "count": 47,
+    "created": "2025-08-17T14:29:53.261393",
+    "lastModified": "2025-08-17T22:34:04.276Z",
+    "version": "2.0.0",
+    "source": "migration",
+    "generator": "data-normalization-utility"
+  },
+  "items": [
+    {
+      "id": "w-main-prof-1",
+      "slug": "w-main-prof-1",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "D. Warner North is principal scientist of NorthWorks, a consulting firm located in San Francisco, California. Until 2009 he served as a consulting professor in the Department of Management Scienc...",
+      "url": "/professional/w-main",
+      "status": "published",
+      "publishedDate": "December",
+      "lastModified": "2025-08-15T18:09:54.789Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Commission",
+        "author": null,
+        "date": "December",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "management consulting",
+        "government service",
+        "private sector",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-main-prof-1",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-main",
+            "lastModified": "2025-08-15T18:09:54.789Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "D. Warner North is principal scientist of NorthWorks, a consulting firm located in San Francisco, California. Until 2009 he served as a consulting professor in the Department of Management Scienc...",
+            "url": "/professional/w-main",
+            "links": [],
+            "thumbnail": null
+          },
+          "publication": {
+            "date": "December",
+            "publisher": "the Commission"
+          },
+          "tags": []
+        },
+        "migrationDate": "2025-08-17T14:29:53.252743",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-main-prof-2",
+      "slug": "w-main-prof-2",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Dr. North with Stanford University Professor Kenneth Arrow, at the Society for Risk Analysis Annual Meeting in Baltimore, Maryland on December 7, 2009. Professor Arrow received SRA's Distinguished...",
+      "url": "/professional/w-main",
+      "status": "published",
+      "publishedDate": "December",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Commission",
+        "author": null,
+        "date": "December",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "stanford university",
+        "decision analysis",
+        "risk assessment",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-main-prof-2",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-main",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Dr. North with Stanford University Professor Kenneth Arrow, at the Society for Risk Analysis Annual Meeting in Baltimore, Maryland on December 7, 2009. Professor Arrow received SRA's Distinguished...",
+            "url": "/professional/w-main",
+            "links": [
+              {
+                "text": "(letter dated November 14, 2017)",
+                "url": "science panel ltr to secretary perry- 17-11-14.pdf"
+              },
+              {
+                "text": "(letter dated January 23, 2017)",
+                "url": "science panel ltr to governor perry-17-01-23 final.pdf"
+              },
+              {
+                "text": "*Risk Analysis*, an international journal",
+                "url": "http://www.sra.org/journal editors.php"
+              },
+              {
+                "text": " special issue published September 2016 on health risk analysis for criteria air pollutants",
+                "url": "http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc"
+              },
+              {
+                "text": "RISK Newsletter, 3rd Quarter 2010",
+                "url": "http://www.sra.org/newsletter/risk.v30.n3.pdf"
+              },
+              {
+                "text": " home page",
+                "url": "index.html"
+              },
+              {
+                "text": "International Risk Governance Council",
+                "url": "http://www.irgc.org/"
+              },
+              {
+                "text": "**Regulation of Carbon Capture and Storage**",
+                "url": "http://www.irgc.org/img/pdf/policy brief ccs.pdf"
+              },
+              {
+                "text": "**Risk Governance Guidelines for Bioenergy Policies**",
+                "url": "http://www.irgc.org/img/pdf/irgc pb bioenergy web-2.pdf"
+              },
+              {
+                "text": "Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance",
+                "url": "http://www.irgc.org/img/pdf/srm opinion piece web.pdf"
+              },
+              {
+                "text": "Concept Note, **Improving the Management of Emerging Risks**",
+                "url": "http://www.irgc.org/img/pdf/irgc er2conceptnote 2011.pdf"
+              },
+              {
+                "text": "Naphthalene State of the Science Symposium",
+                "url": "http://www.naphthalenesymposium.org/index.asp"
+              },
+              {
+                "text": "northworks@mindspring.com",
+                "url": "mailto:northworks@mindspring.com"
+              },
+              {
+                "text": "Organization for Security and Cooperation in Europe (OSCE)",
+                "url": "http://www.osce.org"
+              },
+              {
+                "text": "International Risk Governance Council (IRGC)",
+                "url": "http://www.irgc.org/"
+              },
+              {
+                "text": "energy security for Lithuania",
+                "url": "w-pub-seif-iv"
+              },
+              {
+                "text": "similar paper more focused on analytical tools",
+                "url": "w-pub-vniigaz"
+              },
+              {
+                "text": "Laser technology consulting",
+                "url": "/articles/w-laser"
+              }
+            ],
+            "thumbnail": "/images/warner-north-6-06.jpg"
+          },
+          "publication": {
+            "date": "December",
+            "publisher": "the Commission"
+          },
+          "tags": []
+        },
+        "migrationDate": "2025-08-17T14:29:53.252969",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-1",
+      "slug": "w-projects-prof-1",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Dr. North's specialties are decision analysis; risk assessment and risk management; research and development planning; public policy analysis; analysis of environmental issues; modeling of complex...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk management",
+        "decision analysis",
+        "policy analysis",
+        "risk assessment",
+        "operations research",
+        "environmental science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-1",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Dr. North's specialties are decision analysis; risk assessment and risk management; research and development planning; public policy analysis; analysis of environmental issues; modeling of complex...",
+            "url": "/professional/w-projects",
+            "links": []
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.253225",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-2",
+      "slug": "w-projects-prof-2",
+      "type": "professional",
+      "category": "professional",
+      "title": "](w-projects-government)",
+      "summary": "(w projects government.htm) Government Service(w-projects-government)Service as a member of an advisory board or as a part-time employee for United States Federal and State government age...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "government service",
+        "policy analysis",
+        "management consulting"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-2",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "](w-projects-government)",
+            "summary": "(w projects government.htm)\n    \n Government Service(w-projects-government)Service as a member of an advisory board or as a part-time employee for United States Federal and State government age...",
+            "url": "/professional/w-projects",
+            "links": [
+              {
+                "text": "Government Service**",
+                "url": "w-projects-government"
+              }
+            ],
+            "thumbnail": "/images/logo-us.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.253443",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-3",
+      "slug": "w-projects-prof-3",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Assignments for the National Research Council and the National Academies....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "stanford university"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-3",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Assignments for the National Research Council and the National Academies....",
+            "url": "/professional/w-projects",
+            "links": [
+              {
+                "text": "The National Academies",
+                "url": "w-projects-nrc"
+              }
+            ],
+            "thumbnail": "/images/logo-nrc.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.253613",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-4",
+      "slug": "w-projects-prof-4",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Teaching and university research...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "stanford university"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-4",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Teaching and university research...",
+            "url": "/professional/w-projects",
+            "links": [
+              {
+                "text": "Stanford University",
+                "url": "w-projects-stanford"
+              }
+            ],
+            "thumbnail": "/images/logo-stan.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.253772",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-5",
+      "slug": "w-projects-prof-5",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant on project to explore intelligible principles for setting national ambient air quality standards, following the May 1999 remand by the U.S. Court of Appeals for the D.C. Circuit of the 1997...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-5",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant on project to explore intelligible principles for setting national ambient air quality standards, following the May 1999 remand by the U.S. Court of Appeals for the D.C. Circuit of the 1997...",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-cra.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.253969",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-6",
+      "slug": "w-projects-prof-6",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Invited presentation on decision making under uncertainty at NWTRB meeting, January 25, 2000....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "risk assessment",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-6",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Invited presentation on decision making under uncertainty at NWTRB meeting, January 25, 2000....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-ntrb.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254137",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-7",
+      "slug": "w-projects-prof-7",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Workshop participant and co-author of a report in preparation on performance confirmation for the proposed Yucca Mountain nuclear waste repository....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "nuclear energy",
+        "government service"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-7",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Workshop participant and co-author of a report in preparation on performance confirmation for the proposed Yucca Mountain nuclear waste repository....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epri.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254313",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-8",
+      "slug": "w-projects-prof-8",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Member, Project Advisory Group, for the President of Fluor-Hanford, M&O contractor for the DOE Hanford Facility....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "management consulting"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-8",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Member, Project Advisory Group, for the President of Fluor-Hanford, M&O contractor for the DOE Hanford Facility....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-fluor.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254477",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-9",
+      "slug": "w-projects-prof-9",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Guest lecturer on risk and decision analysis and review of academic curriculum, under sponsorship of the World Bank....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "risk assessment",
+        "stanford university",
+        "decision science",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-9",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Guest lecturer on risk and decision analysis and review of academic curriculum, under sponsorship of the World Bank....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-plek.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254642",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-10",
+      "slug": "w-projects-prof-10",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant for a major decision on water treatment for the Boston metropolitan area....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "environmental policy",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-10",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant for a major decision on water treatment for the Boston metropolitan area....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-mwra.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254808",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-11",
+      "slug": "w-projects-prof-11",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant to the Ethylene Oxide Industry Council on integration of new scientific data into risk assessment....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk management",
+        "risk assessment",
+        "private sector"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-11",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant to the Ethylene Oxide Industry Council on integration of new scientific data into risk assessment....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-cma.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.254976",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-12",
+      "slug": "w-projects-prof-12",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Appearance before State of California scientific advisory groups regarding ?authoritative bodies? provisions of Proposition 65....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "management consulting"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-12",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Appearance before State of California scientific advisory groups regarding ?authoritative bodies? provisions of Proposition 65....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-gma.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.255146",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-13",
+      "slug": "w-projects-prof-13",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Principal investigator, case studies on ingested arsenic and dieldrin to illustrate methods for improving carcinogen risk assessment and value of information analysis....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk management",
+        "decision analysis",
+        "risk assessment"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-13",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Principal investigator, case studies on ingested arsenic and dieldrin to illustrate methods for improving carcinogen risk assessment and value of information analysis....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-nsf.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.255328",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-14",
+      "slug": "w-projects-prof-14",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project supervisor for Decision Focus participation in the Tulane University-led Consortium for Environmental Risk Evaluation Phase I review of risks from the DOE nuclear weapons complex....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "risk assessment",
+        "environmental science",
+        "stanford university",
+        "nuclear energy",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-14",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project supervisor for Decision Focus participation in the Tulane University-led Consortium for Environmental Risk Evaluation Phase I review of risks from the DOE nuclear weapons complex....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-doe.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.255522",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-15",
+      "slug": "w-projects-prof-15",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project supervisor for analyses on air quality and emissions control issues for the Secretary of Energy, Mines, and State-owned Industry (SEMIP)....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "private sector",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-15",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project supervisor for analyses on air quality and emissions control issues for the Secretary of Energy, Mines, and State-owned Industry (SEMIP)....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-mex.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.255696",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-16",
+      "slug": "w-projects-prof-16",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader or supervisor, development and applications of decision frameworks for acid deposition, coal combustion by-products, and ambient air quality standards....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "environmental policy",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-16",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader or supervisor, development and applications of decision frameworks for acid deposition, coal combustion by-products, and ambient air quality standards....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epri.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.255872",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-17",
+      "slug": "w-projects-prof-17",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Development and presentation of testimony to the EPA Clean Air Scientific Advisory Committee on the health impacts of particulate matter and of sulfur dioxide....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "management consulting",
+        "government service",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-17",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Development and presentation of testimony to the EPA Clean Air Scientific Advisory Committee on the health impacts of particulate matter and of sulfur dioxide....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epa.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256045",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-18",
+      "slug": "w-projects-prof-18",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant on risk assessment methodology for major EPA cross-media studies of Santa Clara Valley and Denver....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk management",
+        "risk assessment",
+        "government service"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-18",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant on risk assessment methodology for major EPA cross-media studies of Santa Clara Valley and Denver....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epa.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256213",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-19",
+      "slug": "w-projects-prof-19",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader, development of methodology to set priorities for testing and selecting regulatory strategy for toxic chemicals....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-19",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader, development of methodology to set priorities for testing and selecting regulatory strategy for toxic chemicals....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epa.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256381",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-20",
+      "slug": "w-projects-prof-20",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant to the Deputy Assistant Secretary for Oil and Gas Programs on program strategy for enhanced oil recovery programs....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.790Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-20",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.790Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant to the Deputy Assistant Secretary for Oil and Gas Programs on program strategy for enhanced oil recovery programs....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-doe.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256544",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-21",
+      "slug": "w-projects-prof-21",
+      "type": "professional",
+      "category": "professional",
+      "title": ", Special Committee on Energy Law",
+      "summary": "American Bar Association, Special Committee on Energy LawConsultant to committee for DOE study on state decision making for electric power facilities....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-21",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": ", Special Committee on Energy Law",
+            "summary": "American Bar Association, Special Committee on Energy LawConsultant to committee for DOE study on state decision making for electric power facilities....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-aba.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256725",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-22",
+      "slug": "w-projects-prof-22",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Principal investigator, decision analysis application to federal R&D strategy on magnetic fusion....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "government service",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-22",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Principal investigator, decision analysis application to federal R&D strategy on magnetic fusion....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-los.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.256894",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-23",
+      "slug": "w-projects-prof-23",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader, development of a research planning format for EPRI environmental research....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "environmental science",
+        "management consulting",
+        "stanford university",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-23",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader, development of a research planning format for EPRI environmental research....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-epri.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.257151",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-24",
+      "slug": "w-projects-prof-24",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Principal investigator, development of integrating methodology for photovoltaics venture analysis to evaluate DOE commercialization strategy....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "private sector"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-24",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Principal investigator, development of integrating methodology for photovoltaics venture analysis to evaluate DOE commercialization strategy....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-nrel.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.257334",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-25",
+      "slug": "w-projects-prof-25",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant on regulatory and research strategies for a proprietary agricultural chemical product....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "stanford university"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-25",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant on regulatory and research strategies for a proprietary agricultural chemical product....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-blank.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.257486",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-26",
+      "slug": "w-projects-prof-26",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Analysis of environmental and health impacts of a process to make synthetic liquid fuels from coal....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "environmental science",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-26",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Analysis of environmental and health impacts of a process to make synthetic liquid fuels from coal....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-blank.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.257761",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-27",
+      "slug": "w-projects-prof-27",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader for Market Oriented Program Planning Study (MOPPS), a major analytical support effort to assist a federal task force in assessing implications of the potential new twentieth century ene...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "management consulting",
+        "government service"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-27",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader for Market Oriented Program Planning Study (MOPPS), a major analytical support effort to assist a federal task force in assessing implications of the potential new twentieth century ene...",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-erda.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.257969",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-28",
+      "slug": "w-projects-prof-28",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Invitational Workshop on Ecological Risk Management, sponsored by the Society of Environmental Toxicology and Chemistry (SETAC) Foundation for Environmental Education, Williamsburg, VA (1997)....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "environmental science",
+        "risk management",
+        "risk assessment",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-28",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Invitational Workshop on Ecological Risk Management, sponsored by the Society of Environmental Toxicology and Chemistry (SETAC) Foundation for Environmental Education, Williamsburg, VA (1997)....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-setac.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.258437",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-29",
+      "slug": "w-projects-prof-29",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Sponsored by Lawrence Livermore National Laboratory and the Monterey Institute for International Studies (November 2001)....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "national academies"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-29",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Sponsored by Lawrence Livermore National Laboratory and the Monterey Institute for International Studies (November 2001)....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-liv.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.258714",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-30",
+      "slug": "w-projects-prof-30",
+      "type": "professional",
+      "category": "professional",
+      "title": "(TERA, Cincinnati, Ohio)",
+      "summary": "Toxicology Excellence for Risk Assessment (TERA, Cincinnati, Ohio) Workshop on Risk Characterization of Non-lethal Weapons, carried out by for the DOD Joint Non-Lethal Weapons Program. (May 2001)....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk management",
+        "risk assessment"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-30",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "(TERA, Cincinnati, Ohio)",
+            "summary": "Toxicology Excellence for Risk Assessment (TERA, Cincinnati, Ohio) Workshop on Risk Characterization of Non-lethal Weapons, carried out by for the DOD Joint Non-Lethal Weapons Program. (May 2001)....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-us.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.258852",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-31",
+      "slug": "w-projects-prof-31",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader, establishment of priorities of R&D programs on fossil energy technologies, including coal gasification, synthetic liquids from coal and shale, and advanced fossil fueled electric gener...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-31",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader, establishment of priorities of R&D programs on fossil energy technologies, including coal gasification, synthetic liquids from coal and shale, and advanced fossil fueled electric gener...",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-erda.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.258992",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-32",
+      "slug": "w-projects-prof-32",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader or supervisor of four projects, assessment of probability of biological contamination from interplanetary space missions....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "risk assessment",
+        "decision science",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-32",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader or supervisor of four projects, assessment of probability of biological contamination from interplanetary space missions....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-nasa.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259111",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-33",
+      "slug": "w-projects-prof-33",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader or supervisor of five projects, analysis of policy on wildland fire protection, including evaluation of large computer models for fire simulation and resource management....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "policy analysis",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-33",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader or supervisor of five projects, analysis of policy on wildland fire protection, including evaluation of large computer models for fire simulation and resource management....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-usda.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259256",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-34",
+      "slug": "w-projects-prof-34",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Principal investigator, development of a framework to compare economic, environmental, health, and safety impacts of coal and nuclear electric generation....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "environmental science",
+        "nuclear energy",
+        "environmental policy",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-34",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Principal investigator, development of a framework to compare economic, environmental, health, and safety impacts of coal and nuclear electric generation....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-us.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259378",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-35",
+      "slug": "w-projects-prof-35",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project supervisor and principal investigator, evaluation of the environmental impacts, cost-benefit analysis of strategic program alternatives, and projections of synthetic fuel supply and demand....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "environmental science",
+        "management consulting",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-35",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project supervisor and principal investigator, evaluation of the environmental impacts, cost-benefit analysis of strategic program alternatives, and projections of synthetic fuel supply and demand....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-us.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259493",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-36",
+      "slug": "w-projects-prof-36",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project supervisor, analysis of R&D project selection....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-36",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project supervisor, analysis of R&D project selection....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-nih.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259585",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-37",
+      "slug": "w-projects-prof-37",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Principal investigator, conceptual design and illustrative application of system for allocating information-gathering resources....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-37",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Principal investigator, conceptual design and illustrative application of system for allocating information-gathering resources....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-dod.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259691",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-38",
+      "slug": "w-projects-prof-38",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Project leader, analysis of U.S. policy on hurricane modification....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "policy analysis"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-38",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Project leader, analysis of U.S. policy on hurricane modification....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-noaa.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259790",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-39",
+      "slug": "w-projects-prof-39",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Consultant to top level corporate task force on major gas turbine product strategy decision, including carrying out market analysis of utility decision to buy product offering....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-39",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Consultant to top level corporate task force on major gas turbine product strategy decision, including carrying out market analysis of utility decision to buy product offering....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-blank.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.259899",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-40",
+      "slug": "w-projects-prof-40",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Comision Federal de Electricidad, Government of Mexico Analysis of nuclear power and electric capacity expansion decisions; development of electric utility capacity expansion model....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "policy analysis",
+        "government service",
+        "nuclear energy",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-40",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Comision Federal de Electricidad, Government of Mexico\nAnalysis of nuclear power and electric capacity expansion decisions; development of electric utility capacity expansion model....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-cfe.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.260011",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-41",
+      "slug": "w-projects-prof-41",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Over fifty seminars in decision analysis, risk assessment, capital expenditure analysis, and related subjects for analysts and executives in the United States, Europe, and Latin America....",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "decision analysis",
+        "risk management",
+        "risk assessment",
+        "decision science"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-41",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Over fifty seminars in decision analysis, risk assessment, capital expenditure analysis, and related subjects for analysts and executives in the United States, Europe, and Latin America....",
+            "url": "/professional/w-projects",
+            "links": [],
+            "thumbnail": "/images/logo-blank.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.260122",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-prof-42",
+      "slug": "w-projects-prof-42",
+      "type": "professional",
+      "category": "professional",
+      "title": "Untitled",
+      "summary": "Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bod...",
+      "url": "/professional/w-projects",
+      "status": "published",
+      "publishedDate": "January",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "publication": {
+        "publisher": "the Society",
+        "author": null,
+        "date": "January",
+        "headline": null,
+        "url": null
+      },
+      "tags": [
+        "policy analysis",
+        "stanford university"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-prof-42",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown-table",
+            "parentFile": "w-projects",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Untitled",
+            "summary": "Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bod...",
+            "url": "/professional/w-projects",
+            "links": [
+              {
+                "text": "Laser technology consulting",
+                "url": "/articles/w-laser"
+              }
+            ],
+            "thumbnail": "/images/logo-blank.gif"
+          },
+          "publication": {
+            "date": "January",
+            "publisher": "the Society"
+          },
+          "tags": [
+            "Government Service",
+            "Music Article",
+            "National Research Council",
+            "Performance",
+            "United States Federal"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.260241",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-government",
+      "slug": "w-projects-government",
+      "type": "professional",
+      "category": "professional",
+      "title": "Government Projects & Consulting",
+      "summary": "Service on behalf of United States Federal and State governmental agencies. !(/images/logo-epa.gif) U.S. Environmental Protection Agency Science...",
+      "url": "/professional/w-projects-government",
+      "status": "published",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "media": [
+        {
+          "url": "/images/logo-epa.gif",
+          "type": "image",
+          "alt": "w-projects-government",
+          "title": null,
+          "caption": null,
+          "width": 50,
+          "height": 50,
+          "variant": "logo",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/logo-epa.gif",
+          "type": "image",
+          "alt": "Government Projects & Consulting",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-us.gif",
+          "type": "image",
+          "alt": "Government Projects & Consulting",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-us.gif",
+          "type": "image",
+          "alt": "Government Projects & Consulting",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-cal.gif",
+          "type": "image",
+          "alt": "Government Projects & Consulting",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "government service",
+        "policy analysis",
+        "environmental science",
+        "management consulting",
+        "private sector",
+        "environmental policy"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-government",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Government Projects & Consulting",
+            "summary": "\n\n\nService on behalf of United States Federal and State governmental agencies.\n\n!(/images/logo-epa.gif)\n\n U.S. Environmental Protection Agency Science...",
+            "url": "/professional/w-projects-government"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/logo-epa.gif",
+                "alt": "w-projects-government",
+                "type": "image",
+                "width": 50,
+                "height": 50
+              },
+              {
+                "url": "/images/logo-epa.gif",
+                "alt": "Government Projects & Consulting",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-us.gif",
+                "alt": "Government Projects & Consulting",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-us.gif",
+                "alt": "Government Projects & Consulting",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-cal.gif",
+                "alt": "Government Projects & Consulting",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "EPA Report",
+            "Congress",
+            "Performance Analysis Panel",
+            "Safe Drinking Water",
+            "Committee",
+            "Third"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.260367",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-nrc",
+      "slug": "w-projects-nrc",
+      "type": "professional",
+      "category": "professional",
+      "title": "National Research Council Experience",
+      "summary": "Dr. North was designated as a National Associate(http://www.nationalacademies.org/includes/nationalassociates.pdf) of the National Research Council in 2003. Such designation is for \"extraord...",
+      "url": "/professional/w-projects-nrc",
+      "status": "published",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "media": [
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "w-projects-nrc",
+          "title": null,
+          "caption": null,
+          "width": 50,
+          "height": 50,
+          "variant": "logo",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-nrc.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/book-disposition.jpg",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/public-participation-image.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/book-understanding.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/book-judgement.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/book-communication.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/book-government.gif",
+          "type": "image",
+          "alt": "National Research Council Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "stanford university"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-nrc",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "National Research Council Experience",
+            "summary": "Dr. North was designated as a National Associate(http://www.nationalacademies.org/includes/nationalassociates.pdf) of the National Research Council in 2003. Such designation is for \"extraord...",
+            "url": "/professional/w-projects-nrc"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "w-projects-nrc",
+                "type": "image",
+                "width": 50,
+                "height": 50
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-nrc.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/book-disposition.jpg",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/public-participation-image.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/book-understanding.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/book-judgement.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/book-communication.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/book-government.gif",
+                "alt": "National Research Council Experience",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Education",
+            "Organ",
+            "Toxicology Reviewer",
+            "Decision Making National Academy Press",
+            "Assess Risk Associated",
+            "IPET Volume VIII"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.260581",
+        "sourceFile": "warner-professional"
+      }
+    },
+    {
+      "id": "w-projects-stanford",
+      "slug": "w-projects-stanford",
+      "type": "professional",
+      "category": "professional",
+      "title": "Stanford University Experience",
+      "summary": "Department of Management Science and Engineering, School of Engineering; Consulting Associate Professor (1976-1988), Consulting Professor (1988-2009) !...",
+      "url": "/professional/w-projects-stanford",
+      "status": "published",
+      "lastModified": "2025-08-15T18:09:54.791Z",
+      "source": "migration",
+      "media": [
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "w-projects-stanford",
+          "title": null,
+          "caption": null,
+          "width": 50,
+          "height": 50,
+          "variant": "logo",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/logo-stan.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "logo",
+          "usage": "secondary"
+        },
+        {
+          "url": "/images/stanford.gif",
+          "type": "image",
+          "alt": "Stanford University Experience",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "original",
+          "usage": "secondary"
+        }
+      ],
+      "tags": [
+        "stanford university",
+        "management consulting",
+        "government service",
+        "national academies",
+        "private sector",
+        "risk management"
+      ],
+      "legacy": {
+        "originalData": {
+          "metadata": {
+            "id": "w-projects-stanford",
+            "type": "professional",
+            "category": "professional",
+            "status": "published",
+            "source": "markdown",
+            "lastModified": "2025-08-15T18:09:54.791Z"
+          },
+          "content": {
+            "title": "Stanford University Experience",
+            "summary": "\n\nDepartment of Management Science and Engineering, School of Engineering; Consulting Associate Professor (1976-1988), Consulting Professor (1988-2009)\n\n!...",
+            "url": "/professional/w-projects-stanford"
+          },
+          "media": {
+            "images": [
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "w-projects-stanford",
+                "type": "image",
+                "width": 50,
+                "height": 50
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/logo-stan.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              },
+              {
+                "url": "/images/stanford.gif",
+                "alt": "Stanford University Experience",
+                "type": "image"
+              }
+            ]
+          },
+          "tags": [
+            "Stanford",
+            "Environmental Studies",
+            "Engineering",
+            "Teaching",
+            "Management Science",
+            "Public Policy Decisions"
+          ]
+        },
+        "migrationDate": "2025-08-17T14:29:53.261191",
+        "sourceFile": "warner-professional"
+      }
+    }
+  ]
+}

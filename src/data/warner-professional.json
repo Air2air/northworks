@@ -5,7 +5,7 @@
     "count": 47,
     "generated": "2025-08-15T18:09:54.803Z",
     "version": "1.0.0",
-    "lastModified": "2025-08-16T02:52:31.992Z"
+    "lastModified": "2025-08-17T13:36:43.032201Z"
   },
   "professional": [
     {
@@ -1410,12 +1410,12 @@
         ]
       },
       "tags": [
-        "Environmental Health Committee",
-        "Extrapolation Models Review Panel",
-        "Music Article",
-        "Performance",
-        "Risk Assessment",
-        "United States Federal"
+        "EPA Report",
+        "Congress",
+        "Performance Analysis Panel",
+        "Safe Drinking Water",
+        "Committee",
+        "Third"
       ]
     },
     {
@@ -1588,7 +1588,14 @@
           }
         ]
       },
-      "tags": []
+      "tags": [
+        "Education",
+        "Organ",
+        "Toxicology Reviewer",
+        "Decision Making National Academy Press",
+        "Assess Risk Associated",
+        "IPET Volume VIII"
+      ]
     },
     {
       "metadata": {
@@ -1650,7 +1657,14 @@
           }
         ]
       },
-      "tags": []
+      "tags": [
+        "Stanford",
+        "Environmental Studies",
+        "Engineering",
+        "Teaching",
+        "Management Science",
+        "Public Policy Decisions"
+      ]
     }
   ]
 }

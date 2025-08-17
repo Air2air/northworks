@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-lopardo
 images:
-  - height: 139
-    src: /images/frank-lopardo.jpg
-    width: 183
 publication:
   date: 2001-09-21
   publisher: "ANG Newspapers Classical Music Column"
-subjects:
-  - Metropolitan Opera
-  - Rigoletto
-  - San Francisco Opera
-  - Tenor
-  - Frank Lopardo
-  - Robert White
-  - Northern Italy
-  - Queens College
-  - Juilliard School
-  - Although Lopardo
-  - La Boheme
-  - Eugene Onegin
 title: Cheryl North Interviews Frank Lopardo
 type: interview
 ---

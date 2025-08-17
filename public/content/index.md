@@ -2,31 +2,9 @@
 conversion date: 2025-08-15
 id: index
 images:
-  - height: 140
-    src: /images/cheriemug.jpg
-    width: 100
-  - height: 130
-    src: /images/blomstedt.jpg
-    width: 173
-  - height: 150
-    src: /images/mephisto-square-ildar-abdrazakov-sfop-2013.png
-    width: 150
 publication:
   date: 2017-01-01
   publisher: NorthWorks
-subjects:
-  - D. Warner North
-  - Cheryl North
-  - Risk Analysis
-  - Music Journalism
-  - Classical Music
-  - Warner North
-  - Stanford University
-  - Management Science
-  - Michael Greenberg
-  - Karen Lowrie
-  - National Academies
-  - National Research
 title: NorthWorks - 
 type: homepage
 ---

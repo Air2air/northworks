@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-voight
 images:
-  - height: 305
-    src: /images/voight-deborah.jpg
-    width: 200
-  - height: 596
-    src: /images/voight-salome.jpg
-    width: 200
 publication:
   date: 2006-09-01
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - when she
-  - characters she
-  - musician and
-  - feet wet
-  - single opera
-  - get to
-  - San Francisco Opera
-  - Deborah Voigt
-  - Masked Ball
-  - Covent Garden
-  - Richard Strauss
-  - Chicago Lyric
 title: Voight's success not thinly veiled
 type: interview
 ---

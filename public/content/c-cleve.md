@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-cleve
 images:
-  - alt: George Cleve
-    src: /images/cleve-george.jpg
 publication:
   date: 2009-07-03
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - by suddenly
-  - of his
-  - with horn
-  - had been
-  - the premier
-  - European opera
-  - School for
-  - pencil and
-  - him on
-  - to study
-  - Wolfgang Amadeus
-  - George Wolfgang
 title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
   Festival
 type: interview

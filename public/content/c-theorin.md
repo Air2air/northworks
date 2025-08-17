@@ -2,26 +2,9 @@
 conversion date: 2025-08-13
 id: c-theorin
 images:
-  - src: /images/theorin-lg.jpg
-    width: 600
-  - src: /images/theorin-sm.jpg
-    width: 230
 publication:
   date: 2011-09-02
   publisher: Bay Area News Group
-subjects:
-  - Don Giovanni
-  - Giacomo Puccini
-  - San Francisco Opera
-  - Soprano
-  - Tosca
-  - War Memorial
-  - Royal Opera
-  - Alban Berg
-  - Birgit Nilsson
-  - Richard Strauss
-  - Das Rheingold
-  - Donna Anna
 title: Swedish Soprano Theorin chills the blood, warms the voice for her turn in *Turandot*
 type: interview
 ---

@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-gilfry
 images:
-  - height: 140
-    src: /images/thm-gilfry.jpg
-    width: 140
-  - height: 214
-    src: /images/gilfry.jpg
-    width: 140
 publication:
   date: 2005-10-14
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - luminaries to
-  - him to
-  - an opera
-  - music and
-  - can have
-  - His virile
-  - preparing to
-  - San Francisco Opera
-  - Rodney Gilfry
-  - Half Marathon
-  - Santa Rosa
-  - Gala Concert
 title: Cheryl North Interviews Rodney Gilfry
 type: interview
 ---

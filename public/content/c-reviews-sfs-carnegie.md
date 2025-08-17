@@ -5,19 +5,6 @@ images:
 publication:
   date: 2001-02-23
   publisher: Classical Music Column for ANG Newspapers Cue Sections
-subjects:
-  - Baritone
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Gustav Mahler
-  - Mezzo-soprano
-  - San Francisco Symphony
-  - Soprano
-  - Tenor
-  - And New
-  - Maestro Michael
-  - Tilson Thomas
-  - Randall Thompson
 title: San Francisco Symphony takes Carnegie Hall by Storm
 type: review
 ---

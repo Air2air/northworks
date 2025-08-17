@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-orbelian
 images:
-  - height: 144
-    src: /images/orbelian.jpg
-    width: 141
-  - height: 205
-    src: /images/moscow.jpg
-    width: 250
 publication:
   date: 2003-02-07
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Carmen
-  - Carnegie Hall
-  - Concerto
-  - San Francisco Symphony
-  - Moscow Chamber
-  - Shostakovich Piano
-  - Concerto No
-  - Shostakovich Concerto
-  - Like John
-  - Constantine Orbelian
-  - Herbst Theatre
-  - Van Ness
 title: Interview - Constantine Orbelian
 type: interview
 ---

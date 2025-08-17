@@ -1,23 +1,11 @@
 ---
-conversion date: 2025-08-13
 id: w-background
 images:
-
 publication:
-  date: null
+  date: 2019-01-01
   publisher: the Decision
 title: Professional Background & Education
 type: background
-subjects:
-  - Decision Focus
-  - Senior Vice
-  - Assistant Director
-  - Decision Analysis
-  - Stanford Research
-  - Operations Research
-  - Stanford University
-  - Yale University
-  - D. Warner North
 ---
 
 ---
@@ -32,7 +20,7 @@ Supervisor or leader of over forty major DFI and SRI research projects.
 
 **ACADEMIC BACKGROUND**
 
-Ph.D., Operations Research, Stanford University (1970); decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](phd thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
+Ph.D., Operations Research, Stanford University (1970); decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
 
 M.S., Physics (1963) and Mathematics (1966), Stanford University.
 

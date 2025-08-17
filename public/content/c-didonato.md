@@ -1,28 +1,13 @@
 ---
 conversion date: 2025-08-13
 id: c-didonato
-images: null
+images:
 publication:
   date: 2009-11-13
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Interview
-  - Mezzo-soprano
-  - San Francisco Opera
-  - Soprano
-  - Remember Dorothy
-  - The Wizard
-  - Marilyn Horne
-  - Herbst Theatre
-  - John Churchwell
-  - Southern European
-  - Tunisian Francesco
-  - Catalonian Fernando
 title: DiDonato dips into Latin repertoire to keep dazzle going
 type: interview
 ---
-
-
 
 Remember Dorothy's exclamation to her little dog Toto in the classic movie *The Wizard of Oz*? "Toto, I've a feeling we're not in Kansas anymore," she said as the two emerged from the tornado-transported farmhouse into the magical Technicolor of Oz.
 

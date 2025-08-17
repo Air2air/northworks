@@ -5,17 +5,6 @@ images:
 publication:
   date: 1999-11-16
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Gustav Mahler
-  - San Francisco Symphony
-  - Performing Arts
-  - San Mateo
-  - Walnut Creek
-  - Maestro Pierre
-  - The Paris
-  - Baritone Thomas
-  - Adler Fellow
 title: Review of the Orchestre de Paris, Benefit Concert for the Mahler Library
 type: review
 ---

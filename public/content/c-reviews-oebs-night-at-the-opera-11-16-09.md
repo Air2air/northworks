@@ -5,19 +5,6 @@ images:
 publication:
   date: 2009-11-13
   publisher: Cheryl North
-subjects:
-  - Aida
-  - Baritone
-  - Mezzo-soprano
-  - Soprano
-  - Tenor
-  - Paramount Theatre
-  - Michael Morgan
-  - Maestro Morgan
-  - Funeral Music
-  - Die Gotterdammerung
-  - Brian Nies
-  - Carl Maria
 title: Oakland East Bay Symphony Performance, "A Night at the Opera"
 type: review
 ---

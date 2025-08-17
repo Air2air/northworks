@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-boulez
 images:
-  - height: 227
-    src: /images/pierre-boulez.jpg
-    width: 150
 publication:
   date: 2000-05-19
   publisher: ANG Newspapers Classical Music Column for Preview Section
-subjects:
-  - Conducting
-  - Gustav Mahler
-  - Interview
-  - Pierre Boulez
-  - Igor Stravinsky
-  - High Canning
-  - Maestro Boulez
-  - Deutsche Grammophon
-  - Contemporary Music
-  - Concert Series
-  - Yerba Buena
 title: Cheryl North Writes about Pierre Boulez
 type: interview
 ---

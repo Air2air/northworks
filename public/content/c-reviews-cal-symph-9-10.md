@@ -5,17 +5,6 @@ images:
 publication:
   date: 2010-10-03
   publisher: Bay Area News Group
-subjects:
-  - Chamber Music
-  - Concerto
-  - Bay Area
-  - Lesher Center
-  - Walnut Creek
-  - Asher Raboy
-  - Michael Soza
-  - Maestro Barry
-  - The Star
-  - Spangled Banner
 title: California Symphony Opening Concert of the 2010-2011 Season
 type: review
 ---

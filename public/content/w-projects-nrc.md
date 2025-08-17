@@ -1,118 +1,10 @@
 ---
-conversion date: 2025-08-13
 id: w-projects-nrc
 images:
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 50
-    src: /images/logo-nrc.gif
-    width: 50
-  - height: 86
-    src: /images/book-disposition.jpg
-    width: 60
-  - height: 86
-    src: /images/public-participation-image.gif
-    width: 60
-  - height: 86
-    src: /images/book-understanding.gif
-    width: 60
-  - height: 86
-    src: /images/book-judgement.gif
-    width: 60
-  - height: 86
-    src: /images/book-communication.gif
-    width: 60
-  - height: 86
-    src: /images/book-government.gif
-    width: 60
+publication:
+  date: 2003-01-01
 title: National Research Council Experience
 type: professional
-subjects:
-  - National Associate
-  - National Research
-  - Members Library
-  - National Academies
-  - National Academy
-  - National Associates
-  - Natural Resources
-  - Stationary Source
-  - D. Warner North
-  - Opera
-  - North
-  - National Research Council
-  - Such
-  - Institute
-  - Medicine
-  - Less
-  - There
-  - Sciences
 ---
 
 ***
@@ -215,7 +107,7 @@ A Letter Report](http://www.nap.edu/catalog.php?record id=12073), 2007.
 
 ![](/images/logo-nrc.gif)
 
- Board on Life Sciences, Earth and Life Sciences****Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3]( http://www.nap.edu/catalog.php?record id=13310), December, 2011.
+ Board on Life Sciences, Earth and Life Sciences****Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
 
 ![](/images/logo-nrc.gif)
 
@@ -285,6 +177,4 @@ Managing the Process](http://www.nap.edu/catalog/366.html)
 National Academy Press
 
 191 pages, 1983
-
-
 

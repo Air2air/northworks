@@ -5,19 +5,6 @@ images:
 publication:
   date: 2010-11-13
   publisher: Bay Area News Group
-subjects:
-  - orchestral musicians
-  - exquisite harpsichords
-  - as assistant
-  - planting the
-  - stage like
-  - stances while
-  - managed to
-  - boy who
-  - Roger McCracken
-  - Persian King
-  - Berkeley West
-  - Edge Opera
 title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
 ---

@@ -2,23 +2,9 @@
 conversion date: 2025-08-13
 id: c-rosenberg
 images:
-  - height: 141
-    src: /images/rosenberg.jpg
-    width: 192
 publication:
   date: 2007-07-20
   publisher: ANG Preview Section
-subjects:
-  - Gustav Mahler
-  - San Francisco Opera
-  - Spree Rivers
-  - Central European
-  - Klaus Wowereit
-  - Bay Area
-  - Pamela Rosenberg
-  - General Director
-  - Sir Simon
-  - Speight Jenkins
 title: Rosenberg Brings S.F. Flavor to Berlin Philharmonic
 type: interview
 ---

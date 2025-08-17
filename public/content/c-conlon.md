@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-conlon
 images:
-  - height: 125
-    src: /images/james-conlon-conducting.jpg
-    width: 173
 publication:
   date: 2006-06-02
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Mezzo-soprano
-  - Soprano
-  - Tenor
-  - World War
-  - James Conlon
-  - June Festival
-  - The Third
-  - Viktor Ullmann
-  - Pavel Haas
-  - Amadeus Hartmann
-  - Franz Schreker
 title: James Conlon - Conductor trying to preserve musical legacy
 type: interview
 ---

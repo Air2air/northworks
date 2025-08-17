@@ -5,20 +5,8 @@ images:
 publication:
   date: 2010-01-26
   publisher: ANG Newspapers Preview Section
-subjects:
-  - Baritone
-  - Bass
-  - San Francisco Conservatory
-  - Soprano
-  - Tenor
-  - Ensemble Parallele
-  - Nicole Paiement
-  - Alban Berg
-  - John Rea
-  - Director Brian
-  - Austin Forbord
-  - Bojan Knezevic
 title: Berg's *Wozzeck* is still powerful after 85 years
+type: article
 ---
 
 The music, art and architecture of a given time often present a mirror image of the mood and mores of that time. As a potent example of this thesis, the San Francisco Conservatory of Music's resident Ensemble Parallele, under the direction of its founder and conductor Nicole Paiement, is preparing to recreate the reeling Weltanschauung of 1920s Europe this weekend with a production of Austrian-born Alban Berg's fervid opera, *Wozzeck.*
@@ -45,6 +33,4 @@ Composer Berg, in company with his Expressionistic colleagues, employed exaggera
 And there, stuffed into a rather contorted nutshell, you have the world that faced the first half of the 20th century as well as the tragic title character of Berg's potent opera, *Wozzeck* — a character that Knezevic portrayed with chilling intensity during the rehearsal I attended.
 
 Be assured: Despite Berg's sallies into Expressionistic shock, the upcoming "Wozzeck" is bound to awe you with an emotional force you will neither regret nor forget. (Although its original audiences often walked out mid-performance or even rioted, within its first 10 years, *Wozzeck* was performed more than 150 times in 28 European cities.)
-
-
 

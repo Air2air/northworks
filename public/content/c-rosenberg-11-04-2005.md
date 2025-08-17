@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-rosenberg
 images:
-  - height: 141
-    src: /images/rosenberg.jpg
-    width: 192
 publication:
   date: 2005-11-04
   publisher: ANG Preview Section
-subjects:
-  - Carnegie Hall
-  - San Francisco Opera
-  - War Memorial Opera House
-  - On Jan
-  - Pamela Rosenberg
-  - War Memorial
-  - Opera House
-  - Animating Opera
-  - Ambitious Francois
-  - North American
-  - Olivier Messiaen
 title: Parting Words from S.F. Opera Director Pamela Rosenberg
 type: interview
 ---

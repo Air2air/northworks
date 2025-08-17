@@ -1,34 +1,8 @@
 ---
-conversion date: 2025-08-13
 id: w-projects-government
 images:
-  - height: 50
-    src: /images/logo-epa.gif
-    width: 50
-  - height: 50
-    src: /images/logo-epa.gif
-    width: 50
-  - height: 50
-    src: /images/logo-us.gif
-    width: 50
-  - height: 50
-    src: /images/logo-us.gif
-    width: 50
-  - height: 50
-    src: /images/logo-cal.gif
-    width: 50
-subjects:
-  - Environmental Health Committee
-  - Extrapolation Models Review Panel
-  - Risk Assessment
-  - United States Federal
-  - Environmental Protection
-  - Agency Science
-  - Environmental Health
-  - Carcinogenicity Risk
-  - Assessment Guidelines
-  - Review Group
-  - Extrapolation Models
+publication:
+  date: 2005-05-01
 title: Government Projects & Consulting
 type: professional
 ---

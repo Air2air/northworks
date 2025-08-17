@@ -82,14 +82,13 @@ export default function ContentDetailLayout({
     return type === 'interview' ? 'Publication Info' : 'Publication Information';
   };
 
-  // Get appropriate tags field based on content type
+  // Get appropriate tags field based on content type - using JSON tags exclusively
   const getTagsField = (frontmatter: any, type: string) => {
-    // Check for specific fields first based on content type
-    if ((type === 'interview' || type === 'article' || type === 'review') && frontmatter.subjects) {
-      return frontmatter.subjects;
+    // Use tags field from JSON data (unified approach)
+    if ((frontmatter as any).tags) {
+      return (frontmatter as any).tags;
     }
     // Fallback to common fields
-    if (frontmatter.tags) return frontmatter.tags;
     if (frontmatter.keywords) return frontmatter.keywords;
     return [];
   };

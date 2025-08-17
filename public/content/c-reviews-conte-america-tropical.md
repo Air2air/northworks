@@ -6,17 +6,6 @@ publication:
   author: Cheryl North
   date: 2007-05-25
   publisher: Oakland Tribune, Bay Area News Group
-subjects:
-  - Interview
-  - San Francisco
-  - Thick House
-  - Bay Area
-  - David Conte
-  - Oliver Mayer
-  - America Tropical
-  - John Kendall
-  - Potrero Hill
-  - Professional Theater
 title: World Premiere of David Conte's One-Act Opera, America Tropical
 type: review
 ---

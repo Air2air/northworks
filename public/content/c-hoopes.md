@@ -4,19 +4,6 @@ id: c-hoopes
 publication:
   date: 2009-12-25
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - to his
-  - bit of
-  - by guest
-  - Luhrmann to
-  - as the
-  - they will
-  - and to
-  - learn and
-  - marathon to
-  - he will
-  - Christmas Day
-  - Merry Christmas
 title: Cheryl North Interviews Chad Hoopes
 type: interview
 ---

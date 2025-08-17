@@ -5,19 +5,6 @@ images:
 publication:
   date: 2005-02-11
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Concerto
-  - Giacomo Puccini
-  - Metropolitan Opera
-  - National Symphony
-  - Premiere
-  - Kennedy Center
-  - New America
-  - Leonard Slatkin
-  - Virgil Thomson
-  - Yankee Doodle
-  - Paul Creston
-  - Erich Korngold
 title: Different sort of 40s tunes from National Symphony
 type: article
 ---
@@ -48,6 +35,4 @@ Contemporary violinist Leonidas Kavakos used his 1692 "Falmouth" Stradivarius in
 Although my companions and I were initially expecting to merely endure the Thomson, Creston and Schumann works, we actually became enthusiastically engaged by the collective wit, color, creativity and depth of these vintage 1940 works.
 
 For those who might be touring the grand sights in D.C. soon, be sure to take in a National Symphony Orchestra concert.
-
-
 

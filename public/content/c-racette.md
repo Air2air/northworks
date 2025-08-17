@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-racette
 images:
-  - height: 184
-    src: /images/racette-c-w-9-15-09.jpg
-    width: 230
 publication:
   date: 2009-09-16
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - La Traviata
-  - Mezzo-soprano
-  - San Francisco Opera
-  - Soprano
-  - War Memorial Opera House
-  - Patricia Racette
-  - Il Trittico
-  - War Memorial
-  - Opera House
-  - Suor Angelica
-  - Patrick Summers
-  - Il Tabarro
 title: Racette makes a lifelong run with Puccini's *Senza Mama*
 type: interview
 ---

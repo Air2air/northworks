@@ -2,26 +2,9 @@
 conversion date: 2025-08-13
 id: c-terfel
 images:
-  - height: 28
-    src: /images/titleterfel.gif
-    width: 250
-  - height: 233
-    src: /images/terfel.jpg
-    width: 200
 publication:
   date: 1997-11-14
   publisher: ANG newspapers
-subjects:
-  - Baritone
-  - Tenor
-  - Bryn Terfel
-  - Nick Shadow
-  - The Rake
-  - Igor Stravinsky
-  - Malcolm Martineau
-  - Richard Burton
-  - Frank Sinatra
-  - Elvis Presley
 title: Cheryl North Interviews Bryn Terfel
 type: interview
 ---

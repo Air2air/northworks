@@ -6,25 +6,6 @@ publication:
   author: Cheryl North
   date: 2005-09-28
   publisher: Oakland Tribune, Alameda Newspaper Group
-subjects:
-  - Davies Symphony Hall
-  - Gustav Mahler
-  - Recording
-  - San Francisco Symphony
-  - Sparks Fly
-  - Michael Tilson
-  - Francisco Symphony
-  - Davies Symphony
-  - Symphony Hall
-  - Symphony
-  - Conductor
-  - Performance
-  - Concert
-  - Musician
-  - Mahler
-  - Michael Tilson Thomas
-  - When
-  - Wednesday
 title: When MTT's S.F. Symphony Meets Mahler, Sparks Fly
 type: review
 ---

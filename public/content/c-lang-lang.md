@@ -2,27 +2,9 @@
 conversion date: 2025-08-13
 id: c-lang-lang
 images:
-  - height: 212
-    src: /images/langcherie09.jpg
-    width: 212
-  - height: 212
-    src: /images/lang-lang-mother.jpg
-    width: 212
 publication:
   date: 2009-09-09
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Concerto
-  - Franz Liszt
-  - San Francisco Symphony
-  - If Roman
-  - Lang Lang
-  - Davies Hall
-  - Sergei Prokofiev
-  - Piano Concerto
-  - Maestro Michael
-  - Tilson Thomas
-  - Mephisto Waltz
 title: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
 type: interview
 ---

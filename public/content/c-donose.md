@@ -6,24 +6,9 @@ publication:
   author: Giuseppe Sinopoli
   date: 2002-06-28
   publisher: Oakland Tribune
-subjects:
-  - Mezzo-soprano
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - War Memorial Opera House
-  - The Oakland
-  - Ruxandra Donose
-  - Femmes Fatales
-  - War Memorial
-  - Opera House
-  - Giulio Cesare
-  - Peter Pawlik
 title: Donose goes from glamour queen to boy, with motherhood in betwee
 type: interview
 ---
-
-
 
 Donose goes from glamour queen to boy, with motherhood in between**
 

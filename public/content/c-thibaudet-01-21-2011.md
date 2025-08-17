@@ -2,26 +2,9 @@
 conversion date: 2025-08-13
 id: c-thibaudet2011
 images:
-  - height: 297
-    src: /images/thibaudet1.jpg
-    width: 200
-  - height: 280
-    src: /images/thibaudet-wandc.jpg
-    width: 200
 publication:
   date: 2011-01-21
   publisher: Bay Area News Group, Contra Costa Times
-subjects:
-  - write and
-  - Thibaudet will
-  - pianist might
-  - also will
-  - music is
-  - Yves Thibaudet
-  - Zellerbach Hall
-  - Like Liszt
-  - In Europe
-  - Franz Liszt
 title: Thibaubet gives a lift to legacy of Liszt in Berkeley recital
 type: interview
 ---

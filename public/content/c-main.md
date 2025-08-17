@@ -1,34 +1,9 @@
 ---
-conversion date: 2025-08-13
 id: c-main
 images:
-  - height: 28
-    src: /images/titlecheryl.gif
-    width: 250
-  - height: 150
-    src: /images/cherie-sm.jpg
-    width: 107
-  - height: 150
-    src: /images/opera-now.jpg
-    width: 107
-  - height: 290
-    src: /images/nicola-cheryl-placido-10-19-10.jpg
-    width: 390
-
 publication:
-  date: null
-subjects:
-  - Cheryl North
-  - Classical Music
-  - Frances Tipton
-  - Harry Tomlinson
-  - War Memorial Opera House
-  - Leah Neiman
-  - Ruth Goodsmith
-  - Jong Jr
-  - Brigham Young
-  - Donald King
-title: Untitled
+  date: 2010-10-19
+title: Cheryl North - Main
 type: interview
 ---
 
@@ -49,6 +24,4 @@ taught piano and music appreciation for music majors at Ohlone College; served o
 
 Cheryl North between two favorite maestros, Nicola Luisotti and Placido Domingo, at the San Francisco War Memorial Opera House,
 October 19, 2010 (photo by DWN)
-
-
 

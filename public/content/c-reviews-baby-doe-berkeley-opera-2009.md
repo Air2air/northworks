@@ -1,23 +1,9 @@
 ---
-conversion date: 2025-08-13
 id: c-reviews-baby-doe-berkeley-opera-2009
 images:
 publication:
-  date: null
+  date: 2009-01-01
   publisher: Bay Area News Group
-subjects:
-  - Baby Doe
-  - Baritone
-  - Conducting
-  - Mezzo-soprano
-  - Soprano
-  - Berkeley Opera
-  - Douglas Moore
-  - The Ballad
-  - John Latouche
-  - Composer Moore
-  - Horace Tabor
-  - Jonathan Khuner
 title: Inventive 'Baby Doe' redefines riches at the Berkeley Opera
 type: review
 ---

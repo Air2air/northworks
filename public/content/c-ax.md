@@ -1,21 +1,10 @@
 ---
 conversion date: 2025-08-13
 id: c-ax
-images: null
+images:
 publication:
   date: 2008-10-10
   publisher: Bay Area News Group
-subjects:
-  - San Francisco Symphony
-  - Symphony No
-  - Emanuel Ax
-  - Richard Strauss
-  - Karol Szymanowski
-  - Music Director
-  - Peter Oundjian
-  - The Magic
-  - Helen Ax
-  - Father Joachim
 title: Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra
 type: article
 ---

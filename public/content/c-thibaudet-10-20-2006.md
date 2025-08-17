@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-thibaudet
 images:
-  - height: 297
-    src: /images/thibaudet1.jpg
-    width: 200
-  - height: 280
-    src: /images/thibaudet-wandc.jpg
-    width: 200
 publication:
   date: 2006-10-20
   publisher: ANG Newspapers
-subjects:
-  - young son
-  - he has
-  - renown opera
-  - ability in
-  - seem to
-  - me to
-  - Wright to
-  - after the
-  - San Francisco Symphony
-  - Yves Thibaudet
-  - Davies Hall
-  - Franz Liszt
 title: For Thibaudet, music is played in the key of life
 type: interview
 ---

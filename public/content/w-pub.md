@@ -1,59 +1,9 @@
 ---
-conversion date: 2025-08-13
 id: w-pub
 images:
-  - height: 16
-    src: /images/icon-pdf.gif
-    width: 16
-  - height: 16
-    src: /images/icon-pdf.gif
-    width: 16
-  - height: 16
-    src: /images/icon-pdf.gif
-    width: 16
-  - height: 83
-    src: /images/public-participation-image.gif
-    width: 57
-  - height: 86
-    src: /images/book-disposition.jpg
-    width: 60
-  - height: 86
-    src: /images/book-human.jpg
-    width: 60
-  - height: 86
-    src: /images/book-understanding.gif
-    width: 60
-  - height: 86
-    src: /images/book-judgement.gif
-    width: 60
-  - height: 86
-    src: /images/book-communication.gif
-    width: 60
-  - height: 86
-    src: /images/book-government.gif
-    width: 60
 publication:
-  date: null
+  date: 2011-12-06
   publisher: Silvio Funtowicz
-subjects:
-  - International Office
-  - Seed Hurricanes
-  - Technical Review
-  - The Decision
-  - The Invariance
-  - Operations Research
-  - Stanford University
-  - Tutorial Introduction
-  - Opera
-  - Alto
-  - Performance
-  - Aria
-  - Stanford
-  - Bach
-  - Wagner
-  - Howard
-  - Matheson
-  - Science
 title: Publications & Research Papers
 type: publication
 ---
@@ -88,12 +38,12 @@ Scientific and Technical Review, International Office of Epizootics,
 
 [
 ![](/images/icon-pdf.gif)
-](phd thesis.pdf)
+](phd-thesis.pdf)
 
-[5.9mb](phd thesis.pdf)
+[5.9mb](phd-thesis.pdf)
 
 [The Invariance Approach to the Probabilistic
-Encoding of Information](phd thesis.pdf)
+Encoding of Information](phd-thesis.pdf)
 
 Ph. D. Thesis, Department of Operations Research, Stanford University,
 1970.
@@ -448,8 +398,6 @@ National Research Council, 1989
 Managing the Process](http://books.nap.edu/catalog.php?record id=366)
 
 National Research Council, 1983
-
-
 
 [.](http://www.dunningmarketing.com)
 [.](http://www.northworks.net)

@@ -5,19 +5,6 @@ images:
 publication:
   date: 2007-08-03
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Bass
-  - Mezzo-soprano
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - World Premiere
-  - Richard Kagey
-  - Merola Opera
-  - Thomas Pasatieri
-  - Hotel Casablanca
-  - Joseph Illick
 title: Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca
 type: article
 ---
@@ -36,6 +23,4 @@ Other roles in this mildly racy romp will be Raul Perez, the bull breeder, by ba
 According to director Kagey, composer-librettist Pasatieri, who was born in New York in 1945, is not only musically ingenious but verbally clever as well. He entered the Juilliard School at age 16 and went on to become the prestigious music school's first recipient of a doctorate. In addition to his 19 operas and many other compositions, Pasatieri is a highly acclaimed orchestrator-arranger. He's composed the scores for movies such as *The Good German*, *The Road to Perdition*, *American Beauty*, *The Little Mermaid*, *The Shawshank Redemption*, *Fried Green Tomatoes*, *Legends of the Fall* and *Scent of a Woman*.
 
 Kagey not only has a gift for stage and set design but he is thoroughly adept at leading and directing young people. Tall, affable and ever ready with his warm, baritone laugh, he has a natural affinity for gracefully bringing the quirks and subtleties of human nature to the stage. Long associated with the academic world (the faculty of the University of Maryland, plus other schools), he has spent summers for more than 40 years directing young people with operatic aspirations at the Seagle Music Colony in the Schroon Lake area of upper New York. His most recent endeavor has been directing Pasatieri's *Frau Margot* with the Fort Worth Opera. Upcoming engagements include *The Merry Widow* at the Seagle Music Colony; *Hotel Casablanca* for the University of Kentucky; *Cold Sassy Tree* for Atlanta Opera; and *Of Mice and Men* for Fort Worth Opera. He also will direct the soon-to-open Energy Center for the Performing Arts in Atlanta. He and his wife, Betsy, an epidemiologist, make their home in Atlanta.
-
-
 

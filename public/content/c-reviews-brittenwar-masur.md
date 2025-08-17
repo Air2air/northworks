@@ -6,19 +6,6 @@ publication:
   author: Cheryl North
   date: 2002-10-24
   publisher: Oakland Tribune, Alameda Newspaper Group
-subjects:
-  - Kurt Masur
-  - William Stone
-  - leadership of
-  - stabbing staccato
-  - San Francisco Symphony
-  - Davies Symphony Hall
-  - Benjamin Britten
-  - War Requiem
-  - Hall Thursday
-  - Girls Chorus
-  - Pacific Boychoir
-  - Christine Brewer
 title: Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's War Requiem
 type: review
 ---

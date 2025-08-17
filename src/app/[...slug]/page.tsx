@@ -160,12 +160,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   };
 
-  // Get tags for keywords
+  // Get tags for keywords - using JSON tags exclusively
   const getTags = (fm: any, type: string) => {
-    if (type === 'interview' || type === 'article' || type === 'review') {
-      return fm.subjects || fm.tags || fm.keywords || [];
-    }
-    return fm.tags || fm.keywords || [];
+    // Use tags field from JSON data (unified approach)
+    if (fm.tags) return fm.tags;
+    if (fm.keywords) return fm.keywords;
+    return [];
   };
 
   const description = getDescription(contentType, frontmatter);
@@ -239,14 +239,9 @@ export default async function UniversalContentPage({ params }: PageProps) {
       : "Publication Information";
   };
 
-  // Get appropriate tags field based on content type
+  // Get appropriate tags field - using JSON tags exclusively (data corruption will be fixed separately)
   const getTagsField = (frontmatter: any, type: string) => {
-    if (
-      (type === "interview" || type === "article" || type === "review") &&
-      frontmatter.subjects
-    ) {
-      return frontmatter.subjects;
-    }
+    // Use tags field from JSON data (unified approach)
     if (frontmatter.tags) return frontmatter.tags;
     if (frontmatter.keywords) return frontmatter.keywords;
     return [];

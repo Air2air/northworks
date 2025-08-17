@@ -5,19 +5,6 @@ images:
 publication:
   date: 2008-09-05
   publisher: Bay Area News Group
-subjects:
-  - Baritone
-  - Bass
-  - Giuseppe Verdi
-  - San Francisco Opera
-  - Simon Boccanegra
-  - Tenor
-  - War Memorial Opera House
-  - Inside Bay
-  - War Memorial
-  - Opera House
-  - Opening Gala
-  - While San
 title: San Francisco Opera Opening Night Performance of Verdi's Simon Boccanegra
 type: review
 ---

@@ -4,20 +4,7 @@ id: c-walkuere-2010
 publication:
   date: 2010-06-04
   publisher: Bay Area News Group
-subjects:
-  - do is
-  - in my
-  - musical theme
-  - it is
-  - San Francisco
-  - she had
-  - San Francisco Opera
-  - Mark Delavan
-  - Richard Wagner
-  - Die Walk
-  - Das Rheingold
-  - Valkyrie Br
-title:
+title: Die Walküre at San Francisco Opera, 2010
   Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about
   the 2010 San Francisco Opera Production of Die Walküre
 type: interview

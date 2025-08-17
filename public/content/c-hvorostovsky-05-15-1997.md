@@ -2,27 +2,9 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
-  - height: 300
-    src: /images/hvorostovsky-sb08.jpg
-    width: 554
-  - height: 300
-    src: /images/hvorostovsky.jpg
-    width: 194
 publication:
   date: 1997-05-15
   publisher: Alameda Newspaper Group
-subjects:
-  - Baritone
-  - Mezzo-soprano
-  - Soprano
-  - European Tour
-  - Dmitri Hvorostovsky
-  - Olga Borodina
-  - Mario Bernardi
-  - Van Ness
-  - Grove Street
-  - La Favorita
-  - Il Barbiere
 title: Dmitri Hvorostovsky - Voice of the Century?
 type: interview
 ---

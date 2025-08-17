@@ -4,19 +4,6 @@ id: c-lindstrom
 publication:
   date: 2013-10-25
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Area while
-  - two accomplished
-  - of her
-  - like to
-  - San Francisco Opera
-  - Bay Area
-  - King Herod
-  - The Flying
-  - Royal Opera
-  - Covent Garden
-  - Lise Lindstrom
-  - Richard Wagner
 title: Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut
 type: interview
 ---

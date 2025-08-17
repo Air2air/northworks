@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-assink
 images:
-  - height: 150
-    src: /images/assink.jpg
-    width: 112
 publication:
   date: 2005-10-28
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Concerto
-  - Conducting
-  - San Francisco Symphony
-  - Soprano
-  - Tenor
-  - Brent Assink
-  - Michael Tilson
-  - Alan Gilbert
-  - Martin Haselbock
-  - Edwin Outwater
-  - James Conlon
 title: Interview with Brent Assink, on the new "6.5" Format
 type: interview
 ---

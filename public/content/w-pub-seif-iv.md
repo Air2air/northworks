@@ -2,43 +2,9 @@
 conversion date: 2025-08-13
 id: w-pub-seif-iv
 images:
-  - height: 320
-    src: /images/wn-speaking-belgian-senate-4-18-06.jpg
-    width: 213
-  - height: 161
-    src: /images/lithgen.gif
-    width: 260
-  - height: 201
-    src: /images/balticgasmap.jpg
-    width: 224
-  - height: 225
-    src: /images/legbalticgasmap.jpg
-    width: 200
-  - height: 195
-    src: /images/balticgasinfdiag.gif
-    width: 260
-  - height: 360
-    src: /images/balticgasparttree.gif
-    width: 260
-  - height: 195
-    src: /images/balticgascumd.gif
-    width: 260
 publication:
   date: 2005-11-14
   publisher: SEIF-IV Conference, Brussels, Belgium 
-subjects:
-  - Bass
-  - Natural Gas Supply
-  - Supply Interruption
-  - Warner North
-  - European Union
-  - Christian Kirchsteiger
-  - Public Policy
-  - Stanford University
-  - Lithuanian Energy
-  - Baltic Sea
-  - Green Paper
-  - Russian Federation
 title: Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
 type: publication
 ---

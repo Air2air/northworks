@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-aikin
 images:
-  - height: 200
-    src: /images/laura-aikin.jpg
-    width: 160
 publication:
   date: 2005-02-18
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Metropolitan Opera
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Laura Aikin
-  - Saint Fran
-  - Robert Schumann
-  - Das Paradies
-  - Deutsche Staatsoper
-  - Gianluca Pojaghi
 title: Super Mom, super Singer -- that's soprano Aikin
 type: interview
 ---

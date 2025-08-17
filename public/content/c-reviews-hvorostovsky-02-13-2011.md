@@ -5,19 +5,6 @@ images:
 publication:
   date: 2011-02-13
   publisher: ANG Newspapers
-subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Dmitri Hvorostovsky
-  - Franz Liszt
-  - Premiere
-  - Sergei Rachmaninoff
-  - Ivari Ilja
-  - Gabriel Faur
-  - While Hvorostovsky
-  - Sergei Taneyev
-  - Tre Sonetti
-  - Peter Tchaikovsky
 title: Dmitri Hvorostovsky's Slavic Soul Recital
 type: review
 ---

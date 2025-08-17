@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-volodos
 images:
-  - height: 190
-    src: /images/volodos.jpg
-    width: 200
 publication:
   date: 2003-02-04
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - during his
-  - not the
-  - have to
-  - he deftly
-  - parents were
-  - voice and
-  - actually did
-  - orchestras and
-  - indeed piano
-  - Sir Winston
-  - Arcadi Volodos
-  - Franz Liszt
 
 title: Cheryl North Interviews Arcadi Volodos
 type: interview

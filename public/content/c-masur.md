@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-masur
 images:
-  - height: 160
-    src: /images/thm-masur.jpg
-    width: 160
 publication:
   date: 2002-11-01
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Bass
-  - Conducting
-  - Kurt Masur
-  - San Francisco Symphony
-  - Bay Area
-  - Benjamin Britten
-  - War Requiem
-  - Mandarin Restaurant
-  - World War
-  - Berlin Wall
-  - Federal Republic
 title: Cheryl North Interviews Kurt Masur
 type: interview
 ---

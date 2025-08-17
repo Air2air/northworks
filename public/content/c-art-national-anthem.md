@@ -5,17 +5,6 @@ images:
 publication:
   date: 2004-07-02
   publisher: ANG Newspapers
-subjects:
-  - Bay Area
-  - Classical Music
-  - Our National Anthem
-  - Spangled Banner
-  - The Star
-  - Our National
-  - Francis Scott
-  - To Anacreon
-  - Anacreontic Society
-  - Commodore Stephen
 title: Thoughts on Our National Anthem
 type: article
 ---
@@ -46,6 +35,4 @@ During the Civil War, with both Union and Confederate forces rallying to its str
 There were, and have remained to this day, other musical contenders for the honor of National Anthem. Among them are *America the Beautiful*, *Yankee Doodle*, *God Bless America*, *America* (aka *God Save the Queen*), all of which, for average folks, seem a little more singable.
 
 However, none better capture the fervor of America's great promise, to remain "the land of the free and the home of the brave!" than does *The Star-Spangled Banner*. Perhaps the difficult range of notes through which we must struggle in order to sing it remind us of the difficulties through which we must struggle to maintain the United States as the honorable land of the free and the home of the brave!
-
-
 

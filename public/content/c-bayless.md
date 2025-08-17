@@ -2,31 +2,9 @@
 conversion date: 2025-08-13
 id: c-bayless
 images:
-  - height: 150
-    src: /images/thm-bayless.jpg
-    width: 150
 publication:
   date: 2006-11-03
   publisher: ANG PREVIEW Section
-subjects:
-  - Franz Liszt
-  - Joshua Bell
-  - Richard Goode
-  - Evgeny Kissin
-  - When Mozart
-  - John Bayless
-  - Oakland East
-  - Paramount Theatre
-  - Opera
-  - Symphony
-  - Concerto
-  - Conducting
-  - Piano
-  - Violin
-  - Orchestra
-  - Performance
-  - Concert
-  - Classical Music
 title: Cheryl North Interviews John Bayless
 type: interview
 ---

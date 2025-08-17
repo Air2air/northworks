@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-stewart
 images:
-  - height: 185
-    src: /images/stewart.jpg
-    width: 227
 publication:
   date: 1999-06-16
   publisher: ANG Newspapers
-subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Interview
-  - Luc Picard
-  - San Francisco Symphony
-  - Starship Enterprise
-  - Patrick Stewart
-  - West Yorkshire
-  - Star Trek
-  - The Next
-  - Whale Conservation
-  - Igor Stravinsky
 title: Cheryl North Interviews Patrick Stewart
 type: interview
 ---

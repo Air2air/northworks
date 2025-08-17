@@ -5,19 +5,6 @@ images:
 publication:
   date: 2010-02-22
   publisher: Bay Area News Group
-subjects:
-  - Baritone
-  - Don Giovanni
-  - Soprano
-  - Tenor
-  - Berkeley Opera
-  - Mark Streshinsky
-  - El Cerrito
-  - High School
-  - Baritone Eugene
-  - Baritone Igor
-  - Kaileen Miller
-  - Donna Anna
 title: Berkeley Opera Performance of Don Giovanni
 type: review
 ---

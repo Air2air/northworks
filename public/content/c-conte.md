@@ -1,28 +1,13 @@
 ---
 conversion date: 2025-08-13
 id: c-conte
-images: null
+images:
 publication:
   date: 2010-10-01
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Baritone
-  - Conducting
-  - Premiere
-  - Soprano
-  - Bay Area
-  - Mother Lode
-  - Jake Heggie
-  - Nate Stooky
-  - Nolan Gasser
-  - Kirke Mecham
-  - Kurt Rohde
-  - Marty Rokeach
 title: Cheryl North Interviews Composer David Conte
 type: interview
 ---
-
-
 
  Where in the world do you find classical music composers capable of rivaling the greats of yesteryear?
 

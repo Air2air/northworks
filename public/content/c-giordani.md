@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-giordani
 images:
-  - height: 250
-    src: /images/giordani.jpg
-    width: 191
 publication:
   date: 2000-08-25
   publisher: ANG PREVIEW Section Classical Music Column
-subjects:
-  - La Traviata
-  - Metropolitan Opera
-  - Rigoletto
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - Tosca
-  - Marcello Giordani
-  - Bay Area
-  - Luisa Miller
-  - Patricia Racette
-  - Elena Zaremba
 title: Cheryl North Interviews Marcello Giordani
 type: interview
 ---

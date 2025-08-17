@@ -1,46 +1,11 @@
 ---
-conversion date: 2025-08-13
 id: w-northworks
 images:
-  - height: 92
-    src: /images/warnersm.gif
-    width: 70
-  - height: 28
-    src: /images/titlecheryl.gif
-    width: 250
-  - height: 92
-    src: /images/cherylsm.gif
-    width: 70
-  - height: 28
-    src: /images/titlegrayvolodos.gif
-    width: 220
-  - height: 70
-    src: /images/thmvolodos.jpg
-    width: 70
 publication:
-  date: ''
+  date: 2003-02-01
   publisher: ''
 title: NorthWorks Consulting
 type: background
-subjects:
-  - Warner North
-  - Management Science
-  - Stanford University
-  - Cheryl North
-  - Oakland Tribune
-  - Alameda Newspaper
-  - Opera Now
-  - Great Britain
-  - D. Warner North
-  - Opera
-  - Performance
-  - Classical Music
-  - Stanford
-  - Department
-  - Engineering
-  - Over
-  - North
-  - Mexico
 ---
 
 ***

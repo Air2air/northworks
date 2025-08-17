@@ -2,38 +2,9 @@
 conversion date: 2025-08-13
 id: w-pub-vniigaz
 images:
-  - height: 195
-    src: /images/balticgasinfdiag.gif
-    width: 260
-  - height: 360
-    src: /images/balticgasparttree.gif
-    width: 260
-  - height: 195
-    src: /images/balticgascumd.gif
-    width: 260
-  - height: 125
-    src: /images/persiangulfinfd.png
-    width: 220
-  - height: 284
-    src: /images/persiangulfinfkey.png
-    width: 237
-  - height: 190
-    src: /images/synfuelstree.jpg
-    width: 237
 publication:
   date: 2006-02-02
   publisher: VNIIGAZ/GAZPROM Conference
-subjects:
-  - Probabilistic Scenario Analysis
-  - Term Planning
-  - Western Europe
-  - Presidential Task
-  - European Union
-  - Ignalina Nuclear
-  - Power Plant
-  - Soviet Union
-  - Russian Federation
-  - North Sea
 title: Assessing Risks in Long-Term Planning - Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
 type: publication
 ---

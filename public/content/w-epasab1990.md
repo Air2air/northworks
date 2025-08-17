@@ -1,41 +1,12 @@
 ---
-conversion date: "2025-08-13"
 id: w-epasab1990
 images:
-  - height: 290
-    src: /images/1990-sab-figure1.jpg
-    width: 220
-  - height: 290
-    src: /images/1990-sab-figure2.jpg
-    width: 220
-  - height: 290
-    src: /images/1990-sab-figure3.jpg
-    width: 220
 publication:
   author: D. Warner North
-  date: null
+  date: 1990-01-01
   publisher: EPA Science Advisory Board 1990
 title: EPA's Draft Reports to Congress on Global Warming - An Overview from 1990
 type: professional
-subjects:
-  - Environmental Protection
-  - Potential Effects
-  - Global Climate
-  - Stabilizing Global
-  - Change Subcommittee
-  - Science Advisory
-  - Mauna Loa
-  - Great Lakes
-  - D. Warner North
-  - Alto
-  - Composition
-  - Aria
-  - Stanford
-  - Congress
-  - Environmental Protection Agency
-  - Global Climate Change
-  - United
-  - October
 ---
 
 The possibility that global climate may be altered as the result of a build-up of greenhouse gases in the atmosphere has been acknowledged within the scientific community for many years, although it has only recently emerged as a major issue of environmental policy. To facilitate better understanding of this issue, the U.S. Congress asked the Environmental Protection Agency (EPA) to prepare two special reports to Congress, one on the effects of global climate alteration and the other on alternatives to stabilize the concentrations of radiatively active, or greenhouse, gases in the atmosphere. The first of these reports, _The Potential Effects of Global Climate Change in the United States_ (EPA, 1988), was issued in draft form in October, 1988 and in final form December 1989 (EPA, 1989a). The second report, _Policy Options for Stabilizing Global Climate _(EPA, 1989b) was issued in draft in February, 1989. Both reports were reviewed in public meetings by the Global Climate Change Subcommittee of EPA's Science Advisory Board (Science Advisory Board, 1989a, 1989b). The final version of the second report is now in preparation.

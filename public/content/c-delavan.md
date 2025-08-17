@@ -2,30 +2,12 @@
 conversion date: 2025-08-13
 id: c-delavan
 images:
-  - height: 137
-    src: /images/delavan-mark.jpg
-    width: 175
 publication:
   date: 2003-06-13
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Davies Symphony Hall
-  - Richard Wagner
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Tosca
-  - Mark Delavan
-  - The Flying
-  - Davies Hall
-  - Dallas Cowboys
-  - Joining Delavan
 title: Cheryl North Interviews Mark Delavan
 type: interview
 ---
-
-
 
 Had composer Richard Wagner been clairvoyant, he might well have hand-picked bass-baritone Mark Delavan to sing the title role in his powerful opera, *The Flying Dutchman*.
 

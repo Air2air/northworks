@@ -2,23 +2,9 @@
 conversion date: 2025-08-13
 id: c-goode
 images:
-  - height: 215
-    src: /images/richard-goode.jpg
-    width: 150
 publication:
   date: 2002-03-29
   publisher: ANG Newspapers Preview Section Classical Music Column
-subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Sir Isaac
-  - Richard Goode
-  - Bay Area
-  - Marcia Weinfeld
-  - Charles Dickens
-  - Rudolf Serkin
-  - Marlboro Music
-  - Mannes College
 title: Cheryl North Interviews Richard Goode
 type: interview
 ---

@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-lieberson
 images:
-  - height: 200
-    src: /images/lorraine-hunt-lieberson.jpg
-    width: 160
 publication:
   date: 2004-06-11
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - her vocal
-  - excited about
-  - go into
-  - not only
-  - will also
-  - she will
-  - San Francisco Symphony
-  - Oakland Symphony
-  - Lorraine Hunt
-  - Bay Area
-  - Robert Hughes
-  - San Mateo
 title: Cheryl North Interviews Lorraine Hunt Lieberson
 type: interview
 ---

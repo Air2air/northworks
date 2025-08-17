@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-dresher
 images:
-  - height: 114
-    src: /images/dresher-paul-ensemble.jpg
-    width: 150
-  - height: 159
-    src: /images/dresher-paul-07.jpg
-    width: 125
 publication:
   date: 2004-11-12
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Carnegie Hall
-  - Concerto
-  - Interview
-  - Premiere
-  - Paul Dresher
-  - Daniel Schmidt
-  - Says Dresher
-  - Bay Area
-  - Electro Acoustic
-  - Yerba Buena
-  - Arts Forum
-  - Mission St
 title: Cheryl North Interviews Paul Dresher
 type: interview
 ---

@@ -5,19 +5,6 @@ images:
 publication:
   date: 2006-10-27
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - attending the
-  - McGegan will
-  - since been
-  - doctor and
-  - he started
-  - divided choir
-  - choirs are
-  - Bay Area
-  - after the
-  - San Francisco
-  - Jake Heggie
-  - Franz Schubert
 title: Composer Heggie keeps seeking higher ground
 type: article
 ---
@@ -124,6 +111,4 @@ theaters.
 Jake Heggie has matured into one of the leading music drama composers of this age. While some of my colleagues
 among the Bay Area's music critics do not seem to agree with my evaluation, I believe Heggie's achievements will
 eclipse those of most other contemporary composers, and hopefully, will endure through the ages.
-
-
 

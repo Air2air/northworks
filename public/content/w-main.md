@@ -1,37 +1,11 @@
 ---
-conversion date: 2025-08-13
 id: w-main
 images:
-  - height: 133
-    src: /images/warner-north-6-06.jpg
-    width: 100
-  - height: 512
-    src: /images/wn-speaking-belgian-senate-4-18-06.jpg
-    width: 342
 publication:
-  date: null
+  date: 2017-11-14
   publisher: the Commission
 title: D. Warner North - Professional Biography
 type: background
-subjects:
-  - Warner North
-  - Management Science
-  - Stanford University
-  - Science Advisory
-  - Environmental Protection
-  - Nuclear Waste
-  - Technical Review
-  - National Research
-  - D. Warner North
-  - Opera
-  - Contemporary
-  - Stanford
-  - San Francisco
-  - California
-  - Until
-  - Department
-  - Engineering
-  - Over
 ---
 
 ***
@@ -60,7 +34,7 @@ Dr. North speaking at the podium of the Belgian Senate. Behind him is Senate Pre
 
 Dr. North serves as a member of the Science Panel of this group, which was established following the Obama Administration's actions to curtail further activity on the proposed repository for high-level nuclear waste at Yucca Mountain, Nevada. Information on the Task Force and its Science Panel has been available on its website (sustainablefuelcyclesciencepanel.org, which should be online again soon).
 
-The Science Panel has sent letters, most recently to Secretary of Energy Perry [(letter dated November 14, 2017)](science panel ltr to secretary perry- 17-11-14.pdf), and previously to him as the nominee for Secretary, [(letter dated January 23, 2017)](science panel ltr to governor perry-17-01-23 final.pdf) recommending that he make one of his highest priorities the restarting of the Yucca Mountain licensing process. (The links above are to these letters as pdf files.)
+The Science Panel has sent letters, most recently to Secretary of Energy Perry [(letter dated November 14, 2017)](science-panel-ltr-to-secretary-perry-17-11-14.pdf), and previously to him as the nominee for Secretary, [(letter dated January 23, 2017)](science-panel-ltr-to-governor-perry-17-01-23-final.pdf) recommending that he make one of his highest priorities the restarting of the Yucca Mountain licensing process. (The links above are to these letters as pdf files.)
 
 #### Blue Ribbon Commission on America's Nuclear Future
 

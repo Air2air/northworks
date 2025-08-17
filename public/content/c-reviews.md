@@ -1,27 +1,11 @@
 ---
-conversion date: 2025-08-13
 id: c-reviews
 images:
 publication:
   author: doe berkeley
-  date: 9-30-2012
+  date: 2012-09-30
   publisher: Oakland Tribune
-subjects:
-  - Francisco Symphony
-  - Bay Symphony
-  - Kurt Masur
-  - Opening Concert
-  - Bay Area
-  - News Group
-  - Inside Bay
-  - Dmitri Hvorostovsky
-  - Davies Hall
-  - Slavic Soul
-
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Berkeley Opera
-title: Untitled
+title: Reviews Collection
 type: review
 ---
 
@@ -155,7 +139,7 @@ November 15-16, 1999
 
 April 2, 1997
 
-[Dmitri Hvorostovsky with the San Francisco Symphony](c hvorostovsky.htm#hor anchor)**
+[Dmitri Hvorostovsky with the San Francisco Symphony](c-hvorostovsky.htm#hor-anchor)**
 ***Classical Music Column for ANG Newspapers Cue Sections*
 
 April 8, 1994
@@ -163,6 +147,4 @@ April 8, 1994
 [Luciano Pavarotti - Selling the Audience Short](c-reviews-pavarotti)**
 
 *Concert Review from The Oakland Tribune and Other ANG Newspapers*
-
-
 

@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-sarah-chang
 images:
-  - height: 124
-    src: /images/sarah-chang-informal.jpg
-    width: 100
 publication:
   date: 2007-01-12
   publisher: ANG Newspapers Classical Music
-subjects:
-  - Concerto
-  - Conducting
-  - Davies Symphony Hall
-  - San Francisco Symphony
-  - Running Rings
-  - The Memoirs
-  - Dmitri Shostakovich
-  - The Guide
-  - Perfect Handbag
-  - Soviet Union
-  - Sarah Chang
-  - Max Bruch
 title: Cheryl North Interviews Sarah Chang
 type: interview
 ---

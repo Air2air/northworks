@@ -1,52 +1,10 @@
 ---
-conversion date: 2025-08-13
 id: w-projects-stanford
 images:
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 50
-    src: /images/logo-stan.gif
-    width: 50
-  - height: 175
-    src: /images/stanford.gif
-    width: 220
+publication:
+  date: 2012-01-01
 title: Stanford University Experience
 type: professional
-subjects:
-  - Management Science
-  - Consulting Associate
-  - Consulting Professor
-  - Professor Burke
-  - William Perry
-  - Stanford Professor
-  - Professor John
-  - Professor Ross
-  - D. Warner North
-  - Stanford
-  - Department
-  - Engineering
-  - School
-  - Consulting Associate Professor
-  - Graduate
-  - Professor Burke Robinson
-  - Secretary
-  - Defense
 ---
 
 ![](/images/title-experience-stanford.gif)
@@ -85,6 +43,4 @@ to Professor Ronald A. Howard in 1966 for the first course in decision analysis 
 ![](/images/stanford.gif)
 
 ![](/images/title-stanford.gif)
-
-
 

@@ -2,23 +2,9 @@
 conversion date: 2025-08-13
 id: c-branford-marsalis
 images:
-  - height: 287
-    src: /images/branford-marsalis-wc-08-1005.jpg
-    width: 350
 publication:
   date: 2008-09-26
   publisher: Bay Area News Group
-subjects:
-  - Classical Music
-  - New Orleans
-  - Soprano
-  - Branford Marsalis
-  - Bay Area
-  - Stanford Lively
-  - Marsalis Brasilianos
-  - Memorial Auditorium
-  - Palo Alto
-  - Ellis Marsalis
 title: Cheryl North Interviews Branford Marsalis
 type: interview
 ---

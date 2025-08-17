@@ -2,54 +2,12 @@
 conversion date: 2025-08-13
 id: w-pub-stuttgart
 images:
-  - height: 195
-    src: /images/wnstuttgart10-04.jpg
-    width: 260
 publication:
   date: 2004-10-11
   publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
-subjects:
-  - Global Climate Change
-  - Music Article
-  - Stuttgart Energy
-  - Global Climate
-  - Policy Implications
-  - Warner North
-  - Stanford University
-  - Stephen Schneider
-  - Stuttgart Conference
-  - Opera
-  - Composition
-  - Singer
-  - Aria
-  - Stanford
-  - Ministerium
-  - Umwelt
-  - Verkehr
-  - State
 title: Global Climate Change - A Survey of the Science and Policy Implications
 type: publication
 ---
----
-conversion date: 2025-08-13
-id: w-pub-stuttgart
-images:
-  - height: 195
-    src: /images/wnstuttgart10-04.jpg
-    width: 260
-publication:
-  date: 2004-10-11
-  publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
-subjects:
-  - Aria
-  - Global Climate Change
-  - Music Article
-  - Opera
-  - Stuttgart Energy
-title: Global Climate Change - A Survey of the Science and Policy Implications
-type: publication
---- 
- 
 
 It was a pleasure and privilege for Warner North to replace his Stanford University colleague Stephen Schneider on a few days' notice at the Stuttgart Conference. This written version of the material presented by Dr. North was prepared at the request of the conference organizers in the Ministerium fur Umwelt und Verkehr Baden-Wurttemberg. It combines Professor Schneider's visual aid materials prepared in advance for this conference with additional comments and references inserted by Professor North for the oral presentation at the conference. Because of space and graphics limitations in the printed Conference Summary, pictures and graphics used in the oral presentation are not included, but brief descriptions and references to websites are given in the text below. 
 

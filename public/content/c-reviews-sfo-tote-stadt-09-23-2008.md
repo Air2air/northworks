@@ -5,19 +5,6 @@ images:
 publication:
   date: 2008-09-23
   publisher: Bay Area News Group
-subjects:
-  - Baritone
-  - Gustav Mahler
-  - Soprano
-  - Tenor
-  - War Memorial Opera House
-  - Sigmund Freud
-  - Erich Wolfgang
-  - Die Tote
-  - Stadt Tuesday
-  - War Memorial
-  - Opera House
-  - World War
 title: "Die Tote Stadt an S.F. Opera Stunner"
 type: review
 ---

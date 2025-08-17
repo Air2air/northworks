@@ -6,19 +6,6 @@ publication:
   author: Cheryl North
   date: 2008-11-14
   publisher: Oakland Tribune
-subjects:
-  - Bass
-  - Conducting
-  - Jazz Symphony
-  - Premiere
-  - World Premiere
-  - Opening Night
-  - Oakland East
-  - George Anthiel
-  - World Premier
-  - Nathaniel Stookey
-  - Michael Morgan
-  - Season Opening
 title: Opening Night of the 2008-2009 Season of the Oakland East Bay Symphony
 type: review
 ---

@@ -4,24 +4,9 @@ id: c-copley
 publication:
   date: 2000-11-03
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - understand why
-  - the most
-  - hard to
-  - youth he
-  - the eminent
-  - Der Rosenkavalier
-  - Program and
-  - will be
-  - San Francisco Opera
-  - John Copley
-  - George Frideric
-  - If Franz
 title: John Copley Interview
 type: interview
 ---
-
-
 
 How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain young woman named Semele be made interesting to a sophisticated San Francisco audience?
 

@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-vanska
 images:
-  - height: 226
-    src: /images/vanska-with-c-10-31-09.jpg
-    width: 257
 publication:
   date: 2009-10-22
   publisher: Bay Area News Group
-subjects:
-  - Concerto
-  - Davies Symphony Hall
-  - San Francisco Symphony
-  - Osmo Vanska
-  - Finn Jean
-  - Carl Nielsen
-  - Leonard Bernstein
-  - Jorma Panula
-  - Sibelius Academy
-  - Besancon Young
-  - Turku Philharmonic
 title: Osmo Vanska to bring music from his native Finland to Davies Hall
 type: interview
 ---

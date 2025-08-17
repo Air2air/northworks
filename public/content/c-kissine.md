@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-kissine
 images:
-  - height: 168
-    src: /images/kissine-with-wife-and-c-3-4-10.jpg
-    width: 217
 publication:
   date: 2010-02-26
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Premiere
-  - San Francisco Symphony
-  - World Premiere
-  - When American
-  - Charles Ives
-  - The Unanswered
-  - Victor Kissine
-  - Michael Tilson
-  - Leningrad Conservatory
-  - Perennial Question
 title: Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony
 type: interview
 ---

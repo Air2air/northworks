@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: ProfessionalPageProps): Promi
   return {
     title: `${title} | D. Warner North | NorthWorks`,
     description: description,
-    keywords: frontmatter.subjects || [],
+    keywords: (frontmatter as any).tags || frontmatter.subjects || [],
     openGraph: {
       title: title,
       description: description,
@@ -95,11 +95,11 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
         </div>
       )}
 
-      {frontmatter.subjects && frontmatter.subjects.length > 0 && (
+      {(frontmatter as any).tags && (frontmatter as any).tags.length > 0 && (
         <div className="mb-6">
           <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
           <Tags 
-            tags={frontmatter.subjects} 
+            tags={(frontmatter as any).tags} 
             maxVisible={10} 
             variant="compact"
           />

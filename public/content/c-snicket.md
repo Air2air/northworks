@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-snicket
 images:
-  - height: 160
-    src: /images/snicket-handler.jpg
-    width: 120
-  - height: 150
-    src: /images/stookey.jpg
-    width: 127
 publication:
   date: 2006-06-30
   publisher: ANG Newspapers
-subjects:
-  - Daniel Handler
-  - Davies Symphony Hall
-  - Interview
-  - Lemony Snicket
-  - San Francisco Symphony
-  - The Composer
-  - Is Dead
-  - Nathaniel Stookey
-  - Unfortunate Events
-  - The Bad
-  - The Reptile
-  - The Wide
 title: Snicket, Stookey responsible for symphonic murder
 type: interview
 ---

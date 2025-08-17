@@ -2,24 +2,9 @@
 conversion date: 2025-08-13
 id: c-wilder
 images:
-  - height: 170
-    src: /images/tappan-wilder-c-w-2007.jpg
-    width: 245
 publication:
   date: 2007-08-10
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Our Town
-  - Premiere
-  - Pulitzer Prize
-  - Soprano
-  - Tenor
-  - Thornton Wilder
-  - Coachella Valley
-  - Union High
-  - Bay Area
-  - Ned Rorem
-  - West Coast
 title: Cheryl North Interviews Tappan Wilder on Our Town as an Opera
 type: interview
 ---

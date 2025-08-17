@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-armer
 images:
-  - height: 200
-    src: /images/elinor-armer.jpg
-    width: 160
 publication:
   date: 1995-11-18
   publisher: ANG Newspapers
-subjects:
-  - Elinor Armer
-  - Interview
-  - Island Earth
-  - Premiere
-  - Ursula Le Guin
-  - World Premiere
-  - Ursula Le
-  - Zellerbach Hall
-  - Uttermost Men
-  - Le Guin
-  - The Uttermost
-  - Uttermost Parts
 title: Cheryl North Interviews Elinor Armer
 type: interview
 ---

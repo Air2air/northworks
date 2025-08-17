@@ -5,19 +5,6 @@ images:
 publication:
   date: 2008-10-11
   publisher: Bay Area News Group
-subjects:
-  - Baritone
-  - Bass
-  - Livermore Valley Opera
-  - Metropolitan Opera
-  - Tenor
-  - Livermore Valley
-  - Bankhead Theater
-  - Augustin Caron
-  - Alex Katsman
-  - Daniel Helfgot
-  - Count Almaviva
-  - David Ward
 title: Livermore Valley Opera Performance of Giacomo Rossini's The Barber of Seville
 type: review
 ---

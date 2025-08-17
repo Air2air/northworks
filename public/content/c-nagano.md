@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-nagano
 images:
-  - height: 160
-    src: /images/kent-nagano.jpg
-    width: 160
 publication:
   date: 2001-08-31
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Concerto
-  - Conducting
-  - Franz Schubert
-  - Gustav Mahler
-  - London Symphony
-  - Deutsches Symphonie
-  - Orchester Berlin
-  - Associate Principal
-  - Guest Conductor
-  - Principal Guest
-  - Kent Nagano
-  - Morro Bay
 title: Cheryl North Interviews Kent Nagano
 type: interview
 ---

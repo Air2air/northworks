@@ -2,26 +2,10 @@
 conversion date: 2025-08-13
 id: c-reviews-crucible-dido
 images:
-  - height: 167
-    src: /images/dido-aeneas-225.jpg
-    width: 220
 publication:
   author: Cheryl North
   date: 2004-01-16
   publisher: Oakland Tribune, The Alameda Times-Star
-subjects:
-  - Auction and
-  - their opera
-  - four excellent
-  - Soloists all
-  - Rob Stafford
-  - San Francisco Opera
-  - West Oakland
-  - Henry Purcell
-  - The Crucible
-  - Gala Reception
-  - Art Auction
-  - The San
 title: Burn, baby, burn - Crucible interpretation of 'Dido' is en fuego
 type: review
 ---
@@ -37,8 +21,6 @@ With stage direction from San Francisco Opera's Roy Rallo, and with Crucible fou
 Singing the role of Dido is SFO Adler fellow mezzo-soprano Katherine Rohrer. Adler fellow Greta Feeney, soprano, sings the role of Belinda, while SFO soloist Shawnette Sulker, soprano, and the fine baritone Rob Stafford sing additional roles. Stage installations are by local artists Michael Christian, Kiki Pettit and others.
 
 I'm not usually an enthusiastic fan of the practice of "updating," adding to or reinterpreting grand opera, but in this uniquely energizing and exciting case, I can only applaud. It's thrill-a-minute opera -- artistically valid, while thoroughly entertaining.
-
-
 
 [
 ![](/images/dido-aeneas-225.jpg)

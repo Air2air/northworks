@@ -2,34 +2,9 @@
 conversion date: 2025-08-13
 id: c-articles-deadman
 images:
-  - height: 218
-    src: /images/opera-now-cover.jpg
-    width: 150
-  - height: 149
-    src: /images/dmw-1.jpg
-    width: 220
-  - height: 181
-    src: /images/dmw-2.jpg
-    width: 220
-  - height: 258
-    src: /images/dmw-3.jpg
-    width: 220
 publication:
   date: 2000-01-01
   publisher: Opera Now
-subjects:
-  - Baritone
-  - San Francisco Opera
-  - Soprano
-  - War Memorial Opera House
-  - So San
-  - Francisco Opera
-  - Dead Man
-  - War Memorial
-  - Opera House
-  - Sister Helen
-  - Roman Catholic
-  - Patrick Sonnier
 title: Dead Man Walking at San Francisco Opera
 type: article
 ---

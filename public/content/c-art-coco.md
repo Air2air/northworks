@@ -5,25 +5,6 @@ images:
 publication:
   date: 2005-02-25
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Metropolitan Opera
-  - Oakland East
-  - Paramount Theatre
-  - Michael Morgan
-  - Rolland Valliere
-  - Opera Glass
-  - Professor Robert
-  - Antenna Audio
-  - Opera
-  - Symphony
-  - Conductor
-  - Orchestra
-  - Performance
-  - Concert
-  - Classical Music
-  - Musician
-  - Artist
-  - Maestro
 title: High-Tech Hand-Held Concert Companion for Symphony Audiences
 type: article
 ---
@@ -74,6 +55,4 @@ Interestingly, concurrent with CoCo's Bay Area debut, the Rand Corporation has r
 And, I would add, that this "sustained exposure" should be sustained throughout one's lifetime. Of course, the old adage applies: "You can bring a horse to the water, but you can't force him to drink." So, it takes more than just sitting someone down in a concert hall and barring all the doors until the concert is finished. While exposure can help, it is not enough. The concert experience must include some way to inform and explain what is going on, in an easy, appealing manner. CoCo just might be able to do this.
 
 And a little afterthought -- bring your teenagers to the concert. They can certainly help us older folk operate CoCo.
-
-
 

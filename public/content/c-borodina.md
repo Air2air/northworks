@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-borodina
 images:
-  - height: 160
-    src: /images/thm-borodina.jpg
-    width: 160
 publication:
   date: 2000-09-15
   publisher: ANG Newspapers Classical Music Column for Preview Section
-subjects:
-  - Baritone
-  - Metropolitan Opera
-  - Mezzo-soprano
-  - San Francisco Opera
-  - Soprano
-  - War Memorial Opera House
-  - The Russians
-  - Cold War
-  - Bay Area
-  - Valery Gergiev
-  - Alexander Toradze
-  - Zellerbach Auditorium
 title: Cheryl North Interviews Olga Borodina
 type: interview
 ---

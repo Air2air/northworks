@@ -2,28 +2,9 @@
 conversion date: 2025-08-13
 id: c-bates
 images:
-  - height: 160
-    src: /images/thm-bates.jpg
-    width: 160
-  - height: 200
-    src: /images/leon-bates.jpg
-    width: 200
 publication:
   date: 2002-04-05
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - programs were
-  - heard me
-  - when we
-  - piano or
-  - helped me
-  - He has
-  - Leon Bates
-  - Philadelphia Public
-  - Four Seasons
-  - Borealis Wind
-  - Ramsey Lewis
-  - Raoul Wallenberg
 title: Cheryl North Interviews Leon Bates
 type: interview
 ---

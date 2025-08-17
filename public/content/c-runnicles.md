@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-runnicles
 images:
-  - height: 200
-    src: /images/runnicles.jpg
-    width: 160
 publication:
   date: 2004-01-16
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Bass
-  - Conducting
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Bay Area
-  - Michael Tilson
-  - Maestro Kent
-  - Donald Runnicles
-  - Berlin Philharmonic
-  - Benjamin Britten
-  - War Requiem
 title: San Francisco Opera's music director triumphant in Berlin
 type: interview
 ---

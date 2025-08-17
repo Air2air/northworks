@@ -1,24 +1,10 @@
 ---
-conversion date: 2025-08-13
 id: c-articles
 images:
 publication:
-  date: null
+  date: 2010-07-30
   publisher: Richard Wagner
-subjects:
-  - Berkeley Opera Production
-  - Premiere
-  - Richard Wagner
-  - San Francisco Opera
-  - World Premiere
-  - Berkeley Opera
-  - The Legend
-  - David Seaman
-  - Classical Music
-  - Column Bay
-  - Area News
-  - Preview Section
-title: Untitled
+title: Articles Collection
 type: article
 ---
 

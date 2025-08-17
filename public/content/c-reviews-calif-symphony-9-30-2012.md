@@ -5,18 +5,6 @@ images:
 publication:
   date: 2012-09-30
   publisher: Bay Area News Group
-subjects:
-  - Bass
-  - California Symphony
-  - Concerto
-  - Robert Moody
-  - Sergei Rachmaninoff
-  - Lesher Center
-  - Walnut Creek
-  - North Carolina
-  - Danzon No
-  - Arturo Marquez
-  - Piano Concerto
 title: California Symphony season opens with Robert Moody, the first of seven conductors auditioning for permanent post of music director
 type: review
 ---

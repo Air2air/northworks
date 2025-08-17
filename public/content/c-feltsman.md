@@ -5,18 +5,6 @@ images:
 publication:
   date: 2002-06-14
   publisher: ANG Newspapers Preview Section Classical Music Column
-subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - San Francisco Symphony
-  - Vladimir Feltsman
-  - Sergei Prokofiev
-  - Piano Concerto
-  - Russian Festival
-  - Michael Tilson
-  - Russian Virtuosity
-  - Russian Rarities
-  - Tilson Thomas
 title: Feature Article on Vladimir Feltsman
 type: interview
 ---

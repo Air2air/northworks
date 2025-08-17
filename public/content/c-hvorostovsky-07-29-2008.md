@@ -2,34 +2,9 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
-  - height: 300
-    src: /images/hvorostovsky-sb08.jpg
-    width: 554
-  - height: 300
-    src: /images/hvorostovsky.jpg
-    width: 194
 publication:
   date: 2008-08-29
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Baritone
-  - Giuseppe Verdi
-  - Dmitri Hvorostovsky
-  - Simon Boccanegra
-  - Krasnoyarsk High
-  - Yekaterina Yofel
-  - First Prize
-  - Most Beautiful
-  - Russian Elvees
-  - Opera
-  - Symphony
-  - Conducting
-  - Conductor
-  - Piano
-  - Orchestra
-  - Modern
-  - Singer
-  - Aria
 title: Russian Baritone Wholeheartedly Embraces his "Boccanegra" Role
 type: interview
 ---

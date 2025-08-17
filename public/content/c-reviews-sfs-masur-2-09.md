@@ -6,25 +6,6 @@ publication:
   author: Cheryl North
   date: 2009-02-18
   publisher: Oakland Tribune, Alameda Newspaper Group
-subjects:
-  - Davies Symphony Hall
-  - San Francisco Symphony
-  - Sofia Gubaidulina
-  - The Light
-  - Kurt Masur
-  - Francisco Symphony
-  - Davies Symphony
-  - Symphony Hall
-  - Symphony
-  - Violin
-  - Performance
-  - Composer
-  - Musician
-  - Score
-  - Wednesday
-  - They
-  - Russian
-  - Conducted
 title: Masur, Gubaidulina make out-of-this-world music in Davies Hall
 type: review
 ---

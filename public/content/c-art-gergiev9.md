@@ -1,30 +1,10 @@
 ---
-conversion date: 2025-08-13
 id: c-art-gergiev9
 images:
-  - height: 231
-    src: /images/gergiev.jpg
-    width: 165
-  - height: 146
-    src: /images/gergiev-freedom-banner.jpg
-    width: 450
-
 publication:
-  date:
+  date: 2022-09-19
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Conducting
-  - Interview
-  - Valery Gergiev
-  - Bay Area
-  - Freedom Festival
-  - Cal Performances
-  - Yale University
-  - Alumni Chorus
-  - University Music
-  - Rotterdam Royal
-title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the
-  Gergiev Festival in Rotterdam, The Netherlands
+title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands
 type: article
 ---
 
@@ -79,6 +59,4 @@ oesn't do spring-training or batting practice. He flies in for the big game and 
  A New York City-based recent Yale graduate member of the chorus put it the most graphically. "One of the reasons Gergiev is so significant is his intensity and emotive power as he conducts. He's the first conductor I've ever worked with, who, after the concert was over, had sweat so much that his tie, as well as his shirt, was wet through!"
 
 ![](/images/gergiev-freedom-banner.jpg)
-
-
 

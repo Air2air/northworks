@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-braun-russell
 images:
-  - height: 200
-    src: /images/russell-braun.jpg
-    width: 160
 publication:
   date: 2004-12-02
   publisher: ANG Newspapers Classical Music Column
-subjects:
-  - Baritone
-  - Mezzo-soprano
-  - Soprano
-  - Tenor
-  - Russell Braun
-  - Victor Braun
-  - Eraine Schwing
-  - Royal Conservatory
-  - Canadian Opera
-  - Carolyn Maule
-  - Young Benjamin
-  - Michael Schade
 title: Cheryl North Interviews Russell Braun
 type: interview
 ---

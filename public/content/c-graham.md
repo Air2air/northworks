@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-graham
 images:
-  - height: 150
-    src: /images/graham-with-norths.jpg
-    width: 210
 publication:
   date: 2007-02-02
   publisher: "ANG Newspapers Classical Music Column"
-subjects:
-  - Carnegie Hall
-  - Davies Symphony Hall
-  - Mezzo-soprano
-  - San Francisco Opera
-  - San Francisco Symphony
-  - Soprano
-  - Susan Graham
-  - Malcolm Martineau
-  - Maestro Michael
-  - Tilson Thomas
-  - West Coast
-  - Hector Berlioz
 title: Busy Susan Graham Brings Her Talents to San Francisco*
 type: interview
 ---

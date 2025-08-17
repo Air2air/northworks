@@ -5,17 +5,6 @@ images:
 publication:
   date: 1999-06-14
   publisher: ANG Newspapers
-subjects:
-  - Brandenburg Concerto No
-  - Concerto
-  - Little James
-  - Brandenburg Concerto
-  - Piano Concerto
-  - Bay Area
-  - Governor Seeks
-  - Musical Start
-  - Governor Zell
-  - Governor Miller
 title: Music Trains the Brain
 type: article
 ---
@@ -41,6 +30,4 @@ The researchers went on to suggest that classical music, probably because of its
 And even further back in history, to the "Golden Age" of Greece circa 450 B.C., the study of music was considered just as essential to the development of the whole person as was the study of mathematics, rhetoric, and participation in athletics. Hear, hear!
 
 Addded February 2005: For recent research on music and the brain, see the [ American Music Conference website](/articles/http://www.amc-music.org/musicmaking/thebrain).
-
-
 

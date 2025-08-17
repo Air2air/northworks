@@ -2,33 +2,11 @@
 conversion date: 2025-08-13
 id: c-baryshnikov
 images:
-  - height: 140
-    src: /images/thm-baryshnikov.jpg
-    width: 144
 publication:
   date: 2006-03-17
   publisher: ANG Newspapers Classical Music Column
 title: More honors for the amazing Mikhail Baryshnikov
 type: interview
-subjects:
-  - Soviet Union
-  - Baltic Sea
-  - The National
-  - Mikhail Nikolaevitch
-  - Kennedy Center
-  - Commonwealth Award
-  - Chubb Fellowship
-  - Jerome Robbins
-  - Violin
-  - Performance
-  - Modern
-  - Composer
-  - Musician
-  - Artist
-  - Ensemble
-  - Tchaikovsky
-  - Glass
-  - Imagine
 ---
 
 FICTION can seldom outdo the surprises, ironies and plot twists of real life.

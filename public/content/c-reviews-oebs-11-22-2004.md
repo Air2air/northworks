@@ -2,31 +2,14 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-nov04
 images:
-  - height: 190
-    src: /images/thm-stookey.jpg
-    width: 190
 
 publication:
   author: Cheryl North
   date: 2004-11-22
   publisher: Oakland Tribune
-subjects:
-  - Bass
-  - Concerto
-  - Sergei Rachmaninoff
-  - The Oakland
-  - East Bay
-  - Paramount Theatre
-  - Michael Morgan
-  - The East
-  - Oaktown Jazz
-  - Kalil Shaheed
-  - Dianne Nicolini
 title: Opening Concert of the Oakland East Bay Symphony's 16th Season
 type: review
 ---
-
-
 
 The Oakland East Bay Symphony opened its 16th season with an authentically celebratory concert at the Paramount Theatre in Oakland last Friday.
 

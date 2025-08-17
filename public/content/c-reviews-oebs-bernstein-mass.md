@@ -6,17 +6,6 @@ publication:
   author: Cheryl North
   date: 2005-05-20
   publisher: Oakland Tribune,Alameda Newspaper Group
-subjects:
-  - Baritone
-  - Soprano
-  - Leonard Bernstein
-  - Oakland East
-  - Paramount Theatre
-  - Michael Morgan
-  - Bernstein Mass
-  - Kennedy Center
-  - Performing Arts
-  - Theatre Piece
 title: Oakland East Bay Symphony Performance of Leonard Bernstein's Mass, Michael Morgan Conducting
 type: review
 ---

@@ -2,25 +2,9 @@
 conversion date: 2025-08-13
 id: c-stookey
 images:
-  - height: 150
-    src: /images/stookey.jpg
-    width: 127
 publication:
   date: 2004-11-19
   publisher: ANG Newspaper Column
-subjects:
-  - Bass
-  - Interview
-  - Premiere
-  - San Francisco Symphony
-  - The Oakland
-  - East Bay
-  - Big Bang
-  - Paramount Theatre
-  - Michael Morgan
-  - West Coast
-  - Duke University
-  - North Carolina
 title: Cheryl North Interviews Nat Stookey
 type: interview
 ---

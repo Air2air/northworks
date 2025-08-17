@@ -6,17 +6,6 @@ publication:
   author: Cheryl North
   date: 2008-10-17
   publisher: Oakland Tribune
-subjects:
-  - Concerto
-  - Johann Sebastian Bach
-  - Johann Sebastian
-  - Philharmonia Baroque
-  - Paul Goodwin
-  - Brandenburg Concerto
-  - Reconstructing Bach
-  - Palo Alto
-  - Ancient Music
-  - Easter Oratorio
 title: Philharmonia Baroque Revisits J. S. Bach
 type: review
 ---

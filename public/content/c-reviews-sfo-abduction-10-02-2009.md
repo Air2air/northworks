@@ -5,18 +5,6 @@ images:
 publication:
   date: 2009-10-02
   publisher: Bay Area News Group
-subjects:
-  - Bass
-  - San Francisco Opera
-  - Tenor
-  - The San
-  - Francisco Opera
-  - Il Trovatore
-  - Il Trittico
-  - The Abduction
-  - General Manager
-  - David Gockley
-  - David Zinn
 title: "San Francisco Opera Performance of The Abduction from the Seraglio by Wolfgang Amadeus Mozart"
 type: review
 ---

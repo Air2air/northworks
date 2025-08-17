@@ -5,19 +5,6 @@ images:
 publication:
   date: 2008-11-16
   publisher: Bay Area News Group
-subjects:
-  - Baritone
-  - Bass
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - War Memorial Opera House
-  - Grand Opera
-  - La Boheme
-  - War Memorial
-  - Opera House
-  - Nicola Luisotti
-  - Maestro Luisotti
 title: San Francisco Opera Performance of Puccini's La Boheme, directed by Nicola Luisotti
 type: review
 ---

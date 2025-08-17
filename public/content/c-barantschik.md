@@ -2,33 +2,12 @@
 conversion date: 2025-08-13
 id: c-barantschik
 images:
-  - height: 250
-    src: /images/barantschik-and-mtt-cologne.jpg
-    width: 350
-  - height: 202
-    src: /images/barantschik-and-violin.jpg
-    width: 123
 publication:
   date: 2007-02-16
   publisher: San Francisco Examiner
-subjects:
-  - Concerto
-  - Davies Symphony Hall
-  - Johann Sebastian Bach
-  - Richard Wagner
-  - San Francisco Symphony
-  - Johann Sebastian
-  - Bach Gesellschaft
-  - Bay Area
-  - Flint Center
-  - Maestro Tilson
-  - Alexander Barantschik
-  - Brandenburg Concerto
 title: Cheryl North Interviews with Alexander Barantschik
 type: interview
 ---
-
-
 
 One of the nicer coincidences in this world is that the first day of spring coincides with the birthday of Johann Sebastian Bach. The great man, considered by the vast majority of accomplished classical musicians and tens of thousands of ordinary folk, to be the greatest composer of all time, was born on March 21, 1685, in Eisenach, Germany.
 

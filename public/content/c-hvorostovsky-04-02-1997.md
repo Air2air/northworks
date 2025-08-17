@@ -2,26 +2,9 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
-  - height: 300
-    src: /images/hvorostovsky-sb08.jpg
-    width: 554
-  - height: 300
-    src: /images/hvorostovsky.jpg
-    width: 194
 publication:
   date: 1997-04-02
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - Baritone
-  - Tenor
-  - Dmitri Hvorostovsky
-  - Michael Tilson
-  - Modest Mussorgsky
-  - Toru Takemitsu
-  - During Wednesday
-  - The Russian
-  - Although Mussorgsky
-  - Dmitri Shostakovich
 title: Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997
 type: review
 ---

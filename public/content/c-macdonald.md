@@ -4,19 +4,6 @@ id: c-macdonald
 publication:
   date: 2010-04-16
   publisher: Bay Area News Group Classical Music Column
-subjects:
-  - to her
-  - aunts toured
-  - you dad
-  - the remarkable
-  - scheduled to
-  - Sperling will
-  - diverse achievements
-  - well as
-  - even still
-  - classically trained
-  - Cheryl North
-  - Interviews Audra
 title: Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010
 type: interview
 ---

@@ -5,19 +5,6 @@ images:
 publication:
   date: 2010-07-30
   publisher: Bay Area News Preview Section
-subjects:
-  - Baritone
-  - Bass
-  - Berkeley Opera Production
-  - Mezzo-soprano
-  - Richard Wagner
-  - San Francisco Opera
-  - Soprano
-  - Tenor
-  - Der Ring
-  - David Seaman
-  - National Opera
-  - The Legend
 title: Berkeley Opera Production of the Condensed Version of Wagner's Der Ring des Nibelungen
 type: article
 ---

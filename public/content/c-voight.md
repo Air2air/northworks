@@ -70,5 +70,5 @@ Stay tuned.
 
   Voigt said she wants to be remembered as someone who always did the best she could: "And, I also want to make sure that I didn't miss any opportunities along the way. I know I would regret it forever if I didn't get to sing  Salome  onstage — veils or no veils."
 
-  "With every exhortation against looking the audience's gaze is directed toward [ Salome](http://io.uwinnipeg.ca/~morton/modern drama/12.pdf#search=%22%22christoph%20greger%22%20salome%22)."
-  [Christopher K. Greger, Ph.D.,](http://www.ccsf.edu/info/faculty in review/english.html) has writtten a probing study with new insights on the aesthetic conflicts and moral consequences of looking at Oscar Wilde's femme fatale -- an irresistible attraction for Richard Strauss' musical genius.
+  "With every exhortation against looking the audience's gaze is directed toward [ Salome](http://io.uwinnipeg.ca/~morton/modern_drama/12.pdf#search=%22%22christoph%20greger%22%20salome%22)."
+  [Christopher K. Greger, Ph.D.,](http://www.ccsf.edu/info/faculty_in_review/english.html) has writtten a probing study with new insights on the aesthetic conflicts and moral consequences of looking at Oscar Wilde's femme fatale -- an irresistible attraction for Richard Strauss' musical genius.

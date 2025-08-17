@@ -25,7 +25,7 @@ type: article
 ***
 
 July 30, 2010
-[Berkeley Opera Production of The Legend of the Ring*, by Richard Wagner, condensed by David Seaman](http://www.insidebayarea.com/ci 15606273)*****Classical Music Column Bay Area News Preview Section, under headline, *
+[Berkeley Opera Production of The Legend of the Ring*, by Richard Wagner, condensed by David Seaman](http://www.insidebayarea.com/ci_15606273)*****Classical Music Column Bay Area News Preview Section, under headline, *
 Classical Music: Berkeley Opera is bringing back the 'Ring'
 
 January 26, 2010

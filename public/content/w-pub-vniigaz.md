@@ -149,7 +149,7 @@ References****
 
 [19]. National Research Council, *[Understanding Risk: Informing Decisions in a Democratic Society](http://books.nap.edu/catalog/5138.html)*, Washington DC: National Academy Press, 1996.
 
-[20]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public Participation.html](http://www7.nationalacademies.org/hdgc/public participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access). A final report from this Panel of the National Research Council is expected in late 2006.
+[20]. D. Warner North and Ortwin Renn, 'Decision Analytic Tools and Participatory Decision Processes,' 'State of the Science' paper prepared for the National Research Council Panel on Public Participation in Environmental Assessment and Decision Making, March 2005. Available on the web through [ http://www7.nationalacademies.org/hdgc/Public_Participation.html](http://www7.nationalacademies.org/hdgc/public_participation.html), then Quickplace link to reach documents as Tab 12. (Requires sign-up but no cost to access). A final report from this Panel of the National Research Council is expected in late 2006.
 
 [21]. Ortwin Renn,[
 *Risk Governance: Towards and Integrative Approach*](http://www.irgc.org/irgc/projects/risk characterization/ b/contentfiles/irgc wp no 1 risk governance (reprinted version).pdf), White Paper #1, International Risk Governance Council, Geneva, Switzerland, September 2005.

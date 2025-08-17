@@ -24,7 +24,7 @@ export default function Navigation({ items }: NavigationProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                className={`inline-flex items-center px-1 pt-1 border-b-3 tex font-medium ${
                   item.active
                     ? 'border-white text-white'
                     : 'border-transparent text-sky-200 hover:text-white hover:border-sky-300'

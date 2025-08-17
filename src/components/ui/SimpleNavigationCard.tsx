@@ -34,7 +34,7 @@ export default function NavigationCard({
       icon: 'bg-green-100'
     },
     tertiary: {
-      button: 'bg-purple-600 hover:bg-purple-700 text-white',
+      button: 'bg-sky-600 hover:bg-purple-700 text-white',
       icon: 'bg-purple-100'
     }
   };

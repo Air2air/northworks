@@ -8,6 +8,7 @@ import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
+import type { Metadata } from 'next';
 
 // Map routes to content types
 const routeToContentType: Record<string, string> = {
@@ -97,6 +98,90 @@ export async function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ slug: string[] }>;
+}
+
+// Generate dynamic metadata for each content page
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  
+  // Validate slug structure
+  if (!slug || slug.length !== 2) {
+    return {
+      title: 'Content Not Found | NorthWorks',
+      description: 'The requested content could not be found.'
+    };
+  }
+
+  const [route, itemSlug] = slug;
+  const contentType = routeToContentType[route];
+
+  if (!contentType) {
+    return {
+      title: 'Content Not Found | NorthWorks',
+      description: 'The requested content type is not available.'
+    };
+  }
+
+  // Get the content
+  const contentData = getContentBySlug(itemSlug, false);
+
+  if (!contentData || contentData.frontmatter.type !== contentType) {
+    return {
+      title: 'Content Not Found | NorthWorks',
+      description: 'The requested content could not be found.'
+    };
+  }
+
+  const frontmatter = contentData.frontmatter as any;
+  const title = cleanTitle(frontmatter.title);
+  
+  // Create contextual description
+  const getDescription = (type: string, fm: any) => {
+    if (fm.summary) return fm.summary;
+    
+    const authorName = fm.publication?.author || 'NorthWorks';
+    const publicationName = fm.publication?.outlet || fm.publication?.publisher;
+    
+    switch (type) {
+      case 'interview':
+        return `Interview ${publicationName ? `published in ${publicationName}` : `by ${authorName}`}`;
+      case 'article':
+        return `Article ${publicationName ? `published in ${publicationName}` : `by ${authorName}`}`;
+      case 'review':
+        return `Review ${publicationName ? `published in ${publicationName}` : `by ${authorName}`}`;
+      case 'professional':
+        return `Professional work by ${authorName}`;
+      case 'publication':
+        return `Publication by ${authorName}`;
+      case 'background':
+        return `Background information about ${authorName}`;
+      default:
+        return `Content by ${authorName}`;
+    }
+  };
+
+  // Get tags for keywords
+  const getTags = (fm: any, type: string) => {
+    if (type === 'interview' || type === 'article' || type === 'review') {
+      return fm.subjects || fm.tags || fm.keywords || [];
+    }
+    return fm.tags || fm.keywords || [];
+  };
+
+  const description = getDescription(contentType, frontmatter);
+  const keywords = getTags(frontmatter, contentType);
+
+  return {
+    title: `${title} | NorthWorks`,
+    description: description,
+    keywords: Array.isArray(keywords) ? keywords : [],
+    openGraph: {
+      title: title,
+      description: description,
+      type: 'article',
+      siteName: 'NorthWorks'
+    }
+  };
 }
 
 export default async function UniversalContentPage({ params }: PageProps) {

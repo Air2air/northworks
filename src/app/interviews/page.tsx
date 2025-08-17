@@ -2,6 +2,19 @@ import { getAllContentItems } from '@/lib/unifiedSearch';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import { ContentCard } from '@/components/ui/ContentCard';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Interviews | Cheryl North | NorthWorks',
+  description: 'Classical music interviews with major figures in the music world by Cheryl North, featuring artists, conductors, and composers.',
+  keywords: ['classical music interviews', 'opera interviews', 'conductor interviews', 'Cheryl North', 'music journalism'],
+  openGraph: {
+    title: 'Interviews | Cheryl North | NorthWorks',
+    description: 'Classical music interviews with major figures in the music world by Cheryl North.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function InterviewsPage() {
   // Get interviews from unified content system (includes images)

@@ -7,7 +7,13 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Cheryl North - Classical Music Journalist | NorthWorks',
   description: 'Cheryl North is a noted music columnist and critic, writing performance reviews and feature articles for major publications including Opera Now.',
-  keywords: ['classical music', 'music criticism', 'opera reviews', 'music journalism', 'Oakland Tribune', 'Opera Now']
+  keywords: ['classical music', 'music criticism', 'opera reviews', 'music journalism', 'Oakland Tribune', 'Opera Now'],
+  openGraph: {
+    title: 'Cheryl North - Classical Music Journalist',
+    description: 'Noted music columnist and critic writing performance reviews and feature articles for major publications.',
+    type: 'profile',
+    siteName: 'NorthWorks'
+  }
 };
 
 export default function CherylPage() {

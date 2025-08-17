@@ -4,6 +4,19 @@ import PageLayout from '@/components/layouts/PageLayout';
 import ContentList from '@/components/ui/ContentList';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { PublicationFrontmatter } from '@/types/content';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Publications | D. Warner North | NorthWorks',
+  description: 'Academic publications and research papers by D. Warner North on risk analysis, decision science, and related fields.',
+  keywords: ['academic publications', 'research papers', 'risk analysis publications', 'decision science', 'D. Warner North', 'scholarly articles'],
+  openGraph: {
+    title: 'Publications | D. Warner North | NorthWorks',
+    description: 'Academic publications and research papers by D. Warner North on risk analysis and decision science.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function PublicationsIndexPage() {
   const slugs = getAllContentSlugs();

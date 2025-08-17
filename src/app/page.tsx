@@ -6,9 +6,15 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'NorthWorks - ',
-  description: 'Unified platform for classical music content and professional portfolio data with cross-domain search capabilities',
-  keywords: ['NorthWorks', 'classical music', 'risk analysis', 'Warner North', 'Cheryl North', 'journalism', 'consulting']
+  title: 'NorthWorks - Classical Music and Risk Analysis',
+  description: 'Unified platform combining classical music journalism by Cheryl North and professional risk analysis expertise by D. Warner North. Search across interviews, articles, reviews, and professional portfolio content.',
+  keywords: ['NorthWorks', 'classical music', 'risk analysis', 'Warner North', 'Cheryl North', 'music journalism', 'decision analysis', 'consulting', 'opera reviews'],
+  openGraph: {
+    title: 'NorthWorks - Classical Music and Risk Analysis',
+    description: 'Unified platform combining classical music journalism and professional risk analysis expertise.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
 };
 
 export default function HomePage() {

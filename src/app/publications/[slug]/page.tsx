@@ -8,11 +8,52 @@ import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
+import type { Metadata } from 'next';
 
 interface PublicationPageProps {
   params: Promise<{
     slug: string;
   }>;
+}
+
+export async function generateMetadata({ params }: PublicationPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const contentData = getContentBySlug(resolvedParams.slug, false);
+  
+  if (!contentData || contentData.frontmatter.type !== 'publication') {
+    return {
+      title: 'Publication Not Found | NorthWorks',
+      description: 'The requested publication could not be found.'
+    };
+  }
+
+  const frontmatter = contentData.frontmatter as PublicationFrontmatter;
+  const title = cleanTitle(frontmatter.title);
+  
+  // Build description from available publication info
+  let description = `Publication by D. Warner North`;
+  if (frontmatter.publication?.publisher) {
+    description += ` published by ${frontmatter.publication.publisher}`;
+  }
+  if (frontmatter.journal) {
+    description += ` in ${frontmatter.journal}`;
+  }
+  if (frontmatter.publication?.date) {
+    description += ` (${frontmatter.publication.date})`;
+  }
+  description += '.';
+
+  return {
+    title: `${title} | Publications | D. Warner North | NorthWorks`,
+    description: description,
+    keywords: frontmatter.subjects || [],
+    openGraph: {
+      title: title,
+      description: description,
+      type: 'article',
+      siteName: 'NorthWorks'
+    }
+  };
 }
 
 export default async function PublicationPage({ params }: PublicationPageProps) {

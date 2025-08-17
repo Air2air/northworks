@@ -7,7 +7,13 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'D. Warner North - Risk Analysis Consultant | NorthWorks',
   description: 'Dr. D. Warner North is principal scientist of NorthWorks, a leading expert in risk analysis and nuclear waste issues with over 50 years of experience.',
-  keywords: ['risk analysis', 'nuclear waste', 'consulting', 'Stanford University', 'EPA Science Advisory Board', 'decision analysis']
+  keywords: ['risk analysis', 'nuclear waste', 'consulting', 'Stanford University', 'EPA Science Advisory Board', 'decision analysis'],
+  openGraph: {
+    title: 'D. Warner North - Risk Analysis Consultant',
+    description: 'Leading expert in risk analysis and nuclear waste issues with over 50 years of experience.',
+    type: 'profile',
+    siteName: 'NorthWorks'
+  }
 };
 
 export default function WarnerPage() {

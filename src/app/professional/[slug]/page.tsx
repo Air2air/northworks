@@ -7,11 +7,42 @@ import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
+import type { Metadata } from 'next';
 
 interface ProfessionalPageProps {
   params: Promise<{
     slug: string;
   }>;
+}
+
+export async function generateMetadata({ params }: ProfessionalPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const contentData = getContentBySlug(resolvedParams.slug, false);
+  
+  if (!contentData || contentData.frontmatter.type !== 'professional') {
+    return {
+      title: 'Professional Experience Not Found | NorthWorks',
+      description: 'The requested professional experience could not be found.'
+    };
+  }
+
+  const frontmatter = contentData.frontmatter as ProfessionalFrontmatter;
+  const title = cleanTitle(frontmatter.title);
+  
+  const description = frontmatter.description || 
+    `Professional work${frontmatter.organization ? ` at ${frontmatter.organization}` : ''}${frontmatter.position ? ` as ${frontmatter.position}` : ''} by D. Warner North.`;
+
+  return {
+    title: `${title} | D. Warner North | NorthWorks`,
+    description: description,
+    keywords: frontmatter.subjects || [],
+    openGraph: {
+      title: title,
+      description: description,
+      type: 'article',
+      siteName: 'NorthWorks'
+    }
+  };
 }
 
 export default async function ProfessionalPage({ params }: ProfessionalPageProps) {

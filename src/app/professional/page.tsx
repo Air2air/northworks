@@ -4,6 +4,19 @@ import PageLayout from '@/components/layouts/PageLayout';
 import ContentList from '@/components/ui/ContentList';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { ProfessionalFrontmatter } from '@/types/content';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Professional Experience | D. Warner North | NorthWorks',
+  description: 'Professional work and consulting experience of D. Warner North in risk analysis, decision analysis, and capital expenditure analysis.',
+  keywords: ['risk analysis', 'decision analysis', 'capital expenditure analysis', 'consulting', 'D. Warner North', 'professional experience'],
+  openGraph: {
+    title: 'Professional Experience | D. Warner North | NorthWorks',
+    description: 'Professional work and consulting experience of D. Warner North in risk analysis and decision analysis.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function ProfessionalIndexPage() {
   const slugs = getAllContentSlugs();

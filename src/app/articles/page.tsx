@@ -2,6 +2,19 @@ import { getAllContentItems } from '@/lib/unifiedSearch';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import { ContentCard } from '@/components/ui/ContentCard';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Articles | Cheryl North | NorthWorks',
+  description: 'Classical music articles and feature stories by Cheryl North, noted music columnist and critic.',
+  keywords: ['classical music articles', 'music journalism', 'feature stories', 'Cheryl North', 'music criticism'],
+  openGraph: {
+    title: 'Articles | Cheryl North | NorthWorks',
+    description: 'Classical music articles and feature stories by Cheryl North, noted music columnist and critic.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function ArticlesPage() {
   // Get articles from unified content system (includes images)

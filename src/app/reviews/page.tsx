@@ -2,6 +2,19 @@ import { getAllContentItems } from '@/lib/unifiedSearch';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import { ContentCard } from '@/components/ui/ContentCard';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Reviews | Cheryl North | NorthWorks',
+  description: 'Classical music and opera performance reviews by Cheryl North, covering concerts, recitals, and opera productions.',
+  keywords: ['music reviews', 'opera reviews', 'concert reviews', 'performance criticism', 'Cheryl North', 'classical music criticism'],
+  openGraph: {
+    title: 'Reviews | Cheryl North | NorthWorks',
+    description: 'Classical music and opera performance reviews by Cheryl North.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function ReviewsPage() {
   // Get reviews from unified content system (includes images)

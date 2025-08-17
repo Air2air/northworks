@@ -1,11 +1,6 @@
 /**
- * Unified Search Page - Keyword-based search across all content collec        >
-          <SearchInterface allContent={allContent} />
-        </Suspense>
-      </div>
-    </PageLayout>
-  );
-}* Classical music interviews, articles, reviews, and professional portfolio
+ * Unified Search Page - Keyword-based search across all content collections
+ * Classical music interviews, articles, reviews, and professional portfolio
  */
 
 import React, { Suspense } from 'react';
@@ -14,6 +9,19 @@ import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import dynamic from 'next/dynamic';
 import { getAllContentItems, getCollectionStats } from '@/lib/unifiedSearch';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Search | NorthWorks',
+  description: 'Search across classical music interviews, articles, reviews, and professional portfolio content from Cheryl North and D. Warner North.',
+  keywords: ['search', 'classical music', 'interviews', 'articles', 'reviews', 'music journalism', 'risk analysis'],
+  openGraph: {
+    title: 'Search | NorthWorks',
+    description: 'Search across classical music interviews, articles, reviews, and professional portfolio content.',
+    type: 'website',
+    siteName: 'NorthWorks'
+  }
+};
 
 // Dynamic import for SearchInterface to reduce initial bundle size
 const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {

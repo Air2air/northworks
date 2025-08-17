@@ -7,11 +7,46 @@ import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
+import type { Metadata } from 'next';
 
 interface BackgroundPageProps {
   params: Promise<{
     slug: string;
   }>;
+}
+
+export async function generateMetadata({ params }: BackgroundPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const contentData = getContentBySlug(resolvedParams.slug, false);
+  
+  if (!contentData || contentData.frontmatter.type !== 'background') {
+    return {
+      title: 'Background Information Not Found | NorthWorks',
+      description: 'The requested background information could not be found.'
+    };
+  }
+
+  const frontmatter = contentData.frontmatter as BackgroundFrontmatter;
+  const title = cleanTitle(frontmatter.title);
+  
+  // Build description from available background info
+  let description = `Background information about D. Warner North`;
+  if (frontmatter.profession) {
+    description += ` - ${frontmatter.profession}`;
+  }
+  description += '.';
+
+  return {
+    title: `${title} | Background | D. Warner North | NorthWorks`,
+    description: description,
+    keywords: frontmatter.subjects || [],
+    openGraph: {
+      title: title,
+      description: description,
+      type: 'profile',
+      siteName: 'NorthWorks'
+    }
+  };
 }
 
 export default async function BackgroundPage({ params }: BackgroundPageProps) {

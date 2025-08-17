@@ -4,6 +4,19 @@ import PageLayout from '@/components/layouts/PageLayout';
 import ContentList from '@/components/ui/ContentList';
 import { getAllContentSlugs, getContentBySlug } from '@/lib/content';
 import { BackgroundFrontmatter } from '@/types/content';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Background | D. Warner North | NorthWorks',
+  description: 'Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.',
+  keywords: ['D. Warner North biography', 'risk analysis expert', 'decision science', 'education', 'professional background', 'career history'],
+  openGraph: {
+    title: 'Background | D. Warner North | NorthWorks',
+    description: 'Background information and biographical details about D. Warner North, expert in risk analysis and decision science.',
+    type: 'profile',
+    siteName: 'NorthWorks'
+  }
+};
 
 export default function BackgroundIndexPage() {
   const slugs = getAllContentSlugs();

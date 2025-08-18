@@ -22,7 +22,7 @@ export default function ReviewsPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl', href: '/cheryl', active: false },
+    { label: 'Cheryl North', href: '/cheryl', active: false },
     { label: 'Reviews', href: '/reviews', active: true }
   ];
 

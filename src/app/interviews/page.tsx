@@ -22,7 +22,7 @@ export default function InterviewsPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl', href: '/cheryl', active: false },
+    { label: 'Cheryl North', href: '/cheryl', active: false },
     { label: 'Interviews', href: '/interviews', active: true }
   ];
 

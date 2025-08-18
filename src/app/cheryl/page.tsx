@@ -68,7 +68,7 @@ export default function CherylPage() {
       {/* Hero Section */}
       <PageTitle
         title="Cheryl North"
-        description="Music columnist for Classical Voice of North Carolina and noted classical music journalist"
+        description="Noted classical music journalist for the Bay Area News Group and syndicated newspapers"
         align="left"
         size="medium"
       />

@@ -532,7 +532,7 @@
           "usage": "primary"
         },
         {
-          "url": "/images/leon-bates.jpg",
+          "url": "/images/thm-bates.jpg",
           "type": "image",
           "alt": "c-bates",
           "title": null,
@@ -578,7 +578,7 @@
                 "type": "image"
               },
               {
-                "url": "/images/leon-bates.jpg",
+                "url": "/images/thm-bates.jpg",
                 "alt": "c-bates",
                 "type": "image",
                 "width": 200,
@@ -1118,7 +1118,7 @@
       },
       "media": [
         {
-          "url": "/images/cerny-dallas.jpg",
+          "url": "/images/thm-cerny.jpg",
           "type": "image",
           "alt": "c-cerny",
           "title": null,
@@ -1159,7 +1159,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/cerny-dallas.jpg",
+                "url": "/images/thm-cerny.jpg",
                 "alt": "c-cerny",
                 "type": "image",
                 "width": 200,
@@ -1365,7 +1365,7 @@
       },
       "media": [
         {
-          "url": "/images/james-conlon-conducting.jpg",
+          "url": "/images/thm-conlon.jpg",
           "type": "image",
           "alt": "c-conlon",
           "title": null,
@@ -1406,7 +1406,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/james-conlon-conducting.jpg",
+                "url": "/images/thm-conlon.jpg",
                 "alt": "c-conlon",
                 "type": "image",
                 "width": 173,
@@ -2284,7 +2284,7 @@
       },
       "media": [
         {
-          "url": "/images/richard-goode.jpg",
+          "url": "/images/thm-gooderichard.jpg",
           "type": "image",
           "alt": "c-goode",
           "title": null,
@@ -2325,7 +2325,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/richard-goode.jpg",
+                "url": "/images/thm-gooderichard.jpg",
                 "alt": "c-goode",
                 "type": "image",
                 "width": 150,
@@ -2509,7 +2509,7 @@
       },
       "media": [
         {
-          "url": "/images/hvorostovsky-sb08.jpg",
+          "url": "/images/hvorostovsky.jpg",
           "type": "image",
           "alt": "c-hvorostovsky-04-02-1997",
           "title": null,
@@ -2559,7 +2559,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/hvorostovsky-sb08.jpg",
+                "url": "/images/hvorostovsky.jpg",
                 "alt": "c-hvorostovsky-04-02-1997",
                 "type": "image",
                 "width": 554,
@@ -2606,7 +2606,7 @@
       },
       "media": [
         {
-          "url": "/images/hvorostovsky-sb08.jpg",
+          "url": "/images/hvorostovsky.jpg",
           "type": "image",
           "alt": "c-hvorostovsky-05-15-1997",
           "title": null,
@@ -2658,7 +2658,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/hvorostovsky-sb08.jpg",
+                "url": "/images/hvorostovsky.jpg",
                 "alt": "c-hvorostovsky-05-15-1997",
                 "type": "image",
                 "width": 554,
@@ -2705,7 +2705,7 @@
       },
       "media": [
         {
-          "url": "/images/hvorostovsky-sb08.jpg",
+          "url": "/images/hvorostovsky.jpg",
           "type": "image",
           "alt": "c-hvorostovsky-07-29-2008",
           "title": null,
@@ -2757,7 +2757,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/hvorostovsky-sb08.jpg",
+                "url": "/images/hvorostovsky.jpg",
                 "alt": "c-hvorostovsky-07-29-2008",
                 "type": "image",
                 "width": 554,
@@ -2997,7 +2997,7 @@
           "usage": "primary"
         },
         {
-          "url": "/images/lang-lang-mother.jpg",
+          "url": "/images/langcherie09.jpg",
           "type": "image",
           "alt": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
           "title": null,
@@ -3045,7 +3045,7 @@
                 "height": 212
               },
               {
-                "url": "/images/lang-lang-mother.jpg",
+                "url": "/images/langcherie09.jpg",
                 "alt": "Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009",
                 "type": "image"
               }
@@ -3748,7 +3748,7 @@
       },
       "media": [
         {
-          "url": "/images/kent-nagano.jpg",
+          "url": "/images/thm-nagano.jpg",
           "type": "image",
           "alt": "c-nagano",
           "title": null,
@@ -3789,7 +3789,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/kent-nagano.jpg",
+                "url": "/images/thm-nagano.jpg",
                 "alt": "c-nagano",
                 "type": "image",
                 "width": 160,
@@ -4262,7 +4262,7 @@
       },
       "media": [
         {
-          "url": "/images/sarah-chang-informal.jpg",
+          "url": "/images/thm-chang.jpg",
           "type": "image",
           "alt": "c-sarah-chang",
           "title": null,
@@ -4303,7 +4303,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/sarah-chang-informal.jpg",
+                "url": "/images/thm-chang.jpg",
                 "alt": "c-sarah-chang",
                 "type": "image",
                 "width": 100,
@@ -4734,7 +4734,7 @@
           "usage": "primary"
         },
         {
-          "url": "/images/thibaudet-wandc.jpg",
+          "url": "/images/thibaudet1.jpg",
           "type": "image",
           "alt": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
           "title": null,
@@ -4782,7 +4782,7 @@
                 "height": 297
               },
               {
-                "url": "/images/thibaudet-wandc.jpg",
+                "url": "/images/thibaudet1.jpg",
                 "alt": "Thibaubet gives a lift to legacy of Liszt in Berkeley recital",
                 "type": "image"
               }
@@ -4833,7 +4833,7 @@
           "usage": "primary"
         },
         {
-          "url": "/images/thibaudet-wandc.jpg",
+          "url": "/images/thibaudet1.jpg",
           "type": "image",
           "alt": "For Thibaudet, music is played in the key of life",
           "title": null,
@@ -4881,7 +4881,7 @@
                 "height": 297
               },
               {
-                "url": "/images/thibaudet-wandc.jpg",
+                "url": "/images/thibaudet1.jpg",
                 "alt": "For Thibaudet, music is played in the key of life",
                 "type": "image"
               }
@@ -5004,7 +5004,7 @@
       },
       "media": [
         {
-          "url": "/images/christopher-ventris.jpg",
+          "url": "/images/thm-ventris.jpg",
           "type": "image",
           "alt": "c-ventris",
           "title": null,
@@ -5045,7 +5045,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/christopher-ventris.jpg",
+                "url": "/images/thm-ventris.jpg",
                 "alt": "c-ventris",
                 "type": "image",
                 "width": 160,
@@ -5087,7 +5087,7 @@
       },
       "media": [
         {
-          "url": "/images/rolando-villazon.jpg",
+          "url": "/images/thm-villazon.jpg",
           "type": "image",
           "alt": "c-villazon",
           "title": null,
@@ -5128,7 +5128,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/rolando-villazon.jpg",
+                "url": "/images/thm-villazon.jpg",
                 "alt": "c-villazon",
                 "type": "image",
                 "width": 160,
@@ -5411,7 +5411,7 @@
       },
       "media": [
         {
-          "url": "/images/tappan-wilder-c-w-2007.jpg",
+          "url": "/images/thm-wilder.jpg",
           "type": "image",
           "alt": "c-wilder",
           "title": null,
@@ -5452,7 +5452,7 @@
           "media": {
             "images": [
               {
-                "url": "/images/tappan-wilder-c-w-2007.jpg",
+                "url": "/images/thm-wilder.jpg",
                 "alt": "c-wilder",
                 "type": "image",
                 "width": 245,

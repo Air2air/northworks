@@ -22,7 +22,7 @@ export default function ArticlesPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl', href: '/cheryl', active: false },
+    { label: 'Cheryl North', href: '/cheryl', active: false },
     { label: 'Articles', href: '/articles', active: true }
   ];
 

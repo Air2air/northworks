@@ -9,10 +9,7 @@ const normalizedDir = path.join(__dirname, 'src/data/normalized');
 const files = [
   'warner-professional.json',
   'warner-background.json', 
-  'warner-publications.json',
-  'all-professional.json',
-  'all-background.json',
-  'all-publications.json'
+  'warner-publications.json'
 ];
 
 function fixUrls(filename) {

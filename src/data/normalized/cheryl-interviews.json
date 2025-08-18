@@ -46,8 +46,12 @@
         }
       ],
       "tags": [
-        "vocal artistry",
-        "opera performance"
+        "Robert Schumann",
+        "Opera",
+        "Der Rosenkavalier",
+        "Symphony No. 5",
+        "Piano",
+        "Voice"
       ],
       "legacy": {
         "originalData": {
@@ -125,7 +129,12 @@
         }
       ],
       "tags": [
-        "musical interpretation"
+        "Piano",
+        "Orchestra",
+        "Composition",
+        "Voice",
+        "Zellerbach Hall",
+        "Charles Ives Center"
       ],
       "legacy": {
         "originalData": {
@@ -203,8 +212,12 @@
         }
       ],
       "tags": [
-        "classical period",
-        "contemporary music"
+        "Concert",
+        "Conducting",
+        "Symphony",
+        "Orchestra",
+        "Classical",
+        "Haydn"
       ],
       "legacy": {
         "originalData": {
@@ -349,7 +362,12 @@
         }
       ],
       "tags": [
-        "baroque period"
+        "Violin",
+        "Johann Sebastian Bach",
+        "Orchestra",
+        "Concert",
+        "Symphony",
+        "Bernstein"
       ],
       "legacy": {
         "originalData": {
@@ -431,7 +449,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Violin",
+        "Award",
+        "International Center",
+        "Yerba Buena Center",
+        "Kennedy Center Honor",
+        "Shostakovich"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -518,7 +543,14 @@
           "usage": "secondary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Piano",
+        "Sergei Rachmaninoff",
+        "Orchestra",
+        "Concert",
+        "Gershwin",
+        "Ludwig van Beethoven"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -600,9 +632,12 @@
         }
       ],
       "tags": [
-        "recital performance",
-        "instrumental mastery",
-        "classical period"
+        "Piano",
+        "Wolfgang Amadeus Mozart",
+        "Concert",
+        "Gershwin",
+        "Improvisation",
+        "Classical"
       ],
       "legacy": {
         "originalData": {
@@ -680,8 +715,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "instrumental mastery"
+        "Violin",
+        "Barber",
+        "Concert",
+        "Ives",
+        "Orchestra",
+        "Carnegie Hall"
       ],
       "legacy": {
         "originalData": {
@@ -758,7 +797,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Opera",
+        "Boris Godunov",
+        "Carmen",
+        "Il Trovatore",
+        "Aida",
+        "Conservatory"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -835,8 +881,12 @@
         }
       ],
       "tags": [
-        "recital performance",
-        "instrumental mastery"
+        "Piano",
+        "Gustav Mahler",
+        "Stravinsky",
+        "Tempo",
+        "Symphony No. 9",
+        "Percussion"
       ],
       "legacy": {
         "originalData": {
@@ -913,7 +963,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Johann Sebastian Bach",
+        "Orchestra",
+        "Stanford",
+        "Adams",
+        "Jazz",
+        "Classical"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -990,8 +1047,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "vocal artistry"
+        "Opera",
+        "Piano",
+        "Gustav Mahler",
+        "Franz Schubert",
+        "Eugene Onegin",
+        "Lieder"
       ],
       "legacy": {
         "originalData": {
@@ -1069,8 +1130,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "contemporary music"
+        "Heggie",
+        "Opera",
+        "Piano",
+        "Voice",
+        "Giacomo Puccini",
+        "Conducting"
       ],
       "legacy": {
         "originalData": {
@@ -1148,8 +1213,12 @@
         }
       ],
       "tags": [
-        "classical period",
-        "career development"
+        "Wolfgang Amadeus Mozart",
+        "Orchestra",
+        "Concert",
+        "Violin",
+        "Conducting",
+        "Opera"
       ],
       "legacy": {
         "originalData": {
@@ -1224,7 +1293,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Violin",
+        "Jazz",
+        "Bass",
+        "Orchestra",
+        "Symphony",
+        "Concert"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -1301,9 +1377,12 @@
         }
       ],
       "tags": [
-        "conductor leadership",
-        "orchestral music",
-        "classical period"
+        "Symphony",
+        "Franz Liszt",
+        "Reich",
+        "Performance",
+        "Salome",
+        "Requiem"
       ],
       "legacy": {
         "originalData": {
@@ -1368,7 +1447,12 @@
         "url": null
       },
       "tags": [
-        "classical period"
+        "Conservatory",
+        "Opera",
+        "Heggie",
+        "Oak St",
+        "Fulbright Scholarship",
+        "Girls Choirs"
       ],
       "legacy": {
         "originalData": {
@@ -1422,9 +1506,12 @@
         "url": null
       },
       "tags": [
-        "opera performance",
-        "concert performance",
-        "baroque period"
+        "Handel",
+        "Opera",
+        "Giuseppe Verdi",
+        "Tosca",
+        "Der Rosenkavalier",
+        "Eugene Onegin"
       ],
       "legacy": {
         "originalData": {
@@ -1491,8 +1578,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "romantic era"
+        "Richard Wagner",
+        "Opera",
+        "San Francisco Symphony",
+        "Johann Sebastian Bach",
+        "Performance",
+        "Carmen"
       ],
       "legacy": {
         "originalData": {
@@ -1556,7 +1647,14 @@
         "headline": null,
         "url": null
       },
-      "tags": [],
+      "tags": [
+        "Opera",
+        "Rossini",
+        "Barber",
+        "Voice",
+        "Choir",
+        "Horn"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -1608,7 +1706,14 @@
         "headline": null,
         "url": null
       },
-      "tags": [],
+      "tags": [
+        "Opera",
+        "Piano",
+        "Ives",
+        "Maurice Ravel",
+        "Voice",
+        "Sonata"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -1687,7 +1792,12 @@
         }
       ],
       "tags": [
-        "instrumental mastery"
+        "Adams",
+        "Guitar",
+        "Performance",
+        "Ives",
+        "Contemporary",
+        "String Quartet"
       ],
       "legacy": {
         "originalData": {
@@ -1757,10 +1867,12 @@
         "url": null
       },
       "tags": [
-        "recital performance",
-        "concert performance",
-        "instrumental mastery",
-        "career development"
+        "Orchestra",
+        "Berlioz",
+        "Maurice Ravel",
+        "Piano",
+        "Conducting",
+        "Symphony"
       ],
       "legacy": {
         "originalData": {
@@ -1814,9 +1926,12 @@
         "url": null
       },
       "tags": [
-        "orchestral music",
-        "recital performance",
-        "instrumental mastery"
+        "Piano",
+        "Prokofiev",
+        "Concert",
+        "Sergei Rachmaninoff",
+        "Pyotr Ilyich Tchaikovsky",
+        "Orchestra"
       ],
       "legacy": {
         "originalData": {
@@ -1905,7 +2020,14 @@
           "usage": "secondary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Orchestra",
+        "Premiere",
+        "Symphony",
+        "Solo",
+        "Concert",
+        "Festival"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -2003,8 +2125,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "concert performance"
+        "Opera",
+        "The Magic Flute",
+        "Don Giovanni",
+        "Eugene Onegin",
+        "Orchestra",
+        "Concert"
       ],
       "legacy": {
         "originalData": {
@@ -2087,7 +2213,12 @@
         }
       ],
       "tags": [
-        "vocal artistry"
+        "Cello",
+        "Voice",
+        "Opera",
+        "Giuseppe Verdi",
+        "Maurice Ravel",
+        "Rigoletto"
       ],
       "legacy": {
         "originalData": {
@@ -2164,7 +2295,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Ludwig van Beethoven",
+        "Johann Sebastian Bach",
+        "Piano",
+        "Concert",
+        "Frédéric Chopin",
+        "Wolfgang Amadeus Mozart"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -2241,7 +2379,12 @@
         }
       ],
       "tags": [
-        "vocal artistry"
+        "Berlioz",
+        "Maurice Ravel",
+        "Opera",
+        "Voice",
+        "Giuseppe Verdi",
+        "Claude Debussy"
       ],
       "legacy": {
         "originalData": {
@@ -2305,7 +2448,14 @@
         "headline": null,
         "url": null
       },
-      "tags": [],
+      "tags": [
+        "Violin",
+        "Orchestra",
+        "Concert",
+        "Symphony",
+        "Johannes Brahms",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -2479,8 +2629,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "vocal artistry"
+        "Voice",
+        "Rossini",
+        "Donizetti",
+        "Concert",
+        "La Traviata",
+        "Piano"
       ],
       "legacy": {
         "originalData": {
@@ -2574,8 +2728,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "baroque period"
+        "Giuseppe Verdi",
+        "Johann Sebastian Bach",
+        "Voice",
+        "Opera",
+        "Piano",
+        "Gershwin"
       ],
       "legacy": {
         "originalData": {
@@ -2669,7 +2827,12 @@
         }
       ],
       "tags": [
-        "career development"
+        "Piano",
+        "Johann Sebastian Bach",
+        "Maurice Ravel",
+        "Sergei Rachmaninoff",
+        "Orchestra",
+        "Recital"
       ],
       "legacy": {
         "originalData": {
@@ -2752,8 +2915,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "contemporary music"
+        "Ives",
+        "San Francisco Symphony",
+        "Ludwig van Beethoven",
+        "Composition",
+        "Premiere",
+        "Sonata"
       ],
       "legacy": {
         "originalData": {
@@ -2842,8 +3009,12 @@
         }
       ],
       "tags": [
-        "concert performance",
-        "orchestral music"
+        "Piano",
+        "Prokofiev",
+        "Performance",
+        "San Francisco Symphony",
+        "Concert",
+        "Franz Liszt"
       ],
       "legacy": {
         "originalData": {
@@ -2926,9 +3097,12 @@
         }
       ],
       "tags": [
-        "vocal artistry",
-        "recital performance",
-        "concert performance"
+        "Viola",
+        "Voice",
+        "Opera",
+        "Carmen",
+        "Orchestra",
+        "Symphony"
       ],
       "legacy": {
         "originalData": {
@@ -2993,8 +3167,12 @@
         "url": null
       },
       "tags": [
-        "opera performance",
-        "career development"
+        "Opera",
+        "Richard Wagner",
+        "Voice",
+        "Debut",
+        "Salome",
+        "Giacomo Puccini"
       ],
       "legacy": {
         "originalData": {
@@ -3061,8 +3239,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "vocal artistry"
+        "Opera",
+        "Voice",
+        "Rigoletto",
+        "Eugene Onegin",
+        "Rossini",
+        "Ives"
       ],
       "legacy": {
         "originalData": {
@@ -3127,9 +3309,12 @@
         "url": null
       },
       "tags": [
-        "concert performance",
-        "orchestral music",
-        "classical period"
+        "Voice",
+        "San Francisco Symphony",
+        "Piano",
+        "Classical",
+        "Sonata",
+        "Performance"
       ],
       "legacy": {
         "originalData": {
@@ -3229,8 +3414,12 @@
         }
       ],
       "tags": [
-        "recital performance",
-        "instrumental mastery"
+        "Piano",
+        "Johann Sebastian Bach",
+        "Nicola Luisotti",
+        "California Scholarship Federation",
+        "Ohlone College",
+        "Cheryl North"
       ],
       "legacy": {
         "originalData": {
@@ -3322,7 +3511,12 @@
         }
       ],
       "tags": [
-        "conductor leadership"
+        "Orchestra",
+        "Requiem",
+        "Bernstein",
+        "Award",
+        "Polish Republic",
+        "World War II"
       ],
       "legacy": {
         "originalData": {
@@ -3400,9 +3594,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "conductor leadership",
-        "artistic collaboration"
+        "Orchestra",
+        "Symphony",
+        "Concert",
+        "Gustav Mahler",
+        "Prokofiev",
+        "Ludwig van Beethoven"
       ],
       "legacy": {
         "originalData": {
@@ -3480,7 +3677,12 @@
         }
       ],
       "tags": [
-        "contemporary music"
+        "Bernstein",
+        "Carnegie Hall",
+        "Concert",
+        "Education",
+        "Gustav Mahler",
+        "Gershwin"
       ],
       "legacy": {
         "originalData": {
@@ -3558,9 +3760,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "conductor leadership",
-        "artistic collaboration"
+        "Orchestra",
+        "Franz Schubert",
+        "Symphony",
+        "Gustav Mahler",
+        "Concert",
+        "Lohengrin"
       ],
       "legacy": {
         "originalData": {
@@ -3649,7 +3854,12 @@
         }
       ],
       "tags": [
-        "concert performance"
+        "Orchestra",
+        "Concert",
+        "Shostakovich",
+        "Piano",
+        "Ives",
+        "Pyotr Ilyich Tchaikovsky"
       ],
       "legacy": {
         "originalData": {
@@ -3731,7 +3941,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Giacomo Puccini",
+        "Opera",
+        "Jazz",
+        "Tosca",
+        "La Traviata",
+        "Voice"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -3808,7 +4025,12 @@
         }
       ],
       "tags": [
-        "orchestral music"
+        "Orchestra",
+        "Opera",
+        "Gustav Mahler",
+        "Adams",
+        "Berlin Philharmonie Hall",
+        "Ives"
       ],
       "legacy": {
         "originalData": {
@@ -3886,7 +4108,12 @@
         }
       ],
       "tags": [
-        "opera performance"
+        "Opera",
+        "Barber",
+        "Performance",
+        "Organ",
+        "Orchestra",
+        "Guild Hall School"
       ],
       "legacy": {
         "originalData": {
@@ -3964,9 +4191,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "conductor leadership",
-        "classical period"
+        "Orchestra",
+        "Opera",
+        "Richard Wagner",
+        "Conducting",
+        "Shostakovich",
+        "Tristan Und Isolde"
       ],
       "legacy": {
         "originalData": {
@@ -4043,7 +4273,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Violin",
+        "Concert",
+        "Shostakovich",
+        "Orchestra",
+        "Voice",
+        "Symphony"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -4131,7 +4368,12 @@
         }
       ],
       "tags": [
-        "orchestral music"
+        "Orchestra",
+        "Symphony",
+        "Ives",
+        "Gershwin",
+        "Stravinsky",
+        "Ludwig van Beethoven"
       ],
       "legacy": {
         "originalData": {
@@ -4214,7 +4456,12 @@
         }
       ],
       "tags": [
-        "instrumental mastery"
+        "Orchestra",
+        "Violin",
+        "Symphony",
+        "Piano",
+        "Composition",
+        "Davies Hall"
       ],
       "legacy": {
         "originalData": {
@@ -4303,7 +4550,12 @@
         }
       ],
       "tags": [
-        "opera performance"
+        "Opera",
+        "Richard Wagner",
+        "Johann Sebastian Bach",
+        "Stravinsky",
+        "Voice",
+        "Don Giovanni"
       ],
       "legacy": {
         "originalData": {
@@ -4397,8 +4649,12 @@
         }
       ],
       "tags": [
-        "vocal artistry",
-        "romantic era"
+        "Richard Wagner",
+        "Giacomo Puccini",
+        "Voice",
+        "San Francisco Opera",
+        "Ives",
+        "Wozzeck"
       ],
       "legacy": {
         "originalData": {
@@ -4490,9 +4746,12 @@
         }
       ],
       "tags": [
-        "recital performance",
-        "instrumental mastery",
-        "romantic era"
+        "Franz Liszt",
+        "Piano",
+        "Ives",
+        "Recital",
+        "Richard Wagner",
+        "Frédéric Chopin"
       ],
       "legacy": {
         "originalData": {
@@ -4585,7 +4844,14 @@
           "usage": "secondary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Piano",
+        "Glass",
+        "Maurice Ravel",
+        "Concert",
+        "Violin",
+        "Conservatory"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -4667,8 +4933,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "concert performance"
+        "Orchestra",
+        "Sibelius",
+        "Symphony",
+        "Ludwig van Beethoven",
+        "Clarinet",
+        "Concert"
       ],
       "legacy": {
         "originalData": {
@@ -4746,9 +5016,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "career development",
-        "vocal artistry"
+        "Wolfgang Amadeus Mozart",
+        "Richard Wagner",
+        "Opera",
+        "Salome",
+        "The Ring",
+        "Parsifal"
       ],
       "legacy": {
         "originalData": {
@@ -4826,9 +5099,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "concert performance",
-        "vocal artistry"
+        "Opera",
+        "Giuseppe Verdi",
+        "Voice",
+        "Violin Concerto",
+        "La Traviata",
+        "Ives"
       ],
       "legacy": {
         "originalData": {
@@ -4917,8 +5193,12 @@
         }
       ],
       "tags": [
-        "opera performance",
-        "vocal artistry"
+        "Opera",
+        "Maurice Ravel",
+        "Giuseppe Verdi",
+        "Richard Wagner",
+        "Voice",
+        "Salome"
       ],
       "legacy": {
         "originalData": {
@@ -5000,7 +5280,14 @@
           "usage": "primary"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Piano",
+        "Franz Liszt",
+        "Sergei Rachmaninoff",
+        "Orchestra",
+        "Conservatory",
+        "Sonata"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -5064,7 +5351,12 @@
         "url": null
       },
       "tags": [
-        "opera performance"
+        "Richard Wagner",
+        "Opera",
+        "Voice",
+        "The Ring",
+        "Horn",
+        "Choir"
       ],
       "legacy": {
         "originalData": {
@@ -5131,7 +5423,12 @@
         }
       ],
       "tags": [
-        "opera performance"
+        "Opera",
+        "Copland",
+        "Bernstein",
+        "Horn",
+        "Orchestra",
+        "Lesher Center"
       ],
       "legacy": {
         "originalData": {

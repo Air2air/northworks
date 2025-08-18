@@ -282,7 +282,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
             {/* <h3 className="text-sm font-semibold text-gray-900 mb-2">
               {getTagsLabel(contentType)}
             </h3> */}
-            <Tags tags={tags} variant="medium" maxVisible={10} />
+            <Tags tags={tags} variant="medium" />
           </div>
         )}
 

@@ -34,8 +34,12 @@
       },
       "media": [],
       "tags": [
-        "baroque period",
-        "classical period"
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Johannes Brahms",
+        "Sonata",
+        "Piano Concerto No. 21",
+        "Center"
       ],
       "legacy": {
         "originalData": {
@@ -93,8 +97,12 @@
       },
       "media": [],
       "tags": [
-        "opera performance",
-        "contemporary music"
+        "Opera",
+        "Carter",
+        "Premiere",
+        "Bass",
+        "Orchestra",
+        "Energy Center"
       ],
       "legacy": {
         "originalData": {
@@ -152,8 +160,12 @@
       },
       "media": [],
       "tags": [
-        "concert performance",
-        "orchestral music"
+        "Concert",
+        "Opera",
+        "Symphony",
+        "Percussion",
+        "Organ",
+        "Orchestra"
       ],
       "legacy": {
         "originalData": {
@@ -211,8 +223,12 @@
       },
       "media": [],
       "tags": [
-        "conductor leadership",
-        "opera performance"
+        "Barber",
+        "Opera",
+        "Rossini",
+        "Richard Wagner",
+        "Wolfgang Amadeus Mozart",
+        "Orchestra"
       ],
       "legacy": {
         "originalData": {
@@ -292,9 +308,12 @@
         }
       ],
       "tags": [
-        "orchestral music",
-        "conductor leadership",
-        "classical period"
+        "Ludwig van Beethoven",
+        "Orchestra",
+        "Rehearsal",
+        "Performance",
+        "Festival",
+        "Symphony No. 9"
       ],
       "legacy": {
         "originalData": {
@@ -364,7 +383,14 @@
         "url": null
       },
       "media": [],
-      "tags": [],
+      "tags": [
+        "Heggie",
+        "Choir",
+        "Opera",
+        "Performance",
+        "Orchestra",
+        "Baroque"
+      ],
       "legacy": {
         "originalData": {
           "metadata": {
@@ -421,8 +447,12 @@
       },
       "media": [],
       "tags": [
-        "concert performance",
-        "classical period"
+        "Organ",
+        "Ives",
+        "Georgetown Maryland",
+        "Colonel John Skinner",
+        "Our National Anthem",
+        "The Defense"
       ],
       "legacy": {
         "originalData": {
@@ -480,8 +510,12 @@
       },
       "media": [],
       "tags": [
-        "orchestral music",
-        "contemporary music"
+        "Orchestra",
+        "Concert",
+        "Symphony",
+        "Violin",
+        "Opera",
+        "Kennedy Center"
       ],
       "legacy": {
         "originalData": {
@@ -539,8 +573,12 @@
       },
       "media": [],
       "tags": [
-        "opera performance",
-        "romantic era"
+        "Richard Wagner",
+        "Berkeley Opera",
+        "Wozzeck",
+        "The Ring",
+        "Bass",
+        "Performance"
       ],
       "legacy": {
         "originalData": {
@@ -598,7 +636,12 @@
       },
       "media": [],
       "tags": [
-        "music education"
+        "Bass",
+        "Wozzeck",
+        "Opera",
+        "Expression",
+        "Ives",
+        "Claude Debussy"
       ],
       "legacy": {
         "originalData": {
@@ -701,7 +744,12 @@
         }
       ],
       "tags": [
-        "opera performance"
+        "Heggie",
+        "Opera",
+        "Ives",
+        "Voice",
+        "Orchestra",
+        "Composition"
       ],
       "legacy": {
         "originalData": {
@@ -782,9 +830,12 @@
       },
       "media": [],
       "tags": [
-        "opera performance",
-        "classical period",
-        "romantic era"
+        "Classical",
+        "Heggie",
+        "Opera",
+        "Wozzeck",
+        "The Ring",
+        "Symphony"
       ],
       "legacy": {
         "originalData": {

@@ -4,27 +4,19 @@ import Link from "next/link";
 
 export interface TagsProps {
   tags: string[];
-  maxVisible?: number;
   variant?: "default" | "compact" | "medium" | "large";
-  showMoreText?: boolean;
   className?: string;
 }
 
 const Tags: React.FC<TagsProps> = ({
   tags,
-  maxVisible = 5,
   variant = "default",
-  showMoreText = true,
   className,
 }) => {
   if (!tags || tags.length === 0) {
     return null;
   }
-
-  const visibleTags = tags.slice(0, maxVisible);
-  const remainingCount = tags.length - maxVisible;
   const color1 = "bg-sky-600 text-white";
-  const color2 = "bg-sky-500 text-white";
 
   const getTagStyles = (variant: string) => {
     const baseStyles =
@@ -42,24 +34,9 @@ const Tags: React.FC<TagsProps> = ({
     }
   };
 
-  const getMoreTagStyles = (variant: string) => {
-    const baseStyles = "inline-block";
-
-    switch (variant) {
-      case "compact":
-        return `${baseStyles} px-3 py-1.5 text-sm font-medium ${color2} rounded-full`;
-      case "medium":
-        return `${baseStyles} px-3 py-1.5 text-sm font-medium ${color2} rounded-md`;
-      case "large":
-        return `${baseStyles} px-4 py-2 text-base font-medium ${color2} rounded-lg`;
-      default:
-        return `${baseStyles} px-3 py-1.5 text-sm font-medium ${color2} rounded-md`;
-    }
-  };
-
   return (
     <div className={`flex flex-wrap gap-2 ${className || ""}`}>
-      {visibleTags.map((tag, index) => (
+      {tags.map((tag, index) => (
         <Link
           key={index}
           href={`/search?q=${encodeURIComponent(tag)}`}
@@ -70,17 +47,6 @@ const Tags: React.FC<TagsProps> = ({
           {tag}
         </Link>
       ))}
-
-      {remainingCount > 0 && showMoreText && (
-        <Link
-          href={`/search?q=${encodeURIComponent(tags.join(" OR "))}`}
-          className={getMoreTagStyles(variant)}
-          title={`Search for all ${tags.length} tags`}
-          onClick={(e) => e.stopPropagation()}
-        >
-          +{remainingCount} more
-        </Link>
-      )}
     </div>
   );
 };

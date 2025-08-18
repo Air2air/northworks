@@ -132,6 +132,52 @@ class ContentAnalyzer:
         
         return text.strip()
 
+    def extract_musical_works(self, text: str) -> List[str]:
+        """Extract specific musical works, operas, symphonies from text"""
+        works = []
+        
+        # Common patterns for musical works
+        patterns = [
+            r'Symphony No\.\s*\d+',
+            r'Piano Concerto No\.\s*\d+',
+            r'Violin Concerto',
+            r'String Quartet',
+            r'Sonata',
+            r'Requiem',
+            r'Mass in',
+            r'The Marriage of Figaro',
+            r'Don Giovanni',
+            r'La Bohème',
+            r'Tosca',
+            r'Carmen',
+            r'La Traviata',
+            r'Rigoletto',
+            r'Il Trovatore',
+            r'Aida',
+            r'The Magic Flute',
+            r'The Ring',
+            r'Tristan und Isolde',
+            r'Parsifal',
+            r'Lohengrin',
+            r'Tannhäuser',
+            r'Der Rosenkavalier',
+            r'Salome',
+            r'Elektra',
+            r'Wozzeck',
+            r'Boris Godunov',
+            r'Eugene Onegin',
+            r'Swan Lake',
+            r'The Nutcracker',
+            r'Sleeping Beauty'
+        ]
+        
+        for pattern in patterns:
+            matches = re.findall(pattern, text, re.IGNORECASE)
+            for match in matches:
+                works.append(match.title())
+        
+        return list(set(works))  # Remove duplicates
+
     def extract_proper_nouns(self, text: str) -> Set[str]:
         """Extract potential proper nouns (capitalized words/phrases)"""
         # Find sequences of capitalized words
@@ -141,10 +187,22 @@ class ContentAnalyzer:
         pattern = r'\b[A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+)*\b'
         matches = re.findall(pattern, text)
         
+        # Common words to exclude (more comprehensive list)
+        exclude_words = {
+            'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'from',
+            'music', 'performance', 'concert', 'opera', 'symphony', 'orchestra', 'classical',
+            'artist', 'musician', 'singer', 'conductor', 'composer', 'pianist', 'violinist',
+            'review', 'interview', 'article', 'analysis', 'critique', 'commentary', 'biography',
+            'culture', 'arts', 'education', 'entertainment', 'show', 'event', 'season',
+            'program', 'repertoire', 'schedule', 'announcement', 'news', 'report'
+        }
+        
         for match in matches:
-            # Filter out common words that are often capitalized
-            if match.lower() not in {'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for'}:
-                proper_nouns.add(match)
+            # Filter out generic music terms and common words
+            if match.lower() not in exclude_words and len(match) > 3:
+                # Additional filtering for specific contexts
+                if not any(generic in match.lower() for generic in ['music', 'opera', 'symphony', 'concert']):
+                    proper_nouns.add(match)
         
         return proper_nouns
 
@@ -190,12 +248,23 @@ class ContentAnalyzer:
             if count > 0:
                 scores[f"concept_{term}"] = count
         
-        # 5. Score proper nouns (potential people, works, places)
+        # 5. Score proper nouns (potential people, works, places) - higher weight for specificity
         for noun in proper_nouns:
-            if len(noun) > 3:  # Filter very short words
-                scores[f"proper_{noun}"] = 2
+            if len(noun) > 4:  # Only longer, more specific terms
+                # Give higher scores to names that appear to be people or specific works
+                if any(indicator in noun.lower() for indicator in ['hall', 'center', 'opera', 'symphony']):
+                    scores[f"proper_{noun}"] = 4  # Venue-like proper nouns
+                elif len(noun.split()) > 1:  # Multi-word proper nouns (likely names or titles)
+                    scores[f"proper_{noun}"] = 3
+                else:
+                    scores[f"proper_{noun}"] = 2
         
-        # 6. Special scoring for content type
+        # 6. Extract and score specific musical works
+        musical_works = self.extract_musical_works(content_data['title'] + " " + content_data['content'])
+        for work in musical_works:
+            scores[f"work_{work}"] = 5  # High priority for specific works
+        
+        # 7. Special scoring for content type
         if content_type == 'interview':
             scores['concept_interview'] = 3
         elif content_type == 'review':
@@ -227,6 +296,8 @@ class ContentAnalyzer:
                 tag = term.title().replace('_', ' ')
             elif category == 'proper':
                 tag = term
+            elif category == 'work':
+                tag = term
             else:
                 tag = term.title()
             
@@ -245,19 +316,43 @@ class ContentAnalyzer:
             if tag not in final_tags and not self.is_similar_tag(tag, final_tags):
                 final_tags.append(tag)
         
-        # Ensure we have exactly 6 tags
-        while len(final_tags) < 6:
+        # If we don't have enough specific tags, try to extract more from proper nouns and content
+        if len(final_tags) < 6:
+            # Look for specific musical works, operas, symphonies
+            specific_works = self.extract_musical_works(content_data['title'] + " " + content_data['content'])
+            for work in specific_works:
+                if len(final_tags) >= 6:
+                    break
+                if work not in final_tags and not self.is_similar_tag(work, final_tags):
+                    final_tags.append(work)
+        
+        # If still not enough, use the most relevant proper nouns
+        if len(final_tags) < 6:
+            sorted_proper_nouns = sorted(proper_nouns, key=len, reverse=True)
+            for noun in sorted_proper_nouns:
+                if len(final_tags) >= 6:
+                    break
+                if noun not in final_tags and not self.is_similar_tag(noun, final_tags) and len(noun) > 4:
+                    final_tags.append(noun)
+        
+        # Only as last resort, add minimal generic tags
+        if len(final_tags) < 6:
+            specific_fallbacks = []
             if content_type == 'interview':
-                final_tags.extend(['Classical Music', 'Interview', 'Performance', 'Artist', 'Music', 'Biography'])
+                specific_fallbacks = ['Interview', 'Biography']
             elif content_type == 'review':
-                final_tags.extend(['Classical Music', 'Performance', 'Review', 'Concert', 'Music', 'Critique'])
+                specific_fallbacks = ['Review', 'Critique']
             elif content_type == 'article':
-                final_tags.extend(['Classical Music', 'Analysis', 'Music', 'Culture', 'Arts', 'Commentary'])
-            else:
-                final_tags.extend(['Classical Music', 'Music', 'Performance', 'Arts', 'Culture', 'Education'])
+                specific_fallbacks = ['Analysis', 'Commentary']
             
-            # Remove duplicates and trim to 6
-            final_tags = list(dict.fromkeys(final_tags))[:6]
+            for fallback in specific_fallbacks:
+                if len(final_tags) >= 6:
+                    break
+                if fallback not in final_tags:
+                    final_tags.append(fallback)
+        
+        # Remove duplicates and ensure exactly 6 tags
+        final_tags = list(dict.fromkeys(final_tags))[:6]
         
         return final_tags[:6]
 

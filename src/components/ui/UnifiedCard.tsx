@@ -287,7 +287,6 @@ export default function UnifiedCard({
         <div className="mt-3">
           <Tags 
             tags={item.tags} 
-            maxVisible={config.size === 'small' ? 3 : 5} 
             variant={config.size === 'small' ? 'compact' : 'medium'} 
           />
         </div>
@@ -300,9 +299,9 @@ export default function UnifiedCard({
   // ===============================================
 
   const renderContent = () => {
-    // SIMPLIFIED: Always use horizontal layout
+    // FLEX LAYOUT: Use flex-1 to fill available card height
     return (
-      <div className="flex h-full">
+      <div className="flex flex-1">
         <ImageSection />
         <ContentSection />
       </div>
@@ -314,7 +313,7 @@ export default function UnifiedCard({
   // ===============================================
 
   const cardContent = (
-    <div className="h-full">
+    <div className="flex-1 flex flex-col">
       {renderContent()}
     </div>
   );
@@ -327,7 +326,7 @@ export default function UnifiedCard({
   if (config.clickable && isInternalUrl) {
     return (
       <article className={cardClasses}>
-        <Link href={url} className="block h-full">
+        <Link href={url} className="flex-1 flex flex-col">
           {cardContent}
         </Link>
       </article>
@@ -341,7 +340,7 @@ export default function UnifiedCard({
           href={url} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="block h-full"
+          className="flex-1 flex flex-col"
         >
           {cardContent}
         </a>
@@ -419,9 +418,9 @@ function getTypeIcon(type: ContentType) {
 }
 
 function getCardClasses(config: Required<CardDisplayOptions>, className: string): string {
-  // SIMPLIFIED: Consistent card styling without complex responsive variants
+  // FLEXIBLE HEIGHT: Use flex with minimum height to allow dynamic expansion
   return [
-    "bg-white rounded-lg shadow-md overflow-hidden min-h-32",
+    "bg-white rounded-lg shadow-md overflow-hidden min-h-48 flex flex-col",
     config.hoverable ? "hover:shadow-lg transition-shadow" : "",
     config.clickable ? "cursor-pointer" : "",
     className
@@ -429,8 +428,8 @@ function getCardClasses(config: Required<CardDisplayOptions>, className: string)
 }
 
 function getImageClasses(config: Required<CardDisplayOptions>): string {
-  // SIMPLIFIED: Always use consistent horizontal layout
-  return "relative overflow-hidden flex-shrink-0 w-32 h-32 rounded-l-lg";
+  // FULL HEIGHT: Image expands to fill the available height of the flex container
+  return "relative overflow-hidden flex-shrink-0 w-40 mr-4 self-stretch rounded-lg";
 }
 
 function getContentClasses(config: Required<CardDisplayOptions>): string {

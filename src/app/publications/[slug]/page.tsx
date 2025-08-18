@@ -103,7 +103,6 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
           <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
           <Tags 
             tags={(frontmatter as any).tags} 
-            maxVisible={10} 
             variant="compact"
           />
         </div>

@@ -9,7 +9,6 @@ images:
 publication:
   date: 2003-02-04
   publisher: ANG Newspapers Classical Music Column
-
 title: Cheryl North Interviews Arcadi Volodos
 type: interview
 tags:

@@ -1,6 +1,11 @@
 ---
 conversion date: 2025-08-13
 id: c-ventris
+images:
+  - src: /images/thm-ventris.jpg
+    alt: c-ventris
+    width: 160
+    height: 200
 publication:
   date: 2004-04-16
   publisher: ANG Newspapers Classical Music Column
@@ -13,16 +18,7 @@ tags:
   - Salome
   - The Ring
   - Parsifal
----sion date: 2025-08-13
-id: c-ventris
-publication:
-images:
-  - src: /images/thm-ventris.jpg
-    alt: c-ventris
-    width: 160
-    height: 200
-title: Cheryl North Interviews Christopher Ventris
-type: interview
+
 ---
 Christopher Ventris has taken a few unconventional turns along his path
 toward a major operatic career. The London-born tenor is currently in San Francisco for his U.S. debut singing the title role in the San Francisco

@@ -1,6 +1,11 @@
 ---
 conversion date: 2025-08-13
 id: c-goode
+images:
+  - src: /images/thm-gooderichard.jpg
+    alt: c-goode
+    width: 150
+    height: 215
 publication:
   date: 2003-01-31
   publisher: ANG Newspapers Classical Music Column
@@ -13,16 +18,7 @@ tags:
   - Concert
   - Frédéric Chopin
   - Wolfgang Amadeus Mozart
----sion date: 2025-08-13
-id: c-goode
-publication:
-images:
-  - src: /images/thm-gooderichard.jpg
-    alt: c-goode
-    width: 150
-    height: 215
-title: Cheryl North Interviews Richard Goode
-type: interview
+
 ---
 Genius can pop up in unlikely places. Sometimes a rather extraordinary plant sprouts in the middle of a very ordinary flower garden -- or even amidst a field of weeds. At first it might not differ much from its neighbors. But as time passes, it begins to differentiate from the rest and metamorphoses into an unsolicited blossom of unique beauty.
 
@@ -36,7 +32,6 @@ During an interview in the lunch room of a Berkeley hotel last week, Goode talke
 Nonetheless, he was started on piano lessons at age six. It was not until he was in his mid-teens that he played his first solo concert, which included Beethoven's *Pathetique* Sonata. Although he didn't win any flashy international piano competitions in his youth, he did play for the legendary pianist, Rudolf Serkin, after which Serkin invited him to participate in the Marlboro Music Festival in Vermont for several summers. Subsequently, Goode was so enamored with music and the piano, that he continued music study at the Mannes College of Music in New York, and eventually, at Curtis Institute of Music, where once again, he came under Serkin's influence.
 'It just seemed the best thing going,' he said with diffident shrug.
 
-![](/images/richard-goode.jpg)
 
 Because of his shyness about being in the limelight, Goode's initial concert appearances tended to be as a member of a chamber group or as an accompanist. He was 47 before he gave his first solo recital in Carnegie Hall. He made his first public excursion through the complete cycle of Beethoven piano sonatas during a series of concerts at New York City's 92nd Street Y in 1987 and 1988. In 1993, Nonesuch Records released his 10-CD Beethoven set, the first ever by an American-born pianist. He has since won a Grammy for his recording with clarinetist Richard Stoltzman and has an extensive discography that includes Bach Partitas, Chopin, a series of Mozart piano concerti, Brahms, Schubert, Schumann, and smattering of moderns.
 

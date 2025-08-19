@@ -1,6 +1,11 @@
 ---
 conversion date: 2025-08-13
 id: c-villazon
+images:
+  - src: /images/thm-villazon.jpg
+    alt: c-villazon
+    width: 160
+    height: 200
 publication:
   date: 2004-04-30
   publisher: ANG Newspapers Classical Music Column
@@ -13,16 +18,7 @@ tags:
   - Violin Concerto
   - La Traviata
   - Ives
----sion date: 2025-08-13
-id: c-villazon
-publication:
-images:
-  - src: /images/thm-villazon.jpg
-    alt: c-villazon
-    width: 160
-    height: 200
-title: Cheryl North Interviews Rolando Villazon
-type: interview
+
 ---
 Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's La Traviata, has lived a life full of "Eureka!" moments.
 

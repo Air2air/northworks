@@ -1,6 +1,11 @@
 ---
 conversion date: 2025-08-13
 id: c-lieberson
+images:
+  - src: /images/lorraine-hunt-lieberson.jpg
+    alt: c-lieberson
+    width: 160
+    height: 200
 publication:
   date: 2003-05-30
   publisher: ANG Newspapers Classical Music Column
@@ -13,16 +18,7 @@ tags:
   - Carmen
   - Orchestra
   - Symphony
----sion date: 2025-08-13
-id: c-lieberson
-publication:
-images:
-  - src: /images/lorraine-hunt-lieberson.jpg
-    alt: c-lieberson
-    width: 160
-    height: 200
-title: Cheryl North Interviews Lorraine Hunt Lieberson
-type: interview
+
 ---
 During a telephone interview a couple of years ago, mezzo-soprano Lorraine Hunt Lieberson, now extravagantly praised for her vocal performances throughout the world, revealed that it was not her voice that initially propelled her into a musical career, but rather, the viola.
 

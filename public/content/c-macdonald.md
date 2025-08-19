@@ -15,8 +15,6 @@ tags:
   - Performance
 ---
 
-### **Cheryl North Interviews Audra McDonald prior to her performance at a special concert with the San Francisco Symphony, April 26, 2010**
-
 Material from a Classical Music Column for the Preview Section, Bay Area News Group, April 16, 2010
 
 If both your grandmothers were piano teachers, five of your aunts toured singing gospel music as "The McDonald Sisters," your mother was highly musical, and you dad played trombone, drums and piano, it's more than a little likely that you too will have music in your blood.

@@ -2,14 +2,22 @@
 conversion date: 2025-08-13
 id: c-cleve
 images:
+  - src: /images/cleve-george.jpg
+    alt: c-cleve
 publication:
   date: 2009-07-03
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
   Festival
 type: interview
+tags:
+  - Wolfgang Amadeus Mozart
+  - Orchestra
+  - Concert
+  - Violin
+  - Conducting
+  - Opera
 ---
-
 It's well known that Austrian-born Wolfgang Amadeus Mozart (1756-1791) exhibited astonishing musical ability during very early childhood. But then, so did Austrian-born George Wolfgang Cleve almost two centuries later. Cleve sang before he spoke.
 
 His parents and other witnesses staunchly maintained that the little toddler shocked them all by suddenly singing out the tune to the famous German folk song, *Kommt ein Vogel geflogen*, from the confines of his playpen. His initial audience was limited to family in Vienna; today, Cleve has an audience that extends throughout the world.

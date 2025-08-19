@@ -7,6 +7,16 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Different sort of 40s tunes from National Symphony
 type: article
+tags:
+  - National Symphony Orchestra
+  - Leonard Slatkin
+  - American Music
+  - 1940s Music
+  - Erich Korngold
+  - Violin Concerto
+  - Virgil Thomson
+  - Paul Creston
+
 ---
 
 FUNNY thing, time. What was once new and exciting often becomes old and ' uh, well ' dull. But if you wait just a few more years, the tables turn and the old and dull take on a new sense of chic, and sometimes, even distinct value.

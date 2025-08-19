@@ -1,13 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import PageLayout from '@/components/layouts/PageLayout';
-import PageTitle from '@/components/ui/PageTitle';
-import PublicationInfo from '@/components/ui/PublicationInfo';
-import ImageGallery from '@/components/ImageGallery';
-import Tags from '@/components/ui/Tags';
-import { cleanTitle } from '@/lib/pathUtils';
-import { formatDate } from '@/lib/dateUtils';
+import ContentDetailLayout from '@/components/layouts/ContentDetailLayout';
 import type { Metadata } from 'next';
 
 // Map routes to content types
@@ -133,7 +126,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const frontmatter = contentData.frontmatter as any;
-  const title = cleanTitle(frontmatter.title);
+  const title = frontmatter.title;
   
   // Create contextual description
   const getDescription = (type: string, fm: any) => {
@@ -207,107 +200,14 @@ export default async function UniversalContentPage({ params }: PageProps) {
   }
 
   const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
-  const frontmatter = contentData.frontmatter as any; // Use any to handle different frontmatter types
-
-  // Create breadcrumbs dynamically
-  const breadcrumbs = [{ label: "Home", href: "/", active: false }];
-
-  if (breadcrumbConfig.grandParentPath && breadcrumbConfig.grandParentLabel) {
-    breadcrumbs.push({
-      label: breadcrumbConfig.grandParentLabel,
-      href: breadcrumbConfig.grandParentPath,
-      active: false,
-    });
-  }
-
-  breadcrumbs.push({
-    label: breadcrumbConfig.parentLabel,
-    href: breadcrumbConfig.parentPath,
-    active: false,
-  });
-
-  breadcrumbs.push({
-    label: cleanTitle(frontmatter.title),
-    href: `${breadcrumbConfig.parentPath}/${itemSlug}`,
-    active: true,
-  });
-
-  // Dynamic publication section labels
-  const getPublicationLabel = (type: string) => {
-    return type === "interview"
-      ? "Publication Info"
-      : "Publication Information";
-  };
-
-  // Get appropriate tags field - using JSON tags exclusively (data corruption will be fixed separately)
-  const getTagsField = (frontmatter: any, type: string) => {
-    // Use tags field from JSON data (unified approach)
-    if (frontmatter.tags) return frontmatter.tags;
-    if (frontmatter.keywords) return frontmatter.keywords;
-    return [];
-  };
-
-  // Get appropriate tags label based on content type
-  const getTagsLabel = (type: string) => {
-    if (type === "interview") return "People Interviewed";
-    if (type === "article") return "Subjects";
-    if (type === "review") return "Performance Details";
-    if (type === "professional") return "Areas of Expertise";
-    if (type === "publication") return "Keywords";
-    return "Tags";
-  };
-
-  const tags = getTagsField(frontmatter, contentType);
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
-      <article>
-        {/* Header */}
-        <PageTitle title={frontmatter.title} size="medium" align="left" />
-
-        {/* Publication Information */}
-        {frontmatter.publication && (
-          <PublicationInfo
-            date={frontmatter.publication.date ? formatDate(frontmatter.publication.date) : null}
-            publication={frontmatter.publication.outlet || frontmatter.publication.publisher}
-            section={frontmatter.publication.section}
-            author={frontmatter.publication.author}
-            title={getPublicationLabel(contentType)}
-          />
-        )}
-
-        {/* Tags */}
-        {tags && tags.length > 0 && (
-          <div className="mb-6">
-            {/* <h3 className="text-sm font-semibold text-gray-900 mb-2">
-              {getTagsLabel(contentType)}
-            </h3> */}
-            <Tags tags={tags} variant="medium" />
-          </div>
-        )}
-
-        {/* Images */}
-        {frontmatter.images && frontmatter.images.length > 0 && (
-          <div className="mb-8">
-            <ImageGallery images={frontmatter.images} />
-          </div>
-        )}
-
-        {/* Content */}
-        <div className="prose prose-lg max-w-none">
-          <MDXRemote source={contentData.content} />
-        </div>
-
-        {/* Back Navigation */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <a
-            href={breadcrumbConfig.parentPath}
-            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
-          >
-            ← Back to {breadcrumbConfig.parentLabel}
-          </a>
-        </div>
-      </article>
-    </PageLayout>
+    <ContentDetailLayout
+      frontmatter={contentData.frontmatter}
+      content={contentData.content}
+      slug={itemSlug}
+      contentType={contentType}
+      breadcrumbConfig={breadcrumbConfig}
+    />
   );
 }

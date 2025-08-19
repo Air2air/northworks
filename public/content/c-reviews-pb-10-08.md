@@ -8,6 +8,13 @@ publication:
   publisher: Oakland Tribune
 title: Philharmonia Baroque Revisits J. S. Bach
 type: review
+tags:
+  - Johann Sebastian Bach
+  - Orchestra
+  - Baroque
+  - Concert
+  - Oboe
+  - Flute
 ---
 
 Two hundred fifty-eight years have passed since the world lost, and Heaven no doubt gained, one of Western culture's most monumental treasurers - composer Johann Sebastian Bach.

@@ -7,6 +7,13 @@ publication:
   publisher: Oakland Tribune
 title: Reviews Collection
 type: review
+tags:
+  - Symphony
+  - Opera
+  - Concert
+  - Gustav Mahler
+  - Orchestra
+  - Classical
 ---
 
 ***

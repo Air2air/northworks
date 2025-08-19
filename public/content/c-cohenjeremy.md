@@ -2,14 +2,23 @@
 conversion date: 2025-08-13
 id: c-cohenjeremy
 images:
+  - src: /images/jeremy-cohen.jpg
+    alt: c-cohenjeremy
+    width: 200
+    height: 250
 publication:
   date: 2002-01-11
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Jeremy Cohen
 type: interview
+tags:
+  - Violin
+  - Jazz
+  - Bass
+  - Orchestra
+  - Symphony
+  - Concert
 ---
-
-
 On October 5, 1957, a lot of people on the planet were mesmerized by Russia's succesful launch of Sputnik, the first man-made object to be set into orbit around the earth. But for Mr. and Mrs. Cohen of Oakland, an earthbound event on the next day, October 6, eclipsed even Sputnik. That was the day their third son, Jeremy, was born. Now, 44 years later, it has become a day that aficionados of jazz violin and country fiddling have come to appreciate.
 
 Cohen, the youngest of the musical Cohens' three very musical sons (his brother Joel is a cellist with the Boston Symphony, while brother Joshua plays both double bass and violin with various chamber ensembles in the Bay Area), has become the heir of such jazz violin legends as Joe Venuti, Eddie South, and the great Stephane Grappelli. Yet, listed among his favorite teachers is none other than the great classical violinist Itzhak Perlman. Not exclusive in his musical tastes, when Cohen is not playing jazz or country music, he might be performing as the concertmaster in touring musicals such as the recent San Francisco performances of *Fiddler on the Roof*, *The Phantom of the Opera*; or *Forever Tango*. Or, he might be sighted playing Mahler among the strings of the San Francisco Symphony where he is an occasional substitute, or simply jamming it up with a few colleagues gathered in someone's living room playing Messiaen's *Quartet for the End of Time.*
@@ -18,7 +27,6 @@ Cohen's next public performance will be as guest soloist with the Peninsula Symp
 
 The concert is entitled "Jazz and Richard Rodgers," since 2002 is the 100th anniversary of the late Rodgers' birth. As a fitting tribute to the American master, Cohen was commissioned to write a special new work for violin and orchestra, "Rodgers without Hammerstein," which will receive its world premiere during the upcoming concerts. Other works on the program will be orchestral renditions of the Overture to Rodgers and Hammerstein's *South Pacific*; *Carousel Waltz*; and *Slaughter on 10th Avenue*.
 
-*
 
 Following the intermission, Cohen and his Trio, consisting of Don Turney, piano; Dix Bruce, guitar; and Jim Kerwin, bass, will combine to perform Black Gypsy*; an Ellington Medley; *Wild Dog*; *Sweet Georgia Brown*, and the wildly successful *Jeremy's Hot Fiddle Soup.* (Cohen loves to cook, as well as to ski, snorkle, and more, in his spare time).
 

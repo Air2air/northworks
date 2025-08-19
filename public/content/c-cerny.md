@@ -1,13 +1,23 @@
 ---
 id: c-cerny
 images:
+  - src: /images/thm-cerny.jpg
+    alt: c-cerny
+    width: 200
+    height: 300
 publication:
   date: 2010-04-30
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera
 type: interview
+tags:
+  - Heggie
+  - Opera
+  - Piano
+  - Voice
+  - Giacomo Puccini
+  - Conducting
 ---
-
  Opera lovers living in the
 "Lone Star" state of Texas ought to be thanking all their lucky stars these days for the super nova energy shining on them from the San Francisco Bay Area.
 
@@ -51,7 +61,6 @@ type: interview
 
  So, thanks to our own Bay Area, "The stars at night/Are big and bright/Deep in the heart of Texas!"
 
-![](/images/cerny-dallas.jpg)
 
 Keith Cerny at the Dallas Opera
 

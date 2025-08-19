@@ -2,15 +2,24 @@
 conversion date: 2025-08-13
 id: c-reviews-pavarotti
 images:
-
+  - src: /images/pavarotti.jpg
+    alt: c-reviews-pavarotti
+    width: 185
+    height: 250
 publication:
   author: Cheryl North
   date: 1994-04-08
   publisher: Oakland Tribune
 title: Selling the Audience Short
 type: review
+tags:
+  - Giacomo Puccini
+  - Johann Sebastian Bach
+  - Orchestra
+  - Voice
+  - Giuseppe Verdi
+  - Gershwin
 ---
-
 How would you feel about paying a hefty sum to hear legendary pianist Van Cliburn play a toy piano with only about 10 working notes? Or pay big bucks to hear world-class flutist Jean-Pierre Rampal play a penny whistle? Or see Van Gogh's Sunflowers on a dark night in a large room packed with people and lit only by a single candle?
 
 That's about how it felt to hear and see super tenor Luciano Pavarotti, as he performed before an estimated 17,000 admirers at the San Jose Arena Wednesday night.

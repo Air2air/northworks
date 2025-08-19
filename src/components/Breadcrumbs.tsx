@@ -39,7 +39,7 @@ export default function Breadcrumbs({ items, maxWidth = '200px' }: BreadcrumbsPr
               ) : (
                 <Link
                   href={item.href}
-                  className="ml-1 md:ml-2 text-sm font-medium text-sky-600 hover:text-sky-800 flex-shrink-0"
+                  className="ml-1 md:ml-2 text-sm font-medium text-sky-600 hover:text-sky-800 flex-shrink-0 no-underline"
                 >
                   {item.label}
                 </Link>

@@ -2,14 +2,23 @@
 conversion date: 2025-08-13
 id: c-braun-russell
 images:
+  - src: /images/russell-braun.jpg
+    alt: c-braun-russell
+    width: 160
+    height: 200
 publication:
   date: 2004-12-02
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Russell Braun
 type: interview
+tags:
+  - Opera
+  - Piano
+  - Gustav Mahler
+  - Franz Schubert
+  - Eugene Onegin
+  - Lieder
 ---
-
-
 Can a genuinely dedicated family man be a major world-class opera singer?
 
  If it's baritone Russell Braun you're talking about, the answer is an emphatic yes.
@@ -30,7 +39,6 @@ Can a genuinely dedicated family man be a major world-class opera singer?
 
  At age 39, Russell is 6'2" tall and is built like a football player, although he swears that he has never played the game "is not a jock." Instead, he loves hiking about in the snow, painting and sculpting, as well as music. He has a shock of dark curly hair, a friendly, relaxed manner, and a face that seems as though it could never frown.
 
-*
 
  "I love Toronto's cold snowy weather," he said. "Last January and February there was tons of snow on the ground at home. I went out in the thick of it and started building a huge igloo. It was around 20 degrees below zero Centigrade, but I loved it. I even went out on a midnight run to gather snow from neighboring yards for my building project," he said as he flashed an ever broadening smile.
 

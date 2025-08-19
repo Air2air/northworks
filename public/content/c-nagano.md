@@ -1,14 +1,29 @@
 ---
 conversion date: 2025-08-13
 id: c-nagano
-images:
 publication:
-  date: 2001-08-31
+  date: 2003-10-24
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Kent Nagano
 type: interview
+tags:
+  - Orchestra
+  - Franz Schubert
+  - Symphony
+  - Gustav Mahler
+  - Concert
+  - Lohengrin
+---sion date: 2025-08-13
+id: c-nagano
+publication:
+images:
+  - src: /images/thm-nagano.jpg
+    alt: c-nagano
+    width: 160
+    height: 160
+title: Cheryl North Interviews Kent Nagano
+type: interview
 ---
-
 The conductor of the prestigious Deutsches Symphonie-Orchester Berlin as well as the Associate Principal Guest Conductor of the London Symphony,and the Principal Guest Conductor of the Los Angeles Opera will conduct the Berkeley Symphony Orchestra when it opens its 2001-2002 season on September 24.
 
 Just HOW did the modestly sized, and even more modestly funded, BSO land such a milestone musical coup?

@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import { mdxOptions, mdxComponents } from '@/lib/mdxConfig';
 import PageLayout from './PageLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import PublicationInfo from '@/components/ui/PublicationInfo';
@@ -130,29 +131,30 @@ export default function ContentDetailLayout({
           {/* Tags */}
           {tags && tags.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-sm font-semibold text-sky-900 mb-2">{getTagsLabel(contentType)}</h3>
               <Tags tags={tags} variant="medium" />
             </div>
           )}
         </header>
 
-        {/* Images */}
-        {frontmatter.images && frontmatter.images.length > 0 && (
-          <div className="mb-8">
-            <ImageGallery images={frontmatter.images} />
-          </div>
-        )}
-
-        {/* Content */}
+        {/* Content with inline images */}
         <div className="prose prose-lg max-w-none">
-          <MDXRemote source={content} />
+          {/* Frontmatter images - floated inline at top of content */}
+          {frontmatter.images && frontmatter.images.length > 0 && (
+            <ImageGallery images={frontmatter.images} inline={true} />
+          )}
+          
+          <MDXRemote 
+            source={content}
+            options={mdxOptions}
+            components={mdxComponents}
+          />
         </div>
 
         {/* Back Navigation */}
         <div className="mt-12 pt-8 border-t border-sky-200">
           <a
             href={breadcrumbConfig.parentPath}
-            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
+            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors no-underline"
           >
             ← Back to {breadcrumbConfig.parentLabel}
           </a>

@@ -1,14 +1,29 @@
 ---
 conversion date: 2025-08-13
 id: c-sarah-chang
-images:
 publication:
-  date: 2007-01-12
-  publisher: ANG Newspapers Classical Music
+  date: 2004-01-23
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Sarah Chang
+type: interview
+tags:
+  - Violin
+  - Concert
+  - Shostakovich
+  - Orchestra
+  - Voice
+  - Symphony
+---sion date: 2025-08-13
+id: c-sarah-chang
+publication:
+images:
+  - src: /images/thm-chang.jpg
+    alt: c-sarah-chang
+    width: 100
+    height: 124
 title: Cheryl North Interviews Sarah Chang
 type: interview
 ---
-
 What sort of person would you expect to have such books as John McClaren's Running Rings , The Memoirs of Dmitri Shostakovich and The Guide to Finding the Perfect Handbag on his or her current reading list?
 
 A fashionista? A historian specializing in the history of the Soviet Union? A person with a million frequent flier miles?

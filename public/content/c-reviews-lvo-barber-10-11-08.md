@@ -1,12 +1,19 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-lvo-barber-10-08
+id: c-reviews-lvo-barber-10-11-08
 images:
 publication:
-  date: 2008-10-11
-  publisher: Bay Area News Group
-title: Livermore Valley Opera Performance of Giacomo Rossini's The Barber of Seville
+  date: 2008-10-24
+  publisher: Bay Area News Group Classical Music Column
+title: Livermore Valley Opera's Il Barbiere di Siviglia
 type: review
+tags:
+  - Barber
+  - Rossini
+  - Orchestra
+  - Opera
+  - Performance
+  - Even Lindoro
 ---
 
 For anyone looking for a break from the grim economic news, I can think of no better remedy than to take in one of the four remaining performances of the Livermore Valley Opera's jolly production of Rossini's _The Barber of Seville_ continuing this week in that city's impressive two-year-old Bankhead Theater. Such a break could seem more like a holiday.

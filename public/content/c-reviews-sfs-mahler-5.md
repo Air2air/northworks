@@ -1,13 +1,19 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-sfsmahler5
+id: c-reviews-sfs-mahler-5
 images:
 publication:
-  author: Cheryl North
-  date: 2005-09-28
+  date: 2005-05-27
   publisher: Oakland Tribune, Alameda Newspaper Group
-title: When MTT's S.F. Symphony Meets Mahler, Sparks Fly
+title: San Francisco Symphony's Mahler Symphony No. 5
 type: review
+tags:
+  - Gustav Mahler
+  - Symphony
+  - Performance
+  - When MTTs
+  - Michael Tilson Thomas
+  - San Francisco
 ---
 
 THE RELATIONSHIP between San Francisco Symphony conductor Michael Tilson Thomas with the music of Gustav Mahler is much like the relationship between flint and steel. When the two get together, things heat up and sparks fly. It's happened before and it happened again when MTT stepped in front of the massed army of San Francisco Symphony musicians on Davies Symphony Hall's stage Wednesday evening in San Francisco.

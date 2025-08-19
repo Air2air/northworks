@@ -1,13 +1,20 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-oebs-bernsteinmass
+id: c-reviews-oebs-bernstein-mass
 images:
 publication:
   author: Cheryl North
-  date: 2005-05-20
-  publisher: Oakland Tribune,Alameda Newspaper Group
-title: Oakland East Bay Symphony Performance of Leonard Bernstein's Mass, Michael Morgan Conducting
+  date: 2009-12-14
+  publisher: Bay Area News Group
+title: Oakland East Bay Symphony's Bernstein Mass
 type: review
+tags:
+  - Bernstein
+  - Organ
+  - Mass
+  - Voice
+  - Choir
+  - Symphony
 ---
 
 Are heroes extinct? Their species on planet earth has seemed alarmingly sparse since the turn of the 21st century.

@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-hvorostovsky
 images:
+  - src: /images/hvorostovsky.jpg
+    alt: Russian Baritone Wholeheartedly Embraces his "Boccanegra" Role
+    width: 554
+    height: 300
 publication:
   date: 2008-08-29
   publisher: Bay Area News Group Classical Music Column
 title: Russian Baritone Wholeheartedly Embraces his "Boccanegra" Role
 type: interview
+tags:
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Voice
+  - Opera
+  - Piano
+  - Gershwin
 ---
-
 Seated in the single chair in front of the security man's cubicle in the lonely lobby of the Zellerbach rehearsal area in Davies Symphony Hall, I had almost given up the possibility of an interview with grand opera's gold medal-level baritone, Dmitri Hvorostovsky. Communication problems and hours of phone tag had stretched the time for our prospective interview from 2:30 p.m. on into the early evening.
 
 The great singer is in town with his beautiful Italian-born wife, Florence, their 4-year-old son, Maxim, and 10-month-old daughter, Nina, to begin rehearsals for his starring role in San Francisco Opera's gala opening night and subsequent productions of Giuseppe Verdi's great 1857 opera, "Simon Boccanegra."

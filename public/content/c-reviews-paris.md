@@ -7,6 +7,13 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Review of the Orchestre de Paris, Benefit Concert for the Mahler Library
 type: review
+tags:
+  - Gustav Mahler
+  - Stravinsky
+  - Brass
+  - Concert
+  - Symphony No. 10
+  - Performing Arts Centers
 ---
 
 Dateline: Paris. As I step out of my hotel room, I am surrounded by a melange of unfamiliar, nasal-sounding words. They buzz about my ears as I stroll about picturesque boulevards dotted with sidewalk cafes, colorful kiosks, and falling autumn leaves. But last Tuesday evening, after taking my seat in the understated, but nonetheless beautifully refurbished Theatre du Chatelet, I heard sounds that made me feel right at home. I was no longer in a foreign land.

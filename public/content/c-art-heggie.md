@@ -7,6 +7,16 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Composer Heggie keeps seeking higher ground
 type: article
+tags:
+  - Jake Heggie
+  - Composer
+  - Opera
+  - Seeking Higher Ground
+  - To Hell and Back
+  - Dead Man Walking
+  - The End of the Affair
+  - Pacific Chorale
+
 ---
 
 THE marriage of words and music, and the way this union can tell the whole story — including that which is not

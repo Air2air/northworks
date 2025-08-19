@@ -1,12 +1,19 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-sfsymphcarnegie
+id: c-reviews-sfs-carnegie
 images:
 publication:
-  date: 2001-02-23
-  publisher: Classical Music Column for ANG Newspapers Cue Sections
-title: San Francisco Symphony takes Carnegie Hall by Storm
+  date: 2005-05-13
+  publisher: Oakland Tribune, Alameda Newspaper Group
+title: San Francisco Symphony at Carnegie Hall
 type: review
+tags:
+  - Carnegie Hall
+  - Orchestra
+  - San Francisco Symphony
+  - Gustav Mahler
+  - Symphony No. 10
+  - Flute
 ---
 
 New York City audiences, according to popular wisdom, are notoriously tough critics. And New York audiences accustomed to hearing the creme de la creme of the world's musicians in their own venerable Carnegie Hall are probably the pickiest of the lot.

@@ -8,6 +8,13 @@ title: Die Walküre at San Francisco Opera, 2010
   Cheryl North Interviews Mark Delavan (Wotan) and Nina Stemme (Brünnhilde) about
   the 2010 San Francisco Opera Production of Die Walküre
 type: interview
+tags:
+  - Richard Wagner
+  - Opera
+  - Voice
+  - The Ring
+  - Horn
+  - Choir
 ---
 
 How do you portray a god?

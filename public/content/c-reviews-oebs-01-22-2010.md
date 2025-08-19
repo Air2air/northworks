@@ -8,6 +8,13 @@ publication:
   publisher: Contra Costa Times, Oakland Tribune
 title: Oakland East Bay Symphony Armenia Concert, Michael Morgan conducting
 type: review
+tags:
+  - Organ
+  - Violin
+  - Orchestra
+  - Concert
+  - Wolfgang Amadeus Mozart
+  - Symphony
 ---
 
 Armenian-Siberian violinist Mikhail Simonyan strode onto Oakland's Paramount Theatre stage last Friday evening, tucked his violin under his chin, and proceeded unabashedly to win over his capacity audience with his exposition of the fascinating beauty and intensity of the music of Armenia.

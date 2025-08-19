@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-lang-lang
 images:
+  - src: /images/langcherie09.jpg
+    alt: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
+    width: 212
+    height: 212
 publication:
-  date: 2009-09-09
-  publisher: Bay Area News Group Classical Music Column
-title: Lang Lang performance at the Opening Concert of the San Francisco Symphony, September 9, 2009
+  date: 2003-05-16
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Lang Lang
 type: interview
+tags:
+  - Piano
+  - Prokofiev
+  - Performance
+  - San Francisco Symphony
+  - Concert
+  - Franz Liszt
 ---
-
 If Roman philosopher Seneca's assertion that "art imitates nature" (or life) is true, then one could be well on the way to understanding the sometimes startling extremes in Chinese pianist Lang Lang's piano playing.
 
 At 8:30 p.m. Wednesday, Lang will be welcomed on San Francisco's Davies Hall stage to perform Sergei Prokofiev's thrilling Piano Concerto No. 3 under the baton of Maestro Michael Tilson Thomas for the San Francisco Symphony's 2009-2010 season-opening gala. Additional works on the program will be Liszt's Mephisto Waltz No. 1, Ravel's La Valse and Richard Rodgers' Carousel Waltz.

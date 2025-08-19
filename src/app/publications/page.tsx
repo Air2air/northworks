@@ -23,7 +23,7 @@ export default function PublicationsIndexPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Warner', href: '/warner', active: false },
+    { label: 'D. Warner North', href: '/warner', active: false },
     { label: 'Publications', href: '/publications', active: true }
   ];
 

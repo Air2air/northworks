@@ -6,6 +6,13 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010
 type: interview
+tags:
+  - Voice
+  - San Francisco Symphony
+  - Piano
+  - Classical
+  - Sonata
+  - Performance
 ---
 
 ### **Cheryl North Interviews Audra McDonald prior to her performance at a special concert with the San Francisco Symphony, April 26, 2010**

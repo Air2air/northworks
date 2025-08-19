@@ -1,12 +1,19 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-sfo-simonboc-9-08
+id: c-reviews-sfo-simonboc-09-05-2008
 images:
 publication:
   date: 2008-09-05
-  publisher: Bay Area News Group
-title: San Francisco Opera Opening Night Performance of Verdi's Simon Boccanegra
+  publisher: Bay Area News Group Classical Music Column
+title: San Francisco Opera's Simon Boccanegra
 type: review
+tags:
+  - Giuseppe Verdi
+  - Opera
+  - Bass
+  - Performance
+  - Michael Yeargan
+  - Tenor Marcus Haddock
 ---
 
 [Note: A shortened review was used in the newspapers, and a somewhat longer version ran on the Inside Bay Area website. This version includes both, plus restoring a few words cut or changed from the text orignally submitted.]

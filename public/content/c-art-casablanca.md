@@ -7,6 +7,13 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca
 type: article
+tags:
+  - Opera
+  - Carter
+  - Premiere
+  - Orchestra
+  - Bass
+  - Wolfgang Amadeus Mozart
 ---
 
 Richard Kagey, the stage director for the Merola Opera Program's upcoming world premiere of Thomas Pasatieri's new opera, *Hotel Casablanca*, was hand-picked for the job by the composer himself. Nice distinction.

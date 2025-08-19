@@ -326,7 +326,7 @@ export default function UnifiedCard({
   if (config.clickable && isInternalUrl) {
     return (
       <article className={cardClasses}>
-        <Link href={url} className="flex-1 flex flex-col">
+        <Link href={url} className="flex-1 flex flex-col no-underline">
           {cardContent}
         </Link>
       </article>
@@ -340,7 +340,7 @@ export default function UnifiedCard({
           href={url} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="flex-1 flex flex-col"
+          className="flex-1 flex flex-col no-underline"
         >
           {cardContent}
         </a>

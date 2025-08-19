@@ -2,14 +2,23 @@
 conversion date: 2025-08-13
 id: c-assink
 images:
+  - src: /images/assink.jpg
+    alt: c-assink
+    width: 112
+    height: 150
 publication:
   date: 2005-10-28
   publisher: ANG Newspapers Classical Music Column
 title: Interview with Brent Assink, on the new "6.5" Format
 type: interview
+tags:
+  - Concert
+  - Symphony
+  - Conducting
+  - Orchestra
+  - Classical
+  - Wolfgang Amadeus Mozart
 ---
-
-
 ONE OF THE fascinations about great classical music is that there doesn't seem to be any limit on how much you can learn about it.
 
 Perhaps hearing a great work of music for the first time is a bit like trekking into a dark cave: You don't quite know what you're in for at the entry. As you progress, however, you discover a bend here, a bump there, and you begin to sense some of its properties.
@@ -28,7 +37,6 @@ That's what San Francisco Symphony general manager Brent Assink and his cohorts 
 
 "Since some people might feel themselves under-equipped to really understand a classical concert, we wanted show them a way in," Assink said during a recent telephone chat. "This series will provide a highly interactive format to accomplish this."
 
-*
 
 Another rationale for the new series is that a number of audience members have said they would like an earlier start time than the usual 8 p.m. A 6:30 beginning allows patrons time for a leisurely Friday evening dinner following the concert, and is also attractive to young professionals and others working in the city as something appealing to do before heading home for the weekend.
 

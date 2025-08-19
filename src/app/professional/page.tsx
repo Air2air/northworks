@@ -23,7 +23,7 @@ export default function ProfessionalIndexPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Warner', href: '/warner', active: false },
+    { label: 'D. Warner North', href: '/warner', active: false },
     { label: 'Professional Experience', href: '/professional', active: true }
   ];
 

@@ -2,13 +2,24 @@
 conversion date: 2025-08-13
 id: c-aikin
 images:
+  - src: /images/laura-aikin.jpg
+    alt: c-aikin
+    width: 160
+    height: 200
 publication:
   date: 2005-02-18
   publisher: ANG Newspapers Classical Music Column
 title: Super Mom, super Singer -- that's soprano Aikin
 type: interview
+tags:
+  - Laura Aikin
+  - Soprano
+  - San Francisco Opera
+  - San Francisco Symphony
+  - Opera
+  - Robert Schumann
+  - Das Paradies und die Peri
 ---
-
 "THE voice of an angel" is an oft-used phrase used to describe soprano Laura Aikin's singing.
 
 Aikin, the unforgettable blue angel with only one wing in the San Francisco Opera production of Messian's *Saint Fran'ois d'Assise* a couple of years ago, wowed audiences and critics alike with her amazing crystalline voice and playfully mysterious interpretation. The role required athletic ability and balance, both of which she had in abundance, as she sang while suspended on wires and platforms high above the opera house stage.
@@ -25,7 +36,6 @@ The small 15-year-old straightened up, took a breath and proceeded to pour out t
 
 He was shocked ' and her life was changed forever.
 
-*
 
 The first person in her extended family to go to college, she spent the next 10 years earning four diplomas from three universities and a German government fellowship (DAAD) to study in Munich. She soon earned several contract offers from opera houses throughout Germany. The one she accepted was the ensemble of the Deutsche Staatsoper Berlin, where she spent six years.
 

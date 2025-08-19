@@ -2,14 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-sfs-masur-2-09
 images:
+  - src: /images/thm-masur.jpg
+    alt: c-reviews-sfs-masur-2-09 - masur
 publication:
   author: Cheryl North
   date: 2009-02-18
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Masur, Gubaidulina make out-of-this-world music in Davies Hall
 type: review
+tags:
+  - San Francisco Symphony
+  - Davies Hall The
+  - Performance
+  - Kurt Masur
+  - Sofia Gubaidulina
+  - The Light
 ---
-
 The sounds coming from the stage during the first piece on the San Francisco Symphony's Wednesday night program at Davies Symphony Hall were like none I've heard before. They were downright otherworldly.
 
 The closest comparison I can conjure is perhaps background music for a wild, far-out science fiction film — or, maybe a musical score for a flick about a squadron of maddened ghosts dive-bombing the world.

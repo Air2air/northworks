@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-night-at-the-opera-11-16-09
 images:
+  - src: /images/opera-now-cover.jpg
+    alt: c-reviews-oebs-night-at-the-opera-11-16-09 - opera
 publication:
   date: 2009-11-13
   publisher: Cheryl North
 title: Oakland East Bay Symphony Performance, "A Night at the Opera"
 type: review
+tags:
+  - Giuseppe Verdi
+  - Orchestra
+  - Opera
+  - Symphony
+  - Aida
+  - Voice
 ---
-
 It's clear that the people of Oakland and its outlying areas love their symphony orchestra. The cavernous Paramount Theatre was nearing capacity and the surrounding parking lots were packed by 7:55 p.m. Friday in readiness for "A Night at the Opera," the OEBS' season-opening performance. One stately Oakland widow, leaning heavily on her cane, had braved a long, six-block trek from her car to the Paramount to enjoy what she called "a beautiful, inspirational concert."
 
 With this and many other examples of strong audience support for the orchestra and Michael Morgan, its charismatic conductor for 20 years, in mind, I hesitate to write a single negative word. But my honest assessment is that the Paramount is not a very good venue for opera. While the instrumental ensemble sounded richly sonorous and full-bodied and Maestro Morgan proved a powerful but sensitive presence on the podium, the hall's acoustics inhibited most of the solo singers from projecting the full sonic timbres of their voices.

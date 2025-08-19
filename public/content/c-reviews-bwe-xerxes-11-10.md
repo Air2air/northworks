@@ -7,6 +7,13 @@ publication:
   publisher: Bay Area News Group
 title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
+tags:
+  - Handel
+  - Opera
+  - Bass
+  - Ives
+  - Performance
+  - Sonia Gariaeff
 ---
 
 When you go to a Berkeley West Edge Opera production, expect the unexpected.

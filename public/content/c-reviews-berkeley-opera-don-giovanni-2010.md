@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-berkeley-opera-don-giovanni-2010
 images:
+  - src: /images/opera-now-cover.jpg
+    alt: c-reviews-berkeley-opera-don-giovanni-2010 - opera
 publication:
   date: 2010-02-22
   publisher: Bay Area News Group
 title: Berkeley Opera Performance of Don Giovanni
 type: review
+tags:
+  - Berkeley Opera
+  - Wolfgang Amadeus Mozart
+  - Performance
+  - Orchestra
+  - Bass
+  - Donna Elvira
 ---
-
 Berkeley Opera's done it again. Its new production, Mozart's Don Giovanni, under the direction its new co-artistic director, Mark Streshinsky, in its new venue, the recently finished 600-seat El Cerrito High School Theater, is an artistic coup.
 
 The production's utter faithfulness to the music, coupled with a dazzling creativity in interpreting the psychology and spirit of the opera, merit high praise. Streshinsky certainly achieved his stated goal: "to keep things simple for our first venture into this new theater, and to explore this dark drama and hysterical comedy from a human standpoint, stripped of all its trappings."

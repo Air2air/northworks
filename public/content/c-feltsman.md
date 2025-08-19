@@ -2,14 +2,21 @@
 conversion date: 2025-08-13
 id: c-feltsman
 images:
+  - src: /images/celeb-feltsman.jpg
+    alt: c-feltsman
 publication:
-  date: 2002-06-14
-  publisher: ANG Newspapers Preview Section Classical Music Column
-title: Feature Article on Vladimir Feltsman
+  date: 2002-02-08
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Vladimir Feltsman
 type: interview
+tags:
+  - Piano
+  - Prokofiev
+  - Concert
+  - Sergei Rachmaninoff
+  - Pyotr Ilyich Tchaikovsky
+  - Orchestra
 ---
-
-
 A dizzying display of piano pyrotechnics will explode through Davies Symphony Hall in San Francisco next Wednesday and Thursday evenings when Vladimir Feltsman attacks Sergei Prokofiev's Piano Concerto No. 2 during the third program of the San Francisco Symphony's Russian Festival. Michael Tilson Thomas will preside at the podium as the orchestra performs a program entitled *Russian Virtuosity, Russian Rarities.*
 
 "Had any conductor other than Michael Tilson Thomas asked me to play the Prokofiev 2nd, I would have refused and suggested another piece," Feltsman asserted during a telephone conversation from his home in upstate New York last week.

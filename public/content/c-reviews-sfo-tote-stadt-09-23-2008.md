@@ -7,6 +7,13 @@ publication:
   publisher: Bay Area News Group
 title: "Die Tote Stadt an S.F. Opera Stunner"
 type: review
+tags:
+  - Opera
+  - Gustav Mahler
+  - Orchestra
+  - Wolfgang Amadeus Mozart
+  - Richard Wagner
+  - Giacomo Puccini
 ---
 
 Sigmund Freud would have been fascinated had he been in the audience of the San Francisco Opera's opening production of Erich Wolfgang Korngold's 1920 opera Die Tote Stadt Tuesday evening at the War Memorial Opera House.

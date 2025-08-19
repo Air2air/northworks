@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-bayless
 images:
+  - src: /images/thm-bayless.jpg
+    alt: c-bayless
+    width: 150
+    height: 150
 publication:
   date: 2006-11-03
   publisher: ANG PREVIEW Section
 title: Cheryl North Interviews John Bayless
 type: interview
+tags:
+  - Piano
+  - Wolfgang Amadeus Mozart
+  - Concert
+  - Gershwin
+  - Improvisation
+  - Classical
 ---
-
 Improvisation, in the minds of most of today's classical music mavens, is usually limited to jazz venues, piano bars, or someone's living room.
 
  This is to say, that if any unfamiliar or not-written-in-the-original-score notes are played-- or if one of the written-in notes doesn't get played ' there's something wrong with the performance. Critics criticize and audiences grimace. If such faux pas were to be made by such performers as violinist Joshua Bell, pianists Richard Goode or Evgeny Kissin, or any number of other major classical artists, we would be shocked.
@@ -29,7 +39,6 @@ Improvisation, in the minds of most of today's classical music mavens, is usuall
 
  He is known to audiences worldwide for his many recordings, including the number-one-*Billboard Magazine*-rated *The Puccini Album ' Arias for the Piano*, released about a decade ago, and more recently, for his CD's on the *Angel* label, *Romantica*, a collection that includes his improvisations on themes and arias from *Cavalleria Rusticana* and *La Wally*; *Vissi D'Arte*; *Una Furtiva Lagrima*; *Mattinata*; and more, as well as *The Movie Album ' Classical Pictures*.
 
-*
 
  'My forte is improvisation,' he cheerily announced when I spoke to him from his Tokyo hotel on what was (for him) a bright Sunday morning across the international dateline.
 

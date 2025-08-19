@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-runnicles
 images:
+  - src: /images/runnicles.jpg
+    alt: c-runnicles
+    width: 160
+    height: 200
 publication:
-  date: 2004-01-16
+  date: 2004-01-09
   publisher: ANG Newspapers Classical Music Column
-title: San Francisco Opera's music director triumphant in Berlin
+title: Cheryl North Interviews Donald Runnicles
 type: interview
+tags:
+  - Orchestra
+  - Opera
+  - Richard Wagner
+  - Conducting
+  - Shostakovich
+  - Tristan Und Isolde
 ---
-
 How lucky can we get? Within the confines of the Bay Area, we have three of the world's best, most sought-after classical music conductors.
 
 We have not only Michael Tilson Thomas presiding at the helm of the San Francisco Symphony and Maestro Kent Nagano working wonders as conductor of the Berkeley Symphony, but we also have ever-amazing Donald Runnicles, music director of the San Francisco Opera.

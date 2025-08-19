@@ -2,13 +2,25 @@
 conversion date: 2025-08-13
 id: c-barantschik
 images:
+  - src: /images/barantschik-and-mtt-cologne.jpg
+    alt: c-barantschik
+    width: 350
+    height: 250
+  - src: /images/barantschik-and-violin.jpg
+    alt: Cheryl North Interviews with Alexander Barantschik
 publication:
   date: 2007-02-16
   publisher: San Francisco Examiner
 title: Cheryl North Interviews with Alexander Barantschik
 type: interview
+tags:
+  - Alexander Barantschik
+  - Violin
+  - Johann Sebastian Bach
+  - San Francisco Symphony
+  - Brandenburg Concerto
+  - Orchestra
 ---
-
 One of the nicer coincidences in this world is that the first day of spring coincides with the birthday of Johann Sebastian Bach. The great man, considered by the vast majority of accomplished classical musicians and tens of thousands of ordinary folk, to be the greatest composer of all time, was born on March 21, 1685, in Eisenach, Germany.
 
  Few other composers in the world have been either as prolific or as profound as the amazing Bach. According to several music historians, it took the Bach Gesellschaft group of scholars 46 years to gather and publish into 60 huge volumes what we now have of Bach's music. But if a copyist were to write out all this music as Bach did himself, experts estimate that it would take said copyist 70 years.
@@ -55,7 +67,6 @@ One of the nicer coincidences in this world is that the first day of spring coin
 
  The Piazzolla pieces, on the other hand, the congenial concertmaster-cum-conductor described, as being full of "dark, melancholy blues" and "juicy reds."
 
-*
 
 Concertmaster Barantschik and Conductor Michael Tilson Thomas at San Francisco Symphony Concert in Cologne, Germany
 
@@ -101,7 +112,6 @@ Back in 1979, when aspiring violinist Alexander Barantschik played through his f
 
  When asked what the high point of his first year as San Francisco's concertmaster, he replied with nary a pause, "The first concert we played after September 11th (Mahler's Symphony No. 6, on Sept. 12, 2001). It was the most deeply touching event of my life... there was a feeling of such unity... we were all making that music and those feelings together -- the Maestro, Michael Tilson Thomas, the musicians, and the audience. That day and that concert I will always remember -- even though I was playing my old violin."
 
-*
 
 Alexander Barantschik and his 1742 "David" Guarnerius del Gesu violin
 

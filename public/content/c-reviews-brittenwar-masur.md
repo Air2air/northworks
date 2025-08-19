@@ -2,14 +2,22 @@
 conversion date: 2025-08-13
 id: c-reviews-brittenwar-masur
 images:
+  - src: /images/thm-masur.jpg
+    alt: c-reviews-brittenwar-masur - masur
 publication:
   author: Cheryl North
   date: 2002-10-24
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's War Requiem
 type: review
+tags:
+  - San Francisco Symphony
+  - Orchestra
+  - Choir
+  - Requiem
+  - Voice
+  - Wolfgang Amadeus Mozart
 ---
-
 Some works of art - like Picasso's Guernica and Benjamin Britten's War Requiem - are capable of hitting an audience like an earthquake.
 
 Just such an earthquake hit Davies Symphony Hall Thursday night when the San Francisco Symphony, the San Francisco Symphony Chorus, the San Francisco Girls Chorus, the Pacific Boychoir, soprano Christine Brewer, tenor Jerry Hadley, and baritone William Stone performed Britten's masterwork under the leadership of conductor Kurt Masur, and his adjutant, conductor Edwin Outwater.

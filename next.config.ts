@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import path from 'path';
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
@@ -10,9 +11,9 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   
-  // Performance optimizations
+  // Force webpack instead of turbopack to avoid conflicts
   experimental: {
-    optimizePackageImports: ['react-icons']
+    optimizePackageImports: ['react-icons'],
   },
   
   // Image optimization
@@ -23,10 +24,17 @@ const nextConfig: NextConfig = {
   
   // Build optimizations
   webpack: (config, { dev, isServer }) => {
+    // Configure path aliases
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.join(__dirname, 'src'),
+    };
+    
     if (!dev && !isServer) {
       // Tree shaking optimization
       config.optimization.usedExports = true;
     }
+    
     return config;
   },
 };

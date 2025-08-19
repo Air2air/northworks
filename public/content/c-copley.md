@@ -1,13 +1,22 @@
 ---
 conversion date: 2025-08-13
 id: c-copley
+images:
+  - src: /images/thm-copley.jpg
+    alt: c-copley
 publication:
-  date: 2000-11-03
+  date: 2002-05-03
   publisher: ANG Newspapers Classical Music Column
-title: John Copley Interview
+title: Cheryl North Interviews John Copley
 type: interview
+tags:
+  - Handel
+  - Opera
+  - Giuseppe Verdi
+  - Giacomo Puccini
+  - Barber
+  - Interview
 ---
-
 How can a seldom-performed Baroque opera about a bevy of Greek gods and a vain young woman named Semele be made interesting to a sophisticated San Francisco audience?
 
  If anyone is up to the task, it would be John Copley, the highly-regarded British-born director of San Francisco Opera's current production of the 1744 opera *Semele* by George Frideric Handel. The colorful Mr. Copley explained his approach to this task during a chat last week just before bounding off for a *Semele* rehearsal.

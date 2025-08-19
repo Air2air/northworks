@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-wilder
 images:
+  - src: /images/thm-wilder.jpg
+    alt: c-wilder
+    width: 245
+    height: 170
 publication:
   date: 2007-08-10
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Tappan Wilder on Our Town as an Opera
 type: interview
+tags:
+  - Opera
+  - Copland
+  - Bernstein
+  - Horn
+  - Orchestra
+  - Lesher Center
 ---
-
 The first and only time I've seen Thornton Wilder's Pulitzer Prize-winning 1938 play, Our Town , was when it was performed by members of the senior class of Coachella Valley Union High School near Indio, California, when I was a freshman. The play's impact on my psyche was, and has ever after remained, indelible.
 
 That was why I, and countless others in the Bay Area are elated to hear that the transcendental Our Town , set to music by the famed American composer Ned Rorem, with a libretto by J. D. McClatchy, will be given its West Coast premiere tomorrow (Saturday) by Festival Opera at the Lesher Center for the Arts, 1601 Civic Drive, in Walnut Creek. Repeat performances will be at 8 p.m. August 14 and 17 and at 2 p.m. August 19.
@@ -55,9 +65,6 @@ Michael Morgan will conduct the local performances of the opera, with members of
 The pivotal role of the stage manager will be performed by Richard Byrne, with soprano Marnie Breckenridge singing the role of Emily Webb and tenor Thomas Glenn, the role of George Gibbs.
 
 .
-
--
-
 Cheryl North, Tappan Wilder, and
 Warner North, at dinner prior to the
 Festival Opera production of Our Town\*

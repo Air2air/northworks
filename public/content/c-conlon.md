@@ -2,20 +2,28 @@
 conversion date: 2025-08-13
 id: c-conlon
 images:
+  - src: /images/thm-conlon.jpg
+    alt: c-conlon
+    width: 173
+    height: 125
 publication:
   date: 2006-06-02
   publisher: ANG Newspapers Classical Music Column
 title: James Conlon - Conductor trying to preserve musical legacy
 type: interview
+tags:
+  - Symphony
+  - Franz Liszt
+  - Reich
+  - Performance
+  - Salome
+  - Requiem
 ---
-
-
 Classical music might be very different today, had World War II never happened.
 That's a contention made by maestro James Conlon, the thoughtful conductor heading up the San Francisco Symphony's 2006 June Festival, beginning Wednesday and continuing until June 25 at Davies Symphony Hall in San Francisco.
 
 According to Conlon, "Those who performed, wrote or taught classical music after 1945 did so with enormous omissions. The Third Reich had, with its racist ideology and the systematic suppression of Jewish musicians, artists and writers, silenced two generations of composers and, with them, an entire musical landscape."
 
-*
 
 During a fascinating telephone interview last week, Conlon elaborated on just how different this "musical landscape" might have been if the late-Romantic period music of Alexander von Zemlinsky, Viktor Ullmann, Pavel Haas, Karl-Amadeus Hartmann, Franz Schreker, Erwin Schulhoff and colleagues had been allowed to naturally cross-fertilize with the more austere, acerbic modernists like Stravinsky, Varese, Stockhausen, Boulez and the like.
 

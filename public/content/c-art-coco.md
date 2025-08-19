@@ -7,6 +7,13 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: High-Tech Hand-Held Concert Companion for Symphony Audiences
 type: article
+tags:
+  - Concert
+  - Opera
+  - Symphony
+  - Orchestra
+  - Percussion
+  - Organ
 ---
 
 

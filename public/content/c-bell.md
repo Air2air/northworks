@@ -2,14 +2,23 @@
 conversion date: 2025-08-13
 id: c-bell
 images:
+  - src: /images/bell.jpg
+    alt: c-bell
+    width: 219
+    height: 300
 publication:
   date: 2002-09-13
   publisher: ANG PREVIEW Section
 title: Joshua Bell
 type: interview
+tags:
+  - Violin
+  - Barber
+  - Concert
+  - Ives
+  - Orchestra
+  - Carnegie Hall
 ---
-
-
 The rarefied world of the violin, its masters and its lovers, brims with intrigue - and uncanny coincidence.
 Consider last night at Davies Symphony Hall. Joshua Bell, the hot young head of the world's current remarkable set of youthful violin virtuosos, performed Samuel Barber's resplendent Violin Concerto with the San Francisco Symphony on his multi-million-dollar 1713 Stradivarius Violin.
 

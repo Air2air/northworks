@@ -1,13 +1,22 @@
 ---
+conversion date: 2025-08-13
 id: w-background
 images:
+  - src: /images/background.gif
+    alt: w-background
 publication:
   date: 2019-01-01
   publisher: the Decision
 title: Professional Background & Education
 type: background
+tags:
+  - Stanford
+  - Decision Focus
+  - Management Experience
+  - Academic Background
+  - SRI
+  - Leadership
 ---
-
 ## **MANAGEMENT EXPERIENCE**
 
 President, Decision Focus Incorporated (1979-1981, 1983-1984). Senior Vice President, other periods from 1977-1998.
@@ -21,7 +30,7 @@ Supervisor or leader of over forty major DFI and SRI research projects.
 ## **ACADEMIC BACKGROUND**
 
 **Ph.D., Operations Research, Stanford University (1970)**  
-Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
+Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. [Dissertation](/pdf/phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
 
 **M.S., Physics (1963) and Mathematics (1966), Stanford University.**
 

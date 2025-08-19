@@ -1,13 +1,22 @@
 ---
+conversion date: 2025-08-13
 id: c-reviews-baby-doe-berkeley-opera-2009
 images:
+  - src: /images/opera-now-cover.jpg
+    alt: c-reviews-baby-doe-berkeley-opera-2009 - opera
 publication:
-  date: 2009-01-01
+  date: 2009-07-24
   publisher: Bay Area News Group
 title: Inventive 'Baby Doe' redefines riches at the Berkeley Opera
 type: review
+tags:
+  - Berkeley Opera
+  - Performance
+  - Voice
+  - Orchestra
+  - Willard Hotel
+  - The Ballad
 ---
-
 Hard times, whether economic, social, or political, can often serve as stimulus to human creativity — “necessity is the mother of invention” and that sort of thing. Berkeley Opera’s current production, Douglas Moore’s The Ballad of Baby Doe, set to a libretto by John Latouche, offers a vivid case in point.
 
 Composer Moore, known for his tonally melodic and engagingly rhythmic writing in what has been labeled “typical American folk style,” based his opera on a true story that took place in rip-roaring mid-19th century Colorado during the heyday of silver mining. It’s a rags-to-riches-to-ruin tale of Vermont-born Horace Tabor, who, in midlife, divorces his cold-fish wife Augusta after falling deeply in love with a warm, beautiful, but decades-younger woman, a divorcee named Elizabeth “Baby” Doe.

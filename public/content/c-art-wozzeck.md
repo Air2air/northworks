@@ -7,13 +7,23 @@ publication:
   publisher: ANG Newspapers Preview Section
 title: Berg's *Wozzeck* is still powerful after 85 years
 type: article
+tags:
+  - Alban Berg
+  - Wozzeck
+  - Opera
+  - Contemporary Music
+  - Ensemble Parallele
+  - Nicole Paiement
+  - San Francisco Conservatory of Music
+  - Bojan Knezevic
+
 ---
 
 The music, art and architecture of a given time often present a mirror image of the mood and mores of that time. As a potent example of this thesis, the San Francisco Conservatory of Music's resident Ensemble Parallele, under the direction of its founder and conductor Nicole Paiement, is preparing to recreate the reeling Weltanschauung of 1920s Europe this weekend with a production of Austrian-born Alban Berg's fervid opera, *Wozzeck.*
 
 According to Paiement, a petite, ballerina-like blonde with a French accent, Ensemble Parallele, founded in 1994, is dedicated to presenting contemporary chamber opera. She will conduct the upcoming *Wozzeck* production, a reorchestration of Berg's 1925 original by Montreal composer John Rea. Director Brian Staufenbiel's film noir staging uses multimedia projections by media artist Austin Forbord that are reminiscent of German silent films of the 1920s.
 
-A down and out guy**
+**A down and out guy**
 
 The cast of impressively polished singers will be headed by the superlative singing actor, bass-baritone Bojan Knezevic, as Wozzeck, an honorable but victimized soldier/servant who represents the "arme Leut" (tragic common man). Marie, Wozzeck's common-law wife and mother of his child, will be sung by Patricia Green, a soprano with a three-octave range.
 

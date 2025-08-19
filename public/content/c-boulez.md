@@ -2,20 +2,29 @@
 conversion date: 2025-08-13
 id: c-boulez
 images:
+  - src: /images/pierre-boulez.jpg
+    alt: c-boulez
+    width: 150
+    height: 227
 publication:
-  date: 2000-05-19
-  publisher: ANG Newspapers Classical Music Column for Preview Section
-title: Cheryl North Writes about Pierre Boulez
+  date: 2003-02-14
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Pierre Boulez
 type: interview
+tags:
+  - Piano
+  - Gustav Mahler
+  - Stravinsky
+  - Tempo
+  - Orchestra
+  - Percussion
 ---
-
 One of the most difficult, even disturbing, pieces of music I've ever encountered was a duo piano work written by the great French composer Pierre Boulez. Yet, one of the nicest, most thoroughly civilized gentlemen I've ever met, was its composer, Pierre Boulez.
 
 Now, at the age of 75, Boulez is still one of the 20th century's most controversial musicians. Igor Stravinsky, before his death in 1971, called Boulez "the greatest composer of his generation," and just a couple of months ago, the respected British music critic High Canning, wrote that Boulez is both "icon and guru to the cutting-edge contemporary music set...begetter of all that is strident, difficult and inaccessible to the vast majority of classical music lovers."
 
 Although he is the acknowledged alpha composer of the avant garde, as a conductor, Maestro Boulez is arguably the most revered interpreter of the more traditional, aesthetically beautiful, works of Debussy, Stravinsky, and Mahler. His 1998 Deutsche Grammophon recording leading the Chicago Symphony Orchestra through Mahler's Symphony No. 9 even won a Grammy!
 
-*
 
 So, the San Francisco Contemporary Music Players are right on the mark to finish off their 1999/2000 Concert Series with a musical tribute to the great Boulez to celebrate his 75th birthday. Scheduled for 8 p.m. Monday at the Yerba Buena Center for the Arts Theater, 700 Howard St., in San Francisco, the concert will feature Boulez' adventurous Sur Incises*, scored for three harps, three pianos, and three percussion instruments.
 

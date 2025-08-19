@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-hvorostovsky-2-13-2011
 images:
+  - src: /images/hvorostovsky.jpg
+    alt: c-reviews-hvorostovsky-02-13-2011
 publication:
   date: 2011-02-13
   publisher: ANG Newspapers
 title: Dmitri Hvorostovsky's Slavic Soul Recital
 type: review
+tags:
+  - Franz Liszt
+  - Pyotr Ilyich Tchaikovsky
+  - Voice
+  - Concert
+  - Recital
+  - Giuseppe Verdi
 ---
-
 A bit of a shock wave seems to course through a hall at the onset of any recital by Siberian baritone Dmitri Hvorostovsky. First, there's his very appearance - his confident, masculine stride on stage accompanied by a delighted grin as he acknowledges the inevitably enthusiastic applause. Then, there's the rapt silence evoked by the initial sound of his distinctive voice as it cuts a clean swath through the hall - warm and embracing, but propelled by its piercing focus and colored by a hint of duskiness. Then, add the breadth and depth of his musicianship to the mix, and you have the recipe for an unforgettable concert experience.
 
 So it was last Sunday eve at Davies Symphony Hall in San Francisco. It also helped mightily that Hvorostovsky had one of the premiere pianists in the business as his musical collaborator - Ivari Ilja from Estonia.

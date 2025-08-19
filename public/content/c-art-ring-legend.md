@@ -7,6 +7,16 @@ publication:
   publisher: Bay Area News Preview Section
 title: Berkeley Opera Production of the Condensed Version of Wagner's Der Ring des Nibelungen
 type: article
+tags:
+  - Berkeley Opera
+  - Richard Wagner
+  - Der Ring des Nibelungen
+  - The Legend of the Ring
+  - David Seaman
+  - Mark Streshinsky
+  - Jonathan Khuner
+  - Opera
+
 ---
 
 

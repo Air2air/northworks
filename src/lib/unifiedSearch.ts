@@ -95,10 +95,10 @@ function transformToUnified(item: any, type: ContentMetadata['type']): UnifiedCo
 
 // Load and normalize data from JSON files
 function loadJsonData<T>(filename: string): T {
-  const dataPath = path.join(process.cwd(), 'src', 'data', filename);
+  const dataPath = path.join(process.cwd(), 'src', 'data', 'normalized', filename);
   
   if (!fs.existsSync(dataPath)) {
-    console.warn(`Data file not found: ${filename}`);
+    console.warn(`Normalized data file not found: ${filename}`);
     return {} as T;
   }
   
@@ -118,18 +118,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load interviews
   try {
     const interviewsData = loadJsonData<any>('cheryl-interviews.json');
-    if (interviewsData.interviews) {
+    if (interviewsData.items) {
       collections.push({
         metadata: {
           type: 'interview',
           category: 'interviews',
-          classification: interviewsData.metadata?.classification || 'cheryl-interviews',
+          classification: interviewsData.metadata?.id || 'cheryl-interviews',
           description: interviewsData.metadata?.description || 'Classical music interviews',
-          count: interviewsData.interviews.length,
-          generated: interviewsData.metadata?.generated || new Date().toISOString(),
-          version: interviewsData.metadata?.version || '1.0.0'
+          count: interviewsData.items.length,
+          generated: interviewsData.metadata?.created || new Date().toISOString(),
+          version: interviewsData.metadata?.version || '2.0.0'
         },
-        items: interviewsData.interviews.map((item: any) => transformToUnified(item, 'interview'))
+        items: interviewsData.items.map((item: any) => transformToUnified(item, 'interview'))
       });
     }
   } catch (error) {
@@ -139,18 +139,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load articles
   try {
     const articlesData = loadJsonData<any>('cheryl-articles.json');
-    if (articlesData.articles) {
+    if (articlesData.items) {
       collections.push({
         metadata: {
           type: 'article',
           category: 'articles',
-          classification: articlesData.metadata?.classification || 'cheryl-articles',
+          classification: articlesData.metadata?.id || 'cheryl-articles',
           description: articlesData.metadata?.description || 'Classical music articles',
-          count: articlesData.articles.length,
-          generated: articlesData.metadata?.generated || new Date().toISOString(),
-          version: articlesData.metadata?.version || '1.0.0'
+          count: articlesData.items.length,
+          generated: articlesData.metadata?.created || new Date().toISOString(),
+          version: articlesData.metadata?.version || '2.0.0'
         },
-        items: articlesData.articles.map((item: any) => transformToUnified(item, 'article'))
+        items: articlesData.items.map((item: any) => transformToUnified(item, 'article'))
       });
     }
   } catch (error) {
@@ -160,18 +160,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load reviews
   try {
     const reviewsData = loadJsonData<any>('cheryl-reviews.json');
-    if (reviewsData.reviews) {
+    if (reviewsData.items) {
       collections.push({
         metadata: {
           type: 'review',
           category: 'reviews',
-          classification: reviewsData.metadata?.classification || 'cheryl-reviews',
+          classification: reviewsData.metadata?.id || 'cheryl-reviews',
           description: reviewsData.metadata?.description || 'Performance reviews',
-          count: reviewsData.reviews.length,
-          generated: reviewsData.metadata?.generated || new Date().toISOString(),
-          version: reviewsData.metadata?.version || '1.0.0'
+          count: reviewsData.items.length,
+          generated: reviewsData.metadata?.created || new Date().toISOString(),
+          version: reviewsData.metadata?.version || '2.0.0'
         },
-        items: reviewsData.reviews.map((item: any) => transformToUnified(item, 'review'))
+        items: reviewsData.items.map((item: any) => transformToUnified(item, 'review'))
       });
     }
   } catch (error) {
@@ -181,18 +181,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load professional content
   try {
     const professionalData = loadJsonData<any>('warner-professional.json');
-    if (professionalData.professional) {
+    if (professionalData.items) {
       collections.push({
         metadata: {
           type: 'professional',
           category: 'professional',
-          classification: professionalData.metadata?.classification || 'warner-professional',
+          classification: professionalData.metadata?.id || 'warner-professional',
           description: professionalData.metadata?.description || 'Professional portfolio',
-          count: professionalData.professional.length,
-          generated: professionalData.metadata?.generated || new Date().toISOString(),
-          version: professionalData.metadata?.version || '1.0.0'
+          count: professionalData.items.length,
+          generated: professionalData.metadata?.created || new Date().toISOString(),
+          version: professionalData.metadata?.version || '2.0.0'
         },
-        items: professionalData.professional.map((item: any) => transformToUnified(item, 'professional'))
+        items: professionalData.items.map((item: any) => transformToUnified(item, 'professional'))
       });
     }
   } catch (error) {
@@ -202,18 +202,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load publications
   try {
     const publicationsData = loadJsonData<any>('warner-publications.json');
-    if (publicationsData.publications) {
+    if (publicationsData.items) {
       collections.push({
         metadata: {
           type: 'publication',
           category: 'publications',
-          classification: publicationsData.metadata?.classification || 'warner-publications',
+          classification: publicationsData.metadata?.id || 'warner-publications',
           description: publicationsData.metadata?.description || 'Academic publications',
-          count: publicationsData.publications.length,
-          generated: publicationsData.metadata?.generated || new Date().toISOString(),
-          version: publicationsData.metadata?.version || '1.0.0'
+          count: publicationsData.items.length,
+          generated: publicationsData.metadata?.created || new Date().toISOString(),
+          version: publicationsData.metadata?.version || '2.0.0'
         },
-        items: publicationsData.publications.map((item: any) => transformToUnified(item, 'publication'))
+        items: publicationsData.items.map((item: any) => transformToUnified(item, 'publication'))
       });
     }
   } catch (error) {
@@ -223,18 +223,18 @@ export function loadAllCollections(): UnifiedCollection[] {
   // Load background
   try {
     const backgroundData = loadJsonData<any>('warner-background.json');
-    if (backgroundData.background) {
+    if (backgroundData.items) {
       collections.push({
         metadata: {
           type: 'background',
           category: 'background',
-          classification: backgroundData.metadata?.classification || 'warner-background',
+          classification: backgroundData.metadata?.id || 'warner-background',
           description: backgroundData.metadata?.description || 'Professional background',
-          count: backgroundData.background.length,
-          generated: backgroundData.metadata?.generated || new Date().toISOString(),
-          version: backgroundData.metadata?.version || '1.0.0'
+          count: backgroundData.items.length,
+          generated: backgroundData.metadata?.created || new Date().toISOString(),
+          version: backgroundData.metadata?.version || '2.0.0'
         },
-        items: backgroundData.background.map((item: any) => transformToUnified(item, 'background'))
+        items: backgroundData.items.map((item: any) => transformToUnified(item, 'background'))
       });
     }
   } catch (error) {

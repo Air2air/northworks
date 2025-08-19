@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-rosenberg
 images:
+  - src: /images/rosenberg.jpg
+    alt: c-rosenberg-11-04-2005
+    width: 192
+    height: 141
 publication:
   date: 2005-11-04
   publisher: ANG Preview Section
 title: Parting Words from S.F. Opera Director Pamela Rosenberg
 type: interview
+tags:
+  - Opera
+  - Barber
+  - Performance
+  - Organ
+  - Orchestra
+  - Guild Hall School
 ---
-
 On Jan. 9, 2001, when Pamela Rosenberg stood before journalists, critics and media people packing the expansive lobby of San Francisco's War Memorial Opera House, she said she believed that opera had the potential to make people think and feel more deeply about the human condition.
 
 "My goal as your new general director," she said, "is to enable our audiences to see interconnections between life and art and to give them, through our 'Animating Opera' five-year program of themes, points of orientation to help them develop their own antennas."
@@ -20,9 +30,6 @@ Summarizing, she said, "I want to spark curiosity in the audience."
 Now, nearly five years later, she feels that this has happened.
 
 During an interview last week in her office in the upper reaches of the San Francisco Opera House, she told me, "I think we've piqued the people's curiosity and convinced them to try new (operatic) experiences."
-
--
-
 A sophisticated, warm, 5-foot, 11-inch tall woman with beautiful deep blue eyes and wheat-colored hair cut in a youthfully chic style, Rosenberg earnestly expressed the thought that there has been no downside to the adventurous programming of her San Francisco tenure.
 
 "The unfamiliar and new works have sold no worse than the standards, and sometimes have done better," she said.

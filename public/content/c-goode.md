@@ -1,14 +1,29 @@
 ---
 conversion date: 2025-08-13
 id: c-goode
-images:
 publication:
-  date: 2002-03-29
-  publisher: ANG Newspapers Preview Section Classical Music Column
+  date: 2003-01-31
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Richard Goode
+type: interview
+tags:
+  - Ludwig van Beethoven
+  - Johann Sebastian Bach
+  - Piano
+  - Concert
+  - Frédéric Chopin
+  - Wolfgang Amadeus Mozart
+---sion date: 2025-08-13
+id: c-goode
+publication:
+images:
+  - src: /images/thm-gooderichard.jpg
+    alt: c-goode
+    width: 150
+    height: 215
 title: Cheryl North Interviews Richard Goode
 type: interview
 ---
-
 Genius can pop up in unlikely places. Sometimes a rather extraordinary plant sprouts in the middle of a very ordinary flower garden -- or even amidst a field of weeds. At first it might not differ much from its neighbors. But as time passes, it begins to differentiate from the rest and metamorphoses into an unsolicited blossom of unique beauty.
 
 So can be with genius. Sir Isaac Newton emerged onto the field of history in such fashion. So did Leonardo, Beethoven, and Edison. And so did the New York-born Richard Goode, a gentlemanly, deceptively average-looking, middle-aged pianist currently in the Bay Area with his violinist wife Marcia Weinfeld for a set of concerts and music-related events.

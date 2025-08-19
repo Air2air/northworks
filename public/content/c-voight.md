@@ -2,13 +2,25 @@
 conversion date: 2025-08-13
 id: c-voight
 images:
+  - src: /images/voight-deborah.jpg
+    alt: c-voight
+    width: 200
+    height: 305
+  - src: /images/voight-salome.jpg
+    alt: Voight's success not thinly veiled
 publication:
   date: 2006-09-01
   publisher: ANG Newspapers Classical Music Column
 title: Voight's success not thinly veiled
 type: interview
+tags:
+  - Opera
+  - Maurice Ravel
+  - Giuseppe Verdi
+  - Richard Wagner
+  - Voice
+  - Salome
 ---
-
 In demand: Deborah Voigt stars as Amelia in San Francisco Opera's "A Masked Ball," which opens the 2006-07 season.
 
 It just doesn't seem fair. The greatest dramatic soprano of our age is dogged by fickle fashion.

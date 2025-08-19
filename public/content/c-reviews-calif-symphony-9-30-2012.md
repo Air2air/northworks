@@ -7,6 +7,13 @@ publication:
   publisher: Bay Area News Group
 title: California Symphony season opens with Robert Moody, the first of seven conductors auditioning for permanent post of music director
 type: review
+tags:
+  - Orchestra
+  - Sibelius
+  - Symphony
+  - Sergei Rachmaninoff
+  - Piano
+  - Bass
 ---
 
 Robert Moody, the first of the seven guest conductors to lead a California Symphony concert this year as part of a search for a new permanent music director, won a number of hearts and minds Sunday as he stood on the Lesher Center for the Arts podium in Walnut Creek to preside over the opening of the California Symphony's 26th season.

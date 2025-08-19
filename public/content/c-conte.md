@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-conte
 images:
+  - src: /images/thm-conte.jpg
+    alt: c-conte
 publication:
   date: 2010-10-01
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Composer David Conte
 type: interview
+tags:
+  - Conservatory
+  - Opera
+  - Heggie
+  - Interview
+  - Violin
+  - Piano
 ---
-
  Where in the world do you find classical music composers capable of rivaling the greats of yesteryear?
 
  Many serious music aficionados would suggest that the San Francisco Bay Area is an especially felicitous place to start the search. Our beautiful Bay and its environs are akin to a 21st century Mother Lode of musical gold. Veins of artistic creativity run through our hills and vales like earthquake faults. Just consider the bounty of musical riches offered up by within our boundaries by Jake Heggie, Nate Stooky, Nolan Gasser, Kirke Mecham, Frank LaRocca, Kurt Rohde, Marty Rokeach and more within the past decade.

@@ -1,14 +1,24 @@
 ---
 conversion date: 2025-08-13
-id: c-thibaudet2011
+id: c-thibaudet-01-21-2011
 images:
+  - src: /images/thibaudet1.jpg
+    alt: Thibaubet gives a lift to legacy of Liszt in Berkeley recital
+    width: 200
+    height: 297
 publication:
   date: 2011-01-21
-  publisher: Bay Area News Group, Contra Costa Times
-title: Thibaubet gives a lift to legacy of Liszt in Berkeley recital
+  publisher: Bay Area News Group
+title: Jean-Yves Thibaudet in Recital
 type: interview
+tags:
+  - Franz Liszt
+  - Piano
+  - Ives
+  - Recital
+  - Richard Wagner
+  - Frédéric Chopin
 ---
-
 For those of us who like our piano music strong and muscular but still packed with poetry and passion, there hardly could be a better choice than French virtuoso Jean-Yves Thibaudet's upcoming all-Liszt program at 8 p.m. Jan. 26 at Zellerbach Hall on the University of California campus in Berkeley.
 
 Youthful-looking Thibaudet, 50, who resembles either a leading man in a romantic French movie or 19th-century heartthrob Liszt with a modern haircut, feels a strong affinity for the composer's music. Like Liszt, Thibaudet brings a dashing physical presence to his concert appearances.

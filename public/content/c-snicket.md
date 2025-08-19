@@ -2,13 +2,25 @@
 conversion date: 2025-08-13
 id: c-snicket
 images:
+  - src: /images/snicket-handler.jpg
+    alt: c-snicket
+    width: 120
+    height: 160
+  - src: /images/stookey.jpg
+    alt: Snicket, Stookey responsible for symphonic murder
 publication:
   date: 2006-06-30
   publisher: ANG Newspapers
 title: Snicket, Stookey responsible for symphonic murder
 type: interview
+tags:
+  - Orchestra
+  - Symphony
+  - Ives
+  - Gershwin
+  - Stravinsky
+  - Ludwig van Beethoven
 ---
-
 Could a funeral — or memorial service — be scheduled at San Francisco's Davies Symphony Hall? Or some other sort of mayhem? What's going on?
 
 "The Composer Is Dead" is the grim title of the program set for 2 p.m. July 8 in the San Francisco Symphony's laid-back "Summer in the City" series.

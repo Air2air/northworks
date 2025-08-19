@@ -1,14 +1,29 @@
 ---
 conversion date: 2025-08-13
 id: c-ventris
-images:
 publication:
-  date: 2000-06-30
+  date: 2004-04-16
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Christopher Ventris
 type: interview
+tags:
+  - Wolfgang Amadeus Mozart
+  - Richard Wagner
+  - Opera
+  - Salome
+  - The Ring
+  - Parsifal
+---sion date: 2025-08-13
+id: c-ventris
+publication:
+images:
+  - src: /images/thm-ventris.jpg
+    alt: c-ventris
+    width: 160
+    height: 200
+title: Cheryl North Interviews Christopher Ventris
+type: interview
 ---
-
 Christopher Ventris has taken a few unconventional turns along his path
 toward a major operatic career. The London-born tenor is currently in San Francisco for his U.S. debut singing the title role in the San Francisco
 Opera's current production of Richard Wagner's Parsifal .
@@ -25,9 +40,6 @@ Festival regularly worked with Academy students. Ventris was eventually given
 an apprenticeship with Glyndebourne and was assigned to be the understudy for
 the role of Tom Rakewell in The Rake's Progress . A little later, he served as understudy for a production of Jan'cek's Katya Kabanova which, coincidentally, was directed by Nikolaus Lehnhoff, the director of San Francisco Opera's current Parsifal production. The young tenor made an important operatic debut in 1992 as Steuermann in the Leipzig Opera production of Wagner's Der Fliegende Hollander , which was followed by an appearance there as Narraboth in Strauss' Salome . The role of Kudryash in Katya Kabanova was the vehicle for his Covent
 Garden debut in 1994.
-
--
-
 A major bit of serendipity occurred in 1998 when he
 received a telephone call asking if he would be willing to substitute for an
 ailing tenor and sing the role of Max in Der Freisch'tz\* at La Scala the very next day. After taking a few seconds to recover from the surprise, he said yes and prepared to board the next plane from London to Milan (he had sung the
@@ -56,4 +68,4 @@ tenors."
 
 Here is a link to the
 [ Christopher
-Ventris](http://www.christopherventris.com/menu.html) website, which includes this interview.
+Ventris](http://www.christopherventris.com) website, which includes this interview.

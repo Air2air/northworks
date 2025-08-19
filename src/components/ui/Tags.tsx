@@ -20,7 +20,7 @@ const Tags: React.FC<TagsProps> = ({
 
   const getTagStyles = (variant: string) => {
     const baseStyles =
-      "inline-block transition-colors duration-200 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2";
+      "inline-block transition-colors duration-200 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 no-underline";
 
     switch (variant) {
       case "compact":

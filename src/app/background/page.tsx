@@ -23,7 +23,7 @@ export default function BackgroundIndexPage() {
 
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
-    { label: 'Warner', href: '/warner', active: false },
+    { label: 'D. Warner North', href: '/warner', active: false },
     { label: 'Background', href: '/background', active: true }
   ];
 

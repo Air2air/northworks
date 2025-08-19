@@ -2,15 +2,24 @@
 conversion date: 2025-08-13
 id: c-reviews-oebs-nov04
 images:
-
+  - src: /images/thm-stookey.jpg
+    alt: c-reviews-oebs-11-22-2004
+    width: 190
+    height: 190
 publication:
   author: Cheryl North
   date: 2004-11-22
-  publisher: Oakland Tribune
-title: Opening Concert of the Oakland East Bay Symphony's 16th Season
+  publisher: Oakland Tribune, Alameda Newspaper Group
+title: Oakland East Bay Symphony's November Concert
 type: review
+tags:
+  - Organ
+  - Glass
+  - Orchestra
+  - Sergei Rachmaninoff
+  - Concert
+  - Johannes Brahms
 ---
-
 The Oakland East Bay Symphony opened its 16th season with an authentically celebratory concert at the Paramount Theatre in Oakland last Friday.
 
 Perhaps the primary reason for such a jubilant mood was that the evening also represented OEBS's 15th anniversary with the magnificent Michael Morgan as its conductor/music director.

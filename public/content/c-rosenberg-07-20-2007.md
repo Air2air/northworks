@@ -1,14 +1,24 @@
 ---
 conversion date: 2025-08-13
-id: c-rosenberg
+id: c-rosenberg-07-20-2007
 images:
+  - src: /images/rosenberg.jpg
+    alt: c-rosenberg-07-20-2007
+    width: 192
+    height: 141
 publication:
   date: 2007-07-20
-  publisher: ANG Preview Section
-title: Rosenberg Brings S.F. Flavor to Berlin Philharmonic
+  publisher: Oakland Tribune, Bay Area News Group
+title: Cheryl North Interviews Neil Rosenberg
 type: interview
+tags:
+  - Orchestra
+  - Opera
+  - Gustav Mahler
+  - Adams
+  - Berlin Philharmonie Hall
+  - Ives
 ---
-
 A few weeks ago I visited Berlin, the edgy, energetic capitol of Germany. Berlin, having survived (sometimes barely) a tumultuous history beginning sometime in the 13th century in a niche between the Havel and the Spree Rivers in north-central Germany, has evolved into a rather unsettlingly angular city. Assertive, sometimes shocking skyscrapers cut into its skies, while thousands of giant dark green Linden trees arrayed in long rows tend to calm its labyrinthine streets.
 
 Ruins of old church towers and cathedrals pose peacefully alongside recent restorations as well as the eye-popping new buildings. People with features and physiques representing gene pools from Nordic, Slavic, Eastern, and Central European countries mingle comfortably with its tall, blond Germanic archetypes in the shops and cafes. Even the genial Mayor of Berlin, Klaus Wowereit (pronounced Voverite), has been quoted as saying that "Berlin is the largest Turkish city outside of Turkey."

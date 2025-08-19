@@ -1,14 +1,24 @@
 ---
 conversion date: 2025-08-13
-id: c-hvorostovsky
+id: c-hvorostovsky-04-02-1997
 images:
+  - src: /images/hvorostovsky.jpg
+    alt: Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997
+    width: 554
+    height: 300
 publication:
   date: 1997-04-02
-  publisher: Bay Area News Group Classical Music Column
-title: Dmitri Hvorostovsky San Francisco Symphony Concert of Wednesday, April 2, 1997
-type: review
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Dmitri Hvorostovsky
+type: interview
+tags:
+  - Pyotr Ilyich Tchaikovsky
+  - Strings
+  - Orchestra
+  - San Francisco Symphony
+  - Voice
+  - Concert
 ---
-
 If great opera composers of the past could have dealt with baritones like Dmitri Hvorostovsky, they wouldn't have given all the hero roles to tenors. The splendid Russian-born and trained Hvorostovsky joined with conductor Michael Tilson Thomas and the San Francisco Symphony for what might become the definitive performance of Modest Mussorgsky's 'Songs and Dances of Death' Wednesday at Davies Symphony Hall in San Francisco.
 
 The entire program - Toru Takemitsu's "Requiem for Strings,'' and Tchaikovsky's Symphony No. 6, "Pathetique,'' in addition to the Mussorgsky songs - was a musical essay on life's somber closing moments. The serious, sober mood of the evening seemed appropriate, and perhaps even healing, as conductor, musicians, and public once again assemble, following the recent

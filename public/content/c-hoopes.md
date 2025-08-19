@@ -1,13 +1,22 @@
 ---
 conversion date: 2025-08-13
 id: c-hoopes
+images:
+  - src: /images/thm-hoopes.jpg
+    alt: c-hoopes
 publication:
   date: 2009-12-25
   publisher: Bay Area News Group Classical Music Column
-title: Cheryl North Interviews Chad Hoopes
+title: Cheryl North Interviews Stephen Hoopes
 type: interview
+tags:
+  - Violin
+  - Orchestra
+  - Concert
+  - Symphony
+  - Johannes Brahms
+  - Pyotr Ilyich Tchaikovsky
 ---
-
  Well, it's finally here: Christmas Day, 2009. Along with Merry Christmas wishes from me to all my readers, let me reveal my sure-fire recipe for an extra healthy helping of seasonal joy: add a bit of sing-along caroling to the day's traditional present-opening, toasting, and feasting activities. Whether one's voice resembles that of an angel or a waif with a severe case of laryngitis, a song shared will top off the day with an extra dollop of delight.
 
  But, looking ahead, the San Francisco Symphony has come up with an especially appealing recipe for celebrating the waning old year's metamorphosis into the high hopes of the new on 2009's final eve. The doors of Davies Symphony Hall in San Francisco will open at 8 p.m. Thursday for an especially festive concert, scheduled to begin at 9 p.m., followed by a "Masquerade Ball," with masks provided by the Symphony.
@@ -30,4 +39,3 @@ type: interview
 
  For his San Francisco New Year's Eve performance, he will play Henryk Wieniaowsky's *Caprice No. 4* and Fritz Kreisler's *Caprice Viennois.*
 
-[.](http://www.northworks.net)

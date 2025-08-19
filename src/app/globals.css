@@ -25,6 +25,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Ensure content links are blue (exclude navigation, cards, and buttons) */
+main a:not(.no-underline),
+.prose a:not(.no-underline),
+.content a:not(.no-underline),
+.markdown-content a:not(.no-underline),
+article a:not(.no-underline) {
+  color: #0284c7; /* sky-600 */
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+main a:not(.no-underline):hover,
+.prose a:not(.no-underline):hover,
+.content a:not(.no-underline):hover,
+.markdown-content a:not(.no-underline):hover,
+article a:not(.no-underline):hover {
+  color: #075985; /* sky-800 */
+}
+
+main a:not(.no-underline):visited,
+.prose a:not(.no-underline):visited,
+.content a:not(.no-underline):visited,
+.markdown-content a:not(.no-underline):visited,
+article a:not(.no-underline):visited {
+  color: #0284c7; /* sky-600 - keep same as unvisited */
+}
+
 /* Fix paragraph spacing for content areas */
 .prose {
   max-width: none;

@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-stookey
 images:
+  - src: /images/stookey.jpg
+    alt: c-stookey
+    width: 127
+    height: 150
 publication:
-  date: 2004-11-19
-  publisher: ANG Newspaper Column
-title: Cheryl North Interviews Nat Stookey
+  date: 2004-02-20
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Paul Stookey
 type: interview
+tags:
+  - Orchestra
+  - Violin
+  - Symphony
+  - Piano
+  - Composition
+  - Davies Hall
 ---
-
 If only Nathaniel (Nat) Stookey's great grandfather could have known, that the faithful old violin he used to play for barn dances, would one day play the great classics in the hands of his musically gifted great grandson.
 
 "I still use his violin once in a while," said the soft-spoken 33-year-old Stookey during a phone conversation earlier this week. "But now, I'm really more interested in composing."

@@ -2,14 +2,25 @@
 conversion date: 2025-08-13
 id: c-dresher
 images:
+  - src: /images/dresher-paul-ensemble.jpg
+    alt: c-dresher
+    width: 150
+    height: 114
+  - src: /images/dresher-paul-07.jpg
+    alt: Cheryl North Interviews Paul Dresher
 publication:
   date: 2004-11-12
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Paul Dresher
 type: interview
+tags:
+  - Adams
+  - Guitar
+  - Performance
+  - Ives
+  - Contemporary
+  - Orchestra
 ---
-
-
  What do you do if there's a tune roiling around in your head, but there's no existing instrument capable of reproducing it?
 
 Well, if you are long-time Berkeley resident Paul Dresher, you simply call up your friend Daniel Schmidt and the two of you put your heads and hands together and create a new instrument. You can bet that J.S. Bach would have done the same thing, had he been living and composing in Berkeley in 2004.
@@ -24,7 +35,6 @@ Programmed works are Ingram Marshall's *In Deserto -- Black Rock*, commissioned 
 
 The three Dresher compositions programmed are *In the Name(less)*, featuring both quadrachord and marimba lumina; his beautifully lyric *Chorale Times Two*; and *Din of Iniquity.*
 
-*
 
 Last Tuesday morning, even though he was rushing to pack his instruments and personal belongings to catch a flight later in the day taking him to New York City for his Carnegie Hall debut (November 12), Dresher generously made time for a telephone interview.
 
@@ -72,7 +82,6 @@ BERKELEY-BASED composer Paul Dresher is about to have one of his fondest dreams 
 
 Eckert will act and sing in the upcoming performances of *Slow Fire*, just as he did in its initial performances 20 years ago.
 
-*
 
 Dresher has long been noted for his ability to write and perform in diverse musical styles. His experimental, sometimes groundbreaking works include operas, compositions for chamber and orchestral ensembles, and scores for theater, dance and film. He has collaborated with some of the greatest names in American and international performing arts, including Margaret Jenkins, John Adams, June Jordan, Peter Sellars, playwright Charles Mee and director Chen Shi-Zheng.
 

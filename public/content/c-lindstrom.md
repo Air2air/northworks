@@ -1,11 +1,19 @@
 ---
 conversion date: 2025-08-13
 id: c-lindstrom
+images:
 publication:
-  date: 2013-10-25
-  publisher: Bay Area News Group Classical Music Column
-title: Lisa Lindstrom lights up *The Flying Dutchman* for her S.F. Opera Debut
+  date: 2006-05-12
+  publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Lise Lindstrom
 type: interview
+tags:
+  - Opera
+  - Richard Wagner
+  - Voice
+  - Debut
+  - Johann Sebastian Bach
+  - Giacomo Puccini
 ---
 
 A woman matching the following description: "tall and willowy, yet perfectly proportioned, with thick, Nordic-blond hair cascading down her back, large sky-blue eyes and a radiant smile animating her face" -- could likely be a cover girl, film star or fashion model, yes? Or maybe even the personification of a Disney princess?
@@ -32,4 +40,4 @@ Lindstrom's two grandmothers were both named Minnie.
 
 "I can relate to her character!" she said.
 
-[.](http://www.northworks.net)
+

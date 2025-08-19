@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-delavan
 images:
+  - src: /images/delavan-mark.jpg
+    alt: c-delavan
+    width: 175
+    height: 137
 publication:
   date: 2003-06-13
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Mark Delavan
 type: interview
+tags:
+  - Richard Wagner
+  - Opera
+  - San Francisco Symphony
+  - Johann Sebastian Bach
+  - Performance
+  - Davies Symphony Hall
 ---
-
 Had composer Richard Wagner been clairvoyant, he might well have hand-picked bass-baritone Mark Delavan to sing the title role in his powerful opera, *The Flying Dutchman*.
 
 During a conversation with Delavan in his Davies Hall dressing room last Monday afternoon, I was struck by how well-suited the affable singer was to play the role of the star-crossed ghost-seaman of Wagner's darkly romantic 1842 opera. With his six feet three inches of towering height and his Dallas Cowboys fullback build, Delavan looks the part. But add his simmering brown eyes with their unyieldingly direct gaze; his shock of barely behaving dark hair, his booming voice, and irreverent wit - and by golly - you've got the larger-than-life Dutchman looming right in front of you. I wish Wagner himself had been there with me!
@@ -25,7 +35,6 @@ So what about the San Francisco Symphony's "Dutchman?"
 
 "I intend to bring a dark, smoldering rage to the role," he said. "After 700 years of failure at finding the one woman whose love would be constant, the guy's just got to be skeptical and angry. So, I play him with a kind of wildness."
 
-*
 
 During his youth, Delavan actually did want to go into professional football. "My parents were both singers, choral directors, and teachers," he explained. "I saw the ground floor in opera and thought that if this is what it's like, I want NO part of it at all."
 

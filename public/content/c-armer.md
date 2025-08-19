@@ -2,13 +2,26 @@
 conversion date: 2025-08-13
 id: c-armer
 images:
+  - src: /images/elinor-armer.jpg
+    alt: c-armer
+    width: 160
+    height: 200
 publication:
   date: 1995-11-18
   publisher: ANG Newspapers
 title: Cheryl North Interviews Elinor Armer
 type: interview
----
+tags:
+  - Elinor Armer
+  - Composer
+  - Contemporary Music
+  - Ursula Le Guin
+  - Island Earth
+  - The Uttermost Archipelago
+  - Women's Philharmonic
+  - JoAnn Falletta
 
+---
 It takes a creative sort of person to see a relationship between plate tectonics and music. Berkeley composer Elinor Armer, and her artistic collaborator, science fiction/fantasy writer Ursula Le Guin, feel that the two indeed interrelate and they have just completed the last element of a set of pieces with this in mind.
 
 This latest piece, *Island Earth*, will receive its world premiere tonight at 8 p.m. at Zellerbach Hall on the University of California, Berkeley campus when it is played by the Women's Philharmonic orchestra under the baton of JoAnn Falletta. Besides orchestra, the piece will involve the San Francisco Boys' Chorus and 23-member "Uttermost Men's Chorus."
@@ -31,7 +44,6 @@ Her penchant for composition was ignited when her parents started her on piano l
 
 Remembers Armer, "Mrs. Shipstead gave me a great deal of ear training and harmonic and rhythmic dictation along with teaching me how to play the piano. She sharpened my ears and made it all into playful games. And she often had me make up and play my own pieces."
 
-*
 
 Mills College, from which she graduated in 1961, provided even further stimulation. She proceeded on to graduate study at UC Berkeley and received a Master of Arts degree in composition from California State University, San Francisco. Darius Mihaud, Leon Kirchner, Roger Nixon and Alexander Liberman were among her teachers.
 

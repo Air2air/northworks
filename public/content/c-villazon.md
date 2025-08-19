@@ -1,14 +1,29 @@
 ---
 conversion date: 2025-08-13
 id: c-villazon
-images:
 publication:
-  date: 2004-09-10
+  date: 2004-04-30
   publisher: ANG Newspapers Classical Music Column
+title: Cheryl North Interviews Rolando Villazón
+type: interview
+tags:
+  - Opera
+  - Giuseppe Verdi
+  - Voice
+  - Violin Concerto
+  - La Traviata
+  - Ives
+---sion date: 2025-08-13
+id: c-villazon
+publication:
+images:
+  - src: /images/thm-villazon.jpg
+    alt: c-villazon
+    width: 160
+    height: 200
 title: Cheryl North Interviews Rolando Villazon
 type: interview
 ---
-
 Rolando Villazon, the young tenor slated to sing the role of Alfredo in the San Francisco Opera's upcoming production of Verdi's La Traviata, has lived a life full of "Eureka!" moments.
 
 He was born and raised in Mexico City. Neither his father, his mother, nor his sister were musical. But, since his father worked at the Sony Record Company in the city, he occasionally brought home records. Classical music played no particular part in the family's life, so the classical records were boxed up and put away.
@@ -34,9 +49,6 @@ But music didn't consume ALL of Rolando's passion. There was also the beautiful 
 Clearly lapsing into one of his favorite subjects, Villazon, continued his Lucia story, his black eyes sparkling and his hands gesturing expansively. "I wouldn't be an opera singer if it were not for her. When we were in my car, driving to the place where we were going to get married, I told her that I had been thinking about becoming a history professor. I liked teaching, and thought that such a life would be more secure and quiet for us," he said.
 
 With stage worthy gestures and drama, he continued. "Lucia suddenly told me to stop the car! She said she had agreed to marry an opera singer. If I changed to be something else, the marriage was off. She told me that I had made her fall in love, not only with me, but with my dream as well. She said that she was willing to do whatever she could to help 'our' dream come true. So, we got married."
-
--
-
 For the next few years, Lucia, a psychologist, worked hard, sometimes from 6 am. to 10 p.m., while Rolando studied and practiced. As they agreed, how that his career is launched, he supports her.
 
 In 1998, Rolando was accepted into San Francisco Opera's Merola program, during which he sang Alfredo in the Merola's La Traviata\* at Villa Montalvo. After Merola, he moved on to the Pittsburgh Opera's training program.

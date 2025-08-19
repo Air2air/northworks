@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -12,7 +12,9 @@
     "deploy:prod": "vercel --prod",
     "preview": "vercel dev",
     "vercel-build": "next build",
-    "postbuild": "echo 'Build completed successfully!'"
+    "postbuild": "echo 'Build completed successfully!'",
+    "populate-images": "node scripts/populate-images.js",
+    "populate-images:force": "node scripts/populate-images.js --force"
   },
   "dependencies": {
     "@types/marked": "^5.0.2",

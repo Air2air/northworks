@@ -1,19 +1,24 @@
 ---
 conversion date: 2025-08-13
 id: c-gilfry
-images:
 publication:
-  date: 2005-10-14
+  date: 2005-10-21
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Rodney Gilfry
 type: interview
----
+tags:
+  - Opera
+  - The Magic Flute
+  - Don Giovanni
+  - Eugene Onegin
+  - Orchestra
+  - Concert
 
+---
 There aren't many operatic baritones in the world who can give a concert one night and run a foot race the next day. But, the fit and feisty Rodney Gilfry plans to run the "U.S. Half Marathon" (a formidible 13.1 miles rather than the whole whopping 26.2) later this month, after giving a solo recital the night before in Santa Rosa.
 
 And, a few days before all that, on October 18 in San Francisco, Gilfry will join with a group of other musical luminaries to perform a Gala Concert benefiting the Camphill Communities in North America.
 
-*
 
 Host and honorary chairperson for the concert, entitled 'Celebration at the Rim,' will be mezzo-soprano Frederica von Stade. Other participants will be heldentenor Thomas Moser; mezzo-soprano Elena McEntire; flutist Paula Robison; pianist Steven Bailey; guitarist Romero Lubambo; percussionist Cyro Baptista; violinist Violaine Melancon, cellist Natasha Brofsky, and pianist Seth Knopp (members of the Naumburg Award-winning Peabody Trio); and harpist Rita Costanzi.
 
@@ -37,7 +42,6 @@ When at Claremont, California High School, Gifry was on both the wrestling and c
 
  In addition to his athletics, he also sang the lead in a number of the high school's musical productions. 'We did L'il Abner* in my last year,' he reminisced. 'It was then that I really felt the power and thrill that a singer can have performing for an audience.'
 
-*
 
 Evidently, he also exerted some potent power over soprano Tina, his leading lady in many of the school's musicals. When he was 21 the two married and started their family. He continued his education at California State University Fullerton, where he earned a Bachelor of Arts degree and then at USC, where he was awarded a Master's Degree in Vocal Arts.
 

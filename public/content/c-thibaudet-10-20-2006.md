@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-thibaudet
 images:
+  - src: /images/thibaudet1.jpg
+    alt: For Thibaudet, music is played in the key of life
+    width: 200
+    height: 297
 publication:
   date: 2006-10-20
   publisher: ANG Newspapers
 title: For Thibaudet, music is played in the key of life
 type: interview
+tags:
+  - Piano
+  - Glass
+  - Maurice Ravel
+  - Concert
+  - Violin
+  - Conservatory
 ---
-
 Remember that old saying, "There are basically two kinds of people — those who describe a half-glass of water as half full, and those who describe the same glass as half empty?" After a most amiable chat with the dashing piano wizard Jean-Yves Thibaudet in his Davies Hall dressing room last Monday, I propose there is yet another sort of person in this world, one for whom the figurative glass is neither half-full nor half-empty, but unabashedly brimming over.
 
 The youthful-looking Thibaudet, who resembles a leading man in a romantic French movie or the 19th-century heartthrob pianist Franz Liszt with a modern haircut, had just completed a rehearsal of the Saint-Saens Piano Concerto No. 2 with Semyon Bychkov in an adjacent room. After listening to a few minutes worth of lightning-fast virtuoso passages of piano music thundering from the room next door, I expected to be greeted by an exhausted, perhaps even panting, musician showing the wear and tear of a marathon runner after bursting across the finish line.

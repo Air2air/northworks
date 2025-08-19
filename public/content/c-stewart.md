@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-stewart
 images:
+  - src: /images/stewart.jpg
+    alt: c-stewart
 publication:
-  date: 1999-06-16
-  publisher: ANG Newspapers
+  date: 2004-02-13
+  publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Patrick Stewart
 type: interview
+tags:
+  - Orchestra
+  - Stravinsky
+  - Symphony
+  - Classical
+  - Royal Festival Hall
+  - Maurice Ravel
 ---
-
 Picture the following scene: The setting is a place quite inhospitable to humanoid life forms. Jean-Luc Picard, lying on his stomach, is nose-to-nose with a non-human life form. Picard, of course, is outfitted with a portable oxygen supply and has protective see-through gear over his eyes, but this only piques the curiosity of the alien creature.
 
 The two stare deeply into each other's eyes, and wordlessly, without the even the need for a Vulcan mind meld, they share a poignant, deep communication.

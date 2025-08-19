@@ -2,11 +2,23 @@
 conversion date: 2025-08-13
 id: c-art-brain
 images:
+  - src: /images/sample-image.jpg
+    alt: Music and brain illustration
+    caption: How music affects the brain
+    width: 300
+    height: 200
 publication:
   date: 1999-06-14
   publisher: ANG Newspapers
 title: Music Trains the Brain
 type: article
+tags:
+  - Wolfgang Amadeus Mozart
+  - Johann Sebastian Bach
+  - Johannes Brahms
+  - Piano
+  - Vivaldi
+  - Voice
 ---
 
 Babies like Bach. They also like Mozart, Vivaldi, and a bit of Brahms. Since the birth last week of James, my first grandchild, I have found that some of the little one's lustiest cries can usually be quieted by turning up the volume on a CD of Bach's *Jesu, Joy of Man's Desiring*, or the *Brandenburg Concerto No. 3*. Little James even seems pretty keen on Mozart's *Piano Concerto No. 21*, as well of the strains of Brahms' *Lullaby* from my own scratchy voice.

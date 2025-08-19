@@ -2,13 +2,21 @@
 conversion date: 2025-08-13
 id: c-reviews-cal-symph-9-10
 images:
+  - src: /images/sf-symph-strip.gif
+    alt: c-reviews-cal-symph-9-10 - symph
 publication:
   date: 2010-10-03
   publisher: Bay Area News Group
 title: California Symphony Opening Concert of the 2010-2011 Season
 type: review
+tags:
+  - Orchestra
+  - Copland
+  - Adams
+  - Concert
+  - Symphony
+  - Ludwig van Beethoven
 ---
-
 The "hottest seat" in the Bay Area last Sunday was not a seat, but a podium in the Lesher Center for the Arts in Walnut Creek. Asher Raboy, the guest conductor for the California Symphony's concert opening its 24th Season, was the guy likely to take the heat. But it was Michael Soza, the President of the California Symphony's Board of Directors who had to face up to the boos and catcalls that boomed out over the applause as he stepped to the podium to deliver greetings to open the symphony season and introduce Raboy.
 
 Raboy deftly deflected any continuing ruckus with his opening suggestion that the concert should begin with a hearty round of applause acknowledging the 24 years of excellent work by Maestro Barry Jekowsky, the California Symphony's founder and music director recently ousted by a minority of the organization's 20-member Board of Directors.

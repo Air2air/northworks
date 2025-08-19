@@ -8,6 +8,13 @@ publication:
   publisher: Oakland Tribune
 title: Opening Night of the 2008-2009 Season of the Oakland East Bay Symphony
 type: review
+tags:
+  - Organ
+  - Symphony
+  - Prokofiev
+  - Gershwin
+  - Jazz
+  - Strings
 ---
 
 ---

@@ -7,6 +7,13 @@ publication:
   publisher: Bay Area News Group
 title: Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra
 type: article
+tags:
+  - Piano
+  - Orchestra
+  - Symphony
+  - Frédéric Chopin
+  - Wolfgang Amadeus Mozart
+  - Pyotr Ilyich Tchaikovsky
 ---
 
 Local lovers of the piano, that most versatile of musical instruments, can enjoy a bit of heaven this month, as the San Francisco Symphony presents four of the world's greatest living masters of this consummate king of keyboards.

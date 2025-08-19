@@ -13,7 +13,7 @@ export default function Navigation({ items }: NavigationProps) {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-white">
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-white no-underline">
                 <FaCompass className="w-6 h-6 text-sky-300" />
                 <span>NorthWorks</span>
               </Link>
@@ -24,7 +24,7 @@ export default function Navigation({ items }: NavigationProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`inline-flex items-center px-1 pt-1 border-b-3 tex font-medium ${
+                className={`inline-flex items-center px-1 pt-1 border-b-3 tex font-medium no-underline ${
                   item.active
                     ? 'border-white text-white'
                     : 'border-transparent text-sky-200 hover:text-white hover:border-sky-300'

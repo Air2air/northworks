@@ -2,13 +2,23 @@
 conversion date: 2025-08-13
 id: c-kissine
 images:
+  - src: /images/kissine-with-wife-and-c-3-4-10.jpg
+    alt: c-kissine
+    width: 217
+    height: 168
 publication:
   date: 2010-02-26
   publisher: Bay Area News Group Classical Music Column
 title: Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony
 type: interview
+tags:
+  - Ives
+  - San Francisco Symphony
+  - Ludwig van Beethoven
+  - Composition
+  - Premiere
+  - Sonata
 ---
-
 When American composer Charles Ives, 1874-1954, composed a piece he called The Unanswered Question in 1906, he couldn't have dreamed that a Russian composer born in Leningrad (now St. Petersburg) in 1953, would, if not quite "answer" his question, at least posit a tantalizing musical meditation on it more than a century later.
 
 This new piece, called Post-scriptum by its composer Victor Kissine, will receive its world premiere by the San Francisco Symphony, conducted by Michael Tilson Thomas, in concerts scheduled for March 4, 5, 6 and 7at Davies Symphony Hall in San Francisco.

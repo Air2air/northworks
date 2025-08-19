@@ -7,6 +7,15 @@ publication:
   publisher: ANG Newspapers
 title: Thoughts on Our National Anthem
 type: article
+tags:
+  - The Star-Spangled Banner
+  - National Anthem
+  - Francis Scott Key
+  - American History
+  - War of 1812
+  - Fort McHenry
+  - Anacreontic Society
+
 ---
 
 

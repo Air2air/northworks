@@ -7,6 +7,13 @@ publication:
   publisher: Bay Area News Group
 title: "San Francisco Opera Performance of The Abduction from the Seraglio by Wolfgang Amadeus Mozart"
 type: review
+tags:
+  - Wolfgang Amadeus Mozart
+  - San Francisco Opera
+  - Voice
+  - Il Trovatore
+  - Giuseppe Verdi
+  - Giacomo Puccini
 ---
 
 The San Francisco Opera is really on a roll. Critics and audiences alike extol its 2009-2010 season opener, Verdi's Il Trovatore , as a top-of-the-scale success; its second offering, Puccini's Il Trittico , as a winning artistic coup, and now, most are praising its latest staging of Mozart's The Abduction from the Seraglio as a massively entertaining 18th century romp. Despite economic hard times, General Manager David Gockley seems to have a keen sensitivity to the pulse of the public.

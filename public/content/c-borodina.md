@@ -2,14 +2,23 @@
 conversion date: 2025-08-13
 id: c-borodina
 images:
+  - src: /images/thm-borodina.jpg
+    alt: c-borodina
+    width: 160
+    height: 160
 publication:
   date: 2000-09-15
   publisher: ANG Newspapers Classical Music Column for Preview Section
 title: Cheryl North Interviews Olga Borodina
 type: interview
+tags:
+  - Opera
+  - Conservatory
+  - Giuseppe Verdi
+  - Johann Sebastian Bach
+  - Maurice Ravel
+  - Debut
 ---
-
-
 The Russians are coming; the Russians are coming! The old Cold War chills have escalated into a red hot invasion of Russian musicians into the Bay Area. While this column's opening phrase was the title of a Hollywood movie a few years back, it also fits what's happening on local stages this season.
 
 While the well-nigh legendary Valery Gergiev led his musical minions from the Kirov Orchestra and compatriot pianist Alexander Toradze through an occupation of the Zellerbach Auditorium stage on the University of California campus in Berkeley last night, a whole pack of Russians -- Olga Borodina, Dmitri Hvorostovsky, Anna Netrebko, Nikolai Gassiev, Irina Bogachova, Elena Bocharova, and Vladimir Ognovenko -- are in the process of transforming San Francisco's War Memorial Opera House stage into a bastion of Ivan the Terrible's Russia for a number of nights this month.
@@ -20,7 +29,6 @@ Only four days later, at 8 p.m. September 24, the reigning Czar of Concert Piani
 
 What is it about these vaunted Russians, anyway?
 
-*
 
 I had an opportunity to talk to one of them, mezzo-soprano Olga Borodina, last Thursday during a brief meeting in the press room of the San Francisco Opera house just before she was to rehearse her number for the following night's Lotfi Mansouri Gala. Borodina, a leading artist with the Kirov Opera, has a lovely face that could easily fit into a Romantic Gainsborough or George Romney portrait. Her speaking voice has a sultry timbre, which because of her heavy Russian accent, seems deepened to an even duskier hue. Not quite confident enough to go through with an interview in English, the thirty-something mezzo brought along a very affable translator, the Odessa-born (Russia) San Francisco Opera accompanist, Susanna Lemberskaya.
 

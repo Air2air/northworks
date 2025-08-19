@@ -5,8 +5,18 @@ images:
 publication:
   date: 2008-08-15
   publisher: "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
-title: "Fremont Opera and Composer Nolan Gasser: Bay Area Musical Talent That Is Achieving Deserved Recognition"
+title: "Fremont Opera and Composer Nolan Gasser"
 type: article
+tags:
+  - Fremont Opera
+  - David Sloss
+  - Nolan Gasser
+  - Composer
+  - Opera
+  - Gioachino Rossini
+  - The Barber of Seville
+  - Wolfgang Amadeus Mozart
+
 ---
 
 Is grand opera composed of great music to which some words have been added? Or is it good drama set to appealing tunes?

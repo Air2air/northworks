@@ -1,12 +1,19 @@
 ---
 conversion date: 2025-08-13
-id: c-reviews-sfo-boheme-luisotti-11-08
+id: c-reviews-sfo-boheme-luisotti-11-16-2008
 images:
 publication:
   date: 2008-11-16
-  publisher: Bay Area News Group
-title: San Francisco Opera Performance of Puccini's La Boheme, directed by Nicola Luisotti
+  publisher: Bay Area News Group Classical Music Column
+title: San Francisco Opera's La Bohème with Nicola Luisotti Conducting
 type: review
+tags:
+  - Giacomo Puccini
+  - San Francisco Opera
+  - Performance
+  - Michael Yeargan
+  - Ian Robertson
+  - Nicola Luisotti
 ---
 
 Grand Opera doesn't get much grander than it did in the San Francisco Opera's 214th main-stage performance of Puccini's La Boheme at the War Memorial Opera House last Sunday afternoon. It was like one of the world's most beautiful buildings: every element was wrought into a perfectly balanced, luminous whole.

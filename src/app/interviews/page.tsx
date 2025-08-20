@@ -43,7 +43,14 @@ export default function InterviewsPage() {
           filterable: true,
           sortBy: 'date',
           pagination: true,
-          groupBy: 'category'
+          groupBy: 'category',
+          cardOptions: {
+            layout: 'horizontal',
+            size: 'medium',
+            showTags: true,
+            showSummary: true,
+            showImage: true
+          }
         }}
       />
     </PageLayout>

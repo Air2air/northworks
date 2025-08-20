@@ -19,7 +19,7 @@ export default function ImageGallery({
   // For inline floating images
   if (inline) {
     return (
-      <div className="sm:float-none sm:ml-0 sm:mb-6 sm:max-w-full md:float-right md:ml-6 md:mb-4" style={{ maxWidth: '300px' }}>
+      <div className="sm:float-none sm:ml-0 sm:mb-8 sm:max-w-full md:float-right md:ml-6 md:mb-8" style={{ maxWidth: '300px' }}>
         <div className="space-y-4">
           {images.map((image, index) => (
             <div key={index} style={{ maxWidth: '300px', width: '100%' }}>

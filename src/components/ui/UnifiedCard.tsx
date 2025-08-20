@@ -150,22 +150,27 @@ export default function UnifiedCard({
 
   const ImageSection = () => {
     if (!config.showImage) return null;
-
-    return (
-      <div className={imageClasses}>
-        {primaryImage ? (
-          <LazyImage
-            src={primaryImage.url}
-            alt={primaryImage.alt || item.title}
-            width={primaryImage.width || getImageDimensions(config.size).width}
-            height={primaryImage.height || getImageDimensions(config.size).height}
-            className="w-full h-full object-cover"
-          />
-        ) : (
+    
+    // If no primary image, hide entirely on mobile, show fallback on desktop
+    if (!primaryImage) {
+      return (
+        <div className={`${imageClasses} hidden md:flex`}>
           <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center">
             <TypeIcon className="w-8 h-8 text-sky-500" />
           </div>
-        )}
+        </div>
+      );
+    }
+
+    return (
+      <div className={imageClasses}>
+        <LazyImage
+          src={primaryImage.url}
+          alt={primaryImage.alt || item.title}
+          width={undefined}
+          height={undefined}
+          className="overflow-thumbnail"
+        />
         
         {item.featured && (
           <div className="absolute top-2 right-2">
@@ -299,13 +304,30 @@ export default function UnifiedCard({
   // ===============================================
 
   const renderContent = () => {
-    // FLEX LAYOUT: Use flex-1 to fill available card height
-    return (
-      <div className="flex flex-1">
-        <ImageSection />
-        <ContentSection />
-      </div>
-    );
+    // Responsive layout: vertical on mobile, horizontal on larger screens for horizontal layout
+    if (config.layout === 'horizontal') {
+      return (
+        <div className="flex flex-col md:flex-row flex-1">
+          <ImageSection />
+          <ContentSection />
+        </div>
+      );
+    } else if (config.layout === 'vertical') {
+      return (
+        <div className="flex flex-col flex-1">
+          <ImageSection />
+          <ContentSection />
+        </div>
+      );
+    } else {
+      // Default to responsive horizontal behavior
+      return (
+        <div className="flex flex-col md:flex-row flex-1">
+          <ImageSection />
+          <ContentSection />
+        </div>
+      );
+    }
   };
 
   // ===============================================
@@ -418,64 +440,125 @@ function getTypeIcon(type: ContentType) {
 }
 
 function getCardClasses(config: Required<CardDisplayOptions>, className: string): string {
-  // FLEXIBLE HEIGHT: Use flex with minimum height to allow dynamic expansion
-  return [
-    "bg-white rounded-lg shadow-md overflow-hidden min-h-48 flex flex-col",
-    config.hoverable ? "hover:shadow-lg transition-shadow" : "",
+  // Base card classes with responsive behavior
+  let cardClasses = [
+    "bg-white rounded-lg shadow-md overflow-hidden transition-shadow",
+    config.hoverable ? "hover:shadow-lg" : "",
     config.clickable ? "cursor-pointer" : "",
-    className
-  ].filter(Boolean).join(' ');
+    // Mobile-friendly touch targets and spacing
+    "touch-manipulation", // Improves touch responsiveness
+  ];
+
+  // Layout-specific responsive classes
+  if (config.layout === 'horizontal') {
+    cardClasses.push(
+      // Mobile: vertical stack with appropriate min height for touch
+      "flex flex-col min-h-40 sm:min-h-48",
+      // Tablet and up: horizontal layout with consistent height for image overflow
+      "md:flex-row md:min-h-32 md:h-auto" // Provide height for image to fill
+    );
+  } else if (config.layout === 'vertical') {
+    cardClasses.push(
+      "flex flex-col",
+      // Responsive min heights for vertical cards
+      "min-h-56 sm:min-h-64 lg:min-h-72"
+    );
+  } else {
+    // Default to horizontal responsive behavior
+    cardClasses.push(
+      "flex flex-col min-h-40 sm:min-h-48 md:flex-row md:min-h-32 md:h-auto" // Consistent with horizontal
+    );
+  }
+
+  cardClasses.push(className);
+  
+  return cardClasses.filter(Boolean).join(' ');
 }
 
 function getImageClasses(config: Required<CardDisplayOptions>): string {
-  // FULL HEIGHT: Image expands to fill the available height of the flex container
-  return "relative overflow-hidden flex-shrink-0 w-40 mr-4 self-stretch rounded-lg";
+  // Mobile: width 100%/height overflow, Desktop: height 100%/width overflow
+  let imageClasses = [
+    "relative flex-shrink-0 rounded-lg overflow-hidden"
+  ];
+
+  if (config.layout === 'horizontal') {
+    // Mobile: Full width, fixed height container
+    imageClasses.push(
+      "w-full h-40 sm:h-48", // Constrained container
+      "md:h-full md:w-48 md:mr-4" // Desktop: smaller, more reasonable width
+    );
+  } else if (config.layout === 'vertical') {
+    // Vertical layout
+    imageClasses.push("w-full h-48 sm:h-56 lg:h-64 mb-4");
+  } else {
+    // Default responsive behavior
+    imageClasses.push(
+      "w-full h-40 sm:h-48 md:h-full md:w-48 md:mr-4"
+    );
+  }
+
+  return imageClasses.join(' ');
 }
 
 function getContentClasses(config: Required<CardDisplayOptions>): string {
-  const baseClasses = "flex flex-col justify-between";
+  const baseClasses = "flex flex-col justify-between flex-1";
   
-  const paddingClasses = {
-    small: "p-3",
-    medium: "p-4", 
-    large: "p-6",
-    xl: "p-8"
-  }[config.size];
+  // Responsive padding based on screen size and card size
+  let paddingClasses = "";
+  
+  switch (config.size) {
+    case 'small':
+      paddingClasses = "p-3 sm:p-4";
+      break;
+    case 'medium':
+      paddingClasses = "p-4 sm:p-5 lg:p-6";
+      break;
+    case 'large':
+      paddingClasses = "p-5 sm:p-6 lg:p-8";
+      break;
+    case 'xl':
+      paddingClasses = "p-6 sm:p-8 lg:p-10";
+      break;
+    default:
+      paddingClasses = "p-4 sm:p-5 lg:p-6";
+  }
 
   return [baseClasses, paddingClasses].join(' ');
 }
 
 function getTitleClasses(size: CardDisplayOptions['size']): string {
-  const sizeClasses = {
-    small: "text-sm font-semibold",
-    medium: "text-lg font-semibold",
-    large: "text-xl font-semibold",
-    xl: "text-2xl font-semibold"
-  }[size || 'medium'];
-
-  return `text-sky-900 leading-tight ${sizeClasses}`;
+  // Responsive title classes based on screen size and card size
+  let baseClasses = "text-sky-900 leading-tight line-clamp-2";
+  
+  switch (size) {
+    case 'small':
+      return `${baseClasses} text-sm sm:text-base font-semibold`;
+    case 'medium':
+      return `${baseClasses} text-base sm:text-lg lg:text-xl font-semibold`;
+    case 'large':
+      return `${baseClasses} text-lg sm:text-xl lg:text-2xl font-semibold`;
+    case 'xl':
+      return `${baseClasses} text-xl sm:text-2xl lg:text-3xl font-semibold`;
+    default:
+      return `${baseClasses} text-base sm:text-lg lg:text-xl font-semibold`;
+  }
 }
 
 function getSummaryClasses(size: CardDisplayOptions['size']): string {
-  const sizeClasses = {
-    small: "text-xs",
-    medium: "text-sm",
-    large: "text-base",
-    xl: "text-lg"
-  }[size || 'medium'];
-
-  return `text-sky-600 leading-relaxed mt-2 ${sizeClasses}`;
-}
-
-function getImageDimensions(size: CardDisplayOptions['size']) {
-  const dimensions = {
-    small: { width: 128, height: 128 },
-    medium: { width: 192, height: 192 },
-    large: { width: 256, height: 256 },
-    xl: { width: 320, height: 320 }
-  };
+  let baseClasses = "text-sky-600 leading-relaxed mt-2 line-clamp-3";
   
-  return dimensions[size || 'medium'];
+  switch (size) {
+    case 'small':
+      return `${baseClasses} text-xs sm:text-sm`;
+    case 'medium':
+      return `${baseClasses} text-sm sm:text-base`;
+    case 'large':
+      return `${baseClasses} text-base sm:text-lg`;
+    case 'xl':
+      return `${baseClasses} text-lg sm:text-xl`;
+    default:
+      return `${baseClasses} text-sm sm:text-base`;
+  }
 }
 
 function truncateSummary(summary: string, size: CardDisplayOptions['size']): string {

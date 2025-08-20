@@ -309,8 +309,24 @@ export default function UnifiedList({
   // ===============================================
 
   const getLayoutClasses = () => {
-    // SIMPLIFIED: Always return single column vertical layout
-    return 'space-y-4';
+    // Always single column for list pages - responsive design is handled by individual cards
+    switch (config.layout) {
+      case 'grid':
+        // Responsive grid: only use when explicitly requested
+        return 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-6';
+      case 'list':
+        // Single column list with spacing - ALWAYS single column
+        return 'space-y-4 lg:space-y-6';
+      case 'masonry':
+        // Masonry layout using columns
+        return 'columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 lg:gap-6';
+      case 'carousel':
+        // Horizontal scrolling layout
+        return 'flex space-x-4 overflow-x-auto pb-4';
+      default:
+        // Default to single column list
+        return 'space-y-4 lg:space-y-6';
+    }
   };
 
   // ===============================================

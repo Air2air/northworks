@@ -37,8 +37,8 @@ const LazyImage = React.memo(function LazyImage({
   const [isInView, setIsInView] = useState(priority);
   const imgRef = useRef<HTMLDivElement>(null);
 
-  // Check if we should use responsive sizing
-  const isResponsive = className.includes('w-full') && className.includes('h-full');
+  // Check if we should use responsive sizing (no explicit dimensions provided or responsive classes used)
+  const isResponsive = (className.includes('w-full') && className.includes('h-full')) || className.includes('overflow-thumbnail') || (!width && !height);
   const containerWidth = isResponsive ? undefined : width;
   const containerHeight = isResponsive ? undefined : height;
 
@@ -96,7 +96,7 @@ const LazyImage = React.memo(function LazyImage({
     return (
       <div 
         ref={imgRef}
-        className={`flex items-center justify-center bg-gradient-to-br from-sky-100 to-sky-300 ${className}`}
+        className={`flex items-center justify-center bg-gradient-to-br from-sky-100 to-sky-300 w-full h-full`}
         style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
       >
         <div className="text-center">
@@ -109,7 +109,7 @@ const LazyImage = React.memo(function LazyImage({
   return (
     <div 
       ref={imgRef}
-      className={`relative overflow-hidden ${className}`}
+      className={`relative overflow-hidden w-full h-full`}
       style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
     >
       {/* Placeholder while loading */}
@@ -121,26 +121,26 @@ const LazyImage = React.memo(function LazyImage({
       
       {/* Actual image */}
       {(isInView || priority) && (
-        <Image
-          src={src}
-          alt={alt}
-          {...(isResponsive ? {} : { width, height })}
-          className={`transition-opacity duration-300 ${
-            isLoaded ? 'opacity-100' : 'opacity-0'
-          }`}
-          placeholder="blur"
-          blurDataURL={getPlaceholder()}
-          priority={priority}
-          onLoad={handleLoad}
-          onError={handleError}
-          style={{
-            objectFit: 'cover',
-            width: '100%',
-            height: '100%'
-          }}
-          {...(isResponsive ? { fill: true } : {})}
-          sizes={isResponsive ? '(max-width: 768px) 100vw, 50vw' : undefined}
-        />
+        <div className="absolute inset-0">
+          <Image
+            src={src}
+            alt={alt}
+            {...(isResponsive ? {} : { width, height })}
+            className={`transition-opacity duration-300 ${
+              isLoaded ? 'opacity-100' : 'opacity-0'
+            } ${className.includes('overflow-thumbnail') ? 'object-cover w-full h-[150%] md:w-[150%] md:h-full' : className.includes('object-') ? className : 'object-cover w-full h-full'}`}
+            placeholder="blur"
+            blurDataURL={getPlaceholder()}
+            priority={priority}
+            onLoad={handleLoad}
+            onError={handleError}
+            style={{
+              objectPosition: 'center'
+            }}
+            {...(isResponsive ? { fill: true } : {})}
+            sizes={isResponsive ? '(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw' : undefined}
+          />
+        </div>
       )}
     </div>
   );

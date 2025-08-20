@@ -200,6 +200,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
   }
 
   const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
+  const collection = itemSlug && itemSlug.startsWith("w-") ? "warner" : "cheryl";
 
   return (
     <ContentDetailLayout
@@ -208,6 +209,7 @@ export default async function UniversalContentPage({ params }: PageProps) {
       slug={itemSlug}
       contentType={contentType}
       breadcrumbConfig={breadcrumbConfig}
+      collection={collection}
     />
   );
 }

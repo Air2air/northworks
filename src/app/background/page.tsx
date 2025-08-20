@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
-import { getBackgroundContent } from '@/lib/unified-data';
+import SectionGrid from '@/components/ui/SectionGrid';
+import ImageGallery from '@/components/ImageGallery';
+import { loadMarkdownFile } from '@/lib/markdownLoader';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   }
 };
 
-export default function BackgroundIndexPage() {
-  // Load normalized background content data
-  const backgroundContent = getBackgroundContent();
-
+export default function BackgroundPage() {
+  // Load the background content from markdown file
+  const backgroundData = loadMarkdownFile('w-background.md');
+  
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
     { label: 'D. Warner North', href: '/warner', active: false },
@@ -29,33 +29,11 @@ export default function BackgroundIndexPage() {
 
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      <PageTitle 
-        title="Background"
-        description="Education, biographical information, and professional credentials"
-        align="left"
-        size="medium"
+      {/* Section Grid with background content from markdown file */}
+      <SectionGrid 
+        content={backgroundData.content}
+        frontmatter={backgroundData.frontmatter}
       />
-        
-      <UnifiedList 
-        items={backgroundContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category'
-        }}
-      />
-        
-      <div className="mt-12 pt-8 border-t border-gray-200">
-        <Link
-          href="/warner"
-          className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
-        >
-          ← Back to D. Warner North
-        </Link>
-      </div>
     </PageLayout>
   );
 }

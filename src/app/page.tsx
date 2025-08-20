@@ -90,6 +90,7 @@ export default function HomePage() {
               showSummary: true,
               clickable: true
             }}
+            collection="global"
           />
 
           {/* Cheryl North Card */}
@@ -102,6 +103,7 @@ export default function HomePage() {
               showSummary: true,
               clickable: true
             }}
+            collection="global"
           />
         </div>
     </PageLayout>

@@ -53,6 +53,7 @@ export interface UnifiedCardProps {
   options?: CardDisplayOptions;
   onClick?: (item: UnifiedContentItem) => void;
   className?: string;
+  collection?: "cheryl" | "warner" | "global";
 }
 
 // ===============================================
@@ -63,7 +64,8 @@ export default function UnifiedCard({
   item,
   options = {},
   onClick,
-  className = ''
+  className = "",
+  collection = "global",
 }: UnifiedCardProps) {
   const router = useRouter();
   
@@ -293,6 +295,7 @@ export default function UnifiedCard({
           <Tags 
             tags={item.tags} 
             variant={config.size === 'small' ? 'compact' : 'medium'} 
+            collection={collection}
           />
         </div>
       )}

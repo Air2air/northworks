@@ -115,6 +115,7 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
               <Tags 
                 tags={(frontmatter as any).tags} 
                 variant="compact"
+                collection="warner"
               />
             </div>
           )}

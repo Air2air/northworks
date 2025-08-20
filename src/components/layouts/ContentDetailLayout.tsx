@@ -26,6 +26,7 @@ interface ContentDetailLayoutProps {
     grandParentPath?: string;
     grandParentLabel?: string;
   };
+  collection?: "cheryl" | "warner" | "global";
 }
 
 /**
@@ -37,7 +38,8 @@ export default function ContentDetailLayout({
   content,
   slug,
   contentType,
-  breadcrumbConfig
+  breadcrumbConfig,
+  collection = "global",
 }: ContentDetailLayoutProps) {
   
   // Create breadcrumbs dynamically
@@ -131,7 +133,7 @@ export default function ContentDetailLayout({
           {/* Tags */}
           {tags && tags.length > 0 && (
             <div className="mb-6">
-              <Tags tags={tags} variant="medium" />
+              <Tags tags={tags} variant="medium" collection={collection} />
             </div>
           )}
         </header>

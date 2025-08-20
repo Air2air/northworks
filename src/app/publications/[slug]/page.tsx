@@ -131,6 +131,7 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
           <Tags 
             tags={(frontmatter as any).tags} 
             variant="compact"
+            collection="warner"
           />
         </div>
       )}

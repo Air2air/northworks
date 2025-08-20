@@ -14,8 +14,10 @@ import { UnifiedContentItem } from "@/schemas/unified-content-schema";
 // Client-side search interface
 export default function SearchInterface({
   allContent,
+  collection,
 }: {
   allContent: UnifiedContentItem[];
+  collection?: "cheryl" | "warner" | "global";
 }) {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -54,7 +56,22 @@ export default function SearchInterface({
   const filteredContent = useMemo(() => {
     let filtered = allContent;
 
-    // Search filter only
+    // Collection filter first (if specified)
+    if (collection && collection !== "global") {
+      filtered = filtered.filter((item) => {
+        // Filter by collection based on naming convention
+        if (collection === "cheryl") {
+          return item.id?.startsWith("c-") || item.slug?.startsWith("c-") || 
+                 item.category === "interviews" || item.category === "articles" || item.category === "reviews";
+        } else if (collection === "warner") {
+          return item.id?.startsWith("w-") || item.slug?.startsWith("w-") ||
+                 item.category === "professional" || item.category === "publications" || item.category === "background" || item.category === "projects";
+        }
+        return true;
+      });
+    }
+
+    // Search filter
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       filtered = filtered.filter(
@@ -180,6 +197,7 @@ export default function SearchInterface({
                     layout: 'horizontal',
                     size: 'medium'
                   }} 
+                  collection={collection}
                 />
                 {/* Type Badge */}
                 <div className="absolute top-2 right-2">

@@ -85,6 +85,7 @@ export default function CherylPage() {
               showSummary: true,
               clickable: true
             }}
+            collection="cheryl"
           />
 
           {/* Reviews Card */}
@@ -97,6 +98,7 @@ export default function CherylPage() {
               showSummary: true,
               clickable: true
             }}
+            collection="cheryl"
           />
 
           {/* Articles Card */}
@@ -109,6 +111,7 @@ export default function CherylPage() {
               showSummary: true,
               clickable: true
             }}
+            collection="cheryl"
           />
         </div>
     </PageLayout>

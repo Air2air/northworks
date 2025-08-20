@@ -6,17 +6,33 @@ export interface TagsProps {
   tags: string[];
   variant?: "default" | "compact" | "medium" | "large";
   className?: string;
+  collection?: "cheryl" | "warner" | "global"; // Add collection context
 }
 
 const Tags: React.FC<TagsProps> = ({
   tags,
   variant = "default",
   className,
+  collection = "global",
 }) => {
   if (!tags || tags.length === 0) {
     return null;
   }
   const color1 = "bg-sky-600 text-white";
+
+  // Determine search URL based on collection
+  const getSearchUrl = (tag: string) => {
+    const encodedTag = encodeURIComponent(tag);
+    
+    switch (collection) {
+      case "cheryl":
+        return `/search?q=${encodedTag}&collection=cheryl`;
+      case "warner":
+        return `/search?q=${encodedTag}&collection=warner`;
+      default:
+        return `/search?q=${encodedTag}`;
+    }
+  };
 
   const getTagStyles = (variant: string) => {
     const baseStyles =
@@ -39,9 +55,9 @@ const Tags: React.FC<TagsProps> = ({
       {tags.map((tag, index) => (
         <Link
           key={index}
-          href={`/search?q=${encodeURIComponent(tag)}`}
+          href={getSearchUrl(tag)}
           className={getTagStyles(variant)}
-          title={`Search for "${tag}"`}
+          title={`Search for "${tag}"${collection !== "global" ? ` in ${collection} collection` : ""}`}
           onClick={(e) => e.stopPropagation()}
         >
           {tag}

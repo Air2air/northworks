@@ -2,7 +2,16 @@
  * UNIFIED LIST COMPONENT
  * =====================
  * 
- * Single reusable list component that handles ALL content types:
+export default function UnifiedList({
+  items,
+  options = {},
+  onItemClick,
+  onSelectionChange,
+  loading = false,
+  error,
+  className = "",
+  collection = "global",
+}: UnifiedListProps) {e reusable list component that handles ALL content types:
  * - c-* content (interviews, articles, reviews)
  * - w-* content (professional, publications, background, projects)
  * 
@@ -50,6 +59,7 @@ export interface UnifiedListProps {
   loading?: boolean;
   error?: string;
   className?: string;
+  collection?: "cheryl" | "warner" | "global";
 }
 
 // ===============================================
@@ -63,7 +73,8 @@ export default function UnifiedList({
   onSelectionChange,
   loading = false,
   error,
-  className = ''
+  className = "",
+  collection = "global",
 }: UnifiedListProps) {
 
   // ===============================================
@@ -510,6 +521,7 @@ export default function UnifiedList({
                 className: config.layout === 'masonry' ? 'mb-4 break-inside-avoid' : ''
               }}
               onClick={handleItemClick}
+              collection={collection}
             />
           ))}
         </div>
@@ -531,6 +543,7 @@ export default function UnifiedList({
                       className: config.layout === 'masonry' ? 'mb-4 break-inside-avoid' : ''
                     }}
                     onClick={handleItemClick}
+                    collection={collection}
                   />
                 ))}
               </div>

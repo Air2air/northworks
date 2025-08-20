@@ -106,6 +106,7 @@ export default function WarnerPage() {
             showSummary: true,
             clickable: true,
           }}
+          collection="warner"
         />
 
         {/* Publications Card */}
@@ -118,6 +119,7 @@ export default function WarnerPage() {
             showSummary: true,
             clickable: true,
           }}
+          collection="warner"
         />
 
         {/* Background Card */}
@@ -130,6 +132,7 @@ export default function WarnerPage() {
             showSummary: true,
             clickable: true,
           }}
+          collection="warner"
         />
 
         {/* Projects NRC Card */}
@@ -142,6 +145,7 @@ export default function WarnerPage() {
             showSummary: true,
             clickable: true,
           }}
+          collection="warner"
         />
       </div>
     </PageLayout>

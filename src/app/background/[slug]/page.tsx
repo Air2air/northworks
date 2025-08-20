@@ -119,6 +119,7 @@ export default async function BackgroundPage({ params }: BackgroundPageProps) {
           <Tags 
             tags={(frontmatter as any).tags} 
             variant="compact"
+            collection="warner"
           />
         </div>
       )}

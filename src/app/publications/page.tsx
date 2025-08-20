@@ -26,22 +26,11 @@ export default function PublicationsPage() {
     { label: 'Publications', href: '/publications', active: true }
   ];
 
-  // Get images from the frontmatter, fallback to default if not available
-  const images = publicationsData.frontmatter.images || [
-    { src: '/images/icon-pdf.gif', alt: 'PDF Icon' },
-  { src: '/images/public-participation-image.gif', alt: 'Public Participation Image' },
-    { src: '/images/book-disposition.jpg', alt: 'Book Disposition' },
-    { src: '/images/book-human.jpg', alt: 'Book Human' },
-    { src: '/images/book-understanding.gif', alt: 'Book Understanding' },
-    { src: '/images/book-judgement.gif', alt: 'Book Judgement' },
-    { src: '/images/book-communication.gif', alt: 'Book Communication' },
-    { src: '/images/book-government.gif', alt: 'Book Government' }
-  ];
+
 
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      {/* Images Gallery */}
-      <ImageGallery images={images} inline={true} />
+
       
       {/* Section Grid with publications content from markdown file */}
       <SectionGrid 

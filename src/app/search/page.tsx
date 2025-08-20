@@ -57,8 +57,17 @@ async function getAllContentData(): Promise<{
   }
 }
 
-export default async function UnifiedSearchPage() {
+export default async function UnifiedSearchPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
   const { allContent } = await getAllContentData();
+  const resolvedSearchParams = await searchParams;
+  
+  // Extract collection parameter
+  const collection = resolvedSearchParams.collection as "cheryl" | "warner" | "global" | undefined;
+  const collectionFilter = collection || "global";
   
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
@@ -85,7 +94,10 @@ export default async function UnifiedSearchPage() {
           <div className="bg-gray-200 h-64 rounded"></div>
         </div>
       }>
-        <SearchInterface allContent={allContent} />
+        <SearchInterface 
+          allContent={allContent} 
+          collection={collectionFilter}
+        />
       </Suspense>
     </PageLayout>
   );

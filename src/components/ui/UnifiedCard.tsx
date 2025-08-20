@@ -151,10 +151,10 @@ export default function UnifiedCard({
   const ImageSection = () => {
     if (!config.showImage) return null;
     
-    // If no primary image, hide entirely on mobile, show fallback on desktop
+    // If no primary image, show fallback icon on all screen sizes
     if (!primaryImage) {
       return (
-        <div className={`${imageClasses} hidden md:flex`}>
+        <div className={`${imageClasses} flex`}>
           <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center">
             <TypeIcon className="w-8 h-8 text-sky-500" />
           </div>
@@ -489,8 +489,8 @@ function getImageClasses(config: Required<CardDisplayOptions>): string {
       "md:h-full md:w-48 md:mr-4" // Desktop: smaller, more reasonable width
     );
   } else if (config.layout === 'vertical') {
-    // Vertical layout
-    imageClasses.push("w-full h-48 sm:h-56 lg:h-64 mb-4");
+    // Vertical layout - includes xs (extra small) thumbnail size
+    imageClasses.push("w-full h-16 xs:h-20 sm:h-24 md:h-28 lg:h-32 mb-4");
   } else {
     // Default responsive behavior
     imageClasses.push(

@@ -36,9 +36,9 @@ export default function SectionCard({ content, index, className = '' }: SectionC
     const orgRegex = /\*\*([^*]+)\*\*/g;
     const organizations = [...text.matchAll(orgRegex)].map(m => m[1]);
 
-    // Clean content by removing markdown formatting for display
+    // Clean content by converting markdown formatting to HTML for display
     const cleanContent = text
-      .replace(/\*\*([^*]+)\*\*/g, '$1') // Remove bold markers
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>') // Convert bold markers to HTML
       .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Replace links with just titles
       .trim();
 
@@ -57,9 +57,10 @@ export default function SectionCard({ content, index, className = '' }: SectionC
     <div className={`bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-200 ${className}`}>
       {/* Main content */}
       <div className="prose prose-sm max-w-none">
-        <p className="text-gray-700 leading-relaxed mb-4">
-          {parsed.cleanContent}
-        </p>
+        <p 
+          className="text-gray-700 leading-relaxed mb-4"
+          dangerouslySetInnerHTML={{ __html: parsed.cleanContent }}
+        />
       </div>
 
       {/* Structured metadata */}

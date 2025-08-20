@@ -7,7 +7,7 @@ images:
 publication:
   date: 2009-12-25
   publisher: Bay Area News Group Classical Music Column
-title: Cheryl North Interviews Stephen Hoopes
+title: Cheryl North Interviews Chad Hoopes
 type: interview
 tags:
   - Violin

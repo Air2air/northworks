@@ -167,7 +167,9 @@ article p:last-child,
 .prose img,
 .markdown-content img,
 .content img,
-article img {
+article.prose img,
+article.markdown-content img,
+article.content img {
   width: 200px !important;
   height: auto !important;
   max-width: 200px !important;
@@ -179,7 +181,9 @@ article img {
   .prose img,
   .markdown-content img,
   .content img,
-  article img {
+  article.prose img,
+  article.markdown-content img,
+  article.content img {
     width: 280px !important;
     max-width: 280px !important;
   }
@@ -189,7 +193,9 @@ article img {
 .gallery img,
 .card img,
 .thumbnail img,
-.image-gallery img {
+.image-gallery img,
+.unified-card img,
+.overflow-thumbnail {
   width: auto !important;
   height: auto !important;
   max-width: 100% !important;

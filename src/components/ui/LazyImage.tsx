@@ -24,8 +24,8 @@ interface LazyImageProps {
 const LazyImage = React.memo(function LazyImage({
   src,
   alt,
-  width = 400,
-  height = 300,
+  width,
+  height,
   className = '',
   placeholder,
   priority = false,
@@ -38,9 +38,12 @@ const LazyImage = React.memo(function LazyImage({
   const imgRef = useRef<HTMLDivElement>(null);
 
   // Check if we should use responsive sizing (no explicit dimensions provided or responsive classes used)
-  const isResponsive = (className.includes('w-full') && className.includes('h-full')) || className.includes('overflow-thumbnail') || (!width && !height);
-  const containerWidth = isResponsive ? undefined : width;
-  const containerHeight = isResponsive ? undefined : height;
+  const isOverflowThumbnail = className.includes('overflow-thumbnail');
+  const isResponsive = ((className.includes('w-full') && className.includes('h-full')) || (!width && !height)) && !isOverflowThumbnail;
+  
+  // For overflow-thumbnail, we want no explicit dimensions but also not responsive fill
+  const containerWidth = isResponsive ? undefined : (isOverflowThumbnail ? undefined : (width || 400));
+  const containerHeight = isResponsive ? undefined : (isOverflowThumbnail ? undefined : (height || 300));
 
   // Intersection Observer for lazy loading
   useEffect(() => {
@@ -121,26 +124,53 @@ const LazyImage = React.memo(function LazyImage({
       
       {/* Actual image */}
       {(isInView || priority) && (
-        <div className="absolute inset-0">
-          <Image
-            src={src}
-            alt={alt}
-            {...(isResponsive ? {} : { width, height })}
-            className={`transition-opacity duration-300 ${
-              isLoaded ? 'opacity-100' : 'opacity-0'
-            } ${className.includes('overflow-thumbnail') ? 'object-cover w-full h-[150%] md:w-[150%] md:h-full' : className.includes('object-') ? className : 'object-cover w-full h-full'}`}
-            placeholder="blur"
-            blurDataURL={getPlaceholder()}
-            priority={priority}
-            onLoad={handleLoad}
-            onError={handleError}
-            style={{
-              objectPosition: 'center'
-            }}
-            {...(isResponsive ? { fill: true } : {})}
-            sizes={isResponsive ? '(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw' : undefined}
-          />
-        </div>
+        <>
+          {isOverflowThumbnail ? (
+            // Background image approach for thumbnails - better overflow control
+            <>
+              <div 
+                className="absolute inset-0 transition-opacity duration-300"
+                style={{
+                  backgroundImage: `url(${src})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center center',
+                  backgroundRepeat: 'no-repeat',
+                  opacity: isLoaded ? 1 : 0
+                }}
+              />
+              {/* Hidden image for loading events */}
+              <img
+                src={src}
+                alt={alt}
+                style={{ display: 'none' }}
+                onLoad={handleLoad}
+                onError={handleError}
+              />
+            </>
+          ) : (
+            // Regular Next.js Image for non-thumbnails
+            <div className="absolute inset-0">
+              <Image
+                src={src}
+                alt={alt}
+                {...(isResponsive ? {} : { width, height })}
+                className={`transition-opacity duration-300 ${
+                  isLoaded ? 'opacity-100' : 'opacity-0'
+                } ${className.includes('object-') ? className : 'object-cover w-full h-full'}`}
+                placeholder="blur"
+                blurDataURL={getPlaceholder()}
+                priority={priority}
+                onLoad={handleLoad}
+                onError={handleError}
+                style={{
+                  objectPosition: 'center center'
+                }}
+                {...(isResponsive ? { fill: true } : {})}
+                sizes={isResponsive ? '(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw' : undefined}
+              />
+            </div>
+          )}
+        </>
       )}
     </div>
   );

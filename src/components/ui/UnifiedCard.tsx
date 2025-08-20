@@ -442,6 +442,7 @@ function getTypeIcon(type: ContentType) {
 function getCardClasses(config: Required<CardDisplayOptions>, className: string): string {
   // Base card classes with responsive behavior
   let cardClasses = [
+    "unified-card", // Identifier for CSS exceptions
     "bg-white rounded-lg shadow-md overflow-hidden transition-shadow",
     config.hoverable ? "hover:shadow-lg" : "",
     config.clickable ? "cursor-pointer" : "",

@@ -19,28 +19,31 @@ export default function ImageGallery({
   // For inline floating images
   if (inline) {
     return (
-      <div className="sm:float-none sm:ml-0 sm:mb-8 sm:max-w-full md:float-right md:ml-6 md:mb-8" style={{ maxWidth: '300px' }}>
+      <div className="float-right ml-4 mb-4 max-w-[200px] sm:max-w-[280px] sm:ml-6">
         <div className="space-y-4">
           {images.map((image, index) => (
-            <div key={index} style={{ maxWidth: '300px', width: '100%' }}>
-              <div className="relative group" style={{ maxWidth: '300px' }}>
+            <div key={index} className="w-full">
+              <div className="relative group w-full">
                 <Image
                   src={image.src}
                   alt={image.alt || `Image ${index + 1}`}
-                  width={300}
-                  height={200}
-                  sizes="(max-width: 768px) 100vw, 300px"
-                  className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 object-cover"
-                  style={{ maxWidth: '300px', width: '100%', height: 'auto' }}
+                  width={280}
+                  height={0}
+                  sizes="(max-width: 640px) 200px, 280px"
+                  className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full"
+                  style={{ 
+                    width: 'auto',
+                    height: 'auto' 
+                  }}
                 />
                 {showCaptions && image.caption && (
                   <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-sm">{image.caption}</p>
+                    <p className="text-xs sm:text-sm">{image.caption}</p>
                   </div>
                 )}
               </div>
               {showCaptions && image.caption && (
-                <p className="mt-2 text-sm text-gray-600 text-center">{image.caption}</p>
+                <p className="mt-2 text-xs sm:text-sm text-gray-600 text-center">{image.caption}</p>
               )}
             </div>
           ))}

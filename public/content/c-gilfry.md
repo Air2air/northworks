@@ -1,6 +1,13 @@
 ---
 conversion date: 2025-08-13
 id: c-gilfry
+images:
+  - src: /images/thm-gilfry.jpg
+    alt: Cheryl North Interviews Rodney Gilfry
+  - src: /images/gilfry.jpg
+    alt: c-gilfry
+    width: 140
+    height: 214
 publication:
   date: 2005-10-21
   publisher: ANG Newspapers Classical Music Column

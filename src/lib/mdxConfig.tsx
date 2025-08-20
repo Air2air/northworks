@@ -14,16 +14,16 @@ export const mdxOptions: MDXRemoteProps['options'] = {
 
 // Shared MDX components for consistent styling
 export const mdxComponents: MDXRemoteProps['components'] = {
-  // Images - convert inline markdown images to ImageGallery component
+  // Images - convert inline markdown images to ImageGallery component with consistent 240px width
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {
     if (!src || typeof src !== 'string') return null;
     
-    // Create a ContentImage object for the ImageGallery
+    // Create a ContentImage object for the ImageGallery with enforced 280px width
     const image: ContentImage = {
       src,
       alt: alt || '',
-      width: props.width ? Number(props.width) : undefined,
-      height: props.height ? Number(props.height) : undefined,
+      width: 280, // Enforce 280px width for all inline images
+      height: undefined, // Auto height to maintain aspect ratio
     };
     
     return <ImageGallery images={[image]} inline={true} />;

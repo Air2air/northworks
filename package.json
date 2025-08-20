@@ -14,7 +14,11 @@
     "vercel-build": "next build",
     "postbuild": "echo 'Build completed successfully!'",
     "populate-images": "node scripts/populate-images.js",
-    "populate-images:force": "node scripts/populate-images.js --force"
+    "populate-images:force": "node scripts/populate-images.js --force",
+    "sync-images": "node scripts/sync-frontmatter-to-json.js",
+    "verify-images": "node scripts/verify-image-sync.js",
+    "analyze-images": "node scripts/detailed-image-sync.js",
+    "test-page": "echo 'Visit http://localhost:3000/articles/test-inline-images to test inline images'"
   },
   "dependencies": {
     "@types/marked": "^5.0.2",

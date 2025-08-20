@@ -32,7 +32,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-baby-doe-berkeley-opera-2009 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-baby-doe-berkeley-opera-2009 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Berkeley Opera",
         "Baby Doe",
@@ -95,7 +118,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-berkeley-opera-don-giovanni-2010 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-berkeley-opera-don-giovanni-2010 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Berkeley Opera",
         "Don Giovanni",
@@ -158,7 +204,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/thm-masur.jpg",
+          "type": "image",
+          "alt": "c-reviews-brittenwar-masur - masur",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-masur.jpg",
+          "type": "image",
+          "alt": "c-reviews-brittenwar-masur - masur",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "San Francisco Symphony",
         "Orchestra",
@@ -285,7 +354,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/sf-symph-strip.gif",
+          "type": "image",
+          "alt": "c-reviews-cal-symph-9-10 - symph",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/sf-symph-strip.gif",
+          "type": "image",
+          "alt": "c-reviews-cal-symph-9-10 - symph",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Orchestra",
         "Copland",
@@ -411,7 +503,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/thm-conte.jpg",
+          "type": "image",
+          "alt": "c-reviews-conte-america-tropical - conte",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-conte.jpg",
+          "type": "image",
+          "alt": "c-reviews-conte-america-tropical - conte",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Opera",
         "Premiere",
@@ -559,7 +674,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "c-reviews-hvorostovsky-02-13-2011",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "c-reviews-hvorostovsky-02-13-2011",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Franz Liszt",
         "Pyotr Ilyich Tchaikovsky",
@@ -662,7 +800,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.283045",
         "sourceFile": "cheryl-reviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "c-reviews-hvorostovsky-02-24-2006",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/hvorostovsky.jpg",
+          "type": "image",
+          "alt": "c-reviews-hvorostovsky-02-24-2006",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-reviews-lvo-barber-10-11-08",
@@ -1022,7 +1184,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-oebs-night-at-the-opera-11-16-09 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/opera-now-cover.jpg",
+          "type": "image",
+          "alt": "c-reviews-oebs-night-at-the-opera-11-16-09 - opera",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Giuseppe Verdi",
         "Orchestra",
@@ -1712,7 +1897,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.287666",
         "sourceFile": "cheryl-reviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/thm-masur.jpg",
+          "type": "image",
+          "alt": "c-reviews-sfs-masur-2-09 - masur",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-masur.jpg",
+          "type": "image",
+          "alt": "c-reviews-sfs-masur-2-09 - masur",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-reviews-tristan-stuttgart",

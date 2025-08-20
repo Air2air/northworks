@@ -32,7 +32,30 @@
         "headline": null,
         "url": null
       },
-      "media": [],
+      "media": [
+        {
+          "url": "/images/sample-image.jpg",
+          "type": "image",
+          "alt": "Music and brain illustration",
+          "title": null,
+          "caption": "How music affects the brain",
+          "width": 300,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/sample-image.jpg",
+          "type": "image",
+          "alt": "Music and brain illustration",
+          "title": null,
+          "caption": "How music affects the brain",
+          "width": 300,
+          "height": 200,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ],
       "tags": [
         "Wolfgang Amadeus Mozart",
         "Johann Sebastian Bach",

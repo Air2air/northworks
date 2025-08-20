@@ -1484,7 +1484,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.336785",
         "sourceFile": "cheryl-interviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/thm-conte.jpg",
+          "type": "image",
+          "alt": "c-conte",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-conte.jpg",
+          "type": "image",
+          "alt": "c-conte",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-copley",
@@ -1543,7 +1567,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.336987",
         "sourceFile": "cheryl-interviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/thm-copley.jpg",
+          "type": "image",
+          "alt": "c-copley",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-copley.jpg",
+          "type": "image",
+          "alt": "c-copley",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-delavan",
@@ -1746,7 +1794,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.337635",
         "sourceFile": "cheryl-interviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/celeb-donose.jpg",
+          "type": "image",
+          "alt": "c-donose",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/celeb-donose.jpg",
+          "type": "image",
+          "alt": "c-donose",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-dresher",
@@ -1964,7 +2036,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.338366",
         "sourceFile": "cheryl-interviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/celeb-feltsman.jpg",
+          "type": "image",
+          "alt": "c-feltsman",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/celeb-feltsman.jpg",
+          "type": "image",
+          "alt": "c-feltsman",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-gasser",
@@ -2486,7 +2582,31 @@
         },
         "migrationDate": "2025-08-17T14:29:53.339901",
         "sourceFile": "cheryl-interviews"
-      }
+      },
+      "media": [
+        {
+          "url": "/images/thm-hoopes.jpg",
+          "type": "image",
+          "alt": "c-hoopes",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        },
+        {
+          "url": "/images/thm-hoopes.jpg",
+          "type": "image",
+          "alt": "c-hoopes",
+          "title": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "variant": "thumbnail",
+          "usage": "primary"
+        }
+      ]
     },
     {
       "id": "c-hvorostovsky-04-02-1997",

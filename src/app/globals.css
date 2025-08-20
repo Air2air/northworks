@@ -162,3 +162,35 @@ article p:last-child,
   -webkit-line-clamp: 3;
   line-clamp: 3;
 }
+
+/* Inline image standardization - responsive sizing */
+.prose img,
+.markdown-content img,
+.content img,
+article img {
+  width: 200px !important;
+  height: auto !important;
+  max-width: 200px !important;
+  object-fit: contain;
+}
+
+/* Larger screens: 280px width */
+@media (min-width: 640px) {
+  .prose img,
+  .markdown-content img,
+  .content img,
+  article img {
+    width: 280px !important;
+    max-width: 280px !important;
+  }
+}
+
+/* Exception for images in galleries or cards that should maintain their layout */
+.gallery img,
+.card img,
+.thumbnail img,
+.image-gallery img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+}

@@ -2,6 +2,10 @@
 conversion date: 2025-08-13
 id: c-terfel
 images:
+  - src: /images/titleterfel.gif
+    alt: c-terfel
+    width: 250
+    height: 28
   - src: /images/terfel.jpg
     alt: Cheryl North Interviews Bryn Terfel
 publication:

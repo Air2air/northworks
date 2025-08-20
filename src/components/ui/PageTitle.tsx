@@ -26,13 +26,23 @@ export default function PageTitle({
 
   const getSizeClasses = (size: string) => {
     const sizeMap = {
+      small: {
+        container: 'mb-3',
+        title: 'text-2xl',
+        description: 'text-lg'
+      },
       medium: {
         container: 'mb-4',
         title: 'text-3xl',
         description: 'text-xl'
+      },
+      large: {
+        container: 'mb-6',
+        title: 'text-4xl',
+        description: 'text-xl'
       }
     };
-    return sizeMap[size as keyof typeof sizeMap];
+    return sizeMap[size as keyof typeof sizeMap] || sizeMap.large;
   };
 
   const alignment = getAlignmentClasses(align);

@@ -1,61 +1,53 @@
-import Link from 'next/link';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
-import { getPublicationContent } from '@/lib/unified-data';
+import SectionGrid from '@/components/ui/SectionGrid';
+import ImageGallery from '@/components/ImageGallery';
+import { loadMarkdownFile } from '@/lib/markdownLoader';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Publications | D. Warner North | NorthWorks',
-  description: 'Academic publications and research papers by D. Warner North on risk analysis, decision science, and related fields.',
-  keywords: ['academic publications', 'research papers', 'risk analysis publications', 'decision science', 'D. Warner North', 'scholarly articles'],
+  title: 'Publications & Research Papers | D. Warner North | NorthWorks',
+  description: 'Publications and research papers by D. Warner North covering risk analysis, decision analysis, environmental protection, and nuclear waste management.',
   openGraph: {
-    title: 'Publications | D. Warner North | NorthWorks',
-    description: 'Academic publications and research papers by D. Warner North on risk analysis and decision science.',
+    title: 'Publications & Research Papers | D. Warner North | NorthWorks',
+    description: 'Publications and research papers by D. Warner North covering risk analysis, decision analysis, and environmental protection.',
     type: 'website',
     siteName: 'NorthWorks'
   }
 };
 
-export default function PublicationsIndexPage() {
-  // Load normalized publication content data
-  const publicationContent = getPublicationContent();
-
+export default function PublicationsPage() {
+  // Load the publications content from markdown file
+  const publicationsData = loadMarkdownFile('w-publications.md');
+  
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
     { label: 'D. Warner North', href: '/warner', active: false },
     { label: 'Publications', href: '/publications', active: true }
   ];
 
+  // Get images from the frontmatter, fallback to default if not available
+  const images = publicationsData.frontmatter.images || [
+    { src: '/images/icon-pdf.gif', alt: 'PDF Icon' },
+  { src: '/images/public-participation-image.gif', alt: 'Public Participation Image' },
+    { src: '/images/book-disposition.jpg', alt: 'Book Disposition' },
+    { src: '/images/book-human.jpg', alt: 'Book Human' },
+    { src: '/images/book-understanding.gif', alt: 'Book Understanding' },
+    { src: '/images/book-judgement.gif', alt: 'Book Judgement' },
+    { src: '/images/book-communication.gif', alt: 'Book Communication' },
+    { src: '/images/book-government.gif', alt: 'Book Government' }
+  ];
+
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      <PageTitle 
-        title="Publications"
-        description="Research publications, reports, and written works"
-        align="left"
-        size="medium"
+      {/* Images Gallery */}
+      <ImageGallery images={images} inline={true} />
+      
+      {/* Section Grid with publications content from markdown file */}
+      <SectionGrid 
+        content={publicationsData.content}
+        frontmatter={publicationsData.frontmatter}
       />
-        
-      <UnifiedList 
-        items={publicationContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category'
-        }}
-      />
-        
-      <div className="mt-12 pt-8 border-t border-gray-200">
-        <Link
-          href="/warner"
-          className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
-        >
-          ← Back to D. Warner North
-        </Link>
-      </div>
     </PageLayout>
   );
 }

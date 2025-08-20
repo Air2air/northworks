@@ -73,13 +73,13 @@ export default function WarnerPage() {
         size="medium"
       />
 
-      {/* Content Cards - Single Column Layout */}
-      <div className="space-y-6 mt-12">
+      {/* Content Cards - Responsive Grid Layout */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-12">
           {/* Professional Card */}
           <UnifiedCard
             item={professionalItem}
             options={{
-              layout: 'horizontal',
+              layout: 'vertical',
               size: 'medium',
               showTags: true,
               showSummary: true,
@@ -91,7 +91,7 @@ export default function WarnerPage() {
           <UnifiedCard
             item={publicationsItem}
             options={{
-              layout: 'horizontal',
+              layout: 'vertical',
               size: 'medium',
               showTags: true,
               showSummary: true,
@@ -103,7 +103,7 @@ export default function WarnerPage() {
           <UnifiedCard
             item={backgroundItem}
             options={{
-              layout: 'horizontal',
+              layout: 'vertical',
               size: 'medium',
               showTags: true,
               showSummary: true,

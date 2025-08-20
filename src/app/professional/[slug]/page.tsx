@@ -3,8 +3,10 @@ import { ProfessionalFrontmatter } from '@/types/content';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
+import SectionGrid from '@/components/ui/SectionGrid';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
+import { shouldUseSectionCards } from '@/lib/sectionParser';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
 import type { Metadata } from 'next';
@@ -61,6 +63,9 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
   }
 
   const frontmatter = contentData.frontmatter as ProfessionalFrontmatter;
+  
+  // Check if this content should use section cards
+  const useSectionCards = shouldUseSectionCards(contentData.content);
 
   // Create breadcrumbs
   const breadcrumbs = [
@@ -72,50 +77,61 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
 
   return (
     <PageLayout breadcrumbs={breadcrumbs}>
-      <PageTitle 
-        title={frontmatter.title}
-        size="medium"
-        align="left"
-      />
-      
-      {(frontmatter.organization || frontmatter.position || frontmatter.duration) && (
-        <div className="bg-gray-50 rounded-lg p-4 mb-6">
-          <h3 className="text-sm font-semibold text-gray-900 mb-2">Professional Details</h3>
-          <div className="text-sm text-gray-600 space-y-1">
-            {frontmatter.organization && (
-              <p><strong>Organization:</strong> {frontmatter.organization}</p>
-            )}
-            {frontmatter.position && (
-              <p><strong>Position:</strong> {frontmatter.position}</p>
-            )}
-            {frontmatter.duration && (
-              <p><strong>Duration:</strong> {frontmatter.duration}</p>
-            )}
-          </div>
-        </div>
-      )}
-
-      {(frontmatter as any).tags && (frontmatter as any).tags.length > 0 && (
-        <div className="mb-6">
-          <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
-          <Tags 
-            tags={(frontmatter as any).tags} 
-            variant="compact"
+      {useSectionCards ? (
+        // Section-based layout for long list pages
+        <SectionGrid 
+          content={contentData.content}
+          frontmatter={frontmatter}
+        />
+      ) : (
+        // Traditional layout for regular pages
+        <>
+          <PageTitle 
+            title={frontmatter.title}
+            size="medium"
+            align="left"
           />
-        </div>
-      )}
+          
+          {(frontmatter.organization || frontmatter.position || frontmatter.duration) && (
+            <div className="bg-gray-50 rounded-lg p-4 mb-6">
+              <h3 className="text-sm font-semibold text-gray-900 mb-2">Professional Details</h3>
+              <div className="text-sm text-gray-600 space-y-1">
+                {frontmatter.organization && (
+                  <p><strong>Organization:</strong> {frontmatter.organization}</p>
+                )}
+                {frontmatter.position && (
+                  <p><strong>Position:</strong> {frontmatter.position}</p>
+                )}
+                {frontmatter.duration && (
+                  <p><strong>Duration:</strong> {frontmatter.duration}</p>
+                )}
+              </div>
+            </div>
+          )}
 
-      {/* Content */}
-      <div className="prose prose-lg max-w-none mb-8">
-        <div dangerouslySetInnerHTML={{ __html: htmlContentData.content }} />
-      </div>
+          {(frontmatter as any).tags && (frontmatter as any).tags.length > 0 && (
+            <div className="mb-6">
+              <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
+              <Tags 
+                tags={(frontmatter as any).tags} 
+                variant="compact"
+              />
+            </div>
+          )}
 
-      {/* Images Gallery */}
-      {frontmatter.images && frontmatter.images.length > 0 && (
-        <section className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Images</h3>
-          <ImageGallery images={frontmatter.images} />
-        </section>
+          {/* Content */}
+          <div className="prose prose-lg max-w-none mb-8">
+            <div dangerouslySetInnerHTML={{ __html: htmlContentData.content }} />
+          </div>
+
+          {/* Images Gallery */}
+          {frontmatter.images && frontmatter.images.length > 0 && (
+            <section className="mb-8">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Images</h3>
+              <ImageGallery images={frontmatter.images} />
+            </section>
+          )}
+        </>
       )}
 
       {/* Back to Professional */}

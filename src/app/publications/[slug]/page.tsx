@@ -4,8 +4,10 @@ import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
 import PageLayout from '@/components/layouts/PageLayout';
 import PublicationInfo from '@/components/ui/PublicationInfo';
+import SectionGrid from '@/components/ui/SectionGrid';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
+import { shouldUseSectionCards } from '@/lib/sectionParser';
 import { notFound } from 'next/navigation';
 import Tags from '@/components/ui/Tags';
 import type { Metadata } from 'next';
@@ -73,6 +75,9 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
 
   const frontmatter = contentData.frontmatter as PublicationFrontmatter;
 
+  // Check if this content should use section cards instead of traditional layout
+  const useSectionCards = shouldUseSectionCards(contentData.content);
+
   // Create breadcrumbs
   const breadcrumbs = [
     { label: 'Home', href: '/', active: false },
@@ -80,6 +85,28 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
     { label: 'Publications', href: '/publications', active: false },
     { label: cleanTitle(frontmatter.title), href: `/publications/${resolvedParams.slug}`, active: true }
   ];
+
+  // If using section cards, render SectionGrid instead
+  if (useSectionCards) {
+    return (
+      <PageLayout breadcrumbs={breadcrumbs}>
+        <SectionGrid 
+          content={contentData.content}
+          frontmatter={frontmatter}
+        />
+        
+        {/* Back to Publications */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <a
+            href="/publications"
+            className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
+          >
+            ← Back to Publications
+          </a>
+        </div>
+      </PageLayout>
+    );
+  }
 
   return (
     <PageLayout breadcrumbs={breadcrumbs}>

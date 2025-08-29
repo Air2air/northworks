@@ -27,7 +27,8 @@ import {
   UnifiedContentItem, 
   CardDisplayOptions,
   MediaVariant,
-  ContentType 
+  ContentType,
+  UnifiedCardProps 
 } from '@/schemas/unified-content-schema';
 import { CollectionType } from '@/types';
 import { 
@@ -57,16 +58,6 @@ import {
 
 // ===============================================
 // COMPONENT INTERFACE
-// ===============================================
-
-export interface UnifiedCardProps {
-  item: UnifiedContentItem;
-  options?: CardDisplayOptions;
-  onClick?: (item: UnifiedContentItem) => void;
-  className?: string;
-  collection?: CollectionType;
-}
-
 // ===============================================
 // MAIN COMPONENT
 // ===============================================

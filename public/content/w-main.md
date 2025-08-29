@@ -9,6 +9,7 @@ publication:
   publisher: the Commission
 title: D. Warner North - Professional Biography
 type: background
+description: Principal Scientist of NorthWorks and leading expert in risk analysis and nuclear waste issues
 tags:
   - Stanford
   - Environmental Science

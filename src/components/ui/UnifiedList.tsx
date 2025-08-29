@@ -24,7 +24,9 @@ import UnifiedCard from './UnifiedCard';
 import Pagination from './Pagination';
 import { 
   UnifiedContentItem, 
-  ListDisplayOptions
+  ContentType,
+  ListDisplayOptions,
+  UnifiedListProps 
 } from '@/schemas/unified-content-schema';
 import { CollectionType, SearchFilters } from '@/types';
 import { 
@@ -35,21 +37,6 @@ import {
   FaExclamationTriangle,
   FaImage
 } from 'react-icons/fa';
-
-// ===============================================
-// COMPONENT INTERFACE
-// ===============================================
-
-export interface UnifiedListProps {
-  items: UnifiedContentItem[];
-  options?: ListDisplayOptions;
-  onItemClick?: (item: UnifiedContentItem) => void;
-  onSelectionChange?: (items: UnifiedContentItem[]) => void;
-  loading?: boolean;
-  error?: string;
-  className?: string;
-  collection?: "cheryl" | "warner" | "global";
-}
 
 // ===============================================
 // MAIN COMPONENT

@@ -15,6 +15,7 @@ publication:
   date: 2010-10-19
 title: Cheryl North - Main
 type: interview
+description: Noted classical music journalist for the Bay Area News Group and syndicated newspapers
 tags:
   - Piano
   - Johann Sebastian Bach

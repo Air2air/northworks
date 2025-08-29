@@ -13,8 +13,11 @@
  * 5. Type safety throughout the application
  */
 
+// Import CollectionType from centralized types
+import type { CollectionType } from '../types';
+
 // ===============================================
-// CORE CONTENT SCHEMA
+// CORE CONTENT TYPES
 // ===============================================
 
 export interface BaseContentItem {
@@ -562,6 +565,7 @@ export interface UnifiedCardProps {
   options?: CardDisplayOptions;
   onClick?: (item: UnifiedContentItem) => void;
   className?: string;
+  collection?: CollectionType; // Collection type for styling context
 }
 
 export interface UnifiedListProps {
@@ -572,4 +576,5 @@ export interface UnifiedListProps {
   loading?: boolean;
   error?: string;
   className?: string;
+  collection?: CollectionType; // Collection type for styling context
 }

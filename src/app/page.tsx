@@ -4,19 +4,14 @@ import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedCard from '@/components/ui/UnifiedCard';
 import Link from 'next/link';
+import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'NorthWorks - Classical Music and Risk Analysis',
-  description: 'Unified platform combining classical music journalism by Cheryl North and professional risk analysis expertise by D. Warner North. Search across interviews, articles, reviews, and professional portfolio content.',
-  keywords: ['NorthWorks', 'classical music', 'risk analysis', 'Warner North', 'Cheryl North', 'music journalism', 'decision analysis', 'consulting', 'opera reviews'],
-  openGraph: {
-    title: 'NorthWorks - Classical Music and Risk Analysis',
-    description: 'Unified platform combining classical music journalism and professional risk analysis expertise.',
-    type: 'website',
-    siteName: 'NorthWorks'
-  }
-};
+export const metadata: Metadata = generateMetadataFromContent('index', {
+  type: 'website',
+  defaultTitle: 'NorthWorks',
+  defaultDescription: 'Classical Music and Risk Analysis platform'
+});
 
 export default function HomePage() {
   const homeData = getContentBySlug('index');
@@ -27,7 +22,7 @@ export default function HomePage() {
         <div className="text-center">
           <PageTitle 
             title="NorthWorks"
-            description=""
+            description="Classical Music and Risk Analysis"
             size="medium"
             align="left"
           />
@@ -35,6 +30,10 @@ export default function HomePage() {
       </UnifiedLayout>
     );
   }
+
+  // Extract title and description from frontmatter
+  const title = homeData.frontmatter?.title || "NorthWorks";
+  const description = homeData.frontmatter?.description || "Classical Music and Risk Analysis";
 
   // Create navigation items for UnifiedCard
   const warnerItem = {
@@ -66,8 +65,8 @@ export default function HomePage() {
   return (
     <UnifiedLayout>
       <PageTitle
-        title="NorthWorks"
-        description="Classical Music and Risk Analysis"
+        title={title}
+        description={description}
         align="left"
         size="medium"
       />

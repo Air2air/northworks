@@ -7,6 +7,7 @@ publication:
   publisher: Silvio Funtowicz
 title: Publications & Research Papers
 type: publication
+description: Complete publications list, papers, articles, and written works by D. Warner North on risk analysis and decision science.
 
 ---
 ["The Decision to Seed Hurricanes"](/pdf/hurricanes.pdf) (with R.A. Howard and J.E. Matheson), Science, Vol. 176, p. 1191-1202, 1972.

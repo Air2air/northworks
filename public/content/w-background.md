@@ -9,6 +9,7 @@ publication:
   publisher: the Decision
 title: Professional Background & Education
 type: background
+description: Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.
 tags:
   - Stanford
   - Decision Focus

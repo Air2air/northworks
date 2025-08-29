@@ -36,9 +36,6 @@ export default function ImageGallery({
                   </div>
                 )}
               </div>
-              {showCaptions && image.caption && (
-                <p className="mt-2 text-xs sm:text-sm text-gray-600 text-center">{image.caption}</p>
-              )}
             </div>
           ))}
         </div>

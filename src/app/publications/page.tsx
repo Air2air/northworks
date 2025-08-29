@@ -1,30 +1,25 @@
 import { getContentBySlug } from '@/lib/content';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import PageTitle from '@/components/ui/PageTitle';
+import { generateBreadcrumbsFromFrontmatter } from '@/lib/breadcrumbUtils';
+import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Publications | D. Warner North | NorthWorks',
-  description: 'Complete publications list, papers, articles, and written works by D. Warner North on risk analysis and decision science.',
-  keywords: ['D. Warner North publications', 'risk analysis papers', 'decision science articles', 'academic papers', 'research publications'],
-  openGraph: {
-    title: 'Publications | D. Warner North | NorthWorks',
-    description: 'Complete publications and written works by D. Warner North on risk analysis and decision science.',
-    type: 'website',
-    siteName: 'NorthWorks'
-  }
-};
+export const metadata: Metadata = generateMetadataFromContent('w-publications', {
+  collection: 'warner',
+  type: 'website'
+});
 
 export default function PublicationsPage() {
-  const breadcrumbs = generateListingBreadcrumbs('publication');
   const content = getContentBySlug('w-publications', false); // Get raw markdown for MDX
+  const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-publications');
 
   if (!content) {
     return (
       <UnifiedLayout breadcrumbs={breadcrumbs}>
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900">Publications Not Found</h1>
-          <p className="mt-2 text-gray-600">The publications list could not be loaded.</p>
+          <PageTitle title="Publications Not Found" size="small" />
+          <p className="mt-2 text-gray-600">The publications information could not be loaded.</p>
         </div>
       </UnifiedLayout>
     );

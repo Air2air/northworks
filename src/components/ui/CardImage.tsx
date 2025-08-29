@@ -25,13 +25,7 @@ import {
   FaBuilding
 } from 'react-icons/fa';
 import { UnifiedContentItem, MediaVariant, ContentType } from '@/schemas/unified-content-schema';
-
-interface CardImageProps {
-  item: UnifiedContentItem;
-  variant: MediaVariant;
-  showImage: boolean;
-  className?: string;
-}
+import type { CardImageProps } from '@/types';
 
 export default function CardImage({ 
   item, 

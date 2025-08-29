@@ -189,3 +189,96 @@ export function getContentStats() {
   
   return stats;
 }
+
+// ===============================================
+// LANDING PAGE NAVIGATION
+// ===============================================
+
+/**
+ * Get navigation items for collection landing pages
+ */
+export function getLandingPageNavigation(collection: 'warner' | 'cheryl'): UnifiedContentItem[] {
+  if (collection === 'warner') {
+    return [
+      {
+        id: 'professional-nav',
+        slug: 'professional',
+        type: 'professional',
+        category: 'professional',
+        title: 'Professional Experience',
+        summary: 'Consulting work, government service, and academic collaborations',
+        url: '/professional',
+        status: 'published',
+        source: 'manual',
+        tags: ['consulting', 'government', 'academic', 'professional'],
+      },
+      {
+        id: 'publications-nav',
+        slug: 'publications',
+        type: 'publication',
+        category: 'publications',
+        title: 'Publications',
+        summary: 'Books, research papers, reports, and articles',
+        url: '/publications',
+        status: 'published',
+        source: 'manual',
+        tags: ['research', 'papers', 'books', 'articles'],
+      },
+      {
+        id: 'background-nav',
+        slug: 'background',
+        type: 'background',
+        category: 'background',
+        title: 'Background',
+        summary: 'Education, training, honors, and biographical information',
+        url: '/background',
+        status: 'published',
+        source: 'manual',
+        tags: ['education', 'training', 'honors', 'biography'],
+      }
+    ];
+  }
+
+  if (collection === 'cheryl') {
+    return [
+      {
+        id: 'interviews-nav',
+        slug: 'interviews',
+        type: 'interview',
+        category: 'interviews',
+        title: 'Interviews',
+        summary: 'In-depth conversations with musicians, conductors, and performers',
+        url: '/interviews',
+        status: 'published',
+        source: 'manual',
+        tags: ['interviews', 'musicians', 'conductors', 'performers']
+      },
+      {
+        id: 'reviews-nav',
+        slug: 'reviews',
+        type: 'review',
+        category: 'reviews',
+        title: 'Reviews',
+        summary: 'Concert reviews, opera critiques, and performance analysis',
+        url: '/reviews',
+        status: 'published',
+        source: 'manual',
+        tags: ['reviews', 'concerts', 'opera', 'performances']
+      },
+      {
+        id: 'articles-nav',
+        slug: 'articles',
+        type: 'article',
+        category: 'articles',
+        title: 'Articles',
+        summary: 'Music journalism, features, and cultural commentary',
+        url: '/articles',
+        status: 'published',
+        source: 'manual',
+        tags: ['articles', 'journalism', 'features', 'commentary']
+      }
+    ];
+  }
+
+  return [];
+}

@@ -6,6 +6,7 @@
 import { shouldUseSectionCards } from '@/lib/sectionParser';
 import { formatDate } from '@/lib/dateUtils';
 import { cleanTitle } from '@/lib/pathUtils';
+import { getDescription } from '@/lib/fieldNormalization';
 
 /**
  * Content processing configuration for different types
@@ -138,7 +139,7 @@ export function extractContentMetadata(frontmatter: any, contentType: string): E
 
   return {
     title: cleanTitle(frontmatter.title),
-    description: frontmatter.description || frontmatter.summary,
+    description: getDescription(frontmatter),
     publication: extractPublication(),
     professional: extractProfessional(),
     tags: extractTags(),

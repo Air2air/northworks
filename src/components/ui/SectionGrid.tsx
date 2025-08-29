@@ -5,12 +5,7 @@ import SectionCard from './SectionCard';
 import PageTitle from './PageTitle';
 import SectionSearchInterface from './SectionSearchInterface';
 import { parseContentSections, extractSectionPageMetadata, type ContentSection } from '@/lib/sectionParser';
-
-export interface SectionGridProps {
-  content: string;
-  frontmatter?: any;
-  className?: string;
-}
+import { SectionGridProps } from '@/types';
 
 export default function SectionGrid({ content, frontmatter, className }: SectionGridProps) {
   // Parse sections from content

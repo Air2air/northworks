@@ -30,7 +30,11 @@ const NOT_FOUND_METADATA = {
 
 export type ContentType = keyof typeof BACK_LINK_CONFIG;
 
-interface ContentDetailPageProps {
+// Import centralized props interface
+import type { ContentDetailPageProps as CentralizedContentDetailPageProps } from '@/types';
+
+// Local interface extending the centralized one
+interface ContentDetailPageProps extends CentralizedContentDetailPageProps {
   params: Promise<{ slug: string }>;
   contentType: ContentType;
 }

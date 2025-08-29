@@ -1,29 +1,24 @@
 import { getContentBySlug } from '@/lib/content';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import PageTitle from '@/components/ui/PageTitle';
+import { generateBreadcrumbsFromFrontmatter } from '@/lib/breadcrumbUtils';
+import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Background | D. Warner North | NorthWorks',
-  description: 'Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.',
-  keywords: ['D. Warner North biography', 'risk analysis expert', 'decision science', 'education', 'professional background', 'career history'],
-  openGraph: {
-    title: 'Background | D. Warner North | NorthWorks',
-    description: 'Background information and biographical details about D. Warner North, expert in risk analysis and decision science.',
-    type: 'website',
-    siteName: 'NorthWorks'
-  }
-};
+export const metadata: Metadata = generateMetadataFromContent('w-background', {
+  collection: 'warner',
+  type: 'website'
+});
 
 export default function BackgroundPage() {
-  const breadcrumbs = generateListingBreadcrumbs('background');
   const content = getContentBySlug('w-background', false); // Get raw markdown for MDX
+  const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-background');
 
   if (!content) {
     return (
       <UnifiedLayout breadcrumbs={breadcrumbs}>
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900">Background Not Found</h1>
+          <PageTitle title="Background Not Found" size="small" />
           <p className="mt-2 text-gray-600">The background information could not be loaded.</p>
         </div>
       </UnifiedLayout>

@@ -1,8 +1,3 @@
-/**
- * Unified Search Page - Keyword-based search across all content collections
- * Classical music interviews, articles, reviews, and professional portfolio
- */
-
 import { generateSpecialBreadcrumbs } from '@/lib/breadcrumbUtils';
 import React, { Suspense } from 'react';
 import { UnifiedContentItem } from '@/schemas/unified-content-schema';
@@ -10,20 +5,16 @@ import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import dynamic from 'next/dynamic';
 import { getAllContent } from '@/lib/unified-data';
+import { generateMetadataFromContent } from '@/lib/metadataUtils';
+import { getContentBySlug } from '@/lib/content';
 import type { Metadata } from 'next';
 import { CollectionType, isValidCollection } from '@/types';
 
-export const metadata: Metadata = {
-  title: 'Search | NorthWorks',
-  description: 'Search across classical music interviews, articles, reviews, and professional portfolio content from Cheryl North and D. Warner North.',
-  keywords: ['search', 'classical music', 'interviews', 'articles', 'reviews', 'music journalism', 'risk analysis'],
-  openGraph: {
-    title: 'Search | NorthWorks',
-    description: 'Search across classical music interviews, articles, reviews, and professional portfolio content.',
-    type: 'website',
-    siteName: 'NorthWorks'
-  }
-};
+export const metadata: Metadata = generateMetadataFromContent('search', {
+  type: 'website',
+  defaultTitle: 'Search | NorthWorks',
+  defaultDescription: 'Search across classical music content and professional portfolio'
+});
 
 // Dynamic import for SearchInterface to reduce initial bundle size
 const SearchInterface = dynamic(() => import('@/components/SearchInterface'), {
@@ -76,11 +67,16 @@ export default async function UnifiedSearchPage({
   // Generate breadcrumbs using centralized utility
   const breadcrumbs = generateSpecialBreadcrumbs('search');
   
+  // Get search page content from frontmatter
+  const searchContent = getContentBySlug('search', false);
+  const title = searchContent?.frontmatter?.title || "Search NorthWorks";
+  const description = searchContent?.frontmatter?.description || "Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below.";
+  
   return (
     <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle 
-        title="Search NorthWorks"
-        description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
+        title={title}
+        description={description}
         align="left"
         size="medium"
       />

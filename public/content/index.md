@@ -9,8 +9,19 @@ images:
 publication:
   date: 2017-01-01
   publisher: NorthWorks
-title: NorthWorks - 
+title: NorthWorks - Classical Music and Risk Analysis
 type: homepage
+description: Unified platform combining classical music journalism by Cheryl North and professional risk analysis expertise by D. Warner North. Search across interviews, articles, reviews, and professional portfolio content.
+keywords:
+  - NorthWorks
+  - classical music
+  - risk analysis
+  - Warner North
+  - Cheryl North
+  - music journalism
+  - decision analysis
+  - consulting
+  - opera reviews
 tags:
   - San Francisco Symphony
   - San Francisco Opera

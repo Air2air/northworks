@@ -1,5 +1,3 @@
-"use client";
-
 /**
  * LazyImage - Optimized image component with lazy loading and performance features
  * Includes intersection observer, blur-up effect, and error handling
@@ -8,18 +6,7 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { FaCompass } from 'react-icons/fa';
-
-interface LazyImageProps {
-  src: string;
-  alt: string;
-  width?: number;
-  height?: number;
-  className?: string;
-  placeholder?: string;
-  priority?: boolean;
-  onLoad?: () => void;
-  onError?: () => void;
-}
+import type { LazyImageProps } from '@/types';
 
 const LazyImage = React.memo(function LazyImage({
   src,
@@ -177,4 +164,3 @@ const LazyImage = React.memo(function LazyImage({
 });
 
 export default LazyImage;
-export type { LazyImageProps };

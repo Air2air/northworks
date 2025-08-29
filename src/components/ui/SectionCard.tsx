@@ -4,12 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { FaExternalLinkAlt, FaFileDownload, FaBuilding, FaCalendarAlt, FaExclamationTriangle } from 'react-icons/fa';
 import { extractAndResolveLinks } from '@/lib/linkResolver';
-
-export interface SectionCardProps {
-  content: string;
-  index?: number;
-  className?: string;
-}
+import { SectionCardProps } from '@/types';
 
 export default function SectionCard({ content, index, className = '' }: SectionCardProps) {
   if (!content || !content.trim()) {

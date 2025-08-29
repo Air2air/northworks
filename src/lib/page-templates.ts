@@ -5,10 +5,11 @@
 
 import { notFound } from 'next/navigation';
 import { getContentBySlug } from '@/lib/content';
-import { generateDetailBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { generateDetailBreadcrumbsFromFrontmatter } from '@/lib/breadcrumbUtils';
 import { cleanTitle } from '@/lib/pathUtils';
 import { shouldUseSectionCards } from '@/lib/sectionParser';
 import { getCollectionFromSlug, CollectionType } from '@/types';
+import { getDescription } from '@/lib/fieldNormalization';
 import type { Metadata } from 'next';
 
 // Content type configuration for normalized handling
@@ -88,9 +89,7 @@ export async function loadNormalizedContent(slug: string, expectedType?: Content
     const useSectionCards = shouldUseSectionCards(rawContent.content);
 
     // Generate standardized breadcrumbs
-    const breadcrumbs = generateDetailBreadcrumbs(
-      contentType, 
-      cleanTitle(rawContent.frontmatter.title), 
+    const breadcrumbs = generateDetailBreadcrumbsFromFrontmatter(
       slug
     );
 
@@ -124,10 +123,10 @@ export function generateNormalizedMetadata(
   const title = cleanTitle(frontmatter.title);
   const authorName = isWarnerContent ? 'D. Warner North' : 'Cheryl North';
   
-  // Generate contextual description
-  const getDescription = () => {
-    if (frontmatter.summary) return frontmatter.summary;
-    if (frontmatter.description) return frontmatter.description;
+  // Generate contextual description using normalized field access
+  const getContextualDescription = () => {
+    const normalizedDescription = getDescription(frontmatter);
+    if (normalizedDescription) return normalizedDescription;
     
     const publicationInfo = frontmatter.publication?.outlet || frontmatter.publication?.publisher;
     
@@ -157,7 +156,7 @@ export function generateNormalizedMetadata(
     return [];
   };
 
-  const description = getDescription();
+  const description = getContextualDescription();
   const keywords = getKeywords();
   const fullTitle = `${title} | ${authorName} | NorthWorks`;
 

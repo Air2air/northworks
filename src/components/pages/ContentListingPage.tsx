@@ -3,7 +3,7 @@
  * Consolidates all content type listing pages (articles, reviews, interviews, etc.)
  */
 
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { generateBreadcrumbsFromFrontmatter } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
@@ -64,28 +64,10 @@ const CONTENT_CONFIG = {
 
 export type ContentType = keyof typeof CONTENT_CONFIG;
 
+// Local interface with specific typing
 interface ContentListingPageProps {
   contentType: ContentType;
   items: UnifiedContentItem[];
-}
-
-/**
- * Generate metadata for content listing pages
- */
-export function generateContentListingMetadata(contentType: ContentType): Metadata {
-  const config = CONTENT_CONFIG[contentType];
-  
-  return {
-    title: config.metaTitle,
-    description: config.metaDescription,
-    keywords: [...config.keywords],
-    openGraph: {
-      title: config.metaTitle,
-      description: config.metaDescription,
-      type: 'website',
-      siteName: 'NorthWorks'
-    }
-  };
 }
 
 /**
@@ -93,7 +75,7 @@ export function generateContentListingMetadata(contentType: ContentType): Metada
  */
 export default function ContentListingPage({ contentType, items }: ContentListingPageProps) {
   const config = CONTENT_CONFIG[contentType];
-  const breadcrumbs = generateListingBreadcrumbs(contentType);
+  const breadcrumbs = generateBreadcrumbsFromFrontmatter(contentType);
 
   return (
     <UnifiedLayout breadcrumbs={breadcrumbs}>

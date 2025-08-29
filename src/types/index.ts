@@ -3,7 +3,11 @@
  * ============================
  * 
  * This file consolidates all TypeScript interfaces and types used throughout the application.
- * It serves as the single source of truth for type definitions.
+ * It serves as the single source of truth for type definexport interface SectionGridProps {
+  content: string;
+  frontmatter?: any;
+  className?: string;
+}s.
  */
 
 // ===============================================
@@ -218,6 +222,7 @@ export interface PublicationInfoProps {
 export interface SectionCardProps {
   title?: string;
   content: string;
+  index?: number;
   className?: string;
 }
 
@@ -440,17 +445,18 @@ export interface LazyImageProps {
   onError?: () => void;
 }
 
+export interface CardImageProps {
+  item: any; // UnifiedContentItem from schema
+  variant: any; // MediaVariant from schema
+  showImage: boolean;
+  className?: string;
+}
+
 // Breadcrumbs Props
 export interface BreadcrumbsProps {
   items: BreadcrumbItem[];
   className?: string;
   maxWidth?: string; // Maximum width for truncation (e.g., '200px', '12rem')
-}
-
-export interface BreadcrumbItem {
-  label: string;
-  href: string;
-  active: boolean;
 }
 
 // Layout Props - Unified interface for all layout needs
@@ -470,6 +476,46 @@ export interface UnifiedLayoutProps {
     grandParentPath?: string;
     grandParentLabel?: string;
   };
+  collection?: CollectionType;
+}
+
+// Content Detail Layout specific props (required fields)
+export interface ContentDetailLayoutProps {
+  frontmatter: any;
+  content: string;
+  slug: string;
+  contentType: string;
+  breadcrumbConfig: {
+    parentPath: string;
+    parentLabel: string;
+    grandParentPath?: string;
+    grandParentLabel?: string;
+  };
+  collection?: CollectionType;
+}
+
+// Page Component Props
+export interface UnifiedContentPageProps {
+  data: any; // NormalizedContentData from lib
+  backLinkOverride?: {
+    label: string;
+    href: string;
+  };
+}
+
+export interface ContentListingPageProps {
+  contentType: any; // ContentType from specific page components 
+  items: any[]; // UnifiedContentItem array
+  collection?: CollectionType;
+  category?: string;
+  title?: string;
+  description?: string;
+}
+
+export interface ContentDetailPageProps {
+  frontmatter: any;
+  content: string;
+  slug: string;
   collection?: CollectionType;
 }
 

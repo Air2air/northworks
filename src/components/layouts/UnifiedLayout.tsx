@@ -8,6 +8,12 @@ import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
+import { 
+  getPageTitle, 
+  getPageSubtitle,
+  getPublicationInfo,
+  shouldShowPublicationInfo 
+} from '@/lib/fieldNormalization';
 import { UnifiedLayoutProps, BreadcrumbItem } from '@/types';
 
 /**
@@ -113,48 +119,22 @@ function ContentDetailRenderer({
   contentType: string;
   collection: "cheryl" | "warner" | "global";
 }) {
-  // Helper functions
-  const getTagsField = (frontmatter: any, contentType: string) => {
-    const tagFields = ['tags', 'subjects', 'keywords', 'categories'];
-    
-    for (const field of tagFields) {
-      if (frontmatter[field] && Array.isArray(frontmatter[field]) && frontmatter[field].length > 0) {
-        return frontmatter[field];
-      }
-    }
-    
-    return null;
+  // Helper functions using normalized field access
+  const getTagsField = (frontmatter: any) => {
+    return frontmatter?.keywords || frontmatter?.tags || null;
   };
 
-  const getSubtitle = (frontmatter: any, contentType: string) => {
-    if (contentType === 'publication' && frontmatter.journal) {
-      return `Published in ${frontmatter.journal}`;
-    }
-    if (contentType === 'professional' && frontmatter.organization) {
-      return frontmatter.organization;
-    }
-    if (contentType === 'interview' && frontmatter.interviewee) {
-      return `Interview with ${frontmatter.interviewee}`;
-    }
-    if (frontmatter.subtitle) {
-      return frontmatter.subtitle;
-    }
-    return undefined;
-  };
-
-  const shouldShowPublicationInfo = (frontmatter: any, contentType: string) => {
-    return contentType === 'publication' && (frontmatter.journal || frontmatter.publication?.date);
-  };
-
-  const tags = getTagsField(frontmatter, contentType);
-  const subtitle = getSubtitle(frontmatter, contentType);
-  const showPubInfo = shouldShowPublicationInfo(frontmatter, contentType);
+  const tags = getTagsField(frontmatter);
+  const title = getPageTitle(frontmatter);
+  const subtitle = getPageSubtitle(frontmatter, contentType);
+  const pubInfo = getPublicationInfo(frontmatter);
+  const showPubInfo = shouldShowPublicationInfo(frontmatter);
 
   return (
     <>
       <header className="mb-8">
         <PageTitle 
-          title={frontmatter.title}
+          title={title}
           description={subtitle}
           size="medium"
           align="left"
@@ -166,16 +146,16 @@ function ContentDetailRenderer({
             <UnifiedMetadata
               fields={(() => {
                 const fields = [];
-                if (frontmatter.journal) {
+                if (pubInfo.journal) {
                   fields.push({
                     label: 'Publication',
-                    value: frontmatter.journal
+                    value: pubInfo.journal
                   });
                 }
-                if (frontmatter.publication?.date) {
+                if (pubInfo.date) {
                   fields.push({
                     label: 'Date',
-                    value: frontmatter.publication.date
+                    value: pubInfo.date
                   });
                 }
                 return fields;

@@ -1,3 +1,5 @@
+"use client";
+
 /**
  * LazyImage - Optimized image component with lazy loading and performance features
  * Includes intersection observer, blur-up effect, and error handling

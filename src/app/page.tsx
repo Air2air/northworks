@@ -46,7 +46,15 @@ export default function HomePage() {
     url: '/warner',
     status: 'published' as const,
     source: 'manual' as const,
-    tags: ['risk analysis', 'decision analysis', 'consulting', 'environmental']
+    tags: ['risk analysis', 'decision analysis', 'consulting', 'environmental'],
+    media: [
+      {
+        url: '/images/warner-north-6-06.jpg',
+        type: 'image' as const,
+        alt: 'D. Warner North',
+        usage: 'primary' as const
+      }
+    ]
   };
 
   const cherylItem = {
@@ -59,7 +67,15 @@ export default function HomePage() {
     url: '/cheryl',
     status: 'published' as const,
     source: 'manual' as const,
-    tags: ['classical music', 'opera', 'journalism', 'interviews']
+    tags: ['classical music', 'opera', 'journalism', 'interviews'],
+    media: [
+      {
+        url: '/images/cherylsm.gif',
+        type: 'image' as const,
+        alt: 'Cheryl North',
+        usage: 'primary' as const
+      }
+    ]
   };
 
   return (
@@ -71,14 +87,7 @@ export default function HomePage() {
         size="medium"
       />
 
-      {/* Main Content */}
-      <div className="mt-12">
-        <div className="prose prose-lg max-w-none">
-          <div dangerouslySetInnerHTML={{ __html: homeData.content }} />
-        </div>
-      </div>
-
-      {/* Navigation Cards - Single Column Layout */}
+          {/* Navigation Cards - Single Column Layout */}
       <div className="space-y-6 mt-16">
           {/* D. Warner North Card */}
           <UnifiedCard
@@ -86,8 +95,9 @@ export default function HomePage() {
             options={{
               layout: 'horizontal',
               size: 'large',
-              showTags: true,
+              showTags: false,
               showSummary: true,
+              showImage: true,
               clickable: true
             }}
             collection={"global" as CollectionType}
@@ -99,13 +109,15 @@ export default function HomePage() {
             options={{
               layout: 'horizontal',
               size: 'large',
-              showTags: true,
+              showTags: false,
               showSummary: true,
+              showImage: true,
               clickable: true
             }}
             collection={"global" as CollectionType}
           />
         </div>
+
     </UnifiedLayout>
   );
 }

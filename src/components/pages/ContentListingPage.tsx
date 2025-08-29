@@ -3,7 +3,7 @@
  * Consolidates all content type listing pages (articles, reviews, interviews, etc.)
  */
 
-import { generateBreadcrumbsFromFrontmatter } from '@/lib/breadcrumbUtils';
+import { generateBreadcrumbsFromFrontmatter, generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
@@ -75,7 +75,40 @@ interface ContentListingPageProps {
  */
 export default function ContentListingPage({ contentType, items }: ContentListingPageProps) {
   const config = CONTENT_CONFIG[contentType];
-  const breadcrumbs = generateBreadcrumbsFromFrontmatter(contentType);
+  
+  // Generate appropriate breadcrumbs for collection listing pages
+  let breadcrumbs;
+  const cherylCollections = ['articles', 'reviews', 'interviews'];
+  const warnerCollections = ['publications', 'professional', 'background'];
+  
+  if (cherylCollections.includes(contentType)) {
+    breadcrumbs = generateCollectionBreadcrumbs('cheryl');
+    // Add the specific content type as the current page
+    breadcrumbs.push({
+      label: config.title,
+      href: `/${contentType}`,
+      active: true
+    });
+    // Mark previous breadcrumb as inactive
+    if (breadcrumbs.length > 1) {
+      breadcrumbs[breadcrumbs.length - 2].active = false;
+    }
+  } else if (warnerCollections.includes(contentType)) {
+    breadcrumbs = generateCollectionBreadcrumbs('warner');
+    // Add the specific content type as the current page
+    breadcrumbs.push({
+      label: config.title,
+      href: `/${contentType}`,
+      active: true
+    });
+    // Mark previous breadcrumb as inactive
+    if (breadcrumbs.length > 1) {
+      breadcrumbs[breadcrumbs.length - 2].active = false;
+    }
+  } else {
+    // Fallback to frontmatter-based breadcrumbs for other content types
+    breadcrumbs = generateBreadcrumbsFromFrontmatter(contentType);
+  }
 
   return (
     <UnifiedLayout breadcrumbs={breadcrumbs}>

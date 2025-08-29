@@ -6,7 +6,7 @@ images:
     alt: Warner North presenting at Stuttgart Conference
 publication:
   date: 2004-10-11
-  publisher: Ministerium fur Umwelt und Verkehr, State of Baden-Wurttemberg
+  publisher: Northworks
 title: Global Climate Change - A Survey of the Science and Policy Implications
 type: publication
 tags:

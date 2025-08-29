@@ -11,24 +11,8 @@ publication:
   publisher: NorthWorks
 title: NorthWorks - Classical Music and Risk Analysis
 type: homepage
-description: Unified platform combining classical music journalism by Cheryl North and professional risk analysis expertise by D. Warner North. Search across interviews, articles, reviews, and professional portfolio content.
-keywords:
-  - NorthWorks
-  - classical music
-  - risk analysis
-  - Warner North
-  - Cheryl North
-  - music journalism
-  - decision analysis
-  - consulting
-  - opera reviews
-tags:
-  - San Francisco Symphony
-  - San Francisco Opera
-  - Symphony No. 13
-  - Requiem
-  - Bass
-  - Organ
+description: Classical music journalism by Cheryl North and professional risk analysis expertise by D. Warner North. 
+
 ---
 ## D. Warner North
  [D. Warner North](/warner) is principal scientist of NorthWorks. Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection. Dr. North has a long association with Stanford University as adjunct faculty beginning in 1976 and as a consulting professor in the Department of Management Science and Engineering from 1988 to 2009. ### New from Warner North As area editor for the journal *Risk Analysis* Warner North organized and wrote the introduction for a [special issue published September 2016 on health risk analysis for criteria air pollutants](http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc). He has written an introductory commentary for a survey article on risk from space weather. Both the article and the introduction are in the February 2017 issue. A profile article on Warner North prepared by Michael Greenberg and Karen Lowrie appears in the March 2017 issue of *Risk Analysis*. #### National Academies/National Research Council Warner North served as a peer reviewer for two reports. ["Preparing for Future Products of Biotechnology"](https://www.nap.edu/catalog/24605) was released March 2017, and ["A Review of the Environmental Protection Agency's Science to Achieve Results Program,"](https://www.nap.edu/catalog/24757) was released in June 2017. #### 2013 National Research Council Workshops on Shale Gas Development Warner North was a member of the committee that organized two workshops, which took place in the National Academies' Keck Center Auditorium in Washington D. C. The first workshop, held on May 30-31, 2013, addressed [risks](http://sites.nationalacademies.org/dbasse/becs/dbasse_083187) from hydraulic fracturing (sometimes called "fracking") to release natural gas from shale formations. The second, held on August 15-16, 2013, presented ideas for [improving governance](http://sites.nationalacademies.org/dbasse/becs/dbasse_083520) for the management of such risks. Warner North was a session chair in the first workshop and gave a presentation on public and stakeholder participation in the second workshop. The links above provide access to the workshop agendas, abstracts, presentation slides, and video archives for most of the presentations. [A special Issue of *Environmental Science and Technology*](http://pubs.acs.org/toc/esthag/48/15) (August 5, 2014) contains papers based on presentations at the two workshops. [A summary volume](http://www.nap.edu/catalog/18953/risks-and-risk-governance-in-shale-gas-development-summary-of) on the two workshops, written by staff director/rapporteur Paul Stern, is now available through National Academy Press. #### 2015 Health Risk Communication for the Council of Canadian Academies Warner North has been a panel member on the Expert Panel on Effectiveness of Health Risk Communication, for the [Council of Canadian Academies](http://www.scienceadvice.ca). He has been part of a multidisciplinary group of experts that has addressed the question: How can the effectiveness of health risk communications be measured and evaluated? The [report *Health Product Risk Information: Is the message Getting Through?*](http://www.scienceadvice.ca/uploads/eng/assessmentspublicationsnewsreleases/risk/riskfullreporten.pdf) from the expert panel was published on June 9, 2015. 

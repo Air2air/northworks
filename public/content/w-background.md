@@ -6,7 +6,7 @@ images:
     alt: w-background
 publication:
   date: 2019-01-01
-  publisher: the Decision
+  publisher: Northworks
 title: Professional Background & Education
 type: background
 description: Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.

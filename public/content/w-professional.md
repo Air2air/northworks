@@ -3,7 +3,7 @@ id: w-projects
 images:
 publication:
   date: 2000-01-25
-  publisher: the Society
+  publisher: Northworks
 title: Professional Experience & Projects
 type: professional
 description: Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.

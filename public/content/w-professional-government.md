@@ -11,6 +11,7 @@ images:
     alt: California State Logo
 publication:
   date: 2005-05-01
+  publisher: Northworks
 title: Government Projects & Consulting
 type: professional
 tags:

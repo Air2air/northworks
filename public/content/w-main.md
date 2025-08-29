@@ -6,8 +6,8 @@ images:
     alt: Dr. Warner North
 publication:
   date: 2017-11-14
-  publisher: the Commission
-title: D. Warner North - Professional Biography
+  publisher: Northworks
+title: D. Warner North
 type: background
 description: Principal Scientist of NorthWorks and leading expert in risk analysis and nuclear waste issues
 tags:

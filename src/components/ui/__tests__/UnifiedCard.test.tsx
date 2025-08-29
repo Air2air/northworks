@@ -87,7 +87,7 @@ describe('UnifiedCard', () => {
       />
     )
     
-    expect(screen.getByText('2024-01-15')).toBeInTheDocument()
+    expect(screen.getByText('Jan 15, 2024')).toBeInTheDocument()
   })
 
   it('renders without errors when optional fields are missing', () => {

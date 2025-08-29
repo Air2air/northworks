@@ -10,7 +10,7 @@ images:
   - src: /images/synfuelstree.jpg
 publication:
   date: 2006-02-02
-  publisher: VNIIGAZ/GAZPROM Conference
+  publisher: Northworks
 title: Assessing Risks in Long-Term Planning - Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
 type: publication
 tags:

@@ -11,7 +11,7 @@ images:
   - src: /images/balticgascumd.gif
 publication:
   date: 2005-11-14
-  publisher: SEIF-IV Conference, Brussels, Belgium 
+  publisher: Northworks 
 title: Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
 type: publication
 tags:

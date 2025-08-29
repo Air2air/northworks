@@ -41,6 +41,7 @@ import {
   LayoutVariant,
   ColorVariant
 } from '@/lib/styleUtils';
+import { formatDate } from '@/lib/dateUtils';
 import { 
   FaCalendarAlt, 
   FaBuilding, 
@@ -236,7 +237,7 @@ export default function UnifiedCard({
             {config.showDate && metadata.date && (
               <div className="flex items-center space-x-1">
                 <FaCalendarAlt className="text-sky-400" />
-                <span>{metadata.date}</span>
+                <span>{formatDate(metadata.date, 'short') || metadata.date}</span>
               </div>
             )}
             

@@ -155,7 +155,7 @@ function ContentDetailRenderer({
                 if (pubInfo.date) {
                   fields.push({
                     label: 'Date',
-                    value: pubInfo.date
+                    value: formatDate(pubInfo.date) || pubInfo.date
                   });
                 }
                 return fields;

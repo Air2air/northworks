@@ -7,7 +7,7 @@ images:
 publication:
   author: D. Warner North
   date: 1990-01-01
-  publisher: EPA Science Advisory Board 1990
+  publisher: Northworks
 title: EPA's Draft Reports to Congress on Global Warming - An Overview from 1990
 type: professional
 tags:

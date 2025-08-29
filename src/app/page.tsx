@@ -1,9 +1,8 @@
 import { getContentBySlug } from '@/lib/content';
-import { CollectionType } from '@/types';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import UnifiedCard from '@/components/ui/UnifiedCard';
-import Link from 'next/link';
+import TwoColumnGrid from '@/components/ui/TwoColumnGrid';
+import LandingCard from '@/components/ui/LandingCard';
 import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import { Metadata } from 'next';
 
@@ -35,49 +34,6 @@ export default function HomePage() {
   const title = homeData.frontmatter?.title || "NorthWorks";
   const description = homeData.frontmatter?.description || "Classical Music and Risk Analysis";
 
-  // Create navigation items for UnifiedCard
-  const warnerItem = {
-    id: 'warner-nav',
-    slug: 'warner',
-    type: 'professional' as const,
-    category: 'professional' as const,
-    title: 'D. Warner North',
-    summary: 'Risk analysis consultant with 50+ years of experience in decision analysis, environmental protection, and government consulting.',
-    url: '/warner',
-    status: 'published' as const,
-    source: 'manual' as const,
-    tags: ['risk analysis', 'decision analysis', 'consulting', 'environmental'],
-    media: [
-      {
-        url: '/images/warner-north-6-06.jpg',
-        type: 'image' as const,
-        alt: 'D. Warner North',
-        usage: 'primary' as const
-      }
-    ]
-  };
-
-  const cherylItem = {
-    id: 'cheryl-nav',
-    slug: 'cheryl',
-    type: 'article' as const,
-    category: 'articles' as const,
-    title: 'Cheryl North',
-    summary: 'Classical music journalist and critic specializing in opera, symphony, and chamber music with extensive interview collection.',
-    url: '/cheryl',
-    status: 'published' as const,
-    source: 'manual' as const,
-    tags: ['classical music', 'opera', 'journalism', 'interviews'],
-    media: [
-      {
-        url: '/images/cherylsm.gif',
-        type: 'image' as const,
-        alt: 'Cheryl North',
-        usage: 'primary' as const
-      }
-    ]
-  };
-
   return (
     <UnifiedLayout>
       <PageTitle
@@ -87,36 +43,37 @@ export default function HomePage() {
         size="medium"
       />
 
-          {/* Navigation Cards - Single Column Layout */}
-      <div className="space-y-6 mt-16">
-          {/* D. Warner North Card */}
-          <UnifiedCard
-            item={warnerItem}
-            options={{
-              layout: 'horizontal',
-              size: 'large',
-              showTags: false,
-              showSummary: true,
-              showImage: true,
-              clickable: true
-            }}
-            collection={"global" as CollectionType}
-          />
-
-          {/* Cheryl North Card */}
-          <UnifiedCard
-            item={cherylItem}
-            options={{
-              layout: 'horizontal',
-              size: 'large',
-              showTags: false,
-              showSummary: true,
-              showImage: true,
-              clickable: true
-            }}
-            collection={"global" as CollectionType}
-          />
-        </div>
+      {/* Two Column Navigation Grid */}
+      <TwoColumnGrid 
+        variant="default"
+        gap="lg"
+        className="mt-16"
+        equalHeight
+      >
+        <LandingCard
+          title="D. Warner North"
+          description="Risk analysis consultant with 50+ years of experience in decision analysis, environmental protection, and government consulting. Explore professional background, publications, and consulting work."
+          href="/warner"
+          image={{
+            src: '/images/warner-north-6-06.jpg',
+            alt: 'D. Warner North',
+            width: 400,
+            height: 350
+          }}
+        />
+        
+        <LandingCard
+          title="Cheryl North"
+          description="Classical music journalist and critic specializing in opera, symphony, and chamber music. Discover interviews with world-renowned artists, performance reviews, and musical insights."
+          href="/cheryl"
+          image={{
+            src: '/images/cheriemug.jpg',
+            alt: 'Cheryl North',
+            width: 400,
+            height: 350
+          }}
+        />
+      </TwoColumnGrid>
 
     </UnifiedLayout>
   );

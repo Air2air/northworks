@@ -6,6 +6,7 @@ images:
     alt: w-projects-stanford
 publication:
   date: 2012-01-01
+  publisher: Northworks
 title: Stanford University Experience
 type: professional
 tags:

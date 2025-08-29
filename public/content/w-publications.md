@@ -4,7 +4,7 @@ id: w-pub
 images:
 publication:
   date: 2011-12-06
-  publisher: Silvio Funtowicz
+  publisher: Northworks
 title: Publications & Research Papers
 type: publication
 description: Complete publications list, papers, articles, and written works by D. Warner North on risk analysis and decision science.

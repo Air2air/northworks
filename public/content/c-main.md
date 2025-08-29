@@ -13,7 +13,7 @@ images:
     alt: Untitled
 publication:
   date: 2010-10-19
-title: Cheryl North - Main
+title: Cheryl North
 type: interview
 description: Noted classical music journalist for the Bay Area News Group and syndicated newspapers
 tags:

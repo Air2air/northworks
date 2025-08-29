@@ -17,21 +17,23 @@ tags:
   - SRI
   - Leadership
 ---
-**MANAGEMENT EXPERIENCE**<br><br>
+**MANAGEMENT EXPERIENCE**
 
-President, Decision Focus Incorporated (1979-1981, 1983-1984). Senior Vice President, other periods from 1977-1998.<br><br>
+President, Decision Focus Incorporated (1979-1981, 1983-1984). Senior Vice President, other periods from 1977-1998.
 
-Assistant Director, Decision Analysis (1975-1977) at Stanford Research Institute.<br><br>
+Assistant Director, Decision Analysis (1975-1977) at Stanford Research Institute.
 
 Supervisor or leader of over forty major DFI and SRI research projects.
 
 ---
 
 **Ph.D., Operations Research, Stanford University (1970)**  
-Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. <br><b[Dissertation](/pdf/phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
-<br><br>
+Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. 
+
+[Dissertation](/pdf/phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.
+
 **M.S., Physics (1963) and Mathematics (1966), Stanford University.**
-<br><br>
+
 **B.S., Physics, Yale University (1962).**
 
 ---

@@ -29,6 +29,17 @@ import {
   MediaVariant,
   ContentType 
 } from '@/schemas/unified-content-schema';
+import { CollectionType } from '@/types';
+import { 
+  buildCardClasses,
+  buildContentClasses, 
+  buildImageClasses,
+  buildTextClasses,
+  truncateText,
+  SizeVariant,
+  LayoutVariant,
+  ColorVariant
+} from '@/lib/styleUtils';
 import { 
   FaCalendarAlt, 
   FaBuilding, 
@@ -53,7 +64,7 @@ export interface UnifiedCardProps {
   options?: CardDisplayOptions;
   onClick?: (item: UnifiedContentItem) => void;
   className?: string;
-  collection?: "cheryl" | "warner" | "global";
+  collection?: CollectionType;
 }
 
 // ===============================================
@@ -142,9 +153,24 @@ export default function UnifiedCard({
   // STYLING
   // ===============================================
 
-  const cardClasses = getCardClasses(config, className);
-  const imageClasses = getImageClasses(config);
-  const contentClasses = getContentClasses(config);
+  const cardClasses = buildCardClasses(
+    config.size as SizeVariant,
+    config.layout as LayoutVariant, 
+    config.variant as ColorVariant,
+    config.clickable,
+    className
+  );
+  
+  const imageClasses = buildImageClasses(
+    config.size as SizeVariant,
+    config.layout as LayoutVariant,
+    config.imagePosition
+  );
+  
+  const contentClasses = buildContentClasses(
+    config.size as SizeVariant,
+    config.layout as LayoutVariant
+  );
 
   // ===============================================
   // LAYOUT COMPONENTS
@@ -188,7 +214,7 @@ export default function UnifiedCard({
       {/* Header */}
       <div className="flex-1">
         <div className="flex items-start justify-between mb-2">
-          <h3 className={getTitleClasses(config.size)}>
+          <h3 className={buildTextClasses('title', config.size as SizeVariant, config.variant as ColorVariant)}>
             {item.title}
           </h3>
           {(item.externalUrl || item.professional?.project) && (
@@ -244,8 +270,8 @@ export default function UnifiedCard({
 
         {/* Summary */}
         {config.showSummary && item.summary && (
-          <p className={getSummaryClasses(config.size)}>
-            {truncateSummary(item.summary, config.size)}
+          <p className={buildTextClasses('body', config.size as SizeVariant, config.variant as ColorVariant)}>
+            {truncateText(item.summary, getMaxLengthForSize(config.size))}
           </p>
         )}
 
@@ -563,6 +589,17 @@ function getSummaryClasses(size: CardDisplayOptions['size']): string {
     default:
       return `${baseClasses} text-sm sm:text-base`;
   }
+}
+
+// Helper function for summary length
+function getMaxLengthForSize(size: CardDisplayOptions['size']): number {
+  const maxLengths = {
+    small: 80,
+    medium: 150,
+    large: 250,
+    xl: 400
+  };
+  return maxLengths[size || 'medium'];
 }
 
 function truncateSummary(summary: string, size: CardDisplayOptions['size']): string {

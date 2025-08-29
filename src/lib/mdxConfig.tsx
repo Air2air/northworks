@@ -2,7 +2,7 @@ import React from 'react';
 import type { MDXRemoteProps } from 'next-mdx-remote/rsc';
 import type { ComponentProps } from 'react';
 import ImageGallery from '../components/ImageGallery';
-import type { ContentImage } from '@/types/content';
+import type { ContentImage } from '@/types';
 
 // Shared MDX configuration for consistent rendering
 export const mdxOptions: MDXRemoteProps['options'] = {

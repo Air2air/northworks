@@ -8,12 +8,7 @@
 import React, { useState, useMemo } from "react";
 import { FaSearch, FaSort, FaTimes } from "react-icons/fa";
 import { ContentSection } from "@/lib/sectionParser";
-
-interface SectionSearchInterfaceProps {
-  onSearchChange: (query: string) => void;
-  sections: ContentSection[];
-  searchQuery: string;
-}
+import { SectionSearchInterfaceProps } from "@/types";
 
 export default function SectionSearchInterface({
   onSearchChange,

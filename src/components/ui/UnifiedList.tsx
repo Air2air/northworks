@@ -2,16 +2,7 @@
  * UNIFIED LIST COMPONENT
  * =====================
  * 
-export default function UnifiedList({
-  items,
-  options = {},
-  onItemClick,
-  onSelectionChange,
-  loading = false,
-  error,
-  className = "",
-  collection = "global",
-}: UnifiedListProps) {e reusable list component that handles ALL content types:
+ * Single reusable list component that handles ALL content types:
  * - c-* content (interviews, articles, reviews)
  * - w-* content (professional, publications, background, projects)
  * 
@@ -21,23 +12,21 @@ export default function UnifiedList({
  * - Unified data structure
  * - Single column layout for consistency
  * - Built-in filtering, sorting, and search
- * - Pagination and infinite scroll
+ * - Pagination
  * - Loading and error states
  * - Empty state handling
  */
 
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import UnifiedCard from './UnifiedCard';
+import Pagination from './Pagination';
 import { 
   UnifiedContentItem, 
-  ListDisplayOptions,
-  CardDisplayOptions,
-  SearchFilters,
-  ContentType,
-  ContentCategory
+  ListDisplayOptions
 } from '@/schemas/unified-content-schema';
+import { CollectionType, SearchFilters } from '@/types';
 import { 
   FaSearch, 
   FaFilter, 
@@ -89,11 +78,11 @@ export default function UnifiedList({
   const [activeFilters, setActiveFilters] = useState<SearchFilters>({});
 
   // ===============================================
-  // CONFIGURATION - SIMPLIFIED & FORCED SINGLE COLUMN
+  // CONFIGURATION - SIMPLIFIED SINGLE COLUMN ONLY
   // ===============================================
 
   const config: Required<ListDisplayOptions> = {
-    // Forced single column configuration - ignore any layout overrides
+    // Single column configuration
     layout: 'list',
     columns: 1,
     gap: 'medium',
@@ -126,10 +115,6 @@ export default function UnifiedList({
       className: ''
     }
   };
-
-  // Force single column layout by overriding after spread
-  config.layout = 'list';
-  config.columns = 1;
 
   // ===============================================
   // DATA PROCESSING
@@ -320,24 +305,8 @@ export default function UnifiedList({
   // ===============================================
 
   const getLayoutClasses = () => {
-    // Always single column for list pages - responsive design is handled by individual cards
-    switch (config.layout) {
-      case 'grid':
-        // Responsive grid: only use when explicitly requested
-        return 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-6';
-      case 'list':
-        // Single column list with spacing - ALWAYS single column
-        return 'space-y-4 lg:space-y-6';
-      case 'masonry':
-        // Masonry layout using columns
-        return 'columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 lg:gap-6';
-      case 'carousel':
-        // Horizontal scrolling layout
-        return 'flex space-x-4 overflow-x-auto pb-4';
-      default:
-        // Default to single column list
-        return 'space-y-4 lg:space-y-6';
-    }
+    // Always single column list with spacing
+    return 'space-y-4 lg:space-y-6';
   };
 
   // ===============================================
@@ -517,8 +486,7 @@ export default function UnifiedList({
               item={item}
               options={{
                 ...config.cardOptions,
-                selectable: config.selectable,
-                className: config.layout === 'masonry' ? 'mb-4 break-inside-avoid' : ''
+                selectable: config.selectable
               }}
               onClick={handleItemClick}
               collection={collection}
@@ -539,8 +507,7 @@ export default function UnifiedList({
                     item={item}
                     options={{
                       ...config.cardOptions,
-                      selectable: config.selectable,
-                      className: config.layout === 'masonry' ? 'mb-4 break-inside-avoid' : ''
+                      selectable: config.selectable
                     }}
                     onClick={handleItemClick}
                     collection={collection}

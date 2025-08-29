@@ -3,13 +3,15 @@
  * Classical music interviews, articles, reviews, and professional portfolio
  */
 
+import { generateSpecialBreadcrumbs } from '@/lib/breadcrumbUtils';
 import React, { Suspense } from 'react';
 import { UnifiedContentItem } from '@/schemas/unified-content-schema';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import dynamic from 'next/dynamic';
 import { getAllContent } from '@/lib/unified-data';
 import type { Metadata } from 'next';
+import { CollectionType, isValidCollection } from '@/types';
 
 export const metadata: Metadata = {
   title: 'Search | NorthWorks',
@@ -66,22 +68,22 @@ export default async function UnifiedSearchPage({
   const resolvedSearchParams = await searchParams;
   
   // Extract collection parameter
-  const collection = resolvedSearchParams.collection as "cheryl" | "warner" | "global" | undefined;
-  const collectionFilter = collection || "global";
+  const collectionParam = resolvedSearchParams.collection as string | undefined;
+  const collection: CollectionType = (collectionParam && isValidCollection(collectionParam)) 
+    ? collectionParam 
+    : "global";
   
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Search', href: '/search', active: true }
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateSpecialBreadcrumbs('search');
   
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
-      {/* <PageTitle 
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
+      <PageTitle 
         title="Search NorthWorks"
         description="Discover content across classical music interviews, articles, reviews, and professional work. Simply enter your search terms below."
         align="left"
         size="medium"
-      /> */}
+      />
       <Suspense fallback={
         <div className="animate-pulse">
           <div className="h-8 bg-gray-200 rounded mb-4"></div>
@@ -96,9 +98,9 @@ export default async function UnifiedSearchPage({
       }>
         <SearchInterface 
           allContent={allContent} 
-          collection={collectionFilter}
+          collection={collection}
         />
       </Suspense>
-    </PageLayout>
+    </UnifiedLayout>
   );
 }

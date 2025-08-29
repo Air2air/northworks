@@ -1,6 +1,7 @@
 import { getArticleContent } from '@/lib/unified-data';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import UnifiedList from '@/components/ui/UnifiedList';
 import type { Metadata } from 'next';
 
@@ -20,32 +21,35 @@ export default function ArticlesPage() {
   // Load normalized article content data
   const articleContent = getArticleContent();
 
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Articles', href: '/articles', active: true }
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateListingBreadcrumbs('article');
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+        <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle
-        title="Music Articles"
-        description="Journalism, features, and cultural commentary on classical music"
+        title="Articles"
+        description="Classical music feature articles and commentary by Cheryl North"
         align="left"
         size="medium"
       />
 
-      <UnifiedList 
-        items={articleContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category'
-        }}
-      />
-    </PageLayout>
+      {articleContent && articleContent.length > 0 ? (
+        <UnifiedList
+          items={articleContent}
+          options={{
+            layout: 'list',
+            itemsPerPage: 20,
+            pagination: true,
+            sortBy: 'date',
+            sortOrder: 'desc'
+          }}
+          collection="cheryl"
+        />
+      ) : (
+        <div className="text-center py-12">
+          <p className="text-gray-500">No articles found.</p>
+        </div>
+      )}
+    </UnifiedLayout>
   );
 }

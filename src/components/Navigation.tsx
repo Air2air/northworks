@@ -1,13 +1,9 @@
 'use client';
 
-import { NavigationItem } from '@/types/content';
+import { NavigationItem, NavigationProps } from '@/types';
 import Link from 'next/link';
 import { FaCompass, FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
-
-interface NavigationProps {
-  items: NavigationItem[];
-}
 
 export default function Navigation({ items }: NavigationProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

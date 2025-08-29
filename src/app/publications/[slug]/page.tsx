@@ -1,8 +1,8 @@
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import { PublicationFrontmatter } from '@/types/content';
+import { PublicationFrontmatter } from '@/types';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PublicationInfo from '@/components/ui/PublicationInfo';
 import SectionGrid from '@/components/ui/SectionGrid';
 import { cleanTitle } from '@/lib/pathUtils';
@@ -89,7 +89,7 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
   // If using section cards, render SectionGrid instead
   if (useSectionCards) {
     return (
-      <PageLayout breadcrumbs={breadcrumbs}>
+      <UnifiedLayout breadcrumbs={breadcrumbs}>
         <SectionGrid 
           content={contentData.content}
           frontmatter={frontmatter}
@@ -104,12 +104,12 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
             ← Back to Publications
           </a>
         </div>
-      </PageLayout>
+      </UnifiedLayout>
     );
   }
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle 
         title={frontmatter.title}
         size="medium"
@@ -158,17 +158,17 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
           ← Back to Publications
         </a>
       </div>
-    </PageLayout>
+    </UnifiedLayout>
   );
 }
 
 export async function generateStaticParams() {
   const slugs = getAllContentSlugs();
   
-  // Filter for publication content only
+  // Filter for publication content only, excluding w- prefixed content (handled by direct routes)
   const publicationSlugs = slugs.filter(slug => {
     const content = getContentBySlug(slug, false); // Use raw content for type checking
-    return content?.frontmatter.type === 'publication';
+    return content?.frontmatter.type === 'publication' && !slug.startsWith('w-');
   });
 
   return publicationSlugs.map((slug) => ({

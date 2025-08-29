@@ -1,11 +1,4 @@
-interface PublicationInfoProps {
-  date?: string | null;
-  publication?: string;
-  section?: string;
-  author?: string;
-  title?: string;
-  className?: string;
-}
+import { PublicationInfoProps } from '@/types';
 
 export default function PublicationInfo({
   date,

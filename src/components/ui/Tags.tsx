@@ -1,17 +1,12 @@
 "use client";
 
-import Link from "next/link";
-
-export interface TagsProps {
-  tags: string[];
-  variant?: "default" | "compact" | "medium" | "large";
-  className?: string;
-  collection?: "cheryl" | "warner" | "global"; // Add collection context
-}
+import React from 'react';
+import Link from 'next/link';
+import { TagsProps, getSearchUrlForCollection } from '@/types';
 
 const Tags: React.FC<TagsProps> = ({
   tags,
-  variant = "default",
+  variant = "medium",
   className,
   collection = "global",
 }) => {
@@ -22,16 +17,7 @@ const Tags: React.FC<TagsProps> = ({
 
   // Determine search URL based on collection
   const getSearchUrl = (tag: string) => {
-    const encodedTag = encodeURIComponent(tag);
-    
-    switch (collection) {
-      case "cheryl":
-        return `/search?q=${encodedTag}&collection=cheryl`;
-      case "warner":
-        return `/search?q=${encodedTag}&collection=warner`;
-      default:
-        return `/search?q=${encodedTag}`;
-    }
+    return getSearchUrlForCollection(collection, tag);
   };
 
   const getTagStyles = (variant: string) => {

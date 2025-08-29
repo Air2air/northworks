@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
-import { ContentData, ContentFrontmatter, ContentType } from '@/types/content';
+import { ContentData, ContentFrontmatter, ContentType } from '@/types';
 
 // Configure marked options
 marked.setOptions({
@@ -155,19 +155,4 @@ export function getWarnerLists(): any[] {
     console.error('Error reading Warner lists:', error);
     return [];
   }
-}
-
-export function searchContent(query: string): ContentData[] {
-  const allContent = getAllContent();
-  const lowerQuery = query.toLowerCase();
-
-  return allContent.filter(content => {
-    const titleMatch = content.frontmatter.title.toLowerCase().includes(lowerQuery);
-    const contentMatch = content.content.toLowerCase().includes(lowerQuery);
-    const subjectsMatch = (content.frontmatter as any).subjects?.some((subject: string) => 
-      subject.toLowerCase().includes(lowerQuery)
-    );
-
-    return titleMatch || contentMatch || subjectsMatch;
-  });
 }

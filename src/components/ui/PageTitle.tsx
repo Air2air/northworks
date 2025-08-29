@@ -1,12 +1,5 @@
 import { cleanTitle } from '@/lib/pathUtils';
-
-interface PageTitleProps {
-  title: string;
-  description?: string;
-  align?: 'left' | 'center' | 'right';
-  size?: 'small' | 'medium' | 'large';
-  className?: string;
-}
+import { PageTitleProps } from '@/types';
 
 export default function PageTitle({
   title,

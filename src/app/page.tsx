@@ -1,5 +1,6 @@
 import { getContentBySlug } from '@/lib/content';
-import PageLayout from '@/components/layouts/PageLayout';
+import { CollectionType } from '@/types';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedCard from '@/components/ui/UnifiedCard';
 import Link from 'next/link';
@@ -22,7 +23,7 @@ export default function HomePage() {
   
   if (!homeData) {
     return (
-      <PageLayout>
+      <UnifiedLayout>
         <div className="text-center">
           <PageTitle 
             title="NorthWorks"
@@ -31,7 +32,7 @@ export default function HomePage() {
             align="left"
           />
         </div>
-      </PageLayout>
+      </UnifiedLayout>
     );
   }
 
@@ -63,7 +64,7 @@ export default function HomePage() {
   };
 
   return (
-    <PageLayout>
+    <UnifiedLayout>
       <PageTitle
         title="NorthWorks"
         description="Classical Music and Risk Analysis"
@@ -90,7 +91,7 @@ export default function HomePage() {
               showSummary: true,
               clickable: true
             }}
-            collection="global"
+            collection={"global" as CollectionType}
           />
 
           {/* Cheryl North Card */}
@@ -103,9 +104,9 @@ export default function HomePage() {
               showSummary: true,
               clickable: true
             }}
-            collection="global"
+            collection={"global" as CollectionType}
           />
         </div>
-    </PageLayout>
+    </UnifiedLayout>
   );
 }

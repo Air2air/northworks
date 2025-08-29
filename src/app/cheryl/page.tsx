@@ -1,6 +1,7 @@
+import { generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
-import UnifiedCard from '@/components/ui/UnifiedCard';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
+import LandingGrid from '@/components/ui/LandingGrid';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -17,11 +18,8 @@ export const metadata: Metadata = {
 };
 
 export default function CherylPage() {
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: true }
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateCollectionBreadcrumbs('cheryl');
 
   // Create navigation items for UnifiedCard
   const interviewsItem = {
@@ -63,8 +61,14 @@ export default function CherylPage() {
     tags: ['articles', 'journalism', 'features', 'commentary']
   };
 
+  const landingItems = [
+    interviewsItem,
+    reviewsItem,
+    articlesItem
+  ];
+
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       {/* Hero Section */}
       <PageTitle
         title="Cheryl North"
@@ -74,46 +78,10 @@ export default function CherylPage() {
       />
 
       {/* Content Cards - Responsive Grid Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-12">
-          {/* Interviews Card */}
-          <UnifiedCard
-            item={interviewsItem}
-            options={{
-              layout: 'vertical',
-              size: 'medium',
-              showTags: true,
-              showSummary: true,
-              clickable: true
-            }}
-            collection="cheryl"
-          />
-
-          {/* Reviews Card */}
-          <UnifiedCard
-            item={reviewsItem}
-            options={{
-              layout: 'vertical',
-              size: 'medium',
-              showTags: true,
-              showSummary: true,
-              clickable: true
-            }}
-            collection="cheryl"
-          />
-
-          {/* Articles Card */}
-          <UnifiedCard
-            item={articlesItem}
-            options={{
-              layout: 'vertical',
-              size: 'medium',
-              showTags: true,
-              showSummary: true,
-              clickable: true
-            }}
-            collection="cheryl"
-          />
-        </div>
-    </PageLayout>
+      <LandingGrid 
+        items={landingItems}
+        collection="cheryl"
+      />
+    </UnifiedLayout>
   );
 }

@@ -1,6 +1,7 @@
 import { getInterviewContent } from '@/lib/unified-data';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import UnifiedList from '@/components/ui/UnifiedList';
 import type { Metadata } from 'next';
 
@@ -20,14 +21,11 @@ export default function InterviewsPage() {
   // Load normalized interview content data
   const interviewContent = getInterviewContent();
 
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'Cheryl North', href: '/cheryl', active: false },
-    { label: 'Interviews', href: '/interviews', active: true }
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateListingBreadcrumbs('interview');
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle
         title="Classical Music Interviews"
         description="Interviews with major figures on the international, national, and local San Francisco Bay Area classical music scene."
@@ -53,6 +51,6 @@ export default function InterviewsPage() {
           }
         }}
       />
-    </PageLayout>
+    </UnifiedLayout>
   );
 }

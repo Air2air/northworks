@@ -1,8 +1,9 @@
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import { ProfessionalFrontmatter } from '@/types/content';
+import { generateDetailBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { ProfessionalFrontmatter } from '@/types';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import SectionGrid from '@/components/ui/SectionGrid';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
@@ -67,16 +68,11 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
   // Check if this content should use section cards
   const useSectionCards = shouldUseSectionCards(contentData.content);
 
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Professional', href: '/professional', active: false },
-    { label: cleanTitle(frontmatter.title), href: `/professional/${resolvedParams.slug}`, active: true }
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateDetailBreadcrumbs('professional', cleanTitle(frontmatter.title), resolvedParams.slug);
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       {useSectionCards ? (
         // Section-based layout for long list pages
         <SectionGrid 
@@ -144,17 +140,17 @@ export default async function ProfessionalPage({ params }: ProfessionalPageProps
           ← Back to Professional Experience
         </a>
       </div>
-    </PageLayout>
+    </UnifiedLayout>
   );
 }
 
 export async function generateStaticParams() {
   const slugs = getAllContentSlugs();
   
-  // Filter for professional content only
+  // Filter for professional content only, excluding w- prefixed content (handled by direct routes)
   const professionalSlugs = slugs.filter(slug => {
     const content = getContentBySlug(slug, false); // Use raw content for type checking
-    return content?.frontmatter.type === 'professional';
+    return content?.frontmatter.type === 'professional' && !slug.startsWith('w-');
   });
 
   return professionalSlugs.map((slug) => ({

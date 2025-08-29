@@ -1,6 +1,7 @@
-import PageTitle from "@/components/ui/PageTitle";
-import PageLayout from "@/components/layouts/PageLayout";
-import UnifiedCard from "@/components/ui/UnifiedCard";
+import { generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
+import PageTitle from '@/components/ui/PageTitle';
+import UnifiedLayout from "@/components/layouts/UnifiedLayout";
+import LandingGrid from '@/components/ui/LandingGrid';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -25,11 +26,8 @@ export const metadata: Metadata = {
 };
 
 export default function WarnerPage() {
-  // Create breadcrumbs
-  const breadcrumbs = [
-    { label: "Home", href: "/", active: false },
-    { label: "D. Warner North", href: "/warner", active: true },
-  ];
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateCollectionBreadcrumbs('warner');
 
   // Create navigation items for UnifiedCard
   const professionalItem = {
@@ -71,21 +69,28 @@ export default function WarnerPage() {
     tags: ["education", "training", "honors", "biography"],
   };
 
-  const projectsNRCItem = {
-    id: "projects-nrc-nav",
-    slug: "projects-nrc",
+  const projectsItem = {
+    id: "projects-nav",
+    slug: "projects",
     type: "project" as const,
     category: "projects" as const,
-    title: "NRC Projects",
-    summary: "Education, training, honors, and biographical information",
-    url: "/projects-nrc",
+    title: "Projects",
+    summary: "Consulting projects, government work, and academic collaborations",
+    url: "/projects",
     status: "published" as const,
     source: "manual" as const,
-    tags: ["education", "training", "honors", "biography"],
+    tags: ["consulting", "government", "projects", "collaborations"],
   };
 
+  const landingItems = [
+    professionalItem,
+    publicationsItem,
+    backgroundItem,
+    projectsItem
+  ];
+
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       {/* Hero Section */}
       <PageTitle
         title="D. Warner North"
@@ -95,59 +100,10 @@ export default function WarnerPage() {
       />
 
       {/* Content Cards - Responsive Grid Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-12">
-        {/* Professional Card */}
-        <UnifiedCard
-          item={professionalItem}
-          options={{
-            layout: "vertical",
-            size: "medium",
-            showTags: true,
-            showSummary: true,
-            clickable: true,
-          }}
-          collection="warner"
-        />
-
-        {/* Publications Card */}
-        <UnifiedCard
-          item={publicationsItem}
-          options={{
-            layout: "vertical",
-            size: "medium",
-            showTags: true,
-            showSummary: true,
-            clickable: true,
-          }}
-          collection="warner"
-        />
-
-        {/* Background Card */}
-        <UnifiedCard
-          item={backgroundItem}
-          options={{
-            layout: "vertical",
-            size: "medium",
-            showTags: true,
-            showSummary: true,
-            clickable: true,
-          }}
-          collection="warner"
-        />
-
-        {/* Projects NRC Card */}
-        <UnifiedCard
-          item={projectsNRCItem}
-          options={{
-            layout: "vertical",
-            size: "medium",
-            showTags: true,
-            showSummary: true,
-            clickable: true,
-          }}
-          collection="warner"
-        />
-      </div>
-    </PageLayout>
+      <LandingGrid 
+        items={landingItems}
+        collection="warner"
+      />
+    </UnifiedLayout>
   );
 }

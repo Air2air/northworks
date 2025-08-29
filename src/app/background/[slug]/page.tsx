@@ -1,8 +1,8 @@
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import { BackgroundFrontmatter } from '@/types/content';
+import { BackgroundFrontmatter } from '@/types';
 import ImageGallery from '@/components/ImageGallery';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import { cleanTitle } from '@/lib/pathUtils';
 import { formatDate } from '@/lib/dateUtils';
 import { notFound } from 'next/navigation';
@@ -75,7 +75,7 @@ export default async function BackgroundPage({ params }: BackgroundPageProps) {
   ];
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle 
         title={frontmatter.title}
         size="medium"
@@ -146,17 +146,17 @@ export default async function BackgroundPage({ params }: BackgroundPageProps) {
           ← Back to Background
         </a>
       </div>
-    </PageLayout>
+    </UnifiedLayout>
   );
 }
 
 export async function generateStaticParams() {
   const slugs = getAllContentSlugs();
   
-  // Filter for background content only
+  // Filter for background content only, excluding w- prefixed content (handled by direct routes)  
   const backgroundSlugs = slugs.filter(slug => {
     const content = getContentBySlug(slug, false); // Use raw content for type checking
-    return content?.frontmatter.type === 'background';
+    return content?.frontmatter.type === 'background' && !slug.startsWith('w-');
   });
 
   return backgroundSlugs.map((slug) => ({

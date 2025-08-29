@@ -415,8 +415,8 @@ export interface CardDisplayOptions {
 
 export interface ListDisplayOptions {
   // Layout
-  layout?: 'grid' | 'list' | 'masonry' | 'carousel';
-  columns?: 1 | 2 | 3 | 4 | 5 | 6;
+  layout?: 'list';
+  columns?: 1;
   gap?: 'none' | 'small' | 'medium' | 'large';
   
   // Pagination
@@ -556,9 +556,6 @@ export type ContentItem = UnifiedContentItem;
 export type Collection = ContentCollection;
 export type DisplayOptions = CardDisplayOptions;
 export type ListOptions = ListDisplayOptions;
-
-// Legacy compatibility (remove when migration complete)
-// export type { ContentCard, ContentList } from '../types/content';
 
 // Component prop types
 export interface UnifiedCardProps {

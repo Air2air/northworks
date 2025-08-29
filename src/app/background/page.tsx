@@ -1,8 +1,9 @@
+import { getBackgroundContent } from '@/lib/unified-data';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import PageLayout from '@/components/layouts/PageLayout';
-import SectionGrid from '@/components/ui/SectionGrid';
-import ImageGallery from '@/components/ImageGallery';
-import { loadMarkdownFile } from '@/lib/markdownLoader';
+import UnifiedList from '@/components/ui/UnifiedList';
+import DocumentCardList from '@/components/ui/DocumentCardList';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,22 +19,69 @@ export const metadata: Metadata = {
 };
 
 export default function BackgroundPage() {
-  // Load the background content from markdown file
-  const backgroundData = loadMarkdownFile('w-background.md');
+  // Load normalized background content data
+  const backgroundContent = getBackgroundContent();
   
-  const breadcrumbs = [
-    { label: 'Home', href: '/', active: false },
-    { label: 'D. Warner North', href: '/warner', active: false },
-    { label: 'Background', href: '/background', active: true }
+  // Generate breadcrumbs using centralized utility
+  const breadcrumbs = generateListingBreadcrumbs('background');
+
+  // Full document links for Warner background content
+  const fullDocuments = [
+    {
+      title: "Professional Background & Biography",
+      href: "/w-background",
+      description: "Comprehensive biographical information, education, career history, and professional affiliations of D. Warner North."
+    },
+    {
+      title: "Career Overview & Experience Summary",
+      href: "/w-main",
+      description: "Detailed overview of professional experience, consulting career, academic affiliations, and major career achievements."
+    },
+    {
+      title: "About NorthWorks Consulting",
+      href: "/w-northworks",
+      description: "Information about NorthWorks consulting firm, its mission, services, and approach to risk analysis and decision science."
+    }
   ];
 
   return (
-    <PageLayout breadcrumbs={breadcrumbs}>
-      {/* Section Grid with background content from markdown file */}
-      <SectionGrid 
-        content={backgroundData.content}
-        frontmatter={backgroundData.frontmatter}
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
+      <PageTitle
+        title="Background"
+        description="Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science."
+        align="left"
+        size="medium"
       />
-    </PageLayout>
+
+      <DocumentCardList
+        title="Complete Background Documentation"
+        documents={fullDocuments}
+      />
+
+      {/* Section Overview */}
+      <div className="mb-6">
+        <h2 className="section-heading">Background Highlights & Sections</h2>
+        <p className="text-metadata mb-6">Browse individual background sections and key highlights from the biographical documentation.</p>
+      </div>
+
+      <UnifiedList 
+        items={backgroundContent}
+        options={{
+          layout: 'list',
+          searchable: true,
+          filterable: true,
+          sortBy: 'date',
+          pagination: true,
+          groupBy: 'category',
+          cardOptions: {
+            layout: 'horizontal',
+            size: 'medium',
+            showTags: true,
+            showSummary: true,
+            showImage: false
+          }
+        }}
+      />
+    </UnifiedLayout>
   );
 }

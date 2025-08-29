@@ -51,6 +51,40 @@ export function getBackgroundContent(): UnifiedContentItem[] {
   return loadNormalizedData('warner-background.json');
 }
 
+export function getWarnerRoutes() {
+  try {
+    const filePath = path.join(dataDirectory, 'warner-routes.json');
+    
+    if (!fs.existsSync(filePath)) {
+      console.warn('Warner routes file not found');
+      return null;
+    }
+
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(fileContents);
+  } catch (error) {
+    console.error('Error loading Warner routes:', error);
+    return null;
+  }
+}
+
+export function getWarnerRoutesByCollection(collectionId: string) {
+  const routes = getWarnerRoutes();
+  if (!routes) return [];
+  
+  return routes.routes.filter((route: any) => route.parentCollection === `/${collectionId}`);
+}
+
+export function getWarnerCollections() {
+  const routes = getWarnerRoutes();
+  return routes?.collections || [];
+}
+
+export function getWarnerTopLevelPages() {
+  const routes = getWarnerRoutes();
+  return routes?.navigation?.topLevelPages || [];
+}
+
 export function getInterviewContent(): UnifiedContentItem[] {
   return loadNormalizedData('cheryl-interviews.json');
 }
@@ -110,39 +144,27 @@ export function getContentById(id: string): UnifiedContentItem | null {
 }
 
 // ===============================================
-// SEARCH AND FILTERING
+// LEGACY COMPATIBILITY FUNCTIONS
 // ===============================================
 
-export function searchContent(
-  query: string, 
-  type?: ContentType, 
-  category?: ContentCategory
-): UnifiedContentItem[] {
-  let content = getAllContent();
-  
-  // Filter by type/category if specified
-  if (type) {
-    content = content.filter(item => item.type === type);
-  }
-  if (category) {
-    content = content.filter(item => item.category === category);
-  }
-  
-  // Search in title, summary, and tags
-  if (query.trim()) {
-    const searchTerms = query.toLowerCase().split(' ');
-    content = content.filter(item => {
-      const searchableText = [
-        item.title,
-        item.summary || '',
-        ...(item.tags || [])
-      ].join(' ').toLowerCase();
-      
-      return searchTerms.every(term => searchableText.includes(term));
-    });
-  }
-  
-  return content;
+/**
+ * Legacy-compatible function for loading content by slug
+ * Replaces getContentBySlug from the old content.ts system
+ */
+export function getContentBySlug(slug: string, processHtml: boolean = true): UnifiedContentItem | null {
+  const allContent = getAllContent();
+  return allContent.find(item => item.slug === slug) || null;
+}
+
+/**
+ * Legacy-compatible function for getting all content slugs
+ * Replaces getAllContentSlugs from the old content.ts system
+ */
+export function getAllContentSlugs(): string[] {
+  const allContent = getAllContent();
+  return allContent
+    .map(item => item.slug)
+    .filter((slug): slug is string => slug !== undefined);
 }
 
 // ===============================================

@@ -10,6 +10,8 @@ import { useSearchParams, useRouter } from "next/navigation";
 import UnifiedCard from "@/components/ui/UnifiedCard";
 import Pagination from "@/components/ui/Pagination";
 import { UnifiedContentItem } from "@/schemas/unified-content-schema";
+import { searchContent } from "@/lib/search";
+import { CollectionType } from "@/types";
 
 // Client-side search interface
 export default function SearchInterface({
@@ -17,7 +19,7 @@ export default function SearchInterface({
   collection,
 }: {
   allContent: UnifiedContentItem[];
-  collection?: "cheryl" | "warner" | "global";
+  collection?: CollectionType;
 }) {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -52,70 +54,17 @@ export default function SearchInterface({
     updateURL(newSearchTerm);
   };
 
-  // Simplified search logic - search using new schema fields
-  const filteredContent = useMemo(() => {
-    let filtered = allContent;
-
-    // Collection filter first (if specified)
-    if (collection && collection !== "global") {
-      filtered = filtered.filter((item) => {
-        // Filter by collection based on naming convention
-        if (collection === "cheryl") {
-          return item.id?.startsWith("c-") || item.slug?.startsWith("c-") || 
-                 item.category === "interviews" || item.category === "articles" || item.category === "reviews";
-        } else if (collection === "warner") {
-          return item.id?.startsWith("w-") || item.slug?.startsWith("w-") ||
-                 item.category === "professional" || item.category === "publications" || item.category === "background" || item.category === "projects";
-        }
-        return true;
-      });
-    }
-
-    // Search filter
-    if (searchTerm) {
-      const term = searchTerm.toLowerCase();
-      filtered = filtered.filter(
-        (item) =>
-          item.title.toLowerCase().includes(term) ||
-          item.summary?.toLowerCase().includes(term) ||
-          item.body?.toLowerCase().includes(term) ||
-          item.excerpt?.toLowerCase().includes(term) ||
-          item.tags?.some((tag) => tag.toLowerCase().includes(term)) ||
-          item.type.toLowerCase().includes(term) ||
-          item.category?.toLowerCase().includes(term) ||
-          item.slug?.toLowerCase().includes(term)
-      );
-    }
-
-    // Default sorting by relevance (search term in title gets priority)
-    filtered.sort((a, b) => {
-      if (searchTerm) {
-        const aInTitle = a.title
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase())
-          ? 1
-          : 0;
-        const bInTitle = b.title
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase())
-          ? 1
-          : 0;
-        if (aInTitle !== bInTitle) {
-          return bInTitle - aInTitle;
-        }
-      }
-      // Secondary sort by date (newest first)
-      const dateA = new Date(a.publishedDate || "1900-01-01");
-      const dateB = new Date(b.publishedDate || "1900-01-01");
-      return dateB.getTime() - dateA.getTime();
+  // Use unified search function
+  const searchResults = useMemo(() => {
+    return searchContent(allContent, {
+      query: searchTerm,
+      collection: collection || 'global'
     });
-
-    return filtered;
-  }, [allContent, searchTerm]);
+  }, [allContent, searchTerm, collection]);
 
   // Pagination
-  const totalPages = Math.ceil(filteredContent.length / pageSize);
-  const paginatedContent = filteredContent.slice(
+  const totalPages = Math.ceil(searchResults.totalResults / pageSize);
+  const paginatedContent = searchResults.results.slice(
     (currentPage - 1) * pageSize,
     currentPage * pageSize
   );
@@ -169,8 +118,8 @@ export default function SearchInterface({
             Search Results
           </h2>
           <span className="text-sky-600">
-            {filteredContent.length}{" "}
-            {filteredContent.length === 1 ? "result" : "results"}
+            {searchResults.totalResults}{" "}
+            {searchResults.totalResults === 1 ? "result" : "results"}
           </span>
         </div>
 

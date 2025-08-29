@@ -1,11 +1,5 @@
-import { ContentImage } from '@/types/content';
+import { ImageGalleryProps } from '@/types';
 import Image from 'next/image';
-
-interface ImageGalleryProps {
-  images: ContentImage[];
-  showCaptions?: boolean;
-  inline?: boolean;
-}
 
 export default function ImageGallery({ 
   images, 

@@ -1,12 +1,7 @@
-import { Breadcrumb } from '@/types/content';
+import { BreadcrumbsProps } from '@/types';
 import Link from 'next/link';
 
-interface BreadcrumbsProps {
-  items: Breadcrumb[];
-  maxWidth?: string; // Maximum width for truncation (e.g., '200px', '12rem')
-}
-
-export default function Breadcrumbs({ items, maxWidth = '200px' }: BreadcrumbsProps) {
+export default function Breadcrumbs({ items, className = '', maxWidth = '200px' }: BreadcrumbsProps) {
   return (
     <nav className="flex px-4 py-3 text-sky-700 bg-sky-50" aria-label="Breadcrumb">
       <ol className="flex items-center space-x-1 md:space-x-3 min-w-0 w-full">

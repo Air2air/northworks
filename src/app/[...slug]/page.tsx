@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import ContentDetailLayout from '@/components/layouts/ContentDetailLayout';
+import UnifiedLayout from '@/components/layouts/UnifiedLayout';
+import PageTitle from '@/components/ui/PageTitle';
+import { getCollectionFromSlug, CollectionType } from '@/types';
 import type { Metadata } from 'next';
 
 // Map routes to content types
@@ -73,15 +75,22 @@ export async function generateStaticParams() {
     if (content && content.frontmatter.type) {
       const contentType = content.frontmatter.type;
 
-      // Find matching route for this content type
-      const route = Object.keys(routeToContentType).find(
-        (key) => routeToContentType[key] === contentType
-      );
-
-      if (route) {
+      // Handle w- prefixed content as direct detail pages ONLY
+      if (slug.startsWith('w-')) {
         params.push({
-          slug: [route, slug],
+          slug: [slug], // Single segment for w- content
         });
+      } else {
+        // Handle c- prefixed and other content through categorized routes
+        const route = Object.keys(routeToContentType).find(
+          (key) => routeToContentType[key] === contentType
+        );
+
+        if (route) {
+          params.push({
+            slug: [route, slug], // Two segments for categorized content
+          });
+        }
       }
     }
   }
@@ -97,21 +106,32 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   
-  // Validate slug structure
-  if (!slug || slug.length !== 2) {
+  // Handle both single w- prefixed pages and categorized pages
+  let contentType: string;
+  let itemSlug: string;
+
+  if (slug.length === 1 && slug[0].startsWith('w-')) {
+    // Direct w- prefixed page
+    itemSlug = slug[0];
+    // Get content to determine actual type
+    const content = getContentBySlug(itemSlug, false);
+    contentType = content?.frontmatter.type || 'professional';
+  } else if (slug.length === 2) {
+    // Categorized page (e.g., /interviews/c-name)
+    const [route, slugFromRoute] = slug;
+    contentType = routeToContentType[route];
+    itemSlug = slugFromRoute;
+    
+    if (!contentType) {
+      return {
+        title: 'Content Not Found | NorthWorks',
+        description: 'The requested content type is not available.'
+      };
+    }
+  } else {
     return {
       title: 'Content Not Found | NorthWorks',
       description: 'The requested content could not be found.'
-    };
-  }
-
-  const [route, itemSlug] = slug;
-  const contentType = routeToContentType[route];
-
-  if (!contentType) {
-    return {
-      title: 'Content Not Found | NorthWorks',
-      description: 'The requested content type is not available.'
     };
   }
 
@@ -180,36 +200,78 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function UniversalContentPage({ params }: PageProps) {
   const { slug } = await params;
 
-  // Validate slug structure (should be [contentType, itemSlug])
-  if (!slug || slug.length !== 2) {
+  // Handle both single w- prefixed pages and categorized pages
+  let contentType: string;
+  let itemSlug: string;
+  let route: string | undefined;
+
+  if (slug.length === 1 && slug[0].startsWith('w-')) {
+    // Direct w- prefixed page
+    itemSlug = slug[0];
+    // Get content to determine actual type
+    const content = getContentBySlug(itemSlug, false);
+    contentType = content?.frontmatter.type || 'professional';
+    route = undefined; // No route for direct w- pages
+  } else if (slug.length === 2) {
+    // Categorized page (e.g., /interviews/c-name)
+    const [routeFromSlug, slugFromRoute] = slug;
+    route = routeFromSlug;
+    contentType = routeToContentType[route];
+    itemSlug = slugFromRoute;
+    
+    if (!contentType) {
+      notFound();
+    }
+  } else {
     notFound();
   }
 
-  const [route, itemSlug] = slug;
-  const contentType = routeToContentType[route];
-
-  if (!contentType) {
-    notFound();
-  }
-
-  // Get the content
   const contentData = getContentBySlug(itemSlug, false);
 
   if (!contentData || contentData.frontmatter.type !== contentType) {
     notFound();
   }
 
-  const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
-  const collection = itemSlug && itemSlug.startsWith("w-") ? "warner" : "cheryl";
+  // Get HTML content for rendering
+  const htmlContentData = getContentBySlug(itemSlug, true);
+
+  if (!htmlContentData) {
+    notFound();
+  }
+
+  // Generate breadcrumbs based on the routing pattern
+  let breadcrumbs;
+  if (route) {
+    // Categorized page: use route-based breadcrumbs
+    const breadcrumbConfig = getBreadcrumbConfig(contentType, itemSlug);
+    // Convert old config to new breadcrumb format
+    breadcrumbs = [
+      { label: 'Home', href: '/', active: false },
+      { label: breadcrumbConfig.grandParentLabel, href: breadcrumbConfig.grandParentPath, active: false },
+      { label: breadcrumbConfig.parentLabel, href: breadcrumbConfig.parentPath, active: false },
+      { label: contentData.frontmatter.title, href: `/${route}/${itemSlug}`, active: true }
+    ];
+  } else {
+    // Direct w- page: use simplified breadcrumbs
+    breadcrumbs = [
+      { label: 'Home', href: '/', active: false },
+      { label: 'D. Warner North', href: '/warner', active: false },
+      { label: contentData.frontmatter.title, href: `/${itemSlug}`, active: true }
+    ];
+  }
+
+  const collection: CollectionType = getCollectionFromSlug(itemSlug || '');
 
   return (
-    <ContentDetailLayout
-      frontmatter={contentData.frontmatter}
-      content={contentData.content}
-      slug={itemSlug}
-      contentType={contentType}
-      breadcrumbConfig={breadcrumbConfig}
-      collection={collection}
-    />
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
+      <PageTitle 
+        title={contentData.frontmatter.title}
+        size="medium"
+        align="left"
+      />
+      <div className="prose prose-lg max-w-none">
+        <div dangerouslySetInnerHTML={{ __html: htmlContentData.content }} />
+      </div>
+    </UnifiedLayout>
   );
 }

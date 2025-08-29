@@ -7,49 +7,6 @@
  */
 
 import { UnifiedContentItem, ContentType, ContentCategory } from '@/schemas/unified-content-schema';
-import { getContentByType as getOriginalContentByType } from '@/lib/content';
-import { ContentData } from '@/types';
-
-// ===============================================
-// CONTENT ADAPTERS
-// ===============================================
-
-/**
- * Convert ContentData to UnifiedContentItem
- */
-function convertContentDataToUnified(data: ContentData): UnifiedContentItem {
-  return {
-    id: data.frontmatter.id || data.slug,
-    slug: data.slug,
-    type: data.frontmatter.type as ContentType,
-    category: (data.frontmatter.type + 's') as ContentCategory, // interview -> interviews
-    title: data.frontmatter.title,
-    summary: data.frontmatter.description,
-    url: `/${data.frontmatter.type}s/${data.slug}`, // interviews/slug, articles/slug
-    status: 'published' as const,
-    source: 'markdown' as const,
-    tags: data.frontmatter.tags || []
-  };
-}
-
-/**
- * Get content by type - unified version
- */
-export function getContentByType(type: ContentType): UnifiedContentItem[] {
-  const originalContent = getOriginalContentByType(type);
-  return originalContent.map(convertContentDataToUnified);
-}
-
-/**
- * Get all content across all types
- */
-export function getAllContent(): UnifiedContentItem[] {
-  const interviews = getContentByType('interview');
-  const articles = getContentByType('article');
-  const reviews = getContentByType('review');
-  
-  return [...interviews, ...articles, ...reviews];
-}
 
 // ===============================================
 // LANDING PAGE NAVIGATION

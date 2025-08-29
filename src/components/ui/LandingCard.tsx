@@ -40,14 +40,23 @@ export interface LandingCardProps {
   
   /** Whether to show the image */
   showImage?: boolean;
+  
+  /** Whether to show tags */
+  showTags?: boolean;
+  
+  /** Tags to display if showTags is true */
+  tags?: string[];
 }
 
 // ===============================================
 // UTILITY FUNCTIONS
 // ===============================================
 
-function getCardClasses(variant: LandingCardProps['variant']): string {
-  const baseClasses = 'group block bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-sky-300 h-full no-underline';
+function getCardClasses(variant: LandingCardProps['variant'], hasImage: boolean): string {
+  const baseClasses = 'group block bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-sky-300 no-underline';
+  
+  // Adjust height based on whether there's an image
+  const heightClasses = hasImage ? 'h-full' : 'h-auto min-h-[200px]';
   
   const variantClasses = {
     'default': 'shadow-sm',
@@ -55,7 +64,7 @@ function getCardClasses(variant: LandingCardProps['variant']): string {
     'minimal': 'shadow-none border-gray-100'
   };
   
-  return `${baseClasses} ${variantClasses[variant || 'default']}`;
+  return `${baseClasses} ${heightClasses} ${variantClasses[variant || 'default']}`;
 }
 
 function getImageClasses(): string {
@@ -67,11 +76,11 @@ function getContentClasses(): string {
 }
 
 function getTitleClasses(): string {
-  return 'text-xl font-bold text-sky-900 mb-3 group-hover:text-sky-700 transition-colors duration-300';
+  return 'text-2xl font-bold text-sky-900 mb-3 group-hover:text-sky-700 transition-colors duration-300';
 }
 
 function getDescriptionClasses(): string {
-  return 'text-gray-600 text-sm leading-relaxed flex-grow';
+  return 'text-gray-600 text-base leading-relaxed flex-grow';
 }
 
 // ===============================================
@@ -85,10 +94,13 @@ export default function LandingCard({
   image,
   className = '',
   variant = 'featured',
-  showImage = true
+  showImage = true,
+  showTags = false,
+  tags = []
 }: LandingCardProps) {
   
-  const cardClasses = getCardClasses(variant);
+  const hasImage = Boolean(showImage && image);
+  const cardClasses = getCardClasses(variant, hasImage);
   const imageClasses = getImageClasses();
   const contentClasses = getContentClasses();
   const titleClasses = getTitleClasses();
@@ -123,9 +135,23 @@ export default function LandingCard({
           {description}
         </p>
         
+        {/* Tags Section */}
+        {showTags && tags && tags.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {tags.map((tag, index) => (
+              <span
+                key={index}
+                className="inline-flex items-center px-2.5 py-1 text-sm font-medium bg-sky-100 text-sky-800 rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+        
         {/* Explore Button */}
         <div className="mt-4">
-          <div className="inline-flex items-center px-4 py-2 bg-sky-600 text-white text-sm font-medium rounded-md transition-all duration-300 group-hover:bg-sky-700 group-hover:shadow-md">
+          <div className="inline-flex items-center px-4 py-2 bg-sky-600 text-white text-base font-medium rounded-md transition-all duration-300 group-hover:bg-sky-700 group-hover:shadow-md">
             <span>Explore</span>
             <svg 
               className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 

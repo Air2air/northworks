@@ -1,7 +1,8 @@
 import { generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import LandingGrid from '@/components/ui/LandingGrid';
+import TwoColumnGrid from '@/components/ui/TwoColumnGrid';
+import LandingCard from '@/components/ui/LandingCard';
 import { getLandingPageNavigation } from '@/lib/unified-data';
 import { generateCollectionMetadata } from '@/lib/metadataUtils';
 import { getContentBySlug } from '@/lib/content';
@@ -31,11 +32,24 @@ export default function CherylPage() {
         size="medium"
       />
 
-      {/* Content Cards - Responsive Grid Layout */}
-      <LandingGrid 
-        items={landingItems}
-        collection="cheryl"
-      />
+      {/* Content Cards - Two Column Grid Layout */}
+      <TwoColumnGrid 
+        variant="default"
+        gap="lg"
+        className="mt-16"
+        equalHeight
+      >
+        {landingItems.map((item) => (
+          <LandingCard
+            key={item.id}
+            title={item.title}
+            description={item.summary || ''}
+            href={item.url || `/cheryl/${item.slug}`}
+            showTags={true}
+            tags={item.tags}
+          />
+        ))}
+      </TwoColumnGrid>
     </UnifiedLayout>
   );
 }

@@ -3,7 +3,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import { mdxOptions, mdxComponents } from '@/lib/mdxConfig';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PageTitle from '@/components/ui/PageTitle';
-import PublicationInfo from '@/components/ui/PublicationInfo';
+import UnifiedMetadata from '@/components/ui/UnifiedMetadata';
 import ImageGallery from '@/components/ImageGallery';
 import Tags from '@/components/ui/Tags';
 import { cleanTitle } from '@/lib/pathUtils';
@@ -116,9 +116,24 @@ export default function UnifiedLayout({
               {/* Publication Info */}
               {showPubInfo && (
                 <div className="mb-6">
-                  <PublicationInfo
-                    publication={frontmatter.journal}
-                    date={frontmatter.publication?.date}
+                  <UnifiedMetadata
+                    fields={(() => {
+                      const fields = [];
+                      if (frontmatter.journal) {
+                        fields.push({
+                          label: 'Publication',
+                          value: frontmatter.journal
+                        });
+                      }
+                      if (frontmatter.publication?.date) {
+                        fields.push({
+                          label: 'Date',
+                          value: frontmatter.publication.date
+                        });
+                      }
+                      return fields;
+                    })()}
+                    variant="detail"
                   />
                 </div>
               )}

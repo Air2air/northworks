@@ -78,7 +78,6 @@ export type ContentCategory =
   | 'professional'
   | 'publications'
   | 'background'
-  | 'projects'
   | 'biography'
   | 'company'
   | 'other';

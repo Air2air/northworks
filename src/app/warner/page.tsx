@@ -1,7 +1,8 @@
-import { generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
-import PageTitle from '@/components/ui/PageTitle';
+import { generateCollectionBreadcrumbs } from "@/lib/breadcrumbUtils";
+import PageTitle from "@/components/ui/PageTitle";
 import UnifiedLayout from "@/components/layouts/UnifiedLayout";
-import LandingGrid from '@/components/ui/LandingGrid';
+import LandingGrid from "@/components/ui/LandingGrid";
+import { UnifiedContentItem } from "@/schemas/unified-content-schema";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -27,66 +28,52 @@ export const metadata: Metadata = {
 
 export default function WarnerPage() {
   // Generate breadcrumbs using centralized utility
-  const breadcrumbs = generateCollectionBreadcrumbs('warner');
+  const breadcrumbs = generateCollectionBreadcrumbs("warner");
 
-  // Create navigation items for UnifiedCard
-  const professionalItem = {
+  // Create navigation items using centralized types
+  const professionalItem: UnifiedContentItem = {
     id: "professional-nav",
     slug: "professional",
-    type: "professional" as const,
-    category: "professional" as const,
-    title: "Professional Work",
-    summary: "Consulting projects, government service, and academic positions",
+    type: "professional",
+    category: "professional",
+    title: "Professional Experience",
+    summary: "Consulting work, government service, and academic collaborations",
     url: "/professional",
-    status: "published" as const,
-    source: "manual" as const,
-    tags: ["consulting", "government", "academic", "projects"],
+    status: "published",
+    source: "manual",
+    tags: ["consulting", "government", "academic", "professional"],
   };
 
-  const publicationsItem = {
+  const publicationsItem: UnifiedContentItem = {
     id: "publications-nav",
     slug: "publications",
-    type: "publication" as const,
-    category: "publications" as const,
+    type: "publication",
+    category: "publications",
     title: "Publications",
     summary: "Books, research papers, reports, and articles",
     url: "/publications",
-    status: "published" as const,
-    source: "manual" as const,
+    status: "published",
+    source: "manual",
     tags: ["research", "papers", "books", "articles"],
   };
 
-  const backgroundItem = {
+  const backgroundItem: UnifiedContentItem = {
     id: "background-nav",
     slug: "background",
-    type: "background" as const,
-    category: "background" as const,
+    type: "background",
+    category: "background",
     title: "Background",
     summary: "Education, training, honors, and biographical information",
     url: "/background",
-    status: "published" as const,
-    source: "manual" as const,
+    status: "published",
+    source: "manual",
     tags: ["education", "training", "honors", "biography"],
-  };
-
-  const projectsItem = {
-    id: "projects-nav",
-    slug: "projects",
-    type: "project" as const,
-    category: "projects" as const,
-    title: "Projects",
-    summary: "Consulting projects, government work, and academic collaborations",
-    url: "/projects",
-    status: "published" as const,
-    source: "manual" as const,
-    tags: ["consulting", "government", "projects", "collaborations"],
   };
 
   const landingItems = [
     professionalItem,
     publicationsItem,
     backgroundItem,
-    projectsItem
   ];
 
   return (
@@ -100,9 +87,10 @@ export default function WarnerPage() {
       />
 
       {/* Content Cards - Responsive Grid Layout */}
-      <LandingGrid 
+      <LandingGrid
         items={landingItems}
         collection="warner"
+        variant="text-only"
       />
     </UnifiedLayout>
   );

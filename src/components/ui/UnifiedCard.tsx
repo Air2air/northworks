@@ -4,7 +4,7 @@
  * 
  * Single reusable card component that handles ALL content types:
  * - c-* content (interviews, articles, reviews)
- * - w-* content (professional, publications, background, projects)
+ * - w-* content (professional, publications, background, company)
  * 
  * Replaces: ContentCard, SimpleNavigationCard, FeatureCard, InfoCard
  * 

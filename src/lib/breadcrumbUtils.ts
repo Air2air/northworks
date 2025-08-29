@@ -34,8 +34,8 @@ const CONTENT_TYPE_CONFIGS: Record<string, BreadcrumbConfig> = {
     grandParentLabel: 'D. Warner North'
   },
   project: {
-    parentPath: '/projects',
-    parentLabel: 'Projects',
+    parentPath: '/professional',
+    parentLabel: 'Professional Experience',
     grandParentPath: '/warner',
     grandParentLabel: 'D. Warner North'
   },

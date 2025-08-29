@@ -2,8 +2,7 @@ import { getBackgroundContent } from '@/lib/unified-data';
 import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import PageTitle from '@/components/ui/PageTitle';
-import UnifiedList from '@/components/ui/UnifiedList';
-import DocumentCardList from '@/components/ui/DocumentCardList';
+import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -26,7 +25,7 @@ export default function BackgroundPage() {
   const breadcrumbs = generateListingBreadcrumbs('background');
 
   // Full document links for Warner background content
-  const fullDocuments = [
+  const documentLinks = [
     {
       title: "Professional Background & Biography",
       href: "/w-background",
@@ -53,34 +52,9 @@ export default function BackgroundPage() {
         size="medium"
       />
 
-      <DocumentCardList
-        title="Complete Background Documentation"
-        documents={fullDocuments}
-      />
-
-      {/* Section Overview */}
-      <div className="mb-6">
-        <h2 className="section-heading">Background Highlights & Sections</h2>
-        <p className="text-metadata mb-6">Browse individual background sections and key highlights from the biographical documentation.</p>
-      </div>
-
-      <UnifiedList 
+            <UnifiedContentDisplay
         items={backgroundContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category',
-          cardOptions: {
-            layout: 'horizontal',
-            size: 'medium',
-            showTags: true,
-            showSummary: true,
-            showImage: false
-          }
-        }}
+        preset="warnerContent"
       />
     </UnifiedLayout>
   );

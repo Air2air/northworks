@@ -1,15 +1,9 @@
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
-import { generateDetailBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { loadNormalizedContent, generateNormalizedMetadata, generateContentTypeParams } from '@/lib/page-templates';
 import { ProfessionalFrontmatter } from '@/types';
-import ImageGallery from '@/components/ImageGallery';
-import PageTitle from '@/components/ui/PageTitle';
-import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import SectionGrid from '@/components/ui/SectionGrid';
+import UnifiedContentPage from '@/components/pages/UnifiedContentPage';
 import { cleanTitle } from '@/lib/pathUtils';
-import { formatDate } from '@/lib/dateUtils';
-import { shouldUseSectionCards } from '@/lib/sectionParser';
 import { notFound } from 'next/navigation';
-import Tags from '@/components/ui/Tags';
 import type { Metadata } from 'next';
 
 interface ProfessionalPageProps {
@@ -20,140 +14,41 @@ interface ProfessionalPageProps {
 
 export async function generateMetadata({ params }: ProfessionalPageProps): Promise<Metadata> {
   const resolvedParams = await params;
-  const contentData = getContentBySlug(resolvedParams.slug, false);
+  const normalizedData = await loadNormalizedContent(resolvedParams.slug, 'professional');
   
-  if (!contentData || contentData.frontmatter.type !== 'professional') {
+  if (!normalizedData) {
     return {
       title: 'Professional Experience Not Found | NorthWorks',
       description: 'The requested professional experience could not be found.'
     };
   }
 
-  const frontmatter = contentData.frontmatter as ProfessionalFrontmatter;
-  const title = cleanTitle(frontmatter.title);
-  
-  const description = frontmatter.description || 
-    `Professional work${frontmatter.organization ? ` at ${frontmatter.organization}` : ''}${frontmatter.position ? ` as ${frontmatter.position}` : ''} by D. Warner North.`;
-
-  return {
-    title: `${title} | D. Warner North | NorthWorks`,
-    description: description,
-    keywords: (frontmatter as any).tags || frontmatter.subjects || [],
-    openGraph: {
-      title: title,
-      description: description,
-      type: 'article',
-      siteName: 'NorthWorks'
-    }
-  };
+  return generateNormalizedMetadata(normalizedData);
 }
 
 export default async function ProfessionalPage({ params }: ProfessionalPageProps) {
   const resolvedParams = await params;
-  const contentData = getContentBySlug(resolvedParams.slug, false); // Get raw content for type checking
+  const normalizedData = await loadNormalizedContent(resolvedParams.slug, 'professional');
   
-  if (!contentData || contentData.frontmatter.type !== 'professional') {
+  if (!normalizedData) {
     notFound();
   }
-
-  // Get HTML content for rendering
-  const htmlContentData = getContentBySlug(resolvedParams.slug, true);
-  
-  if (!htmlContentData) {
-    notFound();
-  }
-
-  const frontmatter = contentData.frontmatter as ProfessionalFrontmatter;
-  
-  // Check if this content should use section cards
-  const useSectionCards = shouldUseSectionCards(contentData.content);
-
-  // Generate breadcrumbs using centralized utility
-  const breadcrumbs = generateDetailBreadcrumbs('professional', cleanTitle(frontmatter.title), resolvedParams.slug);
 
   return (
-    <UnifiedLayout breadcrumbs={breadcrumbs}>
-      {useSectionCards ? (
-        // Section-based layout for long list pages
-        <SectionGrid 
-          content={contentData.content}
-          frontmatter={frontmatter}
-        />
-      ) : (
-        // Traditional layout for regular pages
-        <>
-          <PageTitle 
-            title={frontmatter.title}
-            size="medium"
-            align="left"
-          />
-          
-          {(frontmatter.organization || frontmatter.position || frontmatter.duration) && (
-            <div className="bg-gray-50 rounded-lg p-4 mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">Professional Details</h3>
-              <div className="text-sm text-gray-600 space-y-1">
-                {frontmatter.organization && (
-                  <p><strong>Organization:</strong> {frontmatter.organization}</p>
-                )}
-                {frontmatter.position && (
-                  <p><strong>Position:</strong> {frontmatter.position}</p>
-                )}
-                {frontmatter.duration && (
-                  <p><strong>Duration:</strong> {frontmatter.duration}</p>
-                )}
-              </div>
-            </div>
-          )}
-
-          {(frontmatter as any).tags && (frontmatter as any).tags.length > 0 && (
-            <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-900 mb-2">Subjects</h3>
-              <Tags 
-                tags={(frontmatter as any).tags} 
-                variant="compact"
-                collection="warner"
-              />
-            </div>
-          )}
-
-          {/* Content */}
-          <div className="prose prose-lg max-w-none mb-8">
-            <div dangerouslySetInnerHTML={{ __html: htmlContentData.content }} />
-          </div>
-
-          {/* Images Gallery */}
-          {frontmatter.images && frontmatter.images.length > 0 && (
-            <section className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Images</h3>
-              <ImageGallery images={frontmatter.images} />
-            </section>
-          )}
-        </>
-      )}
-
-      {/* Back to Professional */}
-      <div className="mt-12 pt-8 border-t border-gray-200">
-        <a
-          href="/professional"
-          className="inline-flex items-center text-sky-600 hover:text-sky-800 transition-colors"
-        >
-          ← Back to Professional Experience
-        </a>
-      </div>
-    </UnifiedLayout>
+    <UnifiedContentPage 
+      data={normalizedData}
+      backLinkOverride={{
+        label: "← Back to Professional Experience",
+        href: "/professional"
+      }}
+    />
   );
 }
 
 export async function generateStaticParams() {
-  const slugs = getAllContentSlugs();
+  const allSlugs = getAllContentSlugs();
   
   // Filter for professional content only, excluding w- prefixed content (handled by direct routes)
-  const professionalSlugs = slugs.filter(slug => {
-    const content = getContentBySlug(slug, false); // Use raw content for type checking
-    return content?.frontmatter.type === 'professional' && !slug.startsWith('w-');
-  });
-
-  return professionalSlugs.map((slug) => ({
-    slug,
-  }));
+  return generateContentTypeParams('professional', allSlugs)
+    .filter(({ slug }) => !slug.startsWith('w-'));
 }

@@ -56,7 +56,7 @@ export function getCollectionFromSlug(slug: string): CollectionType {
 }
 
 export function getCollectionFromCategory(category: string): CollectionType {
-  const warnerCategories = ["professional", "publications", "background", "projects"];
+  const warnerCategories = ["professional", "publications", "background"];
   const cherylCategories = ["interviews", "articles", "reviews"];
   
   if (warnerCategories.includes(category)) return "warner";
@@ -88,201 +88,55 @@ export function getSearchUrlForCollection(collection: CollectionType, query?: st
 }
 
 // ===============================================
-// CORE CONTENT TYPES (from unified-content-schema.ts)
+// CORE CONTENT TYPES (re-exported from unified-content-schema.ts)
 // ===============================================
 
-export interface BaseContentItem {
-  id: string;
-  slug?: string;
-  type: ContentType;
-  category: ContentCategory;
-  subcategory?: string;
-  title: string;
-  subtitle?: string;
-  summary?: string;
-  body?: string;
-  excerpt?: string;
-  url?: string;
-  internalUrl?: string;
-  externalUrl?: string;
-  status: ContentStatus;
-  featured?: boolean;
-  priority?: number;
-  createdDate?: string;
-  publishedDate?: string;
-  lastModified?: string;
-  source?: ContentSource;
-  sourceFile?: string;
-  migrationNotes?: string;
-}
+// Re-export core content types from the unified schema
+export type {
+  BaseContentItem,
+  ContentType,
+  ContentCategory,
+  ContentStatus,
+  ContentSource,
+  UnifiedContentItem,
+  MediaAsset,
+  MediaType,
+  MediaVariant,
+  MediaUsage,
+  PublicationInfo,
+  ProfessionalInfo,
+  EducationRecord,
+  AwardRecord,
+  SubjectInfo,
+  PersonReference,
+  WorkReference,
+  OrganizationReference,
+  VenueReference,
+  CardDisplayOptions,
+  ListDisplayOptions,
+  UnifiedCardProps,
+  UnifiedListProps
+} from '@/schemas/unified-content-schema';
 
-export type ContentType = 
-  | 'interview' | 'article' | 'review' 
-  | 'professional' | 'publication' | 'background' 
-  | 'project' | 'bio' | 'company' | 'other';
+// Import specific types for use in this file
+import type {
+  ContentType,
+  ContentCategory,
+  ContentStatus,
+  SubjectInfo,
+  PublicationInfo,
+  WorkReference,
+  PersonReference,
+  UnifiedContentItem,
+  CardDisplayOptions,
+  ListDisplayOptions
+} from '@/schemas/unified-content-schema';
 
-export type ContentCategory =
-  | 'interviews' | 'articles' | 'reviews'
-  | 'professional' | 'publications' | 'background'
-  | 'projects' | 'biography' | 'company' | 'other';
 
-export type ContentStatus = 'published' | 'draft' | 'archived' | 'featured';
-export type ContentSource = 'markdown' | 'json' | 'cms' | 'migration' | 'manual';
 
-// Media Types
-export interface MediaAsset {
-  url: string;
-  type: MediaType;
-  alt?: string;
-  title?: string;
-  caption?: string;
-  width?: number;
-  height?: number;
-  size?: number;
-  duration?: string;
-  variant?: MediaVariant;
-  usage?: MediaUsage;
-  credit?: string;
-  copyright?: string;
-  license?: string;
-}
 
-export type MediaType = 'image' | 'video' | 'audio' | 'document' | 'pdf';
-export type MediaVariant = 'thumbnail' | 'hero' | 'portrait' | 'landscape' | 'square' | 'icon' | 'logo' | 'original';
-export type MediaUsage = 'primary' | 'secondary' | 'gallery' | 'background' | 'decorative' | 'logo' | 'download';
 
-// Publication Info
-export interface PublicationInfo {
-  publisher?: string;
-  publication?: string;
-  author?: string;
-  date?: string;
-  headline?: string;
-  volume?: string;
-  issue?: string;
-  pages?: string;
-  doi?: string;
-  isbn?: string;
-  url?: string;
-  pdfUrl?: string;
-  downloadUrl?: string;
-}
 
-// Professional Info
-export interface ProfessionalInfo {
-  position?: {
-    title: string;
-    organization: string;
-    department?: string;
-    location?: string;
-    startDate?: string;
-    endDate?: string;
-    current?: boolean;
-  };
-  project?: {
-    name: string;
-    description?: string;
-    role?: string;
-    duration?: string;
-    budget?: string;
-    outcome?: string;
-  };
-  education?: EducationRecord[];
-  specializations?: string[];
-  skills?: string[];
-  certifications?: string[];
-  awards?: AwardRecord[];
-  honors?: string[];
-  memberships?: string[];
-}
-
-export interface EducationRecord {
-  degree: string;
-  field: string;
-  institution: string;
-  location?: string;
-  year?: string;
-  honors?: string;
-}
-
-export interface AwardRecord {
-  name: string;
-  organization: string;
-  year: string;
-  description?: string;
-  category?: string;
-}
-
-// Subject References
-export interface SubjectInfo {
-  people?: PersonReference[];
-  works?: WorkReference[];
-  organizations?: OrganizationReference[];
-  venues?: VenueReference[];
-  topics?: string[];
-  keywords?: string[];
-}
-
-export interface PersonReference {
-  name: string;
-  role?: string;
-  instrument?: string;
-  voiceType?: string;
-  nationality?: string;
-  birthYear?: string;
-  deathYear?: string;
-  description?: string;
-}
-
-export interface WorkReference {
-  title: string;
-  composer?: string;
-  genre?: string;
-  key?: string;
-  opus?: string;
-  year?: string;
-  movements?: string[];
-}
-
-export interface OrganizationReference {
-  name: string;
-  type?: 'opera_company' | 'symphony' | 'conservatory' | 'university' | 'government' | 'private' | 'other';
-  location?: string;
-  role?: string;
-  description?: string;
-}
-
-export interface VenueReference {
-  name: string;
-  location?: string;
-  type?: 'concert_hall' | 'opera_house' | 'theater' | 'university' | 'other';
-  capacity?: string;
-  description?: string;
-}
-
-// Unified Content Item
-export interface UnifiedContentItem extends BaseContentItem {
-  publication?: PublicationInfo;
-  subject?: SubjectInfo;
-  media?: MediaAsset[];
-  professional?: ProfessionalInfo;
-  tags?: string[];
-  genres?: string[];
-  instruments?: string[];
-  composers?: string[];
-  relatedItems?: string[];
-  collections?: string[];
-  viewCount?: number;
-  downloadCount?: number;
-  shareCount?: number;
-  legacy?: {
-    originalId?: string;
-    originalFormat?: string;
-    migrationDate?: string;
-    migrationVersion?: string;
-    originalData?: any;
-  };
-}
 
 // ===============================================
 // UI COMPONENT TYPES
@@ -388,61 +242,7 @@ export interface PublicationInfoProps {
   className?: string;
 }
 
-// Card & List Components
-export interface CardDisplayOptions {
-  layout?: 'horizontal' | 'vertical' | 'minimal' | 'detailed';
-  size?: 'small' | 'medium' | 'large' | 'xl';
-  showImage?: boolean;
-  showSummary?: boolean;
-  showTags?: boolean;
-  showDate?: boolean;
-  showAuthor?: boolean;
-  showCategory?: boolean;
-  showPublication?: boolean;
-  imageVariant?: MediaVariant;
-  imagePosition?: 'left' | 'right' | 'top' | 'background';
-  clickable?: boolean;
-  hoverable?: boolean;
-  selectable?: boolean;
-  className?: string;
-  variant?: 'default' | 'minimal' | 'featured' | 'compact';
-}
 
-export interface ListDisplayOptions {
-  layout?: 'list';
-  columns?: 1;
-  gap?: 'none' | 'small' | 'medium' | 'large';
-  pagination?: boolean;
-  itemsPerPage?: number;
-  sortBy?: 'date' | 'title' | 'relevance' | 'category' | 'custom';
-  sortOrder?: 'asc' | 'desc';
-  groupBy?: 'none' | 'type' | 'category' | 'date' | 'author';
-  cardOptions?: CardDisplayOptions;
-  searchable?: boolean;
-  filterable?: boolean;
-  selectable?: boolean;
-  emptyMessage?: string;
-  loadingMessage?: string;
-}
-
-export interface UnifiedCardProps {
-  item: UnifiedContentItem;
-  options?: CardDisplayOptions;
-  onClick?: (item: UnifiedContentItem) => void;
-  className?: string;
-  collection?: "cheryl" | "warner" | "global";
-}
-
-export interface UnifiedListProps {
-  items: UnifiedContentItem[];
-  options?: ListDisplayOptions;
-  onItemClick?: (item: UnifiedContentItem) => void;
-  onSelectionChange?: (items: UnifiedContentItem[]) => void;
-  loading?: boolean;
-  error?: string;
-  className?: string;
-  collection?: "cheryl" | "warner" | "global";
-}
 
 // Section Components
 export interface SectionCardProps {
@@ -707,7 +507,9 @@ export interface UnifiedLayoutProps {
 // LEGACY COMPATIBILITY EXPORTS
 // ===============================================
 
-// Main exports for application use
-export type ContentItem = UnifiedContentItem;
-export type DisplayOptions = CardDisplayOptions;
-export type ListOptions = ListDisplayOptions;
+// Main exports for application use (re-exported from unified schema)
+export type {
+  ContentItem,
+  DisplayOptions,
+  ListOptions
+} from '@/schemas/unified-content-schema';

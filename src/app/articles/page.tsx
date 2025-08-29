@@ -2,7 +2,7 @@ import { getArticleContent } from '@/lib/unified-data';
 import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
+import UnifiedContentDisplay, { CONTENT_DISPLAY_PRESETS } from '@/components/ui/UnifiedContentDisplay';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function ArticlesPage() {
   const breadcrumbs = generateListingBreadcrumbs('article');
 
   return (
-        <UnifiedLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle
         title="Articles"
         description="Classical music feature articles and commentary by Cheryl North"
@@ -33,23 +33,10 @@ export default function ArticlesPage() {
         size="medium"
       />
 
-      {articleContent && articleContent.length > 0 ? (
-        <UnifiedList
-          items={articleContent}
-          options={{
-            layout: 'list',
-            itemsPerPage: 20,
-            pagination: true,
-            sortBy: 'date',
-            sortOrder: 'desc'
-          }}
-          collection="cheryl"
-        />
-      ) : (
-        <div className="text-center py-12">
-          <p className="text-gray-500">No articles found.</p>
-        </div>
-      )}
+      <UnifiedContentDisplay
+        items={articleContent}
+        preset="cherylContent"
+      />
     </UnifiedLayout>
   );
 }

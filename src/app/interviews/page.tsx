@@ -2,7 +2,7 @@ import { getInterviewContent } from '@/lib/unified-data';
 import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
+import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -33,23 +33,9 @@ export default function InterviewsPage() {
         size="medium"
       />
 
-      <UnifiedList 
+      <UnifiedContentDisplay
         items={interviewContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category',
-          cardOptions: {
-            layout: 'horizontal',
-            size: 'medium',
-            showTags: true,
-            showSummary: true,
-            showImage: true
-          }
-        }}
+        preset="cherylContent"
       />
     </UnifiedLayout>
   );

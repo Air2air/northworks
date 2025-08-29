@@ -2,7 +2,7 @@ import { getReviewContent } from '@/lib/unified-data';
 import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
+import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function ReviewsPage() {
   const breadcrumbs = generateListingBreadcrumbs('review');
 
   return (
-        <UnifiedLayout breadcrumbs={breadcrumbs}>
+    <UnifiedLayout breadcrumbs={breadcrumbs}>
       <PageTitle
         title="Reviews"
         description="Classical music performance reviews by Cheryl North"
@@ -33,23 +33,10 @@ export default function ReviewsPage() {
         size="medium"
       />
 
-      {reviewContent && reviewContent.length > 0 ? (
-        <UnifiedList
-          items={reviewContent}
-          options={{
-            layout: 'list',
-            itemsPerPage: 20,
-            pagination: true,
-            sortBy: 'date',
-            sortOrder: 'desc'
-          }}
-          collection="cheryl"
-        />
-      ) : (
-        <div className="text-center py-12">
-          <p className="text-gray-500">No reviews found.</p>
-        </div>
-      )}
+      <UnifiedContentDisplay
+        items={reviewContent}
+        preset="cherylContent"
+      />
     </UnifiedLayout>
   );
 }

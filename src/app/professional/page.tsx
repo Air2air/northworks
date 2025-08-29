@@ -3,8 +3,7 @@ import { getProfessionalContent } from '@/lib/unified-data';
 import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import UnifiedList from '@/components/ui/UnifiedList';
-import DocumentCardList from '@/components/ui/DocumentCardList';
+import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -26,13 +25,7 @@ export default function ProfessionalPage() {
   const breadcrumbs = generateListingBreadcrumbs('professional');
 
   // Full document links for Warner professional content
-  const fullDocuments = [
-    {
-      title: "EPA Science Advisory Board Global Warming Analysis (1990)",
-      href: "/w-epasab1990",
-      description: "Analysis of EPA's draft reports to Congress on global warming, climate change policy, and emissions reduction scenarios.",
-      actionText: "View Document"
-    },
+  const documentLinks = [
     {
       title: "Professional Projects Overview", 
       href: "/w-projects",
@@ -56,6 +49,12 @@ export default function ProfessionalPage() {
       href: "/w-projects-stanford",
       description: "Academic collaboration and research projects at Stanford University's Department of Management Science and Engineering.",
       actionText: "View Document"
+    },
+    {
+      title: "EPA Science Advisory Board Global Warming Analysis (1990)",
+      href: "/w-epasab1990",
+      description: "Analysis of EPA's draft reports to Congress on global warming, climate change policy, and emissions reduction scenarios.",
+      actionText: "View Document"
     }
   ];
 
@@ -68,34 +67,9 @@ export default function ProfessionalPage() {
         size="medium"
       />
 
-      <DocumentCardList
-        title="Detailed Project Documentation"
-        documents={fullDocuments}
-      />
-
-      {/* Section Overview */}
-      <div className="mb-6">
-        <h2 className="text-title-primary">Project Sections & Highlights</h2>
-        <p className="text-body-muted mb-6">Browse individual project sections and key highlights from the professional experience documentation.</p>
-      </div>
-
-      <UnifiedList 
+            <UnifiedContentDisplay
         items={professionalContent}
-        options={{
-          layout: 'list',
-          searchable: true,
-          filterable: true,
-          sortBy: 'date',
-          pagination: true,
-          groupBy: 'category',
-          cardOptions: {
-            layout: 'horizontal',
-            size: 'medium',
-            showTags: true,
-            showSummary: true,
-            showImage: false
-          }
-        }}
+        preset="warnerContent"
       />
     </UnifiedLayout>
   );

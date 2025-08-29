@@ -2,7 +2,7 @@ import { generateCollectionBreadcrumbs } from '@/lib/breadcrumbUtils';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
 import LandingGrid from '@/components/ui/LandingGrid';
-import Link from 'next/link';
+import { UnifiedContentItem } from '@/schemas/unified-content-schema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -22,42 +22,42 @@ export default function CherylPage() {
   const breadcrumbs = generateCollectionBreadcrumbs('cheryl');
 
   // Create navigation items for UnifiedCard
-  const interviewsItem = {
+  const interviewsItem: UnifiedContentItem = {
     id: 'interviews-nav',
     slug: 'interviews',
-    type: 'interview' as const,
-    category: 'interviews' as const,
+    type: 'interview',
+    category: 'interviews',
     title: 'Interviews',
     summary: 'In-depth conversations with musicians, conductors, and performers',
     url: '/interviews',
-    status: 'published' as const,
-    source: 'manual' as const,
+    status: 'published',
+    source: 'manual',
     tags: ['interviews', 'musicians', 'conductors', 'performers']
   };
 
-  const reviewsItem = {
+  const reviewsItem: UnifiedContentItem = {
     id: 'reviews-nav',
     slug: 'reviews',
-    type: 'review' as const,
-    category: 'reviews' as const,
+    type: 'review',
+    category: 'reviews',
     title: 'Reviews',
     summary: 'Concert reviews, opera critiques, and performance analysis',
     url: '/reviews',
-    status: 'published' as const,
-    source: 'manual' as const,
+    status: 'published',
+    source: 'manual',
     tags: ['reviews', 'concerts', 'opera', 'performances']
   };
 
-  const articlesItem = {
+  const articlesItem: UnifiedContentItem = {
     id: 'articles-nav',
     slug: 'articles',
-    type: 'article' as const,
-    category: 'articles' as const,
+    type: 'article',
+    category: 'articles',
     title: 'Articles',
     summary: 'Music journalism, features, and cultural commentary',
     url: '/articles',
-    status: 'published' as const,
-    source: 'manual' as const,
+    status: 'published',
+    source: 'manual',
     tags: ['articles', 'journalism', 'features', 'commentary']
   };
 

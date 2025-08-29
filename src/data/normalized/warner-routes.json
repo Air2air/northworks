@@ -36,12 +36,12 @@
     {
       "id": "w-northworks",
       "title": "NorthWorks Consulting", 
-      "type": "background",
-      "category": "background",
+      "type": "company",
+      "category": "company",
       "url": "/w-northworks",
       "description": "Information about NorthWorks consulting firm and current activities",
       "featured": true,
-      "parentCollection": "/background"
+      "parentCollection": "/company"
     },
     {
       "id": "w-publications",
@@ -87,51 +87,51 @@
       "id": "w-projects",
       "title": "Professional Experience & Projects",
       "type": "professional",
-      "category": "projects",
+      "category": "professional",
       "url": "/w-projects", 
       "description": "Comprehensive overview of consulting projects and professional work",
       "featured": true,
-      "parentCollection": "/projects"
+      "parentCollection": "/professional"
     },
     {
       "id": "w-projects-government",
       "title": "Government Consulting Projects",
       "type": "professional", 
-      "category": "projects",
+      "category": "professional",
       "url": "/w-projects-government",
       "description": "Government consulting work including EPA, NRC, and federal agencies",
       "featured": true,
-      "parentCollection": "/projects"
+      "parentCollection": "/professional"
     },
     {
       "id": "w-projects-nrc",
       "title": "Nuclear Regulatory Commission Projects", 
       "type": "professional",
-      "category": "projects",
+      "category": "professional",
       "url": "/w-projects-nrc",
       "description": "Specific projects for Nuclear Regulatory Commission risk analysis",
       "featured": true,
-      "parentCollection": "/projects"
+      "parentCollection": "/professional"
     },
     {
       "id": "w-projects-stanford",
       "title": "Stanford University Collaboration",
       "type": "professional",
-      "category": "projects", 
+      "category": "professional", 
       "url": "/w-projects-stanford",
       "description": "Academic collaboration and research at Stanford University",
       "featured": true,
-      "parentCollection": "/projects"
+      "parentCollection": "/professional"
     },
     {
       "id": "w-epasab1990",
       "title": "EPA Science Advisory Board Global Warming Analysis (1990)", 
       "type": "professional",
-      "category": "projects",
+      "category": "professional",
       "url": "/w-epasab1990",
       "description": "Analysis of EPA's draft reports to Congress on global warming policy",
       "featured": true,
-      "parentCollection": "/projects"
+      "parentCollection": "/professional"
     }
   ],
   "collections": [
@@ -140,8 +140,16 @@
       "title": "Background",
       "url": "/background", 
       "description": "Professional background, education, and biographical information",
-      "itemCount": 3,
-      "items": ["w-main", "w-background", "w-northworks"]
+      "itemCount": 2,
+      "items": ["w-main", "w-background"]
+    },
+    {
+      "id": "company",
+      "title": "NorthWorks Consulting",
+      "url": "/company", 
+      "description": "Information about NorthWorks consulting firm and business activities",
+      "itemCount": 1,
+      "items": ["w-northworks"]
     },
     {
       "id": "publications", 
@@ -150,14 +158,6 @@
       "description": "Research papers, journal articles, and academic publications",
       "itemCount": 4,
       "items": ["w-publications", "w-pub-seif-iv", "w-pub-stuttgart", "w-pub-vniigaz"]
-    },
-    {
-      "id": "projects",
-      "title": "Projects", 
-      "url": "/projects",
-      "description": "Professional projects, consulting work, and collaborations",
-      "itemCount": 5,
-      "items": ["w-projects", "w-projects-government", "w-projects-nrc", "w-projects-stanford", "w-epasab1990"]
     },
     {
       "id": "professional",
@@ -176,17 +176,17 @@
       "description": "Principal Scientist of NorthWorks and leading expert in risk analysis"
     },
     "topLevelPages": [
+              {
+        "id": "company",
+        "title": "NorthWorks Consulting", 
+        "url": "/company",
+        "description": "Information about NorthWorks consulting firm and business activities"
+      },
       {
         "id": "professional",
         "title": "Professional Experience", 
         "url": "/professional",
         "description": "Professional work and consulting experience"
-      },
-      {
-        "id": "projects",
-        "title": "Projects",
-        "url": "/projects", 
-        "description": "Consulting projects, government work, and academic collaborations"
       },
       {
         "id": "publications",

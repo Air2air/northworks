@@ -133,26 +133,4 @@ export function getArticles(): ContentData[] {
   return getContentByType('article');
 }
 
-// Warner-specific content functions
-export function getProfessionalContent(): ContentData[] {
-  return getContentByType('professional');
-}
-
-export function getPublications(): ContentData[] {
-  return getContentByType('publication');
-}
-
-export function getBackgroundContent(): ContentData[] {
-  return getContentByType('background');
-}
-
-export function getWarnerLists(): any[] {
-  try {
-    const warnerListsPath = path.join(process.cwd(), 'src', 'data', 'warner-lists-enhanced.json');
-    const warnerListsData = fs.readFileSync(warnerListsPath, 'utf8');
-    return JSON.parse(warnerListsData);
-  } catch (error) {
-    console.error('Error reading Warner lists:', error);
-    return [];
-  }
-}
+// End of content functions

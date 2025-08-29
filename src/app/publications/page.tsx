@@ -1,65 +1,47 @@
-import { getPublicationContent } from '@/lib/unified-data';
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { getContentBySlug } from '@/lib/content';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import PageTitle from '@/components/ui/PageTitle';
-import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Publications & Research Papers | D. Warner North | NorthWorks',
-  description: 'Publications and research papers by D. Warner North covering risk analysis, decision analysis, environmental protection, and nuclear waste management.',
+  title: 'Publications | D. Warner North | NorthWorks',
+  description: 'Complete publications list, papers, articles, and written works by D. Warner North on risk analysis and decision science.',
+  keywords: ['D. Warner North publications', 'risk analysis papers', 'decision science articles', 'academic papers', 'research publications'],
   openGraph: {
-    title: 'Publications & Research Papers | D. Warner North | NorthWorks',
-    description: 'Publications and research papers by D. Warner North covering risk analysis, decision analysis, and environmental protection.',
+    title: 'Publications | D. Warner North | NorthWorks',
+    description: 'Complete publications and written works by D. Warner North on risk analysis and decision science.',
     type: 'website',
     siteName: 'NorthWorks'
   }
 };
 
 export default function PublicationsPage() {
-  // Load normalized publication content data
-  const publicationContent = getPublicationContent();
-  
-  // Generate breadcrumbs using centralized utility
   const breadcrumbs = generateListingBreadcrumbs('publication');
+  const content = getContentBySlug('w-publications', false); // Get raw markdown for MDX
 
-  // Full document links for Warner publications
-  const documentLinks = [
-    {
-      title: "Complete Publications & Research Papers List",
-      href: "/w-publications",
-      description: "Comprehensive bibliography of research papers, journal articles, and publications covering risk analysis, decision analysis, and environmental protection."
-    },
-    {
-      title: "SEIF IV: Decision Analysis in Risk Management",
-      href: "/w-pub-seif-iv", 
-      description: "Research paper on systematic evaluation and implementation framework for decision analysis applications in risk management."
-    },
-    {
-      title: "Stuttgart Workshop on Risk Analysis",
-      href: "/w-pub-stuttgart",
-      description: "Workshop proceedings and contributions from the Stuttgart international conference on risk analysis methodologies."
-    },
-    {
-      title: "VNIIGAZ Collaboration Research",
-      href: "/w-pub-vniigaz",
-      description: "Collaborative research papers with the Russian natural gas research institute on risk assessment for energy infrastructure."
-    }
-  ];
+  if (!content) {
+    return (
+      <UnifiedLayout breadcrumbs={breadcrumbs}>
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900">Publications Not Found</h1>
+          <p className="mt-2 text-gray-600">The publications list could not be loaded.</p>
+        </div>
+      </UnifiedLayout>
+    );
+  }
 
   return (
-    <UnifiedLayout breadcrumbs={breadcrumbs}>
-      <PageTitle
-        title="Publications & Research Papers"
-        description="Publications and research papers by D. Warner North covering risk analysis, decision analysis, environmental protection, and nuclear waste management."
-        align="left"
-        size="medium"
-      />
-
-            <UnifiedContentDisplay
-        items={publicationContent}
-        preset="warnerContent"
-      />
-    </UnifiedLayout>
+    <UnifiedLayout 
+      breadcrumbs={breadcrumbs}
+      frontmatter={content.frontmatter}
+      content={content.content}
+      slug="w-publications"
+      contentType="publications"
+      breadcrumbConfig={{
+        parentPath: '/warner',
+        parentLabel: 'D. Warner North'
+      }}
+      collection="warner"
+    />
   );
 }

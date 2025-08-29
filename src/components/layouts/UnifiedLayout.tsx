@@ -12,6 +12,11 @@ import { UnifiedLayoutProps, BreadcrumbItem } from '@/types';
 
 /**
  * Unified layout component that handles both simple pages and detailed content pages
+ * 
+ * Usage patterns:
+ * 1. Simple pages: <UnifiedLayout>{children}</UnifiedLayout>
+ * 2. Content pages: <UnifiedLayout frontmatter={...} content={...} slug={...} etc />
+ * 
  * When frontmatter/content are provided, renders as a content detail page
  * Otherwise, renders as a simple page layout with children
  */
@@ -31,37 +36,85 @@ export default function UnifiedLayout({
   const isContentDetail = !!(frontmatter && content && slug && contentType && breadcrumbConfig);
   
   // Generate breadcrumbs for content detail pages
-  const contentBreadcrumbs: BreadcrumbItem[] = [];
-  if (isContentDetail) {
-    contentBreadcrumbs.push({ label: 'Home', href: '/', active: false });
+  const generateContentBreadcrumbs = (): BreadcrumbItem[] => {
+    const breadcrumbs: BreadcrumbItem[] = [
+      { label: 'Home', href: '/', active: false }
+    ];
     
     if (breadcrumbConfig!.grandParentPath && breadcrumbConfig!.grandParentLabel) {
-      contentBreadcrumbs.push({
+      breadcrumbs.push({
         label: breadcrumbConfig!.grandParentLabel,
         href: breadcrumbConfig!.grandParentPath,
         active: false,
       });
     }
     
-    contentBreadcrumbs.push({
+    breadcrumbs.push({
       label: breadcrumbConfig!.parentLabel,
       href: breadcrumbConfig!.parentPath,
       active: false,
     });
     
-    contentBreadcrumbs.push({
+    breadcrumbs.push({
       label: cleanTitle(frontmatter.title),
       href: `${breadcrumbConfig!.parentPath}/${slug}`,
       active: true,
     });
-  }
+    
+    return breadcrumbs;
+  };
   
   // Use provided breadcrumbs or generated ones
-  const finalBreadcrumbs = providedBreadcrumbs || (isContentDetail ? contentBreadcrumbs : undefined);
+  const finalBreadcrumbs = providedBreadcrumbs || (isContentDetail ? generateContentBreadcrumbs() : undefined);
   
-  // Helper functions for content detail rendering
+  // Content detail page rendering
+  if (isContentDetail) {
+    return (
+      <div className={className}>
+        <div className="px-4 py-6 sm:px-0">
+          {finalBreadcrumbs && <Breadcrumbs items={finalBreadcrumbs} />}
+          <div className="max-w-4xl mx-auto">
+            <ContentDetailRenderer 
+              frontmatter={frontmatter}
+              content={content}
+              contentType={contentType}
+              collection={collection}
+            />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Simple page layout rendering
+  return (
+    <div className={className}>
+      <div className="px-4 py-6 sm:px-0">
+        {finalBreadcrumbs && <Breadcrumbs items={finalBreadcrumbs} />}
+        <div className="max-w-4xl mx-auto">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Content detail renderer - extracted for cleaner code organization
+ */
+function ContentDetailRenderer({ 
+  frontmatter, 
+  content, 
+  contentType, 
+  collection 
+}: {
+  frontmatter: any;
+  content: string;
+  contentType: string;
+  collection: "cheryl" | "warner" | "global";
+}) {
+  // Helper functions
   const getTagsField = (frontmatter: any, contentType: string) => {
-    // Try different possible tag field names based on content type
     const tagFields = ['tags', 'subjects', 'keywords', 'categories'];
     
     for (const field of tagFields) {
@@ -93,95 +146,67 @@ export default function UnifiedLayout({
     return contentType === 'publication' && (frontmatter.journal || frontmatter.publication?.date);
   };
 
-  // Render content detail page
-  if (isContentDetail) {
-    const tags = getTagsField(frontmatter, contentType!);
-    const subtitle = getSubtitle(frontmatter, contentType!);
-    const showPubInfo = shouldShowPublicationInfo(frontmatter, contentType!);
+  const tags = getTagsField(frontmatter, contentType);
+  const subtitle = getSubtitle(frontmatter, contentType);
+  const showPubInfo = shouldShowPublicationInfo(frontmatter, contentType);
 
-    return (
-      <div className={className}>
-        <div className="px-4 py-6 sm:px-0">
-          {finalBreadcrumbs && <Breadcrumbs items={finalBreadcrumbs} />}
-          <div className="max-w-4xl mx-auto">
-            
-            <header className="mb-8">
-              <PageTitle 
-                title={frontmatter.title}
-                description={subtitle}
-                size="medium"
-                align="left"
-              />
-
-              {/* Publication Info */}
-              {showPubInfo && (
-                <div className="mb-6">
-                  <UnifiedMetadata
-                    fields={(() => {
-                      const fields = [];
-                      if (frontmatter.journal) {
-                        fields.push({
-                          label: 'Publication',
-                          value: frontmatter.journal
-                        });
-                      }
-                      if (frontmatter.publication?.date) {
-                        fields.push({
-                          label: 'Date',
-                          value: frontmatter.publication.date
-                        });
-                      }
-                      return fields;
-                    })()}
-                    variant="detail"
-                  />
-                </div>
-              )}
-
-              {/* Tags */}
-              {tags && tags.length > 0 && (
-                <div className="mb-6">
-                  <Tags tags={tags} variant="medium" collection={collection} />
-                </div>
-              )}
-            </header>
-
-            {/* Content with inline images */}
-            <div className="prose prose-lg max-w-none">
-              {/* Frontmatter images - floated inline at top of content */}
-              {frontmatter.images && frontmatter.images.length > 0 && (
-                <ImageGallery images={frontmatter.images} inline={true} />
-              )}
-              
-              {/* Main content */}
-              <MDXRemote 
-                source={content} 
-                options={mdxOptions} 
-                components={mdxComponents} 
-              />
-            </div>
-
-            {/* Standalone Images Gallery - only if not already shown inline */}
-            {frontmatter.images && frontmatter.images.length > 0 && (
-              <section className="mt-8">
-                <ImageGallery images={frontmatter.images} />
-              </section>
-            )}
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Render simple page layout
   return (
-    <div className={className}>
-      <div className="px-4 py-6 sm:px-0">
-        {finalBreadcrumbs && <Breadcrumbs items={finalBreadcrumbs} />}
-        <div className="max-w-4xl mx-auto">
-          {children}
-        </div>
+    <>
+      <header className="mb-8">
+        <PageTitle 
+          title={frontmatter.title}
+          description={subtitle}
+          size="medium"
+          align="left"
+        />
+
+        {/* Publication Info */}
+        {showPubInfo && (
+          <div className="mb-6">
+            <UnifiedMetadata
+              fields={(() => {
+                const fields = [];
+                if (frontmatter.journal) {
+                  fields.push({
+                    label: 'Publication',
+                    value: frontmatter.journal
+                  });
+                }
+                if (frontmatter.publication?.date) {
+                  fields.push({
+                    label: 'Date',
+                    value: frontmatter.publication.date
+                  });
+                }
+                return fields;
+              })()}
+              variant="detail"
+            />
+          </div>
+        )}
+
+        {/* Tags - only show for Cheryl content, not Warner content */}
+        {tags && tags.length > 0 && collection !== 'warner' && (
+          <div className="mb-6">
+            <Tags tags={tags} variant="medium" collection={collection} />
+          </div>
+        )}
+      </header>
+
+      {/* Content with inline images */}
+      <div className="prose prose-lg max-w-none">
+        {/* Frontmatter images - floated inline at top of content */}
+        {frontmatter.images && frontmatter.images.length > 0 && (
+          <ImageGallery images={frontmatter.images} inline={true} />
+        )}
+        
+        {/* Main content */}
+        <MDXRemote 
+          source={content} 
+          options={mdxOptions} 
+          components={mdxComponents} 
+        />
       </div>
-    </div>
+    </>
   );
 }

@@ -1,76 +1,47 @@
-import Link from 'next/link';
-import { getProfessionalContent } from '@/lib/unified-data';
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
-import PageTitle from '@/components/ui/PageTitle';
+import { getContentBySlug } from '@/lib/content';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Professional Experience & Projects | D. Warner North | NorthWorks',
-  description: 'Professional work and consulting experience of D. Warner North in risk analysis, decision analysis, and capital expenditure analysis.',
+  title: 'Professional Overview | D. Warner North | NorthWorks',
+  description: 'Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.',
+  keywords: ['D. Warner North professional', 'risk analysis consulting', 'decision science career', 'professional activities', 'consulting work'],
   openGraph: {
-    title: 'Professional Experience & Projects | D. Warner North | NorthWorks',
-    description: 'Professional work and consulting experience of D. Warner North in risk analysis and decision analysis.',
+    title: 'Professional Overview | D. Warner North | NorthWorks',
+    description: 'Professional activities and career highlights of D. Warner North in risk analysis and decision science.',
     type: 'website',
     siteName: 'NorthWorks'
   }
 };
 
 export default function ProfessionalPage() {
-  // Load normalized professional content data
-  const professionalContent = getProfessionalContent();
-  
-  // Generate breadcrumbs using centralized utility
   const breadcrumbs = generateListingBreadcrumbs('professional');
+  const content = getContentBySlug('w-professional', false); // Get raw markdown for MDX
 
-  // Full document links for Warner professional content
-  const documentLinks = [
-    {
-      title: "Professional Projects Overview", 
-      href: "/w-projects",
-      description: "Comprehensive overview of consulting projects, government work, and private sector experience.",
-      actionText: "View Document"
-    },
-    {
-      title: "Government Consulting Projects",
-      href: "/w-projects-government", 
-      description: "Detailed breakdown of government consulting work including EPA, NRC, and other federal agencies.",
-      actionText: "View Document"
-    },
-    {
-      title: "Nuclear Regulatory Commission Projects",
-      href: "/w-projects-nrc",
-      description: "Specific projects and contributions to Nuclear Regulatory Commission risk analysis efforts.",
-      actionText: "View Document"
-    },
-    {
-      title: "Stanford University Collaboration",
-      href: "/w-projects-stanford",
-      description: "Academic collaboration and research projects at Stanford University's Department of Management Science and Engineering.",
-      actionText: "View Document"
-    },
-    {
-      title: "EPA Science Advisory Board Global Warming Analysis (1990)",
-      href: "/w-epasab1990",
-      description: "Analysis of EPA's draft reports to Congress on global warming, climate change policy, and emissions reduction scenarios.",
-      actionText: "View Document"
-    }
-  ];
+  if (!content) {
+    return (
+      <UnifiedLayout breadcrumbs={breadcrumbs}>
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900">Professional Information Not Found</h1>
+          <p className="mt-2 text-gray-600">The professional information could not be loaded.</p>
+        </div>
+      </UnifiedLayout>
+    );
+  }
 
   return (
-    <UnifiedLayout breadcrumbs={breadcrumbs}>
-      <PageTitle
-        title="Professional Experience & Projects"
-        description="Professional work and consulting experience of D. Warner North in risk analysis, decision analysis, and capital expenditure analysis."
-        align="left"
-        size="medium"
-      />
-
-            <UnifiedContentDisplay
-        items={professionalContent}
-        preset="warnerContent"
-      />
-    </UnifiedLayout>
+    <UnifiedLayout 
+      breadcrumbs={breadcrumbs}
+      frontmatter={content.frontmatter}
+      content={content.content}
+      slug="w-professional"
+      contentType="professional"
+      breadcrumbConfig={{
+        parentPath: '/warner',
+        parentLabel: 'D. Warner North'
+      }}
+      collection="warner"
+    />
   );
 }

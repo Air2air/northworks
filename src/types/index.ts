@@ -166,38 +166,8 @@ export interface NavigationItem {
 // ===============================================
 
 // Layout Components
-export interface UnifiedLayoutProps extends BaseComponentProps {
-  breadcrumbs?: BreadcrumbItem[];
-  // Content detail specific props (optional)
-  frontmatter?: any;
-  content?: string;
-  slug?: string;
-  contentType?: string;
-  breadcrumbConfig?: {
-    parentPath: string;
-    parentLabel: string;
-    grandParentPath?: string;
-    grandParentLabel?: string;
-  };
-  collection?: "cheryl" | "warner" | "global";
-}
-
 export interface PageLayoutProps extends BaseComponentProps {
   breadcrumbs?: BreadcrumbItem[];
-}
-
-export interface ContentDetailLayoutProps {
-  frontmatter: any;
-  content: string;
-  slug: string;
-  contentType: string;
-  breadcrumbConfig: {
-    parentPath: string;
-    parentLabel: string;
-    grandParentPath?: string;
-    grandParentLabel?: string;
-  };
-  collection?: "cheryl" | "warner" | "global";
 }
 
 // UI Components
@@ -483,7 +453,7 @@ export interface BreadcrumbItem {
   active: boolean;
 }
 
-// Layout Props
+// Layout Props - Unified interface for all layout needs
 export interface UnifiedLayoutProps {
   children?: React.ReactNode;
   breadcrumbs?: BreadcrumbItem[];

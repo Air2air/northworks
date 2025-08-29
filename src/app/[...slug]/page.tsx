@@ -15,9 +15,6 @@ const routeToContentType: Record<string, ContentTypeKey> = {
   interviews: "interview",
   articles: "article", 
   reviews: "review",
-  background: "background",
-  professional: "professional",
-  publications: "publication",
 };
 
 // Generate static params using normalized approach

@@ -1,8 +1,6 @@
-import { getBackgroundContent } from '@/lib/unified-data';
-import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
+import { getContentBySlug } from '@/lib/content';
 import UnifiedLayout from '@/components/layouts/UnifiedLayout';
-import PageTitle from '@/components/ui/PageTitle';
-import UnifiedContentDisplay from '@/components/ui/UnifiedContentDisplay';
+import { generateListingBreadcrumbs } from '@/lib/breadcrumbUtils';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,44 +16,32 @@ export const metadata: Metadata = {
 };
 
 export default function BackgroundPage() {
-  // Load normalized background content data
-  const backgroundContent = getBackgroundContent();
-  
-  // Generate breadcrumbs using centralized utility
   const breadcrumbs = generateListingBreadcrumbs('background');
+  const content = getContentBySlug('w-background', false); // Get raw markdown for MDX
 
-  // Full document links for Warner background content
-  const documentLinks = [
-    {
-      title: "Professional Background & Biography",
-      href: "/w-background",
-      description: "Comprehensive biographical information, education, career history, and professional affiliations of D. Warner North."
-    },
-    {
-      title: "Career Overview & Experience Summary",
-      href: "/w-main",
-      description: "Detailed overview of professional experience, consulting career, academic affiliations, and major career achievements."
-    },
-    {
-      title: "About NorthWorks Consulting",
-      href: "/w-northworks",
-      description: "Information about NorthWorks consulting firm, its mission, services, and approach to risk analysis and decision science."
-    }
-  ];
+  if (!content) {
+    return (
+      <UnifiedLayout breadcrumbs={breadcrumbs}>
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900">Background Not Found</h1>
+          <p className="mt-2 text-gray-600">The background information could not be loaded.</p>
+        </div>
+      </UnifiedLayout>
+    );
+  }
 
   return (
-    <UnifiedLayout breadcrumbs={breadcrumbs}>
-      <PageTitle
-        title="Background"
-        description="Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science."
-        align="left"
-        size="medium"
-      />
-
-            <UnifiedContentDisplay
-        items={backgroundContent}
-        preset="warnerContent"
-      />
-    </UnifiedLayout>
+    <UnifiedLayout 
+      breadcrumbs={breadcrumbs}
+      frontmatter={content.frontmatter}
+      content={content.content}
+      slug="w-background"
+      contentType="background"
+      breadcrumbConfig={{
+        parentPath: '/warner',
+        parentLabel: 'D. Warner North'
+      }}
+      collection="warner"
+    />
   );
 }

@@ -119,9 +119,13 @@ export default function UnifiedCard({
   // ===============================================
 
   const handleClick = (e: React.MouseEvent) => {
-    // Don't navigate if clicking on interactive elements
+    // Don't navigate if clicking on interactive elements (but not the card itself)
     const target = e.target as Element;
-    if (target.closest('a') || target.closest('button') || target.closest('[role="button"]')) {
+    const currentTarget = e.currentTarget as Element;
+    
+    // Check if clicked on nested interactive elements, but exclude the card itself
+    const closestInteractive = target.closest('a') || target.closest('button') || target.closest('[role="button"]');
+    if (closestInteractive && closestInteractive !== currentTarget) {
       e.stopPropagation();
       return;
     }
@@ -370,11 +374,13 @@ export default function UnifiedCard({
   );
 
   // If card has a valid internal URL, wrap in Link component
+  // But don't wrap if the card shows tags (to avoid nested <a> tags)
   const url = item.url || item.internalUrl;
   const isInternalUrl = url && !url.startsWith('http') && !url.startsWith('//');
   const isExternalUrl = url && (url.startsWith('http') || url.startsWith('//'));
+  const hasTags = config.showTags && item.tags && item.tags.length > 0;
 
-  if (config.clickable && isInternalUrl) {
+  if (config.clickable && isInternalUrl && !hasTags) {
     return (
       <article className={cardClasses}>
         <Link href={url} className="flex-1 flex flex-col no-underline">
@@ -384,7 +390,7 @@ export default function UnifiedCard({
     );
   }
 
-  if (config.clickable && isExternalUrl) {
+  if (config.clickable && isExternalUrl && !hasTags) {
     return (
       <article className={cardClasses}>
         <a 

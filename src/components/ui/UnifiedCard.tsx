@@ -21,7 +21,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import LazyImage from './LazyImage';
 import CardImage from './CardImage';
 import Tags from './Tags';
 import { 
@@ -191,7 +190,7 @@ export default function UnifiedCard({
       <CardImage
         item={item}
         variant="thumbnail"
-        showImage={options.showImage}
+        showImage={options.showImage ?? true}
         className={imageClasses}
       />
     );

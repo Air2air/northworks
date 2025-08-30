@@ -99,9 +99,10 @@ describe('CardImage', () => {
       />
     )
     
-    // Should render LazyImage component - check for the container instead
-    const imageContainer = document.querySelector('.relative.overflow-hidden')
-    expect(imageContainer).toBeInTheDocument()
+    // Should render OptimizedImage component - check for img role
+    const image = screen.getByRole('img')
+    expect(image).toBeInTheDocument()
+    expect(image).toHaveAttribute('alt', 'Test image')
   })
 
   it('applies custom className correctly', () => {

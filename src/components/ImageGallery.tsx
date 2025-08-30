@@ -19,7 +19,7 @@ interface ImageGalleryProps {
 export default function ImageGallery({ 
   images, 
   showCaptions = true,
-  inline = false
+  inline = true
 }: ImageGalleryProps) {
   console.log('ImageGallery: received images:', images);
   
@@ -28,9 +28,13 @@ export default function ImageGallery({
     return null;
   }
 
-  // Simplified: only float-right layout for article images
+  // Use different layouts based on inline prop
+  const containerClasses = inline 
+    ? "float-right ml-6 mb-4 max-w-sm clear-right"
+    : "my-6 max-w-full";
+
   return (
-    <aside className="float-right ml-6 mb-4 max-w-sm clear-right">
+    <aside className={containerClasses}>
       <div className="space-y-4">
         {images.map((image, index) => (
           <figure 

@@ -4,13 +4,6 @@ import SectionCard from '../SectionCard'
 import SectionGrid from '../SectionGrid'
 import type { SectionCardProps, SectionGridProps } from '@/types'
 
-// Mock child components
-vi.mock('@/components/ui/LazyImage', () => ({
-  default: ({ src, alt }: { src: string; alt: string }) => (
-    <img src={src} alt={alt} data-testid="lazy-image" />
-  )
-}))
-
 describe('Section Components with Centralized Props', () => {
   describe('SectionCard', () => {
     const defaultProps: SectionCardProps = {

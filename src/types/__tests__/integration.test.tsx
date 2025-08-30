@@ -3,7 +3,6 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import type {
   BreadcrumbItem,
-  LazyImageProps,
   TagsProps,
   NavigationItem,
   PublicationInfoProps,
@@ -19,16 +18,6 @@ const MockBreadcrumbs = ({ items }: { items: BreadcrumbItem[] }) => (
       </span>
     ))}
   </nav>
-)
-
-const MockLazyImage = (props: LazyImageProps) => (
-  <img 
-    src={props.src} 
-    alt={props.alt}
-    className={props.className}
-    data-testid="mock-lazy-image"
-    data-priority={props.priority}
-  />
 )
 
 const MockTags = ({ tags, variant, collection }: TagsProps) => (
@@ -80,42 +69,6 @@ describe('Centralized Props Integration Tests', () => {
       
       expect(validBreadcrumb.label).toBe('Test Label')
       expect(validBreadcrumb.active).toBe(true)
-    })
-  })
-
-  describe('LazyImageProps Integration', () => {
-    it('should work with all optional properties', () => {
-      const imageProps: LazyImageProps = {
-        src: '/test-image.jpg',
-        alt: 'Test image',
-        width: 400,
-        height: 300,
-        className: 'responsive-image',
-        priority: true,
-        onLoad: vi.fn(),
-        onError: vi.fn()
-      }
-
-      render(<MockLazyImage {...imageProps} />)
-      
-      const image = screen.getByTestId('mock-lazy-image')
-      expect(image).toHaveAttribute('src', '/test-image.jpg')
-      expect(image).toHaveAttribute('alt', 'Test image')
-      expect(image).toHaveClass('responsive-image')
-      expect(image).toHaveAttribute('data-priority', 'true')
-    })
-
-    it('should work with minimal required properties', () => {
-      const minimalProps: LazyImageProps = {
-        src: '/minimal.jpg',
-        alt: 'Minimal image'
-      }
-
-      render(<MockLazyImage {...minimalProps} />)
-      
-      const image = screen.getByTestId('mock-lazy-image')
-      expect(image).toHaveAttribute('src', '/minimal.jpg')
-      expect(image).toHaveAttribute('alt', 'Minimal image')
     })
   })
 
@@ -225,12 +178,6 @@ describe('Centralized Props Integration Tests', () => {
         variant: 'medium'
       }
       
-      const image: LazyImageProps = {
-        src: '/cheryl-photo.jpg',
-        alt: 'Cheryl North',
-        className: 'author-photo'
-      }
-      
       // All should render without issues
       const { unmount: unmountBreadcrumbs } = render(<MockBreadcrumbs items={breadcrumbs} />)
       expect(screen.getByText('Cheryl North')).toBeInTheDocument()
@@ -239,10 +186,6 @@ describe('Centralized Props Integration Tests', () => {
       const { unmount: unmountTags } = render(<MockTags {...tags} />)
       expect(screen.getByTestId('tags')).toHaveAttribute('data-collection', 'cheryl')
       unmountTags()
-      
-      const { unmount: unmountImage } = render(<MockLazyImage {...image} />)
-      expect(screen.getByTestId('mock-lazy-image')).toHaveAttribute('alt', 'Cheryl North')
-      unmountImage()
     })
 
     it('should maintain TypeScript safety across all interfaces', () => {
@@ -253,11 +196,6 @@ describe('Centralized Props Integration Tests', () => {
           { label: 'Warner North', href: '/warner', active: false },
           { label: 'Publications', href: '/warner/publications', active: true }
         ] as BreadcrumbItem[],
-        image: {
-          src: '/warner-photo.jpg',
-          alt: 'D. Warner North',
-          priority: false
-        } as LazyImageProps,
         tags: {
           tags: ['risk analysis', 'decision science'],
           variant: 'large' as const,
@@ -273,7 +211,6 @@ describe('Centralized Props Integration Tests', () => {
       // All interfaces should work together seamlessly
       expect(testData.collection).toBe('warner')
       expect(testData.breadcrumbs).toHaveLength(2)
-      expect(testData.image.alt).toBe('D. Warner North')
       expect(testData.tags.collection).toBe('warner')
       expect(testData.publication.author).toBe('D. Warner North')
     })
@@ -284,7 +221,6 @@ describe('Centralized Props Integration Tests', () => {
       // Test that our centralized interfaces remain stable
       const stableInterfaces = {
         breadcrumb: { label: 'Test', href: '/test', active: false } as BreadcrumbItem,
-        image: { src: '/test.jpg', alt: 'Test' } as LazyImageProps,
         tags: { tags: ['test'] } as TagsProps,
         navigation: { label: 'Test', href: '/test' } as NavigationItem,
         publication: { date: '2024-01-01' } as PublicationInfoProps
@@ -294,9 +230,6 @@ describe('Centralized Props Integration Tests', () => {
       expect(stableInterfaces.breadcrumb).toHaveProperty('label')
       expect(stableInterfaces.breadcrumb).toHaveProperty('href')
       expect(stableInterfaces.breadcrumb).toHaveProperty('active')
-      
-      expect(stableInterfaces.image).toHaveProperty('src')
-      expect(stableInterfaces.image).toHaveProperty('alt')
       
       expect(stableInterfaces.tags).toHaveProperty('tags')
       

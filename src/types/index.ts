@@ -190,17 +190,6 @@ export interface TagsProps {
   collection?: CollectionType;
 }
 
-export interface LazyImageProps {
-  src: string;
-  alt: string;
-  width?: number;
-  height?: number;
-  className?: string;
-  placeholder?: string;
-  onLoad?: () => void;
-  onError?: () => void;
-}
-
 export interface ImageGalleryProps {
   images: ContentImage[];
   showCaptions?: boolean;
@@ -431,18 +420,6 @@ export interface PublicationInfoProps {
   author?: string;
   title?: string;
   className?: string;
-}
-
-// Lazy Image Props
-export interface LazyImageProps {
-  src: string;
-  alt: string;
-  width?: number;
-  height?: number;
-  className?: string;
-  priority?: boolean;
-  onLoad?: () => void;
-  onError?: () => void;
 }
 
 export interface CardImageProps {

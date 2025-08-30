@@ -2,7 +2,6 @@ import { describe, it, expect } from 'vitest'
 import type {
   CollectionType,
   BreadcrumbItem,
-  LazyImageProps,
   CardImageProps,
   UnifiedContentPageProps,
   ContentListingPageProps,
@@ -97,21 +96,6 @@ describe('Centralized Types', () => {
       expect(breadcrumb.label).toBe('Home')
       expect(breadcrumb.href).toBe('/')
       expect(breadcrumb.active).toBe(false)
-    })
-
-    it('should define LazyImageProps interface correctly', () => {
-      const imageProps: LazyImageProps = {
-        src: '/test-image.jpg',
-        alt: 'Test image',
-        width: 400,
-        height: 300,
-        className: 'test-class',
-        priority: true
-      }
-      
-      expect(imageProps.src).toBe('/test-image.jpg')
-      expect(imageProps.alt).toBe('Test image')
-      expect(imageProps.priority).toBe(true)
     })
 
     it('should define TagsProps interface correctly', () => {

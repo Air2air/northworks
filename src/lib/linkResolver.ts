@@ -16,15 +16,15 @@ const contentTypeToRoute: Record<string, string> = {
 
 // Common content patterns to determine type from slug
 const contentTypePatterns: Record<string, string> = {
-  // Cheryl's content patterns
-  "c-": "interview", // Most c- files are interviews
+  // Cheryl's content patterns - specific patterns first
   "c-reviews-": "review", // c-reviews- files are reviews
   "c-articles-": "article", // c-articles- files are articles
+  "c-": "interview", // Most c- files are interviews
   
-  // Warner's content patterns  
-  "w-": "professional", // Most w- files are professional
+  // Warner's content patterns - specific patterns first
   "w-pub": "publication", // w-pub is publications
   "w-projects": "professional", // w-projects is professional
+  "w-": "professional", // Most w- files are professional
 };
 
 /**

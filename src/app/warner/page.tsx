@@ -45,6 +45,12 @@ export default function WarnerPage() {
             title={item.title}
             description={item.summary || ''}
             href={item.url || `/warner/${item.slug}`}
+            image={item.media?.[0] ? {
+              src: item.media[0].url,
+              alt: item.media[0].alt || item.title,
+              width: item.media[0].width || 400,
+              height: item.media[0].height || 300
+            } : undefined}
             showTags={false}
             tags={item.tags}
           />

@@ -68,7 +68,7 @@ function getCardClasses(variant: LandingCardProps['variant'], hasImage: boolean)
 }
 
 function getImageClasses(): string {
-  return 'w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105';
+  return 'w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105';
 }
 
 function getContentClasses(): string {
@@ -118,7 +118,7 @@ export default function LandingCard({
             src={image.src}
             alt={image.alt}
             width={image.width || 400}
-            height={image.height || 200}
+            height={image.height || 180}
             className={imageClasses}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />

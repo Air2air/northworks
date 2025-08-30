@@ -47,6 +47,13 @@ export default function CherylPage() {
             href={item.url || `/cheryl/${item.slug}`}
             showTags={true}
             tags={item.tags}
+            image={item.media?.[0] ? {
+              src: item.media[0].url,
+              alt: item.media[0].alt || item.title,
+              width: item.media[0].width,
+              height: item.media[0].height
+            } : undefined}
+            showImage={!!item.media?.[0]}
           />
         ))}
       </TwoColumnGrid>

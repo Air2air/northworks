@@ -176,16 +176,21 @@ function ContentDetailRenderer({
       {/* Content with inline images */}
       <div className="prose prose-lg max-w-none">
         {/* Frontmatter images - floated inline at top of content */}
-        {frontmatter.images && frontmatter.images.length > 0 && (
+        {frontmatter.images && Array.isArray(frontmatter.images) && frontmatter.images.length > 0 && (
           <ImageGallery images={frontmatter.images} inline={true} />
         )}
         
-        {/* Main content */}
-        <MDXRemote 
-          source={content} 
-          options={mdxOptions} 
-          components={mdxComponents} 
-        />
+        {content && content.length > 0 ? (
+          <MDXRemote 
+            source={content} 
+            options={mdxOptions}
+            components={mdxComponents}
+          />
+        ) : (
+          <div className="bg-yellow-100 border border-yellow-300 p-4">
+            <p>No content to render</p>
+          </div>
+        )}
       </div>
     </>
   );

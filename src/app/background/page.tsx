@@ -32,10 +32,6 @@ export default function BackgroundPage() {
       content={content.content}
       slug="w-background"
       contentType="background"
-      breadcrumbConfig={{
-        parentPath: '/warner',
-        parentLabel: 'D. Warner North'
-      }}
       collection="warner"
     />
   );

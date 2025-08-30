@@ -22,6 +22,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import LazyImage from './LazyImage';
+import CardImage from './CardImage';
 import Tags from './Tags';
 import { 
   UnifiedContentItem, 
@@ -187,21 +188,12 @@ export default function UnifiedCard({
     }
 
     return (
-      <div className={imageClasses}>
-        <LazyImage
-          src={primaryImage.url}
-          alt={primaryImage.alt || item.title}
-          width={undefined}
-          height={undefined}
-          className="overflow-thumbnail"
-        />
-        
-        {item.featured && (
-          <div className="absolute top-2 right-2">
-            <FaStar className="w-4 h-4 text-yellow-500" />
-          </div>
-        )}
-      </div>
+      <CardImage
+        item={item}
+        variant="thumbnail"
+        showImage={options.showImage}
+        className={imageClasses}
+      />
     );
   };
 
@@ -504,7 +496,7 @@ function getCardClasses(config: Required<CardDisplayOptions>, className: string)
 }
 
 function getImageClasses(config: Required<CardDisplayOptions>): string {
-  // Mobile: width 100%/height overflow, Desktop: height 100%/width overflow
+  // Thumbnail sizing: reduced width, full height, overflow left/right
   let imageClasses = [
     "relative flex-shrink-0 rounded-lg overflow-hidden"
   ];
@@ -512,16 +504,16 @@ function getImageClasses(config: Required<CardDisplayOptions>): string {
   if (config.layout === 'horizontal') {
     // Mobile: Full width, fixed height container
     imageClasses.push(
-      "w-full h-40 sm:h-48", // Constrained container
-      "md:h-full md:w-48 md:mr-4" // Desktop: smaller, more reasonable width
+      "w-full h-40 sm:h-48", // Mobile: constrained height
+      "md:h-full md:w-32 md:mr-4" // Desktop: reduced width (32 instead of 48), full height
     );
   } else if (config.layout === 'vertical') {
-    // Vertical layout - includes xs (extra small) thumbnail size
-    imageClasses.push("w-full h-16 xs:h-20 sm:h-24 md:h-28 lg:h-32 mb-4");
+    // Vertical layout - reduced width, full height
+    imageClasses.push("w-24 h-full mr-4"); // Reduced width for vertical too
   } else {
-    // Default responsive behavior
+    // Default responsive behavior - reduced width, full height
     imageClasses.push(
-      "w-full h-40 sm:h-48 md:h-full md:w-48 md:mr-4"
+      "w-full h-40 sm:h-48 md:h-full md:w-32 md:mr-4"
     );
   }
 

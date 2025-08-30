@@ -2,8 +2,8 @@
 conversion date: 2025-08-13
 id: w-background
 images:
-  - src: /images/background.gif
-    alt: w-background
+  - src: /images/stanford.jpg
+    alt: Stanford University
 publication:
   date: 2019-01-01
   publisher: Northworks
@@ -30,7 +30,7 @@ Assistant Director, Decision Analysis (1975-1977) at Stanford Research Institute
 Supervisor or leader of over forty major DFI and SRI research projects.
 
 
-<br />
+<hr />
 
 **Ph.D., Operations Research, Stanford University (1970)**  
 Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. 
@@ -42,40 +42,40 @@ Decision theory, decision analysis, optimization theory and mathematical program
 **B.S., Physics, Yale University (1962).**
 
 
-<br />
+<hr />
 
 **Outstanding Risk Practitioner Award** s
 from the Society for Risk Analysis, 1999
 
 
-<br />
+<hr />
 
 **Frank P. Ramsey Medal** 
 for outstanding career achievement, awarded in 1997 by the Decision Analysis Society of the Institute for Operations Research and the Management Sciences. The citation for this award recognized contributions to public sector applications of decision analysis, particularly those involving environmental protection.
 
 
-<br />
+<hr />
 
 **Presidential appointee** 
 following nomination by the National Academy of Sciences, Nuclear Waste Technical Review Board, 1989 - May, 1994.
 
 
-<br />
+<hr />
 
 **Society for Risk Analysis** 
 Chair of the Advisory Board, 1999-2000; president, 1991-1992; past member of the national council, past President of Northern California chapter; chair, Advisory Board, 1998-2000; member of the editorial boards of *Risk Analysis*, *Risk Abstracts*; Area Editor for *Risk Analysis*, 2008 - 2019.
 
 
-<br />
+<hr />
 
 **Society of Decision Professionals**
 
 
-<br />
+<hr />
 
 **Sigma Xi, Phi Beta Kappa.**
 
 
-<br />
+<hr />
 
 **National Science Foundation fellowships** in physics (1962-4), mathematics (1965-7).

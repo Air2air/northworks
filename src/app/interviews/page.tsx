@@ -28,7 +28,7 @@ export default function InterviewsPage() {
             layout: 'list',
             cardOptions: {
               layout: 'vertical',
-              showImage: false,
+              showImage: true,
               showSummary: true,
               showTags: true,
               showDate: true,

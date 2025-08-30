@@ -2,7 +2,6 @@ import React from 'react';
 import type { MDXRemoteProps } from 'next-mdx-remote/rsc';
 import type { ComponentProps } from 'react';
 import ImageGallery from '../components/ImageGallery';
-import type { ContentImage } from '@/types';
 
 // Shared MDX configuration for consistent rendering
 export const mdxOptions: MDXRemoteProps['options'] = {
@@ -14,19 +13,26 @@ export const mdxOptions: MDXRemoteProps['options'] = {
 
 // Shared MDX components for consistent styling
 export const mdxComponents: MDXRemoteProps['components'] = {
-  // Images - convert inline markdown images to ImageGallery component with consistent 240px width
+  // Images - convert to ImageGallery for proper thumbnail display
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {
     if (!src || typeof src !== 'string') return null;
     
-    // Create a ContentImage object for the ImageGallery with enforced 280px width
-    const image: ContentImage = {
+    // Create image object for ImageGallery
+    const image = {
       src,
       alt: alt || '',
-      width: 280, // Enforce 280px width for all inline images
-      height: undefined, // Auto height to maintain aspect ratio
+      caption: alt || '',
+      width: 300,
+      height: 200
     };
     
-    return <ImageGallery images={[image]} inline={true} />;
+    // Use ImageGallery for proper thumbnail display
+    return (
+      <ImageGallery 
+        images={[image]} 
+        inline={true}
+      />
+    );
   },
 
   // Links

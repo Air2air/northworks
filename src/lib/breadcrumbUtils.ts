@@ -27,9 +27,11 @@ export function generateBreadcrumbsFromFrontmatter(slug: string): BreadcrumbItem
     'professional': { path: '/warner', label: 'D. Warner North' },
     'publication': { path: '/warner', label: 'D. Warner North' },
     'background': { path: '/warner', label: 'D. Warner North' },
+    'company': { path: '/warner', label: 'D. Warner North' },
     'interview': { path: '/cheryl', label: 'Cheryl North' },
     'article': { path: '/cheryl', label: 'Cheryl North' },
-    'review': { path: '/cheryl', label: 'Cheryl North' }
+    'review': { path: '/cheryl', label: 'Cheryl North' },
+    'bio': { path: '/cheryl', label: 'Cheryl North' }
   };
 
   const parent = parentMap[type];

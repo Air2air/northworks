@@ -32,10 +32,6 @@ export default function ProfessionalPage() {
       content={content.content}
       slug="w-professional"
       contentType="professional"
-      breadcrumbConfig={{
-        parentPath: '/warner',
-        parentLabel: 'D. Warner North'
-      }}
       collection="warner"
     />
   );

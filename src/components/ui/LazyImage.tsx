@@ -1,11 +1,10 @@
 "use client";
 
 /**
- * LazyImage - Optimized image component with lazy loading and performance features
- * Includes intersection observer, blur-up effect, and error handling
+ * LazyImage - Simplified image component for debugging
  */
 
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { FaCompass } from 'react-icons/fa';
 import type { LazyImageProps } from '@/types';
@@ -16,151 +15,72 @@ const LazyImage = React.memo(function LazyImage({
   width,
   height,
   className = '',
-  placeholder,
   priority = false,
   onLoad,
   onError
 }: LazyImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
-  const [isInView, setIsInView] = useState(priority);
-  const imgRef = useRef<HTMLDivElement>(null);
 
-  // Check if we should use responsive sizing (no explicit dimensions provided or responsive classes used)
-  const isOverflowThumbnail = className.includes('overflow-thumbnail');
-  const isResponsive = ((className.includes('w-full') && className.includes('h-full')) || (!width && !height)) && !isOverflowThumbnail;
-  
-  // For overflow-thumbnail, we want no explicit dimensions but also not responsive fill
-  const containerWidth = isResponsive ? undefined : (isOverflowThumbnail ? undefined : (width || 400));
-  const containerHeight = isResponsive ? undefined : (isOverflowThumbnail ? undefined : (height || 300));
-
-  // Intersection Observer for lazy loading
-  useEffect(() => {
-    if (priority || isInView) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsInView(true);
-          observer.disconnect();
-        }
-      },
-      {
-        threshold: 0.1,
-        rootMargin: '50px'
-      }
-    );
-
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [priority, isInView]);
+  console.log('LazyImage rendering:', { src, alt, width, height, className });
 
   const handleLoad = useCallback(() => {
+    console.log('Image loaded successfully:', src);
     setIsLoaded(true);
     onLoad?.();
-  }, [onLoad]);
+  }, [onLoad, src]);
 
-  const handleError = useCallback(() => {
+  const handleLoadingComplete = useCallback(() => {
+    console.log('Image loading complete:', src);
+    setIsLoaded(true);
+  }, [src]);
+
+  const handleError = useCallback((error: any) => {
+    console.error('Image failed to load:', src, error);
     setHasError(true);
     onError?.();
-  }, [onError]);
-
-  // Generate placeholder for blur effect
-  const getPlaceholder = () => {
-    if (placeholder) return placeholder;
-    // Simple base64 placeholder
-    const placeholderWidth = containerWidth || width;
-    const placeholderHeight = containerHeight || height;
-    return `data:image/svg+xml;base64,${btoa(`
-      <svg width="${placeholderWidth}" height="${placeholderHeight}" xmlns="http://www.w3.org/2000/svg">
-        <rect width="100%" height="100%" fill="#f3f4f6"/>
-        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="14">
-          Loading...
-        </text>
-      </svg>
-    `)}`;
-  };
+  }, [onError, src]);
 
   if (hasError) {
     return (
-      <div 
-        ref={imgRef}
-        className={`flex items-center justify-center bg-gradient-to-br from-sky-100 to-sky-300 w-full h-full`}
-        style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
-      >
+      <div className="flex items-center justify-center bg-gray-200 w-full h-48">
         <div className="text-center">
-          <FaCompass className="w-8 h-8 mx-auto text-sky-400" />
+          <FaCompass className="w-8 h-8 mx-auto text-gray-400" />
+          <p className="text-xs text-gray-500 mt-2">Failed to load: {src}</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div 
-      ref={imgRef}
-      className={`relative overflow-hidden w-full h-full`}
-      style={isResponsive ? {} : { width: containerWidth, height: containerHeight }}
-    >
+    <div className="relative w-full">
       {/* Placeholder while loading */}
       {!isLoaded && (
-        <div className="absolute inset-0 bg-sky-200 animate-pulse flex items-center justify-center">
-          <FaCompass className="w-6 h-6 text-sky-400" />
+        <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center z-10">
+          <FaCompass className="w-6 h-6 text-gray-400" />
+          <span className="sr-only">Loading...</span>
         </div>
       )}
       
       {/* Actual image */}
-      {(isInView || priority) && (
-        <>
-          {isOverflowThumbnail ? (
-            // Background image approach for thumbnails - better overflow control
-            <>
-              <div 
-                className="absolute inset-0 transition-opacity duration-300"
-                style={{
-                  backgroundImage: `url(${src})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center center',
-                  backgroundRepeat: 'no-repeat',
-                  opacity: isLoaded ? 1 : 0
-                }}
-              />
-              {/* Hidden image for loading events */}
-              <img
-                src={src}
-                alt={alt}
-                style={{ display: 'none' }}
-                onLoad={handleLoad}
-                onError={handleError}
-              />
-            </>
-          ) : (
-            // Regular Next.js Image for non-thumbnails
-            <div className="absolute inset-0">
-              <Image
-                src={src}
-                alt={alt}
-                {...(isResponsive ? {} : { width, height })}
-                className={`transition-opacity duration-300 ${
-                  isLoaded ? 'opacity-100' : 'opacity-0'
-                } ${className.includes('object-') ? className : 'object-cover w-full h-full'}`}
-                placeholder="blur"
-                blurDataURL={getPlaceholder()}
-                priority={priority}
-                onLoad={handleLoad}
-                onError={handleError}
-                style={{
-                  objectPosition: 'center center'
-                }}
-                {...(isResponsive ? { fill: true } : {})}
-                sizes={isResponsive ? '(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw' : undefined}
-              />
-            </div>
-          )}
-        </>
-      )}
+      <Image
+        src={src}
+        alt={alt}
+        width={width || 400}
+        height={height || 300}
+        className={`transition-opacity duration-300 ${
+          isLoaded ? 'opacity-100' : 'opacity-0'
+        } ${className}`}
+        priority={priority}
+        onLoad={handleLoad}
+        onError={handleError}
+        onLoadingComplete={handleLoadingComplete}
+        style={{
+          objectFit: 'cover',
+          objectPosition: 'center center'
+        }}
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+      />
     </div>
   );
 });

@@ -479,21 +479,6 @@ export interface UnifiedLayoutProps {
   collection?: CollectionType;
 }
 
-// Content Detail Layout specific props (required fields)
-export interface ContentDetailLayoutProps {
-  frontmatter: any;
-  content: string;
-  slug: string;
-  contentType: string;
-  breadcrumbConfig: {
-    parentPath: string;
-    parentLabel: string;
-    grandParentPath?: string;
-    grandParentLabel?: string;
-  };
-  collection?: CollectionType;
-}
-
 // Page Component Props
 export interface UnifiedContentPageProps {
   data: any; // NormalizedContentData from lib

@@ -4,7 +4,6 @@ import type {
   BreadcrumbItem,
   LazyImageProps,
   CardImageProps,
-  ContentDetailLayoutProps,
   UnifiedContentPageProps,
   ContentListingPageProps,
   ContentDetailPageProps,
@@ -168,27 +167,6 @@ describe('Centralized Types', () => {
   })
 
   describe('Layout Component Interfaces', () => {
-    it('should define ContentDetailLayoutProps interface correctly', () => {
-      const layoutProps: ContentDetailLayoutProps = {
-        frontmatter: { title: 'Test Article' },
-        content: 'Article content',
-        slug: 'test-article',
-        contentType: 'article',
-        breadcrumbConfig: {
-          parentPath: '/articles',
-          parentLabel: 'Articles',
-          grandParentPath: '/cheryl',
-          grandParentLabel: 'Cheryl North'
-        },
-        collection: 'cheryl'
-      }
-      
-      expect(layoutProps.slug).toBe('test-article')
-      expect(layoutProps.contentType).toBe('article')
-      expect(layoutProps.breadcrumbConfig.parentPath).toBe('/articles')
-      expect(layoutProps.collection).toBe('cheryl')
-    })
-
     it('should define UnifiedLayoutProps interface correctly', () => {
       const layoutProps: UnifiedLayoutProps = {
         children: null,

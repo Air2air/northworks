@@ -10,33 +10,30 @@ interface ContentImage {
   caption?: string;
 }
 
-interface ImageGalleryProps {
+interface SimpleImageGalleryProps {
   images: ContentImage[];
   showCaptions?: boolean;
-  inline?: boolean;
+  layout?: 'float' | 'inline' | 'grid';
 }
 
-export default function ImageGallery({ 
+export default function SimpleImageGallery({ 
   images, 
   showCaptions = true,
-  inline = false
-}: ImageGalleryProps) {
-  console.log('ImageGallery: received images:', images);
-  
-  if (!images?.length) {
-    console.log('ImageGallery: no images found');
-    return null;
-  }
+  layout = 'float'
+}: SimpleImageGalleryProps) {
+  if (!images?.length) return null;
 
-  // Simplified: only float-right layout for article images
+  const containerClass = {
+    float: 'float-right ml-6 mb-4 max-w-sm clear-right',
+    inline: 'my-6',
+    grid: 'grid grid-cols-1 md:grid-cols-2 gap-4 my-6'
+  }[layout];
+
   return (
-    <aside className="float-right ml-6 mb-4 max-w-sm clear-right">
+    <div className={containerClass}>
       <div className="space-y-4">
         {images.map((image, index) => (
-          <figure 
-            key={`${image.src}-${index}`} 
-            className="bg-white rounded-lg shadow-sm overflow-hidden"
-          >
+          <figure key={`${image.src}-${index}`} className="bg-white rounded-lg shadow-sm overflow-hidden">
             <OptimizedImage
               src={image.src}
               alt={image.alt || `Image ${index + 1}`}
@@ -53,6 +50,6 @@ export default function ImageGallery({
           </figure>
         ))}
       </div>
-    </aside>
+    </div>
   );
 }

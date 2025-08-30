@@ -12,7 +12,7 @@
 "use client";
 
 import React from 'react';
-import LazyImage from './LazyImage';
+import OptimizedImage from './OptimizedImage';
 import { 
   FaStar,
   FaMusic, 
@@ -35,14 +35,24 @@ export default function CardImage({
 }: CardImageProps) {
   if (!showImage) return null;
 
-  const TypeIcon = getTypeIcon(item.type);
-  const primaryImage = getPrimaryImage(item, variant);
+  console.log('CardImage: checking item for images:', {
+    title: item.title,
+    type: item.type,
+    hasMedia: !!item.media,
+    mediaLength: item.media?.length,
+    itemKeys: Object.keys(item)
+  });
 
-  // If no primary image, show fallback icon
-  if (!primaryImage) {
+  const TypeIcon = getTypeIcon(item.type);
+  
+  // Check for images in frontmatter first, then media
+  const imageSource = getImageSource(item);
+
+  // If no image found, show fallback icon
+  if (!imageSource) {
     return (
       <div className={`${className} flex`}>
-        <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 flex-centered">
+        <div className="w-full h-full bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center">
           <TypeIcon className="w-8 h-8 text-sky-500" />
         </div>
       </div>
@@ -51,12 +61,12 @@ export default function CardImage({
 
   return (
     <div className={className}>
-      <LazyImage
-        src={primaryImage.url}
-        alt={primaryImage.alt || item.title}
-        width={undefined}
-        height={undefined}
-        className="overflow-thumbnail"
+      <OptimizedImage
+        src={imageSource.src}
+        alt={imageSource.alt || item.title}
+        width={imageSource.width || 300}
+        height={imageSource.height || 200}
+        className="w-full h-full object-cover object-top"
       />
       
       {item.featured && (
@@ -68,30 +78,59 @@ export default function CardImage({
   );
 }
 
-function getPrimaryImage(item: UnifiedContentItem, variant: MediaVariant) {
-  if (!item.media || item.media.length === 0) return null;
-  
-  // Find appropriate image based on variant
-  const preferredTypes: Record<MediaVariant, string[]> = {
-    thumbnail: ['thumbnail', 'square', 'icon'],
-    hero: ['hero', 'landscape', 'original'],
-    portrait: ['portrait', 'original', 'hero'],
-    landscape: ['landscape', 'hero', 'original'],
-    square: ['square', 'thumbnail', 'icon'],
-    icon: ['icon', 'thumbnail', 'square'],
-    logo: ['logo', 'icon', 'thumbnail'],
-    original: ['original', 'hero', 'landscape']
-  };
-  
-  const types = preferredTypes[variant] || preferredTypes.thumbnail;
-  
-  for (const type of types) {
-    const image = item.media.find(m => m.variant === type);
-    if (image) return image;
+function getImageSource(item: UnifiedContentItem) {
+  console.log('getImageSource: analyzing item structure:', {
+    title: item.title,
+    hasMedia: !!item.media,
+    mediaCount: item.media?.length || 0,
+    hasLegacy: !!item.legacy?.originalData,
+    itemKeys: Object.keys(item)
+  });
+
+  // First check for media array (new unified schema)
+  if (item.media && item.media.length > 0) {
+    const image = item.media.find(m => m.type === 'image') || item.media[0];
+    console.log('getImageSource: using media array image:', image);
+    return {
+      src: image.url,
+      alt: image.alt || item.title,
+      width: image.width || 300,
+      height: image.height || 200
+    };
   }
   
-  // Fallback to first image
-  return item.media[0];
+  // Check for images in legacy data (original frontmatter)
+  const legacyImages = item.legacy?.originalData?.images;
+  if (legacyImages && Array.isArray(legacyImages) && legacyImages.length > 0) {
+    const image = legacyImages[0];
+    console.log('getImageSource: using legacy images:', image);
+    return {
+      src: image.src,
+      alt: image.alt || item.title,
+      width: image.width || 300,
+      height: image.height || 200
+    };
+  }
+  
+  // Type assertion for backward compatibility
+  const itemAny = item as any;
+  
+  // Check for images array in various possible locations
+  const images = itemAny.images || itemAny.frontmatter?.images || itemAny.content?.images;
+  
+  if (images && Array.isArray(images) && images.length > 0) {
+    const image = images[0];
+    console.log('getImageSource: using fallback images:', image);
+    return {
+      src: image.src,
+      alt: image.alt || item.title,
+      width: image.width || 300,
+      height: image.height || 200
+    };
+  }
+  
+  console.log('getImageSource: no images found');
+  return null;
 }
 
 function getTypeIcon(type: ContentType) {

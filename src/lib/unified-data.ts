@@ -19,6 +19,15 @@ import { ContentData } from '@/types';
  * Convert ContentData to UnifiedContentItem
  */
 function convertContentDataToUnified(data: ContentData): UnifiedContentItem {
+  // Convert images from frontmatter to media format
+  const media = data.frontmatter.images?.map((img: any) => ({
+    url: img.src,
+    type: 'image' as const,
+    alt: img.alt || data.frontmatter.title,
+    width: img.width || 300,
+    height: img.height || 200
+  }));
+
   return {
     id: data.frontmatter.id || data.slug,
     slug: data.slug,
@@ -29,7 +38,12 @@ function convertContentDataToUnified(data: ContentData): UnifiedContentItem {
     url: `/${data.frontmatter.type}s/${data.slug}`, // interviews/slug, articles/slug
     status: 'published' as const,
     source: 'markdown' as const,
-    tags: data.frontmatter.tags || []
+    tags: data.frontmatter.tags || [],
+    media: media,
+    // Store original frontmatter in legacy property for backward compatibility
+    legacy: {
+      originalData: data.frontmatter
+    }
   };
 }
 

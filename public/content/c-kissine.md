@@ -2,7 +2,7 @@
 conversion date: 2025-08-13
 id: c-kissine
 images:
-  - src: /images/kissine-with-wife-and-c-3-4-10.jpg
+  - src: /images/thm-kissine.jpg
     alt: c-kissine
     width: 217
     height: 168

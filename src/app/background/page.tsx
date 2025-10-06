@@ -11,7 +11,7 @@ export const metadata: Metadata = generateMetadataFromContent('w-background', {
 });
 
 export default function BackgroundPage() {
-  const content = getContentBySlug('w-background', false); // Get raw markdown for MDX
+  const content = getContentBySlug('w-background', true); // Get processed HTML for MDX
   const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-background');
 
   if (!content) {
@@ -32,6 +32,10 @@ export default function BackgroundPage() {
       content={content.content}
       slug="w-background"
       contentType="background"
+      breadcrumbConfig={{
+        parentLabel: "D. Warner North",
+        parentPath: "/warner"
+      }}
       collection="warner"
     />
   );

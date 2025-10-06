@@ -11,7 +11,7 @@ export const metadata: Metadata = generateMetadataFromContent('c-about', {
 });
 
 export default function AboutCherylPage() {
-  const content = getContentBySlug('c-about', false); // Get raw markdown for MDX
+  const content = getContentBySlug('c-about', true); // Get processed HTML for MDX
   const breadcrumbs = generateBreadcrumbsFromFrontmatter('c-about');
 
   if (!content) {
@@ -32,6 +32,10 @@ export default function AboutCherylPage() {
       content={content.content}
       slug="c-about"
       contentType="bio"
+      breadcrumbConfig={{
+        parentLabel: "Cheryl North",
+        parentPath: "/cheryl"
+      }}
       collection="cheryl"
     />
   );

@@ -12,15 +12,15 @@ description: Professional activities, consulting work, and career highlights of 
 
 Dr. North's specialties are decision analysis; risk assessment and risk management; research and development planning; public policy analysis; analysis of environmental issues; modeling of complex engineering, economic, and ecological systems.
 
---- 
+<hr />
 
 [**Government Service**](/professional/w-projects-government) Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
 
---- 
+<hr />
 
 [**The National Academies**](/professional/w-projects-nrc): The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine Assignments for the National Research Council and the National Academies.
 
---- 
+<hr />
 
 [**Stanford University**](/professional/w-projects-stanford) Teaching and university research
 

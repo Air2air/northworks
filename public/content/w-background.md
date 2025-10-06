@@ -32,7 +32,8 @@ Supervisor or leader of over forty major DFI and SRI research projects.
 
 <hr />
 
-**Ph.D., Operations Research, Stanford University (1970)**  
+**Ph.D., Operations Research, Stanford University (1970)**
+
 Decision theory, decision analysis, optimization theory and mathematical programming, probabilistic systems modeling and analysis, economics. 
 
 [Dissertation](/pdf/phd-thesis.pdf) research involved the theoretical unification of entropy characterization and sufficient statistics characterization of families of probability distributions.

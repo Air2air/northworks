@@ -11,7 +11,7 @@ export const metadata: Metadata = generateMetadataFromContent('w-northworks', {
 });
 
 export default function NorthWorksPage() {
-  const content = getContentBySlug('w-northworks', false); // Get raw markdown for MDX
+  const content = getContentBySlug('w-northworks', true); // Get processed HTML for MDX
   const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-northworks');
 
   if (!content) {
@@ -32,6 +32,10 @@ export default function NorthWorksPage() {
       content={content.content}
       slug="w-northworks"
       contentType="company"
+      breadcrumbConfig={{
+        parentLabel: "D. Warner North",
+        parentPath: "/warner"
+      }}
       collection="warner"
     />
   );

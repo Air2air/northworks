@@ -11,7 +11,7 @@ export const metadata: Metadata = generateMetadataFromContent('w-professional', 
 });
 
 export default function ProfessionalPage() {
-  const content = getContentBySlug('w-professional', false); // Get raw markdown for MDX
+  const content = getContentBySlug('w-professional', true); // Get processed HTML for MDX
   const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-professional');
 
   if (!content) {
@@ -32,6 +32,10 @@ export default function ProfessionalPage() {
       content={content.content}
       slug="w-professional"
       contentType="professional"
+      breadcrumbConfig={{
+        parentLabel: "D. Warner North",
+        parentPath: "/warner"
+      }}
       collection="warner"
     />
   );

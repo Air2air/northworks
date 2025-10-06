@@ -11,7 +11,7 @@ export const metadata: Metadata = generateMetadataFromContent('w-publications', 
 });
 
 export default function PublicationsPage() {
-  const content = getContentBySlug('w-publications', false); // Get raw markdown for MDX
+  const content = getContentBySlug('w-publications', true); // Get processed HTML for MDX
   const breadcrumbs = generateBreadcrumbsFromFrontmatter('w-publications');
 
   if (!content) {

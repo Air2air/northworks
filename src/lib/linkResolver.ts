@@ -23,7 +23,7 @@ const contentTypePatterns: Record<string, string> = {
   
   // Warner's content patterns - specific patterns first
   "w-pub": "publication", // w-pub is publications
-  "w-projects": "professional", // w-projects is professional
+  "w-professional": "professional", // w-professional is professional
   "w-": "professional", // Most w- files are professional
 };
 

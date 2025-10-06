@@ -49,7 +49,7 @@ describe('linkResolver', () => {
 
     test('resolves professional content (w- prefix)', () => {
       expect(resolveContentLink('w-biography')).toBe('/professional/w-biography');
-      expect(resolveContentLink('w-projects-2020')).toBe('/professional/w-projects-2020');
+      expect(resolveContentLink('w-professional-2020')).toBe('/professional/w-professional-2020');
     });
 
     test('resolves publication content (w-pub prefix)', () => {

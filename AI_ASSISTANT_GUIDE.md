@@ -478,6 +478,21 @@ export interface TypeName {
 5. ✅ Test responsive behavior (mobile, tablet, desktop)
 6. ✅ Check color contrast for accessibility
 
+**Current Image Sizing**:
+
+*UnifiedCard (content page thumbnails)*:
+- Mobile: `h-52` (208px height)
+- Small screens: `sm:h-60` (240px height)
+- Desktop: `md:h-full` (stretches to card height), `md:w-32` (128px width)
+- Location: `src/components/ui/UnifiedCard.tsx` → `getImageClasses()` function
+
+*LandingCard (homepage featured cards)*:
+- Mobile: `h-64` (256px height)
+- Small screens: `sm:h-72` (288px height)
+- Desktop: `md:h-80` (320px height)
+- Width: Full width responsive
+- Location: `src/components/ui/LandingCard.tsx` → `getImageClasses()` function
+
 ### Task: User Wants to "Fix Search"
 
 **Files to Check**:

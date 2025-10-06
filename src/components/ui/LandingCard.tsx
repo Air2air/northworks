@@ -68,7 +68,8 @@ function getCardClasses(variant: LandingCardProps['variant'], hasImage: boolean)
 }
 
 function getImageClasses(): string {
-  return 'w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105';
+  // Increased height for better visual impact on landing page
+  return 'w-full h-64 sm:h-72 md:h-80 object-cover transition-transform duration-300 group-hover:scale-105';
 }
 
 function getContentClasses(): string {

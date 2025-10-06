@@ -2,6 +2,18 @@
 
 > **Purpose**: This document helps AI assistants quickly understand the codebase structure, locate relevant files, and avoid common pitfalls.
 
+## 📋 Recent Changes
+
+**October 2025**:
+- **Image Height Increases**: Card thumbnail images increased for better visual impact
+  - **UnifiedCard** (content pages): Mobile 160px → 208px (h-40 → h-52), Small 192px → 240px (sm:h-48 → sm:h-60)
+  - **LandingCard** (homepage): Mobile 192px → 256px (h-48 → h-64), Small 288px (sm:h-72), Desktop 320px (md:h-80)
+  - Location: `src/components/ui/UnifiedCard.tsx` and `LandingCard.tsx` `getImageClasses()` functions
+- **Dead Code Removal**: Removed 7 unused files (4 components, 3 libraries)
+  - See `docs/DEAD_CODE_REMOVAL_REPORT.md` for details
+
+---
+
 ## 🎯 Quick Reference for AI Assistants
 
 ### CRITICAL: Read These First
@@ -143,7 +155,7 @@ src/components/
     │
     ├── [Images]
     ├── OptimizedImage.tsx        # ⭐ Image wrapper (use this, not <img>)
-    └── CardImage.tsx             # Image for cards
+    └── CardImage.tsx             # Image for cards (with responsive sizing)
     │
     ├── [Content Sections]
     ├── SectionCard.tsx           # Section display card
@@ -157,9 +169,7 @@ src/components/
     ├── Pagination.tsx            # Pagination controls
     │
     └── [Landing Page]
-        ├── LandingCard.tsx       # Landing page cards
-        ├── LandingGrid.tsx       # Landing page grid
-        ├── HomeNavCard.tsx       # Home navigation cards
+        ├── LandingCard.tsx       # Landing page cards (larger images than UnifiedCard)
         └── TwoColumnGrid.tsx     # Two-column layout
 ```
 

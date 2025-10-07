@@ -1,9 +1,9 @@
 ---
 id: w-epasab1990
-images:
-  - src: /images/1990-sab-figure1.jpg
-  - src: /images/1990-sab-figure2.jpg
-  - src: /images/1990-sab-figure3.jpg
+# images:
+#   - src: /images/1990-sab-figure1.jpg
+#   - src: /images/1990-sab-figure2.jpg
+#   - src: /images/1990-sab-figure3.jpg
 publication:
   author: D. Warner North
   date: 1990-01-01

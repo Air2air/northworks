@@ -501,9 +501,9 @@ function getImageClasses(config: Required<CardDisplayOptions>): string {
   ];
 
   if (config.layout === 'horizontal') {
-    // Mobile: Full width, increased height container
+    // Mobile: Full width, moderate height container
     imageClasses.push(
-      "w-full h-52 sm:h-60", // Mobile: increased height (52=208px, 60=240px)
+      "w-full h-40 sm:h-48", // Mobile: moderate height (40=160px, 48=192px)
       "md:h-full md:w-32 md:mr-4" // Desktop: reduced width (32 instead of 48), full height
     );
   } else if (config.layout === 'vertical') {
@@ -512,7 +512,7 @@ function getImageClasses(config: Required<CardDisplayOptions>): string {
   } else {
     // Default responsive behavior - reduced width, full height
     imageClasses.push(
-      "w-full h-52 sm:h-60 md:h-full md:w-32 md:mr-4"
+      "w-full h-40 sm:h-48 md:h-full md:w-32 md:mr-4"
     );
   }
 

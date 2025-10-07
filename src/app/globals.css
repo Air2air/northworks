@@ -99,8 +99,30 @@ article a:not(.no-underline):visited {
   padding-left: 1.5rem;
 }
 
+.prose ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
 .prose li {
   margin-bottom: 0.5em;
+  display: list-item;
+}
+
+/* Fix spacing for paragraphs within list items */
+.prose li p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Add small spacing between consecutive list item paragraphs if they exist */
+.prose li p + p {
+  margin-top: 0.5em;
 }
 
 .prose blockquote {

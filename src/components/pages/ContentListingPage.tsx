@@ -54,9 +54,9 @@ const CONTENT_CONFIG = {
   },
   background: {
     title: 'Background',
-    description: 'Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.',
+    description: 'Background information, education, and biographical details about D. Warner North, expert in risk analysis and decision science.',
     metaTitle: 'Background | D. Warner North | NorthWorks',
-    metaDescription: 'Background information, education, and biographical details about D. Warner North, renowned expert in risk analysis and decision science.',
+    metaDescription: 'Background information, education, and biographical details about D. Warner North, expert in risk analysis and decision science.',
     keywords: ['D. Warner North biography', 'risk analysis expert', 'decision science', 'education', 'professional background', 'career history'],
     preset: 'warnerContent' as const
   }

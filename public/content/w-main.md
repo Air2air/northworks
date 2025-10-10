@@ -2,26 +2,29 @@
 conversion date: 2025-08-13
 id: w-main
 navigation:
-  professional:
-    title: Professional Experience
-    summary: Consulting work, government service, and academic collaborations
-    url: /professional
-    tags: [consulting, government, academic, professional]
+  background:
+    title: Education, Awards, Professional Society Affiliations, and Management Experience
+    summary: ""
+    url: /background
+    tags: 
+
   publications:
     title: Publications
     summary: Books, research papers, reports, and articles
     url: /publications
-    tags: [research, papers, books, articles]
-  background:
-    title: Background
-    summary: Education, training, honors, and biographical information
-    url: /background
-    tags: [education, training, honors, biography]
+    tags:
+
   northworks:
     title: About NorthWorks
     summary: Consulting firm specializing in risk analysis and decision science
     url: /northworks
-    tags: [consulting, northworks, company, about]
+    tags:
+
+  professional:
+    title: "Professional Society Affiliations and Management Experience"
+    summary: ""
+    url: /professional
+    tags:
 images:
   - src: /images/warner-north-6-06.jpg
     alt: Dr. Warner North
@@ -51,7 +54,7 @@ publication:
   publisher: Northworks
 title: D. Warner North
 type: background
-description: Principal Scientist of NorthWorks and leading expert in risk analysis and nuclear waste issues
+description: "Principal Scientist, NorthWorks. Expertise: decision and risk analysis; applications to energy, environmental protection, and policy on nuclear waste."
 tags:
   - Stanford
   - Environmental Science

@@ -2,7 +2,7 @@
 id: w-professional
 images:
 publication:
-  date: 2000-01-25
+  # date: 2000-01-25
   publisher: Northworks
 title: Professional Experience & Projects
 type: professional

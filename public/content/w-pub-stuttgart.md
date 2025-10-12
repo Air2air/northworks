@@ -2,7 +2,7 @@
 conversion date: 2025-08-13
 id: w-pub-stuttgart
 publication:
-  date: 2004-10-11
+  # date: 2004-10-11
   publisher: Northworks
 title: Global Climate Change - A Survey of the Science and Policy Implications
 type: publication

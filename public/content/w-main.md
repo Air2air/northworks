@@ -6,7 +6,7 @@ navigation:
     title: Education, Awards, Professional Society Affiliations, and Management Experience
     summary: ""
     url: /background
-    tags: 
+    tags:
 
   publications:
     title: Publications
@@ -50,7 +50,7 @@ images:
     width: 400
     height: 300
 publication:
-  date: 2017-11-14
+  # date: 2017-11-14
   publisher: Northworks
 title: D. Warner North
 type: background

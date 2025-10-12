@@ -3,7 +3,7 @@ conversion_date: 2025-08-13
 id: w-pub
 images:
 publication:
-  date: 2011-12-06
+  # date: 2011-12-06
   publisher: Northworks
 title: Publications & Research Papers
 type: publication

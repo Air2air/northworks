@@ -5,7 +5,7 @@ images:
   - src: /images/stanford.jpg
     alt: Stanford University
 publication:
-  date: 2019-01-01
+  # date: 2019-01-01
   publisher: Northworks
 title: Professional Background & Education
 type: background

@@ -2,7 +2,7 @@
 conversion date: 2025-08-13
 id: w-professional-nrc
 publication:
-  date: 2003-01-01
+  # date: 2003-01-01
   publisher: Northworks
 title: National Research Council Experience
 description: Dr. North was designated as a National Associate of the National Research Council in 2003.

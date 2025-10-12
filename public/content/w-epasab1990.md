@@ -6,7 +6,7 @@ id: w-epasab1990
 #   - src: /images/1990-sab-figure3.jpg
 publication:
   author: D. Warner North
-  date: 1990-01-01
+  # date: 1990-01-01
   publisher: Northworks
 title: EPA's Draft Reports to Congress on Global Warming - An Overview from 1990
 type: professional
@@ -30,6 +30,8 @@ Some parties contend that the uncertainties in predicting the extent and charact
 
 The GCMs may not provide much better predictions than simple radiation balance calculations or more highly simplified models, such as EPA used in its _Stabilizing_ Report. But predictions from these different models can illustrate the range of uncertainty in potential climate change, and show how this range is altered as we look further forward in time, assuming various levels of emissions of the greenhouse gases. We can then examine policy alternatives for emissions reduction, mitigation of consequences, and research initiatives in the context of these uncertainties.
 
+---
+
 ## The EPA Effects Report
 
 The EPA Potential Effects report presents a good overview of a complex subject. Of the nineteen chapters, ten discuss various types of effects for the United States as a whole: water resources, sea level rise, agriculture, forests, biological diversity, air quality, human health, urban infrastructure, energy demand, and climate variability. Four chapters present assessments of effects for geographical regions: California, the Southeast, the Great Lakes Region, and the Northern Great Plains. The remaining chapters describe the methodology used and provide a summary of implications for research and policy.
@@ -45,6 +47,8 @@ The effects outside of the United States and in the time period beyond the next 
 Further, the time period of EPA's assessment may be too short. Alteration of the atmosphere might result in commitment to a long-term climatic shift that over a period of many centuries causes the melting of a substantial fraction of polar ice — implying a sea-level rise of much more than the one to two meters considered in the _Effects_ Report. The result would be flooding (or protection by massive seawalls at great expense) of the coastal cities that contain much of the world's cultural heritage.
 
 In selecting emission reduction policies, the full set of uncertain consequences of greenhouse gas emissions should be weighed against the problems of achieving emissions reduction. It seems clear that effects assessment needs to be extended to other countries and to consequences that may occur beyond the year 2100.
+
+---
 
 ## The EPA Stabilizing Report
 
@@ -78,6 +82,8 @@ Refinement of the EPA work in future analysis will be highly valuable. In future
 
 The Stanford Energy Modeling Forum is just beginning a two-year effort to examine models for projecting energy sector impacts and costs of various measures to control greenhouse gas emissions (Energy Modeling Forum, 1990). Another SAB criticism of the draft report was that the chapters providing an overview of policy options were overly focused on near-term alternatives for limiting energy use. More emphasis is needed on energy R&D and commercialization options and examination of means to facilitate emissions reduction in the non-OECD countries that are consistent with the aspirations of these countries for energy development and economic growth.
 
+---
+
 ## Implications for Policy and Research Needs
 
 Stabilization of the atmosphere may be possible only in the next century, at concentrations of greenhouse gases that may alter climate in significant ways, and then only as the result of a great effort by many nations involving high levels of innovation and substantial costs. Given the potential for climate alteration from emissions up to the present and during the next few decades, some degree of adaptation to an altered climate may be unavoidable.
@@ -94,6 +100,20 @@ One class of actions that can be taken now is to develop options that will allow
 
 The United States and the other OECD nations have technological capabilities and capital resources that could be shared with other nations in pursuit of the goals of sustainable economic development and stabilizing the atmosphere against global warming. While expanded research on climate change and its consequent impacts on the biosphere is clearly needed, research and development of appropriate energy technologies and better energy planning methods may be even more important, to provide the means that will be needed to achieve atmospheric stabilization at a level of cost that the nations of the world believe they can afford. The greatest opportunities may be in avoiding increased emissions from the non-OECD nations as these nations develop the energy sectors of their economies.
 
+---
+
 ## References
 
-EPA (1989) US Environmental Protection Agency, _The Potential Effects of Global Climate Change in the United States,_ Draft Report to Congress. EPA (1989a), US Environmental Protection Agency, _The Potential Effects of Global Climate Change in the United States,_ Report to Congress,Washington, D.C., US Government Printing Office, EPA-230-05-89-050. [US Environmental Protection Agency website.](http://yosemite.epa.gov/oar/globalwarming.nsf/content/resourcecenterpublicationsslrpotentialuseffects.html) EPA (1989), _Policy Options for Stabilizing Global Climate,_ Draft Report to Congress. Energy Modeling Forum (1990), "EMF12 Study Prospectus," Stanford University. Howard, R., J. Matheson, and W. North (1972), "The Decision to Seed Hurricanes," _Science_ **176** (1191). Lashof, D.A. (1991), "Scenarios for Future Greenhouse Gas Emissions and Global Warming," _Energy Journal_. Lave, L., and K.H. Vickland (1989), "Adjusting to Greenhouse Effects: The Demise of Traditional Cultures and the Cost to the USA," _Risk Analysis_ **9** (283). Manne, A., and R. Richels (1991), _Energy Journal_. National Research Council (1990), _[Confronting Climate Change](http://books.nap.edu/catalog/1600.html)_, Washington, D.C.: National Academy Press. Raiffa, H. (1968), _Decision Analysis: Introductory Lectures on choices under Uncertainty_, Reading, MA: Addison-Wesley. Science Advisory Board (1989a), _Review of the Report to Congress: The Potential Effects of Global Climate Change in the United States_, Report of the Global Climate Change Subcommittee, U.S. Environmental Protection Agency, Washington, D.C. EPA-SAB/EC-89-016. Science Advisory Board (1989b), _Review of the Report to Congress: Policy Options for Stabilizing Global Climate_, Report of the Global Climate Change Subcommittee, U.S. Environmental Protection Agency, Washington, D.C. EPA-SAB/EC-89-034. ### Notes The views in this paper draw heavily upon the reviews (Science Advisory Board, 1989a, 1989b) by the Science Advisory Board of the U.S. Environmental Protection Agency (EPA) of the draft versions of two reports to Congress (EPA, 1988, 1989). The author wishes to acknowledge that the analytical results cited here are the work of EPA staff and contractors, and to acknowledge the other members of the Global Climate Change Subcommittee for their efforts in preparing the Science Advisory Board Reviews of these draft reports. Where this paper differs from the views expressed in the SAB reviews, the author bears sole responsibility. This manuscript was written in December 1989 and revised in September 1990. It was submitted at that time for a special issue of _Energy Journal_ but not accepted for publication. The author was affiliated at that time with Decision Focus Incorporated, Los Altos, CA, and the Stanford Center for Risk Analysis, Stanford, CA The author served as chair for the Global Climate Change Subcommittee of the EPA Science Advisory Board. ### Figures [ ](1990 sab fig 1.htm) [Figure 1: Population Growth Projected by World Region - Click to enlarge](/content/1990 SAB Fig 1.htm) [ ](1990 sab fig 2.htm) [Figure 2: End-Use Fuel Demand by Region - Click to enlarge](/content/1990 SAB Fig 2.htm) [ ](1990 sab fig 3.htm) [Figure 3: Primary Energy Supply by Type - Click to enlarge](/content/1990 SAB Fig 3.htm)
+EPA (1989) US Environmental Protection Agency, _The Potential Effects of Global Climate Change in the United States,_ Draft Report to Congress. EPA (1989a), US Environmental Protection Agency, _The Potential Effects of Global Climate Change in the United States,_ Report to Congress,Washington, D.C., US Government Printing Office, EPA-230-05-89-050. [US Environmental Protection Agency website.](http://yosemite.epa.gov/oar/globalwarming.nsf/content/resourcecenterpublicationsslrpotentialuseffects.html) EPA (1989), _Policy Options for Stabilizing Global Climate,_ Draft Report to Congress. Energy Modeling Forum (1990), "EMF12 Study Prospectus," Stanford University. Howard, R., J. Matheson, and W. North (1972), "The Decision to Seed Hurricanes," _Science_ **176** (1191). Lashof, D.A. (1991), "Scenarios for Future Greenhouse Gas Emissions and Global Warming," _Energy Journal_. Lave, L., and K.H. Vickland (1989), "Adjusting to Greenhouse Effects: The Demise of Traditional Cultures and the Cost to the USA," _Risk Analysis_ **9** (283). Manne, A., and R. Richels (1991), _Energy Journal_. National Research Council (1990), _[Confronting Climate Change](http://books.nap.edu/catalog/1600.html)_, Washington, D.C.: National Academy Press. Raiffa, H. (1968), _Decision Analysis: Introductory Lectures on choices under Uncertainty_, Reading, MA: Addison-Wesley. Science Advisory Board (1989a), _Review of the Report to Congress: The Potential Effects of Global Climate Change in the United States_, Report of the Global Climate Change Subcommittee, U.S. Environmental Protection Agency, Washington, D.C. EPA-SAB/EC-89-016. Science Advisory Board (1989b), _Review of the Report to Congress: Policy Options for Stabilizing Global Climate_, Report of the Global Climate Change Subcommittee, U.S. Environmental Protection Agency, Washington, D.C. EPA-SAB/EC-89-034.
+
+---
+
+### Notes
+
+The views in this paper draw heavily upon the reviews (Science Advisory Board, 1989a, 1989b) by the Science Advisory Board of the U.S. Environmental Protection Agency (EPA) of the draft versions of two reports to Congress (EPA, 1988, 1989). The author wishes to acknowledge that the analytical results cited here are the work of EPA staff and contractors, and to acknowledge the other members of the Global Climate Change Subcommittee for their efforts in preparing the Science Advisory Board Reviews of these draft reports. Where this paper differs from the views expressed in the SAB reviews, the author bears sole responsibility. This manuscript was written in December 1989 and revised in September 1990. It was submitted at that time for a special issue of _Energy Journal_ but not accepted for publication. The author was affiliated at that time with Decision Focus Incorporated, Los Altos, CA, and the Stanford Center for Risk Analysis, Stanford, CA The author served as chair for the Global Climate Change Subcommittee of the EPA Science Advisory Board.
+
+---
+
+### Figures
+
+[ ](1990 sab fig 1.htm) [Figure 1: Population Growth Projected by World Region - Click to enlarge](/content/1990 SAB Fig 1.htm) [ ](1990 sab fig 2.htm) [Figure 2: End-Use Fuel Demand by Region - Click to enlarge](/content/1990 SAB Fig 2.htm) [ ](1990 sab fig 3.htm) [Figure 3: Primary Energy Supply by Type - Click to enlarge](/content/1990 SAB Fig 3.htm)

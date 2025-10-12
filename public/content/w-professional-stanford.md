@@ -3,7 +3,7 @@ conversion date: 2025-08-13
 id: w-professional-stanford
 images:
 publication:
-  date: 2012-01-01
+  # date: 2012-01-01
   publisher: Northworks
 title: Stanford University Experience
 type: professional

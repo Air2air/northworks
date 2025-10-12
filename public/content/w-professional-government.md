@@ -2,7 +2,7 @@
 id: w-professional-government
 images:
 publication:
-  date: 2005-05-01
+  # date: 2005-05-01
   publisher: Northworks
 title: Government Projects & Consulting
 description: Service on behalf of United States Federal and State governmental agencies.

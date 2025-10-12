@@ -7,7 +7,7 @@ id: w-northworks
 #     height: 200
 #     caption: D. Warner North, President and Principal Scientist
 publication:
-  date: 2003-02-01
+  # date: 2003-02-01
   publisher: Northworks
 title: NorthWorks Consulting
 type: company
@@ -36,9 +36,9 @@ Dr. North speaking at the podium of the Belgian Senate. Behind him is Senate Pre
 
 Dr. North serves as a member of the Science Panel of this group, which was established following the Obama Administration's actions to curtail further activity on the proposed repository for high-level nuclear waste at Yucca Mountain, Nevada.
 
-Information on the Task Force and its Science Panel has been available on its website (sustainablefuelcyclesciencepanel.org, which should be online again soon).
+Information on the Task Force and its Science Panel has been available on its website sustainablefuelcyclesciencepanel.org.
 
-The Science Panel has sent letters, most recently to Secretary of Energy Perry [(letter dated November 14, 2017)](/pdf/science-panel-ltr-to-secretary-perry-17-11-14.pdf), and previously to him as the nominee for Secretary, [(letter dated January 23, 2017)](/pdf/science-panel-ltr-to-governor-perry-17-01-23-final.pdf) recommending that he make one of his highest priorities the restarting of the Yucca Mountain licensing process. (The links above are to these letters as pdf files.)
+The Science Panel has sent letters, most recently to Secretary of Energy Wright [(letter dated July 8, 2025)](https://sustainablefuelcyclesciencepanel.org/pdf/2025-07-08-letter-secretary-wright.pdf) recommending the restoration of a highly functioning program to meet DOE’s legal responsibility to manage and dispose of the nation’s commercial and legacy defense spent nuclear fuel (SNF) and high-level radioactive waste (HLW).
 
 ## Blue Ribbon Commission on America's Nuclear Future
 

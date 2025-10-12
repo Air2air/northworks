@@ -4,10 +4,15 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import { ContentData, ContentFrontmatter, ContentType } from '@/types';
 
+// Configure marked renderer to make hr tags self-closing for MDX compatibility
+const renderer = new marked.Renderer();
+renderer.hr = () => '<hr />';
+
 // Configure marked options
 marked.setOptions({
   gfm: true, // GitHub Flavored Markdown
   breaks: false, // Don't convert \n to <br> - causes MDX parsing issues
+  renderer: renderer,
 });
 
 const publicContentDirectory = path.join(process.cwd(), 'public', 'content');

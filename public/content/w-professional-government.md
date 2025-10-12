@@ -16,7 +16,7 @@ tags:
   - Independent Science Board
 ---
 
-### U.S. Environmental Protection Agency Science Advisory Board
+## U.S. Environmental Protection Agency Science Advisory Board
 
 #### Subcommittee on Risk Assessment
 
@@ -72,15 +72,21 @@ tags:
 
 - Consultant (2003-2004)
 
-#### Nuclear Waste Technical Review Board
+---
+
+## Nuclear Waste Technical Review Board
 
 - Member and Chair, Risk and Performance Analysis Panel (1989 - May, 1994)
 
-### Federal Energy Administration
+---
+
+## Federal Energy Administration
 
 - Special consultant to the Administrator of the for review of the petroleum price regulation program (1977)
 
-### State of California
+---
+
+## State of California
 
 - Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)
 - Co-Chair, Risk Assessment Subpanel (1987-1989)

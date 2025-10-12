@@ -23,6 +23,10 @@ The National Research Council, The National Academy of Sciences, The National Ac
 
 Teaching and university research.
 
+---
+
+## Consulting Projects
+
 #### Charles River Associates
 
 - Consultant on project to explore intelligible principles for setting national ambient air quality standards, following the May 1999 remand by the U.S. Court of Appeals for the D.C. Circuit of the 1997 EPA ozone and particulate matter standards.
@@ -139,6 +143,10 @@ Teaching and university research.
 
 - Project leader, establishment of priorities of R&D programs on fossil energy technologies, including coal gasification, synthetic liquids from coal and shale, and advanced fossil fueled electric generation technologies.
 
+---
+
+## Research & Development Projects
+
 #### Jet Propulsion Laboratory and NASA
 
 - Project leader or supervisor of four projects, assessment of probability of biological contamination from interplanetary space missions.
@@ -175,6 +183,8 @@ Teaching and university research.
 
 - Analysis of nuclear power and electric capacity expansion decisions; development of electric utility capacity expansion model.
 
-#### Professional Seminars and Presentations
+---
+
+## Professional Seminars and Presentations
 
 - Over fifty seminars in decision analysis, risk assessment, capital expenditure analysis, and related subjects for analysts and executives in the United States, Europe, and Latin America. Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bodies.

@@ -1,5 +1,5 @@
 ---
-conversion date: 2025-08-13
+conversion_date: 2025-08-13
 id: w-professional-stanford
 images:
 publication:
@@ -16,7 +16,7 @@ tags:
   - Public Policy Decisions
 ---
 
-### Department of Management Science and Engineering, School of Engineering
+## Department of Management Science and Engineering, School of Engineering
 
 - Consulting Associate Professor (1976-1988)
 - Consulting Professor (1988-2009)
@@ -37,11 +37,15 @@ tags:
 
 - Graduate/upper-level undergraduate course: "The Role of Technology in Public Policy Decisions" using energy and environmental case studies (1993-1999).
 
-#### Supervisor of graduate student research
+---
+
+## Supervisor of graduate student research
 
 - Application areas include forest and fishery resource management, communications satellite planning, decision analysis of medical treatment.
 - Guest lecturer for graduate-level courses in decision analysis and summer executive seminar programs.
 
-#### Teaching Assistant
+---
+
+## Teaching Assistant
 
 - Teaching assistant to Professor Ronald A. Howard in 1966 for the first course in decision analysis taught at Stanford University.

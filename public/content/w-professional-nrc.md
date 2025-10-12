@@ -1,5 +1,5 @@
 ---
-conversion date: 2025-08-13
+conversion_date: 2025-08-13
 id: w-professional-nrc
 publication:
   # date: 2003-01-01
@@ -13,112 +13,162 @@ Dr. North was designated as a [National Associate\*\*](http://www.nationalacadem
 
 Assignments for the National Research Council and other parts of the National Academies (partial list):
 
-#### Commission on Natural Resources
+---
+
+## Commission on Natural Resources
 
 - Consultant to Committee, 1972-1974, for analysis in Chapter 9 of report, [ AIr Quality and Stationary Source Emission Controls\*](http://books.nap.edu/catalog/10840.html), published by U.S. Government Printing Office for the Senate Committee on Public Works, March 1975
 
-#### Commission on Life Sciences
+---
+
+## Commission on Life Sciences
 
 - Member, Committee on the Institutional Means for Assessment of Risks to Public Health, 1981-1983
 - Report, [Risk Assessment in the Federal Government: Managing the Process\_](http://books.nap.edu/catalog.php?record_id=366) published in 1983.
 
-#### Committee on Health and Ecological Effects of Synfuels Industries
+---
+
+## Committee on Health and Ecological Effects of Synfuels Industries
 
 - Member, 1982-1985
 
-#### Committee on Demilitarizing Chemical Munitions and Agents
+---
+
+## Committee on Demilitarizing Chemical Munitions and Agents
 
 - Member and Assistant Chairman, Stockpile Assessment Panel, l983-1984,[ Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), 1984.
 
-#### Board on Radioactive Waste Management
+---
+
+## Board on Radioactive Waste Management
 
 - Consultant to Board for review of DOE methodology for high-level nuclear waste repository site selection (1985-1986).
 
-#### Commission of Behavioral and Social Sciences and Education Commission on Physical Sciences, Mathematics, and Resources
+---
+
+## Commission of Behavioral and Social Sciences and Education Commission on Physical Sciences, Mathematics, and Resources
 
 - Member, Committee on Risk Perception and Communication, 1987-1989
 - Report, [Improving Risk Communication\*](http://www.nap.edu/catalog.php?record_id=1189) published in 1989.
 
-#### Board on Environmental Studies and Toxicology
+---
+
+## Board on Environmental Studies and Toxicology
 
 - Member, Committee on Risk Assessment Methodology, 1989-1992
 - Report, [Issues in Risk Assessment\_, ](http://books.nap.edu/catalog.php?record_id=2078)published in 1993.
 
-#### Board on Environmental Studies and Toxicology
+---
+
+## Board on Environmental Studies and Toxicology
 
 - Member, Committee on Risk Assessment of Hazardous Air Pollutants, 1991-1994
 - Report, [Science and Judgment in Risk Assessment\_ ](http://www.nap.edu/catalog/2125.html) published in 1994.
 
-#### Commission on Behavioral and Social Sciences and Education
+---
+
+## Commission on Behavioral and Social Sciences and Education
 
 - Member, Committee on Risk Characterization; 1994-1996
 - Report, [Understanding Risk: Informing Decisons in a Democratic Society\_](http://www.nap.edu/catalog/5138.html) published in 1996
 
-#### Board on Radioactive Waste Management
+---
+
+## Board on Radioactive Waste Management
 
 - Member, 1995 - 1999
 - Member of Working Group that prepared the report,[ Technologies for Environmental Management: The Department of Energy's Office of Science and Technology\_](http://books.nap.edu/catalog.php?record_id=9656), published in 1999.
 
-#### Transportation Research Board
+---
+
+## Transportation Research Board
 
 - Chair, Committee to Review Federal Estimates of the Relationship of Vehicle Weight to Fatality and Injury Risk; [ Letter Report to Administrator, National Highway Traffic Safety Administration](http://onlinepubs.trb.org/onlinepubs/reports/letrept.html), 1996.
 
-#### Board on Agriculture and Natural Resources
+---
+
+## Board on Agriculture and Natural Resources
 
 - Conference on Incorporating Science, Economics, and Sociology in Developing Sanitary and Phytosanitary Standards in International Trade
 - Member of Organizing Group for 1999 Conference; [Incorporating Science, Economics, and Sociology in Developing Sanitary and Phytosanitary Standards in International Trade: Proceedings of a Conference,](http://books.nap.edu/catalog.php?record_id=9868) published in 2000.
 
-#### Board on Radioactive Waste Management
+---
+
+## Board on Radioactive Waste Management
 
 - Chair, Steering Committee and Advisory Committee, Disposition of High-Level Radioactive Waste through Geological Isolation: Development, Current Status, and Policy Challenges; International Workshop, November 4-5, 1999
 - Report, [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) published in 2001.
 
-#### Committee on Research Priorities for Airborne Particulate Matter
+---
+
+## Committee on Research Priorities for Airborne Particulate Matter
 
 - Reviewer, [Research Priorities for Airborne Particulate Matter: IV. Continuing Research Progress](http://www.nap.edu/catalog.php?record_id=10957), 2004.
 
-#### Division of Behavioral and Social Sciences and Education
+---
+
+## Division of Behavioral and Social Sciences and Education
 
 - Reviewer, [Decision Making for the Environment: Social and Behavioral Science Research Priorities](http://www.nap.edu/catalog.php?record_id=11186), 2005.
 
-#### Board on Radioactive Waste Management
+---
+
+## Board on Radioactive Waste Management
 
 - Reviewer, [Risk and Decisions About Disposition of Transuranic and High-Level Radioactive Waste](http://www.nap.edu/catalog.php?record_id=11223), 2005.
 
-#### Board on Chemical Sciences and Technology
+---
+
+## Board on Chemical Sciences and Technology
 
 - Report Review Coordinator, [ Review of Testing and Evaluation for Biological Point Detectors](http://books.nap.edu/catalog.php?record_id=11287), 2005.
 - Reviewer, [Test and Evaluation of Biological Standoff Detection Systems](http://www.nap.edu/catalog.php?record_id=12058), 2008, and [A Framework for Assessing the Health Hazard Posed by Bioaerosols](http://www.nap.edu/catalog.php?record_id=12003), 2008.
 
-#### National Academy of Engineering
+---
+
+## National Academy of Engineering
 
 - Reviewer, [Accident Precursor Analysis and Management: Reducing Technological Risk through Diligence](http://www.nap.edu/catalog.php?record_id=11061), 2004, and [ Fourth Report of the National Academy of Engineering/National Research Council Committee on New Orleans Regional Hurricane Protection Projects: Review of the IPET Volume VIII](http://www.nap.edu/catalog.php?record_id=12167), 2008.
 
-#### Board on Life Sciences, Earth and Life Sciences
+---
+
+## Board on Life Sciences, Earth and Life Sciences
 
 - Committee Member, [ Technical Input on the National Institutes of Health's Draft Supplementary Risk Assessments and Site Suitability Analyses for the National Emerging Infectious Diseases Laboratory, Boston University: A Letter Report](http://www.nap.edu/catalog.php?record_id=12073), 2007.
 
-#### Board on Life Sciences, Earth and Life Sciences
+---
+
+## Board on Life Sciences, Earth and Life Sciences
 
 - Committee Member, [Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A Letter Report](http://www.nap.edu/catalog.php?record_id=12208), 2008.
 
-#### Division of Behavioral and Social Sciences and Education
+---
+
+## Division of Behavioral and Social Sciences and Education
 
 - Panel Member, 2004-2008; report, [Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), 2008.
 
-#### Board on Life Sciences, Earth and Life Sciences
+---
+
+## Board on Life Sciences, Earth and Life Sciences
 
 - Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
 
-#### Division of Earth and Life Sciences
+---
+
+## Division of Earth and Life Sciences
 
 - Reviewer, [Preparing for Future Products of Biotchnology](http://www.nap.edu/catalog.php?record_id=24605), 2017.
 
-#### Board on Environmental Studies and Toxicology
+---
+
+## Board on Environmental Studies and Toxicology
 
 - Reviewer, [A Review of the Environmental Protection Agency's Science to Achieve Results Program](http://www.nap.edu/catalog.php?record_id=24757), 2017.
 
-### Main Publications
+---
+
+## Main Publications
 
 [ ](http://books.nap.edu/catalog.php?record_id=10119) [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) National Academy Press 212 pages, 2001.
 

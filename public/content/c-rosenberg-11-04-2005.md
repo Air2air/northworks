@@ -11,6 +11,7 @@ publication:
   publisher: ANG Preview Section
 title: Parting Words from S.F. Opera Director Pamela Rosenberg
 type: interview
+useFigures: true
 tags:
   - Opera
   - Barber

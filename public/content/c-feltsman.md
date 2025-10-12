@@ -9,6 +9,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Vladimir Feltsman
 type: interview
+useFigures: true
 tags:
   - Piano
   - Prokofiev

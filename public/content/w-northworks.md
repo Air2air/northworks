@@ -11,6 +11,7 @@ publication:
   publisher: Northworks
 title: NorthWorks Consulting
 type: company
+useFigures: true
 description: Risk analysis consulting firm specializing in decision analysis and environmental protection
 ---
 
@@ -72,9 +73,9 @@ From March 2006 to June 2012 Dr. North served on the Scientific and Technical Co
 
 He authored two chapters in the book _Global Risk Governance: Concepts and Practice Using the IRGC Framework_.
 
-He has served as review coordinator for IRGC Policy Briefs on [**Regulation of Carbon Capture and Storage**](http://www.irgc.org/img/pdf/policy_brief_ccs.pdf) and [**Risk Governance Guidelines for Bioenergy Policies**](http://www.irgc.org/img/pdf/irgc_pb_bioenergy_web-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, [**Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance**](http://www.irgc.org/img/pdf/srm_opinion_piece_web.pdf).
+He has served as review coordinator for IRGC Policy Briefs on [Regulation of Carbon Capture and Storage](http://www.irgc.org/img/pdf/policy_brief_ccs.pdf) and [Risk Governance Guidelines for Bioenergy Policies](http://www.irgc.org/img/pdf/irgc_pb_bioenergy_web-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, [Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance](http://www.irgc.org/img/pdf/srm_opinion_piece_web.pdf).
 
-In 2011 Dr. North led the development of a [Concept Note, **Improving the Management of Emerging Risks**](http://www.irgc.org/img/pdf/irgc_er2conceptnote_2011.pdf).
+In 2011 Dr. North led the development of a [Concept Note, **Improving the Management of Emerging Risks](http://www.irgc.org/img/pdf/irgc_er2conceptnote_2011.pdf).
 
 ## Other Professional Activities and Interests
 

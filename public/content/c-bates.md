@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Leon Bates
 type: interview
+useFigures: true
 tags:
   - Piano
   - Sergei Rachmaninoff

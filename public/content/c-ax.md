@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group
 title: Cheryl North Interviews Emanuel Ax about the Szymanowski *Symphony No. 4 for Piano and Orchestra
 type: article
+useFigures: true
 tags:
   - Piano
   - Orchestra

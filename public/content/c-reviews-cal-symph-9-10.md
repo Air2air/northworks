@@ -9,6 +9,7 @@ publication:
   publisher: Bay Area News Group
 title: California Symphony Opening Concert of the 2010-2011 Season
 type: review
+useFigures: true
 tags:
   - Orchestra
   - Copland

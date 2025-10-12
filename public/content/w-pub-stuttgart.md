@@ -6,6 +6,7 @@ publication:
   publisher: Northworks
 title: Global Climate Change - A Survey of the Science and Policy Implications
 type: publication
+useFigures: true
 tags:
   - Climate Change
   - Environmental Science
@@ -16,8 +17,6 @@ tags:
 ## Introduction
 
 It was a pleasure and privilege for Warner North to replace his Stanford University colleague Stephen Schneider on a few days' notice at the Stuttgart Conference. This written version of the material presented by Dr. North was prepared at the request of the conference organizers in the Ministerium fur Umwelt und Verkehr Baden-Wurttemberg. It combines Professor Schneider's visual aid materials prepared in advance for this conference with additional comments and references inserted by Professor North for the oral presentation at the conference. Because of space and graphics limitations in the printed Conference Summary, pictures and graphics used in the oral presentation are not included, but brief descriptions and references to websites are given in the text below.
-
----
 
 In the city of Stuttgart, a world-renowned center of automobile design and manufacturing, an American expert on energy and climate might appropriately open his presentation with the American "Hummer" H2 sport utility vehicle pictured in an advertisement, with a caption that this vehicle "does well at the (melting) Poles." This picture did indeed begin Professor Schneider's visual aid materials and Dr. North's presentation. It illustrates the concern for both recent scientific findings that polar ice is melting at an alarmingly rapid rate and the need for increased energy efficiency and reduced reliance on fossil fuels, policy issues for leaders in business and government in both of our countries.
 

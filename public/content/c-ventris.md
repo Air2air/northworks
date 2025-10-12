@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Christopher Ventris
 type: interview
+useFigures: true
 tags:
   - Wolfgang Amadeus Mozart
   - Richard Wagner

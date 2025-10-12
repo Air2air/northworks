@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group
 title: "Die Tote Stadt an S.F. Opera Stunner"
 type: review
+useFigures: true
 tags:
   - Opera
   - Gustav Mahler

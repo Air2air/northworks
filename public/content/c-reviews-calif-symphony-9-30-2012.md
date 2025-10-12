@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group
 title: California Symphony season opens with Robert Moody, the first of seven conductors auditioning for permanent post of music director
 type: review
+useFigures: true
 tags:
   - Orchestra
   - Sibelius

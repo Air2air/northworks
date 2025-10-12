@@ -12,6 +12,7 @@ publication:
   publisher: Oakland Tribune
 title: Selling the Audience Short
 type: review
+useFigures: true
 tags:
   - Giacomo Puccini
   - Johann Sebastian Bach

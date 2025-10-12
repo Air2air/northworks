@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Interview with Brent Assink, on the new "6.5" Format
 type: interview
+useFigures: true
 tags:
   - Concert
   - Symphony

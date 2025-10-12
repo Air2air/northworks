@@ -7,6 +7,7 @@ publication:
   publisher: Northworks
 title: Publications & Research Papers
 type: publication
+useFigures: true
 description: Publications list, papers, articles, and written works by D. Warner North on risk analysis and decision science.
 
 ---
@@ -29,7 +30,7 @@ Research Report, Stanford Research Institute, 1972 (subsequently used as a text 
 
 #### Assessment of the Probability of Contaminating Mars
 (with B.R. Judd and J.P. Pezier)
-[**Final Report**](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740018186.pdf) to NASA, Contract NASW-2535, Stanford Research Institute, 1974.
+[Final Report](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740018186.pdf) to NASA, Contract NASW-2535, Stanford Research Institute, 1974.
 
 #### New Methodology for Assessing the Probability of Contaminating Mars
 (with B.R. Judd and J.P. Pezier)
@@ -41,7 +42,7 @@ Research Report, Stanford Research Institute, 1972 (subsequently used as a text 
 
 #### A Methodology for Analyzing Emission Control Strategies
 (with M.W. Merkhofer)
-**Computers and Operations Research 3**, p. 185-207, 1976. This article summarizes Chapter 13 of the National Academy of Sciences report, [**Air Quality and Stationary Source Emission Control**](http://books.nap.edu/catalog/10840.html), 1975, which National Academy Press has now posted on its website.
+**Computers and Operations Research 3**, p. 185-207, 1976. This article summarizes Chapter 13 of the National Academy of Sciences report, [Air Quality and Stationary Source Emission Control](http://books.nap.edu/catalog/10840.html), 1975, which National Academy Press has now posted on its website.
 
 #### Decision Analysis of Program Choices in Magnetic Fusion Energy Development
 (with D.N. Stengel)
@@ -50,12 +51,12 @@ Research Report, Stanford Research Institute, 1972 (subsequently used as a text 
 #### Quantitative Analysis as a Basis for Decisions Under TSCA
 **TSCA's Impact on Society and Chemical Industry**, Washington D.C.: American Chemical Society 1983.
 
-[**Risk Assessment in the Federal Government: Managing the Process**](http://www.nap.edu/catalog/366.html), (with committee), Washington, D.C.: National Academy Press, 1983.
+[Risk Assessment in the Federal Government: Managing the Process](http://www.nap.edu/catalog/366.html), (with committee), Washington, D.C.: National Academy Press, 1983.
 
 
 
 
-[**Disposal of Chemical Munitions and Agents**](https://www.nap.edu/catalog/19361), (with committee), Washington, D.C.: National Academy Press, 1984.
+[Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), (with committee), Washington, D.C.: National Academy Press, 1984.
 
 
 
@@ -76,7 +77,7 @@ Review of EPA's Risk Assessment Research Program, letter report to the EPA Admin
 #### Analysis of Uncertainty and Reaching Broad Conclusions
 **Journal of the American College of Toxicology 7**, 1988.
 
-[**Improving Risk Communication**](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: National Academy Press, 1989.
+[Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: National Academy Press, 1989.
 
 
 
@@ -101,12 +102,12 @@ pp. 61-63, 129-133, August 21, 1990
 #### Conclusion: Challenges for the Future
 (summary of a conference on the health effects of gasoline) **Environmental Health Perspectives Supplements 101** (Suppl. 6), 209-212, 1993.
 
-[**Issues in Risk Assessment**](http://books.nap.edu/catalog/2078.html), (with committee), Washington, D.C.: National Academy Press, 1993.
+[Issues in Risk Assessment](http://books.nap.edu/catalog/2078.html), (with committee), Washington, D.C.: National Academy Press, 1993.
 
 
 
 
-[**Science and Judgment in Risk Assessment**](http://www.nap.edu/catalog/2125.html), (with committee), Washington, D.C.: National Academy Press, 1994.
+[Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html), (with committee), Washington, D.C.: National Academy Press, 1994.
 
 
 
@@ -126,7 +127,7 @@ pp. 85-91, June 29, 1995
 #### Limitations, Definitions, Principles, and Methods of Risk Analysis
 Risk Assessment for Veterinary Biologicals, special issue, Office International des Epizooties, **Scientific and Technical Review 14**, 913-923, 1995.
 
-[**Understanding Risk: Informing Decisions in a Democratic Society**](http://www.nap.edu/catalog/5138.html), (with committee), Washington, D.C.: National Academy Press, 1996.
+[Understanding Risk: Informing Decisions in a Democratic Society](http://www.nap.edu/catalog/5138.html), (with committee), Washington, D.C.: National Academy Press, 1996.
 
 
 
@@ -193,7 +194,7 @@ Book Review of
 #### Science at EPA: Information in the Regulatory Process
 by Mark R. Powell, **Risk Analysis 21**(2), 395-7, 2001.
 
-[**Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges**](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: National Academy Press, 2001.
+[Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: National Academy Press, 2001.
 
 
 
@@ -237,12 +238,12 @@ Chapter 4 of **Global Risk Governance: Concept and Practice Using the IRGC Frame
 #### Energy Security for the Baltic Region
 Chapter 12 of **Global Risk Governance: Concept and Practice Using the IRGC Framework**, Dordrecht, The Netherlands: Springer, 2008.
 
-Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [**Letter Report**](http://www.nap.edu/catalog.php?record_id=12208) from the National Research Council (with committee), April 29, 2008.
+Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [Letter Report](http://www.nap.edu/catalog.php?record_id=12208) from the National Research Council (with committee), April 29, 2008.
 
 
 
 
-[**Public Participation in Environmental Assessment and Decision Making**](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: National Academy Press, 2008.
+[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: National Academy Press, 2008.
 
 
 
@@ -298,7 +299,7 @@ Review of five books: Marc Gerstein, **Flirting with Disaster: Why Accidents Are
 (with Mitchell J. Small and 17 other co-authors)
 **Environmental Science and Technology 48**(15): 8289-8297, Special Issue on Shale Gas Development, August 5, 2014, Web Publication Date: July 1, 2014 (Feature) DOI: 10.1021/es502111u [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
 
-[**Health Product Risk Communication: Is the Message Getting Through?**](http://www.scienceadvice.ca/uploads/eng/assessmentspublicationsnewsreleases/risk/riskfullreporten.pdf) (with 10 Panel colleagues) Report of a Panel of the Council of Canadian Academies, June 2015.
+[Health Product Risk Communication: Is the Message Getting Through?](http://www.scienceadvice.ca/uploads/eng/assessmentspublicationsnewsreleases/risk/riskfullreporten.pdf) (with 10 Panel colleagues) Report of a Panel of the Council of Canadian Academies, June 2015.
 
 
 

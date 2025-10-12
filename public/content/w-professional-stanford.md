@@ -7,6 +7,7 @@ publication:
   publisher: Northworks
 title: Stanford University Experience
 type: professional
+useFigures: true
 tags:
   - Stanford
   - Environmental Studies

@@ -10,6 +10,7 @@ publication:
 title: Cheryl North Interviews George Cleve about his career and the Midsummer Mozart
   Festival
 type: interview
+useFigures: true
 tags:
   - Wolfgang Amadeus Mozart
   - Orchestra

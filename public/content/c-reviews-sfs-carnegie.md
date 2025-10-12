@@ -7,6 +7,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: San Francisco Symphony at Carnegie Hall
 type: review
+useFigures: true
 tags:
   - Carnegie Hall
   - Orchestra

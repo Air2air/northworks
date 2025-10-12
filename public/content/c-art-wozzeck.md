@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Preview Section
 title: Berg's *Wozzeck* is still powerful after 85 years
 type: article
+useFigures: true
 tags:
   - Alban Berg
   - Wozzeck

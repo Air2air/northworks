@@ -13,6 +13,7 @@ publication:
   publisher: Northworks
 title: Assessing Risks in Long-Term Planning - Probabilistic Scenario Analysis with Generalized Equilibrium Energy Models
 type: publication
+useFigures: true
 tags:
   - Stanford
   - Ives

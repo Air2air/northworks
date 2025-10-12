@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Voight's success not thinly veiled
 type: interview
+useFigures: true
 tags:
   - Opera
   - Maurice Ravel

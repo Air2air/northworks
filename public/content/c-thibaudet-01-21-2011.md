@@ -11,6 +11,7 @@ publication:
   publisher: Bay Area News Group
 title: Jean-Yves Thibaudet in Recital
 type: interview
+useFigures: true
 tags:
   - Franz Liszt
   - Piano

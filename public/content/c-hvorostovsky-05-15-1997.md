@@ -11,6 +11,7 @@ publication:
   publisher: Alameda Newspaper Group
 title: Dmitri Hvorostovsky - Voice of the Century?
 type: interview
+useFigures: true
 tags:
   - Voice
   - Rossini

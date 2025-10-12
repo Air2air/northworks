@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: More honors for the amazing Mikhail Baryshnikov
 type: interview
+useFigures: true
 tags:
   - Mikhail Baryshnikov
   - Ballet

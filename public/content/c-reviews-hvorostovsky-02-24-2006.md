@@ -10,6 +10,7 @@ publication:
   publisher: Oakland Tribune
 title: Another Example - Music is the International Language
 type: review
+useFigures: true
 tags:
   - Barbican Hall
   - Davies Hall

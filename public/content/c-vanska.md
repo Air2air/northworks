@@ -11,6 +11,7 @@ publication:
   publisher: Bay Area News Group
 title: Osmo Vanska to bring music from his native Finland to Davies Hall
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Sibelius

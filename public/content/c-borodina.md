@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column for Preview Section
 title: Cheryl North Interviews Olga Borodina
 type: interview
+useFigures: true
 tags:
   - Opera
   - Conservatory

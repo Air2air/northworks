@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Lise Lindstrom
 type: interview
+useFigures: true
 tags:
   - Opera
   - Richard Wagner

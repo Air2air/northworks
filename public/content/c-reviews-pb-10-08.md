@@ -8,6 +8,7 @@ publication:
   publisher: Oakland Tribune
 title: Philharmonia Baroque Revisits J. S. Bach
 type: review
+useFigures: true
 tags:
   - Johann Sebastian Bach
   - Orchestra

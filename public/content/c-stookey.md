@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Paul Stookey
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Violin

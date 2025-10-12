@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Susan Graham
 type: interview
+useFigures: true
 tags:
   - Berlioz
   - Maurice Ravel

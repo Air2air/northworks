@@ -6,6 +6,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Charles Dutoit about his career and the upcoming performance of Berlioz The Damnation of Faust
 type: interview
+useFigures: true
 tags:
   - Berlioz
   - Maurice Ravel

@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Lang Lang
 type: interview
+useFigures: true
 tags:
   - Piano
   - Prokofiev

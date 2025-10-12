@@ -10,6 +10,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Keith Cerny, newly named Director of the Dallas Opera
 type: interview
+useFigures: true
 tags:
   - Heggie
   - Opera

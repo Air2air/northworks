@@ -11,6 +11,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Russian Baritone Wholeheartedly Embraces his "Boccanegra" Role
 type: interview
+useFigures: true
 tags:
   - Giuseppe Verdi
   - Johann Sebastian Bach

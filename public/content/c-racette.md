@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Patricia Racette
 type: interview
+useFigures: true
 tags:
   - Giacomo Puccini
   - Opera

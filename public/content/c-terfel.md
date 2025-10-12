@@ -13,6 +13,7 @@ publication:
   publisher: ANG newspapers
 title: Cheryl North Interviews Bryn Terfel
 type: interview
+useFigures: true
 tags:
   - Opera
   - Richard Wagner

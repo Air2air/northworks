@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Composer Heggie keeps seeking higher ground
 type: article
+useFigures: true
 tags:
   - Jake Heggie
   - Composer

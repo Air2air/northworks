@@ -12,6 +12,7 @@ publication:
   publisher: ANG Newspapers
 title: Music Trains the Brain
 type: article
+useFigures: true
 tags:
   - Wolfgang Amadeus Mozart
   - Johann Sebastian Bach

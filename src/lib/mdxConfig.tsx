@@ -83,8 +83,15 @@ function extractFigureInfo(children: ReactNode): {
 /**
  * Create MDX components with access to frontmatter images for figure matching
  * This allows figure captions in markdown to be matched with images from frontmatter
+ * 
+ * @param frontmatterImages - Array of images from frontmatter
+ * @param useFigures - If true, match figure captions to images and render as Figure components
+ *                     If false, use legacy behavior (ImageGallery for images, styled captions)
  */
-export function createMdxComponents(frontmatterImages?: ContentImage[]): MDXRemoteProps['components'] {
+export function createMdxComponents(
+  frontmatterImages?: ContentImage[], 
+  useFigures: boolean = false
+): MDXRemoteProps['components'] {
   const images = frontmatterImages || [];
   const usedImages = new Set<string>();
 
@@ -143,12 +150,12 @@ export function createMdxComponents(frontmatterImages?: ContentImage[]): MDXRemo
     </h3>
   ),
   
-  // Paragraphs - with figure caption detection and image matching
+  // Paragraphs - with figure caption detection and conditional image matching
   p: ({ children, ...props }: ComponentProps<'p'>) => {
     const figureInfo = extractFigureInfo(children);
     
-    // If this is a figure caption, try to match it with an image
-    if (figureInfo.isFigure && figureInfo.figureNum) {
+    // If this is a figure caption and useFigures is enabled, try to match it with an image
+    if (figureInfo.isFigure && figureInfo.figureNum && useFigures) {
       const matchedImage = findImageForFigure(figureInfo.figureNum, images);
       
       // If we found a matching image and haven't used it yet, display it with the caption
@@ -168,6 +175,29 @@ export function createMdxComponents(frontmatterImages?: ContentImage[]): MDXRemo
       }
       
       // If no image found, still render the caption as a styled block
+      return (
+        <div className="my-6 p-4 bg-gray-50 border border-gray-200 rounded-lg">
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <span className="font-semibold">Figure {figureInfo.figureNum}.</span>
+            {' '}
+            {figureInfo.caption}
+          </p>
+          {figureInfo.href && (
+            <a 
+              href={figureInfo.href}
+              className="inline-block text-xs text-sky-600 hover:text-sky-800 underline mt-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click to view full size →
+            </a>
+          )}
+        </div>
+      );
+    }
+    
+    // Legacy behavior: just style the caption if useFigures is false
+    if (figureInfo.isFigure && !useFigures) {
       return (
         <div className="my-6 p-4 bg-gray-50 border border-gray-200 rounded-lg">
           <p className="text-sm text-gray-700 leading-relaxed">

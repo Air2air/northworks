@@ -9,6 +9,7 @@ publication:
   publisher: ANG Newspapers
 title: Dmitri Hvorostovsky's Slavic Soul Recital
 type: review
+useFigures: true
 tags:
   - Franz Liszt
   - Pyotr Ilyich Tchaikovsky

@@ -10,6 +10,7 @@ publication:
   publisher: Oakland Tribune, Bay Area News Group
 title: World Premiere of David Conte's One-Act Opera, America Tropical
 type: review
+useFigures: true
 tags:
   - Opera
   - Premiere

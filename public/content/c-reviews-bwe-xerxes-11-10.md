@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group
 title: Berkeley West Edge Opera's Performance of Handel's Xerxes
 type: review
+useFigures: true
 tags:
   - Handel
   - Opera

@@ -11,6 +11,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Victor Kissine at the world premiere of his composition, *Post-scriptum*, by the San Francisco Symphony
 type: interview
+useFigures: true
 tags:
   - Ives
   - San Francisco Symphony

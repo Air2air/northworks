@@ -9,6 +9,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews John Copley
 type: interview
+useFigures: true
 tags:
   - Handel
   - Opera

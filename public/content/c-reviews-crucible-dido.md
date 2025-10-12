@@ -11,6 +11,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Cheryl North Reviews The Crucible and Dido and Aeneas
 type: review
+useFigures: true
 tags:
   - Opera
   - Interpretation

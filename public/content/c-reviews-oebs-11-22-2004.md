@@ -12,6 +12,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Oakland East Bay Symphony's November Concert
 type: review
+useFigures: true
 tags:
   - Organ
   - Glass

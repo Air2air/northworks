@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Livermore Valley Opera's Il Barbiere di Siviglia
 type: review
+useFigures: true
 tags:
   - Barber
   - Rossini

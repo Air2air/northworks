@@ -9,6 +9,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Composer David Conte
 type: interview
+useFigures: true
 tags:
   - Conservatory
   - Opera

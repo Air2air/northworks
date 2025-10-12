@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Dimitri Kapelis
 type: interview
+useFigures: true
 tags:
   - Piano
   - Johann Sebastian Bach

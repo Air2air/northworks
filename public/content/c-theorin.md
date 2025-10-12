@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Iréne Theorin
 type: interview
+useFigures: true
 tags:
   - Richard Wagner
   - Giacomo Puccini

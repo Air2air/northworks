@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Different sort of 40s tunes from National Symphony
 type: article
+useFigures: true
 tags:
   - National Symphony Orchestra
   - Leonard Slatkin

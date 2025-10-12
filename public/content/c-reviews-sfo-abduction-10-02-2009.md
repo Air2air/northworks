@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group
 title: San Francisco Opera Performance of The Abduction from the Seraglio by Wolfgang Amadeus Mozart
 type: review
+useFigures: true
 tags:
   - Wolfgang Amadeus Mozart
   - San Francisco Opera

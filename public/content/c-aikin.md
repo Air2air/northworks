@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Super Mom, super Singer -- that's soprano Aikin
 type: interview
+useFigures: true
 tags:
   - Laura Aikin
   - Soprano

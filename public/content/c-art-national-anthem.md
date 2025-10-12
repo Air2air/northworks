@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers
 title: Thoughts on Our National Anthem
 type: article
+useFigures: true
 tags:
   - The Star-Spangled Banner
   - National Anthem

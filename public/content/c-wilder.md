@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Tappan Wilder on Our Town as an Opera
 type: interview
+useFigures: true
 tags:
   - Opera
   - Copland

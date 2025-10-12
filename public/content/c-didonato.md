@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: DiDonato dips into Latin repertoire to keep dazzle going
 type: interview
+useFigures: true
 tags:
   - Opera
   - Rossini

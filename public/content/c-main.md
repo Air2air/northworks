@@ -51,6 +51,7 @@ publication:
   date: 2010-10-19
 title: Cheryl North
 type: interview
+useFigures: true
 description: Noted classical music journalist for the Bay Area News Group and syndicated newspapers
 tags:
   - Piano

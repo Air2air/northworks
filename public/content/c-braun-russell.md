@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Russell Braun
 type: interview
+useFigures: true
 tags:
   - Opera
   - Piano

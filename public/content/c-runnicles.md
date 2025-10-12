@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Donald Runnicles
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Opera

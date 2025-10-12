@@ -14,6 +14,7 @@ publication:
   publisher: Northworks 
 title: Analysis of Risk of Supply Interruption to Lithuania from Disruption of Natural Gas Supply from Russia
 type: publication
+useFigures: true
 tags:
   - Stanford
   - Ives

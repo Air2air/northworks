@@ -9,6 +9,7 @@ publication:
   publisher: Bay Area News Group
 title: Berkeley Opera Performance of Don Giovanni
 type: review
+useFigures: true
 tags:
   - Berkeley Opera
   - Wolfgang Amadeus Mozart

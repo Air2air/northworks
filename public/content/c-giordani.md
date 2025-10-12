@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Marcello Giordani
 type: interview
+useFigures: true
 tags:
   - Cello
   - Voice

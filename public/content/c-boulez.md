@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Pierre Boulez
 type: interview
+useFigures: true
 tags:
   - Piano
   - Gustav Mahler

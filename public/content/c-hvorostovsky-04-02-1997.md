@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Dmitri Hvorostovsky
 type: interview
+useFigures: true
 tags:
   - Pyotr Ilyich Tchaikovsky
   - Strings

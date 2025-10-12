@@ -7,6 +7,7 @@ publication:
 title: Government Projects & Consulting
 description: Service on behalf of United States Federal and State governmental agencies.
 type: professional
+useFigures: true
 tags:
   - Carcinogenicity Risk Assessment Guidelines Review Group
   - EPA Science Advisory Board

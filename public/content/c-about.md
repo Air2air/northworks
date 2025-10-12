@@ -2,6 +2,7 @@
 id: c-about
 title: About Cheryl North
 type: bio
+useFigures: true
 description: Biography, education, and musical background of classical music journalist Cheryl North
 tags:
   - Biography

@@ -13,6 +13,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Impressions of Beethoven's Ninth Symphony Conducted by Valery Gergiev at the Gergiev Festival in Rotterdam, The Netherlands
 type: article
+useFigures: true
 tags:
   - Ludwig van Beethoven
   - Orchestra

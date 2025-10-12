@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Constantine Orbelian
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Concert

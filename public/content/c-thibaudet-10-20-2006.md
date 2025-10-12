@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers
 title: For Thibaudet, music is played in the key of life
 type: interview
+useFigures: true
 tags:
   - Piano
   - Glass

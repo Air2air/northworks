@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: James Conlon - Conductor trying to preserve musical legacy
 type: interview
+useFigures: true
 tags:
   - Symphony
   - Franz Liszt

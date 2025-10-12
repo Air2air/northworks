@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Paul Dresher
 type: interview
+useFigures: true
 tags:
   - Adams
   - Guitar

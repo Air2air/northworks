@@ -10,6 +10,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Masur, Gubaidulina make out-of-this-world music in Davies Hall
 type: review
+useFigures: true
 tags:
   - San Francisco Symphony
   - Davies Hall The

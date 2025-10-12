@@ -9,6 +9,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Cheryl North Interviews Chad Hoopes
 type: interview
+useFigures: true
 tags:
   - Violin
   - Orchestra

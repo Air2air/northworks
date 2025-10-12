@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Sarah Chang
 type: interview
+useFigures: true
 tags:
   - Violin
   - Concert

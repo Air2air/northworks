@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Richard Goode
 type: interview
+useFigures: true
 tags:
   - Ludwig van Beethoven
   - Johann Sebastian Bach

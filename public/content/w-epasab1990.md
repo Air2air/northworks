@@ -10,6 +10,7 @@ publication:
   publisher: Northworks
 title: EPA's Draft Reports to Congress on Global Warming - An Overview from 1990
 type: professional
+useFigures: true
 tags:
   - EPA
   - Climate Change

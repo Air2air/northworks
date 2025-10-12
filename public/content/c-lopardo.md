@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Frank Lopardo
 type: interview
+useFigures: true
 tags:
   - Opera
   - Voice

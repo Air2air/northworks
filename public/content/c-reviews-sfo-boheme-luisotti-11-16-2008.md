@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: San Francisco Opera's La Bohème with Nicola Luisotti Conducting
 type: review
+useFigures: true
 tags:
   - Giacomo Puccini
   - San Francisco Opera

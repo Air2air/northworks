@@ -54,6 +54,7 @@ publication:
   publisher: Northworks
 title: D. Warner North
 type: background
+useFigures: true
 description: "Principal Scientist, NorthWorks. Expertise: decision and risk analysis; applications to energy, environmental protection, and policy on nuclear waste."
 tags:
   - Stanford

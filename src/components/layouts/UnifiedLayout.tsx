@@ -176,16 +176,22 @@ function ContentDetailRenderer({
       {/* Content with inline images */}
       <div className="prose prose-lg max-w-none">
         {/* 
-          Note: Frontmatter images are no longer displayed here as ImageGallery.
-          Instead, they are matched to figure captions in the markdown content
+          Note: If useFigures is true, frontmatter images are matched to figure captions
           and rendered together using the Figure component.
+          Otherwise, images are displayed separately via ImageGallery.
         */}
+        {!frontmatter.useFigures && frontmatter.images && Array.isArray(frontmatter.images) && frontmatter.images.length > 0 && (
+          <ImageGallery images={frontmatter.images} inline={true} />
+        )}
         
         {content && content.length > 0 ? (
           <MDXRemote 
             source={content} 
             options={mdxOptions}
-            components={createMdxComponents(frontmatter.images)}
+            components={createMdxComponents(
+              frontmatter.images, 
+              frontmatter.useFigures || false
+            )}
           />
         ) : (
           <div className="bg-yellow-100 border border-yellow-300 p-4">

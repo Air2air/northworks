@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Peter Lieberson
 type: interview
+useFigures: true
 tags:
   - Viola
   - Voice

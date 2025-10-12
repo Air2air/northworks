@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: San Francisco Opera's Simon Boccanegra
 type: review
+useFigures: true
 tags:
   - Giuseppe Verdi
   - Opera

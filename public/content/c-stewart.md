@@ -9,6 +9,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Patrick Stewart
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Stravinsky

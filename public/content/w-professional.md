@@ -6,6 +6,7 @@ publication:
   publisher: Northworks
 title: Professional Experience & Projects
 type: professional
+useFigures: true
 description: Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.
 ---
 

@@ -9,6 +9,7 @@ publication:
   publisher: Cheryl North
 title: Oakland East Bay Symphony Performance, "A Night at the Opera"
 type: review
+useFigures: true
 tags:
   - Giuseppe Verdi
   - Orchestra

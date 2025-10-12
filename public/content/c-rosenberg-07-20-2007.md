@@ -11,6 +11,7 @@ publication:
   publisher: Oakland Tribune, Bay Area News Group
 title: Cheryl North Interviews Neil Rosenberg
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Opera

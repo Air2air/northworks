@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Mark Delavan
 type: interview
+useFigures: true
 tags:
   - Richard Wagner
   - Opera

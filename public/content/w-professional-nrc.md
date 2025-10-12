@@ -7,6 +7,7 @@ publication:
 title: National Research Council Experience
 description: Dr. North was designated as a National Associate of the National Research Council in 2003.
 type: professional
+useFigures: true
 ---
 
 Dr. North was designated as a [National Associate\*\*](http://www.nationalacademies.org/includes/nationalassociates.pdf) of the National Research Council in 2003. Such designation is for "extraordinary contributions" to the work of the National Research Council and the Institute of Medicine. A National Associate has the privilege of using the Members Library of the National Academies. Less than 1000 people have been so designated. There are about 6500 people who have been elected to membership and foreign affiliate status in the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. Some of these have also been designated as National Associates.

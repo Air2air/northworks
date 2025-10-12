@@ -8,6 +8,7 @@ publication:
   publisher: Contra Costa Times, Oakland Tribune
 title: Oakland East Bay Symphony Armenia Concert, Michael Morgan conducting
 type: review
+useFigures: true
 tags:
   - Organ
   - Violin

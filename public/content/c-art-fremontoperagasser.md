@@ -7,6 +7,7 @@ publication:
   publisher: "Bay Area News Media Preview Section/Inside Bay Area Classical Music"
 title: "Fremont Opera and Composer Nolan Gasser"
 type: article
+useFigures: true
 tags:
   - Fremont Opera
   - David Sloss
@@ -27,7 +28,7 @@ Says Sloss, "Once in a while, we are given a work in which both the music and th
 
 After hesitating a few seconds, he said, "Well, I can tell you what Rossini (who lived from 1792 to 1868) said about Wagner's operas: Rossini said that one could find some of opera's best moments and very worst quarter-hours in his operas. He also said that Wagner's *Lohengrin* couldn't be assessed with only one hearing — but that he personally, didn't want to ever hear it again."
 
-Sloss and his wife, Barbara, are the founders and prime movers of the year-old [**Fremont Opera**](http://www.fremontopera.org/). The fledgling company's second production, *The Barber of Seville*, will be performed in the Jackson Theatre of the Smith Center for the Performing Arts in Fremont next week.
+Sloss and his wife, Barbara, are the founders and prime movers of the year-old [Fremont Opera](http://www.fremontopera.org/). The fledgling company's second production, *The Barber of Seville*, will be performed in the Jackson Theatre of the Smith Center for the Performing Arts in Fremont next week.
 
 According to Sloss, the cast — led by Eugene Brancoveanu as Figaro the barber and Nikki Einfeld as Rosina, with Eleazar Rodriguez as Count Almaviva, Jason Budd as Dr. Bartolo, Kirk Eichelberger as Don Basilio and Elspeth Franks as Berta — is absolutely top-notch. Jonathon Field will be the stage director and Sloss will conduct.
 

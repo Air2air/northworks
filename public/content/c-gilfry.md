@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Rodney Gilfry
 type: interview
+useFigures: true
 tags:
   - Opera
   - The Magic Flute

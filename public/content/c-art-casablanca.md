@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Merola Opera World Premiere of Thomas Pasatieri's Opera, Hotel Casablanca
 type: article
+useFigures: true
 tags:
   - Opera
   - Carter

@@ -12,6 +12,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Stuttgart Reveals a New Way to Envision Tristan und Isolde
 type: review
+useFigures: true
 tags:
   - Opera
   - Richard Wagner

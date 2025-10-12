@@ -10,6 +10,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: Kurt Masur Conducting the San Francisco Symphony in Benjamin Britten's War Requiem
 type: review
+useFigures: true
 tags:
   - San Francisco Symphony
   - Orchestra

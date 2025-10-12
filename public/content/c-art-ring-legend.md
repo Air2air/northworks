@@ -7,6 +7,7 @@ publication:
   publisher: Bay Area News Preview Section
 title: Berkeley Opera Production of the Condensed Version of Wagner's Der Ring des Nibelungen
 type: article
+useFigures: true
 tags:
   - Berkeley Opera
   - Richard Wagner

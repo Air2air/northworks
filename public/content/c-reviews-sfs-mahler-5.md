@@ -7,6 +7,7 @@ publication:
   publisher: Oakland Tribune, Alameda Newspaper Group
 title: San Francisco Symphony's Mahler Symphony No. 5
 type: review
+useFigures: true
 tags:
   - Gustav Mahler
   - Symphony

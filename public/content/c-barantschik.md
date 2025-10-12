@@ -13,6 +13,7 @@ publication:
   publisher: San Francisco Examiner
 title: Cheryl North Interviews with Alexander Barantschik
 type: interview
+useFigures: true
 tags:
   - Alexander Barantschik
   - Violin

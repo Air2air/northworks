@@ -11,6 +11,7 @@ publication:
   publisher: ANG PREVIEW Section
 title: Cheryl North Interviews John Bayless
 type: interview
+useFigures: true
 tags:
   - Piano
   - Wolfgang Amadeus Mozart

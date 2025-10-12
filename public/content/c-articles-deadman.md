@@ -17,6 +17,7 @@ publication:
   publisher: Opera Now
 title: Dead Man Walking at San Francisco Opera
 type: article
+useFigures: true
 tags:
   - Dead Man Walking
   - Jake Heggie

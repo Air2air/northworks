@@ -7,6 +7,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Review of the Orchestre de Paris, Benefit Concert for the Mahler Library
 type: review
+useFigures: true
 tags:
   - Gustav Mahler
   - Stravinsky

@@ -8,6 +8,7 @@ publication:
   publisher: Bay Area News Group
 title: Oakland East Bay Symphony's Bernstein Mass
 type: review
+useFigures: true
 tags:
   - Bernstein
   - Organ

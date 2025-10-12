@@ -9,6 +9,7 @@ publication:
   publisher: Bay Area News Group
 title: Inventive 'Baby Doe' redefines riches at the Berkeley Opera
 type: review
+useFigures: true
 tags:
   - Berkeley Opera
   - Performance

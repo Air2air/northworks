@@ -13,6 +13,7 @@ publication:
   publisher: ANG Newspapers
 title: Snicket, Stookey responsible for symphonic murder
 type: interview
+useFigures: true
 tags:
   - Orchestra
   - Symphony

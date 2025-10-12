@@ -11,6 +11,7 @@ publication:
   publisher: ANG PREVIEW Section
 title: Joshua Bell
 type: interview
+useFigures: true
 tags:
   - Violin
   - Barber

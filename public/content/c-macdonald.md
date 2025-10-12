@@ -6,6 +6,7 @@ publication:
   publisher: Bay Area News Group Classical Music Column
 title: Audra McDonald prior to her performance with the San Francisco Symphony, April 26, 2010
 type: interview
+useFigures: true
 tags:
   - Voice
   - San Francisco Symphony

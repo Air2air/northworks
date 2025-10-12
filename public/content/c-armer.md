@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers
 title: Cheryl North Interviews Elinor Armer
 type: interview
+useFigures: true
 tags:
   - Elinor Armer
   - Composer

@@ -9,6 +9,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Ruxandra Donose
 type: interview
+useFigures: true
 tags:
   - Opera
   - Piano

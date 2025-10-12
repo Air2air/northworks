@@ -11,6 +11,7 @@ publication:
   publisher: ANG Newspapers Classical Music Column
 title: Cheryl North Interviews Jeremy Cohen
 type: interview
+useFigures: true
 tags:
   - Violin
   - Jazz

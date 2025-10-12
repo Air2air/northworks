@@ -11,6 +11,7 @@ publication:
   publisher: Bay Area News Group
 title: Cheryl North Interviews Branford Marsalis
 type: interview
+useFigures: true
 tags:
   - Johann Sebastian Bach
   - Orchestra

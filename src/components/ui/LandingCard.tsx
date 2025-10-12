@@ -150,10 +150,10 @@ export default function LandingCard({
           </div>
         )}
         
-        {/* Explore Button */}
+        {/* More Button */}
         <div className="mt-4">
           <div className="inline-flex items-center px-4 py-2 bg-sky-600 text-white text-base font-medium rounded-md transition-all duration-300 group-hover:bg-sky-700 group-hover:shadow-md">
-            <span>Explore</span>
+            <span>More</span>
             <svg 
               className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
               fill="none" 

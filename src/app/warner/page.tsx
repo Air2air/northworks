@@ -6,6 +6,8 @@ import LandingCard from "@/components/ui/LandingCard";
 import { getLandingPageNavigation } from "@/lib/unified-data";
 import { generateCollectionMetadata } from "@/lib/metadataUtils";
 import { getContentBySlug } from '@/lib/content';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import { createMdxComponents, mdxOptions } from '@/lib/mdxConfig';
 import { Metadata } from "next";
 
 export const metadata: Metadata = generateCollectionMetadata('warner');
@@ -31,6 +33,17 @@ export default function WarnerPage() {
         align="left"
         size="medium"
       />
+
+      {/* Main Content - render markdown body if exists */}
+      {content?.content && (
+        <div className="prose prose-lg max-w-4xl mx-auto mb-16">
+          <MDXRemote 
+            source={content.content}
+            options={mdxOptions}
+            components={createMdxComponents(content.frontmatter.images, content.frontmatter.useFigures)}
+          />
+        </div>
+      )}
 
       {/* Content Cards - Two Column Grid Layout */}
       <TwoColumnGrid 

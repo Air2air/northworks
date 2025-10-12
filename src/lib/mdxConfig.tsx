@@ -1,7 +1,8 @@
 import React from 'react';
 import type { MDXRemoteProps } from 'next-mdx-remote/rsc';
-import type { ComponentProps } from 'react';
+import type { ComponentProps, ReactNode } from 'react';
 import ImageGallery from '../components/ImageGallery';
+import Figure from '../components/Figure';
 
 // Shared MDX configuration for consistent rendering
 export const mdxOptions: MDXRemoteProps['options'] = {
@@ -10,6 +11,65 @@ export const mdxOptions: MDXRemoteProps['options'] = {
     rehypePlugins: [],
   },
 };
+
+/**
+ * Helper function to extract figure information from paragraph children
+ * Looks for pattern: **Figure X. Caption** [link text](url)
+ */
+function extractFigureInfo(children: ReactNode): { 
+  isFigure: boolean; 
+  caption?: string; 
+  href?: string; 
+  figureNum?: string;
+  fullCaption?: string;
+} {
+  if (!children) return { isFigure: false };
+  
+  // Convert children to string to check for pattern
+  let textContent = '';
+  let href: string | undefined;
+  
+  const childArray = React.Children.toArray(children);
+  
+  for (const child of childArray) {
+    if (typeof child === 'string') {
+      textContent += child;
+    } else if (typeof child === 'object' && child && 'props' in child) {
+      const element = child as { type?: unknown; props?: { children?: ReactNode; href?: string } };
+      
+      // Extract text from strong/bold elements
+      if (element.props?.children) {
+        const innerText = React.Children.toArray(element.props.children).join('');
+        textContent += innerText;
+      }
+      
+      // Extract href from links
+      if (element.type === 'a' && element.props?.href) {
+        const linkText = String(element.props.children || '').trim();
+        // Only capture "Click to enlarge" type links
+        if (linkText.includes('Click to enlarge') || linkText.includes('Figure')) {
+          href = element.props.href;
+        }
+      }
+    }
+  }
+  
+  // Check if this is a figure caption
+  const figureMatch = textContent.match(/^(?:\*\*)?Figure\s+(\d+[a-z]?)\.\s*(.+?)(?:\*\*)?/i);
+  if (!figureMatch) return { isFigure: false };
+  
+  const figureNum = figureMatch[1];
+  const captionText = figureMatch[2].replace(/\s*\[.*?\]\(.*?\)\s*/g, '').trim(); // Remove link text
+  const fullCaption = `Figure ${figureNum}. ${captionText}`;
+  
+  return { 
+    isFigure: true, 
+    caption: captionText, 
+    href, 
+    figureNum,
+    fullCaption
+  };
+}
 
 // Shared MDX components for consistent styling
 export const mdxComponents: MDXRemoteProps['components'] = {
@@ -67,12 +127,41 @@ export const mdxComponents: MDXRemoteProps['components'] = {
     </h3>
   ),
   
-  // Paragraphs
-  p: ({ children, ...props }: ComponentProps<'p'>) => (
-    <p {...props} className="mb-4 leading-relaxed text-gray-700">
-      {children}
-    </p>
-  ),
+  // Paragraphs - with figure caption detection
+  p: ({ children, ...props }: ComponentProps<'p'>) => {
+    const figureInfo = extractFigureInfo(children);
+    
+    // If this is a figure caption paragraph, style it as a caption block
+    if (figureInfo.isFigure) {
+      return (
+        <figure className="my-8 not-prose">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 space-y-2">
+            <figcaption className="text-sm text-gray-700 leading-relaxed">
+              <span className="font-semibold">Figure {figureInfo.figureNum}.</span>
+              {' '}
+              {figureInfo.caption}
+            </figcaption>
+            {figureInfo.href && (
+              <a 
+                href={figureInfo.href}
+                className="inline-block text-xs text-sky-600 hover:text-sky-800 underline transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click to view full size →
+              </a>
+            )}
+          </div>
+        </figure>
+      );
+    }
+    
+    return (
+      <p {...props} className="mb-4 leading-relaxed text-gray-700">
+        {children}
+      </p>
+    );
+  },
   
   // Lists
   ul: ({ children, ...props }: ComponentProps<'ul'>) => (

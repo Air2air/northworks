@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-12T17:21:46.057Z",
+  "htmlFiles": [
+    {
+      "htmlFile": "1990_SAB_Fig_1.htm",
+      "src": "/images/1990_sab_figure1.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 1 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "1990_SAB_Fig_2.htm",
+      "src": "/images/1990_sab_figure2.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 2 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "1990_SAB_Fig_3.htm",
+      "src": "/images/1990_sab_figure3.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 3 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "FELbalticgasmap.htm",
+      "src": "/images/legbalticgasmap.jpg",
+      "width": 182,
+      "height": 257,
+      "title": "Legend: Map pf Gas Pipelines in Baltic Region",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEbalticgascumd.htm",
+      "src": "/images/balticgascumd.gif",
+      "width": 680,
+      "height": 580,
+      "title": "Illustrative Cumulative Distribution for Influence Diagram",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEbalticgasinfdiag.htm",
+      "src": "/images/balticgasinfdiag.gif",
+      "width": 520,
+      "height": 390,
+      "title": "Influence Diagram for Risks of Gas Supply Interruption",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEbalticgasmap.htm",
+      "src": "/images/balticgasmap.jpg",
+      "width": 575,
+      "height": 472,
+      "title": "Map pf Gas Pipelines in Baltic Region",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEbalticgasparttree.htm",
+      "src": "/images/balticgasparttree.gif",
+      "width": 382,
+      "height": 480,
+      "title": "Partail Decision Tree for Influence Diagram",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FElithgen.htm",
+      "src": "/images/lithgen.gif",
+      "width": 683,
+      "height": 419,
+      "title": "Lithuania Projected Electricity Generation",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEpersiangulfinfd.htm",
+      "src": "/images/persiangulfinfd.png",
+      "width": 958,
+      "height": 568,
+      "title": "Persian Gulf 1970s Political Events Influence Diagram",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEpersiangulfinfkey.htm",
+      "src": "/images/persiangulfinfkey.png",
+      "width": 949,
+      "height": 1137,
+      "title": "Numerical Key, Persian Gulf 1970s Political Events Influence Diagram",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "FEsynfuelstree.htm",
+      "src": "/images/synfuelstree.jpg",
+      "width": 950,
+      "height": 633,
+      "title": "Synthetic Fuels Decision Tree",
+      "imageExists": true
+    },
+    {
+      "htmlFile": "dido.htm",
+      "src": "/images/dido_lg.jpg",
+      "width": 640,
+      "height": 487,
+      "title": "Dido and Aeneas Flyer",
+      "imageExists": false
+    }
+  ],
+  "markdownReferences": {
+    "w-epasab1990.md": [
+      "1990 sab fig 1.htm",
+      "1990 SAB Fig 1.htm",
+      "1990 sab fig 2.htm",
+      "1990 SAB Fig 2.htm",
+      "1990 sab fig 3.htm",
+      "1990 SAB Fig 3.htm"
+    ],
+    "w-pub-seif-iv.md": [
+      "felithgen.htm",
+      "febalticgasmap.htm",
+      "felbalticgasmap.htm",
+      "febalticgasinfdiag.htm",
+      "febalticgasparttree.htm",
+      "febalticgascumd.htm"
+    ],
+    "w-pub-vniigaz.md": [
+      "febalticgasinfdiag.htm",
+      "febalticgasparttree.htm",
+      "febalticgascumd.htm",
+      "fepersiangulfinfd.htm",
+      "fepersiangulfinfkey.htm",
+      "fesynfuelstree.htm"
+    ]
+  },
+  "missingImages": [
+    {
+      "htmlFile": "1990_SAB_Fig_1.htm",
+      "src": "/images/1990_sab_figure1.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 1 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "1990_SAB_Fig_2.htm",
+      "src": "/images/1990_sab_figure2.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 2 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "1990_SAB_Fig_3.htm",
+      "src": "/images/1990_sab_figure3.jpg",
+      "width": 667,
+      "height": 864,
+      "title": "Figure 3 from 1990 Paper on EPA Analysis",
+      "imageExists": false
+    },
+    {
+      "htmlFile": "dido.htm",
+      "src": "/images/dido_lg.jpg",
+      "width": 640,
+      "height": 487,
+      "title": "Dido and Aeneas Flyer",
+      "imageExists": false
+    }
+  ]
+}

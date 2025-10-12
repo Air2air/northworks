@@ -34,27 +34,36 @@ function extractFigureInfo(children: ReactNode): {
 } {
   if (!children) return { isFigure: false };
   
+  // Helper function to recursively extract text from React children
+  function extractText(node: ReactNode): string {
+    if (typeof node === 'string' || typeof node === 'number') {
+      return String(node);
+    }
+    if (Array.isArray(node)) {
+      return node.map(extractText).join('');
+    }
+    if (typeof node === 'object' && node && 'props' in node) {
+      const element = node as { props?: { children?: ReactNode } };
+      if (element.props?.children) {
+        return extractText(element.props.children);
+      }
+    }
+    return '';
+  }
+  
   // Convert children to string to check for pattern
-  let textContent = '';
+  let textContent = extractText(children);
   let href: string | undefined;
   
+  // Extract href from any links in the children
   const childArray = React.Children.toArray(children);
-  
   for (const child of childArray) {
-    if (typeof child === 'string') {
-      textContent += child;
-    } else if (typeof child === 'object' && child && 'props' in child) {
+    if (typeof child === 'object' && child && 'props' in child) {
       const element = child as { type?: unknown; props?: { children?: ReactNode; href?: string } };
-      
-      // Extract text from strong/bold elements
-      if (element.props?.children) {
-        const innerText = React.Children.toArray(element.props.children).join('');
-        textContent += innerText;
-      }
       
       // Extract href from links
       if (element.type === 'a' && element.props?.href) {
-        const linkText = String(element.props.children || '').trim();
+        const linkText = extractText(element.props.children);
         // Only capture "Click to enlarge" type links
         if (linkText.includes('Click to enlarge') || linkText.includes('Figure')) {
           href = element.props.href;
@@ -64,11 +73,17 @@ function extractFigureInfo(children: ReactNode): {
   }
   
   // Check if this is a figure caption
-  const figureMatch = textContent.match(/^(?:\*\*)?Figure\s+(\d+[a-z]?)\.\s*(.+?)(?:\*\*)?/i);
+  // Changed from non-greedy (.+?) to greedy (.+) to capture full caption text
+  const figureMatch = textContent.match(/^(?:\*\*)?Figure\s+(\d+[a-z]?)\.\s*(.+?)$/i);
   if (!figureMatch) return { isFigure: false };
   
   const figureNum = figureMatch[1];
-  const captionText = figureMatch[2].replace(/\s*\[.*?\]\(.*?\)\s*/g, '').trim(); // Remove link text
+  // Remove links, trailing asterisks, and extra whitespace from caption
+  const captionText = figureMatch[2]
+    .replace(/\s*\[.*?\]\(.*?\)\s*/g, '') // Remove markdown links
+    .replace(/\*\*+$/g, '') // Remove trailing **
+    .replace(/\s+/g, ' ') // Normalize whitespace
+    .trim();
   const fullCaption = `Figure ${figureNum}. ${captionText}`;
   
   return { 

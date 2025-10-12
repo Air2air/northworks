@@ -1,9 +1,15 @@
 ---
 id: w-epasab1990
-# images:
-#   - src: /images/1990-sab-figure1.jpg
-#   - src: /images/1990-sab-figure2.jpg
-#   - src: /images/1990-sab-figure3.jpg
+images:
+  - src: /images/1990_sab_figure1.jpg
+    width: 667
+    height: 864
+  - src: /images/1990_sab_figure2.jpg
+    width: 667
+    height: 864
+  - src: /images/1990_sab_figure3.jpg
+    width: 667
+    height: 864
 publication:
   author: D. Warner North
   # date: 1990-01-01
@@ -69,9 +75,15 @@ EPA's scenario approach permits examination of the relative contributions of the
 
 The population projections by region used by EPA for the SCW and RCW scenarios and their policy derivatives are shown in Figure 1. It is evident that in both scenarios the population increase occurs outside of the OECD countries (the United States, Canada, Western Europe, Australia, New Zealand, and Japan).
 
+**Figure 1. Population Growth Projected by World Region (2000-2100) for SCW and RCW Scenarios. Source: EPA** [Figure 1 - Click to enlarge](/articles/1990-sab-fig-1)
+
 Figure 2 shows the pattern of end-use fuel demand by region. The proportion of energy end use in the OECD countries decreases considerably over time, and the extent of energy end use saving from policy is much larger outside the OECD countries than within them. The rate of carbon dioxide emissions is driven primarily by the pattern of energy use in the non-OECD countries as the non-OECD countries develop and industrialize.
 
+**Figure 2. End-Use Fuel Demand by Region (2000-2100) Showing Policy and Non-Policy Cases. Source: EPA** [Figure 2 - Click to enlarge](/articles/1990-sab-fig-2)
+
 Figure 3 shows primary energy supply by type. In the non-policy cases, annual worldwide coal consumption expands from three to ten times the present level, while in the policy cases worldwide coal use stays approximately constant. To accomplish the necessary substitution for coal requires the creation of very large industries for the new energy technologies, such as biomass, photovoltaics and other solar, nuclear and conservation/increased energy efficiency.
+
+**Figure 3. Primary Energy Supply by Type (2000-2100) Comparing Policy and Non-Policy Scenarios. Source: EPA** [Figure 3 - Click to enlarge](/articles/1990-sab-fig-3)
 
 The two scenarios added by EPA respond to criticisms from the SAB review. First, EPA had not addressed the task assigned it by Congress to look at policies to stabilize atmospheric concentrations of greenhouse gases. The RCWR scenario does involve stabilization in the next century, but this scenario will be much more difficult and costly to implement than those in SCWP and RCWP.
 
@@ -112,9 +124,3 @@ EPA (1989) US Environmental Protection Agency, _The Potential Effects of Global 
 ### Notes
 
 The views in this paper draw heavily upon the reviews (Science Advisory Board, 1989a, 1989b) by the Science Advisory Board of the U.S. Environmental Protection Agency (EPA) of the draft versions of two reports to Congress (EPA, 1988, 1989). The author wishes to acknowledge that the analytical results cited here are the work of EPA staff and contractors, and to acknowledge the other members of the Global Climate Change Subcommittee for their efforts in preparing the Science Advisory Board Reviews of these draft reports. Where this paper differs from the views expressed in the SAB reviews, the author bears sole responsibility. This manuscript was written in December 1989 and revised in September 1990. It was submitted at that time for a special issue of _Energy Journal_ but not accepted for publication. The author was affiliated at that time with Decision Focus Incorporated, Los Altos, CA, and the Stanford Center for Risk Analysis, Stanford, CA The author served as chair for the Global Climate Change Subcommittee of the EPA Science Advisory Board.
-
----
-
-### Figures
-
-[ ](1990 sab fig 1.htm) [Figure 1: Population Growth Projected by World Region - Click to enlarge](/content/1990 SAB Fig 1.htm) [ ](1990 sab fig 2.htm) [Figure 2: End-Use Fuel Demand by Region - Click to enlarge](/content/1990 SAB Fig 2.htm) [ ](1990 sab fig 3.htm) [Figure 3: Primary Energy Supply by Type - Click to enlarge](/content/1990 SAB Fig 3.htm)

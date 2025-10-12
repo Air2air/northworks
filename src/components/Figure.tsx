@@ -19,39 +19,32 @@ export default function Figure({
   alt, 
   caption, 
   href,
-  width = 600,
-  height = 400 
+  width,
+  height 
 }: FigureProps) {
   const imageElement = (
-    <div className="relative overflow-hidden rounded-lg border border-gray-200 bg-gray-50">
-      <Image
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        className="w-full h-auto object-contain"
-        unoptimized={src.endsWith('.gif')}
-      />
-    </div>
+    <Image
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      className="w-full h-auto"
+    />
   );
 
   return (
-    <figure className="my-8 space-y-3">
+    <figure className="my-8 px-6 py-6 flex flex-col items-center space-y-4 bg-gray-100 rounded-lg">
       {href ? (
-        <a 
-          href={href} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="block hover:opacity-90 transition-opacity"
-        >
+        <a href={href} target="_blank" rel="noopener noreferrer" className="max-w-4xl">
           {imageElement}
         </a>
       ) : (
-        imageElement
+        <div className="max-w-4xl">
+          {imageElement}
+        </div>
       )}
-      
       {caption && (
-        <figcaption className="text-sm text-gray-600 leading-relaxed px-2">
+        <figcaption className="text-sm text-gray-600 leading-relaxed text-left max-w-4xl px-4">
           {caption}
         </figcaption>
       )}

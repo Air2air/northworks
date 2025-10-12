@@ -3,6 +3,7 @@ import type { MDXRemoteProps } from 'next-mdx-remote/rsc';
 import type { ComponentProps, ReactNode } from 'react';
 import ImageGallery from '../components/ImageGallery';
 import Figure from '../components/Figure';
+import { findImageForFigure } from './figureUtils';
 
 // Shared MDX configuration for consistent rendering
 export const mdxOptions: MDXRemoteProps['options'] = {
@@ -11,6 +12,14 @@ export const mdxOptions: MDXRemoteProps['options'] = {
     rehypePlugins: [],
   },
 };
+
+interface ContentImage {
+  src: string;
+  alt?: string;
+  width?: number;
+  height?: number;
+  caption?: string;
+}
 
 /**
  * Helper function to extract figure information from paragraph children
@@ -71,8 +80,15 @@ function extractFigureInfo(children: ReactNode): {
   };
 }
 
-// Shared MDX components for consistent styling
-export const mdxComponents: MDXRemoteProps['components'] = {
+/**
+ * Create MDX components with access to frontmatter images for figure matching
+ * This allows figure captions in markdown to be matched with images from frontmatter
+ */
+export function createMdxComponents(frontmatterImages?: ContentImage[]): MDXRemoteProps['components'] {
+  const images = frontmatterImages || [];
+  const usedImages = new Set<string>();
+
+  return {
   // Images - convert to ImageGallery for proper thumbnail display
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {
     if (!src || typeof src !== 'string') return null;
@@ -127,32 +143,49 @@ export const mdxComponents: MDXRemoteProps['components'] = {
     </h3>
   ),
   
-  // Paragraphs - with figure caption detection
+  // Paragraphs - with figure caption detection and image matching
   p: ({ children, ...props }: ComponentProps<'p'>) => {
     const figureInfo = extractFigureInfo(children);
     
-    // If this is a figure caption paragraph, style it as a caption block
-    if (figureInfo.isFigure) {
+    // If this is a figure caption, try to match it with an image
+    if (figureInfo.isFigure && figureInfo.figureNum) {
+      const matchedImage = findImageForFigure(figureInfo.figureNum, images);
+      
+      // If we found a matching image and haven't used it yet, display it with the caption
+      if (matchedImage && !usedImages.has(matchedImage.src)) {
+        usedImages.add(matchedImage.src);
+        
+        return (
+          <Figure
+            src={matchedImage.src}
+            alt={`Figure ${figureInfo.figureNum}`}
+            caption={figureInfo.fullCaption || figureInfo.caption}
+            href={figureInfo.href}
+            width={matchedImage.width || 700}
+            height={matchedImage.height || 500}
+          />
+        );
+      }
+      
+      // If no image found, still render the caption as a styled block
       return (
-        <figure className="my-8 not-prose">
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 space-y-2">
-            <figcaption className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-semibold">Figure {figureInfo.figureNum}.</span>
-              {' '}
-              {figureInfo.caption}
-            </figcaption>
-            {figureInfo.href && (
-              <a 
-                href={figureInfo.href}
-                className="inline-block text-xs text-sky-600 hover:text-sky-800 underline transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Click to view full size →
-              </a>
-            )}
-          </div>
-        </figure>
+        <div className="my-6 p-4 bg-gray-50 border border-gray-200 rounded-lg">
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <span className="font-semibold">Figure {figureInfo.figureNum}.</span>
+            {' '}
+            {figureInfo.caption}
+          </p>
+          {figureInfo.href && (
+            <a 
+              href={figureInfo.href}
+              className="inline-block text-xs text-sky-600 hover:text-sky-800 underline mt-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click to view full size →
+            </a>
+          )}
+        </div>
       );
     }
     
@@ -201,4 +234,8 @@ export const mdxComponents: MDXRemoteProps['components'] = {
       {children}
     </pre>
   ),
-};
+  };
+}
+
+// Default components without image matching (for backward compatibility)
+export const mdxComponents = createMdxComponents();

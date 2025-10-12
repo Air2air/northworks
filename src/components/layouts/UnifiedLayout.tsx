@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDXRemote } from 'next-mdx-remote/rsc';
-import { mdxOptions, mdxComponents } from '@/lib/mdxConfig';
+import { mdxOptions, createMdxComponents } from '@/lib/mdxConfig';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PageTitle from '@/components/ui/PageTitle';
 import UnifiedMetadata from '@/components/ui/UnifiedMetadata';
@@ -175,16 +175,17 @@ function ContentDetailRenderer({
 
       {/* Content with inline images */}
       <div className="prose prose-lg max-w-none">
-        {/* Frontmatter images - floated inline at top of content */}
-        {frontmatter.images && Array.isArray(frontmatter.images) && frontmatter.images.length > 0 && (
-          <ImageGallery images={frontmatter.images} inline={true} />
-        )}
+        {/* 
+          Note: Frontmatter images are no longer displayed here as ImageGallery.
+          Instead, they are matched to figure captions in the markdown content
+          and rendered together using the Figure component.
+        */}
         
         {content && content.length > 0 ? (
           <MDXRemote 
             source={content} 
             options={mdxOptions}
-            components={mdxComponents}
+            components={createMdxComponents(frontmatter.images)}
           />
         ) : (
           <div className="bg-yellow-100 border border-yellow-300 p-4">

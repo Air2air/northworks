@@ -7,7 +7,7 @@ images:
 publication:
   # date: 2019-01-01
   publisher: Northworks
-title: Professional Activities & Awards
+title: Education, Professional Activities & Awards
 type: background
 useFigures: true
 description: Background information, education, and biographical details about D. Warner North, expert in risk analysis and decision science.

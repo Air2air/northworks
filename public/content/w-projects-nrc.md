@@ -109,7 +109,8 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### Board on Life Sciences, Earth and Life Sciences
 
-- Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
+- Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010;  [Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
+
 
 ### National Research Council, The National Academies
 

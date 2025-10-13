@@ -271,7 +271,12 @@ Commentary, **Risk Analysis 30**(3):377-380, 2010.
 
 Comment on the Deepwater Horizon Oil Spill, **RISK Newsletter**, Third Quarter, 2010.
 
-Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University NEIDL, Three Letter Reports from the National Research Council (with committee), [Phase 1:](http://www.nap.edu/catalog.php?record_id=12902) April 20, 2010; [Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010; [Phase 3:](http://www.nap.edu/openbook.php?record_id=13310) December 6, 2011.
+Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University NEIDL, Three Letter Reports from the National Research Council (with committee);
+
+[Phase 1:](http://www.nap.edu/catalog.php?record_id=12902) April 20, 2010
+
+[Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010
+[Phase 3:](http://www.nap.edu/openbook.php?record_id=13310) December 6, 2011
 
 Review of book by B. John Garrick, Quantifying and Controlling Catastrophic Risks, **Risk Analysis 30**(10):1623-1625, 2010.
 

@@ -114,9 +114,7 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### National Research Council, The National Academies
 
-Dr. North is a member of the committee that has organized workshops in 2013 on risks and improving governance for shale gas development. See the [links to workshop materials](https://www.nationalacademies.org/our-work/risk-management-and-governance-issues-in-shale-gas-development-two-workshops). 
-
-Papers written by workshop attendees were published in a special issue of [Environmental Science &amp; Technology](https://pubs.acs.org/toc/esthag/48/15?ref=breadcrumb ) 2014, 48, 15, 8388-8396.
+Dr. North is a member of the committee that has organized workshops in 2013 on risks and improving governance for shale gas development. See the [links to workshop materials](https://www.nationalacademies.org/our-work/risk-management-and-governance-issues-in-shale-gas-development-two-workshops). Papers written by workshop attendees were published in a special issue of [Environmental Science &amp; Technology](https://pubs.acs.org/toc/esthag/48/15?ref=breadcrumb ) 2014.
 
 
 ### Division of Earth and Life Sciences

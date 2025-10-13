@@ -35,11 +35,14 @@ tags:
 
 ### Awards & Recognition
 
+
+a recipient of the Frank P. Ramsey Medal from the Decision Analysis Society in 1997 for lifetime contributions to the field of decision analysis, and the 1999 recipient of the Outstanding Risk Practitioner Award from the Society for Risk Analysis.
+
 **Outstanding Risk Practitioner Award**
 
 - From the Society for Risk Analysis, 1999
 
-**Frank P. Ramsey Medal**
+**[Frank P. Ramsey Medal](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Decision-Analysis-Society/Frank-P.-Ramsey-Medal)**
 
 - For outstanding career achievement, awarded in 1997 by the Decision Analysis Society of the Institute for Operations Research and the Management Sciences. The citation for this award recognized contributions to public sector applications of decision analysis, particularly those involving environmental protection.
 

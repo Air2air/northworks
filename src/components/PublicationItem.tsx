@@ -34,7 +34,7 @@ interface PublicationItemProps {
  *   href="/publications/understanding-risk"
  * />
  */
-export default function PublicationItem({
+function PublicationItem({
   thumbnail,
   alt,
   title,
@@ -51,36 +51,45 @@ export default function PublicationItem({
       ? `/${thumbnail}`
       : `/images/pubs/${thumbnail}`;
 
+  // Use a wrapper div to prevent MDX from wrapping in <p> tags
   const content = (
-    <div className="flex gap-4 items-start p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors my-4 not-prose">
-      {/* Thumbnail Image */}
-      <div className="flex-shrink-0">
-        <Image
-          src={imagePath}
-          alt={alt}
-          width={width}
-          height={height}
-          className="rounded shadow-sm"
-        />
-      </div>
+    <>
+      <div className="flex gap-4 items-start p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors my-4 not-prose">
+        {/* Thumbnail Image */}
+        <div className="flex-shrink-0">
+          <Image
+            src={imagePath}
+            alt={alt}
+            width={width}
+            height={height}
+            className="rounded shadow-sm"
+            style={{ 
+              height: `${height}px !important`, 
+              width: 'auto !important',
+              maxHeight: `${height}px`,
+              objectFit: 'contain'
+            }}
+          />
+        </div>
 
-      {/* Publication Details */}
-      <div className="flex-1 min-w-0">
-        <h4 className="text-base font-semibold text-gray-900 mb-1 leading-tight">
-          {title}
-        </h4>
-        {authors && (
-          <p className="text-sm text-gray-700 mb-1">
-            {authors}
-          </p>
-        )}
-        {details && (
-          <p className="text-sm text-gray-600">
-            {details}
-          </p>
-        )}
+        {/* Publication Details */}
+        <div className="flex-1 min-w-0">
+          <div className="text-base font-semibold text-gray-900 mb-1 leading-tight">
+            {title}
+          </div>
+          {authors && (
+            <div className="text-sm text-gray-700 mb-1">
+              {authors}
+            </div>
+          )}
+          {details && (
+            <div className="text-sm text-gray-600">
+              {details}
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 
   // If there's a link, wrap the entire content in an anchor tag
@@ -99,3 +108,7 @@ export default function PublicationItem({
 
   return content;
 }
+
+PublicationItem.displayName = 'PublicationItem';
+
+export default PublicationItem;

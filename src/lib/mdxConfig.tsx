@@ -241,6 +241,18 @@ export function createMdxComponents(
       );
     }
     
+    // Check if paragraph contains only React elements (components)
+    // If so, don't wrap in <p> to avoid nesting block elements in inline elements
+    const childArray = React.Children.toArray(children);
+    const hasOnlyComponents = childArray.length > 0 && childArray.every(child => {
+      // Check if child is a React element (component) rather than text
+      return typeof child === 'object' && child !== null && 'type' in child;
+    });
+    
+    if (hasOnlyComponents) {
+      return <>{children}</>;
+    }
+    
     return (
       <p {...props} className="mb-4 leading-relaxed text-gray-700">
         {children}

@@ -121,14 +121,57 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### Main Publications
 
-[ ](http://books.nap.edu/catalog.php?record_id=10119) [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) National Academy Press 212 pages, 2001.
 
-[ ](http://www.nap.edu/catalog.php?record_id=12434) [Public Particpation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434) National Academy Press 322 pages, 2008
+<PublicationItem
+  thumbnail="book-disposition.jpg"
+  alt="Disposition of High-Level Waste and Spent Nuclear Fuel book cover"
+  title="Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges"
+  details="National Academy Press, 212 pages, 2001"
+  href="http://books.nap.edu/catalog.php?record_id=10119"
+  height={100}
+/>
 
-[ ](http://www.nap.edu/catalog/5138.html) [Understanding Risk: Informing Decisions in a Democratic Society](http://www.nap.edu/catalog/5138.html) National Academy Press 249 pages, 1996
+<PublicationItem
+  thumbnail="public-participation-image.gif"
+  alt="Public Participation in Environmental Assessment and Decision Making book cover"
+  title="Public Participation in Environmental Assessment and Decision Making"
+  details="National Academy Press, 322 pages, 2008"
+  href="http://www.nap.edu/catalog.php?record_id=12434"
+  height={100}
+/>
 
-[ ](http://www.nap.edu/catalog/2125.html) [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html) National Academy Press 651 pages, 1994
+<PublicationItem
+  thumbnail="book-understanding.gif"
+  alt="Understanding Risk: Informing Decisions in a Democratic Society book cover"
+  title="Understanding Risk: Informing Decisions in a Democratic Society"
+  details="National Academy Press, 249 pages, 1996"
+  href="http://www.nap.edu/catalog/5138.html"
+  height={100}
+/>
 
-[ ](http://www.nap.edu/catalog/1189.html) [Improving Risk Communication](http://www.nap.edu/catalog/1189.html) National Academy Press 331 pages, 1989
+<PublicationItem
+  thumbnail="book-judgement.gif"
+  alt="Science and Judgment in Risk Assessment book cover"
+  title="Science and Judgment in Risk Assessment"
+  details="National Academy Press, 651 pages, 1994"
+  href="http://www.nap.edu/catalog/2125.html"
+  height={100}
+/>
 
-[ ](http://www.nap.edu/catalog/366.html) [Risk Assessment in the Federal Government: Managing the Process](http://www.nap.edu/catalog/366.html) National Academy Press 191 pages, 1983
+<PublicationItem
+  thumbnail="book-communication.gif"
+  alt="Improving Risk Communication book cover"
+  title="Improving Risk Communication"
+  details="National Academy Press, 331 pages, 1989"
+  href="http://www.nap.edu/catalog/1189.html"
+  height={100}
+/>
+
+<PublicationItem
+  thumbnail="book-government.gif"
+  alt="Risk Assessment in the Federal Government: Managing the Process book cover"
+  title="Risk Assessment in the Federal Government: Managing the Process"
+  details="National Academy Press, 191 pages, 1983"
+  href="http://www.nap.edu/catalog/366.html"
+  height={100}
+/>

@@ -4,13 +4,13 @@ import PageTitle from '@/components/ui/PageTitle';
 import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = generateMetadataFromContent('w-projects-nrc', {
+export const metadata: Metadata = generateMetadataFromContent('w-national-academies', {
   collection: 'warner',
   type: 'website'
 });
 
-export default function ProjectsNRCPage() {
-  const content = getContentBySlug('w-projects-nrc', true);
+export default function NationalAcademiesPage() {
+  const content = getContentBySlug('w-national-academies', true);
 
   if (!content) {
     return (
@@ -27,7 +27,7 @@ export default function ProjectsNRCPage() {
     <UnifiedLayout 
       frontmatter={content.frontmatter}
       content={content.content}
-      slug="w-projects-nrc"
+      slug="w-national-academies"
       contentType="company"
       breadcrumbConfig={{
         parentLabel: "D. Warner North",

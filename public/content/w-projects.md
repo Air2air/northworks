@@ -16,7 +16,7 @@ Dr. North's specialties are decision analysis; risk assessment and risk manageme
 
 Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
 
-### [The National Academies](/projects-nrc)
+### [The National Academies](/national-academies)
 
 The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine. Assignments for the National Research Council and the National Academies.
 

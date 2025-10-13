@@ -48,8 +48,8 @@ describe('linkResolver', () => {
     });
 
     test('resolves professional content (w- prefix)', () => {
-      expect(resolveContentLink('w-biography')).toBe('/professional/w-biography');
-      expect(resolveContentLink('w-professional-2020')).toBe('/professional/w-professional-2020');
+      expect(resolveContentLink('w-biography')).toBe('/projects/w-biography');
+      expect(resolveContentLink('w-professional-2020')).toBe('/projects/w-professional-2020');
     });
 
     test('resolves publication content (w-pub prefix)', () => {
@@ -74,7 +74,7 @@ describe('linkResolver', () => {
     });
 
     test('defaults w- prefix to professional when no specific pattern matches', () => {
-      expect(resolveContentLink('w-some-work')).toBe('/professional/w-some-work');
+      expect(resolveContentLink('w-some-work')).toBe('/projects/w-some-work');
     });
 
     test('handles edge case empty string', () => {

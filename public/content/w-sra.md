@@ -6,7 +6,6 @@ images:
     width: 150
     height: 200
     caption: Society for Risk Analysis
-
   - src: /images/kenneth_arrow.jpg
     alt: Dr. North with Professor Kenneth Arrow
     width: 640
@@ -14,7 +13,7 @@ images:
 publication:
   # date: 2003-02-01
   publisher: Northworks
-title: Society for Risk Analysisß
+title: Society for Risk Analysis
 type: company
 useFigures: true
 description: Risk analysis consulting firm specializing in decision analysis and environmental protection
@@ -22,7 +21,8 @@ description: Risk analysis consulting firm specializing in decision analysis and
 
 Dr. North is a past president (1991-92) of the International Society for Risk Analysis, a recipient of the Frank P. Ramsey Medal from the Decision Analysis Society in 1997 for lifetime contributions to the field of decision analysis, and the 1999 recipient of the Outstanding Risk Practitioner Award from the Society for Risk Analysis.
 
-**Figure 1. Dr. North with Stanford University Professor Kenneth Arrow, at the Society for Risk Analysis Annual Meeting in Baltimore, Maryland on December 7, 2009. Professor Arrow received SRA's Distinguished Achievement Award to add to his Nobel Prize in Economics. Dr. North introduced him for his plenary address.**
+
+<Figure src="/images/kenneth_arrow.jpg" alt="Dr. North speaking at Belgian Senate" width={342} height={512} caption="Dr. North with Stanford University Professor Kenneth Arrow, at the Society for Risk Analysis Annual Meeting in Baltimore, Maryland on December 7, 2009. Professor Arrow received SRA's Distinguished Achievement Award to add to his Nobel Prize in Economics. Dr. North introduced him for his plenary address." />
 
 In April 2008 Dr. North became the Area Editor for decision sciences for [Risk Analysis, an international journal](http://www.sra.org/journaleditors.php), published by the Society for Risk Analysis.
 

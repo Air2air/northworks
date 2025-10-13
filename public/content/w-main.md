@@ -28,7 +28,7 @@ navigation:
     url: /stanford-experience
     tags:
   background:
-    title: Education, Awards, Professional Activities
+    title: Professional Activities and Awards
     summary: ""
     url: /background
     tags:

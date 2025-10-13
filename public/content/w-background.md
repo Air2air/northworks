@@ -21,12 +21,6 @@ tags:
 
 ---
 
-## Management Experience
-
-- President, Decision Focus Incorporated (1979-1981, 1983-1984). Senior Vice President, other periods from 1977-1998.
-- Assistant Director, Decision Analysis (1975-1977) at Stanford Research Institute.
-- Supervisor or leader of over forty major DFI and SRI research projects.
-
 ## Education
 
 **Ph.D., Operations Research, Stanford University (1970)**
@@ -65,3 +59,9 @@ tags:
 **Society of Decision Professionals**
 
 **Sigma Xi, Phi Beta Kappa**
+
+---
+
+## Professional Seminars and Presentations
+
+- Over fifty seminars in decision analysis, risk assessment, capital expenditure analysis, and related subjects for analysts and executives in the United States, Europe, and Latin America. Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bodies.

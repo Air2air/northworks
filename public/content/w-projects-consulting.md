@@ -1,32 +1,14 @@
 ---
-id: w-professional
+id: w-projects-consulting
 images:
 publication:
   # date: 2000-01-25
   publisher: Northworks
-title: Professional Experience & Projects
+title: Consulting and Specific Projects
 type: company
 useFigures: true
 description: Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.
 ---
-
-Dr. North's specialties are decision analysis; risk assessment and risk management; research and development planning; public policy analysis; analysis of environmental issues; modeling of complex engineering, economic, and ecological systems.
-
-### [Government Service](/professional/w-professional-government)
-
-Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
-
-### [The National Academies](/professional/w-professional-nrc)
-
-The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine. Assignments for the National Research Council and the National Academies.
-
-### [Stanford University](/professional/w-professional-stanford)
-
-Teaching and university research.
-
----
-
-## Consulting Projects
 
 #### Charles River Associates
 
@@ -120,14 +102,6 @@ Teaching and university research.
 
 - Project leader for Market Oriented Program Planning Study (MOPPS), a major analytical support effort to assist a federal task force in assessing implications of the potential new twentieth century energy technologies and in recommending appropriate budgetary priorities to ERDA top management.
 
-#### Society for Risk Analysis
-
-- President, 1991-2.
-
-#### Society for Risk Analysis
-
-- Chair, Advisory Board, 1998-2000.
-
 #### Invitational Workshop on Ecological Risk Management
 
 - Sponsored by the Society of Environmental Toxicology and Chemistry (SETAC) Foundation for Environmental Education, Williamsburg, VA (1997).
@@ -184,8 +158,4 @@ Teaching and university research.
 
 - Analysis of nuclear power and electric capacity expansion decisions; development of electric utility capacity expansion model.
 
----
 
-## Professional Seminars and Presentations
-
-- Over fifty seminars in decision analysis, risk assessment, capital expenditure analysis, and related subjects for analysts and executives in the United States, Europe, and Latin America. Invited presentations, lectures, and testimony for a variety of professional societies, conferences, academic audiences, public utility commissions, Congressional committees, and other legislative bodies.

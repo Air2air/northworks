@@ -111,6 +111,9 @@ export function createMdxComponents(
   const usedImages = new Set<string>();
 
   return {
+  // Direct Figure component access for explicit <Figure> usage in MDX
+  Figure: (props: ComponentProps<typeof Figure>) => <Figure {...props} />,
+  
   // Images - convert to ImageGallery for proper thumbnail display
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {
     if (!src || typeof src !== 'string') return null;

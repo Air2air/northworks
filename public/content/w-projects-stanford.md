@@ -1,6 +1,6 @@
 ---
 conversion_date: 2025-08-13
-id: w-professional-stanford
+id: w-projects-stanford
 images:
 publication:
   # date: 2012-01-01

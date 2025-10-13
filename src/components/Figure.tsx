@@ -22,29 +22,33 @@ export default function Figure({
   width,
   height 
 }: FigureProps) {
+  // Fixed display width of 400px for all figures
+  const displayWidth = 400;
+  
   const imageElement = (
     <Image
       src={src}
       alt={alt}
-      width={width}
-      height={height}
-      className="w-full h-auto"
+      width={width || 640}
+      height={height || 480}
+      // className="mx-auto"
+      // style={{ width: '400px', height: 'auto', maxWidth: '100%' }}
     />
   );
 
   return (
-    <figure className="my-8 px-6 py-6 flex flex-col items-center space-y-4 bg-gray-100 rounded-lg">
+    <figure className="my-8 px-6 py-6 flex flex-col items-center space-y-4 bg-gray-100 rounded-lg not-prose w-full">
       {href ? (
-        <a href={href} target="_blank" rel="noopener noreferrer" className="max-w-4xl">
+        <a href={href} target="_blank" rel="noopener noreferrer" className="block">
           {imageElement}
         </a>
       ) : (
-        <div className="max-w-4xl">
+        <div className="block">
           {imageElement}
         </div>
       )}
       {caption && (
-        <figcaption className="text-sm text-gray-600 leading-relaxed text-left max-w-4xl px-4">
+        <figcaption className="text-sm text-gray-600 leading-relaxed text-left px-4 w-full">
           {caption}
         </figcaption>
       )}

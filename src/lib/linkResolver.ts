@@ -10,7 +10,7 @@ const contentTypeToRoute: Record<string, string> = {
   "article": "articles", 
   "review": "reviews",
   "background": "background",
-  "professional": "professional",
+  "professional": "projects",
   "publication": "publications",
 };
 
@@ -23,7 +23,7 @@ const contentTypePatterns: Record<string, string> = {
   
   // Warner's content patterns - specific patterns first
   "w-pub": "publication", // w-pub is publications
-  "w-professional": "professional", // w-professional is professional
+  "w-projects": "professional", // w-projects is professional
   "w-": "professional", // Most w- files are professional
 };
 

@@ -94,7 +94,7 @@ npm run build
 | "Add a new page" | 1. `CODEBASE_MAP.md`<br>2. Similar existing page<br>3. `UnifiedLayout.tsx` |
 | "Modify types" | 1. `src/types/index.ts`<br>2. `src/schemas/unified-content-schema.ts`<br>3. Related components |
 | "Content not showing" | 1. `src/lib/unified-data.ts`<br>2. `src/lib/content.ts`<br>3. The page component |
-| "Style changes" | 1. `src/lib/styleUtils.ts`<br>2. `src/app/globals.css`<br>3. Component in question |
+| "Style changes" | 1. `src/lib/styleUtils.ts`<br>2. `src/app/global.css`<br>3. Component in question |
 | "Search issues" | 1. `src/lib/search.ts`<br>2. `src/app/search/page.tsx` |
 
 ### Step 2: Use Grep to Find Related Code
@@ -471,7 +471,7 @@ export interface TypeName {
 ### Task: User Wants to "Change Styling"
 
 **Steps**:
-1. ✅ Check if it's a global change → edit `src/app/globals.css`
+1. ✅ Check if it's a global change → edit `src/app/global.css`
 2. ✅ Check if it's a component change → edit component's className
 3. ✅ Use Tailwind classes (NOT custom CSS)
 4. ✅ Use `styleUtils.ts` for dynamic classes

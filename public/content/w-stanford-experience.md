@@ -1,6 +1,6 @@
 ---
 conversion_date: 2025-08-13
-id: w-professional-stanford
+id: w-stanford-experience
 images:
 publication:
   # date: 2012-01-01
@@ -17,7 +17,10 @@ tags:
   - Public Policy Decisions
 ---
 
-## Department of Management Science and Engineering, School of Engineering
+## School of Engineering
+
+
+#### Department of Management Science and Engineering
 
 - Consulting Associate Professor (1976-1988)
 - Consulting Professor (1988-2009)

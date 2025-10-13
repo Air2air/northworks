@@ -151,7 +151,7 @@ export default function LandingCard({
         )}
         
         {/* More Button */}
-        <div className="mt-4">
+        <div className="mt-4 flex justify-end">
           <div className="inline-flex items-center px-4 py-2 bg-sky-600 text-white text-base font-medium rounded-md transition-all duration-300 group-hover:bg-sky-700 group-hover:shadow-md">
             <span>More</span>
             <svg 

@@ -1,5 +1,9 @@
 /**
  * Simple breadcrumb generation from frontmatter
+ * 
+ * SIMPLIFIED APPROACH:
+ * - Uses slug prefix (w-, c-) to determine collection instead of type field
+ * - Type field is now optional and only used for content classification/filtering
  */
 
 import { getContentBySlug } from './content';
@@ -8,6 +12,7 @@ import { BreadcrumbItem } from '@/types';
 
 /**
  * Generate breadcrumbs from any page slug
+ * Automatically determines collection from slug prefix
  */
 export function generateBreadcrumbsFromFrontmatter(slug: string): BreadcrumbItem[] {
   const content = getContentBySlug(slug, false);
@@ -16,29 +21,22 @@ export function generateBreadcrumbsFromFrontmatter(slug: string): BreadcrumbItem
   }
 
   const title = getPageTitle(content.frontmatter);
-  const type = content.frontmatter.type;
   
   const breadcrumbs: BreadcrumbItem[] = [
     { label: 'Home', href: '/', active: false }
   ];
 
-  // Add parent based on content type
-  const parentMap: Record<string, { path: string; label: string }> = {
-    'professional': { path: '/warner', label: 'D. Warner North' },
-    'publication': { path: '/warner', label: 'D. Warner North' },
-    'background': { path: '/warner', label: 'D. Warner North' },
-    'company': { path: '/warner', label: 'D. Warner North' },
-    'interview': { path: '/cheryl', label: 'Cheryl North' },
-    'article': { path: '/cheryl', label: 'Cheryl North' },
-    'review': { path: '/cheryl', label: 'Cheryl North' },
-    'bio': { path: '/cheryl', label: 'Cheryl North' }
-  };
-
-  const parent = parentMap[type];
-  if (parent) {
+  // Determine collection parent from slug prefix instead of type field
+  if (slug.startsWith('w-')) {
     breadcrumbs.push({
-      label: parent.label,
-      href: parent.path,
+      label: 'D. Warner North',
+      href: '/warner',
+      active: false
+    });
+  } else if (slug.startsWith('c-')) {
+    breadcrumbs.push({
+      label: 'Cheryl North',
+      href: '/cheryl',
       active: false
     });
   }

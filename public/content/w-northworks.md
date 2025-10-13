@@ -1,11 +1,5 @@
 ---
 id: w-northworks
-# images:
-#   - src: /images/warnersm.gif
-#     alt: Warner North Photo
-#     width: 150
-#     height: 200
-#     caption: D. Warner North, President and Principal Scientist
 publication:
   # date: 2003-02-01
   publisher: Northworks
@@ -15,23 +9,17 @@ useFigures: true
 description: Risk analysis consulting firm specializing in decision analysis and environmental protection
 ---
 
-D. Warner North is principal scientist of NorthWorks, a consulting firm located in San Francisco, California. Until 2009 he served as a consulting professor in the Department of Management Science and Engineering at Stanford University.
+D. Warner North is principal scientist of NorthWorks, a consulting firm located in San Francisco, California. Until 2009 he served as a consulting professor in the Department of Management Science and Engineering at Stanford University. Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection.
 
-Over the past fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection.
+He has served as a member and consultant to the Science Advisory Board of the US Environmental Protection Agency since 1978, and as a Presidentially appointed member of the US Nuclear Waste Technical Review Board (1989-1994).
 
-Dr. North has served as a member and consultant to the Science Advisory Board of the US Environmental Protection Agency since 1978, and as a Presidentially appointed member of the US Nuclear Waste Technical Review Board (1989-1994).
+He is a co-author of many reports dealing with environmental risk for the National Research Council of the National Academy of Sciences, including Risk Assessment in the Federal Government: Managing the Process (1983), Improving Risk Communication (1989), Science and Judgment in Risk Assessment (1994), Understanding Risk: Informing Decisions in a Democratic Society (1996), and Public Participation in Environmental Assessment and Decision Making (2008).
 
-Dr. North is a co-author of many reports dealing with environmental risk for the National Research Council of the National Academy of Sciences, including _Risk Assessment in the Federal Government: Managing the Process_ (1983), _Improving Risk Communication_ (1989), _Science and Judgment in Risk Assessment_ (1994), _Understanding Risk: Informing Decisions in a Democratic Society_ (1996), and _Public Participation in Environmental Assessment and Decision Making_ (2008).
+He was a member of the Board on Radioactive Waste Management of the National Research Council from 1995 until 1999. He was the chair for the steering and advisory committees for the International Workshop on the Disposition of High-Level Radioactive Waste, held November 4-5, 1999, and leading to the report, Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges, published in June 2001.
 
-Dr. North was a member of the Board on Radioactive Waste Management of the National Research Council from 1995 until 1999. He was the chair for the steering and advisory committees for the International Workshop on the Disposition of High-Level Radioactive Waste, held November 4-5, 1999, and leading to the report, _Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges,_ published in June 2001.
-
-Dr. North is a past president (1991-92) of the international Society for Risk Analysis, a recipient of the Frank P. Ramsey Medal from the Decision Analysis Society in 1997 for lifetime contributions to the field of decision analysis, and the 1999 recipient of the Outstanding Risk Practitioner Award from the Society for Risk Analysis.
+He is a past president (1991-92) of the International Society for Risk Analysis, a recipient of the Frank P. Ramsey Medal from the Decision Analysis Society in 1997 for lifetime contributions to the field of decision analysis, and the 1999 recipient of the Outstanding Risk Practitioner Award from the Society for Risk Analysis.
 
 Dr. North received his Ph.D. in operations research from Stanford University and his B.S. in physics from Yale University.
-
-Dr. North with Stanford University Professor Kenneth Arrow, at the Society for Risk Analysis Annual Meeting in Baltimore, Maryland on December 7, 2009. Professor Arrow received SRA's Distinguished Achievement Award to add to his Nobel Prize in Economics. Dr. North introduced him for his plenary address.
-
-Dr. North speaking at the podium of the Belgian Senate. Behind him is Senate President Anne-Marie Lizin, presiding. Photo taken April 18, 2006 at a Conference of the Organization for Security and Cooperation in Europe (OSCE), which in that year had Belgian presidency.
 
 ## Sustainable Fuel Cycle Task Force
 
@@ -45,23 +33,9 @@ The Science Panel has sent letters, most recently to Secretary of Energy Wright 
 
 Warner North testified before the House Subcommittee on Environment and the Economy, Feb 1, 2012 on the Blue Ribbon Commission's Final Report to the Secretary of Energy.
 
-A perspective article based on this testimony was published in _Risk Analysis_ January 2013: "Can Sisyphus Succeed? Getting U.S. High-Level Nuclear Waste into a Geological Repository," _Risk Analysis_ **33**(1):2-14, 2013.
+A perspective article based on this testimony was published in Risk Analysis January 2013: "Can Sisyphus Succeed? Getting U.S. High-Level Nuclear Waste into a Geological Repository," Risk Analysis **33**(1):2-14, 2013.
 
 Warner North was an invited participant at the meeting of the Disposal Subcommittee of the Commission in Washington, D.C. on September 1, 2010. This presentation to the Blue Ribbon Commission was as an individual invited by the Commission, and not connected with his activities with the Sustainable Fuel Cycle Task Force Science Panel. Similarly, his testimony to the House Subcommittee on February 1, 2012 was as an individual invited by the Subcommittee.
-
-## Society for Risk Analysis
-
-In April 2008 Dr. North became the Area Editor for decision sciences for [_Risk Analysis_, an international journal](http://www.sra.org/journal_editors.php), published by the Society for Risk Analysis.
-
-Dr. North organized and wrote the introduction for a [special issue published September 2016 on health risk analysis for criteria air pollutants](http://onlinelibrary.wiley.com/doi/10.1111/risa.2016.36.issue-9/issuetoc).
-
-He has written an introductory commentary for a survey article on risk from space weather. Both the article and the introduction are in press for the February 2017 issue.
-
-His book review of five more books of interest to the risk analysis community was published in the February 2014 issue of _Risk Analysis_: Marc Gerstein, _Flirting with Disaster: Why Accidents Are Rarely Accidental_, Nancy G. Leveson, _Engineering a Safer World: Systems Thinking Applied to Safety_, Nate Silver, _The Signal and the Noise: Why So Many Predictions Fail but Some Don't_, Nassim Nicholas Taleb, _Antifragile: Things that Gain from Disorder_, James Owen Weatherall, _The Physics of Wall Street: A Brief History of Predicting the Unpredictable_. (At the Society for Risk Analysis Annual Meeting in December 2014, Dr. North was given an award as "best book reviewer.")
-
-The July 2012 issue of _Risk Analysis_ features a profile of Nobel Laureate Daniel Kahneman. Dr. North's review of Professor Kahneman's book, _Thinking, Fast and Slow_ (plus two other related books on risk from the viewpoint of cognitive psychology) is in this issue.
-
-Dr. North's comments on the Deepwater Horizon oil spill appear in the SRA [RISK Newsletter, 3rd Quarter 2010](http://www.sra.org/newsletter/risk.v30.n3.pdf), page 6, as part of a series of comments by SRA past presidents.
 
 ## National Research Council, The National Academies
 
@@ -71,23 +45,19 @@ Dr. North is a member of the committee that has organized workshops in 2013 on r
 
 From March 2006 to June 2012 Dr. North served on the Scientific and Technical Council of the [International Risk Governance Council](http://www.irgc.org/).
 
-He authored two chapters in the book _Global Risk Governance: Concepts and Practice Using the IRGC Framework_.
+He authored two chapters in the book Global Risk Governance: Concepts and Practice Using the IRGC Framework.
 
-He has served as review coordinator for IRGC Policy Briefs on [Regulation of Carbon Capture and Storage](http://www.irgc.org/img/pdf/policy_brief_ccs.pdf) and [Risk Governance Guidelines for Bioenergy Policies](http://www.irgc.org/img/pdf/irgc_pb_bioenergy_web-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, [Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance](http://www.irgc.org/img/pdf/srm_opinion_piece_web.pdf).
+He has served as review coordinator for IRGC Policy Briefs on [Regulation of Carbon Capture and Storage](http://www.irgc.org/img/pdf/policybriefccs.pdf) and [Risk Governance Guidelines for Bioenergy Policies](http://www.irgc.org/img/pdf/irgcpbbioenergyweb-2.pdf), and the Opinion Piece for IRGC by M. Granger Morgan and Katharine Ricke, [Cooling the Earth Through Solar Radiation Management: The need for research and an approach to its governance](http://www.irgc.org/img/pdf/srmopinionpieceweb.pdf).
 
-In 2011 Dr. North led the development of a [Concept Note, **Improving the Management of Emerging Risks](http://www.irgc.org/img/pdf/irgc_er2conceptnote_2011.pdf).
+In 2011 Dr. North led the development of a [Concept Note, \*\*Improving the Management of Emerging Risks](http://www.irgc.org/img/pdf/irgcer2conceptnote2011.pdf).
 
 ## Other Professional Activities and Interests
 
 ### Risk from Toxic Substances: NS3, Symposia Presentations
 
-Dr. North served as a member of the planning committee and speaker for the [Naphthalene State of the Science Symposium](http://www.naphthalenesymposium.org/index.asp) October 8-12, 2006 in Monterey, California. The proceedings of this symposium were published in 2008 in a supplementary volume of _Regulatory Toxicology and Pharmacology_.
+Dr. North served as a member of the planning committee and speaker for the [Naphthalene State of the Science Symposium](http://www.naphthalenesymposium.org/index.asp) October 8-12, 2006 in Monterey, California. The proceedings of this symposium were published in 2008 in a supplementary volume of Regulatory Toxicology and Pharmacology.
 
 Dr. North gave the "State of the Science" paper on decision analysis, multicriteria decision analysis, and cost-benefit analysis at the Contemporary Concepts in Toxicology (CCT) Workshop on Probabilistic Risk Assessment, "Bridging Components Along the Exposure-Dose-Response Continuum," sponsored by the Society of Toxicology, Washington, D.C., July 25-27, 2005.
-
-### SRA Symposium, 2006
-
-Dr. North participated in a Public Forum May 23-24, 2006 at the Cafritz Conference Center at George Washington University in Washington D.C., organized by the Society for Risk Analysis (SRA), on the Risk Assessment Bulletin giving guidance for Federal Agency practice on risk assessment, proposed by the Office of Management.
 
 ### Energy Security, especially in the Baltic Region
 
@@ -99,7 +69,7 @@ Dr. North participated in this one-day Workshop, in Vilnius, Lithuania on Octobe
 
 ### OSCE, 2006
 
-Dr. North gave an invited presentation, "Energy Security in the Baltic Region: Issues Motivating Improvement in International Cooperation on Risk Governance" as part of a Conference, _Security and Risk Management in Europe_, of the [Organization for Security and Cooperation in Europe (OSCE)](http://www.osce.org) in association with the [International Risk Governance Council (IRGC)](http://www.irgc.org/), in the Senate of the Kingdom of Belgium, Brussels, April 18-19, 2006.
+Dr. North gave an invited presentation, "Energy Security in the Baltic Region: Issues Motivating Improvement in International Cooperation on Risk Governance" as part of a Conference, Security and Risk Management in Europe, of the [Organization for Security and Cooperation in Europe (OSCE)](http://www.osce.org) in association with the [International Risk Governance Council (IRGC)](http://www.irgc.org/), in the Senate of the Kingdom of Belgium, Brussels, April 18-19, 2006.
 
 ### Russia, 2006
 

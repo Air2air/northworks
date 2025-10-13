@@ -35,8 +35,8 @@ export const CONTENT_TYPE_CONFIG = {
     defaultCollection: 'warner' as CollectionType
   },
   professional: {
-    routePath: '/professional',
-    routeLabel: 'Professional Experience',
+    routePath: '/projects',
+    routeLabel: 'Projects & Professional Experience',
     defaultCollection: 'warner' as CollectionType
   },
   publication: {

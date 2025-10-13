@@ -339,7 +339,7 @@ special 40th anniversary issue, **Risk Analysis 40**: S1, 2178-2190. November 20
 
 ## Global Climate Change
 
-Two papers are included here, one an [unpublished manuscript](/professional/w-epasab1990) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](/publications/w-pub-stuttgart) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
+Two papers are included here, one an [unpublished manuscript](/projects/w-epasab1990) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](/publications/w-pub-stuttgart) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
 
 ## Featured Books
 

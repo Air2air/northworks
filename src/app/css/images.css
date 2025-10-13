@@ -1,0 +1,37 @@
+/* Inline image standardization - responsive sizing */
+.prose img,
+.markdown-content img,
+.content img,
+article.prose img,
+article.markdown-content img,
+article.content img {
+  /* width: 200px !important; */
+  height: auto !important;
+  /* max-width: 200px !important; */
+  object-fit: contain;
+}
+
+/* Larger screens: 280px width */
+@media (min-width: 640px) {
+  .prose img,
+  .markdown-content img,
+  .content img,
+  article.prose img,
+  article.markdown-content img,
+  article.content img {
+    /* width: 280px !important;
+    max-width: 280px !important; */
+  }
+}
+
+/* Exception for images in galleries or cards that should maintain their layout */
+.gallery img,
+.card img,
+.thumbnail img,
+.image-gallery img,
+.unified-card img,
+.overflow-thumbnail {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+}

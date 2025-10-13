@@ -36,7 +36,7 @@ export default function WarnerPage() {
 
       {/* Main Content - render markdown body if exists */}
       {content?.content && (
-        <div className="prose prose-lg max-w-4xl mx-auto mb-16">
+        <div className="prose prose-lg max-w-6xl mx-auto mb-16">
           <MDXRemote 
             source={content.content}
             options={mdxOptions}

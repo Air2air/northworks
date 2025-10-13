@@ -85,7 +85,7 @@ northworks/
 src/app/
 ├── layout.tsx                    # Root layout (wraps all pages)
 ├── page.tsx                      # Homepage (/)
-├── globals.css                   # Global styles
+├── global.css                   # Global styles
 │
 ├── [Collections] - Main content sections
 ├── cheryl/
@@ -446,12 +446,12 @@ npm run test:coverage   # With coverage
 - **Framework**: Tailwind CSS v4
 - **Typography**: `@tailwindcss/typography` for content
 - **Utilities**: `src/lib/styleUtils.ts` for class generation
-- **Global**: `src/app/globals.css`
+- **Global**: `src/app/global.css`
 
 **Style Patterns:**
 - Use Tailwind classes inline
 - Use `styleUtils.ts` for dynamic classes
-- Avoid custom CSS files (except globals.css)
+- Avoid custom CSS files (except global.css)
 
 ---
 

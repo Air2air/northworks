@@ -1,0 +1,197 @@
+
+
+main a:not(.no-underline),
+.prose a:not(.no-underline),
+.content a:not(.no-underline),
+.markdown-content a:not(.no-underline),
+article a:not(.no-underline) {
+  color: #0284c7; /* sky-600 */
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+main a:not(.no-underline):hover,
+.prose a:not(.no-underline):hover,
+.content a:not(.no-underline):hover,
+.markdown-content a:not(.no-underline):hover,
+article a:not(.no-underline):hover {
+  color: #075985; /* sky-800 */
+}
+
+main a:not(.no-underline):visited,
+.prose a:not(.no-underline):visited,
+.content a:not(.no-underline):visited,
+.markdown-content a:not(.no-underline):visited,
+article a:not(.no-underline):visited {
+  color: #0284c7; /* sky-600 - keep same as unvisited */
+}
+
+/* Fix paragraph spacing for content areas */
+.prose {
+  max-width: none;
+  line-height: 1.7;
+  color: var(--foreground);
+}
+
+.prose p {
+  margin-bottom: 1.25em;
+  line-height: 1.75;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.prose h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.5rem;
+}
+
+.prose ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+  display: list-item;
+}
+
+/* Fix spacing for paragraphs within list items */
+.prose li p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Add small spacing between consecutive list item paragraphs if they exist */
+.prose li p + p {
+  margin-top: 0.5em;
+}
+
+.prose blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.prose p:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+/* Global paragraph spacing for content areas */
+.content-area p:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+.content-area p {
+  line-height: 1.75;
+}
+
+/* General paragraph spacing for all content */
+article p,
+.markdown-content p,
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+article p:last-child,
+.markdown-content p:last-child,
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Custom utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.text-metadata {
+  font-size: 0.75rem;
+  color: #0ea5e9;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.text-metadata-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.text-title-primary {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.text-title-secondary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.text-body-muted {
+  color: #4b5563;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.text-accent {
+  color: #0284c7;
+}
+
+.text-accent:hover {
+  color: #075985;
+}
+
+.text-accent-hover:hover {
+  color: #075985;
+  text-decoration: underline;
+}

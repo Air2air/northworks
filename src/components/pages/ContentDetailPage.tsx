@@ -15,7 +15,7 @@ const BACK_LINK_CONFIG = {
   review: { label: "← Back to Reviews", href: "/reviews" },
   interview: { label: "← Back to Interviews", href: "/interviews" },
   publication: { label: "← Back to Publications", href: "/publications" },
-  professional: { label: "← Back to Professional Experience", href: "/professional" },
+  professional: { label: "← Back to Projects", href: "/projects" },
   background: { label: "← Back to Background", href: "/background" }
 } as const;
 

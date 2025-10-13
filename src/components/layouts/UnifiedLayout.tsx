@@ -38,8 +38,9 @@ export default function UnifiedLayout({
   collection = "global"
 }: UnifiedLayoutProps) {
   
-  // Determine if this is a content detail page
-  const isContentDetail = !!(frontmatter && content && slug && contentType && breadcrumbConfig);
+  // SIMPLIFIED: breadcrumbConfig is now optional
+  // Determine if this is a content detail page (breadcrumbConfig no longer required)
+  const isContentDetail = !!(frontmatter && content && slug && contentType);
   
   // Generate breadcrumbs for content detail pages
   const generateContentBreadcrumbs = (): BreadcrumbItem[] => {
@@ -47,25 +48,49 @@ export default function UnifiedLayout({
       { label: 'Home', href: '/', active: false }
     ];
     
-    if (breadcrumbConfig!.grandParentPath && breadcrumbConfig!.grandParentLabel) {
+    // If breadcrumbConfig provided, use it for custom breadcrumb hierarchy
+    if (breadcrumbConfig) {
+      if (breadcrumbConfig.grandParentPath && breadcrumbConfig.grandParentLabel) {
+        breadcrumbs.push({
+          label: breadcrumbConfig.grandParentLabel,
+          href: breadcrumbConfig.grandParentPath,
+          active: false,
+        });
+      }
+      
       breadcrumbs.push({
-        label: breadcrumbConfig!.grandParentLabel,
-        href: breadcrumbConfig!.grandParentPath,
+        label: breadcrumbConfig.parentLabel,
+        href: breadcrumbConfig.parentPath,
         active: false,
       });
+      
+      breadcrumbs.push({
+        label: cleanTitle(frontmatter.title),
+        href: `${breadcrumbConfig.parentPath}/${slug}`,
+        active: true,
+      });
+    } else {
+      // Auto-generate from slug prefix (simplified approach)
+      if (slug?.startsWith('w-')) {
+        breadcrumbs.push({
+          label: 'D. Warner North',
+          href: '/warner',
+          active: false
+        });
+      } else if (slug?.startsWith('c-')) {
+        breadcrumbs.push({
+          label: 'Cheryl North',
+          href: '/cheryl',
+          active: false
+        });
+      }
+      
+      breadcrumbs.push({
+        label: cleanTitle(frontmatter.title),
+        href: `/${slug}`,
+        active: true,
+      });
     }
-    
-    breadcrumbs.push({
-      label: breadcrumbConfig!.parentLabel,
-      href: breadcrumbConfig!.parentPath,
-      active: false,
-    });
-    
-    breadcrumbs.push({
-      label: cleanTitle(frontmatter.title),
-      href: `${breadcrumbConfig!.parentPath}/${slug}`,
-      active: true,
-    });
     
     return breadcrumbs;
   };

@@ -310,8 +310,6 @@ by Michael Greenberg, Bernard D. Goldstein, Elizabeth Anderson, Michael Dourson,
 Review of five books: Alex Epstein, **The Moral Case for Fossil Fuels**, Kenneth P. Green, **Abundant Energy: The Fuel of Human Flourishing**, William Nordhaus, **The Climate Casino: Risk, Uncertainty, and Economics for a Warming World**, Gernot Wagner and Martin Weitzman, **Climate Shock: The Economic Consequences of a Hotter Planet**, Dale Jamieson, **Reason in a Dark Time: Why the Struggle Against Climate Change Failed - and What It Means to Our Future**, **Risk Analysis 35**(12):2221-2227, 2015
 
 
-
-
 #### Introduction to Special Issue on Air Pollution Risks
 by D. Warner North, **Risk Analysis 36**(9)1688-1692, 2016.
 
@@ -322,9 +320,6 @@ Chapter 41, **Handbook on Uncertainty Quantification**, Springer International P
 **Risk Analysis 37**(2), 203-204, 2017.
 
 Mega-Review: Causality Books. Louis Anthony Cox, Jr., **Causal Analytics for Applied Risk Analysis**, Judea Pearl and Dana MacKenzie, **The Book of Why: The New Science of Cause and Effect**, Judea Pearl, **Causality: Models, Reasoning, and Inference**, **Risk Analysis 37**(7):1647-1654, 2019.
-
-
-
 
 Commentary, on
 
@@ -337,29 +332,94 @@ by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner
 #### Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience
 special 40th anniversary issue, **Risk Analysis 40**: S1, 2178-2190. November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
 
+
+
+#### [Nourishing the Human Holobiont to Reduce the Risk of Non-Communicable Diseases: A Cow’s Milk Evidence Map Example](https://www.researchgate.net/publication/357454095_Nourishing_the_Human_Holobiont_to_Reduce_the_Risk_of_Non-Communicable_Diseases_A_Cow's_Milk_Evidence_Map_Example)
+Applied Microbiology
+December 2021
+
+
+#### [Enhancing Human Superorganism Ecosystem Resilience by Holistically ‘Managing Our Microbes’](https://www.researchgate.net/publication/355924268_Enhancing_Human_Superorganism_Ecosystem_Resilience_by_Holistically_'Managing_Our_Microbes')
+October 2021
+Applied Microbiology
+
+#### [Examining Evidence of Benefits and Risks for Pasteurizing Donor Breastmilk](https://www.researchgate.net/publication/354900811_Examining_Evidence_of_Benefits_and_Risks_for_Pasteurizing_Donor_Breastmilk)
+Applied Microbiology
+September 2021
+
 ## Global Climate Change
 
 Two papers are included here, one an [unpublished manuscript](/projects/w-epasab1990) prepared in 1990 based on the EPA Science Advisory Board review of two reports being prepared at that time by EPA for the U.S. Congress, and the other a [publication co-authored with S.H. Schneider](/publications/w-pub-stuttgart) for the proceedings of a conference in October, 2004 in Stuttgart, Germany. The interested reader is invited to compare the two papers. See also the 2015 Review of five books for **Risk Analysis** listed above.
 
 ## Featured Books
 
-#### [Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434)
-National Research Council, National Academy Press. 322 pages, 2008
+<PublicationItem
+  thumbnail="public-participation-image.gif"
+  alt="Public Participation in Environmental Assessment and Decision Making book cover"
+  title="Public Participation in Environmental Assessment and Decision Making"
+  details="National Academy Press, 322 pages, 2008"
+  href="http://www.nap.edu/catalog.php?record_id=12434"
+  height={100}
+/>
 
-#### [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119)
-National Research Council, National Academy Press. 212 pages, 2001.
+<PublicationItem
+  thumbnail="book-disposition.jpg"
+  alt="Disposition of High-Level Waste and Spent Nuclear Fuel book cover"
+  title="Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges"
+  details="National Academy Press, 212 pages, 2001"
+  href="http://books.nap.edu/catalog.php?record_id=10119"
+  height={100}
+/>
 
-#### [Human and Ecological Risk Assessment: Theory and Practice](http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720)
-Dennis J. Paustenbach, Editor. Hardcover, 1200 pages. Publisher: John Wiley & Sons; ISBN: 0471147478
+<PublicationItem
+  thumbnail="book-assessment.jpeg"
+  alt="Human and Ecological Risk Assessment: Theory and Practice"
+  title="Human and Ecological Risk Assessment: Theory and Practice"
+  details="Dennis J. Paustenbach, Editor. Hardcover, 1200 pages. Publisher: John Wiley & Sons; ISBN: 0471147478"
+  href="http://www.amazon.com/exec/obidos/asin/0471147478/qid=1025645026/sr=1-1/ref=sr_1_1/104-6008309-9092720"
+  height={100}
+/>
 
-#### [Understanding Risk: Informing Decisions in a Democratic Society](http://www.nap.edu/catalog/5138.html)
-National Research Council, 1996
+<PublicationItem
+  thumbnail="book-understanding.gif"
+  alt="Understanding Risk: Informing Decisions in a Democratic Society book cover"
+  title="Understanding Risk: Informing Decisions in a Democratic Society"
+  details="National Academy Press, 249 pages, 1996"
+  href="http://www.nap.edu/catalog/5138.html"
+  height={100}
+/>
 
-#### [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html)
-National Research Council, 1994
+<PublicationItem
+  thumbnail="book-judgement.gif"
+  alt="Science and Judgment in Risk Assessment book cover"
+  title="Science and Judgment in Risk Assessment"
+  details="National Academy Press, 651 pages, 1994"
+  href="http://www.nap.edu/catalog/2125.html"
+  height={100}
+/>
 
-#### [Improving Risk Communication](http://www.nap.edu/catalog/1189.html)
-National Research Council, 1989
+<PublicationItem
+  thumbnail="book-communication.gif"
+  alt="Improving Risk Communication book cover"
+  title="Improving Risk Communication"
+  details="National Academy Press, 331 pages, 1989"
+  href="http://www.nap.edu/catalog/1189.html"
+  height={100}
+/>
 
-#### [Risk Assessment in the Federal Government: Managing the Process](http://books.nap.edu/catalog.php?record_id=366)
-National Research Council, 1983
+<PublicationItem
+  thumbnail="book-government.gif"
+  alt="Risk Assessment in the Federal Government: Managing the Process book cover"
+  title="Risk Assessment in the Federal Government: Managing the Process"
+  details="National Academy Press, 191 pages, 1983"
+  href="http://www.nap.edu/catalog/366.html"
+  height={100}
+/>
+
+
+
+
+
+
+
+

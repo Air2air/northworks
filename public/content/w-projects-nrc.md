@@ -4,13 +4,13 @@ id: w-projects-nrc
 publication:
   # date: 2003-01-01
   publisher: Northworks
-title: National Academies 
+title: National Academies
 description: Assignments for the National Research Council and other parts of the National Academies
 type: professional
 useFigures: true
 ---
 
-Dr. North was designated as a National Associate of the National Research Council in 2003. Such designation is for "extraordinary contributions" to the work of the National Research Council and the Institute of Medicine. At the time Dr. North was honored with this designation, less than 1000 people had been so designated. There are about 6500 people who have been elected to membership and foreign affiliate status in the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. Some of these have also been designated as National Associates.
+Dr. North was designated as a National Associate of the National Research Council in 2003. Such designation is for "extraordinary contributions" to the work of the National Research Council, which historically has published most reports for the National Academies. At the time Dr. North was honored with this designation, less than 1000 people had been so designated. There are about 6500 people who have been elected to membership and foreign affiliate status in the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. Some of these have also been designated as National Associates.
 
 Assignments for the National Research Council and other parts of the National Academies (partial list):
 
@@ -111,11 +111,9 @@ Assignments for the National Research Council and other parts of the National Ac
 
 - Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; > Phase 2, November 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
 
-
 ### National Research Council, The National Academies
 
 Dr. North is a member of the committee that has organized workshops in 2013 on risks and improving governance for shale gas development. See the [links to workshop materials](https://www.nationalacademies.org/our-work/risk-management-and-governance-issues-in-shale-gas-development-two-workshops).
-
 
 ### Division of Earth and Life Sciences
 
@@ -125,16 +123,9 @@ Dr. North is a member of the committee that has organized workshops in 2013 on r
 
 - Reviewer, [A Review of the Environmental Protection Agency's Science to Achieve Results Program](http://www.nap.edu/catalog.php?record_id=24757), 2017.
 
-
-
-
-
-
-
 ---
 
 ### Main Publications
-
 
 <PublicationItem
   thumbnail="book-disposition.jpg"

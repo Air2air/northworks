@@ -8,22 +8,22 @@ navigation:
     url: /northworks
     tags:
   projects-consulting:
-    title: "Consulting and Specific Projects"
+    title: "Consulting Projects"
     summary: ""
     url: /projects-consulting
     tags:
   projects-government:
-    title: "Government Consulting Projects"
+    title: "Government Service"
     summary: "Service on behalf of United States Federal and State governmental agencies."
     url: /projects-government
     tags:
   projects-nrc:
-    title: "National Academies Projects"
+    title: "National Academies"
     summary: "Assignments for the National Research Council and other parts of the National Academies"
     url: /projects-nrc
     tags:
   stanford-experience:
-    title: "Stanford University Experience"
+    title: "Stanford University"
     summary: ""
     url: /stanford-experience
     tags:

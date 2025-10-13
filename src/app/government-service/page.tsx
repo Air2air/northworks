@@ -4,13 +4,13 @@ import PageTitle from '@/components/ui/PageTitle';
 import { generateMetadataFromContent } from '@/lib/metadataUtils';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = generateMetadataFromContent('w-projects-government', {
+export const metadata: Metadata = generateMetadataFromContent('w-government-service', {
   collection: 'warner',
   type: 'website'
 });
 
-export default function ProjectsGovernmentPage() {
-  const content = getContentBySlug('w-projects-government', true);
+export default function GovernmentServicePage() {
+  const content = getContentBySlug('w-government-service', true);
 
   if (!content) {
     return (
@@ -27,7 +27,7 @@ export default function ProjectsGovernmentPage() {
     <UnifiedLayout 
       frontmatter={content.frontmatter}
       content={content.content}
-      slug="w-projects-government"
+      slug="w-government-service"
       contentType="company"
       breadcrumbConfig={{
         parentLabel: "D. Warner North",

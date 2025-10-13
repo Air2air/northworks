@@ -5,7 +5,7 @@ images:
 publication:
   # date: 2012-01-01
   publisher: Northworks
-title: Stanford University Experience
+title: Stanford University
 type: professional
 useFigures: true
 tags:

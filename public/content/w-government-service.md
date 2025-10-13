@@ -1,10 +1,10 @@
 ---
-id: w-projects-government
+id: w-government-service
 images:
 publication:
   # date: 2005-05-01
   publisher: Northworks
-title: Government Projects & Consulting
+title: Government Service
 description: Service on behalf of United States Federal and State governmental agencies.
 type: professional
 useFigures: true
@@ -90,6 +90,5 @@ tags:
 
 ### State of California
 
-- Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)
-- Co-Chair, Risk Assessment Subpanel (1987-1989)
+- Member, Scientific Advisory Panel, Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65); Co-Chair, Risk Assessment Subpanel (1987-1989)
 - Member, Independent Science Board, California Bay-Delta Authority (February-May, 2005)

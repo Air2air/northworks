@@ -12,10 +12,10 @@ navigation:
     summary: ""
     url: /projects-consulting
     tags:
-  projects-government:
+  government-service:
     title: "Government Service"
     summary: "Service on behalf of United States Federal and State governmental agencies."
-    url: /projects-government
+    url: /government-service
     tags:
   projects-nrc:
     title: "National Academies"
@@ -27,10 +27,10 @@ navigation:
     summary: ""
     url: /stanford-experience
     tags:
-  background:
+  professional-activities:
     title: Professional Activities and Awards
     summary: ""
-    url: /background
+    url: /professional-activities
     tags:
   sra:
     title: "Society for Risk Analysis"

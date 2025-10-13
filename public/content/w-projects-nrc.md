@@ -4,24 +4,24 @@ id: w-projects-nrc
 publication:
   # date: 2003-01-01
   publisher: Northworks
-title: National Research Council 
+title: National Academies 
 description: Assignments for the National Research Council and other parts of the National Academies
 type: professional
 useFigures: true
 ---
 
-Dr. North was designated as a [National Associate](http://www.nationalacademies.org/includes/nationalassociates.pdf) of the National Research Council in 2003. Such designation is for "extraordinary contributions" to the work of the National Research Council and the Institute of Medicine. A National Associate has the privilege of using the Members Library of the National Academies. Less than 1000 people have been so designated. There are about 6500 people who have been elected to membership and foreign affiliate status in the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. Some of these have also been designated as National Associates.
+Dr. North was designated as a National Associate of the National Research Council in 2003. Such designation is for "extraordinary contributions" to the work of the National Research Council and the Institute of Medicine. A National Associate has the privilege of using the Members Library of the National Academies. Less than 1000 people have been so designated. There are about 6500 people who have been elected to membership and foreign affiliate status in the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine. Some of these have also been designated as National Associates.
 
 Assignments for the National Research Council and other parts of the National Academies (partial list):
 
 ### Commission on Natural Resources
 
-- Consultant to Committee, 1972-1974, for analysis in Chapter 9 of report, [ AIr Quality and Stationary Source Emission Controls\*](http://books.nap.edu/catalog/10840.html), published by U.S. Government Printing Office for the Senate Committee on Public Works, March 1975
+- Consultant to Committee, 1972-1974, for analysis in Chapter 9 of report, [ Air Quality and Stationary Source Emission Controls](http://books.nap.edu/catalog/10840.html), published by U.S. Government Printing Office for the Senate Committee on Public Works, March 1975
 
 ### Commission on Life Sciences
 
 - Member, Committee on the Institutional Means for Assessment of Risks to Public Health, 1981-1983
-- Report, [Risk Assessment in the Federal Government: Managing the Process](http://books.nap.edu/catalog.php?record_id=366) published in 1983.
+- [Risk Assessment in the Federal Government: Managing the Process](http://books.nap.edu/catalog.php?record_id=366) report published in 1983.
 
 ### Committee on Health and Ecological Effects of Synfuels Industries
 
@@ -29,7 +29,7 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### Committee on Demilitarizing Chemical Munitions and Agents
 
-- Member and Assistant Chairman, Stockpile Assessment Panel, l983-1984,[ Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), 1984.
+- Member and Assistant Chairman, Stockpile Assessment Panel, 1983-1984,[ Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), 1984.
 
 ### Board on Radioactive Waste Management
 
@@ -38,26 +38,26 @@ Assignments for the National Research Council and other parts of the National Ac
 ### Commission of Behavioral and Social Sciences and Education Commission on Physical Sciences, Mathematics, and Resources
 
 - Member, Committee on Risk Perception and Communication, 1987-1989
-- Report, [Improving Risk Communication\*](http://www.nap.edu/catalog.php?record_id=1189) published in 1989.
+- [Improving Risk Communication](http://www.nap.edu/catalog.php?record_id=1189) report published in 1989.
 
 ### Board on Environmental Studies and Toxicology
 
 - Member, Committee on Risk Assessment Methodology, 1989-1992
-- Report, [Issues in Risk Assessment](http://books.nap.edu/catalog.php?record_id=2078)published in 1993.
+- [Issues in Risk Assessment](http://books.nap.edu/catalog.php?record_id=2078) report published in 1993.
 
 ### Board on Environmental Studies and Toxicology
 
 - Member, Committee on Risk Assessment of Hazardous Air Pollutants, 1991-1994
-- Report, [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html) published in 1994.
+- [Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html) report published in 1994.
 
 ### Commission on Behavioral and Social Sciences and Education
 
 - Member, Committee on Risk Characterization; 1994-1996
-- Report, [Understanding Risk: Informing Decisons in a Democratic Society](http://www.nap.edu/catalog/5138.html) published in 1996
+- [Understanding Risk: Informing Decisons in a Democratic Society](http://www.nap.edu/catalog/5138.html) report published in 1996
 
 ### Board on Radioactive Waste Management
 
-- Member, 1995 - 1999
+- Member, 1995 - 1999 [National Research Council of the National Academy of Sciences](/projects-nrc), 1999
 - Member of Working Group that prepared the report,[ Technologies for Environmental Management: The Department of Energy's Office of Science and Technology](http://books.nap.edu/catalog.php?record_id=9656), published in 1999.
 
 ### Transportation Research Board
@@ -72,7 +72,7 @@ Assignments for the National Research Council and other parts of the National Ac
 ### Board on Radioactive Waste Management
 
 - Chair, Steering Committee and Advisory Committee, Disposition of High-Level Radioactive Waste through Geological Isolation: Development, Current Status, and Policy Challenges; International Workshop, November 4-5, 1999
-- Report, [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) published in 2001.
+- [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://books.nap.edu/catalog.php?record_id=10119) report published in 2001.
 
 ### Committee on Research Priorities for Airborne Particulate Matter
 

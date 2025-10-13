@@ -3,6 +3,7 @@ import type { MDXRemoteProps } from 'next-mdx-remote/rsc';
 import type { ComponentProps, ReactNode } from 'react';
 import ImageGallery from '../components/ImageGallery';
 import Figure from '../components/Figure';
+import PublicationItem from '../components/PublicationItem';
 import { findImageForFigure } from './figureUtils';
 
 // Shared MDX configuration for consistent rendering
@@ -113,6 +114,9 @@ export function createMdxComponents(
   return {
   // Direct Figure component access for explicit <Figure> usage in MDX
   Figure: (props: ComponentProps<typeof Figure>) => <Figure {...props} />,
+  
+  // Direct PublicationItem component access for explicit <PublicationItem> usage in MDX
+  PublicationItem: (props: ComponentProps<typeof PublicationItem>) => <PublicationItem {...props} />,
   
   // Images - convert to ImageGallery for proper thumbnail display
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {

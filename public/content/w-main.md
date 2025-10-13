@@ -2,10 +2,10 @@
 conversion_date: 2025-08-13
 id: w-main
 navigation:
-  northworks:
+  biographical:
     title: Biographical Summary
     summary: Consultant specializing in risk analysis and decision science
-    url: /northworks
+    url: /biographical
     tags:
   projects-consulting:
     title: "Consulting Projects"
@@ -19,7 +19,7 @@ navigation:
     tags:
   projects-nrc:
     title: "National Academies"
-    summary: "Assignments for the National Research Council and other parts of the National Academies"
+    summary: "Assignments for the National Academies"
     url: /projects-nrc
     tags:
   stanford-experience:
@@ -64,7 +64,7 @@ tags:
   - EPA Science Advisory Board
 ---
 
-Dr. North has served as a member and consultant to the Science Advisory Board of the US Environmental Protection Agency since 1978, and as a Presidentially appointed member of the US Nuclear Waste Technical Review Board (1989-1994). Dr. North is a co-author of many reports dealing with environmental risk for the [National Research Council](/projects-nrc) of the National Academy of Sciences, including <i>Risk Assessment in the Federal Government: Managing the Process</i> (1983), <i>Improving Risk Communication</i> (1989), <i>Science and Judgment in Risk Assessment</i> (1994), <i>Understanding Risk: Informing Decisions in a Democratic Society</i> (1996), and <i>Public Participation in Environmental Assessment and Decision Making</i> (2008).
+Dr. North has served as a member and consultant to the Science Advisory Board of the US Environmental Protection Agency beginning in 1978, and as a Presidentially appointed member of the US Nuclear Waste Technical Review Board (1989-1994). Dr. North is a co-author of many reports dealing with environmental risk for the [National Research Council](/projects-nrc) of the National Academy of Sciences, including <i>Risk Assessment in the Federal Government: Managing the Process</i> (1983), <i>Improving Risk Communication</i> (1989), <i>Science and Judgment in Risk Assessment</i> (1994), <i>Understanding Risk: Informing Decisions in a Democratic Society</i> (1996), and <i>Public Participation in Environmental Assessment and Decision Making</i> (2008).
 
 <Figure src="/images/wn-speaking-belgian-senate-4-18-06.jpg" alt="Dr. North speaking at Belgian Senate" width={342} height={512} caption="Figure 1. Dr. North speaking at the podium of the Belgian Senate. Behind him is Senate President Anne-Marie Lizin, presiding. Photo taken April 18, 2006 at a Conference of the Organization for Security and Cooperation in Europe (OSCE), which in that year had Belgian presidency." />
 

@@ -19,11 +19,13 @@ tags:
 
 ### Graduate Degrees
 
-#### Ph.D., Operations Research, Stanford University (1970)
+- Ph.D., Operations Research, Stanford University (1970)
 
-#### M.S., Physics (1963) and Mathematics (1966), Stanford University.
+- M.S., Physics (1963) and Mathematics (1966), Stanford University.
 
-#### B.S., Physics, Yale University (1962).
+- B.S., Physics, Yale University (1962).
+
+---
 
 ### School of Engineering
 

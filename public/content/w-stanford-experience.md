@@ -20,10 +20,8 @@ tags:
 ### Graduate Degrees
 
 - Ph.D., Operations Research (1970)
-
 - M.S., Mathematics (1966)
-
-- M.S., Physics (1963) 
+- M.S., Physics (1963)
 
 ---
 

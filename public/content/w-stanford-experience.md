@@ -6,7 +6,7 @@ publication:
   # date: 2012-01-01
   publisher: Northworks
 title: Stanford University Experience
-type: company
+type: professional
 useFigures: true
 tags:
   - Stanford
@@ -17,7 +17,7 @@ tags:
   - Public Policy Decisions
 ---
 
-## School of Engineering
+### School of Engineering
 
 
 #### Department of Management Science and Engineering
@@ -43,13 +43,13 @@ tags:
 
 ---
 
-## Supervisor of graduate student research
+### Supervisor of graduate student research
 
 - Application areas include forest and fishery resource management, communications satellite planning, decision analysis of medical treatment.
 - Guest lecturer for graduate-level courses in decision analysis and summer executive seminar programs.
 
 ---
 
-## Teaching Assistant
+### Teaching Assistant
 
 - Teaching assistant to Professor Ronald A. Howard in 1966 for the first course in decision analysis taught at Stanford University.

@@ -6,7 +6,7 @@ publication:
   publisher: Northworks
 title: Government Projects & Consulting
 description: Service on behalf of United States Federal and State governmental agencies.
-type: company
+type: professional
 useFigures: true
 tags:
   - Carcinogenicity Risk Assessment Guidelines Review Group

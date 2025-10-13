@@ -4,8 +4,8 @@ images:
 publication:
   # date: 2000-01-25
   publisher: Northworks
-title: Consulting and Specific Projects
-type: company
+title: Consulting Projects
+type: professional
 useFigures: true
 description: Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.
 ---

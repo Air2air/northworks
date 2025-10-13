@@ -6,7 +6,7 @@ publication:
   publisher: Northworks
 title: National Research Council 
 description: Assignments for the National Research Council and other parts of the National Academies
-type: company
+type: professional
 useFigures: true
 ---
 

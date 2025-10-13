@@ -1,26 +1,26 @@
 ---
-id: w-professional
+id: w-projects
 images:
 publication:
   # date: 2000-01-25
   publisher: Northworks
 title: Professional Experience & Projects
-type: company
+type: professional
 useFigures: true
 description: Professional activities, consulting work, and career highlights of D. Warner North in risk analysis and decision science.
 ---
 
 Dr. North's specialties are decision analysis; risk assessment and risk management; research and development planning; public policy analysis; analysis of environmental issues; modeling of complex engineering, economic, and ecological systems.
 
-### [Government Service](/professional/w-professional-government)
+### [Government Service](/projects-government)
 
 Service as a member of an advisory board or as a part-time employee for United States Federal and State government agencies. Consulting projects for US and foreign government agencies are listed below on this page.
 
-### [The National Academies](/professional/w-professional-nrc)
+### [The National Academies](/projects-nrc)
 
 The National Research Council, The National Academy of Sciences, The National Academy of Engineering, The Institute of Medicine. Assignments for the National Research Council and the National Academies.
 
-### [Stanford University](/professional/w-professional-stanford)
+### [Stanford University](/stanford-experience)
 
 Teaching and university research.
 

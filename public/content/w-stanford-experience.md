@@ -38,7 +38,7 @@ tags:
 
 #### Management Science and Engineering 290
 
-- Graduate/upper-level undergraduate class on public policy analysis, with applications in national security, health, energy, and the environment (co-taught with William Perry, former Secretary of Defense and Stanford Professor, Stanford Professors John Weyant and Ross Shachter, 2003-2005).
+- Graduate/upper-level undergraduate class on public policy analysis, with applications in national security, health, energy, and the environment (co-taught with William Perry, former Secretary of Defense, Stanford Professors John Weyant and Ross Shachter, 2003-2005).
 
 #### Biology 155
 

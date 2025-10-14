@@ -116,7 +116,11 @@ export function createMdxComponents(
   Figure: (props: ComponentProps<typeof Figure>) => <Figure {...props} />,
   
   // Direct PublicationItem component access for explicit <PublicationItem> usage in MDX
-  PublicationItem: (props: ComponentProps<typeof PublicationItem>) => <PublicationItem {...props} />,
+  // Add displayName to help with paragraph detection
+  PublicationItem: Object.assign(
+    (props: ComponentProps<typeof PublicationItem>) => <PublicationItem {...props} />,
+    { displayName: 'PublicationItem' }
+  ),
   
   // Images - convert to ImageGallery for proper thumbnail display
   img: ({ src, alt, ...props }: ComponentProps<'img'>) => {
@@ -244,17 +248,32 @@ export function createMdxComponents(
     // Check if paragraph contains only React elements (components)
     // If so, don't wrap in <p> to avoid nesting block elements in inline elements
     const childArray = React.Children.toArray(children);
-    const hasOnlyComponents = childArray.length > 0 && childArray.every(child => {
-      // Check if child is a React element (component) rather than text
-      // Also filter out empty strings and whitespace-only text nodes
-      if (typeof child === 'string') {
-        return child.trim() === '';
+    
+    // Check if we have any React components (like PublicationItem, Figure)
+    const hasComponents = childArray.some(child => {
+      if (typeof child === 'object' && child !== null && 'type' in child) {
+        const element = child as { type?: { displayName?: string } | string };
+        const typeName = typeof element.type === 'function' 
+          ? (element.type as { displayName?: string }).displayName 
+          : element.type;
+        // Check for known block-level components
+        return typeName === 'PublicationItem' || typeName === 'Figure' || typeName === 'ImageGallery';
       }
-      return typeof child === 'object' && child !== null && 'type' in child;
+      return false;
     });
     
-    if (hasOnlyComponents) {
-      return <>{children}</>;
+    // If we have block components and only whitespace text, don't wrap in <p>
+    if (hasComponents) {
+      const hasOnlyComponentsAndWhitespace = childArray.every(child => {
+        if (typeof child === 'string') {
+          return child.trim() === '';
+        }
+        return typeof child === 'object' && child !== null && 'type' in child;
+      });
+      
+      if (hasOnlyComponentsAndWhitespace) {
+        return <>{children}</>;
+      }
     }
     
     return (

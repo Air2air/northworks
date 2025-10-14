@@ -219,11 +219,9 @@ by Mark R. Powell, _Risk Analysis 21_(2), 395-7, 2001.
 #### Performance Confirmation for the Candidate Yucca Mountain High-Level Waste Nuclear Waste Repository
 
 (with John Kessler, 10 other authors)
-_Final Report (1003032), Electric Power Research Institute_, Palo Alto, CA, December 2001.
+_Final Report (1003032)_, Electric Power Research Institute, Palo Alto, CA, December 2001.
 
-Letter to _Science_, response to
-
-#### Nuclear Waste: Yucca Mountain
+#### Letter to _Science_, response to Nuclear Waste: Yucca Mountain
 
 by Rodney C. Ewing and Allison Macfarlane, _Science 296_: 659-660, 2002, [dEbate](http://www.sciencemag.org/cgi/eletters/296/5568/659?ck=nck#484), June 27, 2002.
 
@@ -307,7 +305,7 @@ Review of five books: Marc Gerstein, _Flirting with Disaster: Why Accidents Are 
 
 #### Public and Stakeholder Participation for Managing and Reducing the Risks of Shale Gas Development
 
-(with Paul C. Srern, Thomas Webler, and Patrick Field)
+(with Paul C. Stern, Thomas Webler, and Patrick Field)
 _Environmental Science and Technology 48_(15): 8388-8396, _Special Issue on Shale Gas Development_, August 5, 2014, Web Publication Date: April 29, 2014 (Policy Analysis), DOI: 10.1021/es405170k. [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
 
 #### Risks and Risk Governance in Unconventional Shale Gas Development
@@ -337,9 +335,7 @@ _Risk Analysis 37_(2), 203-204, 2017.
 
 Mega-Review: Causality Books. Louis Anthony Cox, Jr., _Causal Analytics for Applied Risk Analysis_, Judea Pearl and Dana MacKenzie, _The Book of Why: The New Science of Cause and Effect_, Judea Pearl, _Causality: Models, Reasoning, and Inference_, _Risk Analysis 37_(7):1647-1654, 2019.
 
-Commentary, on
-
-#### Should health risks of air pollution be studied scientifically?
+#### Commentary, on Should health risks of air pollution be studied scientifically?
 
 by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. [Available via link: https://doi.org/10.1016/j.gloepi.2020.100021](https://doi.org/10.1016/j.gloepi.2020.100021).
 
@@ -347,9 +343,8 @@ by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. [Available via lin
 
 by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13487)
 
-#### Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience
-
-special 40th anniversary issue, _Risk Analysis 40_: S1, 2178-2190. November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
+#### [Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
+special 40th anniversary issue, _Risk Analysis 40_: S1, 2178-2190. November 2020. 
 
 #### [Nourishing the Human Holobiont to Reduce the Risk of Non-Communicable Diseases: A Cow’s Milk Evidence Map Example](https://www.researchgate.net/publication/357454095_Nourishing_the_Human_Holobiont_to_Reduce_the_Risk_of_Non-Communicable_Diseases_A_Cow's_Milk_Evidence_Map_Example)
 

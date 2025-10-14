@@ -246,6 +246,10 @@ export function createMdxComponents(
     const childArray = React.Children.toArray(children);
     const hasOnlyComponents = childArray.length > 0 && childArray.every(child => {
       // Check if child is a React element (component) rather than text
+      // Also filter out empty strings and whitespace-only text nodes
+      if (typeof child === 'string') {
+        return child.trim() === '';
+      }
       return typeof child === 'object' && child !== null && 'type' in child;
     });
     

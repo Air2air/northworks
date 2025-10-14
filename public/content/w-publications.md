@@ -18,7 +18,7 @@ _Science_, Vol. 176, p. 1191-1202, 1972.
 
 #### [Limitations, definitions, principles, and methods of risk assessment](/pdf/limitations.pdf)
 
-**Scientific and Technical Review, International Office of Epizootics**, 1995. (Note: This paper contains a summary of the Mars planetary contamination assessment, described in more detail in 1974 publications listed below.)
+*Scientific and Technical Review, International Office of Epizootics*, 1995. (Note: This paper contains a summary of the Mars planetary contamination assessment, described in more detail in 1974 publications listed below.)
 
 #### [The Invariance Approach to the Probabilistic Encoding of Information](/pdf/phd-thesis.pdf)
 
@@ -71,7 +71,8 @@ _TSCA's Impact on Society and Chemical Industry_, Washington D.C.: American Chem
 (with W.E. Balson)
 _ACID RAIN: Economic Assessment_, New York: Plenum Press, 1985.
 
-Review of EPA's Risk Assessment Research Program, letter report to the EPA Administrator on behalf of the EPA Science Advisory Board, April 22, 1985.
+#### Review of EPA's Risk Assessment Research Program #### 
+letter report to the EPA Administrator on behalf of the EPA Science Advisory Board, April 22, 1985.
 
 #### Risk Assessment: What It Is: How It Works
 
@@ -84,7 +85,7 @@ _Journal of the American College of Toxicology 7_, 1988.
 
 [Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: _National Academy Press_, 1989.
 
-Testimony, Hearing before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate:
+#### Testimony, Hearing before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate: 
 
 #### Phosphate Slag Risk
 
@@ -119,7 +120,7 @@ _Environmental Geochemistry and Health 14_, 59-62, 1992.
 (with F. Selker and T. Guardino)
 _Arsenic Exposure and Health_, W.R. Chappell et. al., eds., Northwood: Science and Technology Letters, 1994. (An expanded version of this paper with a new preface is included in _Human and Ecological Risk Assessment: Theory and Practice_, Second Edition, Dennis Paustenbach, editor, New York: John Wiley and Sons, 2002.)
 
-Testimony, Hearing before the Subcommittee on Oversight and Investigations, Committee on Commerce, U.S. House of Representatives:
+#### Testimony, Hearing before the Subcommittee on Oversight and Investigations, Committee on Commerce, U.S. House of Representatives:
 
 #### Clean Air Act Amendments: Title lll - Hazardous Air Pollutants
 
@@ -143,7 +144,7 @@ A Talk for the Boise City Club, September 10, 1996
 
 _Probabilistic Safety Assessment and Management '96_, C. Cacciabue and I. A. Papazoglou, eds, London: _Springer_, pp. 1777-1782, 1996
 
-Testimony, Hearing before the Subcommittee on Workforce Protections, Committee on Education and the Workforce, U.S. House of Representatives:
+#### Testimony, Hearing before the Subcommittee on Workforce Protections, Committee on Education and the Workforce, U.S. House of Representatives:
 
 #### Congressional Review Act on OSHA's Methylene Chloride Rule
 
@@ -193,7 +194,8 @@ _Risk Analysis 18_(6), 773-780, 1998.
 
 _Risk Analysis 19_(4), 745-752, 1999.
 
-Book Review of _The Greening of Industry: A Risk Management Approach_, John D. Graham and J.K. Hartwell, eds., _Journal of Risk Research_, _2_(2),181-183, 1999.
+#### Book Review of _The Greening of Industry: A Risk Management Approach_
+John D. Graham and J.K. Hartwell, eds., _Journal of Risk Research_, _2_(2),181-183, 1999.
 
 #### Rethinking Geologic Disposal of High-Level Nuclear Waste and Spent Nuclear Fuel
 
@@ -304,12 +306,12 @@ Review of five books: Marc Gerstein, _Flirting with Disaster: Why Accidents Are 
 #### Public and Stakeholder Participation for Managing and Reducing the Risks of Shale Gas Development
 
 (with Paul C. Srern, Thomas Webler, and Patrick Field)
-_Environmental Science and Technology 48_(15): 8388-8396, Special Issue on Shale Gas Development, August 5, 2014, Web Publication Date: April 29, 2014 (Policy Analysis), DOI: 10.1021/es405170k. [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
+_Environmental Science and Technology 48_(15): 8388-8396, _Special Issue on Shale Gas Development_, August 5, 2014, Web Publication Date: April 29, 2014 (Policy Analysis), DOI: 10.1021/es405170k. [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
 
 #### Risks and Risk Governance in Unconventional Shale Gas Development
 
 (with Mitchell J. Small and 17 other co-authors)
-_Environmental Science and Technology 48_(15): 8289-8297, Special Issue on Shale Gas Development, August 5, 2014, Web Publication Date: July 1, 2014 (Feature) DOI: 10.1021/es502111u [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
+_Environmental Science and Technology 48_(15): 8289-8297, _Special Issue on Shale Gas Development_, August 5, 2014, Web Publication Date: July 1, 2014 (Feature) DOI: 10.1021/es502111u [Link to ACS website](http://pubs.acs.org/toc/esthag/48/15#policyanalysis).
 
 [Health Product Risk Communication: Is the Message Getting Through?](http://www.scienceadvice.ca/uploads/eng/assessmentspublicationsnewsreleases/risk/riskfullreporten.pdf) (with 10 Panel colleagues) Report of a Panel of the Council of Canadian Academies, June 2015.
 

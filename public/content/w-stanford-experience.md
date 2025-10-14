@@ -47,6 +47,12 @@ tags:
 #### EES&OR 194/294
 
 - Graduate/upper-level undergraduate course: "The Role of Technology in Public Policy Decisions" using energy and environmental case studies (1993-1999).
-- Supervisor of graduate student research: Application areas include forest and fishery resource management, communications satellite planning, decision analysis of medical treatment.
-- Guest lecturer for graduate-level courses in decision analysis and summer executive seminar programs.
-- Teaching assistant to Professor Ronald A. Howard in 1966 for the first course in decision analysis taught at Stanford University.
+
+---
+
+
+#### Supervisor of graduate student research: Application areas include forest and fishery resource management, communications satellite planning, decision analysis of medical treatment.
+
+#### Guest lecturer for graduate-level courses in decision analysis and summer executive seminar programs.
+
+#### Teaching assistant to Professor Ronald A. Howard in 1966 for the first course in decision analysis taught at Stanford University.

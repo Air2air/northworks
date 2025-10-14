@@ -120,7 +120,7 @@ Dr. North chaired a session on energy security in the Baltic Region at the Inter
 
 ### NATO Workshop, 2009
 
-Dr. North participated in this one-day Workshop, in Vilnius, Lithuania on October 16, 2009. Copies of the presentation materials may be requested by e-mail to [northworks@mindspring.com](mailto:northworks@mindspring.com).
+Dr. North participated in this one-day Workshop, in Vilnius, Lithuania on October 16, 2009. 
 
 ### OSCE, 2006
 

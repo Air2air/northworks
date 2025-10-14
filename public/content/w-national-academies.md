@@ -55,14 +55,14 @@ Assignments for the National Research Council and other parts of the National Ac
 - Member, Committee on Risk Characterization; 1994-1996
 - [Understanding Risk: Informing Decisons in a Democratic Society](http://www.nap.edu/catalog/5138.html) report published in 1996
 
+### Transportation Research Board
+
+- Chair, Committee to Review Federal Estimates of the Relationship of Vehicle Weight to Fatality and Injury Risk; [ Letter Report to Administrator, National Highway Traffic Safety Administration](http://onlinepubs.trb.org/onlinepubs/reports/letrept.html), 1996.
+
 ### Board on Radioactive Waste Management
 
 - Member, 1995 - 1999 [National Research Council of the National Academy of Sciences](/national-academies), 1999
 - Member of Working Group that prepared the report,[ Technologies for Environmental Management: The Department of Energy's Office of Science and Technology](http://books.nap.edu/catalog.php?record_id=9656), published in 1999.
-
-### Transportation Research Board
-
-- Chair, Committee to Review Federal Estimates of the Relationship of Vehicle Weight to Fatality and Injury Risk; [ Letter Report to Administrator, National Highway Traffic Safety Administration](http://onlinepubs.trb.org/onlinepubs/reports/letrept.html), 1996.
 
 ### Board on Agriculture and Natural Resources
 
@@ -109,13 +109,11 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### Board on Life Sciences, Earth and Life Sciences
 
-- Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010;  [Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
-
+- Committee Member, [Continuing Assistance to the National Institutes of Health on Preparation of Additional Risk Assessments for the Boston University National Emerging Infectious Diseases Laboratory (NEIDL), Phase 1](http://www.nap.edu/catalog/12902), April 2010; [Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010; [ Phase 3](http://www.nap.edu/catalog.php?record_id=13310), December, 2011.
 
 ### National Research Council, The National Academies
 
-Dr. North is a member of the committee that has organized workshops in 2013 on risks and improving governance for shale gas development. See the [links to workshop materials](https://www.nationalacademies.org/our-work/risk-management-and-governance-issues-in-shale-gas-development-two-workshops). Papers written by workshop attendees were published in a special issue of [Environmental Science &amp; Technology](https://pubs.acs.org/toc/esthag/48/15?ref=breadcrumb ) 2014.
-
+Dr. North is a member of the committee that has organized workshops in 2013 on risks and improving governance for shale gas development. See the [links to workshop materials](https://www.nationalacademies.org/our-work/risk-management-and-governance-issues-in-shale-gas-development-two-workshops). Papers written by workshop attendees were published in a special issue of [Environmental Science &amp; Technology](https://pubs.acs.org/toc/esthag/48/15?ref=breadcrumb) 2014.
 
 ### Division of Earth and Life Sciences
 

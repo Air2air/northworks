@@ -6,7 +6,7 @@ publication:
 title: Management Experience
 type: company
 useFigures: true
-description: Risk analysis consulting firm specializing in decision analysis and environmental protection
+description: Risk analysis consulting specializing in decision analysis and environmental protection
 ---
 
 ## Management Experience

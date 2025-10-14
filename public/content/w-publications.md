@@ -53,7 +53,7 @@ _Fire Journal 69_, January 1975.
 (with M.W. Merkhofer)
 Computers and Operations Research 3, p. 185-207, 1976. This article summarizes Chapter 13 of the National Academy of Sciences report, [Air Quality and Stationary Source Emission Control](http://books.nap.edu/catalog/10840.html), 1975, which National Academy Press has now posted on its website.
 
-#### Decision Analysis of Program Choices in Magnetic Fusion Energy Development
+#### Decision Analysis of Program Choices in Magnetic Fusion Energy Develospment
 
 (with D.N. Stengel)
 _Management Science 28_, p. 276-288, 1982.
@@ -62,9 +62,9 @@ _Management Science 28_, p. 276-288, 1982.
 
 _TSCA's Impact on Society and Chemical Industry_, Washington D.C.: American Chemical Society 1983.
 
-[Risk Assessment in the Federal Government: Managing the Process](http://www.nap.edu/catalog/366.html), (with committee), Washington, D.C.: _National Academy Press_, 1983.
+[Risk Assessment in the Federal Government: Managing the Process](http://www.nap.edu/catalog/366.html), (with committee), Washington, D.C.: National Academy Press, 1983.
 
-[Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), (with committee), Washington, D.C.: _National Academy Press_, 1984.
+[Disposal of Chemical Munitions and Agents](https://www.nap.edu/catalog/19361), (with committee), Washington, D.C.: National Academy Press, 1984.
 
 #### Risk Assessment and Acid Rain Policy: A Decision Framework that Includes Uncertainty
 
@@ -84,13 +84,10 @@ _EPA Journal 13_(9), November 1987.
 
 _Journal of the American College of Toxicology 7_, 1988.
 
-[Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: _National Academy Press_, 1989.
+[Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: National Academy Press, 1989.
 
-#### Testimony, Hearing before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate:
-
-#### Phosphate Slag Risk
-
-pp. 61-63, 129-133, August 21, 1990
+#### Testimony, Hearing on Phosphate Slag Risk before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate; 
+Soda Springs, Idaho, August 21, 1990
 
 #### Decision Analysis in Environmental Risk Management: Applications to Acid Deposition and Air Toxics
 
@@ -112,9 +109,9 @@ _Environmental Geochemistry and Health 14_, 59-62, 1992.
 
 (summary of a conference on the health effects of gasoline) _Environmental Health Perspectives Supplements 101_ (Suppl. 6), 209-212, 1993.
 
-[Issues in Risk Assessment](http://books.nap.edu/catalog/2078.html), (with committee), Washington, D.C.: _National Academy Press_, 1993.
+[Issues in Risk Assessment](http://books.nap.edu/catalog/2078.html), (with committee), Washington, D.C.: National Academy Press, 1993.
 
-[Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html), (with committee), Washington, D.C.: _National Academy Press_, 1994.
+[Science and Judgment in Risk Assessment](http://www.nap.edu/catalog/2125.html), (with committee), Washington, D.C.: National Academy Press, 1994.
 
 #### The Value of Research on Health Effects of Ingested Inorganic Arsenic
 
@@ -135,7 +132,7 @@ _Low-Dose Extrapolation of Cancer Risks: Issues and Perspectives_, Stephen Olin 
 
 Risk Assessment for Veterinary Biologicals, special issue, Office International des Epizooties, _Scientific and Technical Review 14_, 913-923, 1995.
 
-[Understanding Risk: Informing Decisions in a Democratic Society](http://www.nap.edu/catalog/5138.html), (with committee), Washington, D.C.: _National Academy Press_, 1996.
+[Understanding Risk: Informing Decisions in a Democratic Society](http://www.nap.edu/catalog/5138.html), (with committee), Washington, D.C.: National Academy Press, 1996.
 
 #### Understanding and Managing Environmental Risk: An Overview for Concerned Citizens
 
@@ -143,13 +140,12 @@ A Talk for the Boise City Club, September 10, 1996
 
 #### Risk Perception Versus Performance Assessment Products: Improving the Balance for the Management of Nuclear Waste in the United States
 
-_Probabilistic Safety Assessment and Management '96_, C. Cacciabue and I. A. Papazoglou, eds, London: _Springer_, pp. 1777-1782, 1996
+_Probabilistic Safety Assessment and Management '96_, C. Cacciabue and I. A. Papazoglou, eds, London: Springer, pp. 1777-1782, 1996
 
 #### Testimony, Hearing before the Subcommittee on Workforce Protections, Committee on Education and the Workforce, U.S. House of Representatives:
 
 #### Congressional Review Act on OSHA's Methylene Chloride Rule
-
-April 16, 1997.
+At the April 16, 1997, hearing, D. Warner North testified before the U.S. House Subcommittee on Workforce Protections regarding the Occupational Safety and Health Administration's (OSHA) Methylene Chloride Rule. North's testimony concerned the risks posed by methylene chloride and the scientific basis for the new standard.
 
 #### Unresolved Problems of Radioactive Waste: Motivation for a New Paradigm
 
@@ -214,7 +210,7 @@ Book Review of
 
 by Mark R. Powell, _Risk Analysis 21_(2), 395-7, 2001.
 
-[Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: _National Academy Press_, 2001.
+[Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: National Academy Press, 2001.
 
 #### Performance Confirmation for the Candidate Yucca Mountain High-Level Waste Nuclear Waste Repository
 
@@ -253,15 +249,15 @@ _Regulatory Toxicology and Pharmacology, 51_:S6-S14, 2008.
 
 #### Comments on the IRGC Framework for Risk Governance
 
-Chapter 4 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: _Springer_, 2008.
+Chapter 4 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: Springer, 2008.
 
 #### Energy Security for the Baltic Region
 
-Chapter 12 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: _Springer_, 2008.
+Chapter 12 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: Springer, 2008.
 
 Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [Letter Report](http://www.nap.edu/catalog.php?record_id=12208) from the National Research Council (with committee), April 29, 2008.
 
-[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: _National Academy Press_, 2008.
+[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: National Academy Press, 2008.
 
 #### [What is the Scope of Risk Analysis,"](https://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2008.01138.x)
 

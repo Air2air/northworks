@@ -276,7 +276,10 @@ Continuing Assistance to the National Institutes of Health on Preparation of Add
 [Phase 1:](http://www.nap.edu/catalog.php?record_id=12902) April 20, 2010
 
 [Phase 2:](http://www.nap.edu/catalog.php?record_id=13054) November 5, 2010
+
 [Phase 3:](http://www.nap.edu/openbook.php?record_id=13310) December 6, 2011
+
+
 
 Review of book by B. John Garrick, Quantifying and Controlling Catastrophic Risks, **Risk Analysis 30**(10):1623-1625, 2010.
 
@@ -347,13 +350,13 @@ by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner
 special 40th anniversary issue, **Risk Analysis 40**: S1, 2178-2190. November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
 
 #### [Nourishing the Human Holobiont to Reduce the Risk of Non-Communicable Diseases: A Cow’s Milk Evidence Map Example](https://www.researchgate.net/publication/357454095_Nourishing_the_Human_Holobiont_to_Reduce_the_Risk_of_Non-Communicable_Diseases_A_Cow's_Milk_Evidence_Map_Example)
-by Margaret E. Coleman, Rodney Dietert, D. Warner North, Michelle Stevenson, **Applied Microbiology**, December 2021
+by Rodney Dietert, Margaret E. Coleman, D. Warner North, Michelle Stevenson, **Applied Microbiology**, December 2021
 
 #### [Enhancing Human Superorganism Ecosystem Resilience by Holistically ‘Managing Our Microbes’](https://www.researchgate.net/publication/355924268_Enhancing_Human_Superorganism_Ecosystem_Resilience_by_Holistically_'Managing_Our_Microbes') 
 by Margaret E. Coleman, Rodney Dietert, D. Warner North, Michelle Stevenson, **Applied Microbiology**, October 2021
 
 #### [Examining Evidence of Benefits and Risks for Pasteurizing Donor Breastmilk](https://www.researchgate.net/publication/354900811_Examining_Evidence_of_Benefits_and_Risks_for_Pasteurizing_Donor_Breastmilk)
-by Margaret E. Coleman, Rodney Dietert, D. Warner North, Michelle Stevenson, **Applied Microbiology**, September 2021
+by Margaret E. Coleman, D. Warner North, Rodney Dietert, Michelle Stevenson, **Applied Microbiology**, September 2021
 
 ## Global Climate Change
 

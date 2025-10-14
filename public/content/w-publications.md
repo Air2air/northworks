@@ -86,7 +86,8 @@ _Journal of the American College of Toxicology 7_, 1988.
 
 [Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: National Academy Press, 1989.
 
-#### Testimony, Hearing on Phosphate Slag Risk before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate; 
+#### Testimony, Hearing on Phosphate Slag Risk before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate;
+
 Soda Springs, Idaho, August 21, 1990
 
 #### Decision Analysis in Environmental Risk Management: Applications to Acid Deposition and Air Toxics
@@ -118,11 +119,10 @@ _Environmental Geochemistry and Health 14_, 59-62, 1992.
 (with F. Selker and T. Guardino)
 _Arsenic Exposure and Health_, W.R. Chappell et. al., eds., Northwood: Science and Technology Letters, 1994. (An expanded version of this paper with a new preface is included in _Human and Ecological Risk Assessment: Theory and Practice_, Second Edition, Dennis Paustenbach, editor, New York: John Wiley and Sons, 2002.)
 
-#### Testimony, Hearing before the Subcommittee on Oversight and Investigations, Committee on Commerce, U.S. House of Representatives:
+#### Testimony, Hearing before the Subcommittee on Oversight and Investigations, Committee on Commerce, U.S. House of Representatives;
 
-#### Clean Air Act Amendments: Title lll - Hazardous Air Pollutants
-
-pp. 85-91, June 29, 1995
+#### Clean Air Act Amendments: Title III - Hazardous Air Pollutants, 
+June 29, 1995
 
 #### Use of Expert Judgment on Cancer Dose-Response: Probabilistic Assessment and Plans for Application to Dieldrin
 
@@ -145,6 +145,7 @@ _Probabilistic Safety Assessment and Management '96_, C. Cacciabue and I. A. Pap
 #### Testimony, Hearing before the Subcommittee on Workforce Protections, Committee on Education and the Workforce, U.S. House of Representatives:
 
 #### Congressional Review Act on OSHA's Methylene Chloride Rule
+
 At the April 16, 1997, hearing, D. Warner North testified before the U.S. House Subcommittee on Workforce Protections regarding the Occupational Safety and Health Administration's (OSHA) Methylene Chloride Rule. North's testimony concerned the risks posed by methylene chloride and the scientific basis for the new standard.
 
 #### Unresolved Problems of Radioactive Waste: Motivation for a New Paradigm
@@ -340,7 +341,8 @@ by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. [Available via lin
 by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13487)
 
 #### [Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
-special 40th anniversary issue, _Risk Analysis 40_: S1, 2178-2190. November 2020. 
+
+special 40th anniversary issue, _Risk Analysis 40_: S1, 2178-2190. November 2020.
 
 #### [Nourishing the Human Holobiont to Reduce the Risk of Non-Communicable Diseases: A Cow’s Milk Evidence Map Example](https://www.researchgate.net/publication/357454095_Nourishing_the_Human_Holobiont_to_Reduce_the_Risk_of_Non-Communicable_Diseases_A_Cow's_Milk_Evidence_Map_Example)
 

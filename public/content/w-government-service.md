@@ -54,7 +54,7 @@ tags:
 
 #### Hazard Ranking System Review Subcommittee
 
-- Member. (above activities 1983-1990)
+- Member. (Above seven activities during 1983-1990)
 
 #### Global Climate Subcommittee
 
@@ -62,7 +62,7 @@ tags:
 
 #### Subcommittee on Lead and Subcommittee on Ozone, Clean Air Scientific Advisory Committee
 
-- Member (1983-1995)
+- Member during periods from 1983 to 1995.
 
 #### Committee on Residual Risk Strategy for Air Toxics
 

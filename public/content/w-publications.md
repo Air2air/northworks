@@ -205,11 +205,7 @@ presented at the Landau Network-Centro Volta UNESCO Forum, Nuclear Disarmament, 
 (with Donald E. Stevenson, Earl F. Walborg, Jr., Robert L. Sielkin, Jr., C.E. Ross, Alan S. Wright, Yong Xu, Lisa M. Kamendulis, and James E. Klaunig)
 _Toxicology Letters 109_, 123-186, 1999.
 
-Book Review of
-
-#### Science at EPA: Information in the Regulatory Process
-
-by Mark R. Powell, _Risk Analysis 21_(2), 395-7, 2001.
+Book Review of _Science at EPA: Information in the Regulatory Process_ by Mark R. Powell, _Risk Analysis 21_(2), 395-7, 2001.
 
 [Disposition of High-Level Waste and Spent Nuclear Fuel: The Continuing Societal and Technical Challenges](http://www.nap.edu/catalog.php?record_id=10119), (with committee), Washington, D.C.: National Academy Press, 2001.
 

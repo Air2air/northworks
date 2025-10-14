@@ -216,7 +216,7 @@ _Final Report (1003032)_, Electric Power Research Institute, Palo Alto, CA, Dece
 
 #### Letter to _Science_, response to Nuclear Waste: Yucca Mountain
 
-by Rodney C. Ewing and Allison Macfarlane, _Science 296_: 659-660, 2002, [dEbate](http://www.sciencemag.org/cgi/eletters/296/5568/659?ck=nck#484), June 27, 2002.
+by Rodney C. Ewing and Allison Macfarlane, _Science 296_: 659-660, 2002, June 27, 2002.
 
 #### Reflections on the Red/Mis-Read Book, 20 Years After
 
@@ -328,13 +328,13 @@ _Risk Analysis 37_(2), 203-204, 2017.
 
 Mega-Review: Causality Books. Louis Anthony Cox, Jr., _Causal Analytics for Applied Risk Analysis_, Judea Pearl and Dana MacKenzie, _The Book of Why: The New Science of Cause and Effect_, Judea Pearl, _Causality: Models, Reasoning, and Inference_, _Risk Analysis 37_(7):1647-1654, 2019.
 
-#### Commentary, on Should health risks of air pollution be studied scientifically?
+#### [Commentary, on Should health risks of air pollution be studied scientifically?](https://doi.org/10.1016/j.gloepi.2020.100021)
 
-by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. [Available via link: https://doi.org/10.1016/j.gloepi.2020.100021](https://doi.org/10.1016/j.gloepi.2020.100021).
+by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. 
 
-#### Risk Analysis: Celebrating the Accomplishments, and Embracing Ongoing Challenges
+#### [Risk Analysis: Celebrating the Accomplishments, and Embracing Ongoing Challenges](https://onlinelibrary.wiley.com/doi/10.1111/risa.13487)
 
-by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020. [Available free online to Jan. 31, 2020](https://onlinelibrary.wiley.com/doi/10.1111/risa.13487)
+by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020. 
 
 #### [Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
 

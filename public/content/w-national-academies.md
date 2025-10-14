@@ -61,7 +61,7 @@ Assignments for the National Research Council and other parts of the National Ac
 
 ### Board on Radioactive Waste Management
 
-- Member, 1995 - 1999 [National Research Council of the National Academy of Sciences](/national-academies), 1999
+- Board Member, 1995 - 1999
 - Member of Working Group that prepared the report,[ Technologies for Environmental Management: The Department of Energy's Office of Science and Technology](http://books.nap.edu/catalog.php?record_id=9656), published in 1999.
 
 ### Board on Agriculture and Natural Resources

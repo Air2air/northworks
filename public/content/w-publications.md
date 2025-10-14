@@ -14,11 +14,11 @@ description: Publications list, papers, articles, and written works by D. Warner
 #### [The Decision to Seed Hurricanes](/pdf/hurricanes.pdf)
 
 (with R.A. Howard and J.E. Matheson)
-_Science_, Vol. 176, p. 1191-1202, 1972.
+_Science_, **Vol. 176**, p. 1191-1202, 1972.
 
 #### [Limitations, definitions, principles, and methods of risk assessment](/pdf/limitations.pdf)
 
-*Scientific and Technical Review, International Office of Epizootics*, 1995. (Note: This paper contains a summary of the Mars planetary contamination assessment, described in more detail in 1974 publications listed below.)
+_Scientific and Technical Review, International Office of Epizootics_, 1995. (Note: This paper contains a summary of the Mars planetary contamination assessment, described in more detail in 1974 publications listed below.)
 
 #### [The Invariance Approach to the Probabilistic Encoding of Information](/pdf/phd-thesis.pdf)
 
@@ -26,7 +26,7 @@ Ph. D. Thesis, Department of Operations Research, Stanford University, 1970.
 
 #### A Tutorial Introduction to Decision Theory
 
-IEEE Transactions on Systems Science and Cybernetics SSC-4, 105-115, 1968
+_IEEE Transactions on Systems Science and Cybernetics SSC-4_, 105-115, 1968
 
 #### The Trials and Tribulations of the Tribnian Situation: A Pilot Level Decision Analysis of Intelligence Resource Allocation
 
@@ -71,7 +71,8 @@ _TSCA's Impact on Society and Chemical Industry_, Washington D.C.: American Chem
 (with W.E. Balson)
 _ACID RAIN: Economic Assessment_, New York: Plenum Press, 1985.
 
-#### Review of EPA's Risk Assessment Research Program #### 
+#### Review of EPA's Risk Assessment Research Program
+
 letter report to the EPA Administrator on behalf of the EPA Science Advisory Board, April 22, 1985.
 
 #### Risk Assessment: What It Is: How It Works
@@ -85,7 +86,7 @@ _Journal of the American College of Toxicology 7_, 1988.
 
 [Improving Risk Communication](http://www.nap.edu/catalog/1189.html), (with committee), Washington, D.C.: _National Academy Press_, 1989.
 
-#### Testimony, Hearing before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate: 
+#### Testimony, Hearing before the Subcommittee on Nuclear Regulation, Committee on Environment and Public Works, U.S. Senate:
 
 #### Phosphate Slag Risk
 
@@ -195,11 +196,12 @@ _Risk Analysis 18_(6), 773-780, 1998.
 _Risk Analysis 19_(4), 745-752, 1999.
 
 #### Book Review of _The Greening of Industry: A Risk Management Approach_
+
 John D. Graham and J.K. Hartwell, eds., _Journal of Risk Research_, _2_(2),181-183, 1999.
 
 #### Rethinking Geologic Disposal of High-Level Nuclear Waste and Spent Nuclear Fuel
 
-presented at the Landau Network-Centro Volta UNESCO Forum, Nuclear Disarmament, Safe Disposal of Nuclear Materials, or New Weapons Developments? Where Are the National Laboratories Going? Lake Como, Italy, July 2-4, 1998; Vol. 8 of the series, _Science for Peace_, UNESCO Venice Office, Venice, Italy: Regional Office for Science and Technology, Europe, 1999.
+presented at the Landau Network-Centro Volta UNESCO Forum, Nuclear Disarmament, Safe Disposal of Nuclear Materials, or New Weapons Developments? Where Are the National Laboratories Going? Lake Como, Italy, July 2-4, 1998; **Vol. 8** of the series, _Science for Peace_, UNESCO Venice Office, Venice, Italy: Regional Office for Science and Technology, Europe, 1999.
 
 #### Reassessment of human cancer risk of aldrin/dieldrin
 
@@ -253,15 +255,15 @@ _Regulatory Toxicology and Pharmacology, 51_:S6-S14, 2008.
 
 #### Comments on the IRGC Framework for Risk Governance
 
-Chapter 4 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: Springer, 2008.
+Chapter 4 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: _Springer_, 2008.
 
 #### Energy Security for the Baltic Region
 
-Chapter 12 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: Springer, 2008.
+Chapter 12 of _Global Risk Governance: Concept and Practice Using the IRGC Framework_, Dordrecht, The Netherlands: _Springer_, 2008.
 
 Technical Input on Any Additional Studies to Assess Risk Associated with Operation of the National Emerging Infectious Diseases Laboratory, Boston University: A [Letter Report](http://www.nap.edu/catalog.php?record_id=12208) from the National Research Council (with committee), April 29, 2008.
 
-[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: National Academy Press, 2008.
+[Public Participation in Environmental Assessment and Decision Making](http://www.nap.edu/catalog.php?record_id=12434), (with committee), Washington, D.C.: _National Academy Press_, 2008.
 
 #### [What is the Scope of Risk Analysis,"](https://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2008.01138.x)
 

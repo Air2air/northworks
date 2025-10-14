@@ -35,8 +35,6 @@ tags:
 - Guest lecturer for graduate-level courses and summer executive seminar programs.
 - Teaching assistant to Professor Ronald A. Howard in 1966 for the first course in decision analysis taught at Stanford University.
 
----
-
 #### Management Science and Engineering 453
 
 - Graduate/upper-level undergraduate seminar on applications of decision analysis and associated methodologies to decision making in medicine, energy, and environmental protection (with Professor Burke Robinson, 2006-2012).
@@ -52,4 +50,3 @@ tags:
 #### EES&OR 194/294
 
 - Graduate/upper-level undergraduate course: "The Role of Technology in Public Policy Decisions" using energy and environmental case studies (1993-1999).
-

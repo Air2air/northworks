@@ -13,7 +13,7 @@ title: Cheryl North Interviews Sarah Chang
 type: interview
 useFigures: true
 tags:
-  - Violin
+  - Piano
   - Concert
   - Shostakovich
   - Orchestra

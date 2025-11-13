@@ -121,7 +121,8 @@ _Arsenic Exposure and Health_, W.R. Chappell et. al., eds., Northwood: Science a
 
 #### Testimony, Hearing before the Subcommittee on Oversight and Investigations, Committee on Commerce, U.S. House of Representatives;
 
-#### Clean Air Act Amendments: Title III - Hazardous Air Pollutants, 
+#### Clean Air Act Amendments: Title III - Hazardous Air Pollutants,
+
 June 29, 1995
 
 #### Use of Expert Judgment on Cancer Dose-Response: Probabilistic Assessment and Plans for Application to Dieldrin
@@ -330,11 +331,11 @@ Mega-Review: Causality Books. Louis Anthony Cox, Jr., _Causal Analytics for Appl
 
 #### [Commentary, on Should health risks of air pollution be studied scientifically?](https://doi.org/10.1016/j.gloepi.2020.100021)
 
-by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020. 
+by Louis Anthony Cox, Jr., _Global Epidemiology_ March, 2020.
 
 #### [Risk Analysis: Celebrating the Accomplishments, and Embracing Ongoing Challenges](https://onlinelibrary.wiley.com/doi/10.1111/risa.13487)
 
-by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020. 
+by Michael Greenberg, Anthony Cox, Vicki Bier, Jim Lambert, Karen Lowrie, Warner North, Michael Sigrist, and Felicia Wu, special 40th anniversary issue, _Risk Analysis 40_: S1, 2113-2127, November 2020.
 
 #### [Risk Analysis, Decision Analysis, Causal Analysis, and Economics: A Personal Perspective from More Than 40 Years Experience](https://onlinelibrary.wiley.com/doi/10.1111/risa.13621)
 

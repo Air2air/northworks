@@ -52,7 +52,7 @@ export default function HomePage() {
       >
         <LandingCard
           title="D. Warner North"
-          description="is president and principal scientist of NorthWorks, Inc., and consulting professor in the Department of Management Science and Engineering at Stanford University. Over the past thirty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection."
+          description="is president and principal scientist of NorthWorks, Inc., and consulting professor in the Department of Management Science and Engineering at Stanford University. For over fifty years Dr. North has carried out applications of decision analysis and risk analysis for electric utilities in the US and Mexico, for the petroleum and chemical industries, and for government agencies with responsibility for energy and environmental protection."
           href="/warner"
           image={{
             src: '/images/warner-north-6-06.jpg',

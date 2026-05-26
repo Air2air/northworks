@@ -27,7 +27,7 @@ vi.mock('next/navigation', () => ({
 
 // Mock Next.js Image component
 vi.mock('next/image', () => ({
-  default: ({ src, alt, ...props }: any) => {
+  default: ({ src, alt, priority, fill, unoptimized, loader, blurDataURL, placeholder, ...props }: any) => {
     return React.createElement('img', { src, alt, ...props })
   },
 }))

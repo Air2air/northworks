@@ -1,32 +1,68 @@
 "use client";
 
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import SectionCard from './SectionCard';
 import PageTitle from './PageTitle';
 import SectionSearchInterface from './SectionSearchInterface';
 import { parseContentSections, extractSectionPageMetadata, type ContentSection } from '@/lib/sectionParser';
 import { SectionGridProps } from '@/types';
 
+type SortOrder = 'relevance' | 'length-asc' | 'length-desc';
+
+function countMatches(haystack: string, needle: string): number {
+  if (!needle) return 0;
+
+  let count = 0;
+  let startIndex = 0;
+  let nextIndex = haystack.indexOf(needle, startIndex);
+
+  while (nextIndex !== -1) {
+    count += 1;
+    startIndex = nextIndex + needle.length;
+    nextIndex = haystack.indexOf(needle, startIndex);
+  }
+
+  return count;
+}
+
 export default function SectionGrid({ content, frontmatter, className }: SectionGridProps) {
-  // Parse sections from content
-  const sections = parseContentSections(content);
+  // Parse sections from content once per content change.
+  const sections = useMemo(() => parseContentSections(content), [content]);
   const metadata = extractSectionPageMetadata(frontmatter);
 
-  // Search state
   const [searchQuery, setSearchQuery] = useState('');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('relevance');
 
-  // Handle search - now computed directly instead of using callback
-  const filteredSections = React.useMemo(() => {
-    if (!searchQuery.trim()) {
-      return sections;
+  const filteredSections = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    let filtered = sections;
+
+    if (query) {
+      filtered = sections.filter((section) => section.content.toLowerCase().includes(query));
     }
 
-    const query = searchQuery.toLowerCase();
-    return sections.filter(section => {
-      // Search in section content only (ContentSection doesn't have title)
-      return section.content.toLowerCase().includes(query);
+    const sorted = [...filtered];
+    sorted.sort((a, b) => {
+      switch (sortOrder) {
+        case 'length-asc':
+          return a.content.length - b.content.length;
+        case 'length-desc':
+          return b.content.length - a.content.length;
+        case 'relevance':
+        default:
+          if (query) {
+            const aMatches = countMatches(a.content.toLowerCase(), query);
+            const bMatches = countMatches(b.content.toLowerCase(), query);
+            if (aMatches !== bMatches) {
+              return bMatches - aMatches;
+            }
+          }
+          return a.index - b.index;
+      }
     });
-  }, [sections, searchQuery]);
+
+    return sorted;
+  }, [sections, searchQuery, sortOrder]);
 
   return (
     <div className={`space-y-8 ${className || ''}`}>
@@ -42,7 +78,10 @@ export default function SectionGrid({ content, frontmatter, className }: Section
       <SectionSearchInterface
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
-        sections={sections}
+        sortOrder={sortOrder}
+        onSortOrderChange={setSortOrder}
+        matchCount={filteredSections.length}
+        totalCount={sections.length}
       />
 
       {/* No Results Message */}

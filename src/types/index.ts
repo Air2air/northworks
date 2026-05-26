@@ -223,12 +223,11 @@ export interface SectionGridProps {
 
 export interface SectionSearchInterfaceProps {
   onSearchChange: (query: string) => void;
-  sections: Array<{
-    content: string;
-    index: number;
-    isEmpty: boolean;
-  }>;
+  onSortOrderChange: (sortOrder: 'relevance' | 'length-asc' | 'length-desc') => void;
   searchQuery: string;
+  sortOrder: 'relevance' | 'length-asc' | 'length-desc';
+  matchCount: number;
+  totalCount: number;
 }
 
 // Search Components  

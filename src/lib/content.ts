@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import { ContentData, ContentFrontmatter, ContentType } from '@/types';
+const yaml = require('js-yaml');
 
 // Configure marked renderer to make hr tags self-closing for MDX compatibility
 const renderer = new marked.Renderer();
@@ -17,36 +18,64 @@ marked.setOptions({
 
 const publicContentDirectory = path.join(process.cwd(), 'public', 'content');
 
+const contentCache = new Map<string, ContentData>();
+const useContentCache = process.env.NODE_ENV !== 'test';
+
+function getCacheKey(slug: string, processHtml: boolean): string {
+  return `${slug}:${processHtml ? 'html' : 'raw'}`;
+}
+
+function parseContentFile(slug: string, processHtml: boolean): ContentData | null {
+  const filePath = path.join(publicContentDirectory, `${slug}.md`);
+
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+
+  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const { data: frontmatter, content } = matter(fileContent, {
+    engines: {
+      yaml: {
+        parse: (str: string) => yaml.load(str, {
+          schema: yaml.JSON_SCHEMA, // Use JSON schema which doesn't auto-parse dates
+        })
+      }
+    }
+  });
+
+  const finalContent = processHtml ? (marked.parse(content) as string) : content;
+
+  return {
+    frontmatter: frontmatter as ContentFrontmatter,
+    content: finalContent,
+    slug
+  };
+}
+
 export function getContentBySlug(slug: string, processHtml: boolean = true): ContentData | null {
   try {
-    const filePath = path.join(publicContentDirectory, `${slug}.md`);
-    
-    if (!fs.existsSync(filePath)) {
+    if (useContentCache) {
+      const cacheKey = getCacheKey(slug, processHtml);
+      const cached = contentCache.get(cacheKey);
+      if (cached) {
+        return cached;
+      }
+
+      const parsed = parseContentFile(slug, processHtml);
+      if (!parsed) {
+        return null;
+      }
+
+      contentCache.set(cacheKey, parsed);
+      return parsed;
+    }
+
+    const parsed = parseContentFile(slug, processHtml);
+    if (!parsed) {
       return null;
     }
 
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    const { data: frontmatter, content } = matter(fileContent, {
-      engines: {
-        yaml: {
-          parse: (str: string) => {
-            const yaml = require('js-yaml');
-            return yaml.load(str, { 
-              schema: yaml.JSON_SCHEMA,  // Use JSON schema which doesn't auto-parse dates
-            });
-          }
-        }
-      }
-    });
-
-    // Either return raw markdown for MDX or processed HTML
-    const finalContent = processHtml ? marked.parse(content) as string : content;
-
-    return {
-      frontmatter: frontmatter as ContentFrontmatter,
-      content: finalContent,
-      slug
-    };
+    return parsed;
   } catch (error) {
     console.error(`Error reading content for slug ${slug}:`, error);
     return null;
@@ -98,24 +127,16 @@ export function getAllContent(contentType?: ContentType): ContentData[] {
 
 export function getAllContentSlugs(): string[] {
   try {
-    const slugs: string[] = [];
-
     if (!fs.existsSync(publicContentDirectory)) {
-      return slugs;
+      return [];
     }
 
     const filenames = fs.readdirSync(publicContentDirectory);
-    
-    for (const filename of filenames) {
-      if (filename.endsWith('.md')) {
-        const slug = filename.replace('.md', '');
-        if (!slugs.includes(slug)) {
-          slugs.push(slug);
-        }
-      }
-    }
-
-    return slugs;
+    return [...new Set(
+      filenames
+        .filter((filename) => filename.endsWith('.md'))
+        .map((filename) => filename.replace('.md', ''))
+    )];
   } catch (error) {
     console.error('Error getting all content slugs:', error);
     return [];

@@ -40,10 +40,12 @@ describe('Existing Components with Centralized Props', () => {
     it('should still work with existing test patterns', () => {
       const mockItems = [
         createMockContentItem({
+          id: 'test-item-1',
           title: 'List Item 1',
           type: 'article'
         }),
         createMockContentItem({
+          id: 'test-item-2',
           title: 'List Item 2', 
           type: 'interview'
         })

@@ -122,19 +122,24 @@ describe('Tags', () => {
 
   it('handles click events with stopPropagation', () => {
     const mockStopPropagation = vi.fn()
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
     
     render(<Tags tags={['test']} />)
     
     const link = screen.getByRole('link', { name: 'test' })
+
+    // Prevent jsdom from attempting real navigation during this unit test.
+    link.addEventListener('click', (event) => event.preventDefault())
     
     // Create a mock event and simulate click
-    const mockEvent = new MouseEvent('click', { bubbles: true })
+    const mockEvent = new MouseEvent('click', { bubbles: true, cancelable: true })
     mockEvent.stopPropagation = mockStopPropagation
     
     // Fire the click event
     link.dispatchEvent(mockEvent)
     
     expect(mockStopPropagation).toHaveBeenCalled()
+    errorSpy.mockRestore()
   })
 
   it('renders multiple tags with proper spacing', () => {

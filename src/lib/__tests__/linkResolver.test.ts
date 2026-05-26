@@ -7,8 +7,8 @@ import {
 
 describe('linkResolver', () => {
   beforeEach(() => {
-    // Reset console.warn spy
     vi.clearAllMocks();
+    vi.spyOn(console, 'warn').mockImplementation(() => {});
   });
 
   describe('resolveContentLink', () => {
@@ -20,6 +20,16 @@ describe('linkResolver', () => {
     test('handles external HTTPS URLs', () => {
       const httpsUrl = 'https://example.com/test';
       expect(resolveContentLink(httpsUrl)).toBe(httpsUrl);
+    });
+
+    test('handles mailto links', () => {
+      const mailtoUrl = 'mailto:northworks@mindspring.com';
+      expect(resolveContentLink(mailtoUrl)).toBe(mailtoUrl);
+    });
+
+    test('handles tel links', () => {
+      const telUrl = 'tel:+15551234567';
+      expect(resolveContentLink(telUrl)).toBe(telUrl);
     });
 
     test('handles absolute paths', () => {
@@ -138,11 +148,13 @@ describe('linkResolver', () => {
       const content = `
         Visit [home](/) or read [interview](c-person) or 
         check [external site](https://example.com) or 
+        email [NorthWorks](mailto:northworks@mindspring.com) or
         go to [section](#header).
       `;
       const expected = `
         Visit [home](/) or read [interview](/interviews/c-person) or 
         check [external site](https://example.com) or 
+        email [NorthWorks](mailto:northworks@mindspring.com) or
         go to [section](#header).
       `;
       
@@ -187,12 +199,13 @@ describe('linkResolver', () => {
       const content = `
         Check [external site](https://example.com), 
         read [interview](c-person), 
+        email [author](mailto:northworks@mindspring.com),
         see [PDF document](document.pdf), 
         and go [home](/).
       `;
       const links = extractAndResolveLinks(content);
       
-      expect(links).toHaveLength(4);
+      expect(links).toHaveLength(5);
       
       // External link
       expect(links[0]).toEqual({
@@ -213,9 +226,19 @@ describe('linkResolver', () => {
         isExternal: false,
         isBroken: false
       });
+
+      // Mailto link
+      expect(links[2]).toEqual({
+        title: 'author',
+        originalUrl: 'mailto:northworks@mindspring.com',
+        resolvedUrl: 'mailto:northworks@mindspring.com',
+        isPdf: false,
+        isExternal: true,
+        isBroken: false
+      });
       
       // PDF link
-      expect(links[2]).toEqual({
+      expect(links[3]).toEqual({
         title: 'PDF document',
         originalUrl: 'document.pdf',
         resolvedUrl: 'document.pdf',
@@ -225,7 +248,7 @@ describe('linkResolver', () => {
       });
       
       // Absolute path
-      expect(links[3]).toEqual({
+      expect(links[4]).toEqual({
         title: 'home',
         originalUrl: '/',
         resolvedUrl: '/',

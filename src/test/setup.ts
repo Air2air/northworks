@@ -34,8 +34,21 @@ vi.mock('next/image', () => ({
 
 // Mock Next.js Link component
 vi.mock('next/link', () => ({
-  default: ({ children, href, ...props }: any) => {
-    return React.createElement('a', { href, ...props }, children)
+  default: ({ children, href, onClick, ...props }: any) => {
+    return React.createElement(
+      'a',
+      {
+        href,
+        ...props,
+        onClick: (event: any) => {
+          event.preventDefault()
+          if (onClick) {
+            onClick(event)
+          }
+        },
+      },
+      children
+    )
   },
 }))
 

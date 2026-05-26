@@ -35,14 +35,6 @@ export default function CardImage({
 }: CardImageProps) {
   if (!showImage) return null;
 
-  console.log('CardImage: checking item for images:', {
-    title: item.title,
-    type: item.type,
-    hasMedia: !!item.media,
-    mediaLength: item.media?.length,
-    itemKeys: Object.keys(item)
-  });
-
   const TypeIcon = getTypeIcon(item.type);
   
   // Check for images in frontmatter first, then media
@@ -79,18 +71,9 @@ export default function CardImage({
 }
 
 function getImageSource(item: UnifiedContentItem) {
-  console.log('getImageSource: analyzing item structure:', {
-    title: item.title,
-    hasMedia: !!item.media,
-    mediaCount: item.media?.length || 0,
-    hasLegacy: !!item.legacy?.originalData,
-    itemKeys: Object.keys(item)
-  });
-
   // First check for media array (new unified schema)
   if (item.media && item.media.length > 0) {
     const image = item.media.find(m => m.type === 'image') || item.media[0];
-    console.log('getImageSource: using media array image:', image);
     return {
       src: image.url,
       alt: image.alt || item.title,
@@ -103,7 +86,6 @@ function getImageSource(item: UnifiedContentItem) {
   const legacyImages = item.legacy?.originalData?.images;
   if (legacyImages && Array.isArray(legacyImages) && legacyImages.length > 0) {
     const image = legacyImages[0];
-    console.log('getImageSource: using legacy images:', image);
     return {
       src: image.src,
       alt: image.alt || item.title,
@@ -120,7 +102,6 @@ function getImageSource(item: UnifiedContentItem) {
   
   if (images && Array.isArray(images) && images.length > 0) {
     const image = images[0];
-    console.log('getImageSource: using fallback images:', image);
     return {
       src: image.src,
       alt: image.alt || item.title,
@@ -128,8 +109,7 @@ function getImageSource(item: UnifiedContentItem) {
       height: image.height || 200
     };
   }
-  
-  console.log('getImageSource: no images found');
+
   return null;
 }
 

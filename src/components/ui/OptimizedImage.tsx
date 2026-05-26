@@ -1,9 +1,5 @@
 "use client";
 
-import React from 'react';
-import Image from 'next/image';
-import { FaCompass } from 'react-icons/fa';
-
 interface OptimizedImageProps {
   src: string;
   alt: string;
@@ -21,9 +17,6 @@ export default function OptimizedImage({
   className = '',
   priority = false
 }: OptimizedImageProps) {
-  console.log('OptimizedImage: rendering', { src, alt, width, height });
-
-  // Try regular img tag first to test if it's a Next.js Image issue
   return (
     <img
       src={src}
@@ -36,12 +29,6 @@ export default function OptimizedImage({
         objectPosition: 'center top',
         width: '100%',
         height: '100%'
-      }}
-      onError={(e) => {
-        console.error('Image failed to load:', src);
-      }}
-      onLoad={() => {
-        console.log('Image loaded successfully:', src);
       }}
     />
   );

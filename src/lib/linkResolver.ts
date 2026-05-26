@@ -27,6 +27,11 @@ const contentTypePatterns: Record<string, string> = {
   "w-": "professional", // Most w- files are professional
 };
 
+function isProtocolUrl(value: string): boolean {
+  // Matches scheme URLs like mailto:, tel:, ftp:, etc.
+  return /^[a-z][a-z0-9+.-]*:/i.test(value);
+}
+
 /**
  * Determine content type from slug patterns (client-safe)
  * @param slug - The content slug
@@ -53,8 +58,8 @@ function guessContentTypeFromSlug(slug: string): string | null {
  * @returns The absolute URL path (e.g., "/reviews/c-reviews-conte-america-tropical") or original slug if can't resolve
  */
 export function resolveContentLink(slug: string): string {
-  // Handle external URLs (http/https)
-  if (slug.startsWith('http://') || slug.startsWith('https://')) {
+  // Handle external/protocol URLs (http/https/mailto/tel/etc)
+  if (isProtocolUrl(slug)) {
     return slug;
   }
 
@@ -135,7 +140,7 @@ export function extractAndResolveLinks(content: string): Array<{
     const originalUrl = match[2];
     const resolvedUrl = resolveContentLink(originalUrl);
     const isPdf = originalUrl.includes('.pdf');
-    const isExternal = originalUrl.startsWith('http://') || originalUrl.startsWith('https://');
+    const isExternal = isProtocolUrl(originalUrl);
     
     // Consider a link "broken" if it couldn't be resolved and isn't external
     const isBroken = !isExternal && resolvedUrl === originalUrl && !originalUrl.startsWith('/') && !originalUrl.startsWith('#');

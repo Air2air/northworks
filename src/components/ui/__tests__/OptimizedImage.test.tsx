@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import OptimizedImage from '../OptimizedImage'
 
 describe('OptimizedImage', () => {
@@ -39,43 +39,12 @@ describe('OptimizedImage', () => {
     })
   })
 
-  it('handles image load event', () => {
+  it('does not emit debug logs on render', () => {
     const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {})
     
     render(<OptimizedImage {...defaultProps} />)
     
-    const image = screen.getByRole('img')
-    fireEvent.load(image)
-    
-    expect(consoleSpy).toHaveBeenCalledWith('Image loaded successfully:', '/test-image.jpg')
-    
-    consoleSpy.mockRestore()
-  })
-
-  it('handles image error event', () => {
-    const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
-    
-    render(<OptimizedImage {...defaultProps} />)
-    
-    const image = screen.getByRole('img')
-    fireEvent.error(image)
-    
-    expect(consoleSpy).toHaveBeenCalledWith('Image failed to load:', '/test-image.jpg')
-    
-    consoleSpy.mockRestore()
-  })
-
-  it('logs rendering information', () => {
-    const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {})
-    
-    render(<OptimizedImage {...defaultProps} />)
-    
-    expect(consoleSpy).toHaveBeenCalledWith('OptimizedImage: rendering', {
-      src: '/test-image.jpg',
-      alt: 'Test image',
-      width: 300,
-      height: 200
-    })
+    expect(consoleSpy).not.toHaveBeenCalled()
     
     consoleSpy.mockRestore()
   })

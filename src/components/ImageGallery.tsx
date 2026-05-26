@@ -21,10 +21,7 @@ export default function ImageGallery({
   showCaptions = true,
   inline = true
 }: ImageGalleryProps) {
-  console.log('ImageGallery: received images:', images);
-  
   if (!images?.length) {
-    console.log('ImageGallery: no images found');
     return null;
   }
 

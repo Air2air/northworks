@@ -76,6 +76,21 @@ describe('Section Components with Centralized Props', () => {
 
       expect(() => render(<SectionCard {...validProps} />)).not.toThrow()
     })
+
+    it('treats protocol links as external and not broken', () => {
+      const protocolLinkProps: SectionCardProps = {
+        content: 'Contact [NorthWorks](mailto:northworks@mindspring.com) for details.',
+        index: 4
+      }
+
+      render(<SectionCard {...protocolLinkProps} />)
+
+      const mailtoLink = screen.getByRole('link', { name: 'NorthWorks' })
+      expect(mailtoLink).toHaveAttribute('href', 'mailto:northworks@mindspring.com')
+      expect(mailtoLink).toHaveAttribute('target', '_blank')
+      expect(mailtoLink).not.toHaveClass('bg-red-50')
+      expect(mailtoLink).toHaveClass('bg-sky-50')
+    })
   })
 
   describe('SectionGrid', () => {

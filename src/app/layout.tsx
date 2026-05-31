@@ -41,9 +41,9 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <footer className="bg-white border-t border-gray-200 mt-12">
           <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-            <div className="text-center text-gray-500 text-sm">
+            {/* <div className="text-center text-gray-500 text-sm">
               <p>&copy; 2025 NorthWorks. All rights reserved.</p>
-            </div>
+            </div> */}
           </div>
         </footer>
       </body>
